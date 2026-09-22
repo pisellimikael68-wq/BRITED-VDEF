@@ -1,0 +1,168 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement fidèle aux faits et chiffres de la fiche BRITED, mais la narration principale n'inclut pas explicitement la précision que la fiscalité dépend de la forme juridique (SPPICAV vs FPI). Cette précision figure dans la légende mais devrait apparaître dans la narration pour respecter la recommandation de fidélité mot à mot à la 'SOURCE DE VÉRITÉ'."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention de la fiscalité SPPICAV et du PFU apparaît dans la légende, mais la vidéo (narration) ne mentionne pas la conséquence fiscale ni le taux indicatif (30 %) repris dans la fiche. Pour l'exactitude fiscale et la limitation des généralisations, il faut ajouter une phrase brève dans la narration indiquant que, sous la forme SPPICAV, les revenus sont des revenus mobiliers soumis au PFU (≈30 %) et que la fiscalité peut différer si l'OPCI est structuré en FPI."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'essentiel est couvert (règle 60 %, liquidités ≈5 %, poche de trésorerie, suspension possible). En revanche l'exemple utile est succinct ; il serait utile d'ajouter en narration une phrase très courte précisant que la poche de liquidités est typiquement faible (≈5 %) et peut donc ne pas suffire en cas de sorties très massives — pour éviter toute omission dangereuse."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reels est respecté et le script est structuré en beats, mais l'estimation de durée (38 secondes) n'est pas soutenue par un minutage précis par séquence. Il faut vérifier que la narration et les pauses tiennent bien dans 38 s (en particulier si l'on ajoute la mention fiscale demandée ci-dessus)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace et progression claire. À améliorer : la question 'OUI / NON' visuelle pourrait être perçue comme superflue si l'écran répond immédiatement; recommander de cocher 'OUI' visuellement au moment de la réponse pour renforcer la rétention. Cette précision visuelle manque dans la description actuelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et clair. Toutefois, une phrase de la narration ('Condition : il doit détenir au moins 60 % d'actifs immobiliers') pourrait être reformulée en 'Règle : l'OPCI doit détenir au moins 60 % d'actifs immobiliers' pour une lecture plus fluide à l'oral. De plus, ajouter brièvement la précision fiscale dans la narration améliorerait la complétude professionnelle."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent. Remarque : la cohérence question-réponse est bonne mais la mention fiscale reste uniquement dans la légende; cela crée une légère incohérence entre la promesse d'information dans la vidéo et l'absence de la donnée fiscale clé dans la narration. Recommande d'ajouter une ligne vocale très brève sur la fiscalité (SPPICAV → revenus mobiliers soumis au PFU)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes décrits correspondent généralement aux notions prononcées. Observation : pour le beat 2 (carton OUI / NON), il faut préciser de cocher visuellement 'OUI' lors de la réponse (sinon le visuel ne illustre pas la réponse). Pour le pictogramme 'balance + suspension' au beat 6, la balance pourrait prêter à confusion ; recommander d'utiliser un pictogramme d'alerte + icône 'pause' ou 'suspension' plutôt que 'balance' pour illustrer le risque de suspension."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise. Toutefois, pour une densité optimale, il faut intégrer la précision fiscale (forme SPPICAV / PFU) dans la narration sans alourdir la vidéo ; actuellement cette information est reléguée à la légende seule."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est accessible mais l'acronyme 'SPPICAV' n'est pas expliqué dans la narration. Même si la légende le cite, pour un non-spécialiste il vaut mieux éviter l'acronyme ou expliciter brièvement (par ex. 'sous forme SPPICAV, c'est traité comme des revenus de capitaux mobiliers')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont accrocheuses. Pour maximiser la rétention, il est recommandé d'augmenter légèrement le contraste visuel au moment de la réponse (cocher 'OUI' avec effet rapide) et d'assurer que la narration reste dans le timing annoncé ; l'ajout recommandé sur la fiscalité nécessite une vérification du timing."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et pédagogique. Toutefois, pour renforcer la confiance professionnelle, il est préférable d'ajouter une phrase très brève (dans la légende ou narration) rappelant l'absence de conseil personnalisé (la légende le fait, mais le rappel vocal peut augmenter la transparence en conversion)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script est globalement fidèle aux faits et chiffres de la fiche BRITED, mais la narration principale n'inclut pas explicitement la précision que la fiscalité dépend de la forme juridique (SPPICAV vs FPI). Cette précision figure dans la légende mais devrait apparaître dans la narration pour respecter la recommandation de fidélité mot à mot à la 'SOURCE DE VÉRITÉ'.",
+    "juridique_fiscal : La mention de la fiscalité SPPICAV et du PFU apparaît dans la légende, mais la vidéo (narration) ne mentionne pas la conséquence fiscale ni le taux indicatif (30 %) repris dans la fiche. Pour l'exactitude fiscale et la limitation des généralisations, il faut ajouter une phrase brève dans la narration indiquant que, sous la forme SPPICAV, les revenus sont des revenus mobiliers soumis au PFU (≈30 %) et que la fiscalité peut différer si l'OPCI est structuré en FPI.",
+    "completude : L'essentiel est couvert (règle 60 %, liquidités ≈5 %, poche de trésorerie, suspension possible). En revanche l'exemple utile est succinct ; il serait utile d'ajouter en narration une phrase très courte précisant que la poche de liquidités est typiquement faible (≈5 %) et peut donc ne pas suffire en cas de sorties très massives — pour éviter toute omission dangereuse.",
+    "plateforme : Le format Reels est respecté et le script est structuré en beats, mais l'estimation de durée (38 secondes) n'est pas soutenue par un minutage précis par séquence. Il faut vérifier que la narration et les pauses tiennent bien dans 38 s (en particulier si l'on ajoute la mention fiscale demandée ci-dessus).",
+    "editorial : Accroche efficace et progression claire. À améliorer : la question 'OUI / NON' visuelle pourrait être perçue comme superflue si l'écran répond immédiatement; recommander de cocher 'OUI' visuellement au moment de la réponse pour renforcer la rétention. Cette précision visuelle manque dans la description actuelle.",
+    "formulation_professionnelle : Le français est naturel et clair. Toutefois, une phrase de la narration ('Condition : il doit détenir au moins 60 % d'actifs immobiliers') pourrait être reformulée en 'Règle : l'OPCI doit détenir au moins 60 % d'actifs immobiliers' pour une lecture plus fluide à l'oral. De plus, ajouter brièvement la précision fiscale dans la narration améliorerait la complétude professionnelle.",
+    "contre_verification_finale : Globalement cohérent. Remarque : la cohérence question-réponse est bonne mais la mention fiscale reste uniquement dans la légende; cela crée une légère incohérence entre la promesse d'information dans la vidéo et l'absence de la donnée fiscale clé dans la narration. Recommande d'ajouter une ligne vocale très brève sur la fiscalité (SPPICAV → revenus mobiliers soumis au PFU).",
+    "coherence_pictogrammes : Les pictogrammes décrits correspondent généralement aux notions prononcées. Observation : pour le beat 2 (carton OUI / NON), il faut préciser de cocher visuellement 'OUI' lors de la réponse (sinon le visuel ne illustre pas la réponse). Pour le pictogramme 'balance + suspension' au beat 6, la balance pourrait prêter à confusion ; recommander d'utiliser un pictogramme d'alerte + icône 'pause' ou 'suspension' plutôt que 'balance' pour illustrer le risque de suspension.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise. Toutefois, pour une densité optimale, il faut intégrer la précision fiscale (forme SPPICAV / PFU) dans la narration sans alourdir la vidéo ; actuellement cette information est reléguée à la légende seule.",
+    "pedagogie_client : Le vocabulaire est accessible mais l'acronyme 'SPPICAV' n'est pas expliqué dans la narration. Même si la légende le cite, pour un non-spécialiste il vaut mieux éviter l'acronyme ou expliciter brièvement (par ex. 'sous forme SPPICAV, c'est traité comme des revenus de capitaux mobiliers').",
+    "retention_attention : Les deux premières secondes sont accrocheuses. Pour maximiser la rétention, il est recommandé d'augmenter légèrement le contraste visuel au moment de la réponse (cocher 'OUI' avec effet rapide) et d'assurer que la narration reste dans le timing annoncé ; l'ajout recommandé sur la fiscalité nécessite une vérification du timing.",
+    "conversion_confiance : Le ton est sérieux et pédagogique. Toutefois, pour renforcer la confiance professionnelle, il est préférable d'ajouter une phrase très brève (dans la légende ou narration) rappelant l'absence de conseil personnalisé (la légende le fait, mais le rappel vocal peut augmenter la transparence en conversion)."
+  ],
+  "recommendations": [
+    "Ajouter en narration une phrase très courte mentionnant la fiscalité : par exemple 'Sous la forme courante SPPICAV, les revenus sont des revenus mobiliers soumis au PFU (≈30 %) ; la fiscalité peut être différente si l'OPCI adopte une autre forme.'",
+    "Dans le visuel du beat 2, prévoir que la case 'OUI' soit cochée au moment de la réponse pour aligner visuel et narration.",
+    "Remplacer le pictogramme 'balance' du beat 6 par un pictogramme d'alerte + icône 'suspension/pause' pour éviter l'ambiguïté visuelle.",
+    "Vérifier le minutage total (38 s) après insertion de la mention fiscale et ajuster la vitesse de lecture ou la durée des plans si nécessaire.",
+    "Simplifier ou expliciter l'acronyme SPPICAV dans la narration (ou éviter l'acronyme) pour garantir compréhension immédiate par un public non spécialiste.",
+    "Ajouter un rappel vocal bref de la non-conseil (ex. une phrase finale très courte) pour renforcer la transparence et la confiance lors de la prise de rendez-vous."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-10:reels:opci_liquidite_et_fiscalite:0",
+  "script_path": "scripts/opci/opci_liquidite_et_fiscalite__reels__a4__v7.md"
+}

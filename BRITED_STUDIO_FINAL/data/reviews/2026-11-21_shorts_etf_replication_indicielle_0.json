@@ -1,0 +1,167 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique des \"Frais typiques : 0,05–0,40% vs 1,5–2,5%\". La fiche source marque ces chiffres comme « a_verifier: true » et indique que ce sont des ordres de grandeur à vérifier dans le DIC. Le script présente ces chiffres sans rappel explicite de la nécessité de vérification produit-par-produit (emplacement : séquence 3 et narration). Recommandation : ajouter la mention \"vérifiez le DIC du produit\" immédiatement à côté du chiffre à l'écran ou dans la narration (la narration la contient, mais le texte écran ne le rappelle pas)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « L'éligibilité au PEA dépend des règles UCITS et des quotas européens » est correcte mais incomplète : pour être éligible au PEA, un ETF doit être domicilié dans l'UE et respecter les quotas d'actions/entreprises européennes prévus par la réglementation (la fiche signale « possible si le fonds est UCITS et respecte les quotas européens »). Le script pourrait prêter à confusion en laissant entendre que UCITS seul suffit. Localisation : séquence 5 et narration. Recommandation : préciser brièvement « domicilié en UE et respect des quotas actions européennes »."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré mentionne « 0,2 % au lieu de 1,7 % augmente nettement le capital sur vingt ans » mais n'indique pas une illustration numérique rapide (ordre de grandeur) ni la méthode (impact des frais composés). Localisation : séquence 4 et narration. Recommandation : ajouter une phrase courte chiffrant l'exemple (p.ex. % de différence sur capital final) ou préciser « effet cumulatif » déjà présent mais sans valeur chiffrée."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 42 s : la narration textuelle semble tenir dans ~42s, mais les éléments visuels (pictogrammes, barres, horloge + graphique) peuvent exiger des coupes rapides. Localisation : information en-tête et plan visuel. Recommandation : s'assurer que chaque plan n'excède pas ~6–8 s (surtout plans 3 et 4 qui contiennent chiffres) et prévoir sous-titres lisibles en format shorts."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais l'accroche écrite sur l'écran (séquence 1) pourrait être plus percutante en 1–2 mots (par ex. « Contenant ou placement ? »). Localisation : séquence 1 visuel/texte écran. Recommandation : raccourcir texte écran pour maximiser impact dans les 2 premières secondes."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase « C'est un fonds coté qui copie un indice ; frais typiques 0,05 à 0,40 % contre 1,5 à 2,5 % pour un fonds actif — vérifiez le DIC. » contient un point-virgule suivi d'une énumération longue ; pour la fluidité orale, scinder en deux phrases courtes améliorerait la prononciation naturelle. Localisation : narration première partie."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Coherence générale bonne, mais omission : le script ne rappelle pas explicitement l'avertissement présent dans la fiche « Ne pas présenter la diversification comme une absence de risque » sous forme de phrase d'écran courte (séquence 5 a la nuance mais pourrait être plus explicite). Localisation : séquence 5 texte écran actuel « Risque de marché intact — vérifiez PEA/UCITS ». Recommandation : remplacer ou compléter par « Diversifié ≠ sans risque » pour coller à la fiche."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines propositions de pictogrammes sont générales (p.ex. « pictogramme indice et loupe », « pictogramme horloge + graphique »). La consigne BRITED demande que le visuel illustre précisément la notion prononcée. Localisation : séquences 2 et 4. Recommandation : préciser visuel exact (par ex. graphe d'un indice simplifié pour la loupe; graphique comparatif avec deux courbes pour l'exemple 20 ans) pour éviter symboles génériques."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste mais emploie « DIC » sans l'expliciter (Document d'Informations Clés). Localisation : séquence 3 et narration. Recommandation : écrire/sinon prononcer « DIC (document d'informations clés) » ou remplacer par « fiche produit (DIC) » pour garantir compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook correct, mais le texte écran « Un ETF : contenant ou placement ? » pourrait être rendu plus percutant visuellement (contraste/typographie) ; le script ne précise pas variation vocale/tempo pour renforcer la progression. Localisation : séquence 1. Recommandation : indiquer brièvement la modulation de voix (ex. pause après la question) pour le créateur."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "CTA « Prenez rendez-vous via le lien dans ma bio. » est acceptable mais la fiche BRITED exige neutralité et absence de pression commerciale. Le libellé est direct ; considérer adoucir (p.ex. « Pour un bilan, prenez rendez‑vous via le lien en bio »). Localisation : séquence 6. Recommandation : formulation légèrement moins directive pour préserver ton pédagogique tout en invitant à l'action."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 120,
+      "seconds": 44.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script indique des \"Frais typiques : 0,05–0,40% vs 1,5–2,5%\". La fiche source marque ces chiffres comme « a_verifier: true » et indique que ce sont des ordres de grandeur à vérifier dans le DIC. Le script présente ces chiffres sans rappel explicite de la nécessité de vérification produit-par-produit (emplacement : séquence 3 et narration). Recommandation : ajouter la mention \"vérifiez le DIC du produit\" immédiatement à côté du chiffre à l'écran ou dans la narration (la narration la contient, mais le texte écran ne le rappelle pas).",
+    "juridique_fiscal : La phrase « L'éligibilité au PEA dépend des règles UCITS et des quotas européens » est correcte mais incomplète : pour être éligible au PEA, un ETF doit être domicilié dans l'UE et respecter les quotas d'actions/entreprises européennes prévus par la réglementation (la fiche signale « possible si le fonds est UCITS et respecte les quotas européens »). Le script pourrait prêter à confusion en laissant entendre que UCITS seul suffit. Localisation : séquence 5 et narration. Recommandation : préciser brièvement « domicilié en UE et respect des quotas actions européennes ».",
+    "completude : L'exemple chiffré mentionne « 0,2 % au lieu de 1,7 % augmente nettement le capital sur vingt ans » mais n'indique pas une illustration numérique rapide (ordre de grandeur) ni la méthode (impact des frais composés). Localisation : séquence 4 et narration. Recommandation : ajouter une phrase courte chiffrant l'exemple (p.ex. % de différence sur capital final) ou préciser « effet cumulatif » déjà présent mais sans valeur chiffrée.",
+    "plateforme : Durée estimée 42 s : la narration textuelle semble tenir dans ~42s, mais les éléments visuels (pictogrammes, barres, horloge + graphique) peuvent exiger des coupes rapides. Localisation : information en-tête et plan visuel. Recommandation : s'assurer que chaque plan n'excède pas ~6–8 s (surtout plans 3 et 4 qui contiennent chiffres) et prévoir sous-titres lisibles en format shorts.",
+    "editorial : Accroche forte mais l'accroche écrite sur l'écran (séquence 1) pourrait être plus percutante en 1–2 mots (par ex. « Contenant ou placement ? »). Localisation : séquence 1 visuel/texte écran. Recommandation : raccourcir texte écran pour maximiser impact dans les 2 premières secondes.",
+    "formulation_professionnelle : Phrase « C'est un fonds coté qui copie un indice ; frais typiques 0,05 à 0,40 % contre 1,5 à 2,5 % pour un fonds actif — vérifiez le DIC. » contient un point-virgule suivi d'une énumération longue ; pour la fluidité orale, scinder en deux phrases courtes améliorerait la prononciation naturelle. Localisation : narration première partie.",
+    "contre_verification_finale : Coherence générale bonne, mais omission : le script ne rappelle pas explicitement l'avertissement présent dans la fiche « Ne pas présenter la diversification comme une absence de risque » sous forme de phrase d'écran courte (séquence 5 a la nuance mais pourrait être plus explicite). Localisation : séquence 5 texte écran actuel « Risque de marché intact — vérifiez PEA/UCITS ». Recommandation : remplacer ou compléter par « Diversifié ≠ sans risque » pour coller à la fiche.",
+    "coherence_pictogrammes : Certaines propositions de pictogrammes sont générales (p.ex. « pictogramme indice et loupe », « pictogramme horloge + graphique »). La consigne BRITED demande que le visuel illustre précisément la notion prononcée. Localisation : séquences 2 et 4. Recommandation : préciser visuel exact (par ex. graphe d'un indice simplifié pour la loupe; graphique comparatif avec deux courbes pour l'exemple 20 ans) pour éviter symboles génériques.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste mais emploie « DIC » sans l'expliciter (Document d'Informations Clés). Localisation : séquence 3 et narration. Recommandation : écrire/sinon prononcer « DIC (document d'informations clés) » ou remplacer par « fiche produit (DIC) » pour garantir compréhension immédiate.",
+    "retention_attention : Hook correct, mais le texte écran « Un ETF : contenant ou placement ? » pourrait être rendu plus percutant visuellement (contraste/typographie) ; le script ne précise pas variation vocale/tempo pour renforcer la progression. Localisation : séquence 1. Recommandation : indiquer brièvement la modulation de voix (ex. pause après la question) pour le créateur.",
+    "conversion_confiance : CTA « Prenez rendez-vous via le lien dans ma bio. » est acceptable mais la fiche BRITED exige neutralité et absence de pression commerciale. Le libellé est direct ; considérer adoucir (p.ex. « Pour un bilan, prenez rendez‑vous via le lien en bio »). Localisation : séquence 6. Recommandation : formulation légèrement moins directive pour préserver ton pédagogique tout en invitant à l'action."
+  ],
+  "recommendations": [
+    "Ajouter sur l'écran de la séquence 3 une mention courte « vérifier le DIC du produit » immédiatement à côté des chiffres de frais, car la fiche source indique ces valeurs comme à vérifier.",
+    "Préciser l'exigence PEA en une courte formule : « éligible au PEA si domicilié en UE et respect des quotas actions européennes (UCITS) ». Remplacer la formulation actuelle dans la séquence 5 pour éviter l'ambiguïté.",
+    "Pour l'exemple 20 ans (séquence 4), ajouter une très courte précision chiffrée ou une annotation (p.ex. « différence significative sur capital final, effet composé ») pour donner un ordre de grandeur ou indiquer que c'est un exemple illustratif.",
+    "Éviter l'acronyme non expliqué « DIC » à l'oral ou l'accompagner de sa forme développée « document d'informations clés (DIC) ». Faire figurer la mention sur le texte écran éventuel.",
+    "Clarifier visuels/pictogrammes : remplacer termes génériques par descriptions précises (ex. séquence 2 : graphique stylisé d'un indice avec loupe pointant une ligne ; séquence 4 : graphique comparatif de deux courbes sur 20 ans).",
+    "Alléger le texte écran d'accroche (séquence 1) pour maximiser impact immédiat, et prévoir une consigne vocale courte (pause/modulation) dans le brief de réalisation.",
+    "Adoucir légèrement le CTA pour rester pédagogique et non pressant (ex. « Pour un bilan, prenez rendez‑vous via le lien en bio »).",
+    "Reformuler certaines phrases longues en narration en deux phrases plus courtes pour une prononciation naturelle et une bonne compréhension orale."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-21:shorts:etf_replication_indicielle:0",
+  "script_path": "scripts/etf/etf_replication_indicielle__shorts__a3__v3.md"
+}

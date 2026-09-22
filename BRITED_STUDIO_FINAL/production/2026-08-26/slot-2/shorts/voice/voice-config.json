@@ -1,0 +1,103 @@
+{
+  "voice": {
+    "version": 14,
+    "speed": 1.0,
+    "exaggeration": 0.28,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "min_p": 0.08,
+    "repetition_penalty": 1.45
+  },
+  "hook_voice": {
+    "version": 14,
+    "speed": 1.02,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "post_atempo": 1.0
+  },
+  "reference_sha256": "68c8fe4af7e0638f4ea139875af80f8ed7b3c6b6f99cf9ae93de1f537ae4f61a",
+  "voice_signature": "aa8be1d3c5cbf74e0682fbd5dce8cfa62589df1bf704f5129de26d3edbcf3579",
+  "audio_format_version": 15,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "cf9cc348ee742afac9a894586ad1ab40af9de5156bc5f6ac05822cde78800ce7",
+  "beat_hashes": {
+    "01_hook": "6548556543929bdf24589bc11f2400ee39339472b1b62b4c57ebffa223861036",
+    "02_reponse": "2e39f1f934578ca7d7b3cfff6ec04b01bc94642c84d378f2429fb32116fe2fee",
+    "03_regle": "5549687fa71c616fefc1fe35fedb03ab6ac8bded705e9f51ad5081cd789313e2",
+    "04_exemple": "0f70f3b5d1f48b1d7f8bfc12cea5d9c82a825fbe38e29f6715ea3ed1ee8c02f5",
+    "05_nuance": "975056662965a68a8d00dbbadd202d63e7c420e32d32f5b2e3680c1dd5fbcbc0",
+    "06_cta": "48d42cff06cce2c0411389319292283b70a9fcf08911573ea59d4c94315dc43d"
+  },
+  "spoken_texts": {
+    "01_hook": "Chaque bénéficiaire peut il bénéficier de cent cinquante-deux mille cinq cents euros sur une assurance vie ?",
+    "02_reponse": "Oui — pour les primes versées avant soixante dix ans, chaque bénéficiaire a un abattement de cent cinquante-deux mille cinq cents euros.",
+    "03_regle": "Fiscalement, c'est prévu par l'article neuf cent quatre-vingt-dix I : chaque bénéficiaire bénéficie de cent cinquante-deux mille cinq cents euros ; au delà la part taxable est taxée vingt pour cent jusqu'à sept cent mille euros, puis trente et un virgule vingt cinq pour cent.",
+    "04_exemple": "Exemple concret : si vous désignez trois bénéficiaires, chacun a cent cinquante-deux mille cinq cents euros d'abattement, soit quatre cent cinquante-sept mille cinq cents euros transmis sans taxation.",
+    "05_nuance": "Important : l'abattement est apprécié par bénéficiaire tous contrats confondus et dépend de l'âge du souscripteur au moment de chaque versement.",
+    "06_cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.0,
+  "target_wpm": {
+    "hook": 222.6,
+    "question": 178.2,
+    "reponse": 178.2,
+    "regle": 164.0,
+    "precision": 164.8,
+    "exemple": 173.8,
+    "nuance": 164.8,
+    "cta": 208.4,
+    "default": 173.8
+  },
+  "atempo_bounds": [
+    0.82,
+    1.22
+  ],
+  "prosody": {
+    "hook": {
+      "speed": 1.05,
+      "exaggeration": 0.36,
+      "cfg_weight": 0.52
+    },
+    "question": {
+      "speed": 1.02,
+      "exaggeration": 0.32,
+      "cfg_weight": 0.53
+    },
+    "reponse": {
+      "speed": 1.05,
+      "exaggeration": 0.34,
+      "cfg_weight": 0.52
+    },
+    "regle": {
+      "speed": 1.01,
+      "exaggeration": 0.26,
+      "cfg_weight": 0.54
+    },
+    "precision": {
+      "speed": 0.99,
+      "exaggeration": 0.24,
+      "cfg_weight": 0.55
+    },
+    "exemple": {
+      "speed": 1.01,
+      "exaggeration": 0.31,
+      "cfg_weight": 0.52
+    },
+    "nuance": {
+      "speed": 0.99,
+      "exaggeration": 0.23,
+      "cfg_weight": 0.55
+    },
+    "cta": {
+      "speed": 1.05,
+      "exaggeration": 0.34,
+      "cfg_weight": 0.52
+    }
+  },
+  "voice_seed": 20260822,
+  "segment_level_filter": "loudnorm=I=-18:TP=-2:LRA=5"
+}

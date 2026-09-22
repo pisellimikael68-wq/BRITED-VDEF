@@ -1,0 +1,107 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "L’assurance vie transmet cent cinquante deux mille cinq cents euros à chaque bénéficiaire.",
+      "transcript": "L'assurance-vie transmet 152 500 euros à chaque bénéficiaire.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9014,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "L’abattement dépend il de l’âge au décès ?",
+      "transcript": "L'abattement dépend il de l'âge au décès.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8824,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement.",
+      "transcript": "Non, c'est l'âge lors du versement qui compte chaque bénéficiaire à son abattement.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Pour les primes versées avant soixante-dix ans, l’article neuf cent quatre-vingt-dix I prévoit cent cinquante deux mille cinq cents euros d’abattement par bénéficiaire ; ensuite vingt pour cent jusqu'à sept cent mille euros, puis trente et un virgule vingt cinq pour cent.",
+      "transcript": "Pour les primes versées avant 70 ans, l'article 990 y prévoit 152 500 euros d'abattement par bénéficiaire, ensuite 20% jusqu'à 700 000 euros, puis 31,25%.",
+      "similarity": 0.9787,
+      "missing": [
+        "i"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "y"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1357,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Par exemple, avec trois bénéficiaires, trois × cent cinquante deux mille cinq cents euros représentent quatre cent cinquante sept mille cinq cents euros sans taxation.",
+      "transcript": "Par exemple, avec 3 bénéficiaires, 352 500 euros représentent 457 500 euros sans taxation.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0449,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Les primes versées après soixante-dix ans relèvent de l'article sept cent cinquante-sept B avec un abattement global de trente mille cinq cents euros partagé entre bénéficiaires.",
+      "transcript": "Les primes versées après 70 ans relèvent de l'article 757B avec un abattement global de 30 500 euros partagés entre bénéficiaires.",
+      "similarity": 0.9655,
+      "missing": [
+        "partage"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "partages"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1333,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

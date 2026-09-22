@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les sources légales pertinentes figurent dans la fiche BRITED (articles 815, 815-3, 815-5-1, 815-9) mais le bloc 'Sources' du script ne reprend que deux liens (815 et 815-5-1). Il faut lister explicitement toutes les références citées (au moins 815-3 et 815-9) afin de rester fidèle mot à mot aux sources indiquées dans la fiche."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La règle principale est correcte mais la formulation risque d'être interprétée comme « 2/3 des héritiers » plutôt que « 2/3 des droits indivis ». Le script doit préciser partout « deux tiers des droits indivis » (ou « deux tiers des parts ») pour éviter une lecture erronée.",
+        "Il manque la mention explicite que la vente autorisée par le juge aboutit généralement à une licitation (vente aux enchères), et que la procédure est formalisée et peut être longue et coûteuse : le script parle de délai mais minimise le caractère judiciaire."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, l'exception et un exemple, mais omet d'indiquer que la signification se fait par acte notarié (la fiche le dit, le script mentionne notaire mais pas explicitement 'acte notarié'), et il gagnerait à rappeler que la demande au juge est faite après constat d'opposition ou silence pendant 3 mois.",
+        "L'information sur l'indemnité d'occupation est correcte mais pourrait préciser qu'elle est réclamable lors du partage et peut couvrir plusieurs années."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40s : le script est dense pour 40s (règle, procédure, délai, réserve, CTA). Risque de phrases parlées trop rapides. Recommander un léger raccourcissement ou rallonger la durée cible.",
+        "Le format OUI / NON interactif est adapté à Reels mais nécessite un micro-pause pour interaction; prévoir plan visuel et timing précis pour ces 2s initiales."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace; cependant la ligne 'Il retarde, il n'empêche pas.' est bonne comme punchline mais pourrait être suivie immédiatement d'une précision 'si 2/3 des droits sont réunis' pour ne pas laisser d'ambiguïté.",
+        "Le CTA 'lien dans ma bio' est correct mais devrait inclure la mention 'pour un diagnostic' pour renforcer la conversion ('Prenez rendez-vous pour un diagnostic gratuit via le lien dans ma bio' si applicable)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La légende contient la mention de non-conseil, mais dans une vidéo Reels il faut ajouter une courte phrase orale ou un bandeau visible rappelant que c'est du contenu pédagogique et non un conseil personnalisé.",
+        "Éviter toute tournure donnant l'impression d'une garantie (par ex. 'Il n'empêche pas' est factuel mais à l'oral il faut nuancer brièvement : 'en principe il ne bloque pas définitivement')."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines phrases sont légèrement longues pour un format 40s (par ex. la phrase expliquant la procédure notariée -> 3 mois -> juge). Recommander de scinder en deux phrases courtes pour faciliter la compréhension à l'oral.",
+        "Remplacer 'ils saisissent le notaire' par 'ils signifient leur intention par acte notarié' pour précision juridique et naturel professionnel."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La cohérence article/numéro est bonne mais il faut vérifier l'orthographe exacte 'article 815-5-1' (le script l'indique) et s'assurer que le visuel texte écran reproduit fidèlement la référence légale sans abréviation trompeuse.",
+        "Vérifier ponctuation et pauses pour l'enchaînement 'notaire → 3 mois → juge' afin d'éviter d'accélérer l'énoncé."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes conviennent mais le pictogramme 'porte ouverte' pour le partage peut prêter à ambiguïté pour certains spectateurs ; recommander un pictogramme 'documents de partage' ou 'plan découpé' plus explicite.",
+        "Le pictogramme '2/3' doit être accompagné d'une légende '2/3 des droits indivis' pour éviter l'interprétation '2/3 des héritiers'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais comporte plusieurs informations obligatoires; pour tenir 40s la densité est limite. Suggestion : réduire une phrase (par ex. raccourcir la nuance) ou prévoir 45-50s.",
+        "S'assurer que l'exemple chiffré précise 'deux tiers des droits' et non 'trois héritiers sur quatre' sans précision sur quotes-parts."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est adapté à un non-spécialiste mais le terme 'licitation' est employé dans la fiche ; dans le script il apparaît uniquement sous forme d'icone marteau+enchères — il faudrait prononcer ou écrire brièvement 'licitation (vente aux enchères)' pour pédagogie.",
+        "Expliquer brièvement ce que signifie 'indemnité d'occupation' (par ex. 'compensation financière aux autres indivisaires') améliorerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais les deux premières secondes doivent être visuellement très dynamiques ; prévoir un plan serré et texte grand pour capter.",
+        "Le OUI / NON interactif nécessite un micro-pause pour que l'audience se sente interpellée — le script doit prévoir 1 s de silence/animation après la question."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux mais l'absence d'une mini-mention orale de la non-personnalisation du conseil dans la vidéo peut créer une attente de conseil immédiat ; ajouter une phrase courte 'Ceci est une information générale, pas un conseil personnalisé' renforcera la confiance.",
+        "Le CTA est correct mais pourrait offrir un bénéfice clair ('diagnostic de votre situation') pour améliorer conversion."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Les sources légales pertinentes figurent dans la fiche BRITED (articles 815, 815-3, 815-5-1, 815-9) mais le bloc 'Sources' du script ne reprend que deux liens (815 et 815-5-1). Il faut lister explicitement toutes les références citées (au moins 815-3 et 815-9) afin de rester fidèle mot à mot aux sources indiquées dans la fiche.",
+    "juridique_fiscal : La règle principale est correcte mais la formulation risque d'être interprétée comme « 2/3 des héritiers » plutôt que « 2/3 des droits indivis ». Le script doit préciser partout « deux tiers des droits indivis » (ou « deux tiers des parts ») pour éviter une lecture erronée.",
+    "juridique_fiscal : Il manque la mention explicite que la vente autorisée par le juge aboutit généralement à une licitation (vente aux enchères), et que la procédure est formalisée et peut être longue et coûteuse : le script parle de délai mais minimise le caractère judiciaire.",
+    "completude : Le script couvre la règle, l'exception et un exemple, mais omet d'indiquer que la signification se fait par acte notarié (la fiche le dit, le script mentionne notaire mais pas explicitement 'acte notarié'), et il gagnerait à rappeler que la demande au juge est faite après constat d'opposition ou silence pendant 3 mois.",
+    "completude : L'information sur l'indemnité d'occupation est correcte mais pourrait préciser qu'elle est réclamable lors du partage et peut couvrir plusieurs années.",
+    "plateforme : Durée estimée 40s : le script est dense pour 40s (règle, procédure, délai, réserve, CTA). Risque de phrases parlées trop rapides. Recommander un léger raccourcissement ou rallonger la durée cible.",
+    "plateforme : Le format OUI / NON interactif est adapté à Reels mais nécessite un micro-pause pour interaction; prévoir plan visuel et timing précis pour ces 2s initiales.",
+    "editorial : Accroche efficace; cependant la ligne 'Il retarde, il n'empêche pas.' est bonne comme punchline mais pourrait être suivie immédiatement d'une précision 'si 2/3 des droits sont réunis' pour ne pas laisser d'ambiguïté.",
+    "editorial : Le CTA 'lien dans ma bio' est correct mais devrait inclure la mention 'pour un diagnostic' pour renforcer la conversion ('Prenez rendez-vous pour un diagnostic gratuit via le lien dans ma bio' si applicable).",
+    "securite : La légende contient la mention de non-conseil, mais dans une vidéo Reels il faut ajouter une courte phrase orale ou un bandeau visible rappelant que c'est du contenu pédagogique et non un conseil personnalisé.",
+    "securite : Éviter toute tournure donnant l'impression d'une garantie (par ex. 'Il n'empêche pas' est factuel mais à l'oral il faut nuancer brièvement : 'en principe il ne bloque pas définitivement').",
+    "formulation_professionnelle : Certaines phrases sont légèrement longues pour un format 40s (par ex. la phrase expliquant la procédure notariée -> 3 mois -> juge). Recommander de scinder en deux phrases courtes pour faciliter la compréhension à l'oral.",
+    "formulation_professionnelle : Remplacer 'ils saisissent le notaire' par 'ils signifient leur intention par acte notarié' pour précision juridique et naturel professionnel.",
+    "contre_verification_finale : La cohérence article/numéro est bonne mais il faut vérifier l'orthographe exacte 'article 815-5-1' (le script l'indique) et s'assurer que le visuel texte écran reproduit fidèlement la référence légale sans abréviation trompeuse.",
+    "contre_verification_finale : Vérifier ponctuation et pauses pour l'enchaînement 'notaire → 3 mois → juge' afin d'éviter d'accélérer l'énoncé.",
+    "coherence_pictogrammes : La plupart des pictogrammes conviennent mais le pictogramme 'porte ouverte' pour le partage peut prêter à ambiguïté pour certains spectateurs ; recommander un pictogramme 'documents de partage' ou 'plan découpé' plus explicite.",
+    "coherence_pictogrammes : Le pictogramme '2/3' doit être accompagné d'une légende '2/3 des droits indivis' pour éviter l'interprétation '2/3 des héritiers'.",
+    "densite_editoriale : La vidéo traite un seul angle mais comporte plusieurs informations obligatoires; pour tenir 40s la densité est limite. Suggestion : réduire une phrase (par ex. raccourcir la nuance) ou prévoir 45-50s.",
+    "densite_editoriale : S'assurer que l'exemple chiffré précise 'deux tiers des droits' et non 'trois héritiers sur quatre' sans précision sur quotes-parts.",
+    "pedagogie_client : Le niveau est adapté à un non-spécialiste mais le terme 'licitation' est employé dans la fiche ; dans le script il apparaît uniquement sous forme d'icone marteau+enchères — il faudrait prononcer ou écrire brièvement 'licitation (vente aux enchères)' pour pédagogie.",
+    "pedagogie_client : Expliquer brièvement ce que signifie 'indemnité d'occupation' (par ex. 'compensation financière aux autres indivisaires') améliorerait la compréhension.",
+    "retention_attention : Hook fort mais les deux premières secondes doivent être visuellement très dynamiques ; prévoir un plan serré et texte grand pour capter.",
+    "retention_attention : Le OUI / NON interactif nécessite un micro-pause pour que l'audience se sente interpellée — le script doit prévoir 1 s de silence/animation après la question.",
+    "conversion_confiance : Le ton inspire sérieux mais l'absence d'une mini-mention orale de la non-personnalisation du conseil dans la vidéo peut créer une attente de conseil immédiat ; ajouter une phrase courte 'Ceci est une information générale, pas un conseil personnalisé' renforcera la confiance.",
+    "conversion_confiance : Le CTA est correct mais pourrait offrir un bénéfice clair ('diagnostic de votre situation') pour améliorer conversion."
+  ],
+  "recommendations": [
+    "Ajouter toutes les références légales citées dans la fiche BRITED dans le bloc Sources du script : articles 815, 815-3, 815-5-1 et 815-9 (avec liens si possible).",
+    "Remplacer toute occurrence vague de '2/3' ou 'deux tiers' par la formulation exacte 'deux tiers des droits indivis' (ou 'deux tiers des parts') pour éviter confusion entre nombre d'héritiers et quote-parts.",
+    "Préciser textuellement que la signification se fait par acte notarié ('signification par acte notarié'), que les opposants disposent de 3 mois à compter de cette signification, et que la vente autorisée par le juge aboutit généralement à une licitation (vente aux enchères).",
+    "Courtifier légèrement le texte pour tenir 40s ou prévoir d'allonger la durée cible à 45-50s ; scinder les phrases longues en deux pour l'oral. Exemple de reformulation recommandée : 'La vente amiable exige l'unanimité. Mais si deux tiers des droits indivis sont réunis, ils signifient par acte notarié leur intention — les opposants ont 3 mois. Alors le juge peut, à la demande, autoriser la vente par licitation.'",
+    "Ajouter dans la vidéo un bandeau ou une phrase orale courte indiquant 'contenu pédagogique général, pas un conseil personnalisé'.",
+    "Remplacer pictogramme 'porte ouverte' par un visuel plus explicite du partage (documents / plan divisé) et ajouter une légende près du pictogramme '2/3' : '2/3 des droits indivis'.",
+    "Dans l'exemple chiffré, préciser que l'exemple (3 héritiers sur 4) suppose des quotes-parts telles que ces trois héritiers représentent au total 2/3 des droits, pour lever toute ambiguïté.",
+    "Prononcer ou afficher brièvement le terme 'licitation (vente aux enchères)' lorsque vous montrez le marteau, et définir 'indemnité d'occupation' comme 'compensation versée aux autres indivisaires'.",
+    "Ajouter au CTA une formulation avantageuse et précise comme 'Prenez rendez-vous pour un diagnostic de votre situation via le lien dans ma bio' et répéter la non-personnalisation ('diagnostic informel/consultation').",
+    "Faire une dernière relecture phrase par phrase pour vérifier ponctuation, pauses et exactitude des références légales à l'écran (article 815-5-1, article 815, article 815-9)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-07:reels:indivision_regle_unanimite:0",
+  "script_path": "scripts/indivision/indivision_regle_unanimite__reels__a4__v6.md"
+}

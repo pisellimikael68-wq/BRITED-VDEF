@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ est respectée globalement mais l'énoncé « sanction possible : deux ans d'emprisonnement » doit être rattaché explicitement à la 'promotion illicite de produits financiers' (mentionnée dans la fiche) pour éviter toute lecture hors contexte. Localisation : Beat 6 texte écran / narration nuance.",
+        "La source AMF est citée dans les sources mais le script n'indique pas explicitement l'URL ou la référence normative exacte lorsque la vidéo évoque la règle : ajouter une mention courte type 'voir AMF' ou inclure l'URL dans la légende renforcerait la traçabilité. Localisation : Légende / Sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation 'Ne constitue ni un conseil personnalisé' est correcte mais dans le script d'exemple la légende propose 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' — cohérence à vérifier entre les versions (script Beat 5, Légende, Mention finale). Localisation : Beat 5 Exemple vs Légende vs Mention.",
+        "Il manque une phrase explicite rappelant que certaines promotions restent interdites même avec disclaimer (la nuance existe au Beat 6 mais devrait être formulée plus clairement et juridiquement exact : 'la mention n'autorise pas la promotion de produits dont la publicité est interdite'). Localisation : Beat 6 Nuance / Narration continue."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale mais omet d'indiquer comment rendre la mention lisible sur Reels (ex. : placer la mention en 1re ligne de la légende, mais préciser aussi d'éviter emoji ou retours ligne qui peuvent provoquer troncature). Localisation : Beat 2/6 et Légende.",
+        "Absence d'indication sur la taille/visibilité du texte à l'écran (contraste/placement) et sur les limites de durée de la légende visible sur Reels (deux lignes). Localisation : Beat 6 visuel légende tronquée."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique de placer la mention en tête de légende mais ne précise pas que sur Instagram Reels seules les deux premières lignes sont visibles sans appui sur 'voir plus' — la fiche signale la troncature comme erreur fréquente ; le script montre une légende tronquée en visuel mais il faudrait l'énoncer clairement. Localisation : Beat 6 visuel + narration.",
+        "Durée estimée 38s semble cohérente mais il faudrait vérifier le tempo de la lecture de la 'narration continue' pour s'assurer qu'elle tient bien en 38s (risque de dépassement). Localisation : Durée estimée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression sont efficaces mais la phrase d'exemple en Beat 5 est longue et risque d'être difficile à lire en une ligne lisible : recommander de scinder ou d'abréger le libellé de 1re ligne pour lisibilité immédiate. Localisation : Beat 5 Texte écran / Exemple.",
+        "Le CTA est clair mais peut sembler commercial si mal toné ; recommander d'ajouter 'sans engagement' ou 'pour une analyse personnalisée' pour atténuer pression commerciale. Localisation : Beat 7 CTA."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention évite le conseil personnalisé mais la vidéo propose un rendez‑vous (CTA) — il faut s'assurer que l'offre de rendez‑vous n'est pas présentée comme une solution universelle ou une promesse de résultat. Localisation : Beat 7 CTA / Légende.",
+        "Le script reste pédagogique mais la mention finale 'Contenu pédagogique général.' pourrait être perçue comme générique ; recommander de conserver la formulation précisée dans la Légende pour éliminer toute ambiguïté. Localisation : Mention finale / Légende."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques incohérences mineures de formulation mot à mot : 'Ne constitue ni un conseil personnalisé' (script Beat 4) vs 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' (Légende). Harmoniser l'exact libellé partout. Localisation : Beat 4, Beat 5, Légende, Mention finale.",
+        "La phrase 'Vous regardez une vidéo sur un placement — hésitation ?' est accrocheuse mais le mot 'placement' peut être remplacé par 'placement financier' pour précision. Localisation : Hook."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence entre le texte écran d'exemple (Beat 5) et la Légende / Mention : variations terminologiques à corriger mot à mot.",
+        "Le script énonce la sanction 'deux ans d'emprisonnement' sans mention explicite de l'amende possible (la fiche indique peine d'emprisonnement assortie d'une amende). Il faut ajouter 'et une amende' pour correspondance complète. Localisation : Beat 6 Nuance."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance icône/texte est globalement bonne, mais l'icône 'personne barrée' pour 'absence de recommandation personnalisée' peut prêter à confusion ; proposer une icône plus explicite (ex. silhouette + bulle barrée). Localisation : Beat 4 visuel icônes.",
+        "L'icône 'cadeau' pour 'partenariat' est acceptable mais il faudrait veiller à ce que le visuel précise 'y compris cadeau' pour éviter ambiguïté. Localisation : Beat 4 et Beat 5 visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais inclut à la fois la règle, l'exception (produits interdits) et un CTA ; la densité est correcte mais l'exemple de première ligne est long et risque de nuire à la concision. Localisation : Beat 5 / Narration continue.",
+        "La mention de la sanction (2 ans) est importante mais lourde : peut alourdir le rythme — suggérer formulation brève 'sanction possible (jusqu'à 2 ans de prison et amende)'. Localisation : Beat 6."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les notions sont expliquées simplement mais l'expression 'absence de recommandation personnalisée' mérite un court exemple concret pour un non‑spécialiste (ex. : 'je n'ai pas étudié votre situation personnelle'). Localisation : Beat 4 / Exemple.",
+        "Le script suppose la compréhension de 'partenariat' incluant contreparties non monétaires ; la phrase 'y compris cadeau' dans la Légende est bonne mais pourrait être reprise brièvement dans la narration pour pédagogie. Localisation : Légende vs Narration."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes mais le passage entre question puis 'Oui.' (Beat 2–3) est très abrupt ; risqué pour fluidité. Recommander une micro-transition ('Oui — et voici comment'). Localisation : Beat 2->3.",
+        "La longueur totale de la narration continue doit être mesurée à l'oral pour garantir les 38s ; le texte actuel risque d'excéder si lu naturellement. Localisation : Narration continue / Durée estimée."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux mais le CTA 'Prenez rendez‑vous via le lien dans ma bio' doit inclure une mention d'absence d'obligation ou de caractère payant pour éviter perception de vente agressive. Localisation : Beat 7 CTA / Légende.",
+        "Manque d'une courte mention de sources à l'écran (ex. 'source : AMF') pour renforcer crédibilité visuelle pendant la vidéo. Localisation : Sources section / Beat 6."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ est respectée globalement mais l'énoncé « sanction possible : deux ans d'emprisonnement » doit être rattaché explicitement à la 'promotion illicite de produits financiers' (mentionnée dans la fiche) pour éviter toute lecture hors contexte. Localisation : Beat 6 texte écran / narration nuance.",
+    "source : La source AMF est citée dans les sources mais le script n'indique pas explicitement l'URL ou la référence normative exacte lorsque la vidéo évoque la règle : ajouter une mention courte type 'voir AMF' ou inclure l'URL dans la légende renforcerait la traçabilité. Localisation : Légende / Sources.",
+    "juridique_fiscal : La formulation 'Ne constitue ni un conseil personnalisé' est correcte mais dans le script d'exemple la légende propose 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' — cohérence à vérifier entre les versions (script Beat 5, Légende, Mention finale). Localisation : Beat 5 Exemple vs Légende vs Mention.",
+    "juridique_fiscal : Il manque une phrase explicite rappelant que certaines promotions restent interdites même avec disclaimer (la nuance existe au Beat 6 mais devrait être formulée plus clairement et juridiquement exact : 'la mention n'autorise pas la promotion de produits dont la publicité est interdite'). Localisation : Beat 6 Nuance / Narration continue.",
+    "completude : Le script couvre la règle centrale mais omet d'indiquer comment rendre la mention lisible sur Reels (ex. : placer la mention en 1re ligne de la légende, mais préciser aussi d'éviter emoji ou retours ligne qui peuvent provoquer troncature). Localisation : Beat 2/6 et Légende.",
+    "completude : Absence d'indication sur la taille/visibilité du texte à l'écran (contraste/placement) et sur les limites de durée de la légende visible sur Reels (deux lignes). Localisation : Beat 6 visuel légende tronquée.",
+    "plateforme : Le script indique de placer la mention en tête de légende mais ne précise pas que sur Instagram Reels seules les deux premières lignes sont visibles sans appui sur 'voir plus' — la fiche signale la troncature comme erreur fréquente ; le script montre une légende tronquée en visuel mais il faudrait l'énoncer clairement. Localisation : Beat 6 visuel + narration.",
+    "plateforme : Durée estimée 38s semble cohérente mais il faudrait vérifier le tempo de la lecture de la 'narration continue' pour s'assurer qu'elle tient bien en 38s (risque de dépassement). Localisation : Durée estimée.",
+    "editorial : Hook et progression sont efficaces mais la phrase d'exemple en Beat 5 est longue et risque d'être difficile à lire en une ligne lisible : recommander de scinder ou d'abréger le libellé de 1re ligne pour lisibilité immédiate. Localisation : Beat 5 Texte écran / Exemple.",
+    "editorial : Le CTA est clair mais peut sembler commercial si mal toné ; recommander d'ajouter 'sans engagement' ou 'pour une analyse personnalisée' pour atténuer pression commerciale. Localisation : Beat 7 CTA.",
+    "securite : La mention évite le conseil personnalisé mais la vidéo propose un rendez‑vous (CTA) — il faut s'assurer que l'offre de rendez‑vous n'est pas présentée comme une solution universelle ou une promesse de résultat. Localisation : Beat 7 CTA / Légende.",
+    "securite : Le script reste pédagogique mais la mention finale 'Contenu pédagogique général.' pourrait être perçue comme générique ; recommander de conserver la formulation précisée dans la Légende pour éliminer toute ambiguïté. Localisation : Mention finale / Légende.",
+    "formulation_professionnelle : Quelques incohérences mineures de formulation mot à mot : 'Ne constitue ni un conseil personnalisé' (script Beat 4) vs 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' (Légende). Harmoniser l'exact libellé partout. Localisation : Beat 4, Beat 5, Légende, Mention finale.",
+    "formulation_professionnelle : La phrase 'Vous regardez une vidéo sur un placement — hésitation ?' est accrocheuse mais le mot 'placement' peut être remplacé par 'placement financier' pour précision. Localisation : Hook.",
+    "contre_verification_finale : Incohérence entre le texte écran d'exemple (Beat 5) et la Légende / Mention : variations terminologiques à corriger mot à mot.",
+    "contre_verification_finale : Le script énonce la sanction 'deux ans d'emprisonnement' sans mention explicite de l'amende possible (la fiche indique peine d'emprisonnement assortie d'une amende). Il faut ajouter 'et une amende' pour correspondance complète. Localisation : Beat 6 Nuance.",
+    "coherence_pictogrammes : La correspondance icône/texte est globalement bonne, mais l'icône 'personne barrée' pour 'absence de recommandation personnalisée' peut prêter à confusion ; proposer une icône plus explicite (ex. silhouette + bulle barrée). Localisation : Beat 4 visuel icônes.",
+    "coherence_pictogrammes : L'icône 'cadeau' pour 'partenariat' est acceptable mais il faudrait veiller à ce que le visuel précise 'y compris cadeau' pour éviter ambiguïté. Localisation : Beat 4 et Beat 5 visuel.",
+    "densite_editoriale : La vidéo traite un seul angle mais inclut à la fois la règle, l'exception (produits interdits) et un CTA ; la densité est correcte mais l'exemple de première ligne est long et risque de nuire à la concision. Localisation : Beat 5 / Narration continue.",
+    "densite_editoriale : La mention de la sanction (2 ans) est importante mais lourde : peut alourdir le rythme — suggérer formulation brève 'sanction possible (jusqu'à 2 ans de prison et amende)'. Localisation : Beat 6.",
+    "pedagogie_client : Les notions sont expliquées simplement mais l'expression 'absence de recommandation personnalisée' mérite un court exemple concret pour un non‑spécialiste (ex. : 'je n'ai pas étudié votre situation personnelle'). Localisation : Beat 4 / Exemple.",
+    "pedagogie_client : Le script suppose la compréhension de 'partenariat' incluant contreparties non monétaires ; la phrase 'y compris cadeau' dans la Légende est bonne mais pourrait être reprise brièvement dans la narration pour pédagogie. Localisation : Légende vs Narration.",
+    "retention_attention : Les deux premières secondes (hook) sont fortes mais le passage entre question puis 'Oui.' (Beat 2–3) est très abrupt ; risqué pour fluidité. Recommander une micro-transition ('Oui — et voici comment'). Localisation : Beat 2->3.",
+    "retention_attention : La longueur totale de la narration continue doit être mesurée à l'oral pour garantir les 38s ; le texte actuel risque d'excéder si lu naturellement. Localisation : Narration continue / Durée estimée.",
+    "conversion_confiance : Le ton inspire sérieux mais le CTA 'Prenez rendez‑vous via le lien dans ma bio' doit inclure une mention d'absence d'obligation ou de caractère payant pour éviter perception de vente agressive. Localisation : Beat 7 CTA / Légende.",
+    "conversion_confiance : Manque d'une courte mention de sources à l'écran (ex. 'source : AMF') pour renforcer crédibilité visuelle pendant la vidéo. Localisation : Sources section / Beat 6."
+  ],
+  "recommendations": [
+    "Harmoniser mot à mot les formulations entre Beats, l'exemple, la légende et la Mention finale. Décidez d'une version définitive (par ex. : 'Contenu pédagogique — Ne constitue ni un conseil juridique, fiscal ou financier personnalisé — Risque de perte en capital — Partenariat signalé') et remplacez toutes les occurrences par ce libellé identique.",
+    "Préciser explicitement dans la narration et le texte écran que la sanction de 'deux ans d'emprisonnement' se rapporte à la 'promotion illicite de produits financiers' et ajouter 'et une amende' pour correspondance complète avec la fiche. Exemple court : '...sanction possible : jusqu'à 2 ans d'emprisonnement et une amende pour promotion illicite.'",
+    "Indiquer clairement la consigne plateforme : 'Placer la mention en première ligne de la légende (visible sans cliquer sur « voir plus » — éviter retours à la ligne ou emojis avant la mention)'. Ajouter cette phrase dans Beat 2 ou 6 et dans la Légende si possible.",
+    "Raccourcir l'exemple de première ligne pour assurer lisibilité immédiate (éviter une longue suite de traits). Si nécessaire, scinder en deux lignes visibles mais garder la première ligne contenant l'info principale (ex. 'Contenu pédagogique — Pas de conseil personnalisé').",
+    "Ajouter une brève phrase pédagogique expliquant ce que 'pas de conseil personnalisé' signifie concrètement : 'Je n'ai pas évalué votre situation personnelle.' (Beat 4 ou 5).",
+    "Clarifier les pictogrammes : remplacer 'personne barrée' par une icône silhouette + bulle barrée ; ajouter petit libellé sous chaque icône pour lever toute ambiguïté. Vérifier les visuels proposés page par page.",
+    "Alléger la narration et vérifier en pratique la durée orale (faire une lecture chronométrée) pour tenir dans 38s ; si dépassement, supprimer ou abrégér la mention la moins critique (par ex. réduire la formulation de la nuance ou l'exemple).",
+    "Rendre le CTA moins commercial : ajouter 'sans engagement' ou 'pour une analyse personnalisée et sans obligation' et, si pertinent, préciser gratuité ou coût du rendez‑vous selon la réalité.",
+    "Inclure une mention visible courte 'Source : AMF, Loi 9 juin 2023' dans la fin de la vidéo ou dans la légende (avec URL complète dans la légende) pour renforcer traçabilité.",
+    "Corriger la Légende finale proposée pour la faire identique au libellé retenu et ajouter l'URL AMF et la référence légale si possible."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-04:reels:conformite_mentions_obligatoires:1",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__reels__a1__v2.md"
+}

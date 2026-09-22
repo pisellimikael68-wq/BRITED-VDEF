@@ -1,0 +1,180 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED (culture_diversification) est citée et les sources AMF et Banque de France sont listées, mais le script écrit « Exemple : un patrimoine réparti entre monétaire, obligations, actions, immobilier et actifs réels offre cinq sources de risque distinctes. » sans préciser que ce chiffre (5) est le nombre usuellement distingué — il faudrait ajouter « usuellement » ou référencer explicitement la fiche pour éviter toute impression d'exhaustivité ferme.",
+        "La phrase « deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon » est factuelle mais mériterait une légère précision : « souvent » ou « généralement », car la corrélation peut varier selon la période et la composition exacte."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient un CTA « Prenez rendez-vous via le lien dans ma bio » qui peut être perçu comme une incitation commerciale. Il respecte la consigne d'indiquer qu'il s'agit d'un contenu pédagogique, mais il manque la mention explicite dans la vidéo (ou sur l'écran final) que le contenu ne constitue ni conseil juridique, fiscal ou financier personnalisé — la légende en bas le contient, mais l'agent juridique exige que cette mention soit clairement affichée en texte écran ou audio si la vidéo propose un rendez-vous."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle, exemple et nuance, mais omet d'aborder la « concentration invisible » (salarié actionnaire, enveloppes fiscales) qui figure dans la fiche BRITED. Étant donné que c'est une faiblesse fréquente, il faudrait au minimum une ligne brève pour alerter sur l'exposition conjointe (ex. salarié-actionnaire)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes (hook) mais l'élément visuel « carton central OUI/NON » suivi d'une réponse verbale 'Non.' peut paraître confus pour un spectateur qui ne suit pas l'écran : le rythme devrait lier clairement la question au visuel (par ex. montrer la case OUI cochée puis la réponse « Non »).",
+        "Le texte audio « Deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon » est un peu long pour un Reels court et gagnerait en concision pour l'oralité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques tournures sont peu naturelles à l'oral : par exemple « deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon, donc n'apportent pas de diversification » peut être raccourci en « si deux fonds investissent dans les mêmes grandes valeurs, ils réagiront de la même façon : ce n'est pas de la diversification ».",
+        "La séquence « OUI / NON. Non. » est stylisée mais peut sembler maladroite en français parlé ; préférer « Vous avez tout… ? Oui ou non ? Non. » pour fluidité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence générale correcte, mais il y a une petite incohérence de niveau d'information : la légende rappelle l'absence de conseil personnalisé, mais la vidéo inclut un CTA vers un rendez-vous. Il faut s'assurer que lors du rendez-vous, aucune recommandation personnalisée non déclarée ne soit présentée sans cadre professionnel (mention à vérifier selon conformité interne).",
+        "Vérifier l'orthographe/ponctuation du texte écran « OUI ☐   NON ☐ » pour lisibilité sur mobile (espaces et taille)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le visuel « Personne regardant un seul tiroir ou une maison ; pictogramme alerte » est pertinent, mais le pictogramme d'alerte doit être distinctif et non anxiogène : éviter symboles d'alarme dramatiques. Préciser que les icônes des 5 classes d'actifs doivent être clairement distinctes (monétaire, obligations, actions, immobilier, actifs réels) et immédiatement identifiables.",
+        "Le « Balance avec flèche descendante » pour la nuance peut prêter à confusion : une icône montrant dispersion réduite mais risque systémique serait plus fidèle (ex. graphique global en baisse)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite bien un seul angle mais omet la limite pratique mentionnée dans la fiche (trop de lignes nuit au pilotage). Il faudrait une phrase très brève rappelant que la diversification a une limite pratique (ex. « sans éclater la gestion »).",
+        "La durée estimée 38s paraît cohérente, mais l'ajout de cette phrase nécessite 2–3s supplémentaires ou la reformulation d'une phrase existante pour rester dans le format."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est pertinent, mais le OUI/NON tableau au beat 2 risque de perdre l'attention s'il reste statique ; recommander une animation (cocher/décocher) ou une variation visuelle pour maintenir la curiosité.",
+        "La progression est logique, mais la phrase d'exemple (5 classes) doit sortir rapidement et clairement — s'assurer que les icônes apparaissent synchronisées avec la voix."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel mais le CTA 'Prenez rendez-vous via le lien dans ma bio' doit être accompagné d'une mention de nature du rendez-vous (ex. entretien d'information) pour éviter impression de vente agressive.",
+        "Ajouter la mention audio ou écran « Contenu pédagogique général, pas un conseil personnalisé » dans la vidéo renforce la confiance et la conformité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 97,
+      "seconds": 35.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 97,
+        "seconds": 35.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED (culture_diversification) est citée et les sources AMF et Banque de France sont listées, mais le script écrit « Exemple : un patrimoine réparti entre monétaire, obligations, actions, immobilier et actifs réels offre cinq sources de risque distinctes. » sans préciser que ce chiffre (5) est le nombre usuellement distingué — il faudrait ajouter « usuellement » ou référencer explicitement la fiche pour éviter toute impression d'exhaustivité ferme.",
+    "source : La phrase « deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon » est factuelle mais mériterait une légère précision : « souvent » ou « généralement », car la corrélation peut varier selon la période et la composition exacte.",
+    "juridique_fiscal : Le script contient un CTA « Prenez rendez-vous via le lien dans ma bio » qui peut être perçu comme une incitation commerciale. Il respecte la consigne d'indiquer qu'il s'agit d'un contenu pédagogique, mais il manque la mention explicite dans la vidéo (ou sur l'écran final) que le contenu ne constitue ni conseil juridique, fiscal ou financier personnalisé — la légende en bas le contient, mais l'agent juridique exige que cette mention soit clairement affichée en texte écran ou audio si la vidéo propose un rendez-vous.",
+    "completude : Le script couvre règle, exemple et nuance, mais omet d'aborder la « concentration invisible » (salarié actionnaire, enveloppes fiscales) qui figure dans la fiche BRITED. Étant donné que c'est une faiblesse fréquente, il faudrait au minimum une ligne brève pour alerter sur l'exposition conjointe (ex. salarié-actionnaire).",
+    "editorial : Les deux premières secondes sont fortes (hook) mais l'élément visuel « carton central OUI/NON » suivi d'une réponse verbale 'Non.' peut paraître confus pour un spectateur qui ne suit pas l'écran : le rythme devrait lier clairement la question au visuel (par ex. montrer la case OUI cochée puis la réponse « Non »).",
+    "editorial : Le texte audio « Deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon » est un peu long pour un Reels court et gagnerait en concision pour l'oralité.",
+    "formulation_professionnelle : Quelques tournures sont peu naturelles à l'oral : par exemple « deux fonds qui détiennent les mêmes grandes valeurs réagissent de la même façon, donc n'apportent pas de diversification » peut être raccourci en « si deux fonds investissent dans les mêmes grandes valeurs, ils réagiront de la même façon : ce n'est pas de la diversification ».",
+    "formulation_professionnelle : La séquence « OUI / NON. Non. » est stylisée mais peut sembler maladroite en français parlé ; préférer « Vous avez tout… ? Oui ou non ? Non. » pour fluidité.",
+    "contre_verification_finale : Cohérence générale correcte, mais il y a une petite incohérence de niveau d'information : la légende rappelle l'absence de conseil personnalisé, mais la vidéo inclut un CTA vers un rendez-vous. Il faut s'assurer que lors du rendez-vous, aucune recommandation personnalisée non déclarée ne soit présentée sans cadre professionnel (mention à vérifier selon conformité interne).",
+    "contre_verification_finale : Vérifier l'orthographe/ponctuation du texte écran « OUI ☐   NON ☐ » pour lisibilité sur mobile (espaces et taille).",
+    "coherence_pictogrammes : Le visuel « Personne regardant un seul tiroir ou une maison ; pictogramme alerte » est pertinent, mais le pictogramme d'alerte doit être distinctif et non anxiogène : éviter symboles d'alarme dramatiques. Préciser que les icônes des 5 classes d'actifs doivent être clairement distinctes (monétaire, obligations, actions, immobilier, actifs réels) et immédiatement identifiables.",
+    "coherence_pictogrammes : Le « Balance avec flèche descendante » pour la nuance peut prêter à confusion : une icône montrant dispersion réduite mais risque systémique serait plus fidèle (ex. graphique global en baisse).",
+    "densite_editoriale : Le script traite bien un seul angle mais omet la limite pratique mentionnée dans la fiche (trop de lignes nuit au pilotage). Il faudrait une phrase très brève rappelant que la diversification a une limite pratique (ex. « sans éclater la gestion »).",
+    "densite_editoriale : La durée estimée 38s paraît cohérente, mais l'ajout de cette phrase nécessite 2–3s supplémentaires ou la reformulation d'une phrase existante pour rester dans le format.",
+    "retention_attention : Le hook est pertinent, mais le OUI/NON tableau au beat 2 risque de perdre l'attention s'il reste statique ; recommander une animation (cocher/décocher) ou une variation visuelle pour maintenir la curiosité.",
+    "retention_attention : La progression est logique, mais la phrase d'exemple (5 classes) doit sortir rapidement et clairement — s'assurer que les icônes apparaissent synchronisées avec la voix.",
+    "conversion_confiance : Le ton est professionnel mais le CTA 'Prenez rendez-vous via le lien dans ma bio' doit être accompagné d'une mention de nature du rendez-vous (ex. entretien d'information) pour éviter impression de vente agressive.",
+    "conversion_confiance : Ajouter la mention audio ou écran « Contenu pédagogique général, pas un conseil personnalisé » dans la vidéo renforce la confiance et la conformité."
+  ],
+  "recommendations": [
+    "Dans la ligne audio de l'exemple, préciser « usuellement » pour le chiffre 5 : remplacer par « Exemple : on distingue usuellement cinq classes d'actifs (monétaire, obligations, actions, immobilier, actifs réels). »",
+    "Ajouter brièvement dans la vidéo (audio ou texte écran court) la mention légale : « Contenu pédagogique, pas un conseil juridique, fiscal ou financier personnalisé. » avant ou en même temps que le CTA.",
+    "Inclure une phrase très brève sur la « concentration invisible » : par ex. « Attention aux concentrations invisibles : salarié-actionnaire ou tout loger dans la même enveloppe augmente le risque. » — à prononcer en 3–4s ou en texte écran afin de rester dans la durée.",
+    "Remplacer/adapter la formulation OUI/NON pour l'oralité : par ex. « Vous avez tout votre argent dans une seule banque ou dans l'immobilier ? Oui ? Non ? Non. » et animer la case correspondante pour renforcer la rétention.",
+    "Raccourcir et rendre plus oral la définition : par ex. « Diversifier, ce n'est pas multiplier les produits, c'est multiplier des sources de risque indépendantes. »",
+    "Ajouter une très brève mise en garde sur la limite pratique : une phrase-type « Sans pour autant éclater la gestion : trop de lignes rendent le pilotage impossible. »",
+    "Adapter certains pictogrammes selon précision : préférer icônes neutres et distinctives pour les 5 classes, et pour la nuance une représentation d'une baisse générale plutôt qu'une balance ambigüe.",
+    "S'assurer que le CTA précise la nature du rendez-vous (entretien d'information) et que le lien en bio n'induit pas une promesse de résultat."
+  ],
+  "reviewed_at": "2026-08-24T15:19:23",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-24:reels:culture_diversification:1",
+  "script_path": "scripts/culture_financiere/culture_diversification__reels__a4__v2.md"
+}

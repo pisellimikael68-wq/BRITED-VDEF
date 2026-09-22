@@ -1,0 +1,147 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « sauf défaut de l'émetteur » est présente (conforme), mais le script pourrait rappeler brièvement que même les obligations d'État comportent un risque de défaut (sans nommer d'émetteur) afin d'éviter l'impression erronée que toute obligation est garantie."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (40 s) est cohérente avec le script, mais la narration continue est dense ; il y a un risque que le timing dépasse 40 s sur Reels. Recommander de vérifier le tempo et le phrasé pour rester dans la durée indiquée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est bonne mais les deux premières secondes doivent être plus percutantes visuellement et verbalement. Le texte propose deux accroches (hook + question) ; suggérer de condenser pour renforcer la capture d'attention en 1–2 s."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont génériques (par ex. « pictogramme panier/fonds qui tourne »). Il faut préciser visuels non-ambiguës : ex. 'icône d'un portefeuille avec flèche circulaire + mini-graphique en baisse/hausse' pour illustrer qu'un fonds achète/revend en continu, et s'assurer que le pictogramme échéance illustre nettement la restitution du nominal."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La progression informative est claire, mais la question OUI/NON visuelle peut distraire si affichée trop longtemps. Recommander d'afficher la question très brièvement puis montrer la réponse, pour maintenir la tension et la compréhension."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La mention « sauf défaut de l'émetteur » est présente (conforme), mais le script pourrait rappeler brièvement que même les obligations d'État comportent un risque de défaut (sans nommer d'émetteur) afin d'éviter l'impression erronée que toute obligation est garantie.",
+    "plateforme : La durée estimée (40 s) est cohérente avec le script, mais la narration continue est dense ; il y a un risque que le timing dépasse 40 s sur Reels. Recommander de vérifier le tempo et le phrasé pour rester dans la durée indiquée.",
+    "editorial : L'accroche est bonne mais les deux premières secondes doivent être plus percutantes visuellement et verbalement. Le texte propose deux accroches (hook + question) ; suggérer de condenser pour renforcer la capture d'attention en 1–2 s.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont génériques (par ex. « pictogramme panier/fonds qui tourne »). Il faut préciser visuels non-ambiguës : ex. 'icône d'un portefeuille avec flèche circulaire + mini-graphique en baisse/hausse' pour illustrer qu'un fonds achète/revend en continu, et s'assurer que le pictogramme échéance illustre nettement la restitution du nominal.",
+    "retention_attention : La progression informative est claire, mais la question OUI/NON visuelle peut distraire si affichée trop longtemps. Recommander d'afficher la question très brièvement puis montrer la réponse, pour maintenir la tension et la compréhension."
+  ],
+  "recommendations": [
+    "Ajouter une courte phrase (10–12 mots) rappelant que même les obligations d'État comportent un risque de défaut, pour éviter toute interprétation de 'garantie totale'.",
+    "Vérifier le timing en répétition parlée (lecture à voix haute) et raccourcir les phrases si nécessaire pour tenir 40 s sur Reels.",
+    "Renforcer l'accroche des 1–2 premières secondes : condenser la question et le visuel (ex. smartphone + flèche taux↑ + phrase unique « Votre obligation a baissé ? ») pour capter immédiatement l'attention.",
+    "Préciser et rendre non-ambiguës les pictogrammes recommandés (exemples concrets fournis ci-dessus) pour que l'illustration corresponde mot à mot à la phrase prononcée.",
+    "Afficher la question OUI / NON très brièvement (1–1,5 s) avant d'afficher immédiatement la réponse, afin d'éviter une perte d'attention.",
+    "Avant publication, faire une relecture audio-vidéo complète (contre-vérification) pour s'assurer que la durée, le phrasé et les pictogrammes s'alignent exactement sur la narration."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-16:reels:obligations_risque_de_taux:0",
+  "script_path": "scripts/obligations/obligations_risque_de_taux__reels__a5__v8.md"
+}

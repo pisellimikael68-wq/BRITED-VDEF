@@ -1,0 +1,181 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est correctement référencée et fidèle aux textes cités, mais le script utilise l'exemple « dix pour cent des intérêts » sans dire explicitement qu'il s'agit d'un exemple illustratif (même si la légende l'indique). Demander une précision directe dans la narration: ajouter le mot « par exemple » immédiatement avant le chiffre."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'affirmation principale (« la banque doit proposer chaque année d'affecter... ») est conforme à l'article L221-27, mais il faut préciser dans le script que la proposition annuelle est une faculté pour le titulaire (option à accepter ou refuser) et non une donation automatique. La formulation actuelle peut laisser croire que le don est prélevé sans action du titulaire."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exception utile, mais omet d'indiquer explicitement que l'affectation peut porter soit sur une part des intérêts, soit sur une part du capital (la légende indique « épargne ou intérêts »; le corps principal gagnerait à répéter cette nuance pour éviter toute confusion).",
+        "Il serait utile de rappeler brièvement que le LDDS suit le même régime fiscal que le Livret A (intérêts non imposables), ce qui est dit mais pourrait être légèrement renforcé en une phrase ultra-claire pour un public non spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (40 secondes) paraît cohérente mais la densité des séquences (7 beats) peut rendre certaines phrases rapides à l'écran. Recommander d'allonger à ~45 s ou de réduire légèrement le texte à l'écran pour respecter la vitesse de lecture moyenne des Reels.",
+        "L'ordre des séquences est bon, mais vérifier que le hook occupe réellement les 2 premières secondes visuelles (très important pour la rétention)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est direct et clair, mais le hook pourrait être renforcé par une formulation plus active (« Vous avez vu l'option 'don' sur votre livret ? Savez‑vous ce que ça signifie ? ») pour maximiser l'engagement dans les 1–2 premières secondes.",
+        "Le CTA est présent et adapté, mais recommande d'ajouter une alternative non commerciale (par exemple: « Consultez la F.A.Q. via le lien ») si l'objectif inclut pédagogie neutre."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention standard de non-conseil dans la légende, ce qui est correct. Toutefois, dans la narration principale la phrase « Depuis la loi Pacte, la banque doit proposer... » devrait inclure explicitement que le titulaire conserve la maîtrise (acceptation/rejet), afin d'éviter une lecture laissant penser à une opération automatique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Toutefois quelques formulations peuvent être allégées pour l'oral: par exemple remplacer « affecter une part de l'épargne ou des intérêts du LDDS en don à une structure » par « donner une part de votre épargne ou de vos intérêts à une association ESS ». Cela améliore la fluidité et la prononciation."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale bonne. Points à corriger identifiés : préciser l'obligation de proposition annuelle comme option (non automatique), marquer explicitement 'exemple' au moment du chiffre 10 %, et vérifier la lisibilité temporelle (vitesse de lecture) des textes d'écran."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement pertinents. Recommandation précise : remplacer le pictogramme générique 'ESS' par un symbole clairement identifiable d'association (silhouette de deux personnes + cœur ou bâtiment associatif) pour éviter ambiguïté avec 'entreprise'.",
+        "Pour la séquence loi → banque → ESS, vérifier que l'icône 'loi' n'est pas confondue avec un avertissement (ex : balance de justice plutôt qu'un point d'exclamation)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais la quantité d'informations (garanties, plafond, conditions, don) est élevée pour 40s. Recommander soit réduire à l'essentiel (centrer sur l'option don et renvoyer aux sources pour les conditions), soit allonger légèrement la durée pour garantir compréhension."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script explique bien pour un non-spécialiste, mais deux petites améliorations pédagogiques : (1) préciser que le don n'est pas prélevé automatiquement, (2) dire en une courte phrase que l'intitulé 'développement durable et solidaire' concerne l'usage bancaire des fonds et non une obligation pour le titulaire (phrase présente dans la fiche mais pas dans la narration principale)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial correct mais perfectible pour maximiser les 2 premières secondes. La progression est logique; toutefois la séquence 6 (nuance) contient beaucoup d'informations à la fois — risque de perte d'attention. Recommander fractionner visuel/texte pour cette séquence (par ex. deux écrans courts)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance. Petite réserve : l'appel à rendez-vous via 'lien dans ma bio' est commercial ; pour maintenir neutralité pédagogique, ajouter la mention que le rendez-vous est facultatif et que le contenu est général (la légende le fait déjà, mais l'oral gagnerait la précision)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est correctement référencée et fidèle aux textes cités, mais le script utilise l'exemple « dix pour cent des intérêts » sans dire explicitement qu'il s'agit d'un exemple illustratif (même si la légende l'indique). Demander une précision directe dans la narration: ajouter le mot « par exemple » immédiatement avant le chiffre.",
+    "juridique_fiscal : L'affirmation principale (« la banque doit proposer chaque année d'affecter... ») est conforme à l'article L221-27, mais il faut préciser dans le script que la proposition annuelle est une faculté pour le titulaire (option à accepter ou refuser) et non une donation automatique. La formulation actuelle peut laisser croire que le don est prélevé sans action du titulaire.",
+    "completude : Le script couvre la règle centrale, la condition et l'exception utile, mais omet d'indiquer explicitement que l'affectation peut porter soit sur une part des intérêts, soit sur une part du capital (la légende indique « épargne ou intérêts »; le corps principal gagnerait à répéter cette nuance pour éviter toute confusion).",
+    "completude : Il serait utile de rappeler brièvement que le LDDS suit le même régime fiscal que le Livret A (intérêts non imposables), ce qui est dit mais pourrait être légèrement renforcé en une phrase ultra-claire pour un public non spécialiste.",
+    "plateforme : La durée estimée (40 secondes) paraît cohérente mais la densité des séquences (7 beats) peut rendre certaines phrases rapides à l'écran. Recommander d'allonger à ~45 s ou de réduire légèrement le texte à l'écran pour respecter la vitesse de lecture moyenne des Reels.",
+    "plateforme : L'ordre des séquences est bon, mais vérifier que le hook occupe réellement les 2 premières secondes visuelles (très important pour la rétention).",
+    "editorial : Le ton est direct et clair, mais le hook pourrait être renforcé par une formulation plus active (« Vous avez vu l'option 'don' sur votre livret ? Savez‑vous ce que ça signifie ? ») pour maximiser l'engagement dans les 1–2 premières secondes.",
+    "editorial : Le CTA est présent et adapté, mais recommande d'ajouter une alternative non commerciale (par exemple: « Consultez la F.A.Q. via le lien ») si l'objectif inclut pédagogie neutre.",
+    "securite : Le script contient la mention standard de non-conseil dans la légende, ce qui est correct. Toutefois, dans la narration principale la phrase « Depuis la loi Pacte, la banque doit proposer... » devrait inclure explicitement que le titulaire conserve la maîtrise (acceptation/rejet), afin d'éviter une lecture laissant penser à une opération automatique.",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Toutefois quelques formulations peuvent être allégées pour l'oral: par exemple remplacer « affecter une part de l'épargne ou des intérêts du LDDS en don à une structure » par « donner une part de votre épargne ou de vos intérêts à une association ESS ». Cela améliore la fluidité et la prononciation.",
+    "contre_verification_finale : Cohérence globale bonne. Points à corriger identifiés : préciser l'obligation de proposition annuelle comme option (non automatique), marquer explicitement 'exemple' au moment du chiffre 10 %, et vérifier la lisibilité temporelle (vitesse de lecture) des textes d'écran.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement pertinents. Recommandation précise : remplacer le pictogramme générique 'ESS' par un symbole clairement identifiable d'association (silhouette de deux personnes + cœur ou bâtiment associatif) pour éviter ambiguïté avec 'entreprise'.",
+    "coherence_pictogrammes : Pour la séquence loi → banque → ESS, vérifier que l'icône 'loi' n'est pas confondue avec un avertissement (ex : balance de justice plutôt qu'un point d'exclamation).",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais la quantité d'informations (garanties, plafond, conditions, don) est élevée pour 40s. Recommander soit réduire à l'essentiel (centrer sur l'option don et renvoyer aux sources pour les conditions), soit allonger légèrement la durée pour garantir compréhension.",
+    "pedagogie_client : Le script explique bien pour un non-spécialiste, mais deux petites améliorations pédagogiques : (1) préciser que le don n'est pas prélevé automatiquement, (2) dire en une courte phrase que l'intitulé 'développement durable et solidaire' concerne l'usage bancaire des fonds et non une obligation pour le titulaire (phrase présente dans la fiche mais pas dans la narration principale).",
+    "retention_attention : Hook initial correct mais perfectible pour maximiser les 2 premières secondes. La progression est logique; toutefois la séquence 6 (nuance) contient beaucoup d'informations à la fois — risque de perte d'attention. Recommander fractionner visuel/texte pour cette séquence (par ex. deux écrans courts).",
+    "conversion_confiance : Le ton inspire confiance. Petite réserve : l'appel à rendez-vous via 'lien dans ma bio' est commercial ; pour maintenir neutralité pédagogique, ajouter la mention que le rendez-vous est facultatif et que le contenu est général (la légende le fait déjà, mais l'oral gagnerait la précision)."
+  ],
+  "recommendations": [
+    "Ajouter explicitement le mot « par exemple » immédiatement avant le chiffre 10 % dans la narration (beat 5) pour éviter toute lecture normative.",
+    "Préciser dans la narration que la proposition annuelle de la banque est une option à accepter ou refuser par le titulaire — le don n'est pas prélevé automatiquement.",
+    "Réitérer brièvement, dans la narration principale, que l'intitulé 'développement durable et solidaire' concerne l'utilisation des fonds par la banque et ne restreint pas l'usage par l'épargnant.",
+    "Alléger la formulation de la phrase sur l'affectation pour une meilleure prononciation orale : « donner une part de votre épargne ou de vos intérêts à une association ESS ». Remplacer au besoin la formulation plus lourde actuelle.",
+    "Vérifier la vitesse de lecture des textes d'écran ou étendre la durée de la vidéo à ~45 s pour assurer lisibilité, en particulier pour la séquence 6 qui contient plusieurs éléments (exonération, disponibilité, capital garanti, plafond, conditions).",
+    "Adapter les pictogrammes : utiliser un symbole d'association clairement identifiable pour l'ESS et une icône 'loi' non alarmiste (balance de justice ou livre de loi).",
+    "Adoucir le CTA oral en rappelant la nature facultative du rendez‑vous et la portée pédagogique du contenu (ex : « Si vous voulez en discuter, prenez rendez‑vous via le lien dans ma bio — contenu général, pas un conseil personnalisé »).",
+    "Mettre à jour l'écran/voiceover final pour indiquer clairement que les sources légales sont disponibles dans la légende (déjà listées) pour renforcer la traçabilité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-07:reels:ldds_plafond_et_don:1",
+  "script_path": "scripts/ldds/ldds_plafond_et_don__reels__a4__v6.md"
+}

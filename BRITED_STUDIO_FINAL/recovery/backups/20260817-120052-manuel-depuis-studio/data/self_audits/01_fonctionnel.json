@@ -1,0 +1,37 @@
+{
+  "audit": "01_fonctionnel",
+  "passed": true,
+  "checked_at": "2026-08-17T02:04:17",
+  "checks": [
+    {
+      "criterion": "Calendrier de six mois",
+      "passed": true,
+      "evidence": "180 jours, 1080 contenus"
+    },
+    {
+      "criterion": "Six contenus quotidiens",
+      "passed": true,
+      "evidence": "valeurs=[6]"
+    },
+    {
+      "criterion": "Trois plateformes et deux créneaux",
+      "passed": true,
+      "evidence": "TikTok, Instagram, Shorts · 10 h, 17 h"
+    },
+    {
+      "criterion": "Angles non dupliqués",
+      "passed": true,
+      "evidence": "360 couples concept-angle pour 360 sujets"
+    },
+    {
+      "criterion": "Uniquement des sources certifiées",
+      "passed": true,
+      "evidence": "75 concepts planifiés, tous certifiés"
+    },
+    {
+      "criterion": "Lecture quotidienne des scripts",
+      "passed": true,
+      "evidence": "API Production renvoie les six contenus du jour"
+    }
+  ]
+}

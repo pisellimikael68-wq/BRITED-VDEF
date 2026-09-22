@@ -1,0 +1,186 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script cite correctement les sources principales, mais il diffuse un taux (~50%) pour le « meublé classique » marqué dans la fiche comme « a_verifier: true ». Diffuser un taux non vérifié affaiblit la fidélité stricte aux faits et aux textes.",
+        "La mention « meublé classique » et « meublé de tourisme » n'est pas explicitement distinguée dans la narration alors que la fiche indique que les taux et seuils diffèrent et ont été modifiés récemment."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La phrase centrale « la location meublée relève des Bénéfices industriels et commerciaux » est correcte et sourcée.",
+        "La recommandation de vérifier le taux d'abattement est nécessaire, mais l'énoncé « autour de 50 % » reste une affirmation chiffrée non vérifiée; le document 'a_ne_pas_dire' exige de ne pas énoncer les taux des meublés de tourisme sans vérification et la fiche marque le taux du meublé classique comme à vérifier. Il faut soit retirer le chiffre, soit confirmer le texte en vigueur avant diffusion.",
+        "La mention d'une possible immatriculation est pertinente mais mérite une précision : l'immatriculation (ex. au RCS) dépend du seuil d'activité et du statut (LMNP/LMP) — l'absence de précision peut induire une généralisation trompeuse."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, une exception (régime réel) et un exemple chiffré, source et CTA : bonne densité.",
+        "Manque une phrase très courte précisant que le micro-BIC concerne les recettes locatives inférieures au seuil (le script ne mentionne pas le seuil de 77 700 € qui figure dans la fiche et qui est marqué 'a_verifier'). Si on veut rester fidèle à la fiche, il faut soit retirer le chiffre du seuil, soit le vérifier avant d'afficher."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire et progression logique. Quelques libellés peuvent être raccourcis pour un format Short (p. ex. remplacer « la location meublée relève des Bénéfices industriels et commerciaux, pas des revenus fonciers » par une version plus percutante si le rythme le demande).",
+        "Le texte écran « Meublé = Bénéfices industriels et commerciaux » est un peu long pour un visuel : prévoir 'Meublé = BIC' sur 1ère ligne et 'Nu = Revenus fonciers' sur 2e ligne pour lisibilité rapide."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention légale en bas est correcte et la narration reste pédagogique. Cependant, l'usage d'un chiffre incertain (~50 %) constitue une affirmation non étayée qui peut être perçue comme un conseil chiffré ; cela contrevient à l'exigence d'absence d'affirmation non étayée."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Quelques formulations peuvent être polies pour la fluidité orale :",
+        "- Remplacer « En micro, la location meublée relève du micro-BIC qui applique un abattement forfaitaire sur les recettes » par « En micro, le meublé relève du régime micro-BIC : il applique un abattement forfaitaire sur les recettes. »",
+        "- La phrase « Par exemple, le micro-foncier prévoit 30 % d’abattement selon le Code général des impôts article 32 ; le meublé classique indique un abattement autour de 50 % mais ce taux doit être vérifié selon le texte en vigueur. » est longue ; la scinder améliorerait la diction."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La cohérence globale est bonne mais la présence du chiffre ~50% non vérifié et l'absence d'indication claire sur le seuil du micro-BIC (marqué 'a_verifier' dans la fiche) constituent des incohérences factuelles à corriger.",
+        "Le script respecte l'ordre des séquences mais il faut vérifier mot à mot la conformité des libellés juridiques et chiffrés avant publication."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes suggérés semblent pertinents (balance, cartes chiffrées, icônes crédit/travaux/immatriculation).",
+        "Veiller à ce que la 'carte chiffrée' associée à '~50 % (meublé classique — à vérifier)' comporte un petit badge 'à vérifier' pour éviter d'affirmer un chiffre sans confirmation, et que l'icône d'immatriculation illustre précisément 'immatriculation d'activité' (ex : registre) et non une simple carte d'identité."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script explique de façon compréhensible la différence de régime et la condition importante (crédit/travaux/amortissement).",
+        "Il manque une très brève explication de ce qu'est l'amortissement (p. ex. 'déduire chaque année une partie de la valeur du bien') dans le texte écran ou en voix pour un non-spécialiste; la narration l'évoque mais pourrait être plus explicite pour assurer la compréhension au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'appel à l'action est sobre et conforme. Toutefois, l'affichage d'un chiffre incertain réduit légèrement la perception de rigueur professionnelle.",
+        "Pour renforcer la confiance, remplacer '~50 %' par 'abattement supérieur à celui du micro-foncier (voir sources)' ou confirmer le taux avant diffusion."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 119,
+      "seconds": 44.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 119,
+        "seconds": 44.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script cite correctement les sources principales, mais il diffuse un taux (~50%) pour le « meublé classique » marqué dans la fiche comme « a_verifier: true ». Diffuser un taux non vérifié affaiblit la fidélité stricte aux faits et aux textes.",
+    "source : La mention « meublé classique » et « meublé de tourisme » n'est pas explicitement distinguée dans la narration alors que la fiche indique que les taux et seuils diffèrent et ont été modifiés récemment.",
+    "juridique_fiscal : La phrase centrale « la location meublée relève des Bénéfices industriels et commerciaux » est correcte et sourcée.",
+    "juridique_fiscal : La recommandation de vérifier le taux d'abattement est nécessaire, mais l'énoncé « autour de 50 % » reste une affirmation chiffrée non vérifiée; le document 'a_ne_pas_dire' exige de ne pas énoncer les taux des meublés de tourisme sans vérification et la fiche marque le taux du meublé classique comme à vérifier. Il faut soit retirer le chiffre, soit confirmer le texte en vigueur avant diffusion.",
+    "juridique_fiscal : La mention d'une possible immatriculation est pertinente mais mérite une précision : l'immatriculation (ex. au RCS) dépend du seuil d'activité et du statut (LMNP/LMP) — l'absence de précision peut induire une généralisation trompeuse.",
+    "completude : Le script couvre la règle, une exception (régime réel) et un exemple chiffré, source et CTA : bonne densité.",
+    "completude : Manque une phrase très courte précisant que le micro-BIC concerne les recettes locatives inférieures au seuil (le script ne mentionne pas le seuil de 77 700 € qui figure dans la fiche et qui est marqué 'a_verifier'). Si on veut rester fidèle à la fiche, il faut soit retirer le chiffre du seuil, soit le vérifier avant d'afficher.",
+    "editorial : Accroche claire et progression logique. Quelques libellés peuvent être raccourcis pour un format Short (p. ex. remplacer « la location meublée relève des Bénéfices industriels et commerciaux, pas des revenus fonciers » par une version plus percutante si le rythme le demande).",
+    "editorial : Le texte écran « Meublé = Bénéfices industriels et commerciaux » est un peu long pour un visuel : prévoir 'Meublé = BIC' sur 1ère ligne et 'Nu = Revenus fonciers' sur 2e ligne pour lisibilité rapide.",
+    "securite : La mention légale en bas est correcte et la narration reste pédagogique. Cependant, l'usage d'un chiffre incertain (~50 %) constitue une affirmation non étayée qui peut être perçue comme un conseil chiffré ; cela contrevient à l'exigence d'absence d'affirmation non étayée.",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Quelques formulations peuvent être polies pour la fluidité orale :",
+    "formulation_professionnelle : - Remplacer « En micro, la location meublée relève du micro-BIC qui applique un abattement forfaitaire sur les recettes » par « En micro, le meublé relève du régime micro-BIC : il applique un abattement forfaitaire sur les recettes. »",
+    "formulation_professionnelle : - La phrase « Par exemple, le micro-foncier prévoit 30 % d’abattement selon le Code général des impôts article 32 ; le meublé classique indique un abattement autour de 50 % mais ce taux doit être vérifié selon le texte en vigueur. » est longue ; la scinder améliorerait la diction.",
+    "contre_verification_finale : La cohérence globale est bonne mais la présence du chiffre ~50% non vérifié et l'absence d'indication claire sur le seuil du micro-BIC (marqué 'a_verifier' dans la fiche) constituent des incohérences factuelles à corriger.",
+    "contre_verification_finale : Le script respecte l'ordre des séquences mais il faut vérifier mot à mot la conformité des libellés juridiques et chiffrés avant publication.",
+    "coherence_pictogrammes : Les pictogrammes suggérés semblent pertinents (balance, cartes chiffrées, icônes crédit/travaux/immatriculation).",
+    "coherence_pictogrammes : Veiller à ce que la 'carte chiffrée' associée à '~50 % (meublé classique — à vérifier)' comporte un petit badge 'à vérifier' pour éviter d'affirmer un chiffre sans confirmation, et que l'icône d'immatriculation illustre précisément 'immatriculation d'activité' (ex : registre) et non une simple carte d'identité.",
+    "pedagogie_client : Le script explique de façon compréhensible la différence de régime et la condition importante (crédit/travaux/amortissement).",
+    "pedagogie_client : Il manque une très brève explication de ce qu'est l'amortissement (p. ex. 'déduire chaque année une partie de la valeur du bien') dans le texte écran ou en voix pour un non-spécialiste; la narration l'évoque mais pourrait être plus explicite pour assurer la compréhension au premier passage.",
+    "conversion_confiance : L'appel à l'action est sobre et conforme. Toutefois, l'affichage d'un chiffre incertain réduit légèrement la perception de rigueur professionnelle.",
+    "conversion_confiance : Pour renforcer la confiance, remplacer '~50 %' par 'abattement supérieur à celui du micro-foncier (voir sources)' ou confirmer le taux avant diffusion."
+  ],
+  "recommendations": [
+    "Retirer ou vérifier définitivement le chiffre '~50 %' pour l'abattement du meublé classique avant publication. Si vous ne pouvez pas vérifier, remplacer par une formulation non chiffrée: « un abattement forfaitaire supérieur à celui du micro-foncier » et renvoyer aux sources.",
+    "Si vous affichez un chiffre (seuils ou abattements), ajouter visuellement une source et la date de consultation (ex. 'CGI art. 50‑0 — consulté le JJ/MM/AAAA').",
+    "Préciser très brièvement ce qu'est l'amortissement dans la voix ou le texte écran (ex. « amortir = déduire chaque année une fraction de la valeur du bien »).",
+    "Clarifier la mention 'immatriculation' : remplacer par 'immatriculation de l'activité (selon cas)' ou ajouter un court texte écran explicatif si la durée le permet.",
+    "Alléger/fragmenter la phrase d'exemple chiffré pour faciliter l'oral et la lecture rapide (scinder en deux phrases).",
+    "Faire une seconde vérification juridique/fiscale finale des taux et seuils (micro-BIC seuil, abattements spécifiques selon catégorie du meublé) et mettre à jour le script en conséquence avant publication.",
+    "Adapter les libellés des textes écran pour la lisibilité instantanée (p. ex. 'Meublé = BIC' / 'Nu = Revenus fonciers') et ajouter un petit badge 'À vérifier' si un chiffre doit être confirmé.",
+    "Procéder à une dernière relecture mot à mot après corrections afin d'assurer conformité totale aux exigences BRITED avant validation finale."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-15:shorts:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__shorts__a5__v4.md"
+}

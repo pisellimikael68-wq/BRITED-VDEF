@@ -1,0 +1,198 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ est respectée globalement, mais le script ne précise pas clairement la gestion d'un partenariat rémunéré : si la vidéo est rémunérée, la mention obligatoire (« Publicité » ou « Collaboration commerciale ») doit être affichée à l'écran pendant toute la durée du Reels. Le script place la mention en section 'Mention' (probablement en légende) sans garantir visibilité continue à l'écran."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le point central est exact : la recommandation personnalisée suppose un statut réglementé (référence au Code monétaire et financier). Toutefois le script devrait citer explicitement le statut exact requis ('conseiller en investissement financier') et rappeler que certaines promotions de produits (contrats hautement spéculatifs, crypto hors prestataires enregistrés) peuvent être interdites, afin d'éviter une lecture incomplète.",
+        "La mention « La loi du neuf juin deux mille vingt‑trois encadre l'influence commerciale » est correcte mais aurait intérêt à renvoyer au texte (Loi n°2023-451) pour précision."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale et un exemple utile, mais omet une mise en garde essentielle du SOURCE DE VÉRITÉ : la responsabilité personnelle du créateur, y compris quand le message est fourni par l'annonceur. Cette omission laisse une zone de risque pour un créateur cherchant à monétiser.",
+        "Absence d'une phrase courte rappelant que le cadre évolue et qu'un avis juridique est recommandé avant toute monétisation impliquant des produits financiers."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format en beats pour Instagram Reels est respecté et la durée estimée (38 s) est plausible, mais rien n'assure que chaque plan/texte à l'écran reste lisible le temps nécessaire sur un format Reels rapide. Le script devrait préciser la durée approximative par beat pour garantir lisibilité.",
+        "Le CTA 'lien dans ma bio' est conforme aux usages d'Instagram."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont efficaces. Néanmoins la formule 'Prenez rendez-vous via le lien dans ma bio' peut être perçue comme orientant vers un conseil personnalisé ; il faut ajouter une phrase clarifiant que le rendez‑vous aboutira à une prestation professionnelle encadrée (si tel est le cas) ou rediriger vers une page d'information générale.",
+        "Le ton est direct mais gagnerait à indiquer brièvement qui peut délivrer un conseil (statut) pour accroître la crédibilité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et neutre, mais la CTA risque d'induire une demande de conseil personnalisé sans préciser le statut du professionnel proposé. Il faut éviter toute formulation qui puisse être lue comme fournissant du conseil personnalisé dans la vidéo elle‑même.",
+        "La mention légale finale est bonne, mais devrait apparaître aussi à l'écran si la durée/le format le permet."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Quelques libellés peuvent être précisés : remplacer 'conseil personnalisé' par 'recommandation personnalisée' pour coller au vocabulaire juridique utilisé dans la source.",
+        "La phrase 'La règle s'applique si le message vise la situation d'une personne et propose une action' peut être reformulée pour plus de clarté: 'La règle s'applique lorsque le message s'adresse à la situation d'une personne et lui propose une action concrète.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques incohérences mineures détectées à la relecture: la mention obligatoire des partenariats n'est pas illustrée dans le déroulé visuel (où l'afficher ?), et l'exemple chiffré ('cent mille euros par parent et par enfant') est correct mais pourrait être perçu comme lié à une recommandation si mal présenté ; il faut insister sur le caractère purement informatif de cet exemple.",
+        "La narration continue pourrait dépasser 38 s à l'oral sans pauses calculées ; prévoir ajustement de rythme ou réduction de texte à l'oral pour tenir la durée annoncée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes proposés sont appropriés, mais certains sont génériques ('pictogramme avertissement', 'pictogramme loi'). Il faut s'assurer que les icônes ne prêtent pas à confusion (par ex. éviter icônes de 'gains' pour parler d'interdiction) et qu'un label 'Publicité' soit prévu en cas de partenariat rémunéré pour rester visible.",
+        "Le pictogramme 'coffre' pour 'document légal' peut être ambigu ; privilégier une icône de document/juridique."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite d'un seul angle (pédagogie vs recommandation) et reste concise, mais manque l'exception évoquée dans la SOURCE DE VÉRITÉ concernant produits dont la promotion est restreinte (contrats hautement spéculatifs, crypto hors prestataires enregistrés). Ajouter une courte mention évitera une omission dangereuse.",
+        "L'exemple utile est présent mais l'absence d'un chiffre-source (référence L541-1 ou Loi n°2023-451) affaiblit la densité factuelle."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non-spécialiste, mais certains termes ('recommandation personnalisée') pourraient être définis très brièvement à l'écran pour faciliter la compréhension immédiate.",
+        "Il manque une phrase clarifiant ce que recouvre 'expliquer un mécanisme' (par ex. 'donner des informations générales, chiffrées ou méthodologiques, sans viser une situation individuelle')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes. Toutefois, le carton OUI/NON (beat 2) et la réponse 'Non.' (beat 3) doivent être extrêmement brefs pour maintenir le rythme ; sinon, la vidéo perdra en tension. Le script ne précise pas la durée allouée à ces éléments.",
+        "La progression est logique mais la transition vers le CTA doit conserver l'autorité sans donner l'impression d'une vente de conseil non encadrée."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux, mais pour renforcer la confiance il est recommandé d'ajouter la référence légale visible (ex : 'Loi n°2023-451 du 9 juin 2023') ou une mention courte du statut requis pour délivrer des conseils (conseiller en investissement financier).",
+        "Éviter toute formulation laissant penser que le rendez‑vous donnera automatiquement un conseil sans vérification du statut professionnel."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ est respectée globalement, mais le script ne précise pas clairement la gestion d'un partenariat rémunéré : si la vidéo est rémunérée, la mention obligatoire (« Publicité » ou « Collaboration commerciale ») doit être affichée à l'écran pendant toute la durée du Reels. Le script place la mention en section 'Mention' (probablement en légende) sans garantir visibilité continue à l'écran.",
+    "juridique_fiscal : Le point central est exact : la recommandation personnalisée suppose un statut réglementé (référence au Code monétaire et financier). Toutefois le script devrait citer explicitement le statut exact requis ('conseiller en investissement financier') et rappeler que certaines promotions de produits (contrats hautement spéculatifs, crypto hors prestataires enregistrés) peuvent être interdites, afin d'éviter une lecture incomplète.",
+    "juridique_fiscal : La mention « La loi du neuf juin deux mille vingt‑trois encadre l'influence commerciale » est correcte mais aurait intérêt à renvoyer au texte (Loi n°2023-451) pour précision.",
+    "completude : Le script couvre la règle principale et un exemple utile, mais omet une mise en garde essentielle du SOURCE DE VÉRITÉ : la responsabilité personnelle du créateur, y compris quand le message est fourni par l'annonceur. Cette omission laisse une zone de risque pour un créateur cherchant à monétiser.",
+    "completude : Absence d'une phrase courte rappelant que le cadre évolue et qu'un avis juridique est recommandé avant toute monétisation impliquant des produits financiers.",
+    "plateforme : Le format en beats pour Instagram Reels est respecté et la durée estimée (38 s) est plausible, mais rien n'assure que chaque plan/texte à l'écran reste lisible le temps nécessaire sur un format Reels rapide. Le script devrait préciser la durée approximative par beat pour garantir lisibilité.",
+    "plateforme : Le CTA 'lien dans ma bio' est conforme aux usages d'Instagram.",
+    "editorial : Accroche et progression sont efficaces. Néanmoins la formule 'Prenez rendez-vous via le lien dans ma bio' peut être perçue comme orientant vers un conseil personnalisé ; il faut ajouter une phrase clarifiant que le rendez‑vous aboutira à une prestation professionnelle encadrée (si tel est le cas) ou rediriger vers une page d'information générale.",
+    "editorial : Le ton est direct mais gagnerait à indiquer brièvement qui peut délivrer un conseil (statut) pour accroître la crédibilité.",
+    "securite : Le contenu est pédagogique et neutre, mais la CTA risque d'induire une demande de conseil personnalisé sans préciser le statut du professionnel proposé. Il faut éviter toute formulation qui puisse être lue comme fournissant du conseil personnalisé dans la vidéo elle‑même.",
+    "securite : La mention légale finale est bonne, mais devrait apparaître aussi à l'écran si la durée/le format le permet.",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Quelques libellés peuvent être précisés : remplacer 'conseil personnalisé' par 'recommandation personnalisée' pour coller au vocabulaire juridique utilisé dans la source.",
+    "formulation_professionnelle : La phrase 'La règle s'applique si le message vise la situation d'une personne et propose une action' peut être reformulée pour plus de clarté: 'La règle s'applique lorsque le message s'adresse à la situation d'une personne et lui propose une action concrète.'",
+    "contre_verification_finale : Quelques incohérences mineures détectées à la relecture: la mention obligatoire des partenariats n'est pas illustrée dans le déroulé visuel (où l'afficher ?), et l'exemple chiffré ('cent mille euros par parent et par enfant') est correct mais pourrait être perçu comme lié à une recommandation si mal présenté ; il faut insister sur le caractère purement informatif de cet exemple.",
+    "contre_verification_finale : La narration continue pourrait dépasser 38 s à l'oral sans pauses calculées ; prévoir ajustement de rythme ou réduction de texte à l'oral pour tenir la durée annoncée.",
+    "coherence_pictogrammes : La plupart des pictogrammes proposés sont appropriés, mais certains sont génériques ('pictogramme avertissement', 'pictogramme loi'). Il faut s'assurer que les icônes ne prêtent pas à confusion (par ex. éviter icônes de 'gains' pour parler d'interdiction) et qu'un label 'Publicité' soit prévu en cas de partenariat rémunéré pour rester visible.",
+    "coherence_pictogrammes : Le pictogramme 'coffre' pour 'document légal' peut être ambigu ; privilégier une icône de document/juridique.",
+    "densite_editoriale : La vidéo traite d'un seul angle (pédagogie vs recommandation) et reste concise, mais manque l'exception évoquée dans la SOURCE DE VÉRITÉ concernant produits dont la promotion est restreinte (contrats hautement spéculatifs, crypto hors prestataires enregistrés). Ajouter une courte mention évitera une omission dangereuse.",
+    "densite_editoriale : L'exemple utile est présent mais l'absence d'un chiffre-source (référence L541-1 ou Loi n°2023-451) affaiblit la densité factuelle.",
+    "pedagogie_client : Le script est compréhensible pour un non-spécialiste, mais certains termes ('recommandation personnalisée') pourraient être définis très brièvement à l'écran pour faciliter la compréhension immédiate.",
+    "pedagogie_client : Il manque une phrase clarifiant ce que recouvre 'expliquer un mécanisme' (par ex. 'donner des informations générales, chiffrées ou méthodologiques, sans viser une situation individuelle').",
+    "retention_attention : Les deux premières secondes (hook) sont fortes. Toutefois, le carton OUI/NON (beat 2) et la réponse 'Non.' (beat 3) doivent être extrêmement brefs pour maintenir le rythme ; sinon, la vidéo perdra en tension. Le script ne précise pas la durée allouée à ces éléments.",
+    "retention_attention : La progression est logique mais la transition vers le CTA doit conserver l'autorité sans donner l'impression d'une vente de conseil non encadrée.",
+    "conversion_confiance : Le ton inspire sérieux, mais pour renforcer la confiance il est recommandé d'ajouter la référence légale visible (ex : 'Loi n°2023-451 du 9 juin 2023') ou une mention courte du statut requis pour délivrer des conseils (conseiller en investissement financier).",
+    "conversion_confiance : Éviter toute formulation laissant penser que le rendez‑vous donnera automatiquement un conseil sans vérification du statut professionnel."
+  ],
+  "recommendations": [
+    "Ajouter une mention à l'écran pendant toute la durée de la vidéo si le contenu est réalisé dans le cadre d'un partenariat rémunéré : « Publicité » ou « Collaboration commerciale » (taille et position lisible sur mobile).",
+    "Préciser explicitement dans une phrase de la vidéo (et dans la légende) le statut requis pour délivrer une recommandation personnalisée : 'seul un conseiller en investissement financier peut fournir une recommandation personnalisée'. Référence : Code monétaire et financier, article L541-1 et Loi n°2023-451 du 9 juin 2023 (lien en légende).",
+    "Ajouter une courte mise en garde indiquant la responsabilité personnelle du créateur y compris si le message provient d'un annonceur : ex. 'Le créateur reste responsable du contenu diffusé, même si le message provient d'un annonceur.'",
+    "Inclure, en une phrase très courte, la mention des produits dont la promotion est restreinte (contrats financiers hautement spéculatifs, actifs numériques hors prestataires enregistrés) pour éviter toute omission problématique.",
+    "Reformuler oralement 'conseil personnalisé' en 'recommandation personnalisée' et ajouter une brève parenthèse explicative à l'écran: '(recommandation visant votre situation et proposant une action)'.",
+    "Garantir lisibilité et timing : préciser la durée approximative de chaque beat (ex. 3–6 s) et réduire le texte oral si nécessaire pour tenir les 38 s annoncés.",
+    "Remplacer pictogrammes ambigus par icônes claires et non suggestives : document/juridique pour la règle, label 'Publicité' pour les partenariats, icône balance ou livre pour l'exemple informatif.",
+    "Clarifier le CTA pour éviter ambiguïté sur la fourniture de conseils : par ex. 'Pour un point adapté avec un professionnel habilité, prenez rendez‑vous via le lien dans ma bio' ou 'Pour un rendez‑vous d'information, suivez le lien dans ma bio' selon le cas.",
+    "Ajouter en fin d'écran (ou en superposition) la référence légale brève: 'Loi n°2023-451 du 9 juin 2023 — Influence commerciale' et les liens complets dans la légende pour renforcer la crédibilité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-05:reels:conformite_influence_commerciale:0",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__reels__a2__v6.md"
+}

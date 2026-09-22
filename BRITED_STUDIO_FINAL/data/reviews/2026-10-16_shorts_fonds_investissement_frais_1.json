@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est bien citée mais contient une donnée marquée 'a_verifier' : l'affirmation chiffrée « un écart de frais de 1,5 % par an sur trente ans peut représenter plus d'un tiers du capital final » n'est pas explicitement sourcée ni accompagnée des hypothèses de rendement retenues. Il faut recalculer et préciser l'hypothèse de rendement nominal/real et la méthode (capitalisation composée) avant publication."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La référence au Code monétaire et financier (L214-1 et suivants) est pertinente, mais le script évoque le « document d'informations clés » sans utiliser la dénomination juridique exacte habituelle (ex. « document d'information clé pour l'investisseur » / DICI ou KID selon le cadre PRIIPs). Il convient de préciser la terminologie exacte applicable au produit (OPCVM vs PRIIPs) et, si utile, indiquer où le DIC/DICI/KID est disponible."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite correctement l'angle central, la condition et l'exception principale (superposition des frais). Cependant il manque une précision chiffrée vérifiée ou une phrase de substitution si le chiffre n'est pas confirmé ; sans cela l'exemple peut être perçu comme imprécis."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format « Shorts » et la structure en beats conviennent à la plateforme, mais la durée estimée à 42 secondes n'a pas été vérifiée au regard du texte prononcé. Il faut chronométrer la narration lue à vitesse normale pour confirmer que le montage respecte la durée visée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression solides. Trouver une formulation plus courte pour la phrase exemple (« la fiche signale... ») afin d'alléger la lecture et garantir fluidité en 42 s. Le CTA est clair mais pourrait être adouci pour éviter impression de pression commerciale ('Prenez rendez-vous' → 'Si vous voulez, prenez rendez-vous')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention de non-conseil en légende, ce qui est conforme. Toutefois l'invitation à prendre rendez-vous doit rester informative et sans promesse de performance ; veiller à ce que l'URL/lien dans la bio respecte la réglementation commerciale applicable (pas de promesse implicite)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel et professionnel. Quelques libellés pourraient être affinés : par exemple « la valeur liquidative publiée est déjà nette de frais » → garder mais préférer « la valeur liquidative publiée est déjà nette des frais de gestion » pour précision. Éviter la répétition 'document d'informations clés' sans article défini ou nom officiel."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Il manque une vérification mot-à-mot du timing parlé contre la durée cible et une relecture finale du libellé de l'exemple chiffré. La phrase sur l'impact de 1,5 % en 30 ans doit être explicitée ou remplacée par une formulation prudente si le calcul final n'est pas joint."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels proposés sont pertinents mais certains pictogrammes sont trop génériques (par ex. 'pictogramme point d'interrogation', 'icône valeur liquidative') et doivent clairement illustrer la notion : l'icône de valeur liquidative doit montrer la part avant/après déduction (ex. part + signe − ou courbe abaissée) pour éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste focalisée sur un seul angle, mais intègre un chiffre nécessitant vérification. Soit vérifier et préciser le chiffre, soit remplacer par une formulation non chiffrée pour conserver la densité sans risquer d'erreur factuelle."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est compréhensible pour un non-spécialiste, mais l'expression 'valeur liquidative' pourrait être brièvement expliquée en une demi-phrase ('prix d'une part du fonds') pour garantir compréhension au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est efficace. Pour maximiser rétention, réduire d'une courte phrase l'exemple chiffré ou scinder l'exemple en deux visuels pour alléger la charge cognitive durant la séquence."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et sources affichées inspirent confiance. Cependant l'utilisation d'un chiffre non vérifié affaiblit la crédibilité : corriger ou sourcer précisément l'exemple chiffré avant diffusion."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 126,
+      "seconds": 46.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 126,
+        "seconds": 46.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est bien citée mais contient une donnée marquée 'a_verifier' : l'affirmation chiffrée « un écart de frais de 1,5 % par an sur trente ans peut représenter plus d'un tiers du capital final » n'est pas explicitement sourcée ni accompagnée des hypothèses de rendement retenues. Il faut recalculer et préciser l'hypothèse de rendement nominal/real et la méthode (capitalisation composée) avant publication.",
+    "juridique_fiscal : La référence au Code monétaire et financier (L214-1 et suivants) est pertinente, mais le script évoque le « document d'informations clés » sans utiliser la dénomination juridique exacte habituelle (ex. « document d'information clé pour l'investisseur » / DICI ou KID selon le cadre PRIIPs). Il convient de préciser la terminologie exacte applicable au produit (OPCVM vs PRIIPs) et, si utile, indiquer où le DIC/DICI/KID est disponible.",
+    "completude : Le script traite correctement l'angle central, la condition et l'exception principale (superposition des frais). Cependant il manque une précision chiffrée vérifiée ou une phrase de substitution si le chiffre n'est pas confirmé ; sans cela l'exemple peut être perçu comme imprécis.",
+    "plateforme : Le format « Shorts » et la structure en beats conviennent à la plateforme, mais la durée estimée à 42 secondes n'a pas été vérifiée au regard du texte prononcé. Il faut chronométrer la narration lue à vitesse normale pour confirmer que le montage respecte la durée visée.",
+    "editorial : Accroche et progression solides. Trouver une formulation plus courte pour la phrase exemple (« la fiche signale... ») afin d'alléger la lecture et garantir fluidité en 42 s. Le CTA est clair mais pourrait être adouci pour éviter impression de pression commerciale ('Prenez rendez-vous' → 'Si vous voulez, prenez rendez-vous').",
+    "securite : Le script contient la mention de non-conseil en légende, ce qui est conforme. Toutefois l'invitation à prendre rendez-vous doit rester informative et sans promesse de performance ; veiller à ce que l'URL/lien dans la bio respecte la réglementation commerciale applicable (pas de promesse implicite).",
+    "formulation_professionnelle : Le français est globalement naturel et professionnel. Quelques libellés pourraient être affinés : par exemple « la valeur liquidative publiée est déjà nette de frais » → garder mais préférer « la valeur liquidative publiée est déjà nette des frais de gestion » pour précision. Éviter la répétition 'document d'informations clés' sans article défini ou nom officiel.",
+    "contre_verification_finale : Il manque une vérification mot-à-mot du timing parlé contre la durée cible et une relecture finale du libellé de l'exemple chiffré. La phrase sur l'impact de 1,5 % en 30 ans doit être explicitée ou remplacée par une formulation prudente si le calcul final n'est pas joint.",
+    "coherence_pictogrammes : Les visuels proposés sont pertinents mais certains pictogrammes sont trop génériques (par ex. 'pictogramme point d'interrogation', 'icône valeur liquidative') et doivent clairement illustrer la notion : l'icône de valeur liquidative doit montrer la part avant/après déduction (ex. part + signe − ou courbe abaissée) pour éviter ambiguïté.",
+    "densite_editoriale : La vidéo reste focalisée sur un seul angle, mais intègre un chiffre nécessitant vérification. Soit vérifier et préciser le chiffre, soit remplacer par une formulation non chiffrée pour conserver la densité sans risquer d'erreur factuelle.",
+    "pedagogie_client : Le message est compréhensible pour un non-spécialiste, mais l'expression 'valeur liquidative' pourrait être brièvement expliquée en une demi-phrase ('prix d'une part du fonds') pour garantir compréhension au premier passage.",
+    "retention_attention : Le hook est efficace. Pour maximiser rétention, réduire d'une courte phrase l'exemple chiffré ou scinder l'exemple en deux visuels pour alléger la charge cognitive durant la séquence.",
+    "conversion_confiance : Ton professionnel et sources affichées inspirent confiance. Cependant l'utilisation d'un chiffre non vérifié affaiblit la crédibilité : corriger ou sourcer précisément l'exemple chiffré avant diffusion."
+  ],
+  "recommendations": [
+    "Vérifier et préciser le calcul lié à l'exemple chiffré : expliciter l'hypothèse de rendement (par ex. rendement brut annuel de X %) et recalculer l'impact d'un écart de frais de 1,5 % sur 30 ans en capitalisation composée ; remplacer la phrase actuelle par le résultat chiffré vérifié ou par une formulation non chiffrée si le calcul n'est joint.",
+    "Préciser la terminologie juridique exacte pour le document qui indique les frais (ex. « document d'information clé pour l'investisseur – DICI » ou KID/PRIIPs selon le cas) et indiquer brièvement où le trouver (site de la société de gestion, prospectus, plateforme distributrice).",
+    "Chronométrer la narration lue à vitesse normale et ajuster le texte (raccourcir l'exemple ou réduire les mots) pour garantir que la vidéo reste dans la durée cible de 42 secondes.",
+    "Affiner quelques formulations pour la précision et la fluidité : remplacer 'valeur liquidative' une fois par 'prix d'une part (valeur liquidative)' lors de la première occurrence ; préciser 'frais de gestion' plutôt que 'frais' lorsque le contexte l'exige.",
+    "Adapter les pictogrammes pour qu'ils illustrent sans ambiguïté chaque concept : icône 'valeur liquidative' montrant part avant/après frais, schéma de prélèvement quotidien explicite (petites déductions répétées), et couches empilées clairement étiquetées 'fonds / contrat / mandat'.",
+    "Conserver la mention de non-conseil dans la légende et s'assurer que le CTA ne contient pas de promesse de résultats ; si rendez-vous payant ou lié à une activité réglementée, veiller à la conformité commerciale et indiquer la nature si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-16:shorts:fonds_investissement_frais:1",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a2__v7.md"
+}

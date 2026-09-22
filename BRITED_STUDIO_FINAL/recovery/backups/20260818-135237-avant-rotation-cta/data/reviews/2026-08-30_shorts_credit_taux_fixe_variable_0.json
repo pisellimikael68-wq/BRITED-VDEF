@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 133,
+      "seconds": 49.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 133,
+        "seconds": 49.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "c782006c5e1ce66b2a8c55f4d48998e9b7a0291324ce1d958328c77ba85c2b8a",
+      "adapted_hash": "c782006c5e1ce66b2a8c55f4d48998e9b7a0291324ce1d958328c77ba85c2b8a",
+      "source_beats": 6,
+      "adapted_pages": 9,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 40,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter, si l'espace écran le permet, une brève précision orale ou sur écran indiquant que le TAEG intègre assurance, frais de dossier et garantie (la source le précise).",
+    "Éventuellement expliciter très brièvement que « capé +1 » est généralement exprimé en points par rapport au taux initial (pour renforcer la clarté du micro‑exemple).",
+    "Vérifier que la mention légale/avertissement reste visible dans le format Shorts (sous forme de texte écran ou description) pour garder l'absence de conseil personnalisé bien claire."
+  ],
+  "reviewed_at": "2026-08-17T18:03:53",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-30:shorts:credit_taux_fixe_variable:0",
+  "script_path": "scripts/credit_immobilier/credit_taux_fixe_variable__shorts__a1__v2.md"
+}

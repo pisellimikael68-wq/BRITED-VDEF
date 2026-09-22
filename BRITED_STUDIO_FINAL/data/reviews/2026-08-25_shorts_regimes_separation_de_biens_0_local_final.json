@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.5,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 127,
+      "seconds": 47.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 9.5,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 6.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "06a2af2b548225dc7d48446176c567361414b6040a652264bd031870d692105b",
+      "adapted_hash": "06a2af2b548225dc7d48446176c567361414b6040a652264bd031870d692105b",
+      "source_beats": 6,
+      "adapted_pages": 6,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 32,
+      "warnings": [
+        "Densité élevée : police proche du minimum de sécurité"
+      ]
+    }
+  },
+  "errors": [],
+  "recommendations": [],
+  "reviewed_at": "2026-08-18T23:00:33",
+  "model": "ollama:qwen3:4b",
+  "publication_id": "2026-08-25:shorts:regimes_separation_de_biens:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_separation_de_biens__shorts__a1__v3.md"
+}

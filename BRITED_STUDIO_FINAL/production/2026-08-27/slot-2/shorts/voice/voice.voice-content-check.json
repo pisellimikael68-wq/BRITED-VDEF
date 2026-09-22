@@ -1,0 +1,91 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Le prélèvement forfaitaire unique à trente et un virgule quatre pour cent est il toujours le meilleur choix pour votre compte titres ?",
+      "transcript": "Le prélèvement forfaitaire unique à 31,4% est-il toujours le meilleur choix pour votre compte-titres ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0096,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+      "transcript": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.134,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "En deux mille vingt six, le PFU représente trente et un virgule quatre pour cent : douze virgule huit pour cent d'impôt sur le revenu et dix huit virgule six pour cent de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus values du foyer.",
+      "transcript": "En 2026, le PFU représente 31,4%, 12,8% d'impôts sur le revenu et 18,6% de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus-values du foyer.",
+      "similarity": 0.9825,
+      "missing": [
+        "impot"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "impots"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2889,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Prenons mille euros de dividendes éligibles. Avec le PFU : cent vingt huit euros d'impôt et cent quatre vingt six euros de prélèvements sociaux, soit trois cent quatorze euros. Avec une tranche à onze pour cent et l'abattement de quarante pour cent : soixante six euros d'impôt, plus cent quatre vingt six euros de prélèvements sociaux, soit deux cent cinquante deux euros avant l'effet ultérieur de la CSG déductible.",
+      "transcript": "Prenons 1000 euros de dividendes éligibles avec le PFU, 128 euros d'impôt et 186 euros de prélèvements sociaux, soit 314 euros, avec une tranche à 11% et l'abattement de 40%, 66 euros d'impôt, plus 104, 26 euros de prélèvements sociaux, soit 252 euros avant l'effet ultérieur de la CSG déductible.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.5198,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "L'abattement de quarante pour cent concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus values du foyer : il faut donc comparer la situation globale.",
+      "transcript": "L'abattement de 40% concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus-values du foyer. Il faut donc comparer la situation globale.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.4408,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "elevenlabs",
+  "voice_id": "jGpnMdbhtKgQbVrYezOx",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.62,
+    "similarity_boost": 0.82,
+    "style": 0.1,
+    "use_speaker_boost": true,
+    "speed": 1.0
+  },
+  "beat_hashes": {
+    "01_hook": "05370d8a37649385fe70c043508c0016f4d4e8734a41ba163b8e1c90303898a3",
+    "02_reponse": "a1e4cf8abae7a053098bae76f1761ce30373110c01b2cc481519c23f3f3ebcb0",
+    "03_regle": "bbdabe110b01896eeca1a303a8dac528fa59b0bf334cb03b6d22a7a337d7bc88",
+    "04_exemple": "6e1437a4390017a13cbbc77ffaad631e5f4c87312f636c2223aff63cd18e4ab8",
+    "05_nuance": "40ded32f21a137d6e162efaefd287057c02ddd2932b52f201f5dbf56ce48c742",
+    "06_cta": "1514b727cce46ed902e3cb3f786ef692560d182a3015d778b276f3ccf6d570b8"
+  },
+  "target_wpm": {
+    "hook": 190.0,
+    "question": 160.0,
+    "reponse": 158.0,
+    "regle": 174.0,
+    "precision": 168.0,
+    "exemple": 174.0,
+    "nuance": 165.0,
+    "cta": 184.0,
+    "default": 172.0
+  },
+  "key_storage": "macOS Keychain",
+  "api_key_recorded": false
+}

@@ -1,0 +1,182 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.33,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et apprentissage d'une règle utile avant l'appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La narration contient l'amorce 'Règle simple :' (ligne de narration et beat 4). La règle 'refuse les libellés de fabrication ou les amorces artificielles dans la narration' est explicite : cette formulation (« Règle : ») est bloquante et doit être supprimée ou reformulée de façon naturelle dans la voix off."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Présence de formulations télégraphiques / non prononçables en incrustation et texte d'exemple : 'Exemple : 30 ans — 1,5 %/an — peut =< >33% du capital final' et 'Frais =< déduits quotidiennement de la valeur liquidative' (incrustations). Ces libellés contiennent des symboles ('=<', '><') et une ponctuation non prononçable clairement à voix haute, contraire à la règle 'tout nombre doit pouvoir être prononcé comme un nombre français complet et naturel'.",
+        "La narration utilise l'amorce 'Règle simple :' (voir beat 4), contre la consigne qui interdit les amorces artificielles dans la voix."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme une personne sans aucune culture patrimoniale : situation familière, vocabulaire courant, terme technique immédiatement traduit, règle mémorisable, exemple parlant qui projette explicitement le spectateur dans la situation et point pratique compris au premier passage ; pour la Finance, la nature exacte du produit doit être nommée.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La phrase narrée 'Règle simple : la valeur liquidative publiée est déjà nette de frais — vous ne verrez donc aucune ligne « frais » sur votre relevé.' contient l'amorce 'Règle simple :' (bloquante selon la règle 'refuse les libellés de fabrication'). Cette amorce empêche le format d'être perçu comme une explication naturelle et pédagogique pour un non-spécialiste ; il faut reformuler sans le mot 'Règle'.",
+        "Le texte écran et l'incrustation chiffrée '30 ans — 1,5 %/an — peut =< >33% du capital final' utilise des symboles non verbalisés et une tournure approximative 'peut =< >33%' au lieu d'une formulation claire et prononçable ('peut représenter plus d'un tiers'), ce qui nuit à la vérifiabilité immédiate par le spectateur."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "impact_dynamique": {
+      "label": "Bloque tout script qui ressemble à un cours : exige un hook spécifique qui arrête le défilement, une valeur concrète dès la phrase suivante, des phrases nerveuses et une progression orale rapide sans sensationnalisme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que la vidéo apporte toute sa valeur avant le CTA et construit un vivier de prospects par la confiance, sans rétention d'information, peur artificielle, surpromesse ni pression commerciale.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "fluidite_orale": {
+      "label": "Lit le texte à voix haute mentalement et bloque toute formulation télégraphique, ponctuation cassante, répétition, liaison difficile ou enchaînement susceptible de produire une diction artificielle.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Présence d'amorces télégraphiques et de symboles non prononçables dans les textes à l'écran et la narration : 'Règle simple :' et 'Exemple chiffré : 30 ans — 1,5 %/an — peut =< >33% du capital final'. Ces éléments produiront des liaisons et des passages impossibles à prononcer naturellement et risquent de créer une diction heurtée.",
+        "La colonne 'Incrustations' contient 'Frais =< déduits quotidiennement de la valeur liquidative' : l'usage du signe '=< ' est inadapté pour une lecture orale fluide."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": false,
+      "score": 7.5,
+      "words": 138,
+      "seconds": 51.1,
+      "errors": [
+        "Narration continue différente de la concaténation des beats"
+      ],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 8.5,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Information complète sans contrainte de durée": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 0.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 8
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": false,
+        "score": 7.5,
+        "words": 138,
+        "seconds": 51.1,
+        "errors": [
+          "Narration continue différente de la concaténation des beats"
+        ],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": false
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "bb412cfb7abbb909654a4904a9a692cd70635531c067cad9cd8c8124d5a23ef4",
+      "adapted_hash": "bb412cfb7abbb909654a4904a9a692cd70635531c067cad9cd8c8124d5a23ef4",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 32,
+      "cta_normalized": false,
+      "warnings": [
+        "Densité élevée : police proche du minimum de sécurité"
+      ]
+    }
+  },
+  "errors": [
+    "Narration continue différente de la concaténation des beats",
+    "editorial : La narration contient l'amorce 'Règle simple :' (ligne de narration et beat 4). La règle 'refuse les libellés de fabrication ou les amorces artificielles dans la narration' est explicite : cette formulation (« Règle : ») est bloquante et doit être supprimée ou reformulée de façon naturelle dans la voix off.",
+    "contre_verification_finale : Présence de formulations télégraphiques / non prononçables en incrustation et texte d'exemple : 'Exemple : 30 ans — 1,5 %/an — peut =< >33% du capital final' et 'Frais =< déduits quotidiennement de la valeur liquidative' (incrustations). Ces libellés contiennent des symboles ('=<', '><') et une ponctuation non prononçable clairement à voix haute, contraire à la règle 'tout nombre doit pouvoir être prononcé comme un nombre français complet et naturel'.",
+    "contre_verification_finale : La narration utilise l'amorce 'Règle simple :' (voir beat 4), contre la consigne qui interdit les amorces artificielles dans la voix.",
+    "pedagogie_client : La phrase narrée 'Règle simple : la valeur liquidative publiée est déjà nette de frais — vous ne verrez donc aucune ligne « frais » sur votre relevé.' contient l'amorce 'Règle simple :' (bloquante selon la règle 'refuse les libellés de fabrication'). Cette amorce empêche le format d'être perçu comme une explication naturelle et pédagogique pour un non-spécialiste ; il faut reformuler sans le mot 'Règle'.",
+    "pedagogie_client : Le texte écran et l'incrustation chiffrée '30 ans — 1,5 %/an — peut =< >33% du capital final' utilise des symboles non verbalisés et une tournure approximative 'peut =< >33%' au lieu d'une formulation claire et prononçable ('peut représenter plus d'un tiers'), ce qui nuit à la vérifiabilité immédiate par le spectateur.",
+    "fluidite_orale : Présence d'amorces télégraphiques et de symboles non prononçables dans les textes à l'écran et la narration : 'Règle simple :' et 'Exemple chiffré : 30 ans — 1,5 %/an — peut =< >33% du capital final'. Ces éléments produiront des liaisons et des passages impossibles à prononcer naturellement et risquent de créer une diction heurtée.",
+    "fluidite_orale : La colonne 'Incrustations' contient 'Frais =< déduits quotidiennement de la valeur liquidative' : l'usage du signe '=< ' est inadapté pour une lecture orale fluide.",
+    "Performance plateforme : 8.5/10, seuil 10.0/10"
+  ],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte"
+  ],
+  "reviewed_at": "2026-09-09T10:13:35",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-09-09:tiktok:fonds_investissement_frais:0",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__tiktok__a1.md"
+}

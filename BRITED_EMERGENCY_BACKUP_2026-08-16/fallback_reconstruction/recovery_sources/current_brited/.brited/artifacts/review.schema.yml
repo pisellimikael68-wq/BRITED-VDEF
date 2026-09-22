@@ -1,0 +1,38 @@
+metadata:
+  schema: "1.0"
+
+review:
+
+  id: ""
+
+  status: pending
+
+  score: 0
+
+checks:
+
+  architecture: false
+
+  coding: false
+
+  testing: false
+
+  documentation: false
+
+issues: []
+
+recommendations: []
+
+approval:
+
+  reviewer: ""
+
+  approved: false
+
+validation:
+
+  required:
+
+    - status
+    - score
+    

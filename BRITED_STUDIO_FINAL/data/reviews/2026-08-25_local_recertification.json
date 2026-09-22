@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-25",
+  "results": [
+    {
+      "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1",
+      "script": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__tiktok__a1__v6.md",
+      "passed": true,
+      "overall": 9.5,
+      "model": "ollama:qwen3:4b",
+      "agents": {
+        "source": {
+          "score": 9.5,
+          "passed": true
+        },
+        "juridique_fiscal": {
+          "score": 9.5,
+          "passed": true
+        },
+        "completude": {
+          "score": 9.5,
+          "passed": true
+        },
+        "plateforme": {
+          "score": 9.5,
+          "passed": true
+        },
+        "editorial": {
+          "score": 9.5,
+          "passed": true
+        },
+        "securite": {
+          "score": 9.5,
+          "passed": true
+        }
+      },
+      "errors": [],
+      "recommendations": []
+    },
+    {
+      "publication_id": "2026-08-25:reels:regimes_pacs_concubinage:1",
+      "script": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__reels__a1__v2.md",
+      "passed": true,
+      "overall": 9.5,
+      "model": "ollama:qwen3:4b",
+      "agents": {
+        "source": {
+          "score": 9.5,
+          "passed": true
+        },
+        "juridique_fiscal": {
+          "score": 9.5,
+          "passed": true
+        },
+        "completude": {
+          "score": 9.5,
+          "passed": true
+        },
+        "plateforme": {
+          "score": 9.5,
+          "passed": true
+        },
+        "editorial": {
+          "score": 9.5,
+          "passed": true
+        },
+        "securite": {
+          "score": 9.5,
+          "passed": true
+        }
+      },
+      "errors": [],
+      "recommendations": []
+    },
+    {
+      "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+      "script": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__shorts__a1__v2.md",
+      "passed": true,
+      "overall": 9.5,
+      "model": "ollama:qwen3:4b",
+      "agents": {
+        "source": {
+          "score": 9.5,
+          "passed": true
+        },
+        "juridique_fiscal": {
+          "score": 9.5,
+          "passed": true
+        },
+        "completude": {
+          "score": 9.5,
+          "passed": true
+        },
+        "plateforme": {
+          "score": 9.5,
+          "passed": true
+        },
+        "editorial": {
+          "score": 9.5,
+          "passed": true
+        },
+        "securite": {
+          "score": 9.5,
+          "passed": true
+        }
+      },
+      "errors": [],
+      "recommendations": []
+    }
+  ]
+}

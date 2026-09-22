@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ est globalement respectée mais la mention « Durée estimée : 40s » n'est pas explicitée par des repères temporels dans le script (rythme des séquences).",
+        "La ligne « Part de l'assurance dans le coût total d'un crédit : jusqu'à un tiers » est présente dans la source comme 'à vérifier' et n'est pas mentionnée dans le script ; c'est cohérent mais la source signale une vérification à faire — indiquer explicitement que cette donnée n'est pas utilisée ou la supprimer pour éviter confusion."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la règle légale centrale (résiliation possible à tout moment si le contrat de substitution présente des garanties au moins équivalentes) et cite la Loi Lemoine. Toutefois, il omet de référencer explicitement l'article du Code des assurances (L113-12-2) dans la narration/texte écran — la fiche SOURCE DE VÉRITÉ cite cette référence comme source juridique.",
+        "La formulation « La banque doit répondre » est correcte mais pourrait être précisée (exiger une réponse motivée par écrit) — la clause est déjà dans le script mais la précision sur l'obligation de motivation écrite devrait être visible dans la séquence correspondante pour éviter toute ambiguïté juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition d'équivalence des garanties, l'exemple et l'exception du questionnaire de santé. En revanche il n'indique pas clairement que l'équivalence s'apprécie selon les critères définis par le CCSF ; omission potentiellement source d'ambiguïté pour l'utilisateur.",
+        "Absence d'une mention brève rappelant que la banque ne peut refuser que si les garanties sont inférieures et doit motiver son refus par écrit (la phrase existe mais la séquence 6 mélange deux informations et la priorité pédagogique devrait être de séparer clairement la condition de refus et l'obligation de motivation)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée de 40s paraît réaliste mais le script comporte 7 beats — il manque une suggestion de tempo (durée approximative par beat) pour s'assurer de tenir 40s sur un format Reels.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' est adapté à Instagram Reels. En revanche, la mention 'Bouton calendrier centré' peut prêter à confusion car Reels n'affiche pas de bouton cliquable ; il faudrait préciser visuellement 'Écran final : texte + animation bouton' plutôt que 'Bouton'."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire et progressive. Toutefois la première phrase du narratif continu commence par une série de questions qui peuvent alourdir la diction ; une version orale plus concise serait préférable (ex. 'Offre de prêt reçue ? Faut-il garder l'assurance ?').",
+        "Le script utilise l'acronyme 'OUI NON' en visuel — risqué en terme d'attention : privilégier une animation mettant en évidence 'OUI' sans trop de doublons visuels."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction de recommander un assureur ou de promettre des économies chiffrées. Cependant la mention finale 'Prenez rendez‑vous via le lien dans ma bio' peut être perçue comme commerciale — elle reste acceptable si le contenu reste pédagogique; recommander d'ajouter la mention légale déjà fournie en incrustation courte sur l'écran final pour renforcer la neutralité.",
+        "Absence de rappel explicite que le contenu n'est pas un conseil personnalisé dans l'écran final (la légende le contient), il serait prudent d'ajouter une courte ligne d'exclusion sur l'écran final pour la sécurité juridique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible mais quelques phrases de la narration continue sont longues et pourraient poser des problèmes de respiration à l'oral (ex. la phrase qui énumère la suppression du questionnaire de santé et les conditions).",
+        "Reformuler certaines phrases pour faciliter la prononciation en 40s (segmenter la phrase sur le questionnaire de santé en deux énoncés)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent, mais un alignement mot à mot entre l'énoncé oral et le texte écran est nécessaire sur la séquence 6 (le texte écran est long et risque d'être illisible en Reels).",
+        "Vérifier l'ordre des mots dans la légende pour éviter répétitions : la 'Note' sur le questionnaire apparaît à la fois dans la narration et le texte écran — alléger pour la lisibilité."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance picto/texte est globalement correcte mais quelques pictogrammes restent vagues : 'Icône loi + calendrier barré + balance garanties' fonctionne mais 'calendrier barré' peut être interprété comme 'interdit' plutôt que 'sans délai' — recommander un pictogramme 'horloge sans date' ou 'calendrier sans case cochée'.",
+        "Le pictogramme '200 000 € et 60 ans' doit être très clair (ex. '€200k' + '60 ans' stylisés) pour éviter toute confusion visuelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais la séquence 6 combine règle (refus motivé) et exception (questionnaire de santé) — pour respecter la densité demandée, ces deux éléments devraient être visuellement et verbalement distincts pour éviter surcharge d'information.",
+        "Le script n'inclut pas la mention CCSF (critères d'équivalence) qui est centrale pour comprendre l'obstacle principal ; son absence réduit la complétude éditoriale."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est conçu pour un non-spécialiste mais la notion d'« équivalence de garanties » mérite une brève explication simple (par ex. mentionner 'même couverture pour décès, invalidité et incapacité' — l'exemple existe mais il faudrait relier explicitement l'exemple au concept d'équivalence).",
+        "Le script présume que l'utilisateur sait ce qu'est la 'part assurée' lorsque mentionnant 'part assurée n'excède pas 200 000 €' — une formulation plus accessible serait 'si la part assurée de votre prêt est ≤ 200 000 € par personne'."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont bonnes ('Offre de prêt reçue ? Garder l'assurance ?') mais pourraient être renforcées par un micro-élément visuel fort (ex. jauge coût assurance vs crédit) pour maximiser la rétention.",
+        "Le rythme narratif doit garantir que la séquence 4 (règle) et la 6 (nuance + questionnaire) restent distinctes et assez courtes pour maintenir l'attention globale dans 40s."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et pédagogique. Toutefois l'appel à l'action orienté rendez-vous 'via le lien dans ma bio' sans préciser la nature (gratuit ? diagnostic ?) peut réduire la conversion ; une courte précision ('rdv gratuit d'évaluation') serait utile si cela est vrai, sinon l'éviter.",
+        "Ajouter la référence légale visible en petit sur l'écran final renforce la crédibilité (par ex. 'Loi Lemoine - Loi n°2022-270')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 115,
+      "seconds": 42.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ est globalement respectée mais la mention « Durée estimée : 40s » n'est pas explicitée par des repères temporels dans le script (rythme des séquences).",
+    "source : La ligne « Part de l'assurance dans le coût total d'un crédit : jusqu'à un tiers » est présente dans la source comme 'à vérifier' et n'est pas mentionnée dans le script ; c'est cohérent mais la source signale une vérification à faire — indiquer explicitement que cette donnée n'est pas utilisée ou la supprimer pour éviter confusion.",
+    "juridique_fiscal : Le script respecte la règle légale centrale (résiliation possible à tout moment si le contrat de substitution présente des garanties au moins équivalentes) et cite la Loi Lemoine. Toutefois, il omet de référencer explicitement l'article du Code des assurances (L113-12-2) dans la narration/texte écran — la fiche SOURCE DE VÉRITÉ cite cette référence comme source juridique.",
+    "juridique_fiscal : La formulation « La banque doit répondre » est correcte mais pourrait être précisée (exiger une réponse motivée par écrit) — la clause est déjà dans le script mais la précision sur l'obligation de motivation écrite devrait être visible dans la séquence correspondante pour éviter toute ambiguïté juridique.",
+    "completude : Le script couvre la règle centrale, la condition d'équivalence des garanties, l'exemple et l'exception du questionnaire de santé. En revanche il n'indique pas clairement que l'équivalence s'apprécie selon les critères définis par le CCSF ; omission potentiellement source d'ambiguïté pour l'utilisateur.",
+    "completude : Absence d'une mention brève rappelant que la banque ne peut refuser que si les garanties sont inférieures et doit motiver son refus par écrit (la phrase existe mais la séquence 6 mélange deux informations et la priorité pédagogique devrait être de séparer clairement la condition de refus et l'obligation de motivation).",
+    "plateforme : La durée estimée de 40s paraît réaliste mais le script comporte 7 beats — il manque une suggestion de tempo (durée approximative par beat) pour s'assurer de tenir 40s sur un format Reels.",
+    "plateforme : Le CTA 'Prenez rendez-vous via le lien dans ma bio' est adapté à Instagram Reels. En revanche, la mention 'Bouton calendrier centré' peut prêter à confusion car Reels n'affiche pas de bouton cliquable ; il faudrait préciser visuellement 'Écran final : texte + animation bouton' plutôt que 'Bouton'.",
+    "editorial : Accroche claire et progressive. Toutefois la première phrase du narratif continu commence par une série de questions qui peuvent alourdir la diction ; une version orale plus concise serait préférable (ex. 'Offre de prêt reçue ? Faut-il garder l'assurance ?').",
+    "editorial : Le script utilise l'acronyme 'OUI NON' en visuel — risqué en terme d'attention : privilégier une animation mettant en évidence 'OUI' sans trop de doublons visuels.",
+    "securite : Le script respecte l'interdiction de recommander un assureur ou de promettre des économies chiffrées. Cependant la mention finale 'Prenez rendez‑vous via le lien dans ma bio' peut être perçue comme commerciale — elle reste acceptable si le contenu reste pédagogique; recommander d'ajouter la mention légale déjà fournie en incrustation courte sur l'écran final pour renforcer la neutralité.",
+    "securite : Absence de rappel explicite que le contenu n'est pas un conseil personnalisé dans l'écran final (la légende le contient), il serait prudent d'ajouter une courte ligne d'exclusion sur l'écran final pour la sécurité juridique.",
+    "formulation_professionnelle : Le français est naturel et compréhensible mais quelques phrases de la narration continue sont longues et pourraient poser des problèmes de respiration à l'oral (ex. la phrase qui énumère la suppression du questionnaire de santé et les conditions).",
+    "formulation_professionnelle : Reformuler certaines phrases pour faciliter la prononciation en 40s (segmenter la phrase sur le questionnaire de santé en deux énoncés).",
+    "contre_verification_finale : Globalement cohérent, mais un alignement mot à mot entre l'énoncé oral et le texte écran est nécessaire sur la séquence 6 (le texte écran est long et risque d'être illisible en Reels).",
+    "contre_verification_finale : Vérifier l'ordre des mots dans la légende pour éviter répétitions : la 'Note' sur le questionnaire apparaît à la fois dans la narration et le texte écran — alléger pour la lisibilité.",
+    "coherence_pictogrammes : La correspondance picto/texte est globalement correcte mais quelques pictogrammes restent vagues : 'Icône loi + calendrier barré + balance garanties' fonctionne mais 'calendrier barré' peut être interprété comme 'interdit' plutôt que 'sans délai' — recommander un pictogramme 'horloge sans date' ou 'calendrier sans case cochée'.",
+    "coherence_pictogrammes : Le pictogramme '200 000 € et 60 ans' doit être très clair (ex. '€200k' + '60 ans' stylisés) pour éviter toute confusion visuelle.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais la séquence 6 combine règle (refus motivé) et exception (questionnaire de santé) — pour respecter la densité demandée, ces deux éléments devraient être visuellement et verbalement distincts pour éviter surcharge d'information.",
+    "densite_editoriale : Le script n'inclut pas la mention CCSF (critères d'équivalence) qui est centrale pour comprendre l'obstacle principal ; son absence réduit la complétude éditoriale.",
+    "pedagogie_client : Le contenu est conçu pour un non-spécialiste mais la notion d'« équivalence de garanties » mérite une brève explication simple (par ex. mentionner 'même couverture pour décès, invalidité et incapacité' — l'exemple existe mais il faudrait relier explicitement l'exemple au concept d'équivalence).",
+    "pedagogie_client : Le script présume que l'utilisateur sait ce qu'est la 'part assurée' lorsque mentionnant 'part assurée n'excède pas 200 000 €' — une formulation plus accessible serait 'si la part assurée de votre prêt est ≤ 200 000 € par personne'.",
+    "retention_attention : Les deux premières secondes (hook) sont bonnes ('Offre de prêt reçue ? Garder l'assurance ?') mais pourraient être renforcées par un micro-élément visuel fort (ex. jauge coût assurance vs crédit) pour maximiser la rétention.",
+    "retention_attention : Le rythme narratif doit garantir que la séquence 4 (règle) et la 6 (nuance + questionnaire) restent distinctes et assez courtes pour maintenir l'attention globale dans 40s.",
+    "conversion_confiance : Le ton est sérieux et pédagogique. Toutefois l'appel à l'action orienté rendez-vous 'via le lien dans ma bio' sans préciser la nature (gratuit ? diagnostic ?) peut réduire la conversion ; une courte précision ('rdv gratuit d'évaluation') serait utile si cela est vrai, sinon l'éviter.",
+    "conversion_confiance : Ajouter la référence légale visible en petit sur l'écran final renforce la crédibilité (par ex. 'Loi Lemoine - Loi n°2022-270')."
+  ],
+  "recommendations": [
+    "Ajouter une très courte précision visuelle/textuelle sur l'écran final indiquant que le contenu n'est pas un conseil personnalisé (ex. une ligne en incrustation : 'Contenu pédagogique, pas un conseil personnalisé').",
+    "Préciser la référence juridique secondaire sur un écran (Code des assurances art. L113-12-2) de manière lisible et brève, pour renforcer la solidité juridique.",
+    "Séparer clairement en deux beats distincts la règle sur le refus motivé par écrit et la mention du questionnaire de santé (séquence 6 -> 6a et 6b) pour alléger l'information et améliorer la compréhension en 40s.",
+    "Remplacer le pictogramme 'calendrier barré' par un visuel moins ambigu (horloge ou calendrier sans date spécifique) pour signifier 'sans condition de date'.",
+    "Ajouter une phrase très courte expliquant ce que signifie 'équivalence de garanties' (ex. 'même couverture décès, invalidité, incapacité') et rappeler brièvement que l'appréciation repose sur les critères du CCSF.",
+    "Dans la préparation de la vidéo, répartir approximativement le temps par beat (par ex. 5–6s pour l'hook, 4s pour la question, 3s pour la réponse courte, 10s pour la règle, 6–7s pour l'exemple, 6–7s pour la nuance et CTA) pour tenir la durée estimée de 40s.",
+    "Rendre le CTA final plus précis : si le rendez-vous est un bilan gratuit, l'indiquer; sinon garder 'Prenez rendez-vous via le lien dans ma bio' mais sans promesse tarifaire.",
+    "Alléger le texte écran de la séquence 6 pour qu'il reste lisible en moins de 2s par lecture, et conserver la formulation complète dans la légende écrite accompagnant le post."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-30:reels:credit_assurance_emprunteur_lemoine:1",
+  "script_path": "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__reels__a1__v5.md"
+}

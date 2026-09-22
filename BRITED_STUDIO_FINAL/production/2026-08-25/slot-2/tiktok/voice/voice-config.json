@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "734451bd5402914e1c72ec10069355dbff82f1d41df389539233c844efcdcd5d",
+  "beat_hashes": {
+    "hook": "742188326e98c2caa6c597155cb9715d55d93956dec8f7fd4560c55ab135b50a",
+    "question": "b355ad64b995bdf9eaf1f05bd3c34d2c683b5d966b2a91a1e9562258131d05d5",
+    "reponse": "bd760addb901a13f3ba2e9a86f5575acea217cd01fc2d5a667bd11492053c1ee",
+    "regle": "c0066c8b38f9d0d1021d0d51759b7cc90d6d223540a664f21775af517ba51947",
+    "exemple": "a8b03f78195c8f1cd929bab9566feb7fd017415003320d06df1fce366a146c48",
+    "nuance": "6e147dd8439a5e7d1abd89059d5f572565ba31aa50ea4223cfa6cc2126de062b",
+    "cta": "a38acb655f92d6105c664aaad7c3eb9f98da045b0c99c844c7409cb900d4971f"
+  },
+  "spoken_texts": {
+    "hook": "PACS ou concubinage : votre partenaire héritera t il automatiquement ?",
+    "question": "Selon vous, le partenaire pacsé devient il héritier sans testament ?",
+    "reponse": "Non. Le PACS exonère fiscalement, mais ne donne pas la qualité d'héritier.",
+    "regle": "Sans testament, le partenaire pacsé n'hérite pas. S'il reçoit un legs, l'article sept cent quatre-vingt-seize zéro bis l'exonère de droits de succession.",
+    "exemple": "Exemple : avec des enfants, sans testament la succession leur revient ; le partenaire pacsé ne reçoit rien dans la succession.",
+    "nuance": "Le concubin n'hérite pas non plus et son legs est taxé à soixante pour cent. Le testament reste limité par la réserve des enfants.",
+    "cta": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

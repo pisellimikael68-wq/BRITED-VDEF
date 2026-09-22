@@ -1,0 +1,94 @@
+{
+  "status": "complete",
+  "started_at": "2026-08-17T18:30:37",
+  "start": "2026-08-28",
+  "days": 1,
+  "platforms": [
+    "tiktok",
+    "reels"
+  ],
+  "remediation_round": 2,
+  "maximum_remediation_rounds": 3,
+  "items": [
+    {
+      "publication_id": "2026-08-28:tiktok:retraite_decote_surcote:0",
+      "date": "2026-08-28",
+      "slot": 1,
+      "platform": "tiktok",
+      "title": "Partir un trimestre trop tôt coûte à vie, pas une seule année",
+      "status": "certified",
+      "path": "scripts/retraite/retraite_decote_surcote__tiktok__a1__v14.md",
+      "error": "",
+      "review_path": "data/reviews/2026-08-28_tiktok_retraite_decote_surcote_0.json",
+      "completed_at": "2026-08-17T18:42:44",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "Script trop long : 135 mots (maximum 113) · Formulation interdite détectée : \\bLevéria\\b · source : Exemple chiffré erroné et contradictoire avec la source certifiée : la fiche source indique une décote par trimestre manquant de 0,625% (chiffres), or le script illustre un trimestre manquant par une perte de 100 €/mois (1 600 → 1 500 €), soit 6,25%. Cette divergence est factuelle et bloquante car le script introduit un taux implicite non présent dans la source.",
+          "path": "scripts/retraite/retraite_decote_surcote__tiktok__a1__v12.md",
+          "review_path": "data/reviews/2026-08-28_tiktok_retraite_decote_surcote_0.json"
+        },
+        {
+          "round": 1,
+          "error": "Script trop long : 123 mots (maximum 113) · Formulation interdite détectée : \\bLevéria\\b · Narration continue différente de la concaténation des beats",
+          "path": "scripts/retraite/retraite_decote_surcote__tiktok__a1__v13.md",
+          "review_path": "data/reviews/2026-08-28_tiktok_retraite_decote_surcote_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-08-28:reels:retraite_decote_surcote:0",
+      "date": "2026-08-28",
+      "slot": 1,
+      "platform": "reels",
+      "title": "Partir un trimestre trop tôt coûte à vie, pas une seule année",
+      "status": "certified",
+      "path": "scripts/retraite/retraite_decote_surcote__reels__a1__v5.md",
+      "error": "",
+      "review_path": "data/reviews/2026-08-28_reels_retraite_decote_surcote_0.json",
+      "completed_at": "2026-08-17T18:45:42",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "Narration continue différente de la concaténation des beats",
+          "path": "scripts/retraite/retraite_decote_surcote__reels__a1__v3.md",
+          "review_path": "data/reviews/2026-08-28_reels_retraite_decote_surcote_0.json"
+        },
+        {
+          "round": 1,
+          "error": "source : Le script cite le taux de décote (0,625% par trimestre) sans préciser la génération concernée. La fiche source indique explicitement dans 'a_ne_pas_dire' de ne pas citer de taux ni de durée sans préciser la génération (réforme 2023). Cette omission est bloquante. · source : La fiche source marque la valeur 0,625% comme 'a_verifier'. Le script présente ce chiffre comme une donnée factuelle sans mentionner la nécessité de vérification. · juridique_fiscal : La mention chiffrée '0,625% par trimestre' est donnée sans la précision générationnelle requise par la fiche ('Ne pas citer de taux ni de durée sans préciser la génération concernée'). Cela peut induire en erreur juridique/fiscal en laissant penser à une règle universelle.",
+          "path": "scripts/retraite/retraite_decote_surcote__reels__a1__v4.md",
+          "review_path": "data/reviews/2026-08-28_reels_retraite_decote_surcote_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-08-28:tiktok:conformite_influence_commerciale:1",
+      "date": "2026-08-28",
+      "slot": 2,
+      "platform": "tiktok",
+      "title": "Parler d'argent en ligne est une activité réglementée",
+      "status": "certified",
+      "path": "scripts/conformite/conformite_influence_commerciale__tiktok__a1__v3.md",
+      "error": ""
+    },
+    {
+      "publication_id": "2026-08-28:reels:conformite_influence_commerciale:1",
+      "date": "2026-08-28",
+      "slot": 2,
+      "platform": "reels",
+      "title": "Parler d'argent en ligne est une activité réglementée",
+      "status": "certified",
+      "path": "scripts/conformite/conformite_influence_commerciale__reels__a1.md",
+      "error": ""
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "certified": 4,
+    "blocked": 0,
+    "pending": 0
+  },
+  "remediation_started_at": "2026-08-17T18:40:08",
+  "completed_at": "2026-08-17T18:45:42"
+}

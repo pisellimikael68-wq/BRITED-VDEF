@@ -1,0 +1,198 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.24,
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "safe_zones": true
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Vous envisagez de changer de régime matrimonial ?",
+      "tokens": [
+        "Vous",
+        "envisagez",
+        "de",
+        "changer",
+        "de",
+        "régime",
+        "matrimonial",
+        "?"
+      ],
+      "token_count": 8,
+      "speech_duration": 2.298,
+      "full_text_visible_at": 2.068,
+      "hold_after_full_text": 2.295
+    },
+    {
+      "id": "question",
+      "source_text": "Selon vous, l’acte notarié suffit-il ?",
+      "tokens": [
+        "Selon",
+        "vous,",
+        "l’acte",
+        "notarié",
+        "suffit-il",
+        "?"
+      ],
+      "token_count": 6,
+      "speech_duration": 2.041,
+      "full_text_visible_at": 1.837,
+      "hold_after_full_text": 3.023
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+      "tokens": [
+        "Non.",
+        "L’acte",
+        "est",
+        "indispensable,",
+        "mais",
+        "d’autres",
+        "étapes",
+        "sont",
+        "obligatoires."
+      ],
+      "token_count": 9,
+      "speech_duration": 3.013,
+      "full_text_visible_at": 2.712,
+      "hold_after_full_text": 0.504
+    },
+    {
+      "id": "regle",
+      "source_text": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+      "tokens": [
+        "Les",
+        "enfants",
+        "majeurs",
+        "et",
+        "les",
+        "créanciers",
+        "sont",
+        "informés.",
+        "Ils",
+        "disposent",
+        "de",
+        "trois",
+        "mois",
+        "pour",
+        "s’opposer."
+      ],
+      "token_count": 15,
+      "speech_duration": 3.856,
+      "full_text_visible_at": 3.47,
+      "hold_after_full_text": 0.588
+    },
+    {
+      "id": "precision",
+      "source_text": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+      "tokens": [
+        "En",
+        "cas",
+        "d’opposition,",
+        "le",
+        "tribunal",
+        "homologue",
+        "l’acte.",
+        "Pour",
+        "un",
+        "mineur,",
+        "le",
+        "notaire",
+        "peut",
+        "saisir",
+        "le",
+        "juge",
+        "si",
+        "ses",
+        "intérêts",
+        "semblent",
+        "menacés."
+      ],
+      "token_count": 21,
+      "speech_duration": 5.054,
+      "full_text_visible_at": 4.549,
+      "hold_after_full_text": 0.708
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "entrepreneur",
+        "choisit",
+        "la",
+        "séparation",
+        "de",
+        "biens",
+        "pour",
+        "isoler",
+        "son",
+        "conjoint",
+        "du",
+        "risque",
+        "professionnel."
+      ],
+      "token_count": 16,
+      "speech_duration": 4.763,
+      "full_text_visible_at": 4.287,
+      "hold_after_full_text": 0.679
+    },
+    {
+      "id": "nuance",
+      "source_text": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+      "tokens": [
+        "Le",
+        "changement",
+        "peut",
+        "nécessiter",
+        "de",
+        "liquider",
+        "l’ancien",
+        "régime",
+        "et",
+        "avoir",
+        "des",
+        "conséquences",
+        "fiscales."
+      ],
+      "token_count": 13,
+      "speech_duration": 3.661,
+      "full_text_visible_at": 3.295,
+      "hold_after_full_text": 2.148
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 3.337,
+      "full_text_visible_at": 3.004,
+      "hold_after_full_text": 0.334
+    }
+  ]
+}

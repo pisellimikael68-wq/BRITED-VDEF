@@ -1,0 +1,193 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation «Avec l'abattement de 100 000 € par parent, un couple transmet ce bien à un enfant sans aucun droit de donation.» : factuellement correcte mais imprécise — il faut préciser que cet abattement est un abattement applicable par parent et par enfant et qu'il est renouvelable tous les 15 ans (article and practice), afin d'éviter une lecture absolue. Localisation : narration, phrase exemple."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque la précision sur la nature irrévocable de la donation de nue-propriété et sur ses conséquences successorales en cas de donation entre vifs : indiquer explicitement que la donation est irrévocable et que la reconstitution de la pleine propriété à l'extinction de l'usufruit s'effectue sans droits supplémentaires (mentionnée ailleurs mais non citée comme règle fiscale). Localisation : section 'nuance' et narration finale.",
+        "Absence de rappel que le barème de l'article 669 s'applique à la donation d'usufruit ou de nue-propriété mais que des évaluations particulières peuvent s'appliquer (ex. usufruit viager vs temporaire) — préciser condition d'application (usufruit viager lié à l'âge). Localisation : regle (beat 4)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Omission d'une mention rapide sur l'impact éventuel sur l'ISF/IFI ou la fiscalité des revenus locatifs pendant l'usufruit (qui restent à l'usufruitier) : même si la vidéo est courte, une phrase très brève type «les revenus restent imposés au nom de l'usufruitier» éviterait une omission dangereuse. Localisation : beat 3-4.",
+        "L'exemple numérique ne rappelle pas que l'abattement de 100 000 € est par parent et par enfant et qu'il peut être utilisé tous les 15 ans — c'est une condition importante au caractère «sans droits». Localisation : beat 5."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : le texte courant (narration) pourrait dépasser 38s à l'oral. Recommander de mesurer la lecture à voix haute et d'ajuster le rythme ou de réduire une phrase. Localisation : méta (durée) et narration continue.",
+        "Visuel / texte écran : quelques écrans contiennent trop de chiffres (beat 5) — risque de surcharge visuelle dans un Reels très court ; suggérer de scinder ou d'animer progressivement les chiffres. Localisation : beat 5 visuel/texte."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais la transition «Choix : OUI / NON» peut paraître superflue et ralentir l'accroche ; proposer une version plus directe pour conserver les 2 premières secondes d'attention. Localisation : beat 1-2.",
+        "CTA correct mais mentionner explicitement que c'est un contenu pédagogique dans l'écran final pour la conformité (la légende existe mais n'est pas dans le reel). Localisation : beat 7."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La légende indique que ce n'est pas un conseil personnalisé, mais dans la vidéo la formulation «transmission possible sans droits» peut être interprétée comme une promesse : recommander d'ajouter verbalement ou en texte court «sous conditions» ou «selon situation» pour éviter sur-promesse. Localisation : beat 5 narration et beat 7 CTA."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être affinées pour la diction orale : ex. «la nue-propriété évaluée 60 %, soit 180 000 € transmis fiscalement» → préférer «la nue‑propriété représente 60 %, soit 180 000 € pris en compte pour la donation» pour la clarté et la prononciation. Localisation : beat 5 narration.",
+        "Phrase «La donation est irrévocable» est correcte mais brute ; suggérer légère reformulation «La donation de nue‑propriété est irrévocable : vous ne pouvez pas la reprendre». Localisation : beat 6."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre «À son décès, l'usufruit s'éteint. L'enfant devient plein propriétaire des 300 000 €, sans droits supplémentaires.» et l'absence dans le script de la précision que la reconstitution est automatique et sans fiscalité supplémentaire — recommander aligner exactement cette phrase dans l'audio et l'écran 'nuance'. Localisation : narration et beat 6.",
+        "Vérifier une lecture à voix haute complète pour garantir respect strict du temps et fluidité entre beats 2→3 et 5→6."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme pour 'vente requiert accord' proposé comme deux silhouettes se serrant la main — ce pictogramme peut laisser penser à accord amiable alors qu'il faut préciser l'exigence d'autorisation formelle ; recommander un pictogramme montrant une signature conjointe ou deux mains tenant un document pour plus de clarté. Localisation : beat 6 visuel.",
+        "Pictogramme 'acte' au beat 3 : vérifier que l'image illustre un acte notarié (sceau/acte) plutôt qu'un document vague."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo tient un seul angle mais contient deux messages importants : avantage fiscal et contrainte de vente/irrévocabilité. Recommander de condenser la phrase sur l'abattement ou d'omettre un détail secondaire pour garder rythme. Localisation : global (beats 4-6)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Termes comme «nue-propriété» et «usufruit» sont expliqués succinctement en début de fiche mais la vidéo ne définit pas les termes avant de les employer — suggérer ajouter une brève phrase explicative («l'usufruit = usage et loyers; la nue‑propriété = la propriété à terme») très rapide dans les premières secondes. Localisation : beat 3-4.",
+        "Le public non spécialiste peut confondre 'transmis fiscalement' et 'reçu économiquement' — recommander reformuler en 'valeur prise en compte pour le calcul des droits'. Localisation : beat 5."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Premières deux secondes efficaces, mais l'écran 'Choix : OUI / NON' prend du temps sans ajouter d'information ; cela réduit la progression de curiosité. Recommander remplacer par un cut plus rapide ou une animation. Localisation : beat 2.",
+        "Le rythme du beat 5 (chiffres) doit être ralenti ou fractionné en deux écrans pour être correctement lu et compris dans un Reels court."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux respecté mais manque d'une citation explicite d'une source à l'écran (ex. 'Article 669 CGI') pour renforcer crédibilité pendant l'énoncé du barème. Localisation : beat 4 visuel/texte.",
+        "CTA bien présent mais pourrait gagner en crédibilité par une phrase ajoutée courte: 'Analyse personnalisée en rendez-vous' pour rappeler l'absence de conseil personnalisé. Localisation : beat 7."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 101,
+      "seconds": 37.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Formulation «Avec l'abattement de 100 000 € par parent, un couple transmet ce bien à un enfant sans aucun droit de donation.» : factuellement correcte mais imprécise — il faut préciser que cet abattement est un abattement applicable par parent et par enfant et qu'il est renouvelable tous les 15 ans (article and practice), afin d'éviter une lecture absolue. Localisation : narration, phrase exemple.",
+    "juridique_fiscal : Manque la précision sur la nature irrévocable de la donation de nue-propriété et sur ses conséquences successorales en cas de donation entre vifs : indiquer explicitement que la donation est irrévocable et que la reconstitution de la pleine propriété à l'extinction de l'usufruit s'effectue sans droits supplémentaires (mentionnée ailleurs mais non citée comme règle fiscale). Localisation : section 'nuance' et narration finale.",
+    "juridique_fiscal : Absence de rappel que le barème de l'article 669 s'applique à la donation d'usufruit ou de nue-propriété mais que des évaluations particulières peuvent s'appliquer (ex. usufruit viager vs temporaire) — préciser condition d'application (usufruit viager lié à l'âge). Localisation : regle (beat 4).",
+    "completude : Omission d'une mention rapide sur l'impact éventuel sur l'ISF/IFI ou la fiscalité des revenus locatifs pendant l'usufruit (qui restent à l'usufruitier) : même si la vidéo est courte, une phrase très brève type «les revenus restent imposés au nom de l'usufruitier» éviterait une omission dangereuse. Localisation : beat 3-4.",
+    "completude : L'exemple numérique ne rappelle pas que l'abattement de 100 000 € est par parent et par enfant et qu'il peut être utilisé tous les 15 ans — c'est une condition importante au caractère «sans droits». Localisation : beat 5.",
+    "plateforme : Durée estimée 38 secondes : le texte courant (narration) pourrait dépasser 38s à l'oral. Recommander de mesurer la lecture à voix haute et d'ajuster le rythme ou de réduire une phrase. Localisation : méta (durée) et narration continue.",
+    "plateforme : Visuel / texte écran : quelques écrans contiennent trop de chiffres (beat 5) — risque de surcharge visuelle dans un Reels très court ; suggérer de scinder ou d'animer progressivement les chiffres. Localisation : beat 5 visuel/texte.",
+    "editorial : Hook fort mais la transition «Choix : OUI / NON» peut paraître superflue et ralentir l'accroche ; proposer une version plus directe pour conserver les 2 premières secondes d'attention. Localisation : beat 1-2.",
+    "editorial : CTA correct mais mentionner explicitement que c'est un contenu pédagogique dans l'écran final pour la conformité (la légende existe mais n'est pas dans le reel). Localisation : beat 7.",
+    "securite : La légende indique que ce n'est pas un conseil personnalisé, mais dans la vidéo la formulation «transmission possible sans droits» peut être interprétée comme une promesse : recommander d'ajouter verbalement ou en texte court «sous conditions» ou «selon situation» pour éviter sur-promesse. Localisation : beat 5 narration et beat 7 CTA.",
+    "formulation_professionnelle : Quelques formulations peuvent être affinées pour la diction orale : ex. «la nue-propriété évaluée 60 %, soit 180 000 € transmis fiscalement» → préférer «la nue‑propriété représente 60 %, soit 180 000 € pris en compte pour la donation» pour la clarté et la prononciation. Localisation : beat 5 narration.",
+    "formulation_professionnelle : Phrase «La donation est irrévocable» est correcte mais brute ; suggérer légère reformulation «La donation de nue‑propriété est irrévocable : vous ne pouvez pas la reprendre». Localisation : beat 6.",
+    "contre_verification_finale : Incohérence mineure entre «À son décès, l'usufruit s'éteint. L'enfant devient plein propriétaire des 300 000 €, sans droits supplémentaires.» et l'absence dans le script de la précision que la reconstitution est automatique et sans fiscalité supplémentaire — recommander aligner exactement cette phrase dans l'audio et l'écran 'nuance'. Localisation : narration et beat 6.",
+    "contre_verification_finale : Vérifier une lecture à voix haute complète pour garantir respect strict du temps et fluidité entre beats 2→3 et 5→6.",
+    "coherence_pictogrammes : Pictogramme pour 'vente requiert accord' proposé comme deux silhouettes se serrant la main — ce pictogramme peut laisser penser à accord amiable alors qu'il faut préciser l'exigence d'autorisation formelle ; recommander un pictogramme montrant une signature conjointe ou deux mains tenant un document pour plus de clarté. Localisation : beat 6 visuel.",
+    "coherence_pictogrammes : Pictogramme 'acte' au beat 3 : vérifier que l'image illustre un acte notarié (sceau/acte) plutôt qu'un document vague.",
+    "densite_editoriale : La vidéo tient un seul angle mais contient deux messages importants : avantage fiscal et contrainte de vente/irrévocabilité. Recommander de condenser la phrase sur l'abattement ou d'omettre un détail secondaire pour garder rythme. Localisation : global (beats 4-6).",
+    "pedagogie_client : Termes comme «nue-propriété» et «usufruit» sont expliqués succinctement en début de fiche mais la vidéo ne définit pas les termes avant de les employer — suggérer ajouter une brève phrase explicative («l'usufruit = usage et loyers; la nue‑propriété = la propriété à terme») très rapide dans les premières secondes. Localisation : beat 3-4.",
+    "pedagogie_client : Le public non spécialiste peut confondre 'transmis fiscalement' et 'reçu économiquement' — recommander reformuler en 'valeur prise en compte pour le calcul des droits'. Localisation : beat 5.",
+    "retention_attention : Premières deux secondes efficaces, mais l'écran 'Choix : OUI / NON' prend du temps sans ajouter d'information ; cela réduit la progression de curiosité. Recommander remplacer par un cut plus rapide ou une animation. Localisation : beat 2.",
+    "retention_attention : Le rythme du beat 5 (chiffres) doit être ralenti ou fractionné en deux écrans pour être correctement lu et compris dans un Reels court.",
+    "conversion_confiance : Ton sérieux respecté mais manque d'une citation explicite d'une source à l'écran (ex. 'Article 669 CGI') pour renforcer crédibilité pendant l'énoncé du barème. Localisation : beat 4 visuel/texte.",
+    "conversion_confiance : CTA bien présent mais pourrait gagner en crédibilité par une phrase ajoutée courte: 'Analyse personnalisée en rendez-vous' pour rappeler l'absence de conseil personnalisé. Localisation : beat 7."
+  ],
+  "recommendations": [
+    "Préciser dans l'exemple et l'énoncé que l'abattement de 100 000 € est un abattement par parent et par enfant, renouvelable tous les 15 ans, afin d'éviter une lecture généralisante («sans droits»).",
+    "Ajouter en une courte phrase définition simple et orale des termes 'usufruit' (usage et revenus) et 'nue‑propriété' (propriété à terme) avant d'évoquer l'article 669.",
+    "Alléger ou supprimer l'écran 'Choix : OUI / NON' pour gagner les 2 premières secondes d'attention et respecter la durée 38s ; fractionner l'écran chiffré (beat 5) en deux plans pour faciliter la lecture.",
+    "Reformuler la phrase sur la transmission fiscale : utiliser 'valeur prise en compte pour le calcul des droits' au lieu de 'transmis fiscalement' pour éviter toute confusion.",
+    "Ajouter un texte court à l'écran indiquant la source lors de l'énoncé du barème (ex. 'Article 669 CGI') et, verbalement ou en texte, ajouter «sous conditions» à la mention «sans droits».",
+    "Remplacer le pictogramme d'accord par un visuel montrant la signature conjointe d'un document pour illustrer la nécessité d'un accord formel en cas de vente.",
+    "Faire une répétition chronométrée de la narration pour vérifier que la lecture à voix haute tient bien dans 38 secondes et corriger tout excès de mots (notamment beats 2 et 5).",
+    "Ajouter en voix ou en texte final une brève précision rappelant l'absence de conseil personnalisé et invitant au rendez-vous pour une analyse personnalisée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-01:reels:demembrement_bareme_669:0",
+  "script_path": "scripts/demembrement/demembrement_bareme_669__reels__a5__v6.md"
+}

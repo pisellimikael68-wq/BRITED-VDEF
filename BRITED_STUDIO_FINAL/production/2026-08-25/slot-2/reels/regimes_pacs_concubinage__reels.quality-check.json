@@ -1,0 +1,384 @@
+{
+  "passed": false,
+  "failures": [
+    "fluidité orale : mesure du débit absente sur une ou plusieurs pages"
+  ],
+  "expected_duration": 41.7,
+  "target_duration": [
+    35,
+    48
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 41.703,
+      "peak": 0.84268,
+      "rms": 0.14064,
+      "dc": 0.000151,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 4.8e-05
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.023,
+        "peak": 0.98837,
+        "rms": 0.09303,
+        "dc": 2.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.702,
+        "peak": 0.98981,
+        "rms": 0.10455,
+        "dc": 3.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.78,
+        "peak": 0.98993,
+        "rms": 0.1311,
+        "dc": 1.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 4.7e-06
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.056,
+        "peak": 0.98993,
+        "rms": 0.12568,
+        "dc": 1e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.856,
+        "peak": 0.98953,
+        "rms": 0.1292,
+        "dc": 2.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.735,
+        "peak": 0.85284,
+        "rms": 0.10528,
+        "dc": 8.6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "paxe ou concubinage : que recevra votre partenaire à votre décès ?",
+        "transcript": "Pax ou concubinage, que recevra votre partenaire à votre décès.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9706,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Sans testament, ni le partenaire paxée ni le concubin n'héritent automatiquement.",
+        "transcript": "Sans testament, ni le partenaire paxé ni le concubin n'héritent automatiquement.",
+        "similarity": 0.9167,
+        "missing": [
+          "pacse"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "pacs"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.025,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Le paxe ne donne pas la qualité, d'héritier. Mais si un testament prévoit un legs, l'article sept cent quatre-vingt-seize zéro bis exonère totalement le partenaire paxée de droits de succession.",
+        "transcript": "Le Pax ne donne pas la qualité des héritiers. Mais si un testament prévoit un lègue, l'article 796 0 bis exonère totalement le partenaire paxé de droit de succession.",
+        "similarity": 0.9118,
+        "missing": [
+          "d",
+          "heritier",
+          "pacse"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "des",
+          "heritiers",
+          "pacs"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2374,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : avec des enfants, sans testament la succession leur revient ; le partenaire paxée ne reçoit rien dans la succession et peut rester en indivision sur le logement.",
+        "transcript": "Exemple, avec des enfants, sans testament la succession leur revient, le partenaire Paxé ne reçoit rien dans la succession et peut rester en indivision sur le logement.",
+        "similarity": 0.963,
+        "missing": [
+          "pacse"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "pacs"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.36,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Le concubin n'hérite pas non plus et son legs est taxé à soixante pour cent selon l'article sept cent soixante-dix-sept. Tout testament reste limité par la réserve héréditaire des enfants.",
+        "transcript": "Le concubin n'élite pas non plus et son leg est taxé à 60% selon l'article 777. Tout testament reste limité par la réserve héréditaire des enfants.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1938,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine.",
+        "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0825,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": false,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [],
+    "failures": [
+      "mesure du débit absente sur une ou plusieurs pages"
+    ]
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Grand point d'interrogation + pictogramme personne",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "heart-handshake"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Icône balance + icône %",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "code",
+          "scale",
+          "file-signature"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Maison en indivision, pictogrammes enfants + maison",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "baby",
+          "users",
+          "house"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Icône contrat + calendrier 1 an",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

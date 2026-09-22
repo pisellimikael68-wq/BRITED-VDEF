@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "ff7c96a7a34faa35fd2ed9ef0bbbcc4251f13a8c41eade59086ab54091a6f719",
+      "adapted_hash": "ff7c96a7a34faa35fd2ed9ef0bbbcc4251f13a8c41eade59086ab54091a6f719",
+      "source_beats": 7,
+      "adapted_pages": 10,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Optionnel : ajouter brièvement la réserve Sapin 2 (suspension exceptionnelle et très rare des rachats) en texte écran ou voix off pour couvrir la nuance de disponibilité absolue des fonds, sans alourdir le script principal."
+  ],
+  "reviewed_at": "2026-08-17T15:27:49",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:tiktok:assurance_vie_abattement_8ans:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_abattement_8ans__tiktok__a1.md"
+}

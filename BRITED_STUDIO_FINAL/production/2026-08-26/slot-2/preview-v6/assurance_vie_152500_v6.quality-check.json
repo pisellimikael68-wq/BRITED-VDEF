@@ -1,0 +1,422 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 50.9,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 50.902,
+      "peak": 0.84183,
+      "rms": 0.15554,
+      "dc": 8.8e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.668,
+        "peak": 0.79404,
+        "rms": 0.11925,
+        "dc": 5.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.043,
+        "peak": 0.5975,
+        "rms": 0.11111,
+        "dc": 7.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 15.717,
+        "peak": 0.7944,
+        "rms": 0.12922,
+        "dc": 4.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.215,
+        "peak": 0.79434,
+        "rms": 0.13308,
+        "dc": 6.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 10.913,
+        "peak": 0.79419,
+        "rms": 0.1133,
+        "dc": 6.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.884,
+        "peak": 0.76364,
+        "rms": 0.12845,
+        "dc": 7.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Votre contrat d’assurance vie peut il transmettre cent cinquante-deux mille cinq cents euros à chacun de vos bénéficiaires sans prélèvement ?",
+        "transcript": "Votre contrat d'assurance vie peut-il transmettre 152 500 euros à chacun de vos bénéficiaires sans prélèvement ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0833,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Oui, pour les capitaux correspondant aux primes versées avant les soixante-dix ans de l’assuré.",
+        "transcript": "Oui, pour les capitaux correspondant aux primes versées avant les 70 ans de l'assuré.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Chaque bénéficiaire dispose alors d’un abattement de cent cinquante-deux mille cinq cents euros, tous contrats confondus. Au delà, le prélèvement est de vingt pour cent, puis de trente et un virgule vingt cinq pour cent au dessus de sept cent mille euros.",
+        "transcript": "Chaque bénéficiaire dispose alors d'un abattement de 152 500 euros, tous contrats confondus. Au-delà, le prélèvement est de 20%, puis de 30 et 1,25% au-dessus de 700 000 euros.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2397,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Avec trois bénéficiaires distincts, cela peut représenter jusqu’à quatre cent cinquante-sept mille cinq cents euros d’abattements cumulés.",
+        "transcript": "Avec trois bénéficiaires distinctes, cela peut représenter jusqu'à 457 500 euros d'abattement cumulé.",
+        "similarity": 0.85,
+        "missing": [
+          "distincts",
+          "abattements",
+          "cumules"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "distinctes",
+          "abattement",
+          "cumule"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0392,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Après soixante-dix ans, le régime change : l’article sept cent cinquante-sept B prévoit un abattement global de trente mille cinq cents euros sur les primes, partagé entre les bénéficiaires.",
+        "transcript": "Après 70 ans, le régime change. L'article 757B prévoit un abattement global de 30 500 euros sur les primes partagées entre les bénéficiaires.",
+        "similarity": 0.9677,
+        "missing": [
+          "partage"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "partagees"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1575,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      222.3,
+      178.5,
+      164.2,
+      173.8,
+      164.9,
+      208.8
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Contrat d’assurance-vie relié à trois bénéficiaires, montant central 152 500 €",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "adaptatif",
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "label_checks": [],
+        "labels_ok": true,
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Trois contrats convergent vers un bénéficiaire, puis paliers 20 % et 31,25 %",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          405,
+          672,
+          775
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Trois bénéficiaires, chacun associé à 152 500 €, calcul 3 × 152 500 €",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Calendrier 70+, enveloppe commune 30 500 €, plusieurs bénéficiaires",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

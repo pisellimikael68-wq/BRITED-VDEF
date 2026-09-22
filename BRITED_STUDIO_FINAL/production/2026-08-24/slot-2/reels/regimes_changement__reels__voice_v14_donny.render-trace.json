@@ -1,0 +1,312 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "header_fingerprint": "b8b1324cd608f2f45bea7995ae9dd2e665a38d365abaf0dc2c0e84df530d0aa4"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Vous envisagez de changer de régime matrimonial ?",
+      "tokens": [
+        "Vous",
+        "envisagez",
+        "de",
+        "changer",
+        "de",
+        "régime",
+        "matrimonial",
+        "?"
+      ],
+      "token_count": 8,
+      "speech_duration": 2.389,
+      "full_text_visible_at": 2.15,
+      "hold_after_full_text": 1.139,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "landmark",
+          "scale"
+        ],
+        "font_size": 56,
+        "overlap": false
+      }
+    },
+    {
+      "id": "question",
+      "source_text": "Selon vous, l’acte notarié suffit-il ?",
+      "tokens": [
+        "Selon",
+        "vous,",
+        "l’acte",
+        "notarié",
+        "suffit-il",
+        "?"
+      ],
+      "token_count": 6,
+      "speech_duration": 2.264,
+      "full_text_visible_at": 2.038,
+      "hold_after_full_text": 1.962,
+      "visual_layout": null
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+      "tokens": [
+        "Non.",
+        "L’acte",
+        "est",
+        "indispensable,",
+        "mais",
+        "d’autres",
+        "étapes",
+        "sont",
+        "obligatoires."
+      ],
+      "token_count": 9,
+      "speech_duration": 3.421,
+      "full_text_visible_at": 3.079,
+      "hold_after_full_text": 0.562,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+      "tokens": [
+        "Les",
+        "enfants",
+        "majeurs",
+        "et",
+        "les",
+        "créanciers",
+        "sont",
+        "informés.",
+        "Ils",
+        "disposent",
+        "de",
+        "trois",
+        "mois",
+        "pour",
+        "s’opposer."
+      ],
+      "token_count": 15,
+      "speech_duration": 5.161,
+      "full_text_visible_at": 4.645,
+      "hold_after_full_text": 0.736,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          480,
+          672,
+          699
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "users",
+          "calendar"
+        ],
+        "font_size": 48,
+        "overlap": false
+      }
+    },
+    {
+      "id": "precision",
+      "source_text": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+      "tokens": [
+        "En",
+        "cas",
+        "d’opposition,",
+        "le",
+        "tribunal",
+        "homologue",
+        "l’acte.",
+        "Pour",
+        "un",
+        "mineur,",
+        "le",
+        "notaire",
+        "peut",
+        "saisir",
+        "le",
+        "juge",
+        "si",
+        "ses",
+        "intérêts",
+        "semblent",
+        "menacés."
+      ],
+      "token_count": 21,
+      "speech_duration": 7.492,
+      "full_text_visible_at": 6.743,
+      "hold_after_full_text": 0.969,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scale",
+          "shield-check",
+          "users"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "entrepreneur",
+        "choisit",
+        "la",
+        "séparation",
+        "de",
+        "biens",
+        "pour",
+        "isoler",
+        "son",
+        "conjoint",
+        "du",
+        "risque",
+        "professionnel."
+      ],
+      "token_count": 16,
+      "speech_duration": 5.186,
+      "full_text_visible_at": 4.667,
+      "hold_after_full_text": 0.739,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "heart-handshake",
+          "shield-check"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+      "tokens": [
+        "Le",
+        "changement",
+        "peut",
+        "nécessiter",
+        "de",
+        "liquider",
+        "l’ancien",
+        "régime",
+        "et",
+        "avoir",
+        "des",
+        "conséquences",
+        "fiscales."
+      ],
+      "token_count": 13,
+      "speech_duration": 4.72,
+      "full_text_visible_at": 4.248,
+      "hold_after_full_text": 1.372,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          480,
+          672,
+          699
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scale",
+          "banknote"
+        ],
+        "font_size": 48,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.992,
+      "full_text_visible_at": 5.393,
+      "hold_after_full_text": 0.599,
+      "visual_layout": null
+    }
+  ]
+}

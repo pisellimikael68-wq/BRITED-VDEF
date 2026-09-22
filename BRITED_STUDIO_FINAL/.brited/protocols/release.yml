@@ -1,0 +1,32 @@
+metadata:
+  schema: "1.0"
+
+protocol:
+
+  id: release
+
+trigger:
+
+  event: release_requested
+
+pipeline:
+
+  - id: reviewer
+    produces:
+      - final_review
+
+  - id: tester
+    requires:
+      - final_review
+    produces:
+      - release_validation
+
+completion:
+
+  success:
+    - release_approved
+
+failure:
+
+  - release_blocked
+  

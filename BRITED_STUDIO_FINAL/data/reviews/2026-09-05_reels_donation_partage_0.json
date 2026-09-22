@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est respectée globalement, mais le script écrit «200000 euros» sans espace insécable entre le nombre et l'unité (typographie française).",
+        "Le libellé «tous les héritiers réservataires y participent (ex. : les enfants)» précise 'ex.' qui peut laisser croire que les réservataires sont toujours les enfants — il faudrait préciser que les héritiers réservataires sont ceux prévus par la loi (enfants, etc.) pour éviter toute ambiguïté."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte les articles cités mais omet de rappeler qu'il s'agit d'une condition cumulative : la présence et l'attribution d'un lot à chaque héritier réservataire — il est dit «y participent» mais la précision 'reçoivent un lot' devrait être explicite dans la narration pour coller à l'article 1075.",
+        "La mention «La fiscalité reste ordinaire» est trop vague : il faudrait préciser que la donation-partage est soumise aux droits de mutation à titre gratuit et aux abattements applicables, sans donner de conseil personnalisé."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et une exception, mais n'indique pas la forme obligatoire (acte notarié) dès le premier passage informatif — l'acte notarié n'apparaît qu'à la ligne visuelle; dans la narration il est mentionné mais manque la formulation explicite 'acte notarié obligatoire' dès l'annonce de la règle.",
+        "L'exemple chiffré est bon, mais il n'indique pas explicitement que les valeurs sont figées 'au jour de l'acte' pour l'exemple (la colonne montre l'évolution, mais la narration devrait répéter 'figées au jour de l'acte' pour l'exemple)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est pertinent mais la question «Faut-il s'inquiéter ?» suivie immédiatement de «Oui.» est brutale et risque de paraître alarmiste — proposer une version légèrement adoucie améliorerait le ton ('Oui, dans certains cas.').",
+        "Le CTA renvoie au lien en bio, adapté à Instagram Reels, mais l'incitation pourrait paraître commerciale si le créateur n'est pas un professionnel habilité ; ajouter 'pour un bilan personnalisé avec un notaire' clarifierait la destination."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La légende contient la mention de non-conseil mais le script CTA 'Prenez rendez-vous via le lien dans ma bio' peut être interprété comme incitation à obtenir un conseil personnalisé — il faudrait ajouter clairement que la prise de rendez-vous sert à un entretien avec un professionnel (notaire/conseiller) et que la vidéo n'est pas un conseil.",
+        "Aucun élément de contenu médical/risque; cependant, l'énoncé 'des écarts manifestes entre lots peuvent être contestés' gagnerait à préciser que cela dépend des circonstances et du juge pour éviter d'induire une certitude juridique excessive."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour un français naturel : remplacer 'si tous les héritiers réservataires y participent (ex. : les enfants)' par 'à condition que tous les héritiers réservataires (par exemple : les enfants) y participent'.",
+        "La phrase finale du bloc narration est longue et accumule trop d'informations — la scinder améliorerait la compréhension orale en 35–43 s."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre visuel et narration : la forme obligatoire 'acte notarié' figure au visuel, mais la narration la cite rapidement — il faut veiller à la synchro mot à mot pour que l'énoncé juridique majeur soit bien entendu.",
+        "La question OUI / NON visuelle (beat 2) n'est reprise verbalement de façon suffisamment explicite pour un spectateur qui regarde sans son — le texte écran existe mais la narration devrait laisser 1 seconde de pause ou répéter 'Oui' en visible/sonore pour l'accessibilité."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais le beat 2 (question OUI/NON) apporte peu d'information utile et occupe du temps précieux ; envisager de fusionner beat 2 et 3 pour respecter la contrainte de durée.",
+        "Le script contient tous les éléments requis (règle, condition, exception, exemple), mais la durée estimée (35–43 s) risque d'être dépassée si les phrases longues ne sont pas raccourcies."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept d'«héritier réservataire» n'est pas défini pour un non-spécialiste — ajouter une brève parenthèse 'héritiers dont la loi garantit une part (généralement les enfants)' aiderait la compréhension.",
+        "L'exemple chiffré est utile mais ne mentionne pas explicitement que la donation-partage évite la réévaluation : la phrase 'chacun garde son lot' doit être directement reliée à la règle de figement pour renforcer l'apprentissage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes visuellement mais la transition vers la question OUI/NON peut casser l'élan ; une reformulation plus directe (hook + phrase d'accroche immédiatement explicative) renforcerait la rétention.",
+        "Le «nuance» final énumère trois points dans une seule phrase longue — cela peut perdre l'auditeur ; scinder en deux petites phrases améliorerait la mémorisation."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton global inspire sérieux, mais l'absence d'indication claire du professionnel destinataire du rendez-vous (notaire, avocat) peut réduire la confiance; préciser la nature du rendez-vous (bilan avec notaire) renforcerait la conversion.",
+        "Éviter la sensation de 'vente' en ajoutant que le rendez-vous permet uniquement un examen de la situation et qu'il sera personnalisé et payant si applicable."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est respectée globalement, mais le script écrit «200000 euros» sans espace insécable entre le nombre et l'unité (typographie française).",
+    "source : Le libellé «tous les héritiers réservataires y participent (ex. : les enfants)» précise 'ex.' qui peut laisser croire que les réservataires sont toujours les enfants — il faudrait préciser que les héritiers réservataires sont ceux prévus par la loi (enfants, etc.) pour éviter toute ambiguïté.",
+    "juridique_fiscal : Le script respecte les articles cités mais omet de rappeler qu'il s'agit d'une condition cumulative : la présence et l'attribution d'un lot à chaque héritier réservataire — il est dit «y participent» mais la précision 'reçoivent un lot' devrait être explicite dans la narration pour coller à l'article 1075.",
+    "juridique_fiscal : La mention «La fiscalité reste ordinaire» est trop vague : il faudrait préciser que la donation-partage est soumise aux droits de mutation à titre gratuit et aux abattements applicables, sans donner de conseil personnalisé.",
+    "completude : Le script couvre la règle centrale, la condition et une exception, mais n'indique pas la forme obligatoire (acte notarié) dès le premier passage informatif — l'acte notarié n'apparaît qu'à la ligne visuelle; dans la narration il est mentionné mais manque la formulation explicite 'acte notarié obligatoire' dès l'annonce de la règle.",
+    "completude : L'exemple chiffré est bon, mais il n'indique pas explicitement que les valeurs sont figées 'au jour de l'acte' pour l'exemple (la colonne montre l'évolution, mais la narration devrait répéter 'figées au jour de l'acte' pour l'exemple).",
+    "editorial : Le hook est pertinent mais la question «Faut-il s'inquiéter ?» suivie immédiatement de «Oui.» est brutale et risque de paraître alarmiste — proposer une version légèrement adoucie améliorerait le ton ('Oui, dans certains cas.').",
+    "editorial : Le CTA renvoie au lien en bio, adapté à Instagram Reels, mais l'incitation pourrait paraître commerciale si le créateur n'est pas un professionnel habilité ; ajouter 'pour un bilan personnalisé avec un notaire' clarifierait la destination.",
+    "securite : La légende contient la mention de non-conseil mais le script CTA 'Prenez rendez-vous via le lien dans ma bio' peut être interprété comme incitation à obtenir un conseil personnalisé — il faudrait ajouter clairement que la prise de rendez-vous sert à un entretien avec un professionnel (notaire/conseiller) et que la vidéo n'est pas un conseil.",
+    "securite : Aucun élément de contenu médical/risque; cependant, l'énoncé 'des écarts manifestes entre lots peuvent être contestés' gagnerait à préciser que cela dépend des circonstances et du juge pour éviter d'induire une certitude juridique excessive.",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour un français naturel : remplacer 'si tous les héritiers réservataires y participent (ex. : les enfants)' par 'à condition que tous les héritiers réservataires (par exemple : les enfants) y participent'.",
+    "formulation_professionnelle : La phrase finale du bloc narration est longue et accumule trop d'informations — la scinder améliorerait la compréhension orale en 35–43 s.",
+    "contre_verification_finale : Incohérence mineure entre visuel et narration : la forme obligatoire 'acte notarié' figure au visuel, mais la narration la cite rapidement — il faut veiller à la synchro mot à mot pour que l'énoncé juridique majeur soit bien entendu.",
+    "contre_verification_finale : La question OUI / NON visuelle (beat 2) n'est reprise verbalement de façon suffisamment explicite pour un spectateur qui regarde sans son — le texte écran existe mais la narration devrait laisser 1 seconde de pause ou répéter 'Oui' en visible/sonore pour l'accessibilité.",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais le beat 2 (question OUI/NON) apporte peu d'information utile et occupe du temps précieux ; envisager de fusionner beat 2 et 3 pour respecter la contrainte de durée.",
+    "densite_editoriale : Le script contient tous les éléments requis (règle, condition, exception, exemple), mais la durée estimée (35–43 s) risque d'être dépassée si les phrases longues ne sont pas raccourcies.",
+    "pedagogie_client : Le concept d'«héritier réservataire» n'est pas défini pour un non-spécialiste — ajouter une brève parenthèse 'héritiers dont la loi garantit une part (généralement les enfants)' aiderait la compréhension.",
+    "pedagogie_client : L'exemple chiffré est utile mais ne mentionne pas explicitement que la donation-partage évite la réévaluation : la phrase 'chacun garde son lot' doit être directement reliée à la règle de figement pour renforcer l'apprentissage.",
+    "retention_attention : Les deux premières secondes sont fortes visuellement mais la transition vers la question OUI/NON peut casser l'élan ; une reformulation plus directe (hook + phrase d'accroche immédiatement explicative) renforcerait la rétention.",
+    "retention_attention : Le «nuance» final énumère trois points dans une seule phrase longue — cela peut perdre l'auditeur ; scinder en deux petites phrases améliorerait la mémorisation.",
+    "conversion_confiance : Le ton global inspire sérieux, mais l'absence d'indication claire du professionnel destinataire du rendez-vous (notaire, avocat) peut réduire la confiance; préciser la nature du rendez-vous (bilan avec notaire) renforcerait la conversion.",
+    "conversion_confiance : Éviter la sensation de 'vente' en ajoutant que le rendez-vous permet uniquement un examen de la situation et qu'il sera personnalisé et payant si applicable."
+  ],
+  "recommendations": [
+    "Typographie : utiliser un espace insécable entre nombres et 'euros' (ex. '200 000 €').",
+    "Clarifier dès la règle que l'effet de figement suppose que 'chaque héritier réservataire reçoit un lot' et que l'acte est obligatoirement notarié (formulation explicite dans la narration).",
+    "Préciser brièvement qui sont les héritiers réservataires (parenthèse pédagogique : 'généralement les enfants') pour un public non spécialiste.",
+    "Alléger et scinder les phrases longues de la narration (notamment la phrase finale du bloc narration et la nuance) pour respecter la durée cible et améliorer la compréhension orale.",
+    "Adoucir légèrement le ton du hook/réponse ('Oui, dans certains cas') pour éviter l'alarmisme tout en restant percutant.",
+    "Concrétiser la CTA : préciser 'prendre rendez‑vous avec un notaire (lien en bio)' et rappeler que la vidéo n'est pas un conseil personnalisé.",
+    "Synchroniser visuel/narration sur l'énoncé 'acte notarié obligatoire' et envisager de fusionner beat 2 et 3 pour gagner du temps.",
+    "Rendre explicite dans l'exemple que les valeurs sont 'figées au jour de l'acte' pour éviter toute ambiguïté.",
+    "Remplacer 'fiscalité reste ordinaire' par une formulation plus précise et prudente : 'La donation‑partage demeure soumise aux droits de donation et aux abattements légaux.'",
+    "Reformuler et fractionner la séquence 'nuance' en 2 à 3 phrases courtes pour faciliter la mémorisation et l'accessibilité (sous‑titres et vision sans son)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-05:reels:donation_partage:0",
+  "script_path": "scripts/donation/donation_partage__reels__a1__v3.md"
+}

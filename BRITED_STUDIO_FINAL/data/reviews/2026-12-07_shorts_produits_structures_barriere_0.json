@@ -1,0 +1,188 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement les faits fournis par la fiche BRITED et cite les sources, mais la narration comporte deux occurrences de \"si il\" (incorrect) au lieu de \"s'il\" — faute grammaticale affectant la fidélité mot à mot.",
+        "La mention des sources est correcte dans la fiche, mais il manque une recommandation explicite d'afficher les URLs citées dans la description de la vidéo (pour conformité et traçabilité)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction d'utiliser le mot « garanti » et inclut la mention du risque de défaut de l'émetteur et la clause de non‑conseil en légende. Toutefois, l'appel à rendez‑vous (« Prenez rendez‑vous via le lien dans ma bio ») peut être perçu comme une incitation commerciale : il convient d'ajouter explicitement que ce rendez‑vous n'est ni un conseil personnalisé diffusé dans la vidéo ni une recommandation d'investissement (la légende le mentionne, mais l'énoncé oral devrait aussi contenir une phrase succincte de non‑conseil ou la laisser clairement dans la description)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception et un exemple chiffré, mais n'indique pas explicitement que la barrière est vérifiée à l'échéance (la phrase l'implique, mais il faut préciser \"à l'échéance\" dans la ligne d'exemple pour éviter toute ambiguïté).",
+        "Absence d'une phrase courte précisant que la revente avant échéance peut entraîner un prix de marché défavorable (l'erreur fréquente 'illiquidité' est listée dans la fiche mais absente du script)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte le format court et l'ordre des séquences. Durée estimée (44 s) paraît cohérente, mais il manque une vérification du tempo sur la lecture orale pour s'assurer que toutes les phrases tiennent dans 44 s (notamment l'exemple et la nuance).",
+        "Sur YouTube Shorts, les URLs ne sont cliquables dans la description courte ; recommander d'indiquer clairement où trouver les sources (description étendue) et le lien de rendez‑vous."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires, mais le beat 2 'Non.' isolé est efficace visuellement — verbalement il peut nécessiter une micro‑phrase de transition pour fluidité (ex. « Non, attention. »).",
+        "La formulation de l'exemple contient la faute 'si il' et une répétition possible : améliorer la fluidité en transformant l'exemple en une seule phrase concise."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et neutre, avec clause de non‑conseil en légende. Toutefois, l'appel oral au rendez‑vous pourrait être interprété comme un contact commercial ; il faut veiller à ne pas offrir de recommandations spécifiques lors du rendez‑vous sans qualification appropriée (rappel à inclure dans la procédure derrière le CTA)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Présence de fautes grammaticales: deux occurrences de \"si il\" au lieu de \"s'il\"; contraction et ponctuation à revoir pour français naturel (par ex. « si il perd 39 %, le capital est préservé » → « s'il perd 39 %, le capital est préservé »).",
+        "Certaines phrases gagneraient en clarté avec légères reformulations pour la prononciation et l'intonation en voix off (ex. la phrase sur la barrière tout ou rien peut être raccourcie)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Sens général cohérent, mais des corrections mineures sont nécessaires: orthographe/ponctuation (\"si il\" → \"s'il\"), préciser \"vérifiée à l'échéance\" dans l'exemple, ajouter brève mention de l'illiquidité pour la revente avant échéance.",
+        "Vérifier que les visuels proposés correspondent mot à mot aux phrases finales après correction grammaticale."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et contient la règle centrale, l'exception, l'exemple chiffré et la nuance. Toutefois, l'absence d'une phrase rapide sur l'illiquidité (revente avant échéance) constitue une omission par rapport à la densité attendue.",
+        "Recommander de conserver la concision tout en ajoutant cette unique courte phrase."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est accessible mais le terme 'sous‑jacent' pourrait surprendre un non‑spécialiste : proposer en parenthèse 'valeur/indice sous‑jacent' ou remplacer par 'l'indice ou la valeur suivie'.",
+        "L'exemple chiffré est pertinent, mais la phrase doit être corrigée grammaticalement pour être comprise au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort (question directe). Le gros 'NON' visuel est efficace. Veiller toutefois à ce que la transition de l'accroche vers la réponse soit légèrement plus naturelle à l'oral (éviter un silence trop long après le 'NON').",
+        "La durée estimée nécessite un test de lecture pour garantir le tempo et la respiration, sinon risque de surcharge."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et sérieux, mention des sources et clause de non‑conseil renforce la confiance. Cependant, l'appel au rendez‑vous doit rester non pressant et accompagné d'une note sur l'absence de conseil personnalisé dans la vidéo (à dire ou afficher brièvement) pour éviter surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement les faits fournis par la fiche BRITED et cite les sources, mais la narration comporte deux occurrences de \"si il\" (incorrect) au lieu de \"s'il\" — faute grammaticale affectant la fidélité mot à mot.",
+    "source : La mention des sources est correcte dans la fiche, mais il manque une recommandation explicite d'afficher les URLs citées dans la description de la vidéo (pour conformité et traçabilité).",
+    "juridique_fiscal : Le script respecte l'interdiction d'utiliser le mot « garanti » et inclut la mention du risque de défaut de l'émetteur et la clause de non‑conseil en légende. Toutefois, l'appel à rendez‑vous (« Prenez rendez‑vous via le lien dans ma bio ») peut être perçu comme une incitation commerciale : il convient d'ajouter explicitement que ce rendez‑vous n'est ni un conseil personnalisé diffusé dans la vidéo ni une recommandation d'investissement (la légende le mentionne, mais l'énoncé oral devrait aussi contenir une phrase succincte de non‑conseil ou la laisser clairement dans la description).",
+    "completude : Le script couvre la règle centrale, l'exception et un exemple chiffré, mais n'indique pas explicitement que la barrière est vérifiée à l'échéance (la phrase l'implique, mais il faut préciser \"à l'échéance\" dans la ligne d'exemple pour éviter toute ambiguïté).",
+    "completude : Absence d'une phrase courte précisant que la revente avant échéance peut entraîner un prix de marché défavorable (l'erreur fréquente 'illiquidité' est listée dans la fiche mais absente du script).",
+    "plateforme : Le script respecte le format court et l'ordre des séquences. Durée estimée (44 s) paraît cohérente, mais il manque une vérification du tempo sur la lecture orale pour s'assurer que toutes les phrases tiennent dans 44 s (notamment l'exemple et la nuance).",
+    "plateforme : Sur YouTube Shorts, les URLs ne sont cliquables dans la description courte ; recommander d'indiquer clairement où trouver les sources (description étendue) et le lien de rendez‑vous.",
+    "editorial : Accroche et progression claires, mais le beat 2 'Non.' isolé est efficace visuellement — verbalement il peut nécessiter une micro‑phrase de transition pour fluidité (ex. « Non, attention. »).",
+    "editorial : La formulation de l'exemple contient la faute 'si il' et une répétition possible : améliorer la fluidité en transformant l'exemple en une seule phrase concise.",
+    "securite : Le contenu est pédagogique et neutre, avec clause de non‑conseil en légende. Toutefois, l'appel oral au rendez‑vous pourrait être interprété comme un contact commercial ; il faut veiller à ne pas offrir de recommandations spécifiques lors du rendez‑vous sans qualification appropriée (rappel à inclure dans la procédure derrière le CTA).",
+    "formulation_professionnelle : Présence de fautes grammaticales: deux occurrences de \"si il\" au lieu de \"s'il\"; contraction et ponctuation à revoir pour français naturel (par ex. « si il perd 39 %, le capital est préservé » → « s'il perd 39 %, le capital est préservé »).",
+    "formulation_professionnelle : Certaines phrases gagneraient en clarté avec légères reformulations pour la prononciation et l'intonation en voix off (ex. la phrase sur la barrière tout ou rien peut être raccourcie).",
+    "contre_verification_finale : Sens général cohérent, mais des corrections mineures sont nécessaires: orthographe/ponctuation (\"si il\" → \"s'il\"), préciser \"vérifiée à l'échéance\" dans l'exemple, ajouter brève mention de l'illiquidité pour la revente avant échéance.",
+    "contre_verification_finale : Vérifier que les visuels proposés correspondent mot à mot aux phrases finales après correction grammaticale.",
+    "densite_editoriale : La vidéo traite bien un seul angle et contient la règle centrale, l'exception, l'exemple chiffré et la nuance. Toutefois, l'absence d'une phrase rapide sur l'illiquidité (revente avant échéance) constitue une omission par rapport à la densité attendue.",
+    "densite_editoriale : Recommander de conserver la concision tout en ajoutant cette unique courte phrase.",
+    "pedagogie_client : Le vocabulaire est accessible mais le terme 'sous‑jacent' pourrait surprendre un non‑spécialiste : proposer en parenthèse 'valeur/indice sous‑jacent' ou remplacer par 'l'indice ou la valeur suivie'.",
+    "pedagogie_client : L'exemple chiffré est pertinent, mais la phrase doit être corrigée grammaticalement pour être comprise au premier passage.",
+    "retention_attention : Hook fort (question directe). Le gros 'NON' visuel est efficace. Veiller toutefois à ce que la transition de l'accroche vers la réponse soit légèrement plus naturelle à l'oral (éviter un silence trop long après le 'NON').",
+    "retention_attention : La durée estimée nécessite un test de lecture pour garantir le tempo et la respiration, sinon risque de surcharge.",
+    "conversion_confiance : Ton professionnel et sérieux, mention des sources et clause de non‑conseil renforce la confiance. Cependant, l'appel au rendez‑vous doit rester non pressant et accompagné d'une note sur l'absence de conseil personnalisé dans la vidéo (à dire ou afficher brièvement) pour éviter surpromesse."
+  ],
+  "recommendations": [
+    "Corriger les fautes grammaticales : remplacer les deux occurrences de \"si il\" par \"s'il\" (dans la narration continue et l'exemple).",
+    "Ajouter une courte phrase (oralement ou en texte écran) précisant que la barrière est vérifiée à l'échéance, par exemple : « la barrière est vérifiée à l'échéance du produit ». Intégrer cette précision dans la ligne d'exemple si possible.",
+    "Inclure une brève mention de l'illiquidité/revente avant échéance (ex. une phrase très brève au beat 5 ou un texte écran) : « Revente avant échéance possible à un prix de marché souvent défavorable ». Cela aligne le script sur les erreurs fréquentes identifiées.",
+    "Rendre l'appel au rendez‑vous conforme au ton pédagogique et non commercial : ajouter une phrase ou un texte écran rappelant que la vidéo n'est pas un conseil personnalisé et que le rendez‑vous sert à faire un point personnalisé (par ex. « Rendez‑vous pour faire le point — ceci n'est pas un conseil d'investissement »).",
+    "Remplacer ou expliciter le terme 'sous‑jacent' pour les non‑spécialistes (par ex. « le sous‑jacent (l'indice ou la valeur suivie) ») afin d'améliorer l'accessibilité.",
+    "Vérifier en répétition chronométrée que la narration tient bien dans 44 secondes avec les micro‑respirations et la lecture du CTA ; ajuster tempo ou texte si dépassement.",
+    "Dans la description/texte de la vidéo, afficher explicitement les URLs AMF et ACPR citées et indiquer où trouver le lien de prise de rendez‑vous (bio).",
+    "Relire et ajuster les visuels après corrections textuelles pour garantir correspondance mot à mot entre l'énoncé et le pictogramme/texte écran."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-07:shorts:produits_structures_barriere:0",
+  "script_path": "scripts/produits_structures/produits_structures_barriere__shorts__a3__v2.md"
+}

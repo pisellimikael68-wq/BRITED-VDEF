@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « on déduit la part de dette proportionnelle » (beat 5) est imprécise juridiquement : il faut préciser que la dette est admise dans la proportion où le bien est compris dans l'assiette, et pour la résidence principale après application de l'abattement de 30 %. Formulation recommandée : « on déduit la part de la dette affectée au bien imposable, après application préalable de l’abattement de 30 % pour la résidence principale ».",
+        "Le script mentionne correctement le retraitement des prêts in fine mais omet d'expliciter brièvement la méthode (imputation comme s'ils s'amortissaient linéairement sur la durée), ce qui pourrait induire une lecture incomplète pour un public non spécialiste ; ajouter cette précision dans la même phrase éviterait l'ambiguïté."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite l'essentiel mais omet d'indiquer explicitement l'exigence que la dette soit à la charge personnelle du redevable (elle est citée dans la narration continue mais pas dans le texte écran correspondant au beat 3). Il faut faire correspondre l'écran au verbal pour éviter qu'un spectateur ne voie l'écran sans la précision audible.",
+        "Le mécanisme de plafonnement (article 979) est mentionné mais sans préciser qu'il porte sur la somme de l'IFI et de l'impôt sur le revenu et le seuil de 75 %, information utile et sourcée qui devrait figurer dans le texte écran (beat 6) pour la complétude."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial fort, mais le second beat affiche 'OUI - NON' côte à côte ; sur Reels, cela peut créer hésitation visuelle. Recommander d'afficher clairement 'OUI' en surbrillance lorsque la voix dit 'Oui', ou de retirer les deux cases pour ne pas distraire.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' est conforme, mais pour conversion il peut être utile d'ajouter une alternativé textuelle courte (ex. 'Lien en bio — diagnostic IFI') afin d'augmenter le clicabilité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines phrases méritent un léger repositionnement pour une diction fluide en 40s : par exemple la phrase du beat 6 combine plusieurs notions ('Les prêts in fine sont retraités ... et un plafonnement ... ; le seuil de 1 300 000 € déclenche') — il est recommandé de scinder en deux courtes phrases pour éviter d'écraser la prononciation et la compréhension.",
+        "Le libellé écran du beat 3 (« Dette au 1er janvier + à votre charge + affectée au bien ») pourrait être reformulé en français plus naturel : « Existence au 1er janvier · À votre charge · Affectée au bien imposable »."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale satisfaisante mais petite incohérence entre narration et texte écran (voir juridique_fiscal/completude) : l'exigence 'à la charge personnelle du redevable' est audible mais absente de l'écran 3.",
+        "Vérifier l'ordre exact des phrases pour garantir que l'exemple (beat 5) mentionne explicitement 'après abattement 30 %' dans l'audio et l'écran simultanément."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme proposé pour beat 1 ('personne qui regarde un dossier + maison') est générique ; recommander un visuel simple et explicite (personne tenant un document marqué 'prêt' devant une maison) pour illustrer la notion de crédit affecté à un bien.",
+        "Beat 3 propose une balance actif/passif — bien, mais le pictogramme doit clairement montrer dette liée au bien (ex : maison sur le plateau passif) pour éviter toute ambiguïté visuelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est globalement adapté à un non-spécialiste mais le terme 'retraité' (beat 6) mérite une courte parenthèse explicative verbale ('c'est-à-dire imputé comme s'il était amorti chaque année') pour la clarté pédagogique.",
+        "L'exemple pourrait gagner en pédagogie si l'on précisait brièvement 'ex. : prêt de 200k pour maison — on retient la part correspondant au bien taxé, après abattement 30 %', afin d'illustrer avec un chiffre rond et concret (sans calcul complet)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais le beat 2 (question OUI/NON) risque de créer une micro-hésitation si l'écran affiche les deux options sans hiérarchie. Recommandation : accentuer visuellement 'OUI' ou transformer en question directe sans cases pour garder le rythme.",
+        "Le passage beat 6 contient plusieurs éléments (prêts in fine, plafonnement, seuil) — pour maintenir attention en 40s il vaut mieux alléger ou scinder en deux micro-beats."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La mention « on déduit la part de dette proportionnelle » (beat 5) est imprécise juridiquement : il faut préciser que la dette est admise dans la proportion où le bien est compris dans l'assiette, et pour la résidence principale après application de l'abattement de 30 %. Formulation recommandée : « on déduit la part de la dette affectée au bien imposable, après application préalable de l’abattement de 30 % pour la résidence principale ».",
+    "juridique_fiscal : Le script mentionne correctement le retraitement des prêts in fine mais omet d'expliciter brièvement la méthode (imputation comme s'ils s'amortissaient linéairement sur la durée), ce qui pourrait induire une lecture incomplète pour un public non spécialiste ; ajouter cette précision dans la même phrase éviterait l'ambiguïté.",
+    "completude : Le script traite l'essentiel mais omet d'indiquer explicitement l'exigence que la dette soit à la charge personnelle du redevable (elle est citée dans la narration continue mais pas dans le texte écran correspondant au beat 3). Il faut faire correspondre l'écran au verbal pour éviter qu'un spectateur ne voie l'écran sans la précision audible.",
+    "completude : Le mécanisme de plafonnement (article 979) est mentionné mais sans préciser qu'il porte sur la somme de l'IFI et de l'impôt sur le revenu et le seuil de 75 %, information utile et sourcée qui devrait figurer dans le texte écran (beat 6) pour la complétude.",
+    "editorial : Hook initial fort, mais le second beat affiche 'OUI - NON' côte à côte ; sur Reels, cela peut créer hésitation visuelle. Recommander d'afficher clairement 'OUI' en surbrillance lorsque la voix dit 'Oui', ou de retirer les deux cases pour ne pas distraire.",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio' est conforme, mais pour conversion il peut être utile d'ajouter une alternativé textuelle courte (ex. 'Lien en bio — diagnostic IFI') afin d'augmenter le clicabilité.",
+    "formulation_professionnelle : Certaines phrases méritent un léger repositionnement pour une diction fluide en 40s : par exemple la phrase du beat 6 combine plusieurs notions ('Les prêts in fine sont retraités ... et un plafonnement ... ; le seuil de 1 300 000 € déclenche') — il est recommandé de scinder en deux courtes phrases pour éviter d'écraser la prononciation et la compréhension.",
+    "formulation_professionnelle : Le libellé écran du beat 3 (« Dette au 1er janvier + à votre charge + affectée au bien ») pourrait être reformulé en français plus naturel : « Existence au 1er janvier · À votre charge · Affectée au bien imposable ».",
+    "contre_verification_finale : Cohérence globale satisfaisante mais petite incohérence entre narration et texte écran (voir juridique_fiscal/completude) : l'exigence 'à la charge personnelle du redevable' est audible mais absente de l'écran 3.",
+    "contre_verification_finale : Vérifier l'ordre exact des phrases pour garantir que l'exemple (beat 5) mentionne explicitement 'après abattement 30 %' dans l'audio et l'écran simultanément.",
+    "coherence_pictogrammes : Pictogramme proposé pour beat 1 ('personne qui regarde un dossier + maison') est générique ; recommander un visuel simple et explicite (personne tenant un document marqué 'prêt' devant une maison) pour illustrer la notion de crédit affecté à un bien.",
+    "coherence_pictogrammes : Beat 3 propose une balance actif/passif — bien, mais le pictogramme doit clairement montrer dette liée au bien (ex : maison sur le plateau passif) pour éviter toute ambiguïté visuelle.",
+    "pedagogie_client : Le niveau est globalement adapté à un non-spécialiste mais le terme 'retraité' (beat 6) mérite une courte parenthèse explicative verbale ('c'est-à-dire imputé comme s'il était amorti chaque année') pour la clarté pédagogique.",
+    "pedagogie_client : L'exemple pourrait gagner en pédagogie si l'on précisait brièvement 'ex. : prêt de 200k pour maison — on retient la part correspondant au bien taxé, après abattement 30 %', afin d'illustrer avec un chiffre rond et concret (sans calcul complet).",
+    "retention_attention : Les deux premières secondes sont bonnes mais le beat 2 (question OUI/NON) risque de créer une micro-hésitation si l'écran affiche les deux options sans hiérarchie. Recommandation : accentuer visuellement 'OUI' ou transformer en question directe sans cases pour garder le rythme.",
+    "retention_attention : Le passage beat 6 contient plusieurs éléments (prêts in fine, plafonnement, seuil) — pour maintenir attention en 40s il vaut mieux alléger ou scinder en deux micro-beats."
+  ],
+  "recommendations": [
+    "Ajouter explicitement sur l'écran du beat 3 la condition « à la charge personnelle du redevable » pour correspondre mot à mot à la narration et éviter toute omission.",
+    "Reformuler le texte écran du beat 3 en français naturel : « Existence au 1er janvier · À votre charge · Affectée au bien imposable ». Remplacer l'écran du beat 5 par : « Dette admise = part affectée au bien imposable, après abattement 30 % (rés. principale) ».",
+    "Scinder la phrase du beat 6 en deux phrases courtes à l'oral : (1) « Les prêts in fine sont retraités : ils sont comptés comme s'ils s'amortissaient linéairement. » (2) « L'article 979 prévoit un plafonnement (IFI + IR ≤ 75 % des revenus) ; le seuil d'assujettissement est 1 300 000 €. » Afficher le chiffre 75 % sur l'écran.",
+    "Clarifier visuels : pour beat 1 utiliser pictogramme personne tenant un document marqué 'prêt' devant une maison ; pour beat 3 utiliser une balance où la maison figure sur le plateau passif, pour lier clairement dette et bien.",
+    "Rendre le hook visuel plus direct : afficher uniquement la question 'Votre crédit peut réduire votre IFI ?' sans les cases OUI/NON, ou mettre 'OUI' en surbrillance dès que la voix répond 'Oui' pour éviter hésitation.",
+    "Optionnel (amélioration de conversion) : remplacer ou compléter le CTA par un micro-texte plus engageant sur l'écran : 'Diagnostic IFI — lien en bio'.",
+    "Orthographe et style : remplacer 'on déduit' par 'on retient/déduit' pour un registre plus professionnel dans l'exemple, et veiller à aérer les phrases pour la diction en 40 s."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-07:reels:ifi_dettes_deductibles:0",
+  "script_path": "scripts/ifi/ifi_dettes_deductibles__reels__a6__v3.md"
+}

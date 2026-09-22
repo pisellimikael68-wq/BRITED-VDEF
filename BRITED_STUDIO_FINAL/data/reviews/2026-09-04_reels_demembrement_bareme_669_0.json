@@ -1,0 +1,178 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase «Abattement 100 000 € par donateur et bénéficiaire» peut prêter à confusion : en pratique l'abattement de 100 000 € s'applique par parent (donateur) et par enfant (bénéficiaire) — préciser «par parent et par enfant» limiterait l'ambiguïté.",
+        "Absence d'une courte mention que le barème de l'article 669 s'applique pour l'appréciation fiscale de l'usufruit viager, ce qui éviterait toute interprétation selon laquelle il s'agirait d'une valeur contractuelle contraignante entre parties."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script n'explicite pas que l'usufruit s'éteint au décès de l'usufruitier (même si c'est mentionné dans la fiche SOURCE DE VÉRITÉ), il conviendrait de l'inclure brièvement dans la nuance pour fermer la boucle explicative.",
+        "Manque la précision que la reconstitution de la pleine propriété se fait sans droits de mutation lorsque l'usufruit s'éteint (important pour l'argument fiscal avancé)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : le texte proposé (toutes les cases + narration) est dense ; risque de dépassement du format Reels si la diction n'est très rapide. Recommandation : prévoir 1 à 2 phrases raccourcies ou couper une phrase pour tenir 38 s.",
+        "Le format tableau est conforme, mais l'ordre des séquences doit impérativement garder des cuts très rapides pour respecter la rétention (suggérer 2–3 s pour les beats de règle et nuance)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace mais la deuxième phrase du hook («Donner la nue-propriété : vous gardez l'usage ? OUI / NON») est redondante avec le beat 2 ; proposer d'abréger pour renforcer la force des 2 premières secondes.",
+        "La CTA est correcte mais pourrait indiquer explicitement que le rendez-vous est pour un bilan personnalisé sans constituer un conseil (concordance avec la mention)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être légèrement retravaillées pour la prononciation orale : par exemple «la nue-propriété est le complément» → «la nue-propriété correspond au reste» (plus naturelle à l'oral).",
+        "La phrase finale du script (CTA) est longue ; pour une lecture naturelle, scinder en deux courtes phrases améliorerait la diction."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure : la fiche indique que «À son décès, l'usufruit s'éteint» (bien présent dans le texte), mais le script ne le dit explicitement — élément à rapprocher pour cohérence question-réponse.",
+        "Vérifier l'alignement mot à mot entre le texte affiché à l'écran (ex. «180 000 €») et la voix off pour éviter divergences lors du montage."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Visuel pour la règle : pictogramme loi + échelle d'âge est correct, mais s'assurer que l'échelle affiche des tranches d'âge (ex. 61–70) ou le chiffre 65 pour coller au discours.",
+        "Visuel pour la nuance (deux mains se serrant) pourrait suggérer accord amiable plutôt que l'idée d'irrévocabilité — recommander un pictogramme combiné attention + document signé pour mieux illustrer 'irrévocable et accord requis pour vente'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept d'usufruit/nue-propriété est bien expliqué mais le terme «nue-propriété est le complément» peut rester opaque pour un non-spécialiste ; proposer «la nue-propriété correspond au reste de la valeur non attribuée à l'usage».",
+        "L'exemple chiffré est pertinent ; ajouter une courte phrase expliquant pourquoi ceci réduit l'assiette fiscale (transmettre 180 000 € au lieu de 300 000 €) renforcerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais le beat 2 répète l'accroche — cela peut diluer la force du hook. Recommander de simplifier la question pour conserver la tension initiale.",
+        "Le passage réglementaire (article 669) doit rester très bref à l'écran pour ne pas perdre l'attention ; s'assurer que le pictogramme et le texte écran restent lisibles en 2–3 secondes."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 95,
+      "seconds": 35.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 95,
+        "seconds": 35.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La phrase «Abattement 100 000 € par donateur et bénéficiaire» peut prêter à confusion : en pratique l'abattement de 100 000 € s'applique par parent (donateur) et par enfant (bénéficiaire) — préciser «par parent et par enfant» limiterait l'ambiguïté.",
+    "juridique_fiscal : Absence d'une courte mention que le barème de l'article 669 s'applique pour l'appréciation fiscale de l'usufruit viager, ce qui éviterait toute interprétation selon laquelle il s'agirait d'une valeur contractuelle contraignante entre parties.",
+    "completude : Le script n'explicite pas que l'usufruit s'éteint au décès de l'usufruitier (même si c'est mentionné dans la fiche SOURCE DE VÉRITÉ), il conviendrait de l'inclure brièvement dans la nuance pour fermer la boucle explicative.",
+    "completude : Manque la précision que la reconstitution de la pleine propriété se fait sans droits de mutation lorsque l'usufruit s'éteint (important pour l'argument fiscal avancé).",
+    "plateforme : Durée estimée 38 s : le texte proposé (toutes les cases + narration) est dense ; risque de dépassement du format Reels si la diction n'est très rapide. Recommandation : prévoir 1 à 2 phrases raccourcies ou couper une phrase pour tenir 38 s.",
+    "plateforme : Le format tableau est conforme, mais l'ordre des séquences doit impérativement garder des cuts très rapides pour respecter la rétention (suggérer 2–3 s pour les beats de règle et nuance).",
+    "editorial : Hook efficace mais la deuxième phrase du hook («Donner la nue-propriété : vous gardez l'usage ? OUI / NON») est redondante avec le beat 2 ; proposer d'abréger pour renforcer la force des 2 premières secondes.",
+    "editorial : La CTA est correcte mais pourrait indiquer explicitement que le rendez-vous est pour un bilan personnalisé sans constituer un conseil (concordance avec la mention).",
+    "formulation_professionnelle : Quelques formulations pourraient être légèrement retravaillées pour la prononciation orale : par exemple «la nue-propriété est le complément» → «la nue-propriété correspond au reste» (plus naturelle à l'oral).",
+    "formulation_professionnelle : La phrase finale du script (CTA) est longue ; pour une lecture naturelle, scinder en deux courtes phrases améliorerait la diction.",
+    "contre_verification_finale : Incohérence mineure : la fiche indique que «À son décès, l'usufruit s'éteint» (bien présent dans le texte), mais le script ne le dit explicitement — élément à rapprocher pour cohérence question-réponse.",
+    "contre_verification_finale : Vérifier l'alignement mot à mot entre le texte affiché à l'écran (ex. «180 000 €») et la voix off pour éviter divergences lors du montage.",
+    "coherence_pictogrammes : Visuel pour la règle : pictogramme loi + échelle d'âge est correct, mais s'assurer que l'échelle affiche des tranches d'âge (ex. 61–70) ou le chiffre 65 pour coller au discours.",
+    "coherence_pictogrammes : Visuel pour la nuance (deux mains se serrant) pourrait suggérer accord amiable plutôt que l'idée d'irrévocabilité — recommander un pictogramme combiné attention + document signé pour mieux illustrer 'irrévocable et accord requis pour vente'.",
+    "pedagogie_client : Le concept d'usufruit/nue-propriété est bien expliqué mais le terme «nue-propriété est le complément» peut rester opaque pour un non-spécialiste ; proposer «la nue-propriété correspond au reste de la valeur non attribuée à l'usage».",
+    "pedagogie_client : L'exemple chiffré est pertinent ; ajouter une courte phrase expliquant pourquoi ceci réduit l'assiette fiscale (transmettre 180 000 € au lieu de 300 000 €) renforcerait la compréhension.",
+    "retention_attention : Les deux premières secondes sont bonnes mais le beat 2 répète l'accroche — cela peut diluer la force du hook. Recommander de simplifier la question pour conserver la tension initiale.",
+    "retention_attention : Le passage réglementaire (article 669) doit rester très bref à l'écran pour ne pas perdre l'attention ; s'assurer que le pictogramme et le texte écran restent lisibles en 2–3 secondes."
+  ],
+  "recommendations": [
+    "Préciser «abattement de 100 000 € par parent et par enfant» dans le texte et le visuel pour lever toute ambiguïté.",
+    "Ajouter brièvement dans la nuance : «L'usufruit s'éteint au décès de l'usufruitier : l'enfant récupère alors la pleine propriété sans droits supplémentaires», pour conclure l'argument fiscal.",
+    "Raccourcir ou reformuler deux phrases pour tenir la durée 38 s : par exemple supprimer la répétition entre beat 1 et 2, et scinder la CTA en deux phrases plus courtes.",
+    "Adapter le pictogramme de la nuance pour combiner attention + document signé afin d'illustrer à la fois l'irrévocabilité et la nécessité d'accord en cas de vente.",
+    "Vos voix-off et textes à l'écran doivent être relus mot à mot : garantir que les chiffres (ex. «180 000 €») sont prononcés exactement comme affichés.",
+    "Remplacer «la nue-propriété est le complément» par une formulation plus orale et accessible, ex. «la nue-propriété correspond au reste de la valeur après avoir attribué l'usage».",
+    "S'assurer que la carte visuelle du barème affiche explicitement la tranche ou l'âge 65 lorsque vous citez l'exemple pour cohérence pictogramme/voix."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-04:reels:demembrement_bareme_669:0",
+  "script_path": "scripts/demembrement/demembrement_bareme_669__reels__a1__v3.md"
+}

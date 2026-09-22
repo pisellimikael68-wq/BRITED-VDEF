@@ -1,0 +1,130 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (39 secondes) peut être trop courte pour 7 beats avec textes à lire à l'écran et une narration fluide : risque de débit trop rapide. Il faut préciser la répartition du temps par beat ou allonger la durée prévue pour garantir lisibilité et confort de visionnage sur Reels."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "plateforme : La durée estimée (39 secondes) peut être trop courte pour 7 beats avec textes à lire à l'écran et une narration fluide : risque de débit trop rapide. Il faut préciser la répartition du temps par beat ou allonger la durée prévue pour garantir lisibilité et confort de visionnage sur Reels."
+  ],
+  "recommendations": [
+    "Allonger la durée prévue de la vidéo (par ex. 45–50 s) ou réduire légèrement le nombre de beats afin de garantir une diction naturelle et laisser le temps aux spectateurs de lire le texte à l'écran (notamment le beat 5 qui contient trois délais chiffrés). Si vous maintenez 39 s, indiquer un timing précis par beat (en secondes) et simplifier le texte écran pour faciliter la lecture."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-21:reels:fiscalite_controle_fiscal:1",
+  "script_path": "scripts/fiscalite/fiscalite_controle_fiscal__reels__a3__v7.md"
+}

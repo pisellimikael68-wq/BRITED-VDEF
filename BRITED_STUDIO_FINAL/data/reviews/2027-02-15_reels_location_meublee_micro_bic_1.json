@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la « fidélité stricte aux faits » de la fiche BRITED et évite de diffuser les taux sensibles. Observation : la ligne d'ouverture « Vous avez loué un logement meublé » (beat 1) pourrait préciser « en tant que particulier » si l'intention est d'exclure les sociétés, pour rester strict au périmètre de la fiche (LMNP)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Le message principal est exact : meublé = BIC, nu = revenus fonciers. Remarque nécessaire : le script évoque l'immatriculation et formalités mais n'indique pas, même brièvement, que l'activité peut nécessiter une immatriculation au RCS (ou une déclaration via le greffe) ou l'obtention d'un numéro SIRET pour le LMNP ; seule la mention « formalités déclaratives » est un peu trop vague pour un contenu visant la clarté juridique.",
+        "Le script suggère que l'amortissement « peut réduire fortement l'assiette imposable » — correct mais doit éviter formulation pouvant être comprise comme garantie. Ajouter une phrase brève rappelant que le choix micro vs réel dépend d'un calcul et d'une durée d'amortissement serait plus prudent."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Bonne progression mais manque d'un micro-exemple chiffré simplifié (sans citer taux). Par ex. : « au micro la moitié seulement n'est pas une règle universelle » est évité ; toutefois le script dit « laisse la moitié des loyers taxable » dans la fiche BRITED mais le script ne le formule pas explicitement. Suggestion : inclure une phrase très courte illustrant une situation type (ex. loyers vs charges avec crédit) en une seule ligne, sans chiffres, pour rendre la comparaison micro vs réel tangible.",
+        "Ne précise pas que le statut professionnel (LMP) existe ni ce qui le différencie du LMNP ; au moins mentionner que l'on parle ici de la location meublée non professionnelle (LMNP) afin d'éviter confusion."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s vraisemblable mais le script contient 7 beats — selon rythme de lecture rapide la vidéo tiendra; recommander de vérifier le tempo pour rester sous 38 s (ex. ~5s par beat).",
+        "Visuels décrits sont pertinents mais prévoir crédits/contrastes pour la lecture des textes écran sur mobile (contraste texte/fond)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Hook efficace mais la répétition « Vos loyers : même fiscalité ? - OUI / - NON » peut perdre du temps. Conseiller d'utiliser la variante orale courte (« Même fiscalité ? ») et garder l'affichage OUI/NON visuel seulement.",
+        "CTA clair, mais phrase de fin pourrait être raccourcie pour le format Reels : « Prenez rendez-vous via le lien dans ma bio » suffit ; éviter la double formulation."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et sourcé. Cependant, la mention légale finale est bonne mais devrait inclure explicitement que ce n'est pas un conseil personnalisé : la légende le fait, mais répéter en voix off ou affichage bref renforcerait la sécurité juridique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel globalement. Suggestions ponctuelles : remplacer « En micro, le micro-BIC applique un abattement forfaitaire souvent supérieur au micro-foncier. » par « En micro (micro‑BIC), l'abattement forfaitaire est en général plus favorable que celui du micro‑foncier » pour fluidité.",
+        "Phrase 'Vérifiez la catégorie du meublé : elle change taux et seuils et impose des formalités déclaratives.' pourrait être reformulée : 'Vérifiez la catégorie du meublé (classé ou non) : elle modifie taux, seuils et formalités.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements cohérents mais quelques imprécisions à corriger : beat 4 indique 'sans chiffres détaillés' — ok — mais le fil narratif mentionne ensuite 'la moitié des loyers taxable' dans la fiche BRITED; le script évite cette précision. Recommandation : choisir l'une des deux approches et l'aligner (soit ajouter la courte phrase 'au micro, une part importante des loyers reste imposable' soit rester sans chiffres).",
+        "Vérifier prononciation/rythme : la phrase continue est un peu longue pour une lecture fluide en moins de 38 s ; fractionner 1–2 phrases."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogrammes proposés sont adaptés. Observation : le pictogramme 'Balance BIC vs Revenus fonciers' doit clairement montrer la flèche vers BIC (pour éviter toute ambiguïté visuelle).",
+        "Le pictogramme 'amortissement' doit représenter clairement une dépréciation/ligne comptable (crédit + calendrier) et non une icône générique 'flèche descendante' qui pourrait être interprétée comme perte."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Le script traite un seul angle principal — respecté — mais l'exemple (beat 5) reste générique. Pour la densité, recommander de transformer l'exemple en une phrase très courte et concrète (ex. 'Avec un crédit, le réel permet souvent d'annuler l'imposition pendant plusieurs années') tout en évitant la promesse universelle.",
+        "Vérifier que la mention 'les chiffres ni les sources' dans la densité n'est pas contradictoire : le reel cite les sources en légende, ce qui est conforme."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est globalement accessible mais quelques termes (BIC, régime réel, amortir) mériteraient une très brève explication audio/texte (1 mot) pour un non-spécialiste : par ex. 'amortir = répartir le coût du bien sur plusieurs années'.",
+        "Manque d'indication claire sur la procédure pratique pour vérifier la catégorie du meublé (où regarder, quel document) — même une mention 'consulter la fiche produit du logement ou la classification touristique' aiderait."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (beat 1 hook) sont correctes mais pourraient être renforcées par un titre visuel très contrasté et une voix plus directe. La question OUI/NON en beat 2 est bonne pour capturer l'attention, mais attention au rythme pour ne pas perdre l'utilisateur entre beat 2 et 3.",
+        "Suggestion : réduire la longueur de la narration continue pour conserver rythme soutenu jusqu'au CTA."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et confiance présents. Pour augmenter la conversion, ajouter brièvement en voix off ou texte écran une preuve sociale légère (ex. 'consultations spécialisées' ou 'années d'expérience') sans surpromesse pourrait aider. Veiller à ne pas créer d'impression commerciale agressive."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 102,
+      "seconds": 37.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 102,
+        "seconds": 37.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la « fidélité stricte aux faits » de la fiche BRITED et évite de diffuser les taux sensibles. Observation : la ligne d'ouverture « Vous avez loué un logement meublé » (beat 1) pourrait préciser « en tant que particulier » si l'intention est d'exclure les sociétés, pour rester strict au périmètre de la fiche (LMNP).",
+    "juridique_fiscal : Le message principal est exact : meublé = BIC, nu = revenus fonciers. Remarque nécessaire : le script évoque l'immatriculation et formalités mais n'indique pas, même brièvement, que l'activité peut nécessiter une immatriculation au RCS (ou une déclaration via le greffe) ou l'obtention d'un numéro SIRET pour le LMNP ; seule la mention « formalités déclaratives » est un peu trop vague pour un contenu visant la clarté juridique.",
+    "juridique_fiscal : Le script suggère que l'amortissement « peut réduire fortement l'assiette imposable » — correct mais doit éviter formulation pouvant être comprise comme garantie. Ajouter une phrase brève rappelant que le choix micro vs réel dépend d'un calcul et d'une durée d'amortissement serait plus prudent.",
+    "completude : Bonne progression mais manque d'un micro-exemple chiffré simplifié (sans citer taux). Par ex. : « au micro la moitié seulement n'est pas une règle universelle » est évité ; toutefois le script dit « laisse la moitié des loyers taxable » dans la fiche BRITED mais le script ne le formule pas explicitement. Suggestion : inclure une phrase très courte illustrant une situation type (ex. loyers vs charges avec crédit) en une seule ligne, sans chiffres, pour rendre la comparaison micro vs réel tangible.",
+    "completude : Ne précise pas que le statut professionnel (LMP) existe ni ce qui le différencie du LMNP ; au moins mentionner que l'on parle ici de la location meublée non professionnelle (LMNP) afin d'éviter confusion.",
+    "plateforme : Durée estimée 38 s vraisemblable mais le script contient 7 beats — selon rythme de lecture rapide la vidéo tiendra; recommander de vérifier le tempo pour rester sous 38 s (ex. ~5s par beat).",
+    "plateforme : Visuels décrits sont pertinents mais prévoir crédits/contrastes pour la lecture des textes écran sur mobile (contraste texte/fond).",
+    "editorial : Hook efficace mais la répétition « Vos loyers : même fiscalité ? - OUI / - NON » peut perdre du temps. Conseiller d'utiliser la variante orale courte (« Même fiscalité ? ») et garder l'affichage OUI/NON visuel seulement.",
+    "editorial : CTA clair, mais phrase de fin pourrait être raccourcie pour le format Reels : « Prenez rendez-vous via le lien dans ma bio » suffit ; éviter la double formulation.",
+    "securite : Contenu pédagogique et sourcé. Cependant, la mention légale finale est bonne mais devrait inclure explicitement que ce n'est pas un conseil personnalisé : la légende le fait, mais répéter en voix off ou affichage bref renforcerait la sécurité juridique.",
+    "formulation_professionnelle : Le français est naturel globalement. Suggestions ponctuelles : remplacer « En micro, le micro-BIC applique un abattement forfaitaire souvent supérieur au micro-foncier. » par « En micro (micro‑BIC), l'abattement forfaitaire est en général plus favorable que celui du micro‑foncier » pour fluidité.",
+    "formulation_professionnelle : Phrase 'Vérifiez la catégorie du meublé : elle change taux et seuils et impose des formalités déclaratives.' pourrait être reformulée : 'Vérifiez la catégorie du meublé (classé ou non) : elle modifie taux, seuils et formalités.'",
+    "contre_verification_finale : Enchaînements cohérents mais quelques imprécisions à corriger : beat 4 indique 'sans chiffres détaillés' — ok — mais le fil narratif mentionne ensuite 'la moitié des loyers taxable' dans la fiche BRITED; le script évite cette précision. Recommandation : choisir l'une des deux approches et l'aligner (soit ajouter la courte phrase 'au micro, une part importante des loyers reste imposable' soit rester sans chiffres).",
+    "contre_verification_finale : Vérifier prononciation/rythme : la phrase continue est un peu longue pour une lecture fluide en moins de 38 s ; fractionner 1–2 phrases.",
+    "coherence_pictogrammes : Pictogrammes proposés sont adaptés. Observation : le pictogramme 'Balance BIC vs Revenus fonciers' doit clairement montrer la flèche vers BIC (pour éviter toute ambiguïté visuelle).",
+    "coherence_pictogrammes : Le pictogramme 'amortissement' doit représenter clairement une dépréciation/ligne comptable (crédit + calendrier) et non une icône générique 'flèche descendante' qui pourrait être interprétée comme perte.",
+    "densite_editoriale : Le script traite un seul angle principal — respecté — mais l'exemple (beat 5) reste générique. Pour la densité, recommander de transformer l'exemple en une phrase très courte et concrète (ex. 'Avec un crédit, le réel permet souvent d'annuler l'imposition pendant plusieurs années') tout en évitant la promesse universelle.",
+    "densite_editoriale : Vérifier que la mention 'les chiffres ni les sources' dans la densité n'est pas contradictoire : le reel cite les sources en légende, ce qui est conforme.",
+    "pedagogie_client : Le niveau est globalement accessible mais quelques termes (BIC, régime réel, amortir) mériteraient une très brève explication audio/texte (1 mot) pour un non-spécialiste : par ex. 'amortir = répartir le coût du bien sur plusieurs années'.",
+    "pedagogie_client : Manque d'indication claire sur la procédure pratique pour vérifier la catégorie du meublé (où regarder, quel document) — même une mention 'consulter la fiche produit du logement ou la classification touristique' aiderait.",
+    "retention_attention : Les deux premières secondes (beat 1 hook) sont correctes mais pourraient être renforcées par un titre visuel très contrasté et une voix plus directe. La question OUI/NON en beat 2 est bonne pour capturer l'attention, mais attention au rythme pour ne pas perdre l'utilisateur entre beat 2 et 3.",
+    "retention_attention : Suggestion : réduire la longueur de la narration continue pour conserver rythme soutenu jusqu'au CTA.",
+    "conversion_confiance : Ton sérieux et confiance présents. Pour augmenter la conversion, ajouter brièvement en voix off ou texte écran une preuve sociale légère (ex. 'consultations spécialisées' ou 'années d'expérience') sans surpromesse pourrait aider. Veiller à ne pas créer d'impression commerciale agressive."
+  ],
+  "recommendations": [
+    "Préciser rapidement que l'on parle de LMNP (location meublée non professionnelle) dans l'introduction pour éviter confusion avec LMP ou sociétés.",
+    "Remplacer formulations vagues par une ou deux courtes précisions pratiques : (a) indiquer brièvement que l'activité peut nécessiter immatriculation/SIRET, (b) définir en 1 mot 'amortir'.",
+    "Alléger la ligne narrative pour tenir la durée : raccourcir la question OUI/NON orale et condenser l'exemple en une phrase très concrète sans chiffres.",
+    "Adapter visuels : clarifier la balance BIC vs revenus fonciers avec flèche univoque, et choisir un pictogramme d'amortissement explicite (calendrier + montant) plutôt qu'une flèche générique.",
+    "Modifier le CTA textuel pour rester direct et court : 'Prenez rendez‑vous via le lien dans ma bio.' et afficher brièvement la mention légale « Contenu général, pas un conseil personnalisé » soit en voix off soit en texte écran.",
+    "Effectuer une relecture finale pour cohérence phrase par phrase et chronométrer une lecture à vitesse naturelle pour garantir la tenue du format 38 s."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-15:reels:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__reels__a5__v6.md"
+}

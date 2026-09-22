@@ -1,0 +1,130 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Absence d'une mention explicite sur la conséquence clé liée à la durée : le script ne rappelle pas que tout retrait avant 4 ans dégrade la rémunération du PEL et fait perdre le droit à prêt. Cette information figure dans la fiche-source (Durée minimale pour conserver les avantages = 4 ans) et est une exception/condition importante pour la prise de décision du public non spécialiste. Localisation : ajouter après la 'Nuance' (beat 5) ou juste avant le CTA pour renforcer l'alerte pratique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 121,
+      "seconds": 44.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 121,
+        "seconds": 44.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "completude : Absence d'une mention explicite sur la conséquence clé liée à la durée : le script ne rappelle pas que tout retrait avant 4 ans dégrade la rémunération du PEL et fait perdre le droit à prêt. Cette information figure dans la fiche-source (Durée minimale pour conserver les avantages = 4 ans) et est une exception/condition importante pour la prise de décision du public non spécialiste. Localisation : ajouter après la 'Nuance' (beat 5) ou juste avant le CTA pour renforcer l'alerte pratique."
+  ],
+  "recommendations": [
+    "Ajouter une phrase claire et brève sur la perte d'avantages en cas de retrait avant 4 ans (ex. phrase à insérer après la 'Nuance' ou juste avant le CTA) : « Attention : retirer votre PEL avant 4 ans dégrade sa rémunération et fait perdre le droit à prêt. » Cela corrige l'omission de la règle-clé figurant dans la fiche-source."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-12:shorts:pel_fiscalite_depuis_2018:0",
+  "script_path": "scripts/pel/pel_fiscalite_depuis_2018__shorts__a4__v2.md"
+}

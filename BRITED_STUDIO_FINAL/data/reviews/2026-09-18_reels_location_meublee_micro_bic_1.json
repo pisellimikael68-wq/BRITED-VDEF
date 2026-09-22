@@ -1,0 +1,184 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme un abattement micro-BIC de 50 % pour le « meublé classique » et cite les articles pertinents, mais la fiche source marque ces chiffres comme 'a_verifier'. Il faut vérifier et, si possible, joindre la référence légale exacte (article 50‑0 CGI) pointant explicitement le taux et la catégorie 'meublé classique' ; sinon indiquer clairement que le chiffrage est indicatif et doit être confirmé avant diffusion."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « l'activité peut nécessiter une immatriculation » est correcte mais imprécise : il faut préciser dans quel cas (par ex. inscription au RCS pour activité commerciale comme LMP ou déclaration au greffe/registre des entreprises si conditions remplies) ou ajouter 'selon le statut et l'ampleur de l'activité' pour éviter de laisser entendre une obligation systématique.",
+        "L'affirmation sur l'amortissement et le régime réel est correcte mais omet la remarque de la fiche 'l'amortissement réintégrée dans le calcul de la plus-value' ; il faut ajouter une brève mise en garde sur l'impact sur la plus-value lors de cession."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script est concis mais omet de rappeler la condition de seuil pour l'application du micro‑BIC (plafond annuel des recettes) — la fiche mentionne un seuil de 77 700 € marqué 'a_verifier'. Il faut soit vérifier ce plafond actuel et l'indiquer, soit remplacer par 'plafond applicable' sans chiffrer.",
+        "L'exemple chiffré est utile mais ne rappelle pas qu'il s'agit d'un calcul avant prélèvements sociaux et impôts selon tranche marginale ; cela peut induire simplification excessive."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la deuxième séquence 'OUI / NON' est redondante avec la suite; proposer de transformer la séquence en 'OUI' direct pour renforcer la rétention dans 38 s ou garder tel quel mais raccourcir l'énoncé pour respecter la contrainte temporelle.",
+        "Le CTA est pertinent mais pourrait préciser 'lien dans la bio' en évitant toute promesse de résultat ('faire le point' est acceptable)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient une mention légale en bas mais la narration ne rappelle pas explicitement que ce n'est pas un conseil personnalisé ; il serait prudent d'ajouter courte phrase de non-conseil dans la narration ou l'écran final.",
+        "Le script donne des chiffres (50% / 30%) sans la mention expresse 'à vérifier selon la catégorie et l'année' dans la narration — la fiche exige de ne pas diffuser certains taux sans vérification."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est globalement claire mais quelques formulations peuvent être améliorées: remplacer 'Les loyers d'un meublé relèvent des bénéfices industriels et commerciaux, non des revenus fonciers.' par 'Les loyers d'un logement meublé sont imposés dans la catégorie des bénéfices industriels et commerciaux (BIC), et non dans celle des revenus fonciers.' pour fluidité.",
+        "La phrase 'En micro, pour le meublé classique le micro-BIC prévoit...' contient répétition 'micro' — simplifier pour améliorer écoute."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Il y a incohérence mineure entre la fiche (qui recommande prudence sur taux/seuils) et le script qui affiche des taux chiffrés sans avertissement vocal fort. Il faut aligner mot à mot en ajoutant dans la narration 'Exemple indicatif — vérifiez la catégorie et le plafond applicables'.",
+        "Vérifier la durée estimée (38 s) avec le texte prononcé pour s'assurer que le rythme parlé respecte cette durée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais inclut à la fois chiffres fixes et mentions de conditions/immatriculation ; il faut renforcer l'avertissement sur la nécessité de vérifier catégorie/plafond pour éviter diffusion de chiffre erroné hors contexte.",
+        "Conserver l'exemple chiffré est pertinent, mais il doit être marqué 'à titre indicatif' dans l'écran ou la narration."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les notions sont expliquées simplement mais le mot 'amortir' devrait comporter un mini-complément audible ('déduire chaque année une fraction de la valeur du bien') ce qui est présent dans la fiche mais absent de la narration courte.",
+        "L'utilisation d'acronymes (BIC) est correcte mais il faut prononcer l'explication 'bénéfices industriels et commerciaux' à la première occurrence, ce qui est fait, assurer que l'écran l'affiche également."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont intéressantes mais risquent de perdre du temps avec l'écran 'OUI / NON' si la vidéo doit être très courte ; recommander d'aller directement à la réponse 'Oui' pour maximiser rétention.",
+        "Le hook pourrait être rallongé d'une demi-phrase explicative très courte pour renforcer curiosité (ex: 'Ça change tout pour vos impôts')."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel mais l'absence d'une mention vocale claire de non-conseil et l'affichage de chiffres sans avertissement réduit légèrement la conformité et la confiance; ajouter une phrase finale de non-conseil et rappeler source légale à l'écran (ex. 'voir sources dans la légende')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script affirme un abattement micro-BIC de 50 % pour le « meublé classique » et cite les articles pertinents, mais la fiche source marque ces chiffres comme 'a_verifier'. Il faut vérifier et, si possible, joindre la référence légale exacte (article 50‑0 CGI) pointant explicitement le taux et la catégorie 'meublé classique' ; sinon indiquer clairement que le chiffrage est indicatif et doit être confirmé avant diffusion.",
+    "juridique_fiscal : La phrase « l'activité peut nécessiter une immatriculation » est correcte mais imprécise : il faut préciser dans quel cas (par ex. inscription au RCS pour activité commerciale comme LMP ou déclaration au greffe/registre des entreprises si conditions remplies) ou ajouter 'selon le statut et l'ampleur de l'activité' pour éviter de laisser entendre une obligation systématique.",
+    "juridique_fiscal : L'affirmation sur l'amortissement et le régime réel est correcte mais omet la remarque de la fiche 'l'amortissement réintégrée dans le calcul de la plus-value' ; il faut ajouter une brève mise en garde sur l'impact sur la plus-value lors de cession.",
+    "completude : Le script est concis mais omet de rappeler la condition de seuil pour l'application du micro‑BIC (plafond annuel des recettes) — la fiche mentionne un seuil de 77 700 € marqué 'a_verifier'. Il faut soit vérifier ce plafond actuel et l'indiquer, soit remplacer par 'plafond applicable' sans chiffrer.",
+    "completude : L'exemple chiffré est utile mais ne rappelle pas qu'il s'agit d'un calcul avant prélèvements sociaux et impôts selon tranche marginale ; cela peut induire simplification excessive.",
+    "editorial : Accroche efficace mais la deuxième séquence 'OUI / NON' est redondante avec la suite; proposer de transformer la séquence en 'OUI' direct pour renforcer la rétention dans 38 s ou garder tel quel mais raccourcir l'énoncé pour respecter la contrainte temporelle.",
+    "editorial : Le CTA est pertinent mais pourrait préciser 'lien dans la bio' en évitant toute promesse de résultat ('faire le point' est acceptable).",
+    "securite : Le script contient une mention légale en bas mais la narration ne rappelle pas explicitement que ce n'est pas un conseil personnalisé ; il serait prudent d'ajouter courte phrase de non-conseil dans la narration ou l'écran final.",
+    "securite : Le script donne des chiffres (50% / 30%) sans la mention expresse 'à vérifier selon la catégorie et l'année' dans la narration — la fiche exige de ne pas diffuser certains taux sans vérification.",
+    "formulation_professionnelle : La formulation est globalement claire mais quelques formulations peuvent être améliorées: remplacer 'Les loyers d'un meublé relèvent des bénéfices industriels et commerciaux, non des revenus fonciers.' par 'Les loyers d'un logement meublé sont imposés dans la catégorie des bénéfices industriels et commerciaux (BIC), et non dans celle des revenus fonciers.' pour fluidité.",
+    "formulation_professionnelle : La phrase 'En micro, pour le meublé classique le micro-BIC prévoit...' contient répétition 'micro' — simplifier pour améliorer écoute.",
+    "contre_verification_finale : Il y a incohérence mineure entre la fiche (qui recommande prudence sur taux/seuils) et le script qui affiche des taux chiffrés sans avertissement vocal fort. Il faut aligner mot à mot en ajoutant dans la narration 'Exemple indicatif — vérifiez la catégorie et le plafond applicables'.",
+    "contre_verification_finale : Vérifier la durée estimée (38 s) avec le texte prononcé pour s'assurer que le rythme parlé respecte cette durée.",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais inclut à la fois chiffres fixes et mentions de conditions/immatriculation ; il faut renforcer l'avertissement sur la nécessité de vérifier catégorie/plafond pour éviter diffusion de chiffre erroné hors contexte.",
+    "densite_editoriale : Conserver l'exemple chiffré est pertinent, mais il doit être marqué 'à titre indicatif' dans l'écran ou la narration.",
+    "pedagogie_client : Les notions sont expliquées simplement mais le mot 'amortir' devrait comporter un mini-complément audible ('déduire chaque année une fraction de la valeur du bien') ce qui est présent dans la fiche mais absent de la narration courte.",
+    "pedagogie_client : L'utilisation d'acronymes (BIC) est correcte mais il faut prononcer l'explication 'bénéfices industriels et commerciaux' à la première occurrence, ce qui est fait, assurer que l'écran l'affiche également.",
+    "retention_attention : Les deux premières secondes sont intéressantes mais risquent de perdre du temps avec l'écran 'OUI / NON' si la vidéo doit être très courte ; recommander d'aller directement à la réponse 'Oui' pour maximiser rétention.",
+    "retention_attention : Le hook pourrait être rallongé d'une demi-phrase explicative très courte pour renforcer curiosité (ex: 'Ça change tout pour vos impôts').",
+    "conversion_confiance : Le ton est professionnel mais l'absence d'une mention vocale claire de non-conseil et l'affichage de chiffres sans avertissement réduit légèrement la conformité et la confiance; ajouter une phrase finale de non-conseil et rappeler source légale à l'écran (ex. 'voir sources dans la légende')."
+  ],
+  "recommendations": [
+    "Vérifier et confirmer le taux d'abattement micro-BIC (50 %) et le plafond applicable au micro-BIC (mentionné 77 700 € dans la fiche) dans le texte officiel (article 50‑0 CGI et/ou BOFiP) avant diffusion. Si vous ne pouvez pas confirmer, remplacer les chiffres chiffrés par 'abattement forfaitaire plus élevé' et marquer l'exemple comme 'indicatif'.",
+    "Préciser la condition d'immatriculation : remplacer 'l'activité peut nécessiter une immatriculation' par 'selon le volume et le caractère professionnel, l'activité peut nécessiter une immatriculation (ex. inscription au RCS pour LMP) ou d'autres obligations déclaratives'.",
+    "Ajouter une courte phrase audible et lisible à l'écran indiquant 'Exemple indicatif — vérifiez la catégorie du meublé, le plafond et la réglementation en vigueur avant décision' (ou similaire) pour respecter l'exigence de prudence de la fiche.",
+    "Améliorer deux formulations pour fluidité : (i) remplacer la phrase centrale par 'Les loyers d'un logement meublé sont imposés dans la catégorie des bénéfices industriels et commerciaux (BIC), et non comme revenus fonciers.', (ii) éviter la répétition 'micro' dans 'En micro, pour le meublé classique le micro-BIC...'.",
+    "Ajouter brève mention sur l'impact de l'amortissement sur la plus-value lors de cession (ex. 'attention : l'amortissement déduit au réel est pris en compte dans le calcul de la plus-value lors de la revente').",
+    "Vérifier que la durée vocale correspond à l'estimation 38 s : procéder à une lecture chronométrée et, si nécessaire, raccourcir l'écran 'OUI / NON' ou condenser la nuance finale pour rester dans le temps imparti.",
+    "Inclure dans la légende ou l'écran final la mention 'Contenu pédagogique général — non personnalisé' et renvoyer clairement aux sources légales (liens) pour renforcer la confiance."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-18:reels:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__reels__a1__v7.md"
+}

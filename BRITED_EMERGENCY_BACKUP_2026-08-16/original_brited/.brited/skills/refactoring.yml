@@ -1,0 +1,23 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: refactoring
+
+capabilities:
+
+  - simplify_code
+  - remove_duplication
+  - improve_structure
+  - preserve_behavior
+
+rules:
+
+  - no_functional_change
+  - improve_readability
+
+outputs:
+
+  - refactoring_plan
+  

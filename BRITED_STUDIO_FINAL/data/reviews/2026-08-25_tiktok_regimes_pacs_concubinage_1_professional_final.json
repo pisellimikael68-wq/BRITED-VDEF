@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "1e72ed11bb77a9eed12665566f164362bb66ea4a78e9d9d8ce62176389660735",
+      "adapted_hash": "1e72ed11bb77a9eed12665566f164362bb66ea4a78e9d9d8ce62176389660735",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 34,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Aucune recommandation"
+  ],
+  "reviewed_at": "2026-08-19T00:21:03",
+  "model": "ollama:qwen3:4b",
+  "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1_professional_final",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__tiktok__a1__v8.md"
+}

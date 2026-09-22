@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "f95c920a485e2e5762cf0167f4a9914a108b2c2574538ab14dde3777fcd06f4a",
+  "beat_hashes": {
+    "hook": "1859596a7b5192bf282be8a0f87275dcc91ac4d58f1addc9db1a84b85956ae5e",
+    "question": "b097eae6a8b14b44aef3647029f169b7659ad72618602da009d33c7704b72000",
+    "reponse": "4d8af566b85bbc1fcc621c21f6ece6a5b84771e010df266862b9534b8a268f38",
+    "regle": "2eba4c4ebee6d417c142c99a3212c10d0d3f4c6c5de1beb9d62e62ed2c10091f",
+    "exemple": "77eebd99cef3488b818f84b9aafb6b1ac011ec05c2897cc9b3dd958bb4b75ed8",
+    "nuance": "0556614eb12e9f99eec871dec6b337f1064d1e1c6dcfe23b0eeb2ed03e637872",
+    "cta": "2c8278cdb79fdf718191549287a7237c4a39f77db7af3ed13a1bf5d169afeb03"
+  },
+  "spoken_texts": {
+    "hook": "Séparation de biens : êtes vous protégé de toutes les dettes ?",
+    "question": "Selon vous, ce régime met il toujours votre patrimoine à l'abri ?",
+    "reponse": "Non. Certaines dépenses peuvent encore engager les deux époux.",
+    "regle": "L'article mille cinq cent trente-six sépare. Les biens. Mais l'article deux cent vingt rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+    "exemple": "Exemple : un loyer ou des frais d'école contractés par un époux peuvent engager l'autre.",
+    "nuance": "Et sans preuve de propriété, l'article mille cinq cent trente-huit présume le bien indivis par moitié.",
+    "cta": "Vous souhaitez faire le point ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

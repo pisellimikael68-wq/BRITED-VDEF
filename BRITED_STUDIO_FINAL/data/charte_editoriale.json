@@ -1,0 +1,113 @@
+{
+  "version": "finale_validee_2026-08-21_deux_chartes_instagram_youtube",
+  "source_verite": "Fiches conceptuelles locales BRITED certifiées",
+  "direction_visuelle": {
+    "nom": "Claude Design - Visuel A hybride",
+    "statut": "validee",
+    "date_validation": "2026-08-21",
+    "reference_source": "design-system/prototypes/Prototype_Instagram_Visuel_A_V5_titre_aligne.mp4",
+    "principes": [
+      "carte flottante ivoire chaude et composition centrale adaptative",
+      "cartouche supérieur identique sur toutes les pages avec titre complet en gras et dans la couleur exacte de la série, accompagné de sa barre verticale assortie",
+      "cartouche supérieur rendu en fonte condensée à hauteur de capitale uniforme depuis une matrice typographique unique réutilisée pixel pour pixel : sommet, police, graisse et taille strictement alignés pour toutes les lettres, lignes et pages",
+      "texte principal condensé en majuscules, question comprise",
+      "déclinaison chromatique stricte issue du kit Claude Design 4 : Fiscalité #6F4E37, Immobilier #C96F4A, Juridique #D99A2B, Finance #2457D6",
+      "sur chaque page, seuls le titre supérieur et sa barre, les cadres et tracés des pictogrammes, ainsi que les segments actifs de progression adoptent la couleur de série ; aucun autre élément ne varie",
+      "repères de progression segmentés uniquement en bas",
+      "pictogrammes contextuels dans des modules carrés sobres avec apparition progressive sur chaque page",
+      "choix OUI et NON neutres et symétriques avant la réponse",
+      "composition centrale claire et hiérarchie immédiatement lisible"
+    ],
+    "heritage_obligatoire": [
+      "scripts BRITED inchangés",
+      "un beat cohérent par page",
+      "apparition fluide synchronisée avec la voix",
+      "passage visuel entre deux pages fixé exactement à 0,9 seconde, sans adaptation automatique",
+      "CTA validés propres au mode éditorial",
+      "contrôles audio, visuels, juridiques et factuels bloquants"
+    ],
+    "cadence_commune_plateformes": {
+      "reference": "Instagram Visuel A V5 validé",
+      "plateformes": ["tiktok", "reels", "shorts"],
+      "transition_page_secondes": 0.9,
+      "transition_verrouillee": true,
+      "respiration_standard_secondes": 0.236,
+      "respiration_question_secondes": 3.241,
+      "regle": "La vidéo Instagram est la source unique diffusée à l'identique sur Instagram et TikTok. YouTube Shorts conserve sa charte autonome. Le passage visuel entre les pages reste exactement de 0,9 seconde."
+    }
+  },
+  "cadence": {"publications_par_jour": 2, "jours_par_semaine": 7, "creneaux": ["10:00", "17:00"]},
+  "series": {
+    "fiscalite": {"nom": "Fiscalité", "couleur": "#6F4E37", "pictogramme": "pourcentage"},
+    "immobilier": {"nom": "Immobilier", "couleur": "#C96F4A", "pictogramme": "maison"},
+    "juridique": {"nom": "Juridique", "couleur": "#D99A2B", "pictogramme": "balance"},
+    "finance": {"nom": "Finance", "couleur": "#2457D6", "pictogramme": "courbe"}
+  },
+  "principes_visuels": [
+    "Format vertical 9:16, fond chaud et identité neutre sans mention BRITED dans la vidéo",
+    "Texte central, grand et lisible, sans libellés internes Hook, Règle ou domaine",
+    "Apparition progressive fluide, synchronisée mot à mot avec la voix, sans effet saccadé",
+    "Cadence Instagram Visuel A V5 commune à Instagram et TikTok ; YouTube conserve sa charte propre ; passage visuel entre deux pages exactement de 0,9 seconde",
+    "Dessins et pictogrammes sélectionnés dans la bibliothèque vectorielle locale Lucide, contextualisés, diversifiés, présentables et cohérents avec chaque page, jamais superposés au texte, entre eux, ni coupés ; un contrôle visuel indépendant est bloquant",
+    "Barre de progression uniquement en bas, aucune barre supérieure, aucun crayon ni demi-cercle décoratif",
+    "Question affichée et lue avant la réponse ; options cohérentes puis réponse sur la page suivante",
+    "Afficher les textes principaux en majuscules, y compris la question interactive",
+    "Reproduire à l'identique sur toutes les pages le cartouche supérieur de la page 1 : titre complet en gras dans la couleur exacte de la série et barre verticale assortie",
+    "Appliquer la couleur de série à toutes les pages, exclusivement au titre supérieur et à sa barre, aux cadres et tracés des pictogrammes, ainsi qu'aux segments actifs de progression ; conserver strictement inchangés fond, structure, textes, typographies, tailles, placements, animations, rythme, choix OUI/NON et CTA",
+    "Verrouiller le cartouche supérieur en fonte condensée à hauteur de capitale uniforme sous forme d'une matrice unique dotée d'une empreinte de contrôle ; contrôler l'alignement du sommet des lettres et interdire tout redimensionnement par mot, par ligne, par page ou par plateforme",
+    "Dernière page uniquement après la fin de la narration, sans synthèse",
+    "Utiliser exclusivement le tiret standard - dans les mots composés ; bannir les tirets insécables ou exotiques",
+    "Afficher OUI et NON uniquement dans deux cases strictement neutres et symétriques ; ne jamais les répéter dans la question, les prononcer ou colorer un choix avant la réponse",
+    "Faire apparaître progressivement les pictogrammes du bas sur chaque page, y compris Question et Réponse",
+    "Conserver chaque beat narratif cohérent sur une seule page ; adapter automatiquement la police, le cadre et le centrage",
+    "Écrire et prononcer article en toutes lettres dans la narration, jamais art.",
+    "Clôture unique obligatoire sur TikTok, Instagram et YouTube Shorts : Vous souhaitez faire le point sur votre situation ? puis Prenez rendez-vous, Via le lien dans ma bio et pictogramme calendrier",
+    "Toute autre dernière page, notamment Le saviez-vous, Commenter, Partager ou Abonnez-vous, est interdite et bloque le rendu",
+    "La structure, les dimensions, les typographies, les alignements, les espacements, l'ordre d'apparition et le texte de la clôture sont immuables",
+    "Seuls le titre supérieur et sa barre, le bouton, la mention de bio, le calendrier et les segments actifs prennent la couleur de la série",
+    "CTA rendez-vous : identité obligatoire entre le texte oral et le texte visuel",
+    "Contrôle oral exhaustif obligatoire : fréquence homogène à 24 kHz, débruitage, mesure du bruit résiduel, retranscription locale Whisper Large Turbo phrase par phrase, contrôle des mots juridiques porteurs de sens, des répétitions, hallucinations, microcoupures et divergences ; toute phrase refusée est régénérée sans réutiliser un cache ancien",
+    "Référence vocale absolue pour toutes les vidéos et plateformes : fichier regimes_changement__shorts (empreinte SHA-256 2d11925d4c29e30045ecf6c1ec38e2433a360e8756f91c6bf9a2af0d3a85f5e5), voix ElevenLabs jGpnMdbhtKgQbVrYezOx et modèle eleven_multilingual_v2",
+    "Courbe vocale verrouillée par rôle et adaptée à la longueur du texte : accroche 189,5 mots/minute, question 160, réponse 195, pages explicatives comprises entre la page 3 et l'avant-dernière 205, CTA 208 ; reprendre page par page l'intonation, les fluctuations et la respiration de la référence",
+    "Page Réponse et dernière page obligatoirement plus dynamiques que la référence : intonation plus engagée, accentuation nette des mots porteurs et énergie supérieure, sans effet publicitaire ni diction artificielle",
+    "Contrôle bloquant : refuser toute page à plus de 10 mots/minute de sa cible, tout profil vocal différent selon la plateforme et toute dérive d'intonation ; ton conversationnel, chaleureux, assuré et jamais institutionnel",
+    "Raccourcir avant certification toute réponse orale trop longue pour rester entraînante, sans retirer aucune information juridique, fiscale ou factuelle indispensable",
+    "Page de réponse adaptative, chaleureuse et hiérarchisée : verdict appuyé, précisions en modules distincts, texte intégral centré ; les qualités de personnes sont toujours explicites, par exemple PARTENAIRE DE PACS et non le seul sigle PACS",
+    "Prononcer tous les nombres et références en français naturel et dans leur entièreté, jamais chiffre par chiffre ; conserver les chiffres à l'écran",
+    "Diffuser sur TikTok le fichier Instagram strictement identique, voix et synchronisation comprises ; YouTube conserve sa charte propre",
+    "Soumettre chaque phrase à un agent de formulation professionnelle puis à un second agent de contre-vérification indépendante",
+    "Interdire dans l'oral les libellés internes ou télégraphiques Court :, Règle :, Question : et Réponse :",
+    "Centrer géométriquement la question, le bouton, la mention de bio et le calendrier de la clôture unique",
+    "Traiter un seul angle et une seule règle principale par vidéo",
+    "Pour toute série Finance, nommer explicitement dès le titre ou l'accroche la nature exacte du produit ou du contrat concerné (par exemple contrat d’assurance-vie, contrat de capitalisation, PER, PEA ou compte-titres) ; les formulations isolées votre contrat, ce contrat ou votre placement sont interdites lorsque leur référent précis n'est pas présent dans la même phrase",
+    "Ne jamais supprimer la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ou les sources pour raccourcir",
+    "Lorsqu'un sujet reste trop dense, le resserrer sur un sous-angle autonome ou le scinder en mini-série sans perdre de contenu"
+  ],
+  "plateformes": {
+    "reels": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_INSTAGRAM_REFERENCE_V1.md",
+      "duree_cible_secondes": [35, 43], "duree_max_secondes": 48,
+      "structure": ["hook direct", "question quatre secondes avec choix non lus", "réponse entière page suivante", "preuve ou exemple", "appel à l'action conforme au mode du calendrier"],
+      "priorite": "sauvegardes, partages et compréhension complète",
+      "destinations_diffusion": ["instagram", "tiktok"],
+      "controles_rendu_bloquants": ["pictogrammes locaux cohérents avec chaque page", "aucun pictogramme ambigu, coupé ou superposé", "voix unique débruitée", "retranscription Whisper phrase par phrase", "synchronisation mot-voix recalculée", "aucune microcoupure, répétition ou bruit parasite"]
+    },
+    "shorts": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_YOUTUBE_SHORTS_REFERENCE_V1.md",
+      "duree_cible_secondes": [38, 48], "duree_max_secondes": 52,
+      "structure": ["promesse immédiate", "explication autonome", "question avec choix non lus", "réponse entière", "exemple", "appel à l'action conforme au mode du calendrier"],
+      "priorite": "rétention et clarté pédagogique",
+      "controles_rendu_bloquants": ["pictogrammes locaux cohérents avec chaque page", "aucun pictogramme ambigu, coupé ou superposé", "voix unique débruitée", "retranscription Whisper phrase par phrase", "synchronisation mot-voix recalculée", "aucune microcoupure, répétition ou bruit parasite"]
+    }
+  },
+  "garde_fous": [
+    "Ne jamais publier automatiquement",
+    "Ne jamais remplacer un script validé : créer une nouvelle version",
+    "Bloquer la génération si la fiche source est absente",
+    "Signaler toute incohérence juridique, fiscale ou factuelle",
+    "Contrôler la présence de tous les mots, les glyphes, la pagination, la synchronisation et l'audio avant validation",
+    "Créer un manifeste verrouillé et demander la validation humaine",
+    "Bloquer toute réduction de durée qui rendrait le contenu juridiquement, fiscalement ou factuellement incomplet"
+    ,"Bloquer tout contenu Finance qui ne précise pas clairement la nature exacte du contrat, du compte, du support ou du produit financier abordé"
+  ]
+}

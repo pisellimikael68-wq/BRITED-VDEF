@@ -1,0 +1,165 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche indique correctement le délai de 6 mois (12 mois hors métropole) et les articles cités. Cependant, la narration et le script utilisent l'expression « dépôt et paiement : 6 mois » sans préciser immédiatement qu'il existe au dépôt la possibilité de demander un paiement fractionné ou différé sous conditions (garanties). Cette nuance existe dans la fiche mais n'est pas intégrée à la phrase courte centrale — risque d'être interprété comme une obligation stricte et absolue de paiement immédiat sans recours, ce qui nécessite une précision localisable dans le Beat 2 (Réponse) ou Beat 6 (Nuance)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les références juridiques et les taux sont corrects (CGI art. 641, 1727, 1728, BOFiP). Toutefois la formulation « Le délai est celui du dépôt et du paiement » mérite un ajustement précis : l'article fixe le délai de dépôt et le paiement est exigible à ce délai mais l'administration admet, sous conditions, le paiement fractionné ou différé si demandé au moment du dépôt et assorti de garanties. Il faut ajouter cette condition explicite pour éviter une généralisation trompeuse (localiser l'ajout dans le Beat 2 ou Beat 5)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle, l'exception territoriale, l'intérêt de retard et la majoration, et donne un exemple. Toutefois l'information sur le paiement fractionné/différé est seulement dans le texte d'accompagnement (mécanisme) et n'apparaît pas clairement dans la timeline visuelle/narration courte — omission dangereuse car la liquidité est présentée comme le 'point de vigilance' sans indiquer qu'une demande doit être faite au dépôt avec garanties. De plus, l'exemple chiffré mentionné dans la fiche (400 000 € avec 50 000 € de droits) n'apparaît pas dans le script ; soit l'exemple chiffré doit être supprimé de la fiche scriptée soit il doit être cité avec la nuance « exemple indicatif » pour ne pas paraître conseil chiffré."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format court (42 s) et le découpage en beats conviennent aux shorts. Néanmoins le Beat 1 (Hook) dure potentiellement plus de 2 secondes si on ajoute visuel et texte ; la consigne de 'force des deux premières secondes' pourrait être mieux respectée en simplifiant l'accroche visuelle (ex : uniquement la question sur fond animé) — correction localisable au Beat 1. Par ailleurs la durée exacte (42 s) doit être vérifiée lors du tournage car l'énumération à Beat 3 peut déborder si l'on lit tous les éléments à voix naturelle."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton et clarté sont bons. Points à améliorer : la phrase du Beat 3 est dense (article 641 + 12 mois + intérêt 0,20% + majoration) et risque de perdre l'auditeur en format short ; il faut fractionner en deux phrases très courtes ou réduire le nombre d'éléments lus à la fois. Localiser l'ajustement dans Beat 3."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel. Quelques formulations pourraient être simplifiées pour l'oral rapide : remplacer « porté à douze mois » par « 12 mois » et alléger la phrase listant taux et majoration. Localiser modifications en Beat 2 et Beat 3."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent. Deux incohérences mineures à corriger : 1) l'exemple chiffré présent dans la fiche générale (400 000 € / 50 000 €) n'est pas intégré au script — décider d'inclure ou de supprimer cet exemple pour cohérence ; 2) l'affirmation 'Le délai est celui du dépôt et du paiement' doit rappeler la possibilité de demander le fractionnement/report au dépôt (voir findings précédents)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais le Beat 3 accumule trop d'informations pour un format court, nuisant à la densité pédagogique. Il faut redistribuer une ou deux informations (par ex. déplacer la mention de la majoration vers le Beat 4 ou la nuancer plus brièvement)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Public non spécialiste comprendra l'essentiel, mais deux notions doivent être explicitées très brièvement pour éviter les malentendus : 1) que l'intérêt de retard s'applique dès le premier jour même en cas de bonne foi (actuellement ok), et 2) que le paiement fractionné/différé existe mais doit être demandé au dépôt avec garanties. Ces précisions manquent dans la version orale concise (localiser au Beat 3-5)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial pertinent, mais le rythme risque de chuter lors du Beat 3 en raison de surcharge verbale. Recommandation : raccourcir Beat 3 et programmer un micro-pause ou un visuel fort pour maintenir l'attention (localisable au Beat 3-4)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "CTA est appropriée et non pressante. Pour augmenter la conversion, ajouter très brièvement (texte écran) la mention 'Analyse personnalisée — pas un conseil gratuit' pourrait renforcer confiance professionnelle et conformité à la mention légale déjà fournie. Localiser l'ajout sur Beat 6 (CTA)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 120,
+      "seconds": 44.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche indique correctement le délai de 6 mois (12 mois hors métropole) et les articles cités. Cependant, la narration et le script utilisent l'expression « dépôt et paiement : 6 mois » sans préciser immédiatement qu'il existe au dépôt la possibilité de demander un paiement fractionné ou différé sous conditions (garanties). Cette nuance existe dans la fiche mais n'est pas intégrée à la phrase courte centrale — risque d'être interprété comme une obligation stricte et absolue de paiement immédiat sans recours, ce qui nécessite une précision localisable dans le Beat 2 (Réponse) ou Beat 6 (Nuance).",
+    "juridique_fiscal : Les références juridiques et les taux sont corrects (CGI art. 641, 1727, 1728, BOFiP). Toutefois la formulation « Le délai est celui du dépôt et du paiement » mérite un ajustement précis : l'article fixe le délai de dépôt et le paiement est exigible à ce délai mais l'administration admet, sous conditions, le paiement fractionné ou différé si demandé au moment du dépôt et assorti de garanties. Il faut ajouter cette condition explicite pour éviter une généralisation trompeuse (localiser l'ajout dans le Beat 2 ou Beat 5).",
+    "completude : La vidéo couvre la règle, l'exception territoriale, l'intérêt de retard et la majoration, et donne un exemple. Toutefois l'information sur le paiement fractionné/différé est seulement dans le texte d'accompagnement (mécanisme) et n'apparaît pas clairement dans la timeline visuelle/narration courte — omission dangereuse car la liquidité est présentée comme le 'point de vigilance' sans indiquer qu'une demande doit être faite au dépôt avec garanties. De plus, l'exemple chiffré mentionné dans la fiche (400 000 € avec 50 000 € de droits) n'apparaît pas dans le script ; soit l'exemple chiffré doit être supprimé de la fiche scriptée soit il doit être cité avec la nuance « exemple indicatif » pour ne pas paraître conseil chiffré.",
+    "plateforme : Le format court (42 s) et le découpage en beats conviennent aux shorts. Néanmoins le Beat 1 (Hook) dure potentiellement plus de 2 secondes si on ajoute visuel et texte ; la consigne de 'force des deux premières secondes' pourrait être mieux respectée en simplifiant l'accroche visuelle (ex : uniquement la question sur fond animé) — correction localisable au Beat 1. Par ailleurs la durée exacte (42 s) doit être vérifiée lors du tournage car l'énumération à Beat 3 peut déborder si l'on lit tous les éléments à voix naturelle.",
+    "editorial : Ton et clarté sont bons. Points à améliorer : la phrase du Beat 3 est dense (article 641 + 12 mois + intérêt 0,20% + majoration) et risque de perdre l'auditeur en format short ; il faut fractionner en deux phrases très courtes ou réduire le nombre d'éléments lus à la fois. Localiser l'ajustement dans Beat 3.",
+    "formulation_professionnelle : Le français est naturel et professionnel. Quelques formulations pourraient être simplifiées pour l'oral rapide : remplacer « porté à douze mois » par « 12 mois » et alléger la phrase listant taux et majoration. Localiser modifications en Beat 2 et Beat 3.",
+    "contre_verification_finale : Globalement cohérent. Deux incohérences mineures à corriger : 1) l'exemple chiffré présent dans la fiche générale (400 000 € / 50 000 €) n'est pas intégré au script — décider d'inclure ou de supprimer cet exemple pour cohérence ; 2) l'affirmation 'Le délai est celui du dépôt et du paiement' doit rappeler la possibilité de demander le fractionnement/report au dépôt (voir findings précédents).",
+    "densite_editoriale : La vidéo traite un seul angle mais le Beat 3 accumule trop d'informations pour un format court, nuisant à la densité pédagogique. Il faut redistribuer une ou deux informations (par ex. déplacer la mention de la majoration vers le Beat 4 ou la nuancer plus brièvement).",
+    "pedagogie_client : Public non spécialiste comprendra l'essentiel, mais deux notions doivent être explicitées très brièvement pour éviter les malentendus : 1) que l'intérêt de retard s'applique dès le premier jour même en cas de bonne foi (actuellement ok), et 2) que le paiement fractionné/différé existe mais doit être demandé au dépôt avec garanties. Ces précisions manquent dans la version orale concise (localiser au Beat 3-5).",
+    "retention_attention : Hook initial pertinent, mais le rythme risque de chuter lors du Beat 3 en raison de surcharge verbale. Recommandation : raccourcir Beat 3 et programmer un micro-pause ou un visuel fort pour maintenir l'attention (localisable au Beat 3-4).",
+    "conversion_confiance : CTA est appropriée et non pressante. Pour augmenter la conversion, ajouter très brièvement (texte écran) la mention 'Analyse personnalisée — pas un conseil gratuit' pourrait renforcer confiance professionnelle et conformité à la mention légale déjà fournie. Localiser l'ajout sur Beat 6 (CTA)."
+  ],
+  "recommendations": [
+    "Préciser dans le script (idéalement Beat 3 ou Beat 5) que le paiement peut, sous conditions et sur demande au moment du dépôt, être fractionné ou différé et qu'il faut fournir des garanties — incorporer une phrase courte : « Vous pouvez demander au dépôt un paiement fractionné ou différé, mais il faut le demander et fournir des garanties. »",
+    "Alléger le Beat 3 : scinder l'énoncé en deux phrases courtes pour la lecture en short (ex. 1) « L'article 641 fixe 6 mois en France, 12 mois si décès hors métropole. » 2) « L'intérêt de retard est de 0,20 % par mois dès le premier jour ; une majoration s'ajoute au-delà d'un certain retard. »",
+    "Décider si l'exemple chiffré (400 000 € / 50 000 €) doit figurer dans la vidéo. Si oui, l'introduire très brièvement en précisant que c'est indicatif. Si non, retirer toute mention chiffrée de la fiche scriptée pour respecter la règle 'ne jamais chiffrer une pénalité pour un cas particulier'.",
+    "Renforcer l'accroche visuelle des 2 premières secondes (Beat 1) en supprimant éléments visuels superflus et en gardant uniquement la question textuelle sur fond animé ou une horloge très lisible.",
+    "Ajouter une micro-mention sur l'écran du CTA rappelant la légende déjà incluse : « Contenu pédagogique — pas un conseil personnalisé » pour accroître confiance et conformité.",
+    "Vérifier lors d'une lecture à voix haute que la durée reste proche de 42 s et ajuster la vitesse/texte si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-29:shorts:succession_delais_declaration:1",
+  "script_path": "scripts/succession/succession_delais_declaration__shorts__a1__v3.md"
+}

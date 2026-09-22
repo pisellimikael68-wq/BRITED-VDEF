@@ -1,0 +1,276 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.24,
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "safe_zones": true,
+    "visual_overlap_control": true
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Vous apprenez le décès d'un proche et vous pensez à l'assurance-vie ?",
+      "tokens": [
+        "Vous",
+        "apprenez",
+        "le",
+        "décès",
+        "d'un",
+        "proche",
+        "et",
+        "vous",
+        "pensez",
+        "à",
+        "l'assurance-vie",
+        "?"
+      ],
+      "token_count": 12,
+      "speech_duration": 3.153,
+      "full_text_visible_at": 2.838,
+      "hold_after_full_text": 1.215,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "circle-help",
+          "lightbulb"
+        ],
+        "font_size": 43,
+        "overlap": false
+      }
+    },
+    {
+      "id": "question",
+      "source_text": "L'abattement de 152 500 € s'applique-t-il ?",
+      "tokens": [
+        "L'abattement",
+        "de",
+        "152",
+        "500",
+        "€",
+        "s'applique-t-il",
+        "?"
+      ],
+      "token_count": 7,
+      "speech_duration": 3.207,
+      "full_text_visible_at": 2.886,
+      "hold_after_full_text": 1.221,
+      "visual_layout": null
+    },
+    {
+      "id": "reponse",
+      "source_text": "Oui, pour les primes versées avant 70 ans, chaque bénéficiaire a 152 500 €.",
+      "tokens": [
+        "Oui,",
+        "pour",
+        "les",
+        "primes",
+        "versées",
+        "avant",
+        "70",
+        "ans,",
+        "chaque",
+        "bénéficiaire",
+        "a",
+        "152",
+        "500",
+        "€."
+      ],
+      "token_count": 14,
+      "speech_duration": 5.092,
+      "full_text_visible_at": 4.582,
+      "hold_after_full_text": 0.759,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Au-delà, la part taxable est imposée à 20 % jusqu'à 700 000 €, puis à 31,25 %.",
+      "tokens": [
+        "Au-delà,",
+        "la",
+        "part",
+        "taxable",
+        "est",
+        "imposée",
+        "à",
+        "20",
+        "%",
+        "jusqu'à",
+        "700",
+        "000",
+        "€,",
+        "puis",
+        "à",
+        "31,25",
+        "%."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.825,
+      "full_text_visible_at": 5.243,
+      "hold_after_full_text": 0.833,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          380,
+          660,
+          521
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "badge-percent",
+          "receipt-euro"
+        ],
+        "font_size": 41,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Par exemple, trois bénéficiaires représentent 3 × 152 500 €, soit 457 500 € sans taxation.",
+      "tokens": [
+        "Par",
+        "exemple,",
+        "trois",
+        "bénéficiaires",
+        "représentent",
+        "3",
+        "×",
+        "152",
+        "500",
+        "€,",
+        "soit",
+        "457",
+        "500",
+        "€",
+        "sans",
+        "taxation."
+      ],
+      "token_count": 16,
+      "speech_duration": 6.741,
+      "full_text_visible_at": 6.067,
+      "hold_after_full_text": 0.924,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          378,
+          660,
+          522
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 42,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Pour les primes versées après 70 ans, l'abattement global de 30 500 € est partagé ; les gains attachés à ces primes restent exonérés.",
+      "tokens": [
+        "Pour",
+        "les",
+        "primes",
+        "versées",
+        "après",
+        "70",
+        "ans,",
+        "l'abattement",
+        "global",
+        "de",
+        "30",
+        "500",
+        "€",
+        "est",
+        "partagé",
+        ";",
+        "les",
+        "gains",
+        "attachés",
+        "à",
+        "ces",
+        "primes",
+        "restent",
+        "exonérés."
+      ],
+      "token_count": 24,
+      "speech_duration": 6.089,
+      "full_text_visible_at": 5.48,
+      "hold_after_full_text": 1.509,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          360,
+          660,
+          539
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "badge-percent",
+          "receipt-euro",
+          "split"
+        ],
+        "font_size": 38,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 3.977,
+      "full_text_visible_at": 3.579,
+      "hold_after_full_text": 0.398,
+      "visual_layout": null
+    }
+  ]
+}

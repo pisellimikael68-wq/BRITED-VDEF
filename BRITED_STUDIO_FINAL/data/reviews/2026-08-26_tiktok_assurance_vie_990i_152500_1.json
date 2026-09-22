@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.5,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "2d523d81c71300ab59f899badff666a3541a6e21d1a25ae5d29214b8855101df",
+      "adapted_hash": "2d523d81c71300ab59f899badff666a3541a6e21d1a25ae5d29214b8855101df",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 36,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "L'agent est parfaitement conforme aux règles absolues et à la structure du script.",
+    "Le hook et la question sont clairs et compréhensibles, sans ambiguïté, et respectent le ton professionnel.",
+    "Le script est complet, avec des exemples utiles, des chiffres précis et des sources correctement citées.",
+    "La narration suit fidèlement la structure du contenu, avec des visuels correspondants à chaque beat.",
+    "Le script est bien structuré, avec une séquence claire et une cohérence totale entre la narration et les visuels."
+  ],
+  "reviewed_at": "2026-08-19T18:04:00",
+  "model": "ollama:qwen3:1.7b",
+  "publication_id": "2026-08-26:tiktok:assurance_vie_990i_152500:1",
+  "script_path": "scripts/assurance_vie/assurance_vie_990i_152500__tiktok__a1.md"
+}

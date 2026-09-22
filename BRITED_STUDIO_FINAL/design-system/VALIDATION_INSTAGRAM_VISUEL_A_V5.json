@@ -1,0 +1,15 @@
+{
+  "status": "superseded",
+  "superseded_at": "2026-08-24",
+  "superseded_by": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+  "distribution_disabled": true,
+  "validated_at": "2026-08-21",
+  "validated_by": "Mikael Piselli - confirmation explicite",
+  "platform": "reels",
+  "visual_direction": "Claude Design - Visuel A hybride",
+  "reference_video": "design-system/prototypes/Prototype_Instagram_Visuel_A_V5_titre_aligne.mp4",
+  "reference_sha256": "af2073961d4658fde60a0c958e537695883ca778921be4b864339e3d78f0298e",
+  "renderer": "video_pipeline/render_social_visual_a.py",
+  "publication_authorized": false,
+  "locked_rules": ["native_instagram_script", "header_uniform", "page_crossfade_0.9_seconds", "progressive_contextual_icons", "single_main_font_scale_46_to_40", "contextual_question_max_7_words", "hook_190_wpm", "cta_184_wpm", "two_cta_variants_only", "human_video_approval_required"]
+}

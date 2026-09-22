@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED et cite les sources. Point d'attention : l'écriture 'monétaire' dans la liste des 5 familles d'actifs pourrait prêter à confusion — préférer 'actifs monétaires' pour être exact mot à mot avec les familles énoncées dans la fiche.",
+        "La mention des deux sources est correcte mais la ligne de 'chiffres' (5 classes d'actifs) n'est pas explicitement citée à l'oral comme provenance (AMF / Banque de France) — suggérer d'ajouter brièvement 'classiquement' ou 'selon les référentiels' pour relier l'énoncé aux sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention 'Prenez rendez-vous via le lien dans ma bio.' : conforme tant que ce rendez-vous n'est pas présenté comme un conseil personnalisé gratuit. Il faut ajouter (ou conserver) la mention légale déjà fournie en bas 'Ne constitue ni un conseil...'.",
+        "Ne pas utiliser d'exemple chiffré qui ressemblerait à une allocation recommandée — l'exemple donné ('dix fonds identiques = 1 risque') est pédagogique mais éviter tout chiffre d'allocation spécifique ou formulation pouvant être interprétée comme recommandation."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception et un exemple utile. Toutefois, la limitation pratique (« trop de lignes rendent le patrimoine illisible ») pourrait être précisée par un court exemple concret (p. ex. 'plusieurs contrats, plusieurs banques') pour que l'auditeur comprenne immédiatement.",
+        "Il manque la mention explicite du risque invisible du cumul salarié-actionnaire dans le script oral (présent dans la légende) — important à dire en 1 phrase pour la complétude pédagogique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : plausible mais serrée pour inclure le hook, question, explication, l'exemple, la nuance et le CTA clairement. Recommander de vérifier le minutage des séquences (notamment la liste des 5 familles) pour tenir 38 s.",
+        "Ordonnancement respecté globalement, mais la diapo 'question OUI/NON' doit être très rapide et lisible ; prévoir 1.5–2 s au début pour capter l'attention."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace mais la première phrase répétée deux fois ('Vous avez votre argent au même endroit ?') alourdit légèrement l'ouverture — garder une seule formulation très percutante.",
+        "Formulation 'Dix fonds investissant dans les mêmes valeurs créent dix lignes mais un seul risque.' est claire ; pour la mémorisation, proposer une version plus rythmée: 'Dix fonds, même pochettes, un seul risque.' (optionnel)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et sourcé ; veiller à conserver la mention légale à l'écran ou en description pour éviter que l'appel à rendez-vous soit perçu comme conseil gratuit et personnalisé.",
+        "Éviter toute mention ou promesse de 'garantie' ou 'protection contre la perte' — le script respecte cela, mais l'intonation pourrait involontairement laisser entendre le contraire; recommander formulation neutre sur la nuance."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase à fluidifier : 'Diversifier, c'est multiplier des sources de risque indépendantes : classes d'actifs, zones, enveloppes.' Suggestion mineure : ajouter 'exemples' ou 'par exemple' pour l'enchaînement.",
+        "Orthographe et français globalement naturels ; proposer de remplacer 'actifs réels' par 'actifs réels (matières premières, etc.)' uniquement si l'on souhaite clarifier, sans alourdir la séquence."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements cohérents mais deux éléments sont dans la légende seulement (risque salarié-actionnaire et avertissement sur enveloppes) et mériteraient une phrase rapide dans le script oral pour assurer cohérence totale.",
+        "Vérifier prononciation mot à mot : 'SCPI' ou 'SCPI à crédit' ne sont pas mentionnées dans le script mais figurent dans les relations — veiller à ne pas introduire d'acronymes non expliqués si ajoutés."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement les visuels correspondent, mais la vignette 1 ('personne regardant un seul coffre/portefeuille, pictogramme œuf unique') doit montrer clairement l'idée d'unicité sans connotation décorative.",
+        "Vignette 4 ('schéma simple : trois colonnes') : veiller à ce que les icônes représentent bien 'classes', 'zones', 'enveloppes' (par ex. globe pour zones, dossier/contrat pour enveloppes) afin d'éviter toute ambiguïté visuelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais tente d'aborder plusieurs sous-points (définition, familles d'actifs, exemple, limites) : risque de surcharge en 38 s. Recommander d'alléger une phrase si le minutage dépasse.",
+        "La 'condition' et 'exception' sont présentes, mais le lien source n'est pas verbalisé — proposer d'ajouter brièvement 'selon l'AMF' si l'on veut renforcer l'autorité sans alourdir."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est adaptée au non-spécialiste, mais l'expression 'sources de risque indépendantes' peut être trop abstraite pour certains : proposer une phrase illustrative très courte (p. ex. 'si l'immobilier baisse, vos obligations peuvent rester stables').",
+        "Attention au jargon 'enveloppes' : si le public n'est pas familier (jeune audience), remplacer par 'types de contrats (assurance-vie, PEA, comptes...)' ou ajouter un mot d'explication visuel."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes mais la répétition de la même question peut diluer l'impact ; garder une accroche ultra-courte puis basculer immédiatement sur la question OUI/NON.",
+        "La progression de curiosité est bonne ; veiller toutefois à ce que l'énoncé des 5 familles soit présenté visuellement et oralement de façon rythmée pour ne pas perdre l'attention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton global sérieux et pédagogique ; toutefois l'usage du CTA 'Prenez rendez-vous via le lien dans ma bio.' doit être accompagné (en description ou visuel final) par la mention légale déjà prévue afin d'éviter toute perception de promesse ou de garantie.",
+        "Éviter toute pression commerciale dans l'intonation du CTA (ne pas ajouter 'vite' ou 'maintenant' qui pourraient nuire à la confiance)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 102,
+      "seconds": 37.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 102,
+        "seconds": 37.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED et cite les sources. Point d'attention : l'écriture 'monétaire' dans la liste des 5 familles d'actifs pourrait prêter à confusion — préférer 'actifs monétaires' pour être exact mot à mot avec les familles énoncées dans la fiche.",
+    "source : La mention des deux sources est correcte mais la ligne de 'chiffres' (5 classes d'actifs) n'est pas explicitement citée à l'oral comme provenance (AMF / Banque de France) — suggérer d'ajouter brièvement 'classiquement' ou 'selon les référentiels' pour relier l'énoncé aux sources.",
+    "juridique_fiscal : Le script contient la mention 'Prenez rendez-vous via le lien dans ma bio.' : conforme tant que ce rendez-vous n'est pas présenté comme un conseil personnalisé gratuit. Il faut ajouter (ou conserver) la mention légale déjà fournie en bas 'Ne constitue ni un conseil...'.",
+    "juridique_fiscal : Ne pas utiliser d'exemple chiffré qui ressemblerait à une allocation recommandée — l'exemple donné ('dix fonds identiques = 1 risque') est pédagogique mais éviter tout chiffre d'allocation spécifique ou formulation pouvant être interprétée comme recommandation.",
+    "completude : Le script couvre la règle centrale, l'exception et un exemple utile. Toutefois, la limitation pratique (« trop de lignes rendent le patrimoine illisible ») pourrait être précisée par un court exemple concret (p. ex. 'plusieurs contrats, plusieurs banques') pour que l'auditeur comprenne immédiatement.",
+    "completude : Il manque la mention explicite du risque invisible du cumul salarié-actionnaire dans le script oral (présent dans la légende) — important à dire en 1 phrase pour la complétude pédagogique.",
+    "plateforme : Durée estimée 38 s : plausible mais serrée pour inclure le hook, question, explication, l'exemple, la nuance et le CTA clairement. Recommander de vérifier le minutage des séquences (notamment la liste des 5 familles) pour tenir 38 s.",
+    "plateforme : Ordonnancement respecté globalement, mais la diapo 'question OUI/NON' doit être très rapide et lisible ; prévoir 1.5–2 s au début pour capter l'attention.",
+    "editorial : Hook efficace mais la première phrase répétée deux fois ('Vous avez votre argent au même endroit ?') alourdit légèrement l'ouverture — garder une seule formulation très percutante.",
+    "editorial : Formulation 'Dix fonds investissant dans les mêmes valeurs créent dix lignes mais un seul risque.' est claire ; pour la mémorisation, proposer une version plus rythmée: 'Dix fonds, même pochettes, un seul risque.' (optionnel).",
+    "securite : Contenu pédagogique et sourcé ; veiller à conserver la mention légale à l'écran ou en description pour éviter que l'appel à rendez-vous soit perçu comme conseil gratuit et personnalisé.",
+    "securite : Éviter toute mention ou promesse de 'garantie' ou 'protection contre la perte' — le script respecte cela, mais l'intonation pourrait involontairement laisser entendre le contraire; recommander formulation neutre sur la nuance.",
+    "formulation_professionnelle : Phrase à fluidifier : 'Diversifier, c'est multiplier des sources de risque indépendantes : classes d'actifs, zones, enveloppes.' Suggestion mineure : ajouter 'exemples' ou 'par exemple' pour l'enchaînement.",
+    "formulation_professionnelle : Orthographe et français globalement naturels ; proposer de remplacer 'actifs réels' par 'actifs réels (matières premières, etc.)' uniquement si l'on souhaite clarifier, sans alourdir la séquence.",
+    "contre_verification_finale : Enchaînements cohérents mais deux éléments sont dans la légende seulement (risque salarié-actionnaire et avertissement sur enveloppes) et mériteraient une phrase rapide dans le script oral pour assurer cohérence totale.",
+    "contre_verification_finale : Vérifier prononciation mot à mot : 'SCPI' ou 'SCPI à crédit' ne sont pas mentionnées dans le script mais figurent dans les relations — veiller à ne pas introduire d'acronymes non expliqués si ajoutés.",
+    "coherence_pictogrammes : Globalement les visuels correspondent, mais la vignette 1 ('personne regardant un seul coffre/portefeuille, pictogramme œuf unique') doit montrer clairement l'idée d'unicité sans connotation décorative.",
+    "coherence_pictogrammes : Vignette 4 ('schéma simple : trois colonnes') : veiller à ce que les icônes représentent bien 'classes', 'zones', 'enveloppes' (par ex. globe pour zones, dossier/contrat pour enveloppes) afin d'éviter toute ambiguïté visuelle.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais tente d'aborder plusieurs sous-points (définition, familles d'actifs, exemple, limites) : risque de surcharge en 38 s. Recommander d'alléger une phrase si le minutage dépasse.",
+    "densite_editoriale : La 'condition' et 'exception' sont présentes, mais le lien source n'est pas verbalisé — proposer d'ajouter brièvement 'selon l'AMF' si l'on veut renforcer l'autorité sans alourdir.",
+    "pedagogie_client : La formulation est adaptée au non-spécialiste, mais l'expression 'sources de risque indépendantes' peut être trop abstraite pour certains : proposer une phrase illustrative très courte (p. ex. 'si l'immobilier baisse, vos obligations peuvent rester stables').",
+    "pedagogie_client : Attention au jargon 'enveloppes' : si le public n'est pas familier (jeune audience), remplacer par 'types de contrats (assurance-vie, PEA, comptes...)' ou ajouter un mot d'explication visuel.",
+    "retention_attention : Les deux premières secondes sont fortes mais la répétition de la même question peut diluer l'impact ; garder une accroche ultra-courte puis basculer immédiatement sur la question OUI/NON.",
+    "retention_attention : La progression de curiosité est bonne ; veiller toutefois à ce que l'énoncé des 5 familles soit présenté visuellement et oralement de façon rythmée pour ne pas perdre l'attention.",
+    "conversion_confiance : Ton global sérieux et pédagogique ; toutefois l'usage du CTA 'Prenez rendez-vous via le lien dans ma bio.' doit être accompagné (en description ou visuel final) par la mention légale déjà prévue afin d'éviter toute perception de promesse ou de garantie.",
+    "conversion_confiance : Éviter toute pression commerciale dans l'intonation du CTA (ne pas ajouter 'vite' ou 'maintenant' qui pourraient nuire à la confiance)."
+  ],
+  "recommendations": [
+    "Remplacer 'monétaire' par 'actifs monétaires' dans la liste des 5 familles pour précision terminologique.",
+    "Ajouter 1 phrase courte dans le script oral rappelant le risque invisible du salarié-actionnaire (issue des erreurs fréquentes) : p. ex. 'Attention : si vous travaillez pour une entreprise et détenez aussi ses actions, vous cumulez les risques.'",
+    "Veiller à inclure ou conserver la mention légale visible en description ou écran final (déjà fournie) afin que l'appel à rendez-vous ne soit pas interprété comme un conseil personnalisé gratuit.",
+    "Vérifier le minutage réel en répétition : si la vidéo dépasse 38 s, réduire la durée consacrée à la diapo 'OUI/NON' ou condensez la liste des 5 familles en visuel seulement avec une lecture très rapide.",
+    "Clarifier visuellement les icônes pour 'classes', 'zones', 'enveloppes' (globe pour zones, dossier/contrat pour enveloppes, piles de pièces pour classes) pour assurer correspondance mot-image.",
+    "Remplacer ou expliciter le terme 'enveloppes' si l'audience est non spécialiste (p. ex. 'types de contrats (assurance-vie, PEA, compte-titres)') ou ajouter une brève sous-phrase explicative.",
+    "Alléger l'accroche initiale en supprimant la répétition exacte de la question et garder une première seconde percutante, puis enchaîner rapidement sur la question OUI/NON.",
+    "Si vous verbalisez la source pour renforcer l'autorité, ajoutez une courte mention 'selon l'AMF' ou 'classiquement' en 1 mot sans alourdir le message."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-03:reels:culture_diversification:0",
+  "script_path": "scripts/culture_financiere/culture_diversification__reels__a1__v4.md"
+}

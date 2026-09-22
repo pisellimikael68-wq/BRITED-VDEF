@@ -1,0 +1,115 @@
+{
+  "id": "assurance_vie_rachats_academic_2025",
+  "pillar": "epargne",
+  "family": "assurance_vie",
+  "chapter": "rachats",
+  "title": "Fiscalité et mécanisme des rachats en assurance-vie",
+  "summary": "Socle académique relatif à la détermination de l'assiette taxable lors des rachats totaux, partiels et successifs d'un contrat d'assurance-vie, ainsi qu'à la distinction des régimes d'imposition des produits selon la date de versement des primes et la durée du contrat.",
+  "key_points": [
+    "Le rachat peut être total ou partiel.",
+    "L'imposition du rachat porte sur la fraction de produits comprise dans les sommes retirées.",
+    "La durée du contrat s'apprécie au jour du rachat.",
+    "La date du 27 septembre 2017 s'apprécie au regard de la date de versement des primes et non de la seule date de souscription du contrat.",
+    "Pour les produits associés aux primes versées à compter du 27 septembre 2017, le régime dépend notamment de la durée du contrat et, au-delà de huit ans, du montant total de primes retenu pour l'appréciation du seuil de 150 000 euros."
+  ],
+  "rules": [
+    "En cas de rachat total, l'assiette taxable correspond à la différence entre l'épargne acquise ou la valeur de rachat et les primes versées.",
+    "En cas de rachat partiel, le produit imposable correspond au montant du rachat partiel diminué du total des primes versées multiplié par le rapport entre le montant du rachat partiel et la valeur de rachat totale à la date du rachat.",
+    "En cas de rachats partiels successifs, le calcul de l'assiette taxable tient compte du capital déjà remboursé. Seul le solde des primes versées est retenu pour les calculs ultérieurs.",
+    "En cas de nouveaux versements après un rachat partiel, les primes à prendre en compte pour le calcul de l'assiette taxable sont augmentées des nouveaux versements.",
+    "Pour les produits associés à des primes versées à compter du 27 septembre 2017, lorsque le contrat a moins de huit ans au moment du rachat, le taux forfaitaire indiqué dans les notes est de 12,8 %, avec possibilité d'option pour le barème progressif de l'impôt sur le revenu.",
+    "Pour les produits associés à des primes versées à compter du 27 septembre 2017, lorsque le contrat a plus de huit ans au moment du rachat et que le montant total des primes versées par l'assuré sur l'ensemble des contrats souscrits, diminué des primes rachetées, est inférieur à 150 000 euros au 31 décembre de l'année N-1, le taux forfaitaire indiqué dans les notes est de 7,5 %, avec possibilité d'option pour le barème progressif.",
+    "Pour les produits associés à des primes versées à compter du 27 septembre 2017, lorsque le contrat a plus de huit ans au moment du rachat et que le montant total des primes versées par l'assuré sur l'ensemble des contrats souscrits, diminué des primes rachetées, est supérieur à 150 000 euros au 31 décembre de l'année N-1, les notes indiquent une imposition forfaitaire de 12,8 % au prorata de la fraction d'encours dépassant le seuil.",
+    "Le dépassement du seuil de 150 000 euros ne signifie pas que la totalité des produits du rachat relève nécessairement du taux de 12,8 % : les notes rattachent ce taux au prorata de l'encours dépassant le seuil.",
+    "Le fait d'être en dessous du seuil de 150 000 euros ne constitue pas une exonération générale d'impôt sur le revenu.",
+    "Au-delà de huit ans, les abattements annuels de 4 600 euros pour une personne seule et de 9 200 euros pour un couple soumis à imposition commune sont maintenus selon les conditions du régime applicable.",
+    "Pour les produits associés à des primes versées avant le 27 septembre 2017, le régime fiscal doit être distingué de celui applicable aux produits associés aux primes versées à compter de cette date."
+  ],
+  "protected_rules": [
+    {
+      "id": "AV_RACHAT_TOTAL_FORMULA",
+      "statement": "Rachat total : produits imposables = valeur de rachat - total des primes versées.",
+      "validator_key": "av_rachat_total_formula"
+    },
+    {
+      "id": "AV_RACHAT_PARTIEL_FORMULA",
+      "statement": "Rachat partiel : produits imposables = montant du rachat - [total des primes versées × (montant du rachat / valeur de rachat totale à la date du rachat)].",
+      "validator_key": "av_rachat_partiel_formula"
+    },
+    {
+      "id": "AV_RACHATS_SUCCESSIFS",
+      "statement": "Rachats partiels successifs : pour un nouveau calcul, les primes déjà réputées remboursées lors des rachats antérieurs doivent être retranchées des primes prises en compte.",
+      "validator_key": "av_rachats_successifs"
+    },
+    {
+      "id": "AV_POST_2017_RATE_75",
+      "statement": "Pour les produits associés à des primes versées à compter du 27 septembre 2017 et un contrat de plus de huit ans, la fraction de produits correspondant aux primes relevant du seuil de 150 000 euros est associée au taux forfaitaire de 7,5 % selon le régime décrit dans les notes.",
+      "validator_key": "av_post_2017_rate_75"
+    },
+    {
+      "id": "AV_POST_2017_RATE_128",
+      "statement": "Pour les produits associés à des primes versées à compter du 27 septembre 2017 et un contrat de plus de huit ans, la fraction de produits correspondant aux primes excédant le seuil de 150 000 euros est associée au taux forfaitaire de 12,8 % selon le régime décrit dans les notes.",
+      "validator_key": "av_post_2017_rate_128"
+    },
+    {
+      "id": "AV_150K_NOT_GLOBAL_128",
+      "statement": "Le dépassement du seuil de 150 000 euros ne conduit pas à appliquer automatiquement le taux de 12,8 % à l'intégralité des produits.",
+      "validator_key": "av_150k_not_global_128"
+    },
+    {
+      "id": "AV_150K_NOT_EXEMPTION",
+      "statement": "Un montant de primes inférieur au seuil de 150 000 euros ne constitue pas une exonération générale d'impôt sur le revenu.",
+      "validator_key": "av_150k_not_exemption"
+    }
+  ],
+  "thresholds": [
+    "Le seuil de 150 000 euros intervient, pour le régime décrit dans les notes, dans l'appréciation de la fiscalité des produits associés aux primes versées à compter du 27 septembre 2017 lorsque le contrat a plus de huit ans.",
+    "Le montant total des primes est apprécié sur l'ensemble des contrats souscrits par l'assuré, après prise en compte des primes rachetées, au 31 décembre de l'année N-1 selon la présentation retenue dans les notes.",
+    "Sous le seuil de 150 000 euros dans le régime postérieur au 27 septembre 2017 et au-delà de huit ans, les notes indiquent un taux forfaitaire de 7,5 % et non une exonération générale.",
+    "Au-dessus du seuil de 150 000 euros dans ce même régime, les notes indiquent un taux de 12,8 % au prorata de l'encours dépassant le seuil.",
+    "Les abattements annuels mentionnés dans les notes sont de 4 600 euros pour une personne seule et de 9 200 euros pour un couple soumis à imposition commune au-delà de huit ans."
+  ],
+  "sensitive_dates": [
+    "La date du 27 septembre 2017 doit être appréciée au regard de la date de versement des primes.",
+    "Les produits associés à des primes versées avant le 27 septembre 2017 et ceux associés à des primes versées à compter du 27 septembre 2017 relèvent de régimes fiscaux à distinguer.",
+    "La date du 27 septembre 2017 ne doit pas être présentée comme une simple date de souscription ou d'ouverture du contrat.",
+    "Pour l'appréciation du seuil de 150 000 euros dans le régime décrit par les notes, le montant des primes est apprécié au 31 décembre de l'année N-1."
+  ],
+  "examples": [
+    "Pour un contrat valorisé 250 000 euros comprenant 200 000 euros de primes versées, un rachat total fait apparaître 50 000 euros de produits imposables avant application du régime fiscal correspondant.",
+    "Pour ce même contrat, un rachat partiel de 50 000 euros représente 20 % de la valeur du contrat. La fraction de primes comprise dans le rachat est de 40 000 euros et la fraction de produits comprise dans le rachat est de 10 000 euros.",
+    "Après ce premier rachat partiel, 40 000 euros de primes sont réputés remboursés. Pour un rachat ultérieur, le calcul de l'assiette tient compte du solde de primes restant dans le contrat.",
+    "Pour des produits associés à des primes versées à compter du 27 septembre 2017 et un contrat de plus de huit ans, un montant total de primes inférieur à 150 000 euros au 31 décembre de l'année N-1 est associé dans les notes au taux forfaitaire de 7,5 %, sous réserve des autres règles du régime.",
+    "Pour ce même régime, lorsque le montant total des primes dépasse 150 000 euros, les notes indiquent que le taux de 12,8 % intervient au prorata de l'encours dépassant le seuil ; le dépassement ne conduit pas à appliquer mécaniquement 12,8 % à l'intégralité des produits."
+  ],
+  "vocabulary": [
+    "rachat total",
+    "rachat partiel",
+    "rachats successifs",
+    "assiette taxable",
+    "produits imposables",
+    "primes versées",
+    "primes rachetées",
+    "capital déjà remboursé",
+    "valeur de rachat",
+    "prélèvement forfaitaire",
+    "barème progressif",
+    "seuil de 150 000 euros",
+    "abattement annuel"
+  ],
+  "legal_references": [
+    "Instruction fiscale du 1er septembre 1994 n° 5 I-5-94"
+  ],
+  "attention_points": [
+    "Ne pas présenter le 27 septembre 2017 comme une simple date de souscription ou d'ouverture du contrat.",
+    "Relier explicitement le 27 septembre 2017 à la date de versement des primes.",
+    "Ne pas présenter le taux de 7,5 % sans contextualiser le seuil de 150 000 euros lorsque le régime des primes versées à compter du 27 septembre 2017 est traité au-delà de huit ans.",
+    "Ne jamais déduire qu'un montant de primes inférieur à 150 000 euros entraîne une exonération générale des produits.",
+    "Ne pas présenter le dépassement du seuil de 150 000 euros comme entraînant automatiquement l'application du taux de 12,8 % à l'intégralité des produits.",
+    "Distinguer le capital remboursé de la fraction de produits comprise dans le rachat.",
+    "Pour les rachats partiels successifs, tenir compte des primes déjà réputées remboursées."
+  ],
+  "source_type": "academic_notes",
+  "origin": "pierre_louis_gomet_notes",
+  "academic_year": "2025"
+}

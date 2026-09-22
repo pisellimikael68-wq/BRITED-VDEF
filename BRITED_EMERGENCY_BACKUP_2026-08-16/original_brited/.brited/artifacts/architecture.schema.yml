@@ -1,0 +1,30 @@
+metadata:
+  schema: "1.0"
+
+architecture:
+
+  id: ""
+
+  decision: ""
+
+  rationale: ""
+
+  impact:
+
+    components: []
+
+    interfaces: []
+
+    dependencies: []
+
+constraints:
+
+  - maintain_backward_compatibility
+
+validation:
+
+  required:
+
+    - decision
+    - rationale
+    

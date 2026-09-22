@@ -1,0 +1,175 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les chiffres de frais (0,05–0,40 % et 1,5–2,5 %) sont indiqués dans la fiche comme 'ordre de grandeur' et marqués 'a_verifier'. Le script les affiche tels quels sans rappel explicite qu'il faut vérifier le Document d'Information Clé (DIC) pour le produit précis (la légende le mentionne, mais le rappel n'est intégré ni dans la narration principale ni comme texte écran accompagné des chiffres). Localisation : séquence 5 (exemple) — ligne de narration et texte écran."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase 'Éligibilité au PEA : seuls les ETF UCITS respectant les quotas européens peuvent l'être' est correcte mais incomplète juridiquement : il faudrait préciser que l'éligibilité dépend aussi de la nature des actifs sous-jacents et du respect des règles françaises d'éligibilité (par exemple composition en actions européennes, quotas nationaux) et rappeler qu'il convient de vérifier le prospectus/DIC. Localisation : séquence 6 (nuance) — texte écran et narration."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, sa condition et une nuance, mais omet de rappeler brièvement la différence entre réplication 'physique' et 'synthétique' (risques spécifiques à la synthèse) alors que la méthode est citée. Localisation : séquence 6 — le mot 'méthode (physique/synthétique)' apparaît, mais sans une très brève explication utile pour un non-spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40 s est indiquée; cependant Instagram Reels a des contraintes de punch dans les 2–3 premières secondes. Le script commence bien par un hook, mais il faudrait préciser que la première phrase doit être délivrée en 1–2 s et que chaque 'texte écran' reste lisible au format mobile (taille et durée). Localisation : instruction générale — nécessité d'indication temporelle pour chaque beat (par ex. 0–3 s pour le hook)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration est claire mais la phrase 'Il suit l'indice tel quel — condition : il réplique l'indice.' est redondante et alourdit le rythme. Localisation : séquence 4 (règle). Proposer simplification pour fluidité.",
+        "Le CTA 'Prenez rendez‑vous via le lien dans ma bio.' est commercial mais acceptable ; toutefois, pour préserver ton pédagogique et éviter pression, recommander de reformuler en 'Si vous voulez en parler, prenez rendez‑vous via le lien dans ma bio.'"
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction de recommandation nominative. Cependant, l'invitation à prendre rendez-vous pourrait être perçue comme début d'un conseil personnalisé : il faut garder la mention légale (déjà en bas) visible et/ou ajouter verbalement 'ce n'est pas un conseil personnalisé' lors du CTA. Localisation : séquence 7 (cta) et narration finale."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour un français plus naturel : 'Il suit l'indice tel quel — condition : il réplique l'indice.' (redondance), 'Ces écarts se cumulent sur vingt ans — vérifiez le DIC.' (meilleure fluidité: 'Ces écarts, cumulés sur 20 ans, font une grande différence — vérifiez le DIC.'). Localisation : séquences 4 et 5 narration."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, on note des répétitions et une légère incohérence de ton entre pédagogique neutre et CTA commercial. Localisation : narration finale et légende. Recommander harmoniser ton et ajouter l'exclusion 'ceci n'est pas un conseil personnalisé' dans la narration ou dans le CTA pour éviter ambiguïté."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance pictogramme → notion est bonne globalement, mais le pictogramme 'indice → boîte contenant ETF' doit clairement montrer que l'ETF détient la composition (pour éviter confusion 'garantie'). Localisation : séquence 4 visuel. Recommander styliser la boîte comme 'contenant' avec un avertissement visuel rappelant 'capital non garanti'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais inclut plusieurs sous-notions (frais, méthode de réplication, PEA). Pour garder concision, il faudrait réduire la quantité d'informations à l'essentiel — par exemple, tronquer la mention détaillée UCITS/quotas à un 'vérifiez l'éligibilité au PEA' en narration et renvoyer à la légende pour détails. Localisation : séquence 6."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'expression 'méthode de réplication (physique/synthétique)' mérite 1 phrase très courte expliquant le risque principal de la synthétique (contrepartie). Localisation : séquence 6 — ajout d'une très brève explication recommandée."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est solide ; toutefois la question 'Un ETF est‑il moins risqué qu'une action ?' puis 'Non.' est efficace, mais risqué d'être trop abrupt visuellement. Recommander 1 mot d'expansion immédiat après 'Non.' (ex. 'Non — il diversifie, il ne garantit pas.') pour maintenir attention et expliquer l'absence de garantie. Localisation : séquences 2–3."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance, mais l'appel à rendez-vous gagnerait en crédibilité si la légende rappelait la nature pédagogique et l'absence de conseil personnalisé (déjà présent) et si la phrase d'appel au rendez-vous évoquait 'révision gratuite' ou 'bilan' uniquement si cela correspond à la réalité (éviter promesse non tenue). Localisation : CTA et légende."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Les chiffres de frais (0,05–0,40 % et 1,5–2,5 %) sont indiqués dans la fiche comme 'ordre de grandeur' et marqués 'a_verifier'. Le script les affiche tels quels sans rappel explicite qu'il faut vérifier le Document d'Information Clé (DIC) pour le produit précis (la légende le mentionne, mais le rappel n'est intégré ni dans la narration principale ni comme texte écran accompagné des chiffres). Localisation : séquence 5 (exemple) — ligne de narration et texte écran.",
+    "juridique_fiscal : La phrase 'Éligibilité au PEA : seuls les ETF UCITS respectant les quotas européens peuvent l'être' est correcte mais incomplète juridiquement : il faudrait préciser que l'éligibilité dépend aussi de la nature des actifs sous-jacents et du respect des règles françaises d'éligibilité (par exemple composition en actions européennes, quotas nationaux) et rappeler qu'il convient de vérifier le prospectus/DIC. Localisation : séquence 6 (nuance) — texte écran et narration.",
+    "completude : Le script couvre la règle centrale, sa condition et une nuance, mais omet de rappeler brièvement la différence entre réplication 'physique' et 'synthétique' (risques spécifiques à la synthèse) alors que la méthode est citée. Localisation : séquence 6 — le mot 'méthode (physique/synthétique)' apparaît, mais sans une très brève explication utile pour un non-spécialiste.",
+    "plateforme : Durée estimée 40 s est indiquée; cependant Instagram Reels a des contraintes de punch dans les 2–3 premières secondes. Le script commence bien par un hook, mais il faudrait préciser que la première phrase doit être délivrée en 1–2 s et que chaque 'texte écran' reste lisible au format mobile (taille et durée). Localisation : instruction générale — nécessité d'indication temporelle pour chaque beat (par ex. 0–3 s pour le hook).",
+    "editorial : La narration est claire mais la phrase 'Il suit l'indice tel quel — condition : il réplique l'indice.' est redondante et alourdit le rythme. Localisation : séquence 4 (règle). Proposer simplification pour fluidité.",
+    "editorial : Le CTA 'Prenez rendez‑vous via le lien dans ma bio.' est commercial mais acceptable ; toutefois, pour préserver ton pédagogique et éviter pression, recommander de reformuler en 'Si vous voulez en parler, prenez rendez‑vous via le lien dans ma bio.'",
+    "securite : Le script respecte l'interdiction de recommandation nominative. Cependant, l'invitation à prendre rendez-vous pourrait être perçue comme début d'un conseil personnalisé : il faut garder la mention légale (déjà en bas) visible et/ou ajouter verbalement 'ce n'est pas un conseil personnalisé' lors du CTA. Localisation : séquence 7 (cta) et narration finale.",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour un français plus naturel : 'Il suit l'indice tel quel — condition : il réplique l'indice.' (redondance), 'Ces écarts se cumulent sur vingt ans — vérifiez le DIC.' (meilleure fluidité: 'Ces écarts, cumulés sur 20 ans, font une grande différence — vérifiez le DIC.'). Localisation : séquences 4 et 5 narration.",
+    "contre_verification_finale : En lecture mot à mot, on note des répétitions et une légère incohérence de ton entre pédagogique neutre et CTA commercial. Localisation : narration finale et légende. Recommander harmoniser ton et ajouter l'exclusion 'ceci n'est pas un conseil personnalisé' dans la narration ou dans le CTA pour éviter ambiguïté.",
+    "coherence_pictogrammes : La correspondance pictogramme → notion est bonne globalement, mais le pictogramme 'indice → boîte contenant ETF' doit clairement montrer que l'ETF détient la composition (pour éviter confusion 'garantie'). Localisation : séquence 4 visuel. Recommander styliser la boîte comme 'contenant' avec un avertissement visuel rappelant 'capital non garanti'.",
+    "densite_editoriale : La vidéo traite un seul angle mais inclut plusieurs sous-notions (frais, méthode de réplication, PEA). Pour garder concision, il faudrait réduire la quantité d'informations à l'essentiel — par exemple, tronquer la mention détaillée UCITS/quotas à un 'vérifiez l'éligibilité au PEA' en narration et renvoyer à la légende pour détails. Localisation : séquence 6.",
+    "pedagogie_client : Pour un non-spécialiste, l'expression 'méthode de réplication (physique/synthétique)' mérite 1 phrase très courte expliquant le risque principal de la synthétique (contrepartie). Localisation : séquence 6 — ajout d'une très brève explication recommandée.",
+    "retention_attention : Le hook est solide ; toutefois la question 'Un ETF est‑il moins risqué qu'une action ?' puis 'Non.' est efficace, mais risqué d'être trop abrupt visuellement. Recommander 1 mot d'expansion immédiat après 'Non.' (ex. 'Non — il diversifie, il ne garantit pas.') pour maintenir attention et expliquer l'absence de garantie. Localisation : séquences 2–3.",
+    "conversion_confiance : Le ton inspire confiance, mais l'appel à rendez-vous gagnerait en crédibilité si la légende rappelait la nature pédagogique et l'absence de conseil personnalisé (déjà présent) et si la phrase d'appel au rendez-vous évoquait 'révision gratuite' ou 'bilan' uniquement si cela correspond à la réalité (éviter promesse non tenue). Localisation : CTA et légende."
+  ],
+  "recommendations": [
+    "1) Vérifier et, si possible, indiquer que les chiffres de frais sont des ordres de grandeur et qu'il faut confirmer sur le DIC du produit cité. Intégrer verbalement une phrase courte après les chiffres : 'Ordres de grandeur — vérifiez le DIC du produit.' (séquence 5).",
+    "2) Préciser brièvement la différence de risque entre réplication physique et synthétique (une phrase très courte : 'La réplication synthétique implique une exposition via une contrepartie, ce qui ajoute un risque de crédit.'). (séquence 6).",
+    "3) Affiner la formulaton redondante en séquence 4 : remplacer 'Il suit l'indice tel quel — condition : il réplique l'indice.' par 'Il réplique l'indice : il suit sa composition, il ne le bat pas.'",
+    "4) Ajouter en voix ou texte écran, lors du CTA, la mention claire 'Ce contenu n'est pas un conseil personnalisé.' pour dissocier l'invitation à rendez-vous d'une promesse de conseil sans engagement. (séquence 7).",
+    "5) Ajuster visuels : expliciter la boîte 'contenant' (séquence 4) et ajouter un petit pictogramme d'avertissement sur le même écran 'capital non garanti' afin d'éviter toute interprétation de garantie.",
+    "6) Raccourcir l'information PEA en narration ('Vérifiez l'éligibilité au PEA — seuls certains ETF UCITS respectant les quotas européens le sont; consultez le DIC') et renvoyer aux sources en légende pour les détails juridiques. (séquence 6).",
+    "7) Pour la conformité plateforme, préciser les durées par beat (ex. 0–3 s hook, 3–6 s question, 6–8 s réponse, etc.) pour garantir lisibilité des textes écran sur mobile.",
+    "Après mise en œuvre de ces corrections, procéder à une relecture finale mot à mot : si toutes les modifications sont intégrées, chaque agent pourra repasser à 10/10."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-14:reels:etf_replication_indicielle:1",
+  "script_path": "scripts/etf/etf_replication_indicielle__reels__a2__v2.md"
+}

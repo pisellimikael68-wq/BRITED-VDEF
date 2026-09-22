@@ -1,0 +1,36 @@
+metadata:
+  schema: "1.0"
+
+agent:
+
+  id: tester
+
+  role: Tester
+
+capabilities:
+
+  can:
+
+    - execute_tests
+    - run_regression
+    - generate_report
+
+inputs:
+
+  required:
+
+    - code
+    - tests
+
+outputs:
+
+  produces:
+
+    - validation_report
+
+handoff:
+
+  next:
+
+    - architect
+    

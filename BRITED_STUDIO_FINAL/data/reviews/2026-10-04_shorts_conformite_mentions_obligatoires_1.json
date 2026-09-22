@@ -1,0 +1,200 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ cite la Loi n°2023-451 et l'AMF ; le script mentionne ces sources mais omet toute référence au Code de la consommation et au Code monétaire et financier cités dans la fiche.",
+        "La fiche indique une sanction pénale maximale (2 ans) ; le script ne l'évoque pas alors que cela peut être pertinent pour la mise en garde."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script donne un exemple de formulation à placer en tête de légende. La fiche avertit explicitement de ne pas fournir un modèle comme s'il valait validation juridique : l'exemple pourrait être perçu comme un modèle standardisé.",
+        "Le script affirme que il faut 'signaler explicitement le caractère commercial si la publication est rémunérée' sans préciser que la rémunération inclut contreparties non monétaires (même si c'est mentionné ailleurs) — formulation dispersée pouvant nuire à la clarté juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les quatre éléments essentiels (vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, caractère commercial) sont présents, mais la remarque sur l'interdiction de promouvoir certains produits (loi 2023) est trop brève et sans exemple de produits interdits, ce qui laisse une zone d'ombre.",
+        "La légende proposée reprend les mentions mais n'indique pas explicitement de placer la mention en début de légende pour éviter la troncation (bien que l'étape 4 le dise, la légende fournie ne l'incite pas explicitement)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'ordre des séquences et la durée estimée, mais ne prend pas en compte que la limite d'affichage de la légende dépend de la plateforme et des tests A/B : il conseille 'placez en tête de légende' sans préciser la longueur maximale visible sur YouTube Shorts.",
+        "L'élément 'Durée estimée : 42 s' semble conforme mais aucune vérification du débit de parole ne figure (mots/seconde) pour garantir la durée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais répétition possible entre hook et première phrase de narration. Le CTA est clair mais formule 'Prenez rendez-vous via le lien dans ma bio' peut paraître trop promotionnelle sans tempérer (la fiche exige neutralité).",
+        "Certaines phrases (ex. 'Publication commerciale : oui') risquent d'être lues comme un binaire maladroit ; mieux formuler 'Publication commerciale : oui si rémunérée' pour éviter confusion."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'obligation de ne pas donner de conseil personnalisé, mais la légende et l'exemple contiennent la phrase 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' — formulation exhaustive qui peut être perçue comme donnant un avis juridique si mal placée.",
+        "Absence d'une phrase de limitation supplémentaire indiquant que l'information peut être incomplète selon le profil de l'audience (pour réduire risque de mésinterprétation)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel mais certaines tournures peuvent être allégées : 'La rémunération inclut les contreparties non monétaires comme un produit offert...' -> 'La rémunération comprend aussi les contreparties non monétaires (produit offert, séjour, accès gratuit)'.",
+        "La phrase d'exemple de légende contient des redondances ('Contenu pédagogique • Pas de recommandation personnalisée • Risque de perte en capital • Publication commerciale si rémunérée (y compris contreparties non monétaires)') qui peuvent être raccourcies pour lisibilité sur mobile."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script contient un exemple de mention rédigée mot à mot qui peut contrevenir à la consigne 'ne pas donner de modèle comme validation juridique'. La seconde lecture indépendante devrait demander soit de formuler l'exemple comme 'exemple indicatif' soit de l'indiquer comme non-exhaustif.",
+        "La narration continue et la légende ne sont pas strictement identiques ; la relecture devrait harmoniser les formulations clés pour éviter contradictions mineures."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance entre visuel et narration est globalement bonne, mais certains pictogrammes proposés sont génériques ('bulled pédagogique', 'étiquette commercial') ; la fiche exige éviter symboles trop décoratifs ou ambigus — recommander d'utiliser pictogrammes standards reconnus (ex : icône euro barré pour risque).",
+        "Le pictogramme 'flèche descendante (perte)' peut être interprété négativement : préciser qu'il représente 'risque de perte en capital' pour éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (mentions obligatoires) mais inclut un CTA commercial (rendez-vous) — à la limite entre pédagogie et conversion, la fiche demande neutralité et prudence commerciale.",
+        "Absence de chiffres clés (p. ex. mention de sanction pénale maximale dans la vidéo) alors que la fiche dispose du chiffre (2 ans) et que cela pourrait renforcer gravité sans alarmer."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les notions sont simples mais le concept 'recommandation personnalisée' pourrait nécessiter brève définition (ex. 'une recommandation adaptée à votre situation financière personnelle').",
+        "L'exemple de légende est utile mais risqué : un non-spécialiste peut croire que coller cette phrase suffit en toutes circonstances (la fiche met en garde contre cette interprétation)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace ; toutefois l'étape 4 (exemple) risque de perdre du temps visuel si la légende affichée est trop longue. Il faudrait condenser l'exemple pour tenir dans l'espace visible en 2 premières lignes de Shorts.",
+        "La durée annoncée (42 s) nécessite un débit oral précis ; le script ne propose pas repères de syllabes/rythme pour garantir la durée et la compréhension."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut affaiblir la neutralité recherchée par la fiche si présenté sans précision (ex. pas de promesse de résultat).",
+        "Absence d'indication de certification ou expertise de l'auteur (si applicable) : mentionner son statut professionnel peut renforcer confiance tout en restant neutre, si véridique."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 117,
+      "seconds": 43.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 117,
+        "seconds": 43.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ cite la Loi n°2023-451 et l'AMF ; le script mentionne ces sources mais omet toute référence au Code de la consommation et au Code monétaire et financier cités dans la fiche.",
+    "source : La fiche indique une sanction pénale maximale (2 ans) ; le script ne l'évoque pas alors que cela peut être pertinent pour la mise en garde.",
+    "juridique_fiscal : Le script donne un exemple de formulation à placer en tête de légende. La fiche avertit explicitement de ne pas fournir un modèle comme s'il valait validation juridique : l'exemple pourrait être perçu comme un modèle standardisé.",
+    "juridique_fiscal : Le script affirme que il faut 'signaler explicitement le caractère commercial si la publication est rémunérée' sans préciser que la rémunération inclut contreparties non monétaires (même si c'est mentionné ailleurs) — formulation dispersée pouvant nuire à la clarté juridique.",
+    "completude : Les quatre éléments essentiels (vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, caractère commercial) sont présents, mais la remarque sur l'interdiction de promouvoir certains produits (loi 2023) est trop brève et sans exemple de produits interdits, ce qui laisse une zone d'ombre.",
+    "completude : La légende proposée reprend les mentions mais n'indique pas explicitement de placer la mention en début de légende pour éviter la troncation (bien que l'étape 4 le dise, la légende fournie ne l'incite pas explicitement).",
+    "plateforme : Le script respecte l'ordre des séquences et la durée estimée, mais ne prend pas en compte que la limite d'affichage de la légende dépend de la plateforme et des tests A/B : il conseille 'placez en tête de légende' sans préciser la longueur maximale visible sur YouTube Shorts.",
+    "plateforme : L'élément 'Durée estimée : 42 s' semble conforme mais aucune vérification du débit de parole ne figure (mots/seconde) pour garantir la durée.",
+    "editorial : Accroche forte mais répétition possible entre hook et première phrase de narration. Le CTA est clair mais formule 'Prenez rendez-vous via le lien dans ma bio' peut paraître trop promotionnelle sans tempérer (la fiche exige neutralité).",
+    "editorial : Certaines phrases (ex. 'Publication commerciale : oui') risquent d'être lues comme un binaire maladroit ; mieux formuler 'Publication commerciale : oui si rémunérée' pour éviter confusion.",
+    "securite : Le script respecte l'obligation de ne pas donner de conseil personnalisé, mais la légende et l'exemple contiennent la phrase 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé' — formulation exhaustive qui peut être perçue comme donnant un avis juridique si mal placée.",
+    "securite : Absence d'une phrase de limitation supplémentaire indiquant que l'information peut être incomplète selon le profil de l'audience (pour réduire risque de mésinterprétation).",
+    "formulation_professionnelle : Le français est naturel mais certaines tournures peuvent être allégées : 'La rémunération inclut les contreparties non monétaires comme un produit offert...' -> 'La rémunération comprend aussi les contreparties non monétaires (produit offert, séjour, accès gratuit)'.",
+    "formulation_professionnelle : La phrase d'exemple de légende contient des redondances ('Contenu pédagogique • Pas de recommandation personnalisée • Risque de perte en capital • Publication commerciale si rémunérée (y compris contreparties non monétaires)') qui peuvent être raccourcies pour lisibilité sur mobile.",
+    "contre_verification_finale : Le script contient un exemple de mention rédigée mot à mot qui peut contrevenir à la consigne 'ne pas donner de modèle comme validation juridique'. La seconde lecture indépendante devrait demander soit de formuler l'exemple comme 'exemple indicatif' soit de l'indiquer comme non-exhaustif.",
+    "contre_verification_finale : La narration continue et la légende ne sont pas strictement identiques ; la relecture devrait harmoniser les formulations clés pour éviter contradictions mineures.",
+    "coherence_pictogrammes : La correspondance entre visuel et narration est globalement bonne, mais certains pictogrammes proposés sont génériques ('bulled pédagogique', 'étiquette commercial') ; la fiche exige éviter symboles trop décoratifs ou ambigus — recommander d'utiliser pictogrammes standards reconnus (ex : icône euro barré pour risque).",
+    "coherence_pictogrammes : Le pictogramme 'flèche descendante (perte)' peut être interprété négativement : préciser qu'il représente 'risque de perte en capital' pour éviter ambiguïté.",
+    "densite_editoriale : La vidéo traite un seul angle (mentions obligatoires) mais inclut un CTA commercial (rendez-vous) — à la limite entre pédagogie et conversion, la fiche demande neutralité et prudence commerciale.",
+    "densite_editoriale : Absence de chiffres clés (p. ex. mention de sanction pénale maximale dans la vidéo) alors que la fiche dispose du chiffre (2 ans) et que cela pourrait renforcer gravité sans alarmer.",
+    "pedagogie_client : Les notions sont simples mais le concept 'recommandation personnalisée' pourrait nécessiter brève définition (ex. 'une recommandation adaptée à votre situation financière personnelle').",
+    "pedagogie_client : L'exemple de légende est utile mais risqué : un non-spécialiste peut croire que coller cette phrase suffit en toutes circonstances (la fiche met en garde contre cette interprétation).",
+    "retention_attention : Hook efficace ; toutefois l'étape 4 (exemple) risque de perdre du temps visuel si la légende affichée est trop longue. Il faudrait condenser l'exemple pour tenir dans l'espace visible en 2 premières lignes de Shorts.",
+    "retention_attention : La durée annoncée (42 s) nécessite un débit oral précis ; le script ne propose pas repères de syllabes/rythme pour garantir la durée et la compréhension.",
+    "conversion_confiance : Le ton est sérieux mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut affaiblir la neutralité recherchée par la fiche si présenté sans précision (ex. pas de promesse de résultat).",
+    "conversion_confiance : Absence d'indication de certification ou expertise de l'auteur (si applicable) : mentionner son statut professionnel peut renforcer confiance tout en restant neutre, si véridique."
+  ],
+  "recommendations": [
+    "Harmoniser les formulations : remplacer l'exemple présenté comme modèle par une mention clairement étiquetée 'exemple indicatif (non exhaustif, à adapter selon votre statut)' afin de respecter l'avertissement de la fiche.",
+    "Ajouter, dans le script ou la légende visible en tête, une brève phrase rappelant que la rémunération comprend aussi les contreparties non monétaires (produit offert, séjour, accès gratuit) pour éviter toute ambiguïté juridique.",
+    "Inclure en voix off ou texte court une référence explicite aux textes cités (ex. 'selon la loi n°2023-451 et les recommandations de l'AMF') et, si souhaité, mentionner brièvement l'existence de sanctions (par ex. 'sanctions pénales possibles') sans détailler l'amende pour rester pédagogique.",
+    "Raccourcir l'exemple de légende pour garantir lecture dans les deux premières lignes visibles sur YouTube Shorts (faire un test d'affichage sur mobile) ; fournir une version alternative ultra-courte à placer en tête.",
+    "Reformuler certaines phrases pour plus de clarté (ex. 'La rémunération comprend aussi les contreparties non monétaires (produit offert, séjour, accès gratuit)').",
+    "Remplacer pictogrammes trop génériques par icônes précises et non-ambiguës (ex. balance/loi pour legal, icône euro barré ou portefeuille pour risque de perte).",
+    "Ajouter une courte définition de 'recommandation personnalisée' pour un public non-spécialiste ('une recommandation adaptée à votre situation financière personnelle').",
+    "Harmoniser narration, légende et mention finale mot à mot pour éviter contradictions ; effectuer une seconde relecture par une personne indépendante (juriste ou conformité) et vérifier le débit pour respecter la durée de 42 s.",
+    "Tempérer le CTA pour préserver la neutralité (ex. 'Si vous souhaitez un examen personnalisé, prenez rendez-vous via le lien dans ma bio' plutôt que une injonction simple)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-04:shorts:conformite_mentions_obligatoires:1",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__shorts__a1__v4.md"
+}

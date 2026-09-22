@@ -1,0 +1,189 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ cite correctement les textes (loi 2023-451, Code de la consommation L.121-1, Code monétaire L.533-12, AMF) mais le script ne reprend pas explicitement ces références textuelles ou la formulation « interdiction de promotion de certains produits financiers » — omission localisable dans la narration et la légende : aucun renvoi textuel direct n'est prononcé ou affiché.",
+        "La donnée chiffrée (sanction pénale maximale de 2 ans) figure dans la fiche mais n'est pas mentionnée dans le script ni dans la légende ; si l'intention est d'être fidèle aux sources, l'absence d'une phrase rappelant les conséquences pénales dans le contenu est une omission (script, étape nuance et légende)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script et la légende indiquent correctement l'obligation d'indiquer vocation pédagogique, absence de recommandation personnalisée et risque de perte en capital, mais n'explicitent pas que la mention ne dispense pas d'examiner si la promotion d'un produit est elle‑même autorisée ou interdite (la nuance existe mais pourrait être plus claire en reprenant l'exemple de produits interdits).",
+        "La formulation de la 'Mention' en bas de fiche inclut 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' — correcte, mais le script dit 'absence de recommandation personnalisée' ; pour la sécurité juridique, il vaut mieux reprendre mot à mot la mention complète dans la zone visible. Actuellement la consigne d'usage (placer au début) ne contraint pas la reproduction exacte : point localisable dans l'étape 5 et la légende."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (lisibilité), l'exception (contrepartie non monétaire) et donne un exemple pratique. Toutefois il omet d'indiquer où exactement dans l'interface Reels placer la mention pour garantir qu'elle reste visible (par ex. première ligne de la légende = zone qui apparaît sans déplier) : l'étape 5 dit 'début de la légende ou surimpression' mais ne précise la contrainte pratique d'Instagram (nombre de caractères visibles).",
+        "Aucun exemple textuel concret (modèle exact) n'est fourni pour la mention visible, ce qui rend l'application pratique moins directe pour un non-expert."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement le format Reels (zone basse pour surimpression, légende courte) et la durée estimée (38s) mais ne vérifie pas explicitement le temps de lecture nécessaire pour la légende visible ni le nombre de caractères réellement affichés par Reels avant tronquage. L'étape 1 et 5 devraient préciser 'première ligne (visible sans déplier)' et alerter sur la limite de caractères affichés par Instagram.",
+        "La consigne 'zone basse de l'écran' est correcte mais manque de précision sur contraste (taille/contraste de police) pour assurer lisibilité sur mobile — localisable à l'étape 5 visuel/texte écran."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook : 'Vous parlez d'un placement et la légende est tronquée.' est clair mais faible pour capturer l'attention en 2s ; il pourrait être renforcé par une mention de risque immédiat ('... et vous risquez une sanction') — ligne 1 du script.",
+        "La narration continue est fluide, mais la bascule entre question OUI/NON et la réponse est un peu sèche ; conseiller un micro‑pause ou changement de plan à la transition améliorerait la rétention (beat 2→3)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel et professionnel. Toutefois la phrase 'La mention n'autorise pas la promotion interdite.' (nuance, étape 6) est elliptique et gagnerait en précision : 'La présence de la mention n'autorise pas la promotion de produits dont la publicité est interdite par la loi.'",
+        "La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' est correcte mais devrait figurer mot à mot dans la zone visible exigée — point à préciser dans la recommandation (légende / surimpression)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Lecture générale valide mais quelques incohérences mineures repérées : la 'durée estimée : 38 secondes' n'est pas ventilée par beat (vérifier si le script tient bien dans 38s à la lecture naturelle).",
+        "Le CTA renvoie 'lien dans ma bio' — ok, mais si le compte est professionnel soumis à règles, il serait pertinent d'ajouter une mention de confidentialité du rendez-vous ou de l'absence de conseil personnalisé lors du rendez-vous initial ; omission localisable au beat 7 CTA et dans la légende."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste sur un seul angle et concise, mais elle manque d'un exemple textuel concret de mention lisible (modèle court) qui augmenterait l'utilité pratique pour l'auteur : l'étape 5 donne une méthode mais pas un exemple exact.",
+        "Les sources sont listées en légende mais la vidéo ne rappelle pas verbalement qu'elles existent et où les consulter (beat final pourrait mentionner 'sources en légende')."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'expression 'absence de recommandation personnalisée' est compréhensible, mais la vidéo gagnerait à illustrer brièvement ce que cela signifie (ex. 'je n'ai pas étudié votre situation') — omission perceptible dans la phrase d'exemple et la mention finale.",
+        "Le risque de perte en capital est indiqué mais sans exemple concret (même court) qui aiderait la compréhension immédiate d'un non-initié."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont informatives mais manquent d'urgence émotionnelle : le hook informe d'un problème technique (légende tronquée) sans expliciter la conséquence pour l'auteur (perte de conformité).",
+        "La progression est logique mais la vidéo risque de perdre l'attention à la nuance (beat 6) qui est plus dense ; un micro‑raccourci visuel ou texte court additionnel aiderait à maintenir l'attention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire globalement confiance professionnelle, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' devrait rappeler l'absence de conseil personnalisé dans la vidéo si le rendez-vous implique échange (risque d'ambiguïté commerciale).",
+        "L'appel à l'action est correct, mais un rappel de confidentialité ou du type de rendez-vous (consultation d'information) renforcerait la confiance pour un public prudent."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ cite correctement les textes (loi 2023-451, Code de la consommation L.121-1, Code monétaire L.533-12, AMF) mais le script ne reprend pas explicitement ces références textuelles ou la formulation « interdiction de promotion de certains produits financiers » — omission localisable dans la narration et la légende : aucun renvoi textuel direct n'est prononcé ou affiché.",
+    "source : La donnée chiffrée (sanction pénale maximale de 2 ans) figure dans la fiche mais n'est pas mentionnée dans le script ni dans la légende ; si l'intention est d'être fidèle aux sources, l'absence d'une phrase rappelant les conséquences pénales dans le contenu est une omission (script, étape nuance et légende).",
+    "juridique_fiscal : Le script et la légende indiquent correctement l'obligation d'indiquer vocation pédagogique, absence de recommandation personnalisée et risque de perte en capital, mais n'explicitent pas que la mention ne dispense pas d'examiner si la promotion d'un produit est elle‑même autorisée ou interdite (la nuance existe mais pourrait être plus claire en reprenant l'exemple de produits interdits).",
+    "juridique_fiscal : La formulation de la 'Mention' en bas de fiche inclut 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' — correcte, mais le script dit 'absence de recommandation personnalisée' ; pour la sécurité juridique, il vaut mieux reprendre mot à mot la mention complète dans la zone visible. Actuellement la consigne d'usage (placer au début) ne contraint pas la reproduction exacte : point localisable dans l'étape 5 et la légende.",
+    "completude : Le script couvre la règle centrale, la condition (lisibilité), l'exception (contrepartie non monétaire) et donne un exemple pratique. Toutefois il omet d'indiquer où exactement dans l'interface Reels placer la mention pour garantir qu'elle reste visible (par ex. première ligne de la légende = zone qui apparaît sans déplier) : l'étape 5 dit 'début de la légende ou surimpression' mais ne précise la contrainte pratique d'Instagram (nombre de caractères visibles).",
+    "completude : Aucun exemple textuel concret (modèle exact) n'est fourni pour la mention visible, ce qui rend l'application pratique moins directe pour un non-expert.",
+    "plateforme : Le script respecte globalement le format Reels (zone basse pour surimpression, légende courte) et la durée estimée (38s) mais ne vérifie pas explicitement le temps de lecture nécessaire pour la légende visible ni le nombre de caractères réellement affichés par Reels avant tronquage. L'étape 1 et 5 devraient préciser 'première ligne (visible sans déplier)' et alerter sur la limite de caractères affichés par Instagram.",
+    "plateforme : La consigne 'zone basse de l'écran' est correcte mais manque de précision sur contraste (taille/contraste de police) pour assurer lisibilité sur mobile — localisable à l'étape 5 visuel/texte écran.",
+    "editorial : Hook : 'Vous parlez d'un placement et la légende est tronquée.' est clair mais faible pour capturer l'attention en 2s ; il pourrait être renforcé par une mention de risque immédiat ('... et vous risquez une sanction') — ligne 1 du script.",
+    "editorial : La narration continue est fluide, mais la bascule entre question OUI/NON et la réponse est un peu sèche ; conseiller un micro‑pause ou changement de plan à la transition améliorerait la rétention (beat 2→3).",
+    "formulation_professionnelle : Le français est globalement naturel et professionnel. Toutefois la phrase 'La mention n'autorise pas la promotion interdite.' (nuance, étape 6) est elliptique et gagnerait en précision : 'La présence de la mention n'autorise pas la promotion de produits dont la publicité est interdite par la loi.'",
+    "formulation_professionnelle : La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' est correcte mais devrait figurer mot à mot dans la zone visible exigée — point à préciser dans la recommandation (légende / surimpression).",
+    "contre_verification_finale : Lecture générale valide mais quelques incohérences mineures repérées : la 'durée estimée : 38 secondes' n'est pas ventilée par beat (vérifier si le script tient bien dans 38s à la lecture naturelle).",
+    "contre_verification_finale : Le CTA renvoie 'lien dans ma bio' — ok, mais si le compte est professionnel soumis à règles, il serait pertinent d'ajouter une mention de confidentialité du rendez-vous ou de l'absence de conseil personnalisé lors du rendez-vous initial ; omission localisable au beat 7 CTA et dans la légende.",
+    "densite_editoriale : La vidéo reste sur un seul angle et concise, mais elle manque d'un exemple textuel concret de mention lisible (modèle court) qui augmenterait l'utilité pratique pour l'auteur : l'étape 5 donne une méthode mais pas un exemple exact.",
+    "densite_editoriale : Les sources sont listées en légende mais la vidéo ne rappelle pas verbalement qu'elles existent et où les consulter (beat final pourrait mentionner 'sources en légende').",
+    "pedagogie_client : Pour un non-spécialiste, l'expression 'absence de recommandation personnalisée' est compréhensible, mais la vidéo gagnerait à illustrer brièvement ce que cela signifie (ex. 'je n'ai pas étudié votre situation') — omission perceptible dans la phrase d'exemple et la mention finale.",
+    "pedagogie_client : Le risque de perte en capital est indiqué mais sans exemple concret (même court) qui aiderait la compréhension immédiate d'un non-initié.",
+    "retention_attention : Les deux premières secondes sont informatives mais manquent d'urgence émotionnelle : le hook informe d'un problème technique (légende tronquée) sans expliciter la conséquence pour l'auteur (perte de conformité).",
+    "retention_attention : La progression est logique mais la vidéo risque de perdre l'attention à la nuance (beat 6) qui est plus dense ; un micro‑raccourci visuel ou texte court additionnel aiderait à maintenir l'attention.",
+    "conversion_confiance : Le ton inspire globalement confiance professionnelle, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' devrait rappeler l'absence de conseil personnalisé dans la vidéo si le rendez-vous implique échange (risque d'ambiguïté commerciale).",
+    "conversion_confiance : L'appel à l'action est correct, mais un rappel de confidentialité ou du type de rendez-vous (consultation d'information) renforcerait la confiance pour un public prudent."
+  ],
+  "recommendations": [
+    "Faire figurer mot à mot la mention complète et lisible dans la zone visible : par exemple en surimpression en bas de l'écran et/ou en première ligne de la légende, exactement : 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement. Risque de perte en capital.' (placer cette phrase entière en début de légende ou en surimpression).",
+    "Ajouter un renvoi verbal ou visuel bref aux sources (ex. 'Sources en légende : AMF, loi 2023-451, C. conso L.121-1, CMF L.533-12') pour assurer fidélité à la SOURCE DE VÉRITÉ (mentionner cela au beat final et lister dans la légende déjà fournie).",
+    "Préciser la contrainte Instagram : indiquer dans l'étape 5 que la mention doit être dans la première ligne visible sans déplier (et tester le rendu mobile), et recommander un contraste et taille de police suffisants pour la surimpression.",
+    "Renforcer le hook (beat 1) pour créer plus d'urgence : par exemple ajouter une courte conséquence ('...et vous risquez une sanction ou une incompréhension') afin d'augmenter la rétention dès 0–2s.",
+    "Inclure un court exemple textuel concret et très court (modèle) de mention prête à copier/coller dans la vidéo ou en légende (ex. une phrase de 1–2 lignes) afin d'améliorer l'applicabilité pour un non-spécialiste (densité_editoriale, completude, pedagogie_client).",
+    "Préciser la durée estimée par beat et vérifier la lecture à voix haute pour confirmer que la narration tient dans 38s (contre_verification_finale).",
+    "Clarifier le CTA en rappelant que le rendez-vous n'est pas un conseil personnalisé gratuit et préciser le niveau d'information fourni lors du rendez-vous afin d'éviter toute promesse implicite (conversion_confiance, juridique_fiscal).",
+    "Améliorer la formulation d'une phrase de nuance : remplacer 'La mention n'autorise pas la promotion interdite.' par 'La présence d'une mention n'autorise pas la promotion de produits dont la publicité est interdite par la loi.' (formulation professionnelle)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-25:reels:conformite_mentions_obligatoires:0",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__reels__a4__v3.md"
+}

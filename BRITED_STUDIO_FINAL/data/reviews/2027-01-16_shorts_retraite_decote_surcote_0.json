@@ -1,0 +1,47 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 0.0,
+  "agents": {},
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 127,
+      "seconds": 47.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "Rapport de certification inexploitable : JSONDecodeError"
+  ],
+  "recommendations": [],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-16:shorts:retraite_decote_surcote:0",
+  "script_path": "scripts/retraite/retraite_decote_surcote__shorts__a5__v9.md"
+}

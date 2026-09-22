@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche-source, mais omet de rappeler explicitement la distinction entre apport en capital (non remboursable) et compte courant (créance remboursable) dans la première phrase du développement — la fiche l'indique comme point fondamental. Le script commence par la question sur le remboursement sans cette comparaison initiale, ce qui peut laisser le spectateur sans le contraste essentiel."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « la créance figure à l'actif de la succession et est taxable » est correcte mais trop synthétique : il serait préférable de préciser que la créance est prise en compte dans l'actif successoral (base taxable pour les droits de succession) même si la société ne peut pas la rembourser, et de signaler brièvement la limitation relative aux dettes non déductibles visée par l'article 773 (la référence existe mais le lien logique est ténu dans le script).",
+        "La phrase sur la déductibilité des intérêts est correctement citée dans la légende mais n'apparaît pas dans la narration; omission possible selon l'angle fiscal exigé par la directive 'juridique_fiscal'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (50 000 €) illustre le point, mais il manque une mention brève sur la possibilité d'une convention de blocage imposée par la banque (la narration parle de 'conventions de blocage' mais la légende indique que les banques exigent presque toujours une convention — cette nuance n'est pas donnée dans la narration).",
+        "La vidéo ne rappelle pas la vraie alternative (augmentation de capital) dans la narration pour expliquer pourquoi on choisit un compte courant plutôt qu'un apport en capital."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais la progression gagnerait à intégrer immédiatement la comparaison apport / compte courant (court rappel) pour clarifier le choix du spectateur.",
+        "Le CTA est standard ('lien dans ma bio') mais pourrait préciser nature du rendez‑vous (point fiscal/juridique) pour augmenter la conversion sans être prescriptif."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être améliorées pour la prononciation et la fluidité : par exemple remplacer 'C'est une créance que la société doit rembourser.' par 'Oui — il s'agit d'une créance exigible par l'associé.'",
+        "La phrase 'Vous avez avancé de l'argent à votre SCI et craignez de ne pas pouvoir le reprendre.' est longue pour un hook spoken en 2 secondes ; raccourcir faciliterait la diction."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lisant mot à mot, l'enchaînement question → réponse → condition → exemple → décès fonctionne, mais l'absence d'une phrase très brève rappelant la différence avec l'apport en capital est une omission localisable (entre beat 1 et 3).",
+        "Le libellé du beat 2 ('OUI / NON') est visuel mais la narration le prononce — vérifier que la vidéo montre également le visuel sans confusion."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais omet d'inclure les deux nuances importantes exigées par la fiche : (1) l'information que la banque exige presque toujours une convention de blocage et (2) la précision sur la déductibilité des intérêts (limites légales). Ces deux points sont présents dans la légende mais absents de la narration principale."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'expression 'créance taxable' peut prêter à confusion — il vaudrait mieux dire 'la créance entre dans l'actif de la succession et est prise en compte pour le calcul des droits de succession'.",
+        "Le script utilise le terme 'convention de blocage' sans expliciter brièvement qu'il s'agit d'une clause demandée par les banques lors d'un financement : ajout nécessaire pour clarté immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et la mention de sources renforce la crédibilité, mais l'appel à l'action pourrait préciser le type d'expertise proposée (ex. 'rendez-vous fiscal/juridique') pour mieux convertir sans surpromesse.",
+        "Absence d'un rappel rapide de l'avertissement 'ne constitue pas un conseil personnalisé' dans la narration — il figure en légende mais renforcerait la confiance s'il était prononcé ou formulé très court lors du CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche-source, mais omet de rappeler explicitement la distinction entre apport en capital (non remboursable) et compte courant (créance remboursable) dans la première phrase du développement — la fiche l'indique comme point fondamental. Le script commence par la question sur le remboursement sans cette comparaison initiale, ce qui peut laisser le spectateur sans le contraste essentiel.",
+    "juridique_fiscal : La mention « la créance figure à l'actif de la succession et est taxable » est correcte mais trop synthétique : il serait préférable de préciser que la créance est prise en compte dans l'actif successoral (base taxable pour les droits de succession) même si la société ne peut pas la rembourser, et de signaler brièvement la limitation relative aux dettes non déductibles visée par l'article 773 (la référence existe mais le lien logique est ténu dans le script).",
+    "juridique_fiscal : La phrase sur la déductibilité des intérêts est correctement citée dans la légende mais n'apparaît pas dans la narration; omission possible selon l'angle fiscal exigé par la directive 'juridique_fiscal'.",
+    "completude : L'exemple chiffré (50 000 €) illustre le point, mais il manque une mention brève sur la possibilité d'une convention de blocage imposée par la banque (la narration parle de 'conventions de blocage' mais la légende indique que les banques exigent presque toujours une convention — cette nuance n'est pas donnée dans la narration).",
+    "completude : La vidéo ne rappelle pas la vraie alternative (augmentation de capital) dans la narration pour expliquer pourquoi on choisit un compte courant plutôt qu'un apport en capital.",
+    "editorial : Accroche forte mais la progression gagnerait à intégrer immédiatement la comparaison apport / compte courant (court rappel) pour clarifier le choix du spectateur.",
+    "editorial : Le CTA est standard ('lien dans ma bio') mais pourrait préciser nature du rendez‑vous (point fiscal/juridique) pour augmenter la conversion sans être prescriptif.",
+    "formulation_professionnelle : Quelques formulations pourraient être améliorées pour la prononciation et la fluidité : par exemple remplacer 'C'est une créance que la société doit rembourser.' par 'Oui — il s'agit d'une créance exigible par l'associé.'",
+    "formulation_professionnelle : La phrase 'Vous avez avancé de l'argent à votre SCI et craignez de ne pas pouvoir le reprendre.' est longue pour un hook spoken en 2 secondes ; raccourcir faciliterait la diction.",
+    "contre_verification_finale : En lisant mot à mot, l'enchaînement question → réponse → condition → exemple → décès fonctionne, mais l'absence d'une phrase très brève rappelant la différence avec l'apport en capital est une omission localisable (entre beat 1 et 3).",
+    "contre_verification_finale : Le libellé du beat 2 ('OUI / NON') est visuel mais la narration le prononce — vérifier que la vidéo montre également le visuel sans confusion.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais omet d'inclure les deux nuances importantes exigées par la fiche : (1) l'information que la banque exige presque toujours une convention de blocage et (2) la précision sur la déductibilité des intérêts (limites légales). Ces deux points sont présents dans la légende mais absents de la narration principale.",
+    "pedagogie_client : Pour un non-spécialiste, l'expression 'créance taxable' peut prêter à confusion — il vaudrait mieux dire 'la créance entre dans l'actif de la succession et est prise en compte pour le calcul des droits de succession'.",
+    "pedagogie_client : Le script utilise le terme 'convention de blocage' sans expliciter brièvement qu'il s'agit d'une clause demandée par les banques lors d'un financement : ajout nécessaire pour clarté immédiate.",
+    "conversion_confiance : Le ton est professionnel et la mention de sources renforce la crédibilité, mais l'appel à l'action pourrait préciser le type d'expertise proposée (ex. 'rendez-vous fiscal/juridique') pour mieux convertir sans surpromesse.",
+    "conversion_confiance : Absence d'un rappel rapide de l'avertissement 'ne constitue pas un conseil personnalisé' dans la narration — il figure en légende mais renforcerait la confiance s'il était prononcé ou formulé très court lors du CTA."
+  ],
+  "recommendations": [
+    "Ajouter une phrase courte très tôt (après le hook ou avant la réponse) rappelant la différence essentielle : 'Contrairement à un apport en capital, un compte courant est une avance remboursable.' — localiser entre beat 1 et 3.",
+    "Dans la narration, préciser que les banques exigent 'presque toujours' une convention de blocage pendant un prêt hypothécaire (ou écrire 'souvent' si la locution 'presque toujours' est jugée trop forte).",
+    "Remplacer 'créance taxable' par une formulation plus explicite et accessible : 'la créance entre dans l'actif de la succession et sert de base au calcul des droits de succession pour les héritiers.'",
+    "Inclure très brièvement la mention sur la déductibilité des intérêts (limites prévues par le CGI) dans une ligne de la narration ou dans un carton visuel si l'espace vocal est limité.",
+    "Alléger le hook pour faciliter la prononciation (ex. 'Vous avez avancé de l'argent à votre SCI et ne savez pas si vous pouvez le récupérer ?').",
+    "Préciser le CTA en ajoutant la nature du rendez-vous proposé (ex. 'rendez‑vous fiscal/juridique — lien dans ma bio') et, si possible, dire une phrase de mise en garde orale courte: 'Contenu pédagogique — pas un conseil personnalisé.'"
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-03:reels:sci_compte_courant_associe:0",
+  "script_path": "scripts/sci/sci_compte_courant_associe__reels__a2__v4.md"
+}

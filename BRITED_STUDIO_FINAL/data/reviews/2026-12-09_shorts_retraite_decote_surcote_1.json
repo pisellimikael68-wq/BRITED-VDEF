@@ -1,0 +1,206 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique des chiffres déclarés 'a_verifier: true' (décote 0,625% par trimestre, nombre maximal 20 trimestres, surcote 1,25% par trimestre). Le script utilise un exemple numérique (1 600 € → 1 500 € pour 1 trimestre manquant) qui n'est pas cohérent avec le taux de décote indiqué (0,625% par trimestre) : une baisse de 100 € sur 1 600 € correspond à 6,25%, soit l'équivalent d'environ 10 trimestres de décote, pas 1. Il y a donc une incohérence factuelle entre les chiffres de la fiche et l'exemple chiffré du script.",
+        "La règle 'âge d'annulation automatique de la décote 67 ans' est présentée comme générale; la fiche indique la nécessité de préciser la génération concernée (réforme 2023). Le script dit « souvent soixante‑sept ans » sans préciser les générations ni mentionner la variabilité selon la réforme, ce qui peut induire en erreur."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La référence aux articles L351-1 et D351-1-4 est correcte, mais le script ne précise pas la condition essentielle : que le taux plein automatique (annulation de la décote) dépend de l'année de naissance et que la durée d'assurance requise varie selon les générations (mentionnée ailleurs mais pas dans le script comme condition explicite liée aux références légales).",
+        "Le script affirme que la décote 'cesse d'être appliquée à l'âge du taux plein automatique, souvent soixante‑sept ans' sans rappeler l'exception : atteindre l'âge n'efface pas nécessairement la proratisation du montant si des trimestres manquent. Le script mentionne la proratisation, mais l'enchaînement peut prêter à confusion pour l'utilisateur non spécialiste.",
+        "L'énoncé selon lequel la décote 'frappe aussi la retraite complémentaire' est vrai dans l'esprit pédagogique mais nécessite précision : les règles et taux sont propres aux régimes complémentaires (Agirc-Arrco) et ne sont pas mécaniquement identiques; le script dit 'souvent affectée aussi' — formulation correcte mais aurait besoin d'une phrase de nuance précisant la différence de mécanismes."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la règle centrale (décote permanente) et fournit un exemple, mais omet d'indiquer explicitement que les taux et l'âge varient selon la génération (alerte 'a_ne_pas_dire' de la fiche).",
+        "L'exemple chiffré est trompeur (voir source agent). Aucun rappel n'est fait sur la nécessité de vérifier le relevé de carrière avant liquidation (même si mentionné ailleurs, le CTA propose un rendez-vous sans rappeler la première action à entreprendre : demander le relevé/corriger les erreurs).",
+        "Absence d'indication sur la procédure pour corriger erreurs avant liquidation (où et comment demander corrections), information importante pour l'usager."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format est adapté aux Shorts (durée, rythme des beats). Cependant la mention 'Prendre rendez-vous via le lien dans ma bio' est acceptable mais devrait respecter la neutralité (agent 'securite' demande absence de pression commerciale).",
+        "Visuels et textes écran sont clairs, mais le premier hook demande 2 secondes d'impact : la phrase d'accroche est bonne mais le script compte plusieurs secondes de narration au début ; vérifier que le timing respecte strictement 42 secondes estimées."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et accroche efficace. Toutefois l'exemple chiffré (Julie 1 600 → 1 500 €) est incohérent avec le taux de décote indiqué et affaiblit la crédibilité éditoriale.",
+        "Le 'Nuance' beat évoque 67 ans mais l'enchaînement peut laisser penser qu'atteindre 67 ans annule toujours l'impact financier — il faudrait reformuler pour renforcer la nuance (âge d'annulation de la décote vs proratisation possible).",
+        "La phrase finale CTA 'Prenez rendez-vous via le lien dans ma bio' doit rester informative et non contraignante; envisager formulation plus neutre ('Consultez le lien en bio pour faire le point')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script comporte des éléments pédagogiques sourcés et une mention de non-conseil, ce qui est bon. Néanmoins l'exemple chiffré erroné constitue un risque de désinformation.",
+        "L'appel à l'action pour prendre rendez-vous peut être perçu comme une incitation commerciale si l'auteur représente un service payant; la mention légale de non-conseil est présente mais il faudrait éviter toute formulation qui pourrait être interprétée comme un conseil personnalisé."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La langue est naturelle et compréhensible, mais certaines tournures doivent être précisées pour éviter l'ambiguïté (ex. 'la décote cesse d'être appliquée à l'âge du taux plein automatique, souvent 67 ans' devrait préciser 'selon la génération').",
+        "L'exemple avec montants numériques est formulé clairement mais factuellement incorrect par rapport aux taux indiqués, ce qui nuit à la crédibilité professionnelle."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 6.0,
+      "passed": false,
+      "findings": [
+        "Erreur factuelle manifeste dans l'exemple chiffré (voir agent 'source') révèle qu'il n'y a pas eu contre-vérification mot à mot des montants et des pourcentages appliqués.",
+        "La cohérence entre la fiche BRITED (chiffres marqués 'a_verifier') et le script n'a pas été assurée : les chiffres à vérifier n'ont pas été confirmés avant inclusion dans l'exemple."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels décrits correspondent globalement aux propos (calendrier, relevé, puzzle carrière). Petite réserve : le pictogramme montrant la complémentaire doit être distinct (logo Agirc-Arrco ou symbole clair) pour éviter l'impression que la même règle s'applique mécaniquement aux complémentaires.",
+        "Vérifier que l'animation '1 600 € barré → 1 500 €' corresponde bien au montant expliqué; actuellement ce visuel renforcera une erreur chiffrée si celle-ci n'est pas corrigée."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle principal (décote définitive) avec l'exception (âge d'annulation) et un exemple, ce qui est conforme. En revanche l'exemple chiffré erroné compromet la densité pédagogique utile.",
+        "Il manque une brève instruction pratique indispensable : 'vérifiez votre relevé de carrière et demandez corrections avant liquidation' en tant que call-to-action informatif, distinct du CTA commercial."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le message est en grande partie compréhensible pour un non-spécialiste. Toutefois la confusion potentielle autour de l'âge de suppression de la décote et de la proratisation nécessite une phrase supplémentaire clarificatrice.",
+        "L'exemple chiffré prêtant à erreur nuit à la pédagogie : un non-spécialiste pourrait retenir une fausse règle chiffrée."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont percutantes et le déroulé maintient l'attention. À corriger : raccourcir/clarifier la nuance sur l'âge pour éviter une seconde de flottement d'interprétation.",
+        "Le rythme doit être adapté pour un format 42s ; valider le minutage après correction des phrases pour s'assurer que chaque beat reste concis."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance mais l'erreur chiffrée met en danger la crédibilité et la conversion (prise de rendez-vous).",
+        "Recommander d'ajouter une phrase assurant la neutralité et l'absence de promotion d'un produit ou service payant, afin d'éviter une perception commerciale."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 123,
+      "seconds": 45.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 123,
+        "seconds": 45.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique des chiffres déclarés 'a_verifier: true' (décote 0,625% par trimestre, nombre maximal 20 trimestres, surcote 1,25% par trimestre). Le script utilise un exemple numérique (1 600 € → 1 500 € pour 1 trimestre manquant) qui n'est pas cohérent avec le taux de décote indiqué (0,625% par trimestre) : une baisse de 100 € sur 1 600 € correspond à 6,25%, soit l'équivalent d'environ 10 trimestres de décote, pas 1. Il y a donc une incohérence factuelle entre les chiffres de la fiche et l'exemple chiffré du script.",
+    "source : La règle 'âge d'annulation automatique de la décote 67 ans' est présentée comme générale; la fiche indique la nécessité de préciser la génération concernée (réforme 2023). Le script dit « souvent soixante‑sept ans » sans préciser les générations ni mentionner la variabilité selon la réforme, ce qui peut induire en erreur.",
+    "juridique_fiscal : La référence aux articles L351-1 et D351-1-4 est correcte, mais le script ne précise pas la condition essentielle : que le taux plein automatique (annulation de la décote) dépend de l'année de naissance et que la durée d'assurance requise varie selon les générations (mentionnée ailleurs mais pas dans le script comme condition explicite liée aux références légales).",
+    "juridique_fiscal : Le script affirme que la décote 'cesse d'être appliquée à l'âge du taux plein automatique, souvent soixante‑sept ans' sans rappeler l'exception : atteindre l'âge n'efface pas nécessairement la proratisation du montant si des trimestres manquent. Le script mentionne la proratisation, mais l'enchaînement peut prêter à confusion pour l'utilisateur non spécialiste.",
+    "juridique_fiscal : L'énoncé selon lequel la décote 'frappe aussi la retraite complémentaire' est vrai dans l'esprit pédagogique mais nécessite précision : les règles et taux sont propres aux régimes complémentaires (Agirc-Arrco) et ne sont pas mécaniquement identiques; le script dit 'souvent affectée aussi' — formulation correcte mais aurait besoin d'une phrase de nuance précisant la différence de mécanismes.",
+    "completude : Le script respecte la règle centrale (décote permanente) et fournit un exemple, mais omet d'indiquer explicitement que les taux et l'âge varient selon la génération (alerte 'a_ne_pas_dire' de la fiche).",
+    "completude : L'exemple chiffré est trompeur (voir source agent). Aucun rappel n'est fait sur la nécessité de vérifier le relevé de carrière avant liquidation (même si mentionné ailleurs, le CTA propose un rendez-vous sans rappeler la première action à entreprendre : demander le relevé/corriger les erreurs).",
+    "completude : Absence d'indication sur la procédure pour corriger erreurs avant liquidation (où et comment demander corrections), information importante pour l'usager.",
+    "plateforme : Le format est adapté aux Shorts (durée, rythme des beats). Cependant la mention 'Prendre rendez-vous via le lien dans ma bio' est acceptable mais devrait respecter la neutralité (agent 'securite' demande absence de pression commerciale).",
+    "plateforme : Visuels et textes écran sont clairs, mais le premier hook demande 2 secondes d'impact : la phrase d'accroche est bonne mais le script compte plusieurs secondes de narration au début ; vérifier que le timing respecte strictement 42 secondes estimées.",
+    "editorial : Ton direct et accroche efficace. Toutefois l'exemple chiffré (Julie 1 600 → 1 500 €) est incohérent avec le taux de décote indiqué et affaiblit la crédibilité éditoriale.",
+    "editorial : Le 'Nuance' beat évoque 67 ans mais l'enchaînement peut laisser penser qu'atteindre 67 ans annule toujours l'impact financier — il faudrait reformuler pour renforcer la nuance (âge d'annulation de la décote vs proratisation possible).",
+    "editorial : La phrase finale CTA 'Prenez rendez-vous via le lien dans ma bio' doit rester informative et non contraignante; envisager formulation plus neutre ('Consultez le lien en bio pour faire le point').",
+    "securite : Le script comporte des éléments pédagogiques sourcés et une mention de non-conseil, ce qui est bon. Néanmoins l'exemple chiffré erroné constitue un risque de désinformation.",
+    "securite : L'appel à l'action pour prendre rendez-vous peut être perçu comme une incitation commerciale si l'auteur représente un service payant; la mention légale de non-conseil est présente mais il faudrait éviter toute formulation qui pourrait être interprétée comme un conseil personnalisé.",
+    "formulation_professionnelle : La langue est naturelle et compréhensible, mais certaines tournures doivent être précisées pour éviter l'ambiguïté (ex. 'la décote cesse d'être appliquée à l'âge du taux plein automatique, souvent 67 ans' devrait préciser 'selon la génération').",
+    "formulation_professionnelle : L'exemple avec montants numériques est formulé clairement mais factuellement incorrect par rapport aux taux indiqués, ce qui nuit à la crédibilité professionnelle.",
+    "contre_verification_finale : Erreur factuelle manifeste dans l'exemple chiffré (voir agent 'source') révèle qu'il n'y a pas eu contre-vérification mot à mot des montants et des pourcentages appliqués.",
+    "contre_verification_finale : La cohérence entre la fiche BRITED (chiffres marqués 'a_verifier') et le script n'a pas été assurée : les chiffres à vérifier n'ont pas été confirmés avant inclusion dans l'exemple.",
+    "coherence_pictogrammes : Les visuels décrits correspondent globalement aux propos (calendrier, relevé, puzzle carrière). Petite réserve : le pictogramme montrant la complémentaire doit être distinct (logo Agirc-Arrco ou symbole clair) pour éviter l'impression que la même règle s'applique mécaniquement aux complémentaires.",
+    "coherence_pictogrammes : Vérifier que l'animation '1 600 € barré → 1 500 €' corresponde bien au montant expliqué; actuellement ce visuel renforcera une erreur chiffrée si celle-ci n'est pas corrigée.",
+    "densite_editoriale : La vidéo traite un seul angle principal (décote définitive) avec l'exception (âge d'annulation) et un exemple, ce qui est conforme. En revanche l'exemple chiffré erroné compromet la densité pédagogique utile.",
+    "densite_editoriale : Il manque une brève instruction pratique indispensable : 'vérifiez votre relevé de carrière et demandez corrections avant liquidation' en tant que call-to-action informatif, distinct du CTA commercial.",
+    "pedagogie_client : Le message est en grande partie compréhensible pour un non-spécialiste. Toutefois la confusion potentielle autour de l'âge de suppression de la décote et de la proratisation nécessite une phrase supplémentaire clarificatrice.",
+    "pedagogie_client : L'exemple chiffré prêtant à erreur nuit à la pédagogie : un non-spécialiste pourrait retenir une fausse règle chiffrée.",
+    "retention_attention : Les deux premières secondes sont percutantes et le déroulé maintient l'attention. À corriger : raccourcir/clarifier la nuance sur l'âge pour éviter une seconde de flottement d'interprétation.",
+    "retention_attention : Le rythme doit être adapté pour un format 42s ; valider le minutage après correction des phrases pour s'assurer que chaque beat reste concis.",
+    "conversion_confiance : Le ton inspire confiance mais l'erreur chiffrée met en danger la crédibilité et la conversion (prise de rendez-vous).",
+    "conversion_confiance : Recommander d'ajouter une phrase assurant la neutralité et l'absence de promotion d'un produit ou service payant, afin d'éviter une perception commerciale."
+  ],
+  "recommendations": [
+    "Corriger l'exemple chiffré : vérifier et aligner les montants avec le taux de décote retenu (si l'on conserve la décote de 0,625% par trimestre, pour 1 600 € une décote d'un trimestre ferait baisser la pension de 10 € par mois environ, pas 100 €). Alternativement, expliciter que l'exemple est illustratif et non fondé sur le taux légal si vous préférez garder l'exemple 1 600 → 1 500 (mais cela est déconseillé).",
+    "Si la fiche BRITED retient 0,625% par trimestre (a_verifier: true), valider ce chiffre auprès de la source (Assurance retraite / D351-1-4) avant publication et supprimer l'étiquette 'a_verifier' une fois confirmé.",
+    "Préciser la condition générationnelle : rappeler que l'âge du taux plein automatique et la durée d'assurance requise varient selon l'année de naissance (réforme 2023), et indiquer que l'exemption de la décote à 67 ans s'applique aux générations concernées. Exemple de phrase : 'à partir des générations concernées par la réforme, la décote n'est plus appliquée automatiquement à X ans — vérifiez votre génération'.",
+    "Modifier la formulation de la nuance sur 67 ans pour éviter toute interprétation erronée : expliciter que l'annulation de la décote n'efface pas nécessairement une proratisation du montant si des trimestres manquent.",
+    "Ajouter une phrase pratique et prioritaire avant le CTA : 'Demandez votre relevé de carrière et faites corriger les erreurs AVANT de liquider votre retraite.' Ceci est une action concrète et non commerciale à recommander.",
+    "Reformuler le CTA pour neutralité : par exemple 'Consultez le lien en bio pour faire le point' plutôt que formulation impérative potentiellement commerciale.",
+    "Vérifier et distinguer visuellement la retraite de base et la retraite complémentaire dans les pictogrammes (utiliser symboles distincts ou labels clairs) pour ne pas laisser entendre que les mêmes taux s'appliquent mécaniquement.",
+    "Effectuer une contre-vérification mot à mot finale (spécifiquement sur tous les chiffres, montants et pourcentages) par un relecteur juridique/fiscal avant publication.",
+    "Après corrections, refaire l'évaluation pour obtenir des scores 10/10 et certification BRITED."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-09:shorts:retraite_decote_surcote:1",
+  "script_path": "scripts/retraite/retraite_decote_surcote__shorts__a4__v11.md"
+}

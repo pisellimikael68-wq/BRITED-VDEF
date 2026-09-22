@@ -1,0 +1,162 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.73,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La section Sources du script inclut « CGI, article 1600-0 I — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036428542 », qui n’apparaît pas dans la SOURCE CERTIFIÉE (celle-ci mentionne CGI, articles 150 VI à 150 VK)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et apprentissage d'une règle utile avant l'appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "La phrase « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » est maladroite et ambiguë (ordre des éléments numéraire/nom du bien incorrect) ; formulation empêchant une lecture naturelle à voix haute."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La narration continue contient la phrase maladroite citée : « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » qui nuit à la fluidité et doit être reformulée pour garantir une seconde lecture sans hésitation."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme une personne sans aucune culture patrimoniale : situation familière, vocabulaire courant, terme technique immédiatement traduit, règle mémorisable, exemple parlant et point pratique compris au premier passage ; pour la Finance, la nature exacte du produit doit être nommée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "impact_dynamique": {
+      "label": "Bloque tout script qui ressemble à un cours : exige un hook spécifique qui arrête le défilement, une valeur concrète dès la phrase suivante, des phrases nerveuses et une progression orale rapide sans sensationnalisme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que la vidéo apporte toute sa valeur avant le CTA et construit un vivier de prospects par la confiance, sans rétention d'information, peur artificielle, surpromesse ni pression commerciale.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "fluidite_orale": {
+      "label": "Lit le texte à voix haute mentalement et bloque toute formulation télégraphique, ponctuation cassante, répétition, liaison difficile ou enchaînement susceptible de produire une diction artificielle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » présente une rupture de groupe rendant la diction heurtée à l'oral ; reformulation nécessaire (par ex. « Concrètement : vous revendez un lingot 1 200 €, acheté 1 000 € »)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Information complète sans contrainte de durée": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "7f806336f3e3527cde9b2f95c3e5c2acaaf20876f9a0666f265f8e223143ca5f",
+      "adapted_hash": "a0c5a0b35e9b669b4199cefbee04d2bcfc5fd21e5469768f3f66fd6136d3e4d6",
+      "source_beats": 6,
+      "adapted_pages": 6,
+      "splits": 0,
+      "exact_text_preserved": false,
+      "minimum_font_size": 37,
+      "cta_normalized": true,
+      "warnings": []
+    }
+  },
+  "errors": [
+    "source : La section Sources du script inclut « CGI, article 1600-0 I — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036428542 », qui n’apparaît pas dans la SOURCE CERTIFIÉE (celle-ci mentionne CGI, articles 150 VI à 150 VK).",
+    "formulation_professionnelle : La phrase « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » est maladroite et ambiguë (ordre des éléments numéraire/nom du bien incorrect) ; formulation empêchant une lecture naturelle à voix haute.",
+    "contre_verification_finale : La narration continue contient la phrase maladroite citée : « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » qui nuit à la fluidité et doit être reformulée pour garantir une seconde lecture sans hésitation.",
+    "fluidite_orale : La phrase « Concrètement, vous revendez 1 200 € un lingot acheté 1 000 €. » présente une rupture de groupe rendant la diction heurtée à l'oral ; reformulation nécessaire (par ex. « Concrètement : vous revendez un lingot 1 200 €, acheté 1 000 € »)."
+  ],
+  "recommendations": [],
+  "reviewed_at": "2026-09-01T22:42:00",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-09-01:shorts:or_fiscalite_metaux_precieux:0",
+  "script_path": "scripts/or/or_fiscalite_metaux_precieux__shorts__a1__v8.md"
+}

@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-07",
+  "slot": 2,
+  "status": "scripts_ready",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+      "platform": "shorts",
+      "title": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/fiscalite/fiscalite_controle_fiscal__shorts__a1__v11.md",
+      "video": "",
+      "script_sha256": "d203c271ac7b0a0f5f671992503a5b8488f9091b9fc834aa8ba81fb20dfb98ba",
+      "spec_sha256": "ddf7513d1435385222353a26a656384bb1417ab71def0f8a202e2d332a5648a8",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 59.3,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 160,
+        "seconds": 59.3,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+        "editorial_policy_sha256": "07770d9962a12c64c7f2464cc13a54878ed1c5b2b5a8fa83a058a5cb13120b30",
+        "validated_at": "2026-09-03T12:00:33"
+      },
+      "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-09-07:reels:fiscalite_controle_fiscal:1",
+      "platform": "reels",
+      "title": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/fiscalite/fiscalite_controle_fiscal__shorts__a1__v11.md",
+      "video": "",
+      "script_sha256": "d203c271ac7b0a0f5f671992503a5b8488f9091b9fc834aa8ba81fb20dfb98ba",
+      "spec_sha256": "0acaf3cede142cf51fe70d8cce7c08a8b68b6292e39463a3c288e5e2317bb84d",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "reels",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 59.3,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 160,
+        "seconds": 59.3,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+        "editorial_policy_sha256": "07770d9962a12c64c7f2464cc13a54878ed1c5b2b5a8fa83a058a5cb13120b30",
+        "validated_at": "2026-09-03T12:00:33"
+      },
+      "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "instagram",
+        "facebook"
+      ],
+      "delivery_profile": "reels",
+      "shared_identical_video": false,
+      "facebook_delivery_mode": "instagram_crosspost"
+    },
+    {
+      "publication_id": "2026-09-07:tiktok:fiscalite_controle_fiscal:1",
+      "platform": "tiktok",
+      "title": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/fiscalite/fiscalite_controle_fiscal__shorts__a1__v11.md",
+      "video": "",
+      "script_sha256": "d203c271ac7b0a0f5f671992503a5b8488f9091b9fc834aa8ba81fb20dfb98ba",
+      "spec_sha256": "9f54f8d56edeb65dd6de8859d6d5d5fe14b6883421367702d0148f0d3e016de3",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "tiktok",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 59.3,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 160,
+        "seconds": 59.3,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+        "editorial_policy_sha256": "07770d9962a12c64c7f2464cc13a54878ed1c5b2b5a8fa83a058a5cb13120b30",
+        "validated_at": "2026-09-03T12:00:33"
+      },
+      "review_path": "data/reviews/2026-09-07_shorts_fiscalite_controle_fiscal_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "tiktok"
+      ],
+      "delivery_profile": "tiktok",
+      "shared_identical_video": false
+    }
+  ]
+}

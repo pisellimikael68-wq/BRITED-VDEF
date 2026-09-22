@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "failures": [],
+  "final": {
+    "rate": 24000,
+    "channels": 1,
+    "width": 2,
+    "duration": 49.601,
+    "peak": 0.84143,
+    "rms": 0.15779,
+    "dc": 0.000106,
+    "clipped_ratio": 0.0,
+    "abrupt_jump_ratio": 0.0
+  },
+  "segments": {
+    "01_hook.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 3.463,
+      "peak": 0.77475,
+      "rms": 0.12632,
+      "dc": 8e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "02_reponse.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 6.064,
+      "peak": 0.79434,
+      "rms": 0.12446,
+      "dc": 7e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "03_regle.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 17.253,
+      "peak": 0.79443,
+      "rms": 0.12827,
+      "dc": 7.4e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "04_exemple.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 8.637,
+      "peak": 0.79428,
+      "rms": 0.12107,
+      "dc": 8.4e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "05_nuance.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 6.189,
+      "peak": 0.71045,
+      "rms": 0.11362,
+      "dc": 6e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "06_cta.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 5.535,
+      "peak": 0.77356,
+      "rms": 0.12192,
+      "dc": 0.00013,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    }
+  },
+  "background_noise": {
+    "passed": true,
+    "regions": [
+      {
+        "after_beat": 1,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 2,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 3,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 4,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 5,
+        "rms": 0.0,
+        "peak": 0.0
+      }
+    ],
+    "rms_limit": 0.003,
+    "peak_limit": 0.025
+  },
+  "checks": [
+    "sample_rate",
+    "format",
+    "clipping",
+    "abrupt_jumps",
+    "dc_offset",
+    "duration",
+    "background_noise"
+  ]
+}

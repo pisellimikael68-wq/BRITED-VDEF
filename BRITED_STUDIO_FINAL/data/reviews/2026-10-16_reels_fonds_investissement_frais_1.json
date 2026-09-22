@@ -1,0 +1,161 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est globalement respectée, mais la mention 'DICI' est employée sans préciser l'acronyme complet ('Document d'informations clés') dans le script visuel ; le script écrit l'abréviation seul dans le beat 5. Pour un public non spécialiste, il faut expliciter la première occurrence."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme correctement que les frais sont déduits de la valeur liquidative et cite les sources, mais il ne mentionne pas l'obligation réglementaire explicite que les frais courants doivent figurer dans le DICI/KID ni la distinction DICI (OPCVM) vs. KID (PRIIPs) lorsqu'elle s'applique. Il faut éviter toute confusion réglementaire."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script donne la règle essentielle et la nuance contractuelle, mais n'inclut pas un exemple chiffré simple (même rapide) illustrant l'effet cumulatif des frais sur plusieurs années malgré la mention du chiffre dans la source. L'ajout d'un court exemple chiffré renforcerait la compréhension."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression sont bons, mais la phrase du CTA 'Prenez rendez-vous via le lien dans ma bio.' suppose un usage individuel (profil) : pour un compte institutionnel ou multi-conseillers cela peut être inadapté. Proposer une alternative neutre ('lien en bio') ou préciser 'mon/ notre' selon le compte."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques libellés pourraient être améliorés pour la prononciation et la fluidité orale : par exemple, remplacer 'Le DICI indique les frais courants.' par 'Le document d'information clé — le DICI — indique les frais courants.' pour faciliter l'écoute et la compréhension au premier passage."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration continue reprend fidèlement les beats, mais l'enchaînement 'Les frais d'un fonds apparaissent-ils sur votre relevé ? OUI / NON Non.' peut sembler abrupt à l'oral. Proposer une micro-pause ou reformulation pour clarté: 'OUI ? NON ? Non, ils n'apparaissent pas.'"
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le beat 1 propose un pictogramme œil ; approprié, mais le beat 3 utilise une 'icône croix rouge sur relevé stylisé' qui peut évoquer une interdiction plutôt qu'une absence d'inscription. Recommander une icône plus descriptive (loupe sur VL barrée) pour éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept est accessible, mais le terme 'valeur liquidative (VL)' est introduit sans définir « valeur liquidative » en termes simples (prix de la part). Il faut ajouter une brève parenthèse explicative pour un non-spécialiste."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes, mais le visuel OUI/NON au beat 2 occupe du temps sans texte sonore distinct ; risque de baisse d'attention. Suggérer que la voix énonce la question pendant l'apparition du visuel pour maximiser impact."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est globalement respectée, mais la mention 'DICI' est employée sans préciser l'acronyme complet ('Document d'informations clés') dans le script visuel ; le script écrit l'abréviation seul dans le beat 5. Pour un public non spécialiste, il faut expliciter la première occurrence.",
+    "juridique_fiscal : Le script affirme correctement que les frais sont déduits de la valeur liquidative et cite les sources, mais il ne mentionne pas l'obligation réglementaire explicite que les frais courants doivent figurer dans le DICI/KID ni la distinction DICI (OPCVM) vs. KID (PRIIPs) lorsqu'elle s'applique. Il faut éviter toute confusion réglementaire.",
+    "completude : Le script donne la règle essentielle et la nuance contractuelle, mais n'inclut pas un exemple chiffré simple (même rapide) illustrant l'effet cumulatif des frais sur plusieurs années malgré la mention du chiffre dans la source. L'ajout d'un court exemple chiffré renforcerait la compréhension.",
+    "editorial : Hook et progression sont bons, mais la phrase du CTA 'Prenez rendez-vous via le lien dans ma bio.' suppose un usage individuel (profil) : pour un compte institutionnel ou multi-conseillers cela peut être inadapté. Proposer une alternative neutre ('lien en bio') ou préciser 'mon/ notre' selon le compte.",
+    "formulation_professionnelle : Quelques libellés pourraient être améliorés pour la prononciation et la fluidité orale : par exemple, remplacer 'Le DICI indique les frais courants.' par 'Le document d'information clé — le DICI — indique les frais courants.' pour faciliter l'écoute et la compréhension au premier passage.",
+    "contre_verification_finale : La narration continue reprend fidèlement les beats, mais l'enchaînement 'Les frais d'un fonds apparaissent-ils sur votre relevé ? OUI / NON Non.' peut sembler abrupt à l'oral. Proposer une micro-pause ou reformulation pour clarté: 'OUI ? NON ? Non, ils n'apparaissent pas.'",
+    "coherence_pictogrammes : Le beat 1 propose un pictogramme œil ; approprié, mais le beat 3 utilise une 'icône croix rouge sur relevé stylisé' qui peut évoquer une interdiction plutôt qu'une absence d'inscription. Recommander une icône plus descriptive (loupe sur VL barrée) pour éviter ambiguïté.",
+    "pedagogie_client : Le concept est accessible, mais le terme 'valeur liquidative (VL)' est introduit sans définir « valeur liquidative » en termes simples (prix de la part). Il faut ajouter une brève parenthèse explicative pour un non-spécialiste.",
+    "retention_attention : Les deux premières secondes sont bonnes, mais le visuel OUI/NON au beat 2 occupe du temps sans texte sonore distinct ; risque de baisse d'attention. Suggérer que la voix énonce la question pendant l'apparition du visuel pour maximiser impact."
+  ],
+  "recommendations": [
+    "Écrire 'Document d'informations clés (DICI)' à la première occurrence dans le script et à l'écran pour améliorer compréhension.",
+    "Préciser la distinction réglementaire courte : DICI pour OPCVM/UCITS, KID (PRIIPs) possible selon produit, afin d'éviter confusion (formulation très brève pour Reels).",
+    "Ajouter un micro-exemple chiffré très court (ex. : '1,5 % de frais annuels, sur 30 ans, peut réduire d'environ un tiers votre capital final selon l'hypothèse de rendement' — ou retirer la mention chiffrée si vous ne souhaitez pas approximer).",
+    "Adapter le CTA en fonction du compte : offrir une version neutre ('Lien en bio pour prendre RDV') ou préciser 'mon'/'notre' selon le profil.",
+    "Alléger et lisser la réplique de transition à l'oral : 'Les frais d'un fonds apparaissent-ils sur votre relevé ? OUI ou NON ? Non — ils n'apparaissent pas.'",
+    "Clarifier succinctement 'valeur liquidative (VL)' en ajoutant '(le prix d'une part)' lors de la première définition.",
+    "Remplacer l'icône croix rouge du beat 3 par un visuel moins connoté d'interdiction, par exemple une loupe sur un relevé avec l'inscription 'aucune ligne frais'.",
+    "Dans le montage voix/visuel, faire en sorte que la voix pose la question en même temps que le visuel OUI/NON pour maximiser la rétention."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-16:reels:fonds_investissement_frais:1",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__reels__a2__v7.md"
+}

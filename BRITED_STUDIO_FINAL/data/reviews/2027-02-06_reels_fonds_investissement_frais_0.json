@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence interne sur l'appellation du document d'information clé : la fiche SOURCE indique 'document d'informations clés (DIC)' alors que le script et d'autres éléments utilisent 'DICI'. Il faut homogénéiser : l'acronyme usuel en français est 'DICI' (Document d'Information Clé pour l'Investisseur).",
+        "La valeur chiffrée 'Effet d'un écart de frais de 1,5 % par an sur trente ans — plus d'un tiers du capital final' est marquée 'a_verifier' dans la fiche. Le script la présente sous forme d'ordre de grandeur sans recalcul chiffré, mais l'élément numérique doit être recalculé et sourcé ou présenté clairement comme un ordre de grandeur hypothétique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention selon laquelle 'les frais ne figurent sur aucune ligne de relevé' est généralement vraie pour les frais de gestion inscrits dans la valeur liquidative, mais il convient d'ajouter la nuance que certains relevés contractuels (ex. relevé de compte de gestion d'un contrat d'assurance-vie) peuvent détailler des frais prélevés par le distributeur ou le contrat (frais d'arbitrage, frais de gestion du contrat) : l'absence totale de lignes pour 'les frais de gestion du fonds' est correcte, mais la formulation actuelle peut être lue comme une absence totale de tout frais sur tous les relevés.",
+        "Référence légale citée (Code monétaire et financier L214-1 et suivants) est pertinente, mais le script ne signale pas les obligations d'information précontractuelle et périodique (ex. DICI/kiid obligatoire) : utile d'ajouter qu'il s'agit du document qui doit obligatoirement porter les frais."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reste centré sur une idée clé, mais omet de préciser comment additionner concrètement les frais (ex. donner l'intitulé exact à rechercher dans le DICI : 'frais totaux ¹' ou 'ongoing charges' / 'frais de gestion annuels'), ce qui prive l'utilisateur d'une action précise.",
+        "L'exemple chiffré est évoqué uniquement comme 'ordre de grandeur' sans hypothèse de rendement : pour être complet et utile, proposer une hypothèse simple (ex. rendement brut annuel 5 %) et montrer l'impact chiffré renforcerait la pédagogie."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : le script semble respecter une vidéo courte, mais la narration continue fournie peut dépasser légèrement le timing si la diction n'est très rapide. Il faut vérifier le tempo (mots par minute) et éventuellement raccourcir une phrase (ex. la phrase sur l'effet de 1,5 %/an) pour garantir 38 s maximum.",
+        "Le format des visuels est adapté aux Reels, mais le tableau de comparaison 'rendement brut vs net sur 30 ans' sans chiffres risque d'être peu lisible sur mobile : prévoir une version simplifiée ou une animation claire pour l'écran vertical."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La première phrase d'accroche est forte, mais la question à l'écran 'Votre relevé montre‑t‑il les frais... [ OUI ] [ NON ]' suggère une interaction qui n'est pas exploitable dans un Reels (pas de bouton cliquable). Recommander d'animer les cases pour inciter au choix visuel, ou reformuler pour éviter confusion.",
+        "Formulation 'Ordre de grandeur : 1,5 %/an réduit notablement le capital sur 30 ans' est vague : pour la mémorisation, un rappel chiffré simplifié (ex. 'peut représenter plus de 30 % du capital final selon l'hypothèse') serait plus percutant si sourcé."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour la fluidité orale : ex. la phrase 'Ordre de grandeur : un écart de 1,5 % par an réduit notablement le capital accumulé sur trente ans selon l'hypothèse de rendement brut retenue.' est lourde à prononcer. Proposer une version plus directe : 'À titre d'ordre de grandeur, 1,5 % de frais annuels grèvent beaucoup votre capital sur 30 ans.'",
+        "Veiller à l'accord et à l'usage du sigle DICI vs DIC (voir observation source)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérences détectées phrase par phrase : l'écran 5 indique 'DICI' alors que la fiche SOURCE mentionne 'DIC' — à uniformiser. Le libellé 'fiche tarifaire du contrat qui l'héberge' est correct mais il faudrait préciser comment la trouver (nom exact du document 'fiche tarifaire' ou 'document d'information contractuelle').",
+        "La narration continue répète plusieurs fois la même information sans apporter d'exemple chiffré actionnable ; pour une seconde lecture indépendante, signaler que l'exemple chiffré absente empêche la validation de l'ordre de grandeur présent dans la fiche."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'loupe barrée' pour indiquer l'absence de frais sur le relevé est pertinent, mais risque d'être interprété comme interdiction de recherche. Recommander un pictogramme 'ligne absente' (ex. relevé sans ligne) plus explicite.",
+        "L'écran avec 'tableau simplifié rendement brut vs net' sans chiffres peut prêter à confusion visuelle sur un petit écran : proposer d'utiliser des courbes simplifiées ou barres relative avec pourcentages ou annotations minimales."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (invisibilité des frais), mais sacrifie l'exemple chiffré concret qui aiderait la compréhension. La densité est bonne, mais ajouter une micro-illustration numérique renforcerait l'impact sans alourdir la durée.",
+        "La règle centrale est présente, la 'condition' (frais du contrat s'ajoutent) est mentionnée, mais l'exception (certains relevés contractuels détaillent d'autres frais) devrait être indiquée brièvement."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste, mais le terme 'valeur liquidative' pourrait bénéficier d'une très courte définition orale ('valeur liquidative = prix de la part') pour éviter perte d'audience non-initiée.",
+        "L'appel à consulter le DICI est utile, mais beaucoup de spectateurs ne sauront pas où trouver ce document : indiquer brièvement 'sur le site de la société de gestion ou dans l'espace client' serait une aide pratique."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (gros plan sur personne qui consulte un relevé) sont efficaces ; toutefois l'écran 2 avec deux cases OUI/NON peut ralentir le rythme si l'animation dure trop longtemps. Recommander une durée courte (0,8–1,2 s) pour cet écran.",
+        "La progression est logique mais la réitération de l'idée 'ils n'apparaissent pas' risque d'être perçue comme redondante : conserver une formule courte pour la réponse et avancer rapidement vers l'impact pour maintenir l'attention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA 'Prenez rendez‑vous via le lien dans ma bio' est acceptable, mais pour ne pas paraître commercial agressif il faut ajouter la mention obligatoire déjà présente en bas (contenu pédagogique, pas un conseil personnalisé), ou reformuler 'si vous voulez un diagnostic personnalisé, prenez rendez-vous...'.",
+        "Veiller à ne pas laisser entendre une promesse de performance ou d'économie garantie en cas de rendez-vous — la mention légale fournie en bas est correcte mais pourrait être intégrée directement au CTA en une phrase plus courte."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence interne sur l'appellation du document d'information clé : la fiche SOURCE indique 'document d'informations clés (DIC)' alors que le script et d'autres éléments utilisent 'DICI'. Il faut homogénéiser : l'acronyme usuel en français est 'DICI' (Document d'Information Clé pour l'Investisseur).",
+    "source : La valeur chiffrée 'Effet d'un écart de frais de 1,5 % par an sur trente ans — plus d'un tiers du capital final' est marquée 'a_verifier' dans la fiche. Le script la présente sous forme d'ordre de grandeur sans recalcul chiffré, mais l'élément numérique doit être recalculé et sourcé ou présenté clairement comme un ordre de grandeur hypothétique.",
+    "juridique_fiscal : La mention selon laquelle 'les frais ne figurent sur aucune ligne de relevé' est généralement vraie pour les frais de gestion inscrits dans la valeur liquidative, mais il convient d'ajouter la nuance que certains relevés contractuels (ex. relevé de compte de gestion d'un contrat d'assurance-vie) peuvent détailler des frais prélevés par le distributeur ou le contrat (frais d'arbitrage, frais de gestion du contrat) : l'absence totale de lignes pour 'les frais de gestion du fonds' est correcte, mais la formulation actuelle peut être lue comme une absence totale de tout frais sur tous les relevés.",
+    "juridique_fiscal : Référence légale citée (Code monétaire et financier L214-1 et suivants) est pertinente, mais le script ne signale pas les obligations d'information précontractuelle et périodique (ex. DICI/kiid obligatoire) : utile d'ajouter qu'il s'agit du document qui doit obligatoirement porter les frais.",
+    "completude : Le script reste centré sur une idée clé, mais omet de préciser comment additionner concrètement les frais (ex. donner l'intitulé exact à rechercher dans le DICI : 'frais totaux ¹' ou 'ongoing charges' / 'frais de gestion annuels'), ce qui prive l'utilisateur d'une action précise.",
+    "completude : L'exemple chiffré est évoqué uniquement comme 'ordre de grandeur' sans hypothèse de rendement : pour être complet et utile, proposer une hypothèse simple (ex. rendement brut annuel 5 %) et montrer l'impact chiffré renforcerait la pédagogie.",
+    "plateforme : Durée estimée 38 s : le script semble respecter une vidéo courte, mais la narration continue fournie peut dépasser légèrement le timing si la diction n'est très rapide. Il faut vérifier le tempo (mots par minute) et éventuellement raccourcir une phrase (ex. la phrase sur l'effet de 1,5 %/an) pour garantir 38 s maximum.",
+    "plateforme : Le format des visuels est adapté aux Reels, mais le tableau de comparaison 'rendement brut vs net sur 30 ans' sans chiffres risque d'être peu lisible sur mobile : prévoir une version simplifiée ou une animation claire pour l'écran vertical.",
+    "editorial : La première phrase d'accroche est forte, mais la question à l'écran 'Votre relevé montre‑t‑il les frais... [ OUI ] [ NON ]' suggère une interaction qui n'est pas exploitable dans un Reels (pas de bouton cliquable). Recommander d'animer les cases pour inciter au choix visuel, ou reformuler pour éviter confusion.",
+    "editorial : Formulation 'Ordre de grandeur : 1,5 %/an réduit notablement le capital sur 30 ans' est vague : pour la mémorisation, un rappel chiffré simplifié (ex. 'peut représenter plus de 30 % du capital final selon l'hypothèse') serait plus percutant si sourcé.",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour la fluidité orale : ex. la phrase 'Ordre de grandeur : un écart de 1,5 % par an réduit notablement le capital accumulé sur trente ans selon l'hypothèse de rendement brut retenue.' est lourde à prononcer. Proposer une version plus directe : 'À titre d'ordre de grandeur, 1,5 % de frais annuels grèvent beaucoup votre capital sur 30 ans.'",
+    "formulation_professionnelle : Veiller à l'accord et à l'usage du sigle DICI vs DIC (voir observation source).",
+    "contre_verification_finale : Incohérences détectées phrase par phrase : l'écran 5 indique 'DICI' alors que la fiche SOURCE mentionne 'DIC' — à uniformiser. Le libellé 'fiche tarifaire du contrat qui l'héberge' est correct mais il faudrait préciser comment la trouver (nom exact du document 'fiche tarifaire' ou 'document d'information contractuelle').",
+    "contre_verification_finale : La narration continue répète plusieurs fois la même information sans apporter d'exemple chiffré actionnable ; pour une seconde lecture indépendante, signaler que l'exemple chiffré absente empêche la validation de l'ordre de grandeur présent dans la fiche.",
+    "coherence_pictogrammes : Le pictogramme 'loupe barrée' pour indiquer l'absence de frais sur le relevé est pertinent, mais risque d'être interprété comme interdiction de recherche. Recommander un pictogramme 'ligne absente' (ex. relevé sans ligne) plus explicite.",
+    "coherence_pictogrammes : L'écran avec 'tableau simplifié rendement brut vs net' sans chiffres peut prêter à confusion visuelle sur un petit écran : proposer d'utiliser des courbes simplifiées ou barres relative avec pourcentages ou annotations minimales.",
+    "densite_editoriale : La vidéo traite bien un seul angle (invisibilité des frais), mais sacrifie l'exemple chiffré concret qui aiderait la compréhension. La densité est bonne, mais ajouter une micro-illustration numérique renforcerait l'impact sans alourdir la durée.",
+    "densite_editoriale : La règle centrale est présente, la 'condition' (frais du contrat s'ajoutent) est mentionnée, mais l'exception (certains relevés contractuels détaillent d'autres frais) devrait être indiquée brièvement.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste, mais le terme 'valeur liquidative' pourrait bénéficier d'une très courte définition orale ('valeur liquidative = prix de la part') pour éviter perte d'audience non-initiée.",
+    "pedagogie_client : L'appel à consulter le DICI est utile, mais beaucoup de spectateurs ne sauront pas où trouver ce document : indiquer brièvement 'sur le site de la société de gestion ou dans l'espace client' serait une aide pratique.",
+    "retention_attention : Les deux premières secondes (gros plan sur personne qui consulte un relevé) sont efficaces ; toutefois l'écran 2 avec deux cases OUI/NON peut ralentir le rythme si l'animation dure trop longtemps. Recommander une durée courte (0,8–1,2 s) pour cet écran.",
+    "retention_attention : La progression est logique mais la réitération de l'idée 'ils n'apparaissent pas' risque d'être perçue comme redondante : conserver une formule courte pour la réponse et avancer rapidement vers l'impact pour maintenir l'attention.",
+    "conversion_confiance : Le CTA 'Prenez rendez‑vous via le lien dans ma bio' est acceptable, mais pour ne pas paraître commercial agressif il faut ajouter la mention obligatoire déjà présente en bas (contenu pédagogique, pas un conseil personnalisé), ou reformuler 'si vous voulez un diagnostic personnalisé, prenez rendez-vous...'.",
+    "conversion_confiance : Veiller à ne pas laisser entendre une promesse de performance ou d'économie garantie en cas de rendez-vous — la mention légale fournie en bas est correcte mais pourrait être intégrée directement au CTA en une phrase plus courte."
+  ],
+  "recommendations": [
+    "Harmoniser l'appellation du document d'information : utiliser 'DICI' (Document d'Information Clé pour l'Investisseur) partout et corriger la fiche source qui indique 'DIC'.",
+    "Recalculer et sourcer explicitement l'exemple chiffré '1,5 %/an sur 30 ans' ou reformuler strictement en 'ordre de grandeur' sans pourcentage chiffré pour éviter affirmation non étayée. Si maintien d'un chiffre, fournir hypothèse de rendement brut (ex. 5 %/an) et illustrer l'impact chiffré.",
+    "Ajouter une micro-définition orale de 'valeur liquidative' (ex. 'la valeur d'une part') et indiquer où trouver le DICI (site de la société de gestion, espace client, demande au distributeur).",
+    "Rendre l'exemple actionnable : préciser le libellé exact à chercher dans le DICI (ex. 'frais courants/ongoing charges') et indiquer qu'il faut additionner les frais du fonds et du contrat pour obtenir le coût total.",
+    "Adapter visuels pour mobile : remplacer le 'tableau sans chiffres' par une animation simple (2 courbes ou barres) ou un mini-calcul visuel ; remplacer la loupe barrée par un pictogramme 'relevé sans ligne de frais de gestion'.",
+    "Raccourcir/réécrire la phrase sur l'impact de 1,5 % pour faciliter la diction et tenir la durée cible (38 s). Exemple proposé : 'À titre d'ordre de grandeur, 1,5 % de frais annuels peut ronger une partie importante de votre capital sur 30 ans.'",
+    "Clarifier la nuance juridique‑fiscale : préciser que certains frais (frais du contrat, arbitrages, distribution) peuvent apparaître sur le relevé et s'ajoutent aux frais du fonds qui, eux, sont intégrés dans la VL.",
+    "Amender le CTA pour intégrer la mention de non‑conseil en une courte phrase proche du CTA (ex. 'Pour un diagnostic personnalisé, prenez rendez‑vous — contenu pédagogique, pas un conseil personnalisé')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-06:reels:fonds_investissement_frais:0",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__reels__a5__v7.md"
+}

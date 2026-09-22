@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "f9e6f866f4cc6587d9902015f8f6a58357ff292b27742a9de6f0cb9f345a8e1d",
+      "adapted_hash": "f9e6f866f4cc6587d9902015f8f6a58357ff292b27742a9de6f0cb9f345a8e1d",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Préciser vocalement, si le timing le permet, que l'assurance emprunteur est incluse dans le calcul des 35 % (le script l'indique mais l'insistance vocale renforce la compréhension).",
+    "Éviter d'affirmer le chiffre « ~20 % » comme une donnée rigide si l'équipe souhaite rester ultra-prudente : conserver la formulation « une partie de la production » ou ajouter « environ 20 % (donnée variable selon les banques) ».",
+    "S'assurer que la mention légale finale reste visible en écran pour respecter l'interdiction de conseil personnalisé (le script la contient, vérifier placement dans la vidéo)."
+  ],
+  "reviewed_at": "2026-08-17T16:16:03",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-29:tiktok:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__tiktok__a1__v3.md"
+}

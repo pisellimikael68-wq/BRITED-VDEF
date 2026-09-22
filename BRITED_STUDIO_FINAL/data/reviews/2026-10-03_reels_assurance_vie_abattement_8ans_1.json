@@ -1,0 +1,190 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.12,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reprend correctement les chiffres (4 600 € / 9 200 €) et les taux (7,5 % et 17,2 %) mais la phrase « Au-delà, le taux peut être 7,5 % » est trop vague : elle n'explique pas que ce taux s'applique aux gains imposables après abattement et que la condition des primes (primes par assuré jusqu'à 150 000 €) mérite d'être rappelée précisément.",
+        "La mention de l'article et du BOFiP est présente dans la fiche source mais absente du texte lu : prévoir au moins une mention « sources légales » dans la légende finale ou description."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Le script dit que « Au-delà, le taux peut être 7,5 % pour les encours modérés » : formulation inexacte / imprécise juridiquement. Le taux de 7,5 % s'applique sur la part imposable (après abattement) sous conditions liées au montant des primes (150 000 € par assuré) et selon la date des versements. Il faut préciser que ce régime concerne l'imposition des gains selon l'ancienneté et le montant cumulé des primes pour l'assuré.",
+        "Absence d'indication que l'abattement est annuel et s'applique par année civile (la fiche le précise mais le script n'insiste pas suffisamment sur la notion d'année civile)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple pratique (couple 18 000 €) est pertinent mais il manque la précision chiffrée finale : indiquer clairement que cela rend la moitié exonérée d'impôt sur le revenu (hors prélèvements sociaux) et calculer brièvement l'impôt éventuel sur la tranche restante si pertinent.",
+        "Ne mentionne pas explicitement que les prélèvements sociaux s'appliquent sur la totalité des gains même si abattement utilisé."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Le format Reels et la durée estimée (38s) sont respectés, la progression est bonne. Cependant, le deuxième beat « Peut-on utiliser chaque année un abattement de 4 600 euros ? OUI / NON » occupe du temps pour une réponse immédiate ; il faut s'assurer que l'alternance visuelle OUI/NON soit assez brève pour tenir dans 38s.",
+        "Le CTA renvoie au lien en bio : ok, mais la légende indique aussi sources ; prévoir que la description du post inclue les sources et la mention légale."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace. Quelques formulations peuvent être améliorées pour la fluidité orale (par ex. 'Il s'applique uniquement à la part de gains du rachat, après huit ans.' → 'Il ne concerne que la part de gains incluse dans votre rachat, et s'applique une fois l'assurance âgée de 8 ans.').",
+        "Le mot 'encours modérés' est vague et devrait être remplacé par 'primes par assuré jusqu'à 150 000 €' pour plus de clarté."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques phrases méritent une reformulation pour un français parlé plus naturel et plus direct (voir suggestions ci-dessus).",
+        "La mention 'Au-delà, le taux peut être 7,5 %' est maladroite et peut induire en erreur ; reformuler en précisant le champ d'application."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "La cohérence globale est bonne mais il manque une phrase rapide sur la portée exacte de l'abattement (année civile) et sur la règle des prélèvements sociaux qui restent dus sur la totalité des gains.",
+        "Vérifier la prononciation et l'énonciation chiffrée pour éviter toute hésitation sur 4 600 / 9 200 / 7,5 / 17,2."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents mais 'pictogramme sac gains' peut prêter à interprétation : préférer une icône 'pièce + flèche retrait' pour illustrer la part gains → rachat.",
+        "Pour le point sur les prélèvements sociaux, utiliser un pictogramme clair (ex. barre % + silhouette État) plutôt qu'un triangle générique d'avertissement."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et reste concise. Petite surcharge possible si on ajoute toutes les précisions légales dans 38s : il faudra simplifier les formulations pour garder la durée cible."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est pédagogique pour un non-spécialiste mais omet d'expliciter que l'abattement s'applique par année civile dès le début (la notion ressort de l'exemple mais mérite d'être explicitée plus tôt).",
+        "Il faut expliciter que l'abattement porte uniquement sur la part gains du retrait (la phrase existe mais peut être plus simple)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort. Le segment question OUI/NON est bon pour l'attention mais risque d'alourdir si visuel trop long. Recommander une livraison très concise des beats 2→3 pour maintenir under 38s.",
+        "Le CTA final est classique et adapté."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et sources mentionnées dans la fiche légende : bon. Il manque cependant une phrase brève rappelant que c'est une information générale et non un conseil personnalisé (la mention légale existe dans la fiche mais devrait figurer explicitement dans la légende du post)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script reprend correctement les chiffres (4 600 € / 9 200 €) et les taux (7,5 % et 17,2 %) mais la phrase « Au-delà, le taux peut être 7,5 % » est trop vague : elle n'explique pas que ce taux s'applique aux gains imposables après abattement et que la condition des primes (primes par assuré jusqu'à 150 000 €) mérite d'être rappelée précisément.",
+    "source : La mention de l'article et du BOFiP est présente dans la fiche source mais absente du texte lu : prévoir au moins une mention « sources légales » dans la légende finale ou description.",
+    "juridique_fiscal : Le script dit que « Au-delà, le taux peut être 7,5 % pour les encours modérés » : formulation inexacte / imprécise juridiquement. Le taux de 7,5 % s'applique sur la part imposable (après abattement) sous conditions liées au montant des primes (150 000 € par assuré) et selon la date des versements. Il faut préciser que ce régime concerne l'imposition des gains selon l'ancienneté et le montant cumulé des primes pour l'assuré.",
+    "juridique_fiscal : Absence d'indication que l'abattement est annuel et s'applique par année civile (la fiche le précise mais le script n'insiste pas suffisamment sur la notion d'année civile).",
+    "completude : L'exemple pratique (couple 18 000 €) est pertinent mais il manque la précision chiffrée finale : indiquer clairement que cela rend la moitié exonérée d'impôt sur le revenu (hors prélèvements sociaux) et calculer brièvement l'impôt éventuel sur la tranche restante si pertinent.",
+    "completude : Ne mentionne pas explicitement que les prélèvements sociaux s'appliquent sur la totalité des gains même si abattement utilisé.",
+    "plateforme : Le format Reels et la durée estimée (38s) sont respectés, la progression est bonne. Cependant, le deuxième beat « Peut-on utiliser chaque année un abattement de 4 600 euros ? OUI / NON » occupe du temps pour une réponse immédiate ; il faut s'assurer que l'alternance visuelle OUI/NON soit assez brève pour tenir dans 38s.",
+    "plateforme : Le CTA renvoie au lien en bio : ok, mais la légende indique aussi sources ; prévoir que la description du post inclue les sources et la mention légale.",
+    "editorial : Accroche efficace. Quelques formulations peuvent être améliorées pour la fluidité orale (par ex. 'Il s'applique uniquement à la part de gains du rachat, après huit ans.' → 'Il ne concerne que la part de gains incluse dans votre rachat, et s'applique une fois l'assurance âgée de 8 ans.').",
+    "editorial : Le mot 'encours modérés' est vague et devrait être remplacé par 'primes par assuré jusqu'à 150 000 €' pour plus de clarté.",
+    "formulation_professionnelle : Quelques phrases méritent une reformulation pour un français parlé plus naturel et plus direct (voir suggestions ci-dessus).",
+    "formulation_professionnelle : La mention 'Au-delà, le taux peut être 7,5 %' est maladroite et peut induire en erreur ; reformuler en précisant le champ d'application.",
+    "contre_verification_finale : La cohérence globale est bonne mais il manque une phrase rapide sur la portée exacte de l'abattement (année civile) et sur la règle des prélèvements sociaux qui restent dus sur la totalité des gains.",
+    "contre_verification_finale : Vérifier la prononciation et l'énonciation chiffrée pour éviter toute hésitation sur 4 600 / 9 200 / 7,5 / 17,2.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents mais 'pictogramme sac gains' peut prêter à interprétation : préférer une icône 'pièce + flèche retrait' pour illustrer la part gains → rachat.",
+    "coherence_pictogrammes : Pour le point sur les prélèvements sociaux, utiliser un pictogramme clair (ex. barre % + silhouette État) plutôt qu'un triangle générique d'avertissement.",
+    "densite_editoriale : La vidéo traite bien un seul angle et reste concise. Petite surcharge possible si on ajoute toutes les précisions légales dans 38s : il faudra simplifier les formulations pour garder la durée cible.",
+    "pedagogie_client : Le script est pédagogique pour un non-spécialiste mais omet d'expliciter que l'abattement s'applique par année civile dès le début (la notion ressort de l'exemple mais mérite d'être explicitée plus tôt).",
+    "pedagogie_client : Il faut expliciter que l'abattement porte uniquement sur la part gains du retrait (la phrase existe mais peut être plus simple).",
+    "retention_attention : Hook fort. Le segment question OUI/NON est bon pour l'attention mais risque d'alourdir si visuel trop long. Recommander une livraison très concise des beats 2→3 pour maintenir under 38s.",
+    "retention_attention : Le CTA final est classique et adapté.",
+    "conversion_confiance : Ton professionnel et sources mentionnées dans la fiche légende : bon. Il manque cependant une phrase brève rappelant que c'est une information générale et non un conseil personnalisé (la mention légale existe dans la fiche mais devrait figurer explicitement dans la légende du post)."
+  ],
+  "recommendations": [
+    "Clarifier la phrase sur le taux de 7,5 % : remplacer « Au-delà, le taux peut être 7,5 % » par « Après l'abattement, les gains restants sont imposés au taux de 7,5 % lorsque les primes versées par assuré n'excèdent pas 150 000 € (conditions précisées par la doctrine) » ; garder la formulation courte pour la vidéo et détailler la condition dans la légende.",
+    "Ajouter explicitement, dans la narration, la notion d'« année civile » lors de l'explication de l'abattement (ex. « L'abattement de 4 600 € est annuel et s'applique par année civile »).",
+    "Préciser dans l'exemple le résultat fiscal chiffré : pour le couple 18 000 € de gains, dire qu'avec 9 200 € exonérés puis 8 800 € l'année suivante, la première tranche est exonérée d'impôt sur le revenu (hors prélèvements sociaux) et que les prélèvements sociaux de 17,2 % restent dus sur la totalité des gains.",
+    "Reformuler légèrement pour fluidité orale : proposer des versions alternatives courtes pour les phrases identifiées (ex. « Il ne concerne que la part de gains de votre rachat, et s'applique une fois le contrat âgé d'au moins huit ans. »).",
+    "Adapter pictogrammes : remplacer « sac gains » par une icône gains → rachat (pièces + flèche), et pour prélèvements sociaux utiliser un pictogramme % + symbole État plutôt qu'un triangle d'avertissement.",
+    "Inclure dans la légende du post (et verbalement très brièvement si le temps le permet) la mention : « Contenu pédagogique – pas un conseil personnalisé », ainsi que les deux sources légales (Legifrance + BOFiP).",
+    "Contrôler le timing lors du tournage : raccourcir le beat 2 (OUI/NON) pour garantir la durée totale ≈ 38s tout en gardant clarté.",
+    "Vérifier la prononciation et l'intonation des chiffres 4 600 / 9 200 / 7,5 / 17,2 et répéter la lecture du script une fois modifié pour s'assurer d'une énonciation nette."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-03:reels:assurance_vie_abattement_8ans:1",
+  "script_path": "scripts/assurance_vie/assurance_vie_abattement_8ans__reels__a2__v7.md"
+}

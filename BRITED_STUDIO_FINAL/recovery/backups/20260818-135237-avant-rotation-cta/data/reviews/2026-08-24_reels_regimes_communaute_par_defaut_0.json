@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+      "adapted_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Éventuellement préciser rapidement (dans une card texte ou légende) la référence à l'article 223 lors du beat sur la libre disposition des revenus pour renforcer l'ancrage légal sans alourdir la voix-off.",
+    "Sur la slide d'exemple, ajouter un bref rappel sur la question de la 'récompense' en cas de mélange d'héritage (ex. « risque de récompense ») pour mieux préparer le public à conserver justificatifs.",
+    "Vérifier que la légende et la mention « Contenu pédagogique général » restent visibles dans le format final pour bien marquer la limite du conseil personnalisé."
+  ],
+  "reviewed_at": "2026-08-17T22:28:20",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v13.md"
+}

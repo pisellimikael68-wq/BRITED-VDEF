@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est respectée dans l'essentiel (définition, différence apport vs compte courant, risque successoral, convention de blocage, limites fiscales).",
+        "Manque une mention explicite dans le script que le compte courant figure 'à l'actif de la succession' avec référence légale immédiate (article CGI 773, 2°) affichée à l'écran lorsque cette affirmation est faite — la fiche donne la source mais le script n'affiche pas la référence exacte au moment clé."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'énoncé principal est juridiquement exact mais trop synthétique : l'affirmation « sera taxé » pourrait être interprétée comme une imputation automatique sans préciser que la créance entre dans l'actif successoral et que l'imposition dépend du régime et des abattements applicables aux droits de succession.",
+        "Il conviendrait d'ajouter une phrase très brève rappelant que l'entrée dans l'actif expose la succession aux droits et que la réalité du montant imposable dépend des règles successorales et des éventuelles déductions/compensations."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition (blocage/trésorerie) et un exemple chiffré. Toutefois il omet de préciser que la banque exige 'généralement' la convention de blocage (le mot 'pratiquement toujours' dans la fiche) — le script dit seulement 'peut empêcher le remboursement', ce qui atténue l'information importante.",
+        "Il manque une courte mention que les intérêts sont déductibles sous conditions (référence CGI art. 39, 1, 3°) plutôt que 'suivent les limites', pour éviter une lecture trop vague."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s indiquée dans la fiche : le script lu à voix naturelle peut dépasser 38 s si on respecte pauses et temps pour les visuels. Risque de surtiming.",
+        "La séquence 'Que devient cette avance à votre décès ? (OUI / NON)' est visuelle mais le concept 'OUI / NON' risque d'être confus pour le spectateur en reels (interactivité non native). Il faudrait remplacer par une affirmation pause ou un split-screen clair plutôt que 'OUI / NON'."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la parenthèse '(OUI / NON)' affaiblit la clarté et la fluidité de la deuxième phrase.",
+        "Le CTA est correct mais pourrait être formulé de façon moins générique (ex. 'Prenez rendez-vous via le lien dans la bio pour un point personnalisé') pour améliorer conversion sans surpromesse."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et adapté, mais une phrase (« seront taxés ») gagnerait à être reformulée en précision plus précise (« entreront dans l'actif successoral et seront susceptibles d'être soumis aux droits de succession ») pour éviter une phrase catégorique.",
+        "La répétition 'C'est une créance inscrite à l'actif de la succession.' puis immédiatement 'L'avance ... reste une dette remboursable' est correcte mais pourrait être resserrée pour l'oral afin de tenir dans la durée annoncée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, la cohérence question-réponse tient mais il manque l'affichage d'une source légale au moment où la règle clé est prononcée (article 773, 2°).",
+        "La séquence des pictogrammes doit être réconciliée avec le texte (voir agent 'coherence_pictogrammes')."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont génériques ('personne + maison', 'document + balance', 'euro + héritiers') — la règle exige que chaque visuel illustre précisément la notion prononcée. Par exemple :\n - Pour 'créance inscrite à l'actif de la succession', le pictogramme devrait montrer clairement une feuille 'actif successoral' ou une urne/héritiers avec un montant, pas un simple document.\n - Pour 'convention de blocage', le pictogramme 'cadenas' est approprié mais il faut éviter un cadenas générique ; préférer un pictogramme banque + cadenas.\n - 'OUI / NON' visuel est problématique sur Reels et peut semer la confusion."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais la durée annoncée laisse peu de marge pour introduire la nuance fiscale et la convention de blocage. Il faut resserrer une phrase ou réduire l'exemple chiffré si l'on veut rester à 38 s.",
+        "L'exemple chiffré est utile mais occupe du temps d'antenne : envisager d'abréger la formulation ('Ex. : 50 000 € entreront dans l'actif et pourront être soumis aux droits de succession')."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement accessible, mais termes comme 'réduction de capital' ou 'actif de la succession' mériteraient un very bref remplacement par un mot simple ou un micro-titrage explicatif pour un public non spécialiste.",
+        "La mention 'intérêts suivent les limites du code général des impôts' reste trop vague pour un non-spécialiste : indiquer « intérêts déductibles sous conditions (art. 39 CGI) » serait plus pédagogique."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial fort, mais le '(OUI / NON)' est risqué pour la rétention : les deux premières secondes doivent déclencher curiosité sans demander une interaction non disponible sur Reels.",
+        "La progression est bonne, mais la vidéo risque de perdre des spectateurs si la phrase d'exemple chiffré n'est pas très concise."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire plutôt confiance et le CTA est approprié, mais l'absence d'une micro-mention des sources à l'écran (au moins 'Code civil / CGI') réduit légèrement l'autorité perçue.",
+        "Il faudrait éviter toute impression commerciale trop appuyée ; le CTA actuel est acceptable mais gagnerait à être moins générique (voir 'editorial')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est respectée dans l'essentiel (définition, différence apport vs compte courant, risque successoral, convention de blocage, limites fiscales).",
+    "source : Manque une mention explicite dans le script que le compte courant figure 'à l'actif de la succession' avec référence légale immédiate (article CGI 773, 2°) affichée à l'écran lorsque cette affirmation est faite — la fiche donne la source mais le script n'affiche pas la référence exacte au moment clé.",
+    "juridique_fiscal : L'énoncé principal est juridiquement exact mais trop synthétique : l'affirmation « sera taxé » pourrait être interprétée comme une imputation automatique sans préciser que la créance entre dans l'actif successoral et que l'imposition dépend du régime et des abattements applicables aux droits de succession.",
+    "juridique_fiscal : Il conviendrait d'ajouter une phrase très brève rappelant que l'entrée dans l'actif expose la succession aux droits et que la réalité du montant imposable dépend des règles successorales et des éventuelles déductions/compensations.",
+    "completude : Le script couvre règle centrale, condition (blocage/trésorerie) et un exemple chiffré. Toutefois il omet de préciser que la banque exige 'généralement' la convention de blocage (le mot 'pratiquement toujours' dans la fiche) — le script dit seulement 'peut empêcher le remboursement', ce qui atténue l'information importante.",
+    "completude : Il manque une courte mention que les intérêts sont déductibles sous conditions (référence CGI art. 39, 1, 3°) plutôt que 'suivent les limites', pour éviter une lecture trop vague.",
+    "plateforme : Durée estimée 38 s indiquée dans la fiche : le script lu à voix naturelle peut dépasser 38 s si on respecte pauses et temps pour les visuels. Risque de surtiming.",
+    "plateforme : La séquence 'Que devient cette avance à votre décès ? (OUI / NON)' est visuelle mais le concept 'OUI / NON' risque d'être confus pour le spectateur en reels (interactivité non native). Il faudrait remplacer par une affirmation pause ou un split-screen clair plutôt que 'OUI / NON'.",
+    "editorial : Accroche efficace mais la parenthèse '(OUI / NON)' affaiblit la clarté et la fluidité de la deuxième phrase.",
+    "editorial : Le CTA est correct mais pourrait être formulé de façon moins générique (ex. 'Prenez rendez-vous via le lien dans la bio pour un point personnalisé') pour améliorer conversion sans surpromesse.",
+    "formulation_professionnelle : Le français est naturel et adapté, mais une phrase (« seront taxés ») gagnerait à être reformulée en précision plus précise (« entreront dans l'actif successoral et seront susceptibles d'être soumis aux droits de succession ») pour éviter une phrase catégorique.",
+    "formulation_professionnelle : La répétition 'C'est une créance inscrite à l'actif de la succession.' puis immédiatement 'L'avance ... reste une dette remboursable' est correcte mais pourrait être resserrée pour l'oral afin de tenir dans la durée annoncée.",
+    "contre_verification_finale : En relecture mot à mot, la cohérence question-réponse tient mais il manque l'affichage d'une source légale au moment où la règle clé est prononcée (article 773, 2°).",
+    "contre_verification_finale : La séquence des pictogrammes doit être réconciliée avec le texte (voir agent 'coherence_pictogrammes').",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont génériques ('personne + maison', 'document + balance', 'euro + héritiers') — la règle exige que chaque visuel illustre précisément la notion prononcée. Par exemple :\n - Pour 'créance inscrite à l'actif de la succession', le pictogramme devrait montrer clairement une feuille 'actif successoral' ou une urne/héritiers avec un montant, pas un simple document.\n - Pour 'convention de blocage', le pictogramme 'cadenas' est approprié mais il faut éviter un cadenas générique ; préférer un pictogramme banque + cadenas.\n - 'OUI / NON' visuel est problématique sur Reels et peut semer la confusion.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais la durée annoncée laisse peu de marge pour introduire la nuance fiscale et la convention de blocage. Il faut resserrer une phrase ou réduire l'exemple chiffré si l'on veut rester à 38 s.",
+    "densite_editoriale : L'exemple chiffré est utile mais occupe du temps d'antenne : envisager d'abréger la formulation ('Ex. : 50 000 € entreront dans l'actif et pourront être soumis aux droits de succession').",
+    "pedagogie_client : Globalement accessible, mais termes comme 'réduction de capital' ou 'actif de la succession' mériteraient un very bref remplacement par un mot simple ou un micro-titrage explicatif pour un public non spécialiste.",
+    "pedagogie_client : La mention 'intérêts suivent les limites du code général des impôts' reste trop vague pour un non-spécialiste : indiquer « intérêts déductibles sous conditions (art. 39 CGI) » serait plus pédagogique.",
+    "retention_attention : Hook initial fort, mais le '(OUI / NON)' est risqué pour la rétention : les deux premières secondes doivent déclencher curiosité sans demander une interaction non disponible sur Reels.",
+    "retention_attention : La progression est bonne, mais la vidéo risque de perdre des spectateurs si la phrase d'exemple chiffré n'est pas très concise.",
+    "conversion_confiance : Le ton inspire plutôt confiance et le CTA est approprié, mais l'absence d'une micro-mention des sources à l'écran (au moins 'Code civil / CGI') réduit légèrement l'autorité perçue.",
+    "conversion_confiance : Il faudrait éviter toute impression commerciale trop appuyée ; le CTA actuel est acceptable mais gagnerait à être moins générique (voir 'editorial')."
+  ],
+  "recommendations": [
+    "Affichez la référence légale clé (CGI art. 773, 2°) au moment où vous dites que la créance entre dans l'actif de la succession ; pareillement, mentionnez brièvement 'art. 39, 1, 3°' quand vous parlez des intérêts déductibles.",
+    "Remplacez visuellement et vocalement '(OUI / NON)' par une formulation plus adaptée au format Reels, par exemple : 'Que devient cette avance à votre décès ? Réponse : elle entre dans l'actif de la succession.' Cela évitera la confusion liée à l'interactivité non native.",
+    "Resserrez la phrase de l'exemple chiffré pour garantir le temps : 'Ex. : 50 000 € entrent dans l'actif successoral et peuvent être soumis aux droits de succession, même si la SCI n'a pas les liquidités pour rembourser.'",
+    "Précisez très brièvement la nuance fiscale : '...et seront susceptibles d'être soumis aux droits de succession selon le régime et les abattements applicables.'",
+    "Ajustez les pictogrammes pour qu'ils illustrent exactement la notion prononcée (par ex. banque+ cadenas pour convention de blocage ; silhouette d'héritiers + montant pour actif successoral).",
+    "Si possible, raccourcissez une phrase (par ex. supprimez une redondance entre 'créance inscrite...' et 'L'avance ... reste une dette remboursable') pour assurer que la lecture reste dans 38 s.",
+    "Affichez brièvement en bas de l'écran 'Sources: Code civil art.1832; CGI art.39 & art.773' lors de la conclusion pour renforcer l'autorité sans alourdir le propos."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-17:reels:sci_compte_courant_associe:0",
+  "script_path": "scripts/sci/sci_compte_courant_associe__reels__a4__v8.md"
+}

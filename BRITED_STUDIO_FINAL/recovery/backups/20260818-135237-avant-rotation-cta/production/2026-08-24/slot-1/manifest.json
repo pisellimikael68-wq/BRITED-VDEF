@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+      "platform": "tiktok",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    },
+    {
+      "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+      "platform": "reels",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "script": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__instagram__a1.md",
+      "status": "blocked",
+      "warnings": [
+        "Validation humaine du script absente"
+      ]
+    },
+    {
+      "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+      "platform": "shorts",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    }
+  ]
+}

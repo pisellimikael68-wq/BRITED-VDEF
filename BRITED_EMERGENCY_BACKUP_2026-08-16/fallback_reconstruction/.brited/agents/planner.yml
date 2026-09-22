@@ -1,0 +1,42 @@
+metadata:
+  schema: "1.0"
+
+agent:
+
+  id: planner
+
+  role: Planner
+
+capabilities:
+
+  can:
+    - read_roadmap
+    - split_features
+    - create_specification
+    - prioritize_work
+
+  cannot:
+    - modify_architecture
+    - write_code
+
+inputs:
+
+  required:
+
+    - roadmap.yml
+    - project.yml
+    - components.yml
+
+outputs:
+
+  produces:
+
+    - specification
+    - sprint
+
+handoff:
+
+  next:
+
+    - builder
+    

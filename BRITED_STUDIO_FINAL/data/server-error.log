@@ -1,0 +1,1262 @@
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 137, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 133, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 123, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 3 (reponse): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/audit_instagram.py", line 43, in <module>
+    print(json.dumps(audit(args.video), ensure_ascii=False))
+                     ~~~~~^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/audit_instagram.py", line 37, in audit
+    raise RuntimeError('barème Instagram inférieur ou égal à 9,5')
+RuntimeError: barème Instagram inférieur ou égal à 9,5
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Python(72364) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 8 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 8 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 40, in <module>
+    p=argparse.ArgumentParser();p.add_argument("spec",type=Path);p.add_argument("timing",type=Path);p.add_argument("video",type=Path);a=p.parse_args();print(json.dumps(verify(a.spec,a.timing,a.video),ensure_ascii=False))
+                                                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 36, in verify
+    if failures: raise RuntimeError("contrôle qualité refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle qualité refusé — question visible seulement 3.23 s au lieu de 4 s
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 40, in <module>
+    p=argparse.ArgumentParser();p.add_argument("spec",type=Path);p.add_argument("timing",type=Path);p.add_argument("video",type=Path);a=p.parse_args();print(json.dumps(verify(a.spec,a.timing,a.video),ensure_ascii=False))
+                                                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 36, in verify
+    if failures: raise RuntimeError("contrôle qualité refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle qualité refusé — question visible seulement 3.81 s au lieu de 4 s
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/audit_instagram.py", line 43, in <module>
+    print(json.dumps(audit(args.video), ensure_ascii=False))
+                     ~~~~~^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/audit_instagram.py", line 37, in audit
+    raise RuntimeError('barème Instagram inférieur ou égal à 9,5')
+RuntimeError: barème Instagram inférieur ou égal à 9,5
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 303, in <module>
+    if __name__=="__main__": main()
+                             ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 300, in main
+    parser=argparse.ArgumentParser();parser.add_argument("spec",type=Path);parser.add_argument("output",type=Path);parser.add_argument("--timing",type=Path,required=True);args=parser.parse_args();render(args.spec,args.output,args.timing)
+                                                                                                                                                                                                    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 251, in render
+    current=answer_page(spec,page,beat,visible)
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 109, in answer_page
+    face=font(face.size-2); lines=wrap_words(draw,answer.split(),face,455)
+                                                  ^^^^^^
+NameError: name 'answer' is not defined
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 303, in <module>
+    if __name__=="__main__": main()
+                             ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 300, in main
+    parser=argparse.ArgumentParser();parser.add_argument("spec",type=Path);parser.add_argument("output",type=Path);parser.add_argument("--timing",type=Path,required=True);args=parser.parse_args();render(args.spec,args.output,args.timing)
+                                                                                                                                                                                                    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 251, in render
+    current=answer_page(spec,page,beat,visible)
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/render_social.py", line 109, in answer_page
+    face=font(face.size-2); lines=wrap_words(draw,answer.split(),face,455)
+                                                  ^^^^^^
+NameError: name 'answer' is not defined
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 8 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 8 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 7 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 8 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Python(32813) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(4784) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(4785) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(8000) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(8142) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 134, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 124, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 5 (regle): texte ou durée invalide; séquence 6 (exemple_1): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+Python(12076) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+pkuseg not available - Chinese segmentation will be skipped
+Python(60036) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Python(60037) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 139, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 129, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 2 (question): texte ou durée invalide; séquence 7 (cta): texte ou durée invalide
+pkuseg not available - Chinese segmentation will be skipped
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 139, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 129, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 1 (hook): texte ou durée invalide; séquence 8 (cta): texte ou durée invalide
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 143, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 139, in main
+    print(json.dumps(verify(args.spec, args.timing, args.video), ensure_ascii=False))
+                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py", line 129, in verify
+    raise RuntimeError("contrôle des mots refusé — " + "; ".join(failures))
+RuntimeError: contrôle des mots refusé — séquence 4 (regle_1): texte ou durée invalide; séquence 10 (cta): texte ou durée invalide
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 173, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 151, in main
+    server = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur question (similarité 50%)
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur question (similarité 50%)
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur question (similarité 50%)
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur regle (similarité 93%); diction non conforme sur nuance (similarité 96%)
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur regle (similarité 93%); diction non conforme sur nuance (similarité 96%)
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur regle (similarité 93%); diction non conforme sur nuance (similarité 96%)
+pkuseg not available - Chinese segmentation will be skipped
+Échec du rendu vidéo : [mp4 @ 0x13b904900] Unable to re-open /Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/regimes_pacs_concubinage__shorts.rendering.mp4 output file for shifting data
+[out#0/mp4 @ 0x6000038a00c0] Error writing trailer: No such file or directory
+
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 152, in <module>
+    p=argparse.ArgumentParser();p.add_argument("spec",type=Path);p.add_argument("timing",type=Path);p.add_argument("video",type=Path);a=p.parse_args();print(json.dumps(verify(a.spec,a.timing,a.video),ensure_ascii=False))
+                                                                                                                                                                        ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py", line 148, in verify
+    if failures: raise RuntimeError("contrôle qualité refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle qualité refusé — fluidité orale : page 3 (regle) : débit 189.4 mots/min hors corridor naturel autour de 164.0
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60730)
+Exception occurred during processing of request from ('127.0.0.1', 60732)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60734)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 60733)
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 59, in do_GET
+    def do_GET(self) -> None:  # noqa: N802
+                                        ^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 51, in send_json
+    self.send_response(code); self.send_header("Content-Type", "application/json; charset=utf-8")
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 59, in do_GET
+    def do_GET(self) -> None:  # noqa: N802
+                                        ^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 51, in send_json
+    self.send_response(code); self.send_header("Content-Type", "application/json; charset=utf-8")
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 59, in do_GET
+    def do_GET(self) -> None:  # noqa: N802
+                                        ^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 51, in send_json
+    self.send_response(code); self.send_header("Content-Type", "application/json; charset=utf-8")
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+----------------------------------------
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 59, in do_GET
+    def do_GET(self) -> None:  # noqa: N802
+                                        ^^^
+----------------------------------------
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 51, in send_json
+    self.send_response(code); self.send_header("Content-Type", "application/json; charset=utf-8")
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+pkuseg not available - Chinese segmentation will be skipped
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 168, in <module>
+    args=parser.parse_args(); print(json.dumps(verify(args.spec,args.timing),ensure_ascii=False))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_voice_content.py", line 162, in verify
+    if failures: raise RuntimeError("contrôle oral refusé — "+"; ".join(failures))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: contrôle oral refusé — diction non conforme sur regle_exemple (similarité 91%)
+pkuseg not available - Chinese segmentation will be skipped
+Échec du rendu vidéo : [mp4 @ 0x151004cc0] Unable to re-open /Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-1/shorts/assurance_vie_abattement_8ans__shorts.rendering.mp4 output file for shifting data
+[out#0/mp4 @ 0x600000e94000] Error writing trailer: No such file or directory
+
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61942)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61944)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61945)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61946)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61947)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61951)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61953)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61955)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61956)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61957)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 61960)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                                        ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 630, in state
+    "calendar": calendar_for_ui, "scripts": self.scripts_index(),
+                ^^^^^^^^^^^^^^^
+NameError: name 'calendar_for_ui' is not defined
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62141)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62145)
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62140)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 53, in send_json
+    self.end_headers(); self.wfile.write(body)
+                        ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+Traceback (most recent call last):
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 53, in send_json
+    self.end_headers(); self.wfile.write(body)
+                        ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+----------------------------------------
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 53, in send_json
+    self.end_headers(); self.wfile.write(body)
+                        ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+----------------------------------------
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62139)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 53, in send_json
+    self.end_headers(); self.wfile.write(body)
+                        ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 62143)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 61, in do_GET
+    if path == "/api/state": return self.send_json(200, STORE.state())
+                                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 53, in send_json
+    self.end_headers(); self.wfile.write(body)
+                        ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 64990)
+Traceback (most recent call last):
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 511, in final_scripts
+    date.fromisoformat(day)
+    ~~~~~~~~~~~~~~~~~~^^^^^
+ValueError: Invalid isoformat string: 'not-a-date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/server.py", line 71, in do_GET
+    return self.send_json(200, STORE.final_scripts(day))
+                               ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/store.py", line 513, in final_scripts
+    raise ValueError("Date invalide") from error
+ValueError: Date invalide
+----------------------------------------
+Exception in thread brited-script-batch-resume:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/script_batch.py", line 119, in _run
+    item["status"] = "running"; self._summary(state); self.save(state)
+                                                      ~~~~~~~~~^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/script_batch.py", line 42, in save
+    temporary.replace(self.path)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 1091, in replace
+    os.replace(self, target)
+    ~~~~~~~~~~^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/mikael_piselli/BRITED_STUDIO_FINAL/data/script_batch.json.tmp' -> '/Users/mikael_piselli/BRITED_STUDIO_FINAL/data/script_batch.json'
+Exception in thread brited-script-batch:
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py", line 1082, in _bootstrap_inner
+    self._context.run(self.run)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/threading.py", line 1024, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/script_batch.py", line 134, in _run
+    self._summary(state); self.save(state)
+                          ~~~~~~~~~^^^^^^^
+  File "/Users/mikael_piselli/BRITED_STUDIO_FINAL/leveria/script_batch.py", line 41, in save
+    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 809, in write_text
+    with self.open(mode='w', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device: '/Users/mikael_piselli/BRITED_STUDIO_FINAL/data/script_batch.json.tmp'

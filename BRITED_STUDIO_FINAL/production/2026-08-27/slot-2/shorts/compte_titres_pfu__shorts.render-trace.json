@@ -1,0 +1,331 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "00c80e1f9d042169d65beeb8bd9110fcb818638b9e739fb2d383de64e0f6518c"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "PFU à 31,4 % : toujours le meilleur choix pour votre compte-titres ?",
+      "tokens": [
+        "PFU",
+        "à",
+        "31,4",
+        "%",
+        ":",
+        "toujours",
+        "le",
+        "meilleur",
+        "choix",
+        "pour",
+        "votre",
+        "compte-titres",
+        "?"
+      ],
+      "token_count": 13,
+      "speech_duration": 6.957,
+      "full_text_visible_at": 6.261,
+      "hold_after_full_text": 1.596,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "badge-percent",
+          "receipt-euro",
+          "landmark"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Cela dépend · Taux marginal d'imposition · Nature des revenus",
+      "tokens": [
+        "Cela",
+        "dépend",
+        "·",
+        "Taux",
+        "marginal",
+        "d'imposition",
+        "·",
+        "Nature",
+        "des",
+        "revenus"
+      ],
+      "token_count": 10,
+      "speech_duration": 5.237,
+      "duration": 5.457,
+      "full_text_visible_at": 4.713,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "verdict": "adaptatif",
+        "font_size": 25,
+        "answer_design": "adaptive_sections_v2",
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "En 2026 : PFU 31,4 % = 12,8 % d'impôt sur le revenu + 18,6 % de prélèvements sociaux · Option globale pour le foyer",
+      "tokens": [
+        "En",
+        "2026",
+        ":",
+        "PFU",
+        "31,4",
+        "%",
+        "=",
+        "12,8",
+        "%",
+        "d'impôt",
+        "sur",
+        "le",
+        "revenu",
+        "+",
+        "18,6",
+        "%",
+        "de",
+        "prélèvements",
+        "sociaux",
+        "·",
+        "Option",
+        "globale",
+        "pour",
+        "le",
+        "foyer"
+      ],
+      "token_count": 25,
+      "speech_duration": 16.403,
+      "full_text_visible_at": 14.763,
+      "hold_after_full_text": 1.86,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "option",
+          "badge-percent",
+          "receipt-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "1 000 € de dividendes éligibles · PFU : 128 € + 186 € = 314 € · Barème à 11 % : 66 € + 186 € = 252 € avant l'effet ultérieur de la CSG déductible",
+      "tokens": [
+        "1",
+        "000",
+        "€",
+        "de",
+        "dividendes",
+        "éligibles",
+        "·",
+        "PFU",
+        ":",
+        "128",
+        "€",
+        "+",
+        "186",
+        "€",
+        "=",
+        "314",
+        "€",
+        "·",
+        "Barème",
+        "à",
+        "11",
+        "%",
+        ":",
+        "66",
+        "€",
+        "+",
+        "186",
+        "€",
+        "=",
+        "252",
+        "€",
+        "avant",
+        "l'effet",
+        "ultérieur",
+        "de",
+        "la",
+        "CSG",
+        "déductible"
+      ],
+      "token_count": 38,
+      "speech_duration": 19.623,
+      "full_text_visible_at": 17.661,
+      "hold_after_full_text": 2.182,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "plus",
+          "file-signature",
+          "user-round-check"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Abattement de 40 % : uniquement dividendes éligibles au barème · Aucun abattement sur les prélèvements sociaux · Option annuelle et globale",
+      "tokens": [
+        "Abattement",
+        "de",
+        "40",
+        "%",
+        ":",
+        "uniquement",
+        "dividendes",
+        "éligibles",
+        "au",
+        "barème",
+        "·",
+        "Aucun",
+        "abattement",
+        "sur",
+        "les",
+        "prélèvements",
+        "sociaux",
+        "·",
+        "Option",
+        "annuelle",
+        "et",
+        "globale"
+      ],
+      "token_count": 22,
+      "speech_duration": 13.765,
+      "full_text_visible_at": 12.388,
+      "hold_after_full_text": 2.276,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 4.893,
+      "full_text_visible_at": 4.404,
+      "hold_after_full_text": 0.489,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

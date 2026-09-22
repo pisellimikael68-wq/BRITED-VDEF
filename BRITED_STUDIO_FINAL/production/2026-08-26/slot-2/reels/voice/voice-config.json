@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "ec63ad18481a15a6e3421f106bb67bc767b9b502cb742ede8c0727188bdaa408",
+  "beat_hashes": {
+    "hook": "6146821a021d1a88e98dc8fa57bc5329122a08d53f232b3de735ea551febca8c",
+    "question": "7fbcaf3e60205a261a60b31f6186a65a3ce8db55661f798f79f3faaa5effb74d",
+    "reponse": "24e78711a65cc01aa3a9885552d838a2acb2c3792e7870a7ffdd7e52384e3707",
+    "regle": "d42343aa3ffeb9351dd1ad7de34bec8d5aa7fc4527b307c7a67eca83296d56e6",
+    "exemple": "96cc12fe670e300e8d7708b64208aefb22b852eacd510146f5c0f366fe41faee",
+    "nuance": "f8747b894440360bb16172e02def152f17bb8e7d873b5ad10b04f2fa15493115",
+    "cta": "398e5ea4320837b9d764d75d8bf6a5d395a8154e5a9f5e3194a7e3e485f8a32b"
+  },
+  "spoken_texts": {
+    "hook": "Vous apprenez le décès d'un proche et vous pensez à l'assurance vie ?",
+    "question": "L'abattement de cent cinquante deux mille cinq cents euros s'applique t il ?",
+    "reponse": "Oui, pour les primes versées avant soixante-dix ans, chaque bénéficiaire a cent cinquante deux mille cinq cents euros.",
+    "regle": "Au delà, la part taxable est imposée à vingt pour cent jusqu'à sept cent mille euros, puis à trente et un virgule vingt cinq pour cent.",
+    "exemple": "Par exemple, trois bénéficiaires représentent trois × cent cinquante deux mille cinq cents euros, soit quatre cent cinquante sept mille cinq cents euros sans taxation.",
+    "nuance": "Pour les primes versées après soixante-dix ans, l'abattement global de trente mille cinq cents euros est partagé ; les gains attachés à ces primes restent exonérés.",
+    "cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

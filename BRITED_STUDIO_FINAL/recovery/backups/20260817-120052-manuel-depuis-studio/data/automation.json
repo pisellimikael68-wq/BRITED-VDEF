@@ -1,0 +1,15 @@
+{
+  "active": true,
+  "timezone": "Europe/Paris",
+  "runs": [
+    {"slot": 1, "time": "10:00", "platforms": ["tiktok", "reels", "shorts"]},
+    {"slot": 2, "time": "17:00", "platforms": ["tiktok", "reels", "shorts"]}
+  ],
+  "preflight": {"time": "08:00", "days_ahead": 7},
+  "generate_missing_scripts": true,
+  "render_validated_scripts": true,
+  "verify_words": true,
+  "verify_sync": true,
+  "publish": false,
+  "human_approval_required": true
+}

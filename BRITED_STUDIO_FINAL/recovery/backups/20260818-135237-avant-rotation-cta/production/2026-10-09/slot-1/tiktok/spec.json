@@ -1,0 +1,61 @@
+{
+  "publication_id": "2026-10-09:tiktok:culture_inflation:0",
+  "platform": "tiktok",
+  "concept_id": "culture_inflation",
+  "title": "Ce que l'inflation fait à votre épargne",
+  "header": "Ce que l'inflation fait à votre épargne",
+  "serie": "finance",
+  "narration": "Votre épargne perd-elle de la valeur sans que vous le remarquiez ? Est‑ce que l'inflation réduit votre pouvoir d'achat, OUI ou NON ? OUI. Le chiffre sur votre compte reste, mais il achète moins de biens et services. Règle simple : le rendement réel correspond au rendement affiché moins l'inflation, condition : l'inflation doit être prise en compte pour comparer. Exemple concret et chiffré : à 2 % d'inflation, 10 000 euros laissés vingt ans sans rémunération équivalent à 6 730 euros de pouvoir d'achat. Nuance importante : conserver une trésorerie de précaution a une utilité pratique même si son rendement réel est négatif. Le saviez‑vous ? Commentez, partagez, abonnez‑vous.",
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Votre épargne perd-elle de la valeur sans que vous le remarquiez ?",
+      "visual": "visage sérieux, pictogramme loupe sur un porte‑monnaie",
+      "screen_text": "Votre épargne perd-elle de la valeur ?"
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "narration": "Est‑ce que l'inflation réduit votre pouvoir d'achat, OUI ou NON ?",
+      "visual": "point d'interrogation grand, oui/non affichés",
+      "screen_text": "L'inflation réduit‑elle le pouvoir d'achat ? OUI / NON"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "OUI. Le chiffre sur votre compte reste, mais il achète moins.",
+      "visual": "porte‑monnaie fixe, flèche descendante vers paniers d'achats",
+      "screen_text": "OUI → achète moins"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Règle : le rendement réel = rendement affiché moins l'inflation ; condition : il faut comparer ces deux taux.",
+      "visual": "icône balance rendement / inflation",
+      "screen_text": "Rendement réel = affiché − inflation"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple concret : à 2 % d'inflation, 10 000 € laissés vingt ans sans rémunération ne valent que 6 730 € de pouvoir d'achat.",
+      "visual": "chiffres animés 10 000 → 6 730, calendrier 20 ans",
+      "screen_text": "10 000 € → 6 730 € en pouvoir d'achat"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Nuance : garder une trésorerie de précaution reste utile même si son rendement réel est négatif.",
+      "visual": "tirelire, icône bouclier",
+      "screen_text": "La trésorerie a une utilité pratique"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Le saviez‑vous ? Commentez, partagez, abonnez‑vous.",
+      "visual": "barre de progression en bas, pictogrammes commentaires/partage/abonné",
+      "screen_text": "Le saviez‑vous ? Commentez • Partagez • Abonnez‑vous"
+    }
+  ],
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

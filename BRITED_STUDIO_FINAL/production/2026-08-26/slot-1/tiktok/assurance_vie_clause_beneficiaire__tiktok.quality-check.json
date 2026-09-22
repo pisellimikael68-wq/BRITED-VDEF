@@ -1,0 +1,375 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 38.16,
+  "target_duration": [
+    32,
+    45
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 38.163,
+      "peak": 0.84216,
+      "rms": 0.13517,
+      "dc": 8.8e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.303,
+        "peak": 0.98834,
+        "rms": 0.09218,
+        "dc": 6.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_question.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.326,
+        "peak": 0.97192,
+        "rms": 0.07892,
+        "dc": 3.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.622,
+        "peak": 0.98883,
+        "rms": 0.10189,
+        "dc": 3.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 7.661,
+        "peak": 0.98978,
+        "rms": 0.13536,
+        "dc": 2.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.047,
+        "peak": 0.98993,
+        "rms": 0.11024,
+        "dc": 1.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.511,
+        "peak": 0.98978,
+        "rms": 0.10264,
+        "dc": 1.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.243,
+        "peak": 0.88055,
+        "rms": 0.10352,
+        "dc": 5.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "La phrase la plus importante de votre contrat tient en deux lignes.",
+        "transcript": "La phrase la plus importante de votre contrat tient en deux lignes.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9853,
+        "passed": true
+      },
+      {
+        "beat": "question",
+        "expected": "Dans mon contrat, la clause bénéficiaire peut elle être changée facilement ?",
+        "transcript": "Dans mon contrat, la clause bénéficiaire peut-elle être changée facilement ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Oui. Vous pouvez la modifier gratuitement à tout moment. Sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+        "transcript": "Oui, vous pouvez la modifier gratuitement à tout moment, sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1296,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "La clause désigne qui reçoit le capital et le nombre d'abattements applicables; elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+        "transcript": "La clause désigne qu'il reçoit le capital et le nombre d'abattements applicables. Elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+        "similarity": 0.9302,
+        "missing": [
+          "qui"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "qu",
+          "il"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2339,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple: modifier la désignation coûte zéro euro; si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+        "transcript": "Modifier la désignation coûte 0€. Si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+        "similarity": 0.9714,
+        "missing": [
+          "exemple"
+        ],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0196,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+        "transcript": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0787,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Le saviez vous ? Commentez, partagez, et abonnez vous pour en savoir plus.",
+        "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour en savoir plus.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Pictogramme contrat + loupe",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Schéma : contrat → bénéficiaires → abattements",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          332,
+          660,
+          568
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Icône 0€ + document signé",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          354,
+          660,
+          545
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Coffre qui retourne dans un arbre généalogique",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          350,
+          660,
+          549
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

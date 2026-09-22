@@ -1,0 +1,197 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique correctement la loi du 9 juin 2023 et l'article L541-1. Cependant, le script ne cite pas explicitement l'article de loi ni la référence 'L541-1' là où il évoque le statut requis pour la recommandation personnalisée — ajouter la référence renforcerait la fidélité mot à mot aux sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Précision juridique correcte mais incomplète : le script affirme que la recommandation personnalisée 'suppose le statut de conseiller en investissement financier' — il faut préciser que certaines activités de conseil peuvent aussi relever d'autres statuts ou obligations (enregistrement/agrément) et mentionner l'interdiction de promouvoir certains produits (contrats hautement spéculatifs, actifs numériques hors prestataires enregistrés) cités dans la fiche.",
+        "Manque d'avertissement explicite sur les sanctions possibles en cas de non-respect (la fiche dit 'responsabilite personnelle' mais le script n'évoque pas l'existence de sanctions)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale et l'exception pédagogique, mais omet de citer l'obligation de visibilité 'pendant toute la durée du contenu' comme condition liée au format (ex : stories, carrousels, reels) — préciser que cela vaut pour tous les formats et que la mention doit rester lisible en cas de musique/effets.",
+        "Exemple utile fourni, mais absence de précision temporelle/visuelle (taille/contraste/degré de lisibilité minimal) qui sont des risques opérationnels fréquents."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Format Reels respecté dans la structure mais la durée estimée (38 secondes) n'est pas ventilée par beat — risque que la narration dépasse le temps. Il manque des repères temporels par séquence pour garantir compatibilité avec les contraintes d'Instagram Reels (p.ex. premières 2 secondes pour le hook).",
+        "Le script demande une mention visible 'pendant toute la durée' mais ne précise pas comment la rendre lisible sur Reels (position, taille, contraste) ; c'est essentiel pour la plateforme."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais pourrait être plus percutante dans les 2 premières secondes : formulaire actuel trop long ('Vous tombez sur une vidéo où un créateur parle d'argent et d'un produit sponsorisé.') — raccourcir pour hausse d'attention.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' est correct mais peut sembler commercial ; recommander une formulation précisant 'pour un examen personnalisé avec un professionnel agréé' pour renforcer confiance et conformité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention 'Contenu pédagogique général' dans la mention, ce qui est bon. Toutefois, l'énoncé 'Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.' peut être perçu comme une incitation à obtenir un conseil personnalisé sans préciser le statut du prestataire ; il faut ajouter que la prise de rendez-vous conduit à un professionnel ayant le statut requis si tel est le cas.",
+        "Absence d'une phrase précisant clairement que la vidéo ne constitue pas un conseil personnalisé dans le corps de la vidéo (la mention figure en légende mais pas à l'oral)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase-par-phrase compréhensible mais quelques formulations peuvent être améliorées pour la prononciation et la fluidité (ex. la phrase 'La loi du 9 juin 2023 oblige la mention visible 'Publicité' ou 'Collaboration commerciale' pendant toute la durée du contenu rémunéré.' est longue à l'oral — recommandation : scinder en deux).",
+        "Le libellé 'Pédagogie = libre · Recommandation personnalisée = statut requis' est synthétique mais trop elliptique pour un public non spécialiste ; reformuler en phrase complète faciliterait la compréhension."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements logiques valides, mais petite incohérence de ton entre hook très narratif et la fin CTA plus commerciale. Vérifier prononciation et rythme pour que la mention légale soit audible sans sacrifier le CTA.",
+        "Vérifier la répétition exacte des libellés juridiques (utiliser 'Publicité' ou 'Collaboration commerciale' exactement comme dans la fiche) — le script le fait mais il faut assurer la casse et les guillemets corrects à l'oral."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont ambigus ou génériques : 'silhouette conseiller' risque de laisser croire à une légitimation/agrément alors que le script ne précise pas le statut ; remplacer par un pictogramme neutre d'information/mise en garde.",
+        "Le pictogramme 'texte légal + pictogramme étiquette visible' doit illustrer la lisibilité constante ; prévoir un exemple visuel montrant position et contraste pour éviter interprétations erronées."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais omet un chiffre utile présent dans la fiche (ex : exemples de produits dont la promotion est restreinte). Ajouter une brève mention renforcerait la densité informative sans alourdir.",
+        "La règle centrale est présente, l'exception aussi, mais l'exemple reste binaire ; un court cas pratique (ex : placement d'un produit crypto) serait utile."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Langage globalement accessible mais terme 'recommandation personnalisée' pourrait être expliqué en une courte définition (ex : 'conseils adaptés à votre situation financière personnelle').",
+        "Le public non spécialiste pourrait ne pas comprendre l'étendue du terme 'contenu rémunéré' — ajouter un court exemple ('par ex. placement de produit payé, lien affilié rémunéré') améliorerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook informatif mais trop long pour capter l'attention dans les 2 premières secondes ; proposer une version plus brève et percutante.",
+        "Le rythme du script risque d'être trop dense pour 38s sans coupe ni accélération — recommander lecture chronométrée et ajustement par beat."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux présent mais le CTA peut être perçu comme commercial sans garantie de conformité du prestataire mentionné. Recommander d'ajouter 'avec un professionnel agréé' ou préciser le statut du conseiller proposé.",
+        "Éviter toute formulation pouvant être interprétée comme promesse de résultat ; le script n'en fait pas mais l'intonation doit rester neutre et informative."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 98,
+      "seconds": 36.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 98,
+        "seconds": 36.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique correctement la loi du 9 juin 2023 et l'article L541-1. Cependant, le script ne cite pas explicitement l'article de loi ni la référence 'L541-1' là où il évoque le statut requis pour la recommandation personnalisée — ajouter la référence renforcerait la fidélité mot à mot aux sources.",
+    "juridique_fiscal : Précision juridique correcte mais incomplète : le script affirme que la recommandation personnalisée 'suppose le statut de conseiller en investissement financier' — il faut préciser que certaines activités de conseil peuvent aussi relever d'autres statuts ou obligations (enregistrement/agrément) et mentionner l'interdiction de promouvoir certains produits (contrats hautement spéculatifs, actifs numériques hors prestataires enregistrés) cités dans la fiche.",
+    "juridique_fiscal : Manque d'avertissement explicite sur les sanctions possibles en cas de non-respect (la fiche dit 'responsabilite personnelle' mais le script n'évoque pas l'existence de sanctions).",
+    "completude : Le script couvre la règle principale et l'exception pédagogique, mais omet de citer l'obligation de visibilité 'pendant toute la durée du contenu' comme condition liée au format (ex : stories, carrousels, reels) — préciser que cela vaut pour tous les formats et que la mention doit rester lisible en cas de musique/effets.",
+    "completude : Exemple utile fourni, mais absence de précision temporelle/visuelle (taille/contraste/degré de lisibilité minimal) qui sont des risques opérationnels fréquents.",
+    "plateforme : Format Reels respecté dans la structure mais la durée estimée (38 secondes) n'est pas ventilée par beat — risque que la narration dépasse le temps. Il manque des repères temporels par séquence pour garantir compatibilité avec les contraintes d'Instagram Reels (p.ex. premières 2 secondes pour le hook).",
+    "plateforme : Le script demande une mention visible 'pendant toute la durée' mais ne précise pas comment la rendre lisible sur Reels (position, taille, contraste) ; c'est essentiel pour la plateforme.",
+    "editorial : Accroche forte mais pourrait être plus percutante dans les 2 premières secondes : formulaire actuel trop long ('Vous tombez sur une vidéo où un créateur parle d'argent et d'un produit sponsorisé.') — raccourcir pour hausse d'attention.",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio' est correct mais peut sembler commercial ; recommander une formulation précisant 'pour un examen personnalisé avec un professionnel agréé' pour renforcer confiance et conformité.",
+    "securite : Le script contient la mention 'Contenu pédagogique général' dans la mention, ce qui est bon. Toutefois, l'énoncé 'Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.' peut être perçu comme une incitation à obtenir un conseil personnalisé sans préciser le statut du prestataire ; il faut ajouter que la prise de rendez-vous conduit à un professionnel ayant le statut requis si tel est le cas.",
+    "securite : Absence d'une phrase précisant clairement que la vidéo ne constitue pas un conseil personnalisé dans le corps de la vidéo (la mention figure en légende mais pas à l'oral).",
+    "formulation_professionnelle : Phrase-par-phrase compréhensible mais quelques formulations peuvent être améliorées pour la prononciation et la fluidité (ex. la phrase 'La loi du 9 juin 2023 oblige la mention visible 'Publicité' ou 'Collaboration commerciale' pendant toute la durée du contenu rémunéré.' est longue à l'oral — recommandation : scinder en deux).",
+    "formulation_professionnelle : Le libellé 'Pédagogie = libre · Recommandation personnalisée = statut requis' est synthétique mais trop elliptique pour un public non spécialiste ; reformuler en phrase complète faciliterait la compréhension.",
+    "contre_verification_finale : Enchaînements logiques valides, mais petite incohérence de ton entre hook très narratif et la fin CTA plus commerciale. Vérifier prononciation et rythme pour que la mention légale soit audible sans sacrifier le CTA.",
+    "contre_verification_finale : Vérifier la répétition exacte des libellés juridiques (utiliser 'Publicité' ou 'Collaboration commerciale' exactement comme dans la fiche) — le script le fait mais il faut assurer la casse et les guillemets corrects à l'oral.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont ambigus ou génériques : 'silhouette conseiller' risque de laisser croire à une légitimation/agrément alors que le script ne précise pas le statut ; remplacer par un pictogramme neutre d'information/mise en garde.",
+    "coherence_pictogrammes : Le pictogramme 'texte légal + pictogramme étiquette visible' doit illustrer la lisibilité constante ; prévoir un exemple visuel montrant position et contraste pour éviter interprétations erronées.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais omet un chiffre utile présent dans la fiche (ex : exemples de produits dont la promotion est restreinte). Ajouter une brève mention renforcerait la densité informative sans alourdir.",
+    "densite_editoriale : La règle centrale est présente, l'exception aussi, mais l'exemple reste binaire ; un court cas pratique (ex : placement d'un produit crypto) serait utile.",
+    "pedagogie_client : Langage globalement accessible mais terme 'recommandation personnalisée' pourrait être expliqué en une courte définition (ex : 'conseils adaptés à votre situation financière personnelle').",
+    "pedagogie_client : Le public non spécialiste pourrait ne pas comprendre l'étendue du terme 'contenu rémunéré' — ajouter un court exemple ('par ex. placement de produit payé, lien affilié rémunéré') améliorerait la compréhension.",
+    "retention_attention : Hook informatif mais trop long pour capter l'attention dans les 2 premières secondes ; proposer une version plus brève et percutante.",
+    "retention_attention : Le rythme du script risque d'être trop dense pour 38s sans coupe ni accélération — recommander lecture chronométrée et ajustement par beat.",
+    "conversion_confiance : Ton sérieux présent mais le CTA peut être perçu comme commercial sans garantie de conformité du prestataire mentionné. Recommander d'ajouter 'avec un professionnel agréé' ou préciser le statut du conseiller proposé.",
+    "conversion_confiance : Éviter toute formulation pouvant être interprétée comme promesse de résultat ; le script n'en fait pas mais l'intonation doit rester neutre et informative."
+  ],
+  "recommendations": [
+    "Citer explicitement la référence légale L541-1 lorsqu'on évoque le statut requis pour la recommandation personnalisée.",
+    "Ajouter en voix off ou en texte court dans la vidéo une phrase précisant que la vidéo 'ne constitue pas un conseil personnalisé' (la légende seule peut ne pas suffire).",
+    "Préciser dans le CTA que la prise de rendez‑vous conduit vers un professionnel titulaire du statut requis (si c'est le cas) ou retirer la promesse d'accompagnement personnalisé pour éviter l'ambiguïté.",
+    "Raccourcir le hook aux 2 premières secondes (ex. 'Un créateur parle d'argent et d'un produit sponsorisé — la mention est-elle visible ?').",
+    "Ajouter une très brève précision sur les produits dont la promotion est restreinte (ex. produits hautement spéculatifs, actifs numériques sans prestataire enregistré) pour coller à la fiche source.",
+    "Prévoir un visuel modèle montrant la position/taille/contraste de la mention 'Publicité' ou 'Collaboration commerciale' afin d'assurer lisibilité sur Reels.",
+    "Reformuler la ligne synthétique 'Pédagogie = libre · Recommandation personnalisée = statut requis' en une phrase complète pour un public non spécialiste.",
+    "Faire une lecture chronométrée par beat pour confirmer que la narration tient bien dans 38 secondes et ajuster le texte si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-19:reels:conformite_influence_commerciale:0",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__reels__a4__v7.md"
+}

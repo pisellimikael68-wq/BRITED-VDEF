@@ -1,0 +1,412 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 41.49,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 41.486,
+      "peak": 0.84143,
+      "rms": 0.16079,
+      "dc": 5.2e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.22,
+        "peak": 0.79434,
+        "rms": 0.11889,
+        "dc": 4.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.749,
+        "peak": 0.69263,
+        "rms": 0.10814,
+        "dc": 5.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.343,
+        "peak": 0.79443,
+        "rms": 0.12263,
+        "dc": 9.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.674,
+        "peak": 0.69711,
+        "rms": 0.11842,
+        "dc": 4.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 7.536,
+        "peak": 0.793,
+        "rms": 0.11368,
+        "dc": 2.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.504,
+        "peak": 0.79431,
+        "rms": 0.13701,
+        "dc": 8.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Votre partenaire de paxe, ou votre concubin, héritera t il vraiment de vous ?",
+        "transcript": "Votre partenaire de Pax ou votre concubin héritera-t-il vraiment de vous ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.974,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Non, pas automatiquement. Sans testament, le partenaire de paxe n'hérite pas. Le concubin non plus. Les biens qu'il reçoit par testament sont imposés à soixante pour cent.",
+        "transcript": "Non, pas automatiquement. Sans testament, le partenaire de Pax n'hérite pas. Le concubin non plus. Les biens qu'il reçoit par testament sont imposés à 60%.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1955,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Deux questions différentes : le Code civil détermine qui hérite ; le Code général des impôts détermine ce qui sera payé.",
+        "transcript": "Deux questions différentes. Le Code civil détermine qui hérite. Le Code général des impôts détermine ce qui sera payé.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2115,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : avec des enfants d'une première union, transmettre une part du logement au partenaire peut créer une indivision avec eux.",
+        "transcript": "Exemple, avec des enfants d'une première union, transmettre une part du logement au partenaire peut créer une indivision avec eux.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.211,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Attention : le testament reste limité par la réserve héréditaire. Et le partenaire paxée ne bénéficie que d'un maintien au logement d'un an.",
+        "transcript": "Attention, le testament reste limité par la réserve héréditaire, et le partenaire Paxé ne bénéficie que d'un maintien au logement d'un an.",
+        "similarity": 0.9583,
+        "missing": [
+          "pacse"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "pacs"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2393,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      184.8,
+      185.2,
+      179.7,
+      179.8,
+      175.2,
+      185.3
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Grand point d'interrogation + pictogramme personne",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "heart-handshake"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "NON",
+        "text_bounds": [
+          112,
+          354,
+          608,
+          824
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Icône balance + icône %",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "code",
+          "scale",
+          "file-signature"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Maison en indivision, pictogrammes enfants + maison",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "baby",
+          "users",
+          "house"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Icône contrat + calendrier 1 an",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

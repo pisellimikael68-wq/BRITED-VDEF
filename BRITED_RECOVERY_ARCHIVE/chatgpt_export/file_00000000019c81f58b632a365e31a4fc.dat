@@ -1,0 +1,59 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Product"
+  last_updated: null
+
+vision:
+
+  current_version: "2.0"
+
+roadmap:
+
+  sprint_1:
+    name: "AI Development Kit"
+    status: "in_progress"
+
+    objectives:
+      - Build project governance
+      - Define architecture
+      - Define conventions
+      - Prepare AI workflows
+
+  sprint_2:
+    name: "Core Domain"
+
+    objectives:
+      - Knowledge model
+      - Corpus model
+      - Chapter model
+
+  sprint_3:
+    name: "Application Services"
+
+    objectives:
+      - CorpusService
+      - Validation engine
+
+  sprint_4:
+    name: "Studio"
+
+    objectives:
+      - User Interface
+      - Navigation
+      - Editors
+
+  sprint_5:
+    name: "Automation"
+
+    objectives:
+      - AI Agents
+      - Prompt Engine
+      - Workflow Engine
+
+future:
+
+  - Plugin System
+  - Cloud Synchronization
+  - Collaborative Editing
+  

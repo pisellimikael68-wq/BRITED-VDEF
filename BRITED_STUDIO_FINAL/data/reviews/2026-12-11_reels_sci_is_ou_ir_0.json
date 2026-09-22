@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est respectée globalement, mais la narration affirme «renonciation possible jusqu'à la fin du cinquième exercice suivant, prenant effet pour l'exercice 2030» — il faut préciser explicitement que la renonciation prend effet pour l'exercice au titre duquel elle est exercée (exercice 2030 dans l'exemple) afin d'éviter toute ambiguïté sur la date d'effet comptable/fiscale."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La mention de l'article 221 bis comme «atténuation» est correcte mais manque la précision des conditions (absence de modification des écritures comptables et de possibilité d'imposition ultérieure) : il faut ajouter brièvement ces conditions pour éviter une lecture incomplète.",
+        "La phrase «la renonciation produit les effets d'une cessation d'entreprise» est juste mais gagnerait à rappeler de façon concise les conséquences principales (imposition immédiate des plus‑values latentes, reprise d'amortissements, etc.) pour être juridiquement complète."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale, l'exception et un exemple, mais omet d'indiquer le délai pour exercer l'option initiale (avant la fin du 3e mois de l'exercice) — information utile au public et présente dans la fiche source.",
+        "Il manque aussi la précision que, par défaut, la SCI est soumise à l'IR et que l'option modifie la fiscalité des associés (double imposition possible lors de distribution)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la durée estimée, mais la première deux secondes d'accroche ('Vous avez opté...') doit être la plus percutante visuellement : recommander d'ajouter un sous-élément visuel plus fort (ex. gros plan d'une montre + expression concernée) pour maximiser l'engagement Reels.",
+        "Le texte écran de l'exemple est un peu long pour un visuel rapide ; il faudrait condenser la ligne d'exemple pour lisibilité en 39s."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et clair, mais certaines phrases pourraient être raccourcies pour la diction orale (par ex. remplacer 'La renonciation a les effets d'une cessation : plus‑values latentes imposables sauf atténuation prévue à l'article 221 bis, et la SCI ne pourra plus réopter.' par deux phrases courtes).",
+        "Le CTA est bon, mais suggérer une variante sans 'bio' pour les comptes pro qui veulent un bouton direct (ex. 'Lien rendez-vous' ou 'Réservez via le lien')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention de non-conseil est présente en fin de fiche, mais dans la vidéo elle n'apparaît pas : il faudrait ajouter en texte écran court la mention 'Contenu pédagogique — non-conseil personnalisé' pour être conforme à l'agent sécurité.",
+        "Éviter formulation pouvant être perçue comme promesse ('Prenez rendez-vous' est OK) : ajouter 'pour un diagnostic personnalisé' atténuerait toute promesse implicite."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations longues peuvent gêner la prononciation et la compréhension à l'oral (voir remarque editorial). Proposer deux coupes de phrases pour la version parlée.",
+        "Le libellé 'prenant effet pour l'exercice 2030' doit être rédigé 'prenant effet à compter de l'exercice 2030' pour un français professionnel et précis."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, il y a répétition sur l'exemple (dates) entre narration et texte écran : suggérer d'aligner exact wording pour éviter contradiction éventuelle.",
+        "Vérifier que la durée parlée de la narration ne dépasse pas 39 s avec les pauses et temps d'écran ; il manque un minutage phrase par phrase pour garantir la durée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont pertinents, mais 'pictogramme loi' au beat 4 est vague : recommander un pictogramme représentant un texte de loi ou balance de la justice plutôt qu'un symbole générique.",
+        "Au beat 6, 'pictogramme alerte fiscale' doit être explicite (triangle + € ou icône document + loupe) pour bien illustrer l'idée d'imposition de plus‑values latentes."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste sur un seul angle mais inclut plusieurs notions fiscales denses (effet cessation, article 221 bis, irrévocabilité) : recommander de simplifier la phrase sur l'article 221 bis ou d'ajouter un texte écran renvoyant aux sources pour les détails techniques.",
+        "L'exemple chiffré est utile mais la formulation actuelle peut être compressée pour garder du temps pour l'énonciation de la condition (effet cessation)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques termes techniques ('cessation d'entreprise', 'valeur nette comptable') ne sont pas expliqués; il faut ajouter un micro-défini (ex. 'cessation = imposition immédiate des plus‑values latentes') pour un non-spécialiste.",
+        "La comparaison IR vs IS sur la plus-value (valeur nette comptable vs abattements) est mentionnée dans la fiche mais absente dans le script : inclusion brève aiderait la compréhension du choix."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial est pertinent, mais les deux premières secondes pourraient être renforcées visuellement (voir plateforme agent).",
+        "Le passage entre la règle et l'exemple est un peu abrupt ; insérer un court pont ('Concrètement :') améliorerait la fluidité et la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire professionnalisme, mais l'absence dans la vidéo de la mention 'sources' ou 'non-conseil' visible réduit légèrement la confiance; ajouter texte écran court avec source légifrance ou BOFiP renforce crédibilité.",
+        "Le CTA doit éviter toute pression commerciale ; proposer 'Si vous voulez vérifier votre situation, prenez rendez-vous' est plus neutre."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est respectée globalement, mais la narration affirme «renonciation possible jusqu'à la fin du cinquième exercice suivant, prenant effet pour l'exercice 2030» — il faut préciser explicitement que la renonciation prend effet pour l'exercice au titre duquel elle est exercée (exercice 2030 dans l'exemple) afin d'éviter toute ambiguïté sur la date d'effet comptable/fiscale.",
+    "juridique_fiscal : La mention de l'article 221 bis comme «atténuation» est correcte mais manque la précision des conditions (absence de modification des écritures comptables et de possibilité d'imposition ultérieure) : il faut ajouter brièvement ces conditions pour éviter une lecture incomplète.",
+    "juridique_fiscal : La phrase «la renonciation produit les effets d'une cessation d'entreprise» est juste mais gagnerait à rappeler de façon concise les conséquences principales (imposition immédiate des plus‑values latentes, reprise d'amortissements, etc.) pour être juridiquement complète.",
+    "completude : Le script couvre la règle principale, l'exception et un exemple, mais omet d'indiquer le délai pour exercer l'option initiale (avant la fin du 3e mois de l'exercice) — information utile au public et présente dans la fiche source.",
+    "completude : Il manque aussi la précision que, par défaut, la SCI est soumise à l'IR et que l'option modifie la fiscalité des associés (double imposition possible lors de distribution).",
+    "plateforme : Le script respecte la durée estimée, mais la première deux secondes d'accroche ('Vous avez opté...') doit être la plus percutante visuellement : recommander d'ajouter un sous-élément visuel plus fort (ex. gros plan d'une montre + expression concernée) pour maximiser l'engagement Reels.",
+    "plateforme : Le texte écran de l'exemple est un peu long pour un visuel rapide ; il faudrait condenser la ligne d'exemple pour lisibilité en 39s.",
+    "editorial : Ton direct et clair, mais certaines phrases pourraient être raccourcies pour la diction orale (par ex. remplacer 'La renonciation a les effets d'une cessation : plus‑values latentes imposables sauf atténuation prévue à l'article 221 bis, et la SCI ne pourra plus réopter.' par deux phrases courtes).",
+    "editorial : Le CTA est bon, mais suggérer une variante sans 'bio' pour les comptes pro qui veulent un bouton direct (ex. 'Lien rendez-vous' ou 'Réservez via le lien').",
+    "securite : La mention de non-conseil est présente en fin de fiche, mais dans la vidéo elle n'apparaît pas : il faudrait ajouter en texte écran court la mention 'Contenu pédagogique — non-conseil personnalisé' pour être conforme à l'agent sécurité.",
+    "securite : Éviter formulation pouvant être perçue comme promesse ('Prenez rendez-vous' est OK) : ajouter 'pour un diagnostic personnalisé' atténuerait toute promesse implicite.",
+    "formulation_professionnelle : Quelques formulations longues peuvent gêner la prononciation et la compréhension à l'oral (voir remarque editorial). Proposer deux coupes de phrases pour la version parlée.",
+    "formulation_professionnelle : Le libellé 'prenant effet pour l'exercice 2030' doit être rédigé 'prenant effet à compter de l'exercice 2030' pour un français professionnel et précis.",
+    "contre_verification_finale : En lecture mot à mot, il y a répétition sur l'exemple (dates) entre narration et texte écran : suggérer d'aligner exact wording pour éviter contradiction éventuelle.",
+    "contre_verification_finale : Vérifier que la durée parlée de la narration ne dépasse pas 39 s avec les pauses et temps d'écran ; il manque un minutage phrase par phrase pour garantir la durée.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont pertinents, mais 'pictogramme loi' au beat 4 est vague : recommander un pictogramme représentant un texte de loi ou balance de la justice plutôt qu'un symbole générique.",
+    "coherence_pictogrammes : Au beat 6, 'pictogramme alerte fiscale' doit être explicite (triangle + € ou icône document + loupe) pour bien illustrer l'idée d'imposition de plus‑values latentes.",
+    "densite_editoriale : La vidéo reste sur un seul angle mais inclut plusieurs notions fiscales denses (effet cessation, article 221 bis, irrévocabilité) : recommander de simplifier la phrase sur l'article 221 bis ou d'ajouter un texte écran renvoyant aux sources pour les détails techniques.",
+    "densite_editoriale : L'exemple chiffré est utile mais la formulation actuelle peut être compressée pour garder du temps pour l'énonciation de la condition (effet cessation).",
+    "pedagogie_client : Quelques termes techniques ('cessation d'entreprise', 'valeur nette comptable') ne sont pas expliqués; il faut ajouter un micro-défini (ex. 'cessation = imposition immédiate des plus‑values latentes') pour un non-spécialiste.",
+    "pedagogie_client : La comparaison IR vs IS sur la plus-value (valeur nette comptable vs abattements) est mentionnée dans la fiche mais absente dans le script : inclusion brève aiderait la compréhension du choix.",
+    "retention_attention : Hook initial est pertinent, mais les deux premières secondes pourraient être renforcées visuellement (voir plateforme agent).",
+    "retention_attention : Le passage entre la règle et l'exemple est un peu abrupt ; insérer un court pont ('Concrètement :') améliorerait la fluidité et la rétention.",
+    "conversion_confiance : Le ton inspire professionnalisme, mais l'absence dans la vidéo de la mention 'sources' ou 'non-conseil' visible réduit légèrement la confiance; ajouter texte écran court avec source légifrance ou BOFiP renforce crédibilité.",
+    "conversion_confiance : Le CTA doit éviter toute pression commerciale ; proposer 'Si vous voulez vérifier votre situation, prenez rendez-vous' est plus neutre."
+  ],
+  "recommendations": [
+    "Préciser dans l'exemple que la renonciation 'prend effet à compter de l'exercice 2030' pour éviter ambiguïté sur la date d'effet.",
+    "Ajouter brièvement les conditions de l'atténuation de l'article 221 bis (pas de modification des écritures comptables et possibilité d'imposition ultérieure) dans la phrase sur la renonciation.",
+    "Inclure la précision sur le délai pour exercer l'option initiale (avant la fin du 3e mois de l'exercice) dans un texte écran ou une phrase très courte.",
+    "Simplifier et scinder en deux phrases la partie sur les effets fiscaux de la renonciation pour faciliter la diction et la compréhension orale.",
+    "Ajouter une mention texte écran courte 'Contenu pédagogique — non-conseil personnalisé' et citer au moins une source visible (Legifrance ou BOFiP) dans la vidéo pour renforcer sécurité et confiance.",
+    "Optimiser les pictogrammes recommandés : balance/texte de loi pour la règle, triangle+€ ou document+loupe pour l'effet cessation, et rendre le visuel du calendrier/exemple plus concis et lisible.",
+    "Reformuler 'prenant effet pour l'exercice 2030' en 'prenant effet à compter de l'exercice 2030' et vérifier la diction pour tenir dans 39 s; prévoir minutage phrase par phrase.",
+    "Ajouter une très courte explication non technique de 'cessation d'entreprise' et de 'valeur nette comptable' ou supprimer le terme technique si le temps manque.",
+    "Alléger le texte écran de l'exemple pour qu'il soit lisible en un coup d'œil (ex. 'Option exercice clos 31/12/2025 → renonciation possible jusqu'à fin 2030, effet exercice 2030').",
+    "Adapter le CTA pour rester professionnel et non pressant: 'Pour un diagnostic personnalisé, prenez rendez‑vous via le lien'."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-11:reels:sci_is_ou_ir:0",
+  "script_path": "scripts/sci/sci_is_ou_ir__reels__a3__v5.md"
+}

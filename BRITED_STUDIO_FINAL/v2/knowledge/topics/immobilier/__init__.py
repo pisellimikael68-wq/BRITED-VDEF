@@ -1,0 +1,1 @@
+IMMOBILIER_TOPICS = []

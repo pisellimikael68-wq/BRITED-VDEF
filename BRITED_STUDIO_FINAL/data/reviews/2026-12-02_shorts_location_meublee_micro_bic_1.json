@@ -1,0 +1,190 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La phrase «le micro laisse la moitié des loyers taxable» affirme un taux (50%) non vérifié dans la fiche : le champ 'Abattement micro-BIC, meublé classique' est marqué 'a_verifier'. Le script diffuse donc un chiffre qui n'a pas été confirmé par la source maître.",
+        "La mention générale selon laquelle «le meublé bénéficie d'un abattement forfaitaire nettement plus élevé que le micro-foncier» est conforme aux sources, mais la présence d'un ratio chiffré implicite (moitié) fragilise la fidélité stricte exigée par la règle 'Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED'."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le message juridique central (meublé → BIC ; nu → revenus fonciers) est correct et sourcé.",
+        "Cependant, l'énoncé chiffré implicite («la moitié des loyers taxable») présente un risque d'inexactitude juridique si le taux applicable a été modifié pour certaines catégories de meublé. La fiche interdit d'énoncer sans vérification les taux et seuils des meublés de tourisme, et marque le taux micro-BIC comme 'a_verifier'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (micro vs réel), l'exception utile (crédit et travaux rendant le réel souvent plus favorable) et la mention de la catégorie du meublé.",
+        "Manque : clarification que le passage au réel implique obligations déclaratives spécifiques (immatriculation, tenue de comptabilité) — le script mentionne des obligations déclaratives à vérifier mais pourrait préciser brièvement lesquelles pour être complet sans être personnalisé.",
+        "Présence problématique d'une affirmation chiffrée non vérifiée («la moitié des loyers taxable»)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires ; durée estimée (42 s) et structure adaptée à un format Short.",
+        "Formulation concise et ton direct : OK.",
+        "Problème rédactionnel mineur : la phrase «le micro laisse la moitié des loyers taxable» risque d'être entendue comme une donnée chiffrée incontestable — à remplacer par une formule non chiffrée ou vérifiée."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'exigence de contenu pédagogique et neutre, et contient la mention de non-personnalisation en légende.",
+        "Toutefois, la diffusion implicite d'un chiffre non confirmé (50%) constitue une affirmation qui peut être interprétée comme un conseil chiffré erroné pour certains cas ; cela affaiblit la conformité sécuritaire du message."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel, clair et adapté à la lecture à haute voix.",
+        "À corriger : éviter l'expression «la moitié des loyers taxable» ou la remplacer par «une part importante des loyers reste imposable» afin d'éviter une affirmation chiffrée non vérifiée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, le script est cohérent et les enchaînements tiennent.",
+        "La phrase chiffrée «la moitié des loyers taxable» constitue une incohérence avec l'instruction de la fiche ('a_verifier' pour le taux micro-BIC) : la seconde lecture indépendante doit signaler la suppression ou la vérification de ce chiffre.",
+        "Vérifier aussi que la mention 'statut impose des obligations déclaratives' corresponde à l'obligation d'immatriculation et aux formalités applicables au LMNP — la formulation actuelle est correcte mais peu précise."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et reste concise ; règle centrale, condition et exception sont présentées.",
+        "On note toutefois la présence d'un chiffre implicite non validé qui fragilise la densité éditoriale : soit remplacer par formulation non chiffrée, soit ajouter une vérification explicite du taux."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est compréhensible par un non-spécialiste, le vocabulaire technique est limité et expliqué.",
+        "Amélioration recommandée : préciser brièvement (en une courte phrase) ce que signifie 'amortir le bien' pour le grand public (ex. 'déduire chaque année une fraction de la valeur du bien'), afin de renforcer la pédagogie.",
+        "La phrase chiffrée doit être reformulée pour éviter de donner une impression de règle absolue sans vérification."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et le CTA est approprié et non pressant.",
+        "Toutefois, l'affirmation chiffrée non vérifiée peut nuire à la confiance professionnelle si elle s'avère inexacte pour certaines catégories de meublé ; recommander suppression ou vérification."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 117,
+      "seconds": 43.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 117,
+        "seconds": 43.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La phrase «le micro laisse la moitié des loyers taxable» affirme un taux (50%) non vérifié dans la fiche : le champ 'Abattement micro-BIC, meublé classique' est marqué 'a_verifier'. Le script diffuse donc un chiffre qui n'a pas été confirmé par la source maître.",
+    "source : La mention générale selon laquelle «le meublé bénéficie d'un abattement forfaitaire nettement plus élevé que le micro-foncier» est conforme aux sources, mais la présence d'un ratio chiffré implicite (moitié) fragilise la fidélité stricte exigée par la règle 'Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED'.",
+    "juridique_fiscal : Le message juridique central (meublé → BIC ; nu → revenus fonciers) est correct et sourcé.",
+    "juridique_fiscal : Cependant, l'énoncé chiffré implicite («la moitié des loyers taxable») présente un risque d'inexactitude juridique si le taux applicable a été modifié pour certaines catégories de meublé. La fiche interdit d'énoncer sans vérification les taux et seuils des meublés de tourisme, et marque le taux micro-BIC comme 'a_verifier'.",
+    "completude : Le script couvre la règle centrale, la condition (micro vs réel), l'exception utile (crédit et travaux rendant le réel souvent plus favorable) et la mention de la catégorie du meublé.",
+    "completude : Manque : clarification que le passage au réel implique obligations déclaratives spécifiques (immatriculation, tenue de comptabilité) — le script mentionne des obligations déclaratives à vérifier mais pourrait préciser brièvement lesquelles pour être complet sans être personnalisé.",
+    "completude : Présence problématique d'une affirmation chiffrée non vérifiée («la moitié des loyers taxable»).",
+    "editorial : Accroche et progression claires ; durée estimée (42 s) et structure adaptée à un format Short.",
+    "editorial : Formulation concise et ton direct : OK.",
+    "editorial : Problème rédactionnel mineur : la phrase «le micro laisse la moitié des loyers taxable» risque d'être entendue comme une donnée chiffrée incontestable — à remplacer par une formule non chiffrée ou vérifiée.",
+    "securite : Le script respecte l'exigence de contenu pédagogique et neutre, et contient la mention de non-personnalisation en légende.",
+    "securite : Toutefois, la diffusion implicite d'un chiffre non confirmé (50%) constitue une affirmation qui peut être interprétée comme un conseil chiffré erroné pour certains cas ; cela affaiblit la conformité sécuritaire du message.",
+    "formulation_professionnelle : Le français est naturel, clair et adapté à la lecture à haute voix.",
+    "formulation_professionnelle : À corriger : éviter l'expression «la moitié des loyers taxable» ou la remplacer par «une part importante des loyers reste imposable» afin d'éviter une affirmation chiffrée non vérifiée.",
+    "contre_verification_finale : En lecture mot à mot, le script est cohérent et les enchaînements tiennent.",
+    "contre_verification_finale : La phrase chiffrée «la moitié des loyers taxable» constitue une incohérence avec l'instruction de la fiche ('a_verifier' pour le taux micro-BIC) : la seconde lecture indépendante doit signaler la suppression ou la vérification de ce chiffre.",
+    "contre_verification_finale : Vérifier aussi que la mention 'statut impose des obligations déclaratives' corresponde à l'obligation d'immatriculation et aux formalités applicables au LMNP — la formulation actuelle est correcte mais peu précise.",
+    "densite_editoriale : La vidéo traite bien un seul angle et reste concise ; règle centrale, condition et exception sont présentées.",
+    "densite_editoriale : On note toutefois la présence d'un chiffre implicite non validé qui fragilise la densité éditoriale : soit remplacer par formulation non chiffrée, soit ajouter une vérification explicite du taux.",
+    "pedagogie_client : Le contenu est compréhensible par un non-spécialiste, le vocabulaire technique est limité et expliqué.",
+    "pedagogie_client : Amélioration recommandée : préciser brièvement (en une courte phrase) ce que signifie 'amortir le bien' pour le grand public (ex. 'déduire chaque année une fraction de la valeur du bien'), afin de renforcer la pédagogie.",
+    "pedagogie_client : La phrase chiffrée doit être reformulée pour éviter de donner une impression de règle absolue sans vérification.",
+    "conversion_confiance : Le ton inspire sérieux et le CTA est approprié et non pressant.",
+    "conversion_confiance : Toutefois, l'affirmation chiffrée non vérifiée peut nuire à la confiance professionnelle si elle s'avère inexacte pour certaines catégories de meublé ; recommander suppression ou vérification."
+  ],
+  "recommendations": [
+    "Supprimer ou reformuler la phrase «le micro laisse la moitié des loyers taxable». Remplacez par une formulation non chiffrée vérifiable, par exemple : «le régime micro laisse une part importante des loyers imposable (abattement forfaitaire), tandis qu'en réel vous pouvez déduire charges et amortissements».",
+    "Si vous souhaitez conserver un chiffre, vérifiez et citez explicitement la source légale ou administrative à jour avant diffusion (le champ 'Abattement micro-BIC' de la fiche indique 'a_verifier').",
+    "Ajouter en une courte phrase d'explication ce que signifie 'amortir le bien' pour un public non spécialiste (ex. 'c'est déduire chaque année une fraction de la valeur du bien de vos revenus imposables').",
+    "Préciser brièvement quelles obligations déclaratives sont concernées (immatriculation de l'activité, tenue d'une comptabilité au réel) ou inciter explicitement à vérifier ces formalités via les sources citées.",
+    "Effectuer une seconde vérification des taux et seuils relatifs aux différentes catégories de meublé (meublé classique, meublé de tourisme classé/non classé) et, si besoin, ajouter une phrase rappelant explicitement que ces paramètres évoluent et doivent être consultés dans les textes cités.",
+    "Après correction des points ci‑dessus, relancer la contre‑vérification mot à mot pour s'assurer que la version finale ne contient plus d'affirmation chiffrée non sourcée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-02:shorts:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__shorts__a3__v2.md"
+}

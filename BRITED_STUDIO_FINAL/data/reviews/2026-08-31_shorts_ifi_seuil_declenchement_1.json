@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase d'ouverture contradictoire : le script commence par la question « Votre patrimoine immobilier net déclenche‑t‑il l'IFI au‑delà de 1 300 000 euros ? » puis répond « Non. L'IFI vise... le seuil d'assujettissement est 1 300 000 euros. ». Cela crée une contradiction factuelle et sème le doute chez le spectateur. Il faut répondre clairement « Oui, si > 1 300 000 € » ou reformuler la question."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu juridique principal est correct (patrimoine immobilier net au 1er janvier, seuil 1 300 000 €, barème appliqué à partir de 800 000 €, abattement de 30 % sur la résidence principale, dettes déductibles).",
+        "Cependant la phrase initiale « Non. L'IFI vise... le seuil d'assujettissement est 1 300 000 euros. » est source d'erreur : elle peut être interprétée comme niant que l'IFI se déclenche au‑delà de 1,3 M€. Il faut corriger la négation pour éviter une affirmation juridique erronée."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient l'essentiel : règle, condition, exception (abattement), exemple et vigilance (dettes).",
+        "Manque une précision mineure utile pour l'usager non‑spécialiste : indiquer que l'assiette exclut les actifs financiers non immobiliers (ex. placements financiers, cash, assurance‑vie non immobilier), conformément à la fiche 'erreurs fréquentes'. L'omission peut amener des confusions chez les non‑spécialistes."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne accroche et progression, mais la contradiction initiale affaiblit l'accroche des 2 premières secondes.",
+        "Le CTA est adapté, ton direct approprié. Suggestion : remplacer la négation erronée par une réponse claire et courte pour préserver la fluidité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Traduction en français naturel globalement bonne, phrases courtes adaptées à la lecture orale.",
+        "Mais la première réplique (« Non. L'IFI vise... ») est grammaticalement correcte mais factuellement ambiguë — nécessite reformulation pour éviter contradiction et incompréhension."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Contradiction mot à mot entre la question initiale et la réponse (« Non. ») non détectée avant diffusion — c'est une erreur factuelle critique qui doit être corrigée.",
+        "Vérifier aussi l'absence d'une mention explicite que les actifs financiers non immobiliers sont exclus, afin d'éviter une interprétation erronée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Explications simples et exemple utile. Toutefois, l'absence d'une phrase explicite rappelant que l'IFI ne concerne pas l'épargne financière peut laisser un non‑spécialiste dans le doute.",
+        "La contradiction initiale nuit à la réception pédagogique immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La première phrase « Non. » risque de faire décrocher l'audience dans les 2 premières secondes car elle contredit la logique de la question. Il faut une formulation percutante et sans ambiguïté dans les 1‑2 premières secondes pour maximiser la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inspire globalement confiance (sources citées, tonalité pédagogique).",
+        "La contradiction initiale affaiblit la crédibilité. Requiert correction pour préserver la confiance et éviter impressions d'imprécision."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Phrase d'ouverture contradictoire : le script commence par la question « Votre patrimoine immobilier net déclenche‑t‑il l'IFI au‑delà de 1 300 000 euros ? » puis répond « Non. L'IFI vise... le seuil d'assujettissement est 1 300 000 euros. ». Cela crée une contradiction factuelle et sème le doute chez le spectateur. Il faut répondre clairement « Oui, si > 1 300 000 € » ou reformuler la question.",
+    "juridique_fiscal : Le contenu juridique principal est correct (patrimoine immobilier net au 1er janvier, seuil 1 300 000 €, barème appliqué à partir de 800 000 €, abattement de 30 % sur la résidence principale, dettes déductibles).",
+    "juridique_fiscal : Cependant la phrase initiale « Non. L'IFI vise... le seuil d'assujettissement est 1 300 000 euros. » est source d'erreur : elle peut être interprétée comme niant que l'IFI se déclenche au‑delà de 1,3 M€. Il faut corriger la négation pour éviter une affirmation juridique erronée.",
+    "completude : Le script contient l'essentiel : règle, condition, exception (abattement), exemple et vigilance (dettes).",
+    "completude : Manque une précision mineure utile pour l'usager non‑spécialiste : indiquer que l'assiette exclut les actifs financiers non immobiliers (ex. placements financiers, cash, assurance‑vie non immobilier), conformément à la fiche 'erreurs fréquentes'. L'omission peut amener des confusions chez les non‑spécialistes.",
+    "editorial : Bonne accroche et progression, mais la contradiction initiale affaiblit l'accroche des 2 premières secondes.",
+    "editorial : Le CTA est adapté, ton direct approprié. Suggestion : remplacer la négation erronée par une réponse claire et courte pour préserver la fluidité.",
+    "formulation_professionnelle : Traduction en français naturel globalement bonne, phrases courtes adaptées à la lecture orale.",
+    "formulation_professionnelle : Mais la première réplique (« Non. L'IFI vise... ») est grammaticalement correcte mais factuellement ambiguë — nécessite reformulation pour éviter contradiction et incompréhension.",
+    "contre_verification_finale : Contradiction mot à mot entre la question initiale et la réponse (« Non. ») non détectée avant diffusion — c'est une erreur factuelle critique qui doit être corrigée.",
+    "contre_verification_finale : Vérifier aussi l'absence d'une mention explicite que les actifs financiers non immobiliers sont exclus, afin d'éviter une interprétation erronée.",
+    "pedagogie_client : Explications simples et exemple utile. Toutefois, l'absence d'une phrase explicite rappelant que l'IFI ne concerne pas l'épargne financière peut laisser un non‑spécialiste dans le doute.",
+    "pedagogie_client : La contradiction initiale nuit à la réception pédagogique immédiate.",
+    "retention_attention : La première phrase « Non. » risque de faire décrocher l'audience dans les 2 premières secondes car elle contredit la logique de la question. Il faut une formulation percutante et sans ambiguïté dans les 1‑2 premières secondes pour maximiser la rétention.",
+    "conversion_confiance : Le script inspire globalement confiance (sources citées, tonalité pédagogique).",
+    "conversion_confiance : La contradiction initiale affaiblit la crédibilité. Requiert correction pour préserver la confiance et éviter impressions d'imprécision."
+  ],
+  "recommendations": [
+    "Corriger immédiatement la contradiction d'ouverture : remplacer la réponse « Non. » par une formulation claire et factuelle. Par exemple : Question = « Votre patrimoine immobilier net déclenche‑t‑il l'IFI au‑delà de 1 300 000 € ? » Réponse = « Oui : l'IFI s'applique si le patrimoine immobilier net du foyer dépasse 1 300 000 € au 1er janvier. »",
+    "Ajouter une phrase brève précisant que l'IFI ne concerne que le patrimoine immobilier et exclut les placements financiers et liquidités, pour éviter une erreur fréquente (ex. : « L'IFI ne vise que l'immobilier : placements financiers et liquidités sont exclus. »).",
+    "Relire et ajuster la cadence orale après correction pour garder la durée estimée (~42 s) et assurer que chaque visuel/pictogramme correspond mot à mot à la phrase prononcée.",
+    "Faire une dernière lecture mot à mot (contrôle indépendant) pour s'assurer qu'aucune autre contradiction subsiste et que les chiffres et articles cités figurent correctement dans la description/legende."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-31:shorts:ifi_seuil_declenchement:1",
+  "script_path": "scripts/ifi/ifi_seuil_declenchement__shorts__a1__v4.md"
+}

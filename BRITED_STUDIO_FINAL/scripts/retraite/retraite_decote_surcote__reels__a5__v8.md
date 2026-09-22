@@ -1,0 +1,34 @@
+# Partir un trimestre trop tôt coûte à vie, pas une seule année
+**Plateforme** : Instagram Reels  
+**Durée estimée** : 40 secondes
+
+| # | Beat | Narration | Visuel | Texte écran |
+|--:|------|-----------|--------|-------------|
+| 1 | hook | Perdre 100 euros par mois à la retraite n’est pas temporaire. | Plan serré sur un relevé de pension avec une ligne en rouge indiquant une retenue mensuelle. | 100 € en moins, à vie |
+| 2 | question | Avez-vous tous vos trimestres ? OUI ☐  NON ☐ | Carton central avec la question ; deux cases OUI / NON apparentes. | Avez-vous tous vos trimestres ? OUI ☐  NON ☐ |
+| 3 | reponse | Si non, partir sans la durée d’assurance requise réduit votre pension à vie. | Page séparée, texte grand centré, visage inquiet en arrière-plan flouté. | Non = réduction à vie |
+| 4 | regle | À la liquidation, sans la durée d’assurance requise selon votre génération, une décote par trimestre manquant est appliquée définitivement au taux de la pension. | Schéma animé : deux chemins, ligne bleue taux plein, ligne rouge baisse dès liquidation ; pictogramme puzzle avec pièce manquante. | Décote définitive si trimestres manquent |
+| 5 | exemple | Exemple : Julie devait toucher 1600 euros ; avec un trimestre manquant elle perçoit 1500 euros — sur vingt ans cela fait 24000 euros de moins. | Portrait de Julie, somme 1600 € barrée remplacée par 1500 €, puis calcul animé montrant la perte cumulée. | Julie : 24 000 € perdus |
+| 6 | nuance | La décote cesse à l’âge du taux plein automatique (67 ans) mais la pension peut rester proratisée ; la complémentaire est souvent affectée aussi. | Écran de relevé de carrière avec loupe sur lignes manquantes ; main pointant « demander correction ». | Décote : vérifiez votre relevé |
+| 7 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | Main qui coche « à vérifier » sur une checklist retraite ; pictogramme calendrier centré et barre de progression en bas. | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+
+Perdre 100 euros par mois à la retraite n’est pas temporaire. Avez-vous tous vos trimestres ? OUI ☐  NON ☐ Si non, partir sans la durée d’assurance requise réduit votre pension à vie. À la liquidation, sans la durée d’assurance requise selon votre génération, une décote par trimestre manquant est appliquée définitivement au taux de la pension. Exemple : Julie devait toucher 1600 euros ; avec un trimestre manquant elle perçoit 1500 euros — sur vingt ans cela fait 24000 euros de moins. La décote cesse à l’âge du taux plein automatique (67 ans) mais la pension peut rester proratisée ; la complémentaire est souvent affectée aussi. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+## Légende
+
+Une décote appliquée à votre départ en retraite réduit vos revenus à vie, pas seulement une année. Vérifiez et corrigez votre relevé de carrière avant toute liquidation. Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.
+
+## Hashtags
+
+#patrimoinefrançais #retraite2024 #comprendreladecote #prépareraretraite #levéria
+
+## Sources
+
+- Code de la sécurité sociale, article L351-1 (taux plein) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047308748  
+- Code de la sécurité sociale, article D351-1-4 (surcote) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047621158  
+- Assurance retraite — décote et surcote — https://www.lassuranceretraite.fr
+
+## Mention
+
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

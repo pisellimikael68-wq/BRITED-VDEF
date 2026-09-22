@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 97,
+      "seconds": 35.9,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 97,
+        "seconds": 35.9,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "b385f6576f75211e480c401de9da4238fe9111925cdd3077bf26058e5db56189",
+      "adapted_hash": "b385f6576f75211e480c401de9da4238fe9111925cdd3077bf26058e5db56189",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Préciser, si l'on souhaite plus de rigueur, que l'abattement s'applique uniquement à la part ‘gains’ du rachat (le script l'indique mais pourrait le rendre plus explicite à l'oral).",
+    "Éventuellement rappeler très brièvement que le seuil de 150 000 € se rapporte aux primes versées sur le contrat pour l'application du taux de 7,5 %, pour éviter toute confusion chez les auditeurs peu familiers du vocabulaire.",
+    "Sur la diapo exemple, ajouter une micro-ligne indiquant que les prélèvements sociaux de 17,2 % restent dus même pour la part exonérée d'impôt sur le revenu, afin de prévenir une interprétation erronée chez les spectateurs."
+  ],
+  "reviewed_at": "2026-08-17T17:33:15",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:reels:assurance_vie_abattement_8ans:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_abattement_8ans__reels__a1.md"
+}

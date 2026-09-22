@@ -1,0 +1,24 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: security
+
+capabilities:
+
+  - detect_secrets
+  - detect_vulnerabilities
+  - validate_dependencies
+  - validate_permissions
+
+rules:
+
+  - no_hardcoded_secrets
+  - principle_of_least_privilege
+  - secure_defaults
+
+outputs:
+
+  - security_report
+  

@@ -1,0 +1,146 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.62,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (10 000 → 6 730 €) est correct et sourcé, mais la mention \"sans rémunération de l'épargne\" pourrait prêter à confusion pour un public non spécialiste : il serait utile d'ajouter brièvement (une phrase) que ce calcul ne tient pas compte d'intérêts ni d'impôts, et que tout rendement positif compense partiellement ou totalement l'érosion selon son niveau."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38 s) et le nombre de beats (7) sont plausibles mais serrés pour un Reels malin et lisible. Le beat 2 (OUI / NON) et la répétition de la question pourraient rallonger la lecture. Recommandation : vérifier que chaque texte écran reste lisible au moins 1,5–2 s et que la narration ne dépasse pas le débit verbal naturel pour 38 s."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement clair et naturel, mais l'expression \"le solde ne baisse pas, mais ce qu'il permet d'acheter diminue\" est un peu lourde en une seule phrase pour une lecture orale rapide. Suggestion : scinder en deux phrases courtes pour améliorer la diction et la compréhension à la première écoute."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'enchaînement logique est bon, cependant le script répète la question initiale (hook puis question) ce qui peut être redondant. Relever aussi que la légende à la fin reprend intégralement le contenu — utile mais potentiellement trop dense pour la description d'un Reels : proposer une version légende plus concise qui renvoie aux sources."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est correct mais pourrait être renforcé par une donnée chiffrée immédiate (par ex. « En 20 ans, 10 000 € = 6 730 € de pouvoir d'achat ») pour augmenter la curiosité dès les 2 premières secondes. Le visuel OUI / NON (beat 2) risque d'interrompre le flux si mal synchronisé; il faut s'assurer qu'il augmente la tension plutôt que de la disperser."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 102,
+      "seconds": 37.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 102,
+        "seconds": 37.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "completude : L'exemple chiffré (10 000 → 6 730 €) est correct et sourcé, mais la mention \"sans rémunération de l'épargne\" pourrait prêter à confusion pour un public non spécialiste : il serait utile d'ajouter brièvement (une phrase) que ce calcul ne tient pas compte d'intérêts ni d'impôts, et que tout rendement positif compense partiellement ou totalement l'érosion selon son niveau.",
+    "plateforme : La durée estimée (38 s) et le nombre de beats (7) sont plausibles mais serrés pour un Reels malin et lisible. Le beat 2 (OUI / NON) et la répétition de la question pourraient rallonger la lecture. Recommandation : vérifier que chaque texte écran reste lisible au moins 1,5–2 s et que la narration ne dépasse pas le débit verbal naturel pour 38 s.",
+    "formulation_professionnelle : Globalement clair et naturel, mais l'expression \"le solde ne baisse pas, mais ce qu'il permet d'acheter diminue\" est un peu lourde en une seule phrase pour une lecture orale rapide. Suggestion : scinder en deux phrases courtes pour améliorer la diction et la compréhension à la première écoute.",
+    "contre_verification_finale : L'enchaînement logique est bon, cependant le script répète la question initiale (hook puis question) ce qui peut être redondant. Relever aussi que la légende à la fin reprend intégralement le contenu — utile mais potentiellement trop dense pour la description d'un Reels : proposer une version légende plus concise qui renvoie aux sources.",
+    "retention_attention : Le hook est correct mais pourrait être renforcé par une donnée chiffrée immédiate (par ex. « En 20 ans, 10 000 € = 6 730 € de pouvoir d'achat ») pour augmenter la curiosité dès les 2 premières secondes. Le visuel OUI / NON (beat 2) risque d'interrompre le flux si mal synchronisé; il faut s'assurer qu'il augmente la tension plutôt que de la disperser."
+  ],
+  "recommendations": [
+    "Ajouter une courte précision orale ou écrite (une phrase) dans le beat 5 ou la légende : le calcul 10 000 / 1,02^20 suppose aucune rémunération et n'intègre ni intérêts, ni fiscalité.",
+    "Alléger la phrase explicative centrale en deux phrases courtes pour la diction : par exemple \"Le solde de votre compte ne baisse pas. Mais ce qu'il peut acheter diminue.\"",
+    "Revoir le timing visuel/voix pour garantir lisibilité : viser 1,5–2 s minimum par texte écran et tester la version parlée pour rester dans 38 s sans donner l'impression d'aller trop vite.",
+    "Renforcer le hook dans les 2 premières secondes avec un chiffre frappant (ex. raccourci de l'exemple chiffré) pour améliorer la rétention.",
+    "Raccourcir légèrement la légende destinée à Instagram : garder l'énoncé clé, l'exemple chiffré et la source, et proposer un lien vers un article plus long si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-29:reels:culture_inflation:1",
+  "script_path": "scripts/culture_financiere/culture_inflation__reels__a4__v4.md"
+}

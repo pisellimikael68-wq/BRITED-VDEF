@@ -1,0 +1,198 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique 'Durée maximale avec travaux ou achat en VEFA = 27 ans' avec 'a_verifier: true'. Le script affirme la possibilité de 27 ans sans marquer l'incertitude, ce qui rompt la fidélité stricte aux faits marqués comme à vérifier.",
+        "La fiche évoque une 'Part des dossiers pouvant déroger = 20%' marquée 'a_verifier: true' ; le script ne mentionne pas ce pourcentage ni sa vérifiabilité, omettant une information référencée comme potentiellement utile."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script dit correctement que la règle des 35 % est une recommandation du HCSF et que l'assurance est incluse, en accord avec l'article L631-2-1. Cependant la formule 'vingt-sept ans possible pour travaux ou VEFA' nécessite d'être explicitée ou sourcée car la fiche marque cette information 'à vérifier'.",
+        "La mention de la loi Lemoine (dans la fiche) et de la renégociation de l'assurance est pertinente, mais le script ne cite pas la référence Lemoine ni précise que l'encadrement de la dérogation reste à la discrétion des banques (le script dit 'appréciation de chaque établissement' — ok mais pourrait ajouter la nature non contraignante de la recommandation)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception et un exemple, mais n'indique pas explicitement que tous les crédits en cours (y compris consommation et renouvelable) entrent dans le calcul — il l'évoque plus loin mais pas dans la partie 'règle' où l'assuré s'attend à cette précision.",
+        "Ne mentionne pas la possible part de production susceptible de dérogation (valeur 20% indiquée dans la fiche mais marquée à vérifier) ou la variabilité entre établissements en fonction de leur consommation de marge de dérogation."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte le format court et l'ordre des séquences. Durée estimée 42 s paraît cohérente mais il faudrait vérifier le tempo réel pour respecter strictement 42 s en voix off (le script contient plusieurs phrases concatenées pouvant dépasser légèrement).",
+        "Le CTA 'lien dans ma bio' est adapté au format Shorts, mais la mention de prise de rendez-vous peut nécessiter conformité aux règles publicitaires de la plateforme selon contenu professionnel."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire et ton direct. Cependant la phrase 'Il fixe un repère : taux d'effort recommandé...' est dense — pour une compréhension immédiate d'un non-spécialiste, séparer assurance incluse et durée en deux courts segments améliorerait la clarté.",
+        "Le 'exemple 36%' est utile mais gagnerait à préciser rapidement que l'assurance et crédits en cours peuvent expliquer l'écart de pourcentage pour l'auditeur non spécialiste."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention légale en bas (Légende / Mention) qui protège contre le conseil individualisé. Toutefois, le CTA invitant à prendre rendez-vous pourrait être perçue comme incitative : recommander d'ajouter explicitement qu'il s'agira d'un bilan personnalisé et que les conseils seront adaptés éviterait toute ambiguïté.",
+        "Aucune affirmation non étayée majeure, mais la déclaration 'vingt-sept ans possible' requiert vérification avant publication pour éviter risque de désinformation."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais quelques formulations longues (ex. la phrase listant 35 %, assurance et durées) pourraient être raccourcies pour la diction en voice-over.",
+        "Le passage 'Réserve : la dérogation dépend de l'appréciation de chaque établissement ; l'assurance et tous les crédits en cours sont pris en compte.' est correct mais gagnerait en impact si scindé en deux phrases courtes."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Il y a une incohérence mineure entre la fiche (champ 'a_verifier' sur 27 ans et 20% dossiers dérogation) et le script qui affirme la possibilité de 27 ans sans réserve. La seconde lecture devrait corriger ou sourcer ces éléments.",
+        "Vérifier la durée estimée (42 s) en la lisant à vitesse normale — risque de dépassement si la diction est lente."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes proposés correspondent au propos. Observation : 'pictogramme HCSF' doit être non-propriétaire et neutre (ne pas utiliser de logo officiel sans autorisation).",
+        "Le schéma en segment 3 doit clairement indiquer que l'assurance est incluse dans le calcul du 35 % pour éviter toute ambiguïté visuelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise. Néanmoins, la densité informative est élevée : fusionner trop d'informations dans une seule séquence peut nuire à la compréhension en 42 s. Recommander de séparer l'information sur l'assurance et les crédits en cours en une phrase dédiée.",
+        "L'exemple est pertinent mais aurait plus d'impact si le visuel rappelait que l'assurance peut alourdir la mensualité (icone assurance proche du 36 %)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est adapté à un public non spécialiste mais emploie 'taux d'effort' sans définition explicite. Une brève parenthèse 'c'est la part des revenus consacrée aux mensualités' aiderait la compréhension immédiate.",
+        "Ne pas expliquer que 'crédits en cours' inclut les crédits conso et renouvelables peut laisser un non-spécialiste penser seulement aux crédits immobiliers."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est efficace ('La règle des trente-cinq pour cent est-elle une obligation ?') — bonne force initiale. Toutefois, la seconde phrase de la narration contient plusieurs éléments informatifs qui pourraient diluer l'attention ; scinder permettrait meilleur maintien de l'audience.",
+        "La durée estimée doit être validée en lecture à voix haute pour assurer que la vidéo ne dépasse pas la limite prévue et conserve le rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et mention des sources renforcent la confiance. Néanmoins, l'omission de la mention 'à vérifier' pour le point des 27 ans et l'absence de référence explicite à la possibilité limitée de dérogation (pourcentage ou critère) affaiblissent légèrement la précision perçue.",
+        "Le CTA est adapté mais pourrait être perçu comme commercial — ajouter 'bilan gratuit' ou préciser la nature du rendez-vous si applicable aiderait la transparence."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique 'Durée maximale avec travaux ou achat en VEFA = 27 ans' avec 'a_verifier: true'. Le script affirme la possibilité de 27 ans sans marquer l'incertitude, ce qui rompt la fidélité stricte aux faits marqués comme à vérifier.",
+    "source : La fiche évoque une 'Part des dossiers pouvant déroger = 20%' marquée 'a_verifier: true' ; le script ne mentionne pas ce pourcentage ni sa vérifiabilité, omettant une information référencée comme potentiellement utile.",
+    "juridique_fiscal : Le script dit correctement que la règle des 35 % est une recommandation du HCSF et que l'assurance est incluse, en accord avec l'article L631-2-1. Cependant la formule 'vingt-sept ans possible pour travaux ou VEFA' nécessite d'être explicitée ou sourcée car la fiche marque cette information 'à vérifier'.",
+    "juridique_fiscal : La mention de la loi Lemoine (dans la fiche) et de la renégociation de l'assurance est pertinente, mais le script ne cite pas la référence Lemoine ni précise que l'encadrement de la dérogation reste à la discrétion des banques (le script dit 'appréciation de chaque établissement' — ok mais pourrait ajouter la nature non contraignante de la recommandation).",
+    "completude : Le script couvre la règle centrale, l'exception et un exemple, mais n'indique pas explicitement que tous les crédits en cours (y compris consommation et renouvelable) entrent dans le calcul — il l'évoque plus loin mais pas dans la partie 'règle' où l'assuré s'attend à cette précision.",
+    "completude : Ne mentionne pas la possible part de production susceptible de dérogation (valeur 20% indiquée dans la fiche mais marquée à vérifier) ou la variabilité entre établissements en fonction de leur consommation de marge de dérogation.",
+    "plateforme : Le script respecte le format court et l'ordre des séquences. Durée estimée 42 s paraît cohérente mais il faudrait vérifier le tempo réel pour respecter strictement 42 s en voix off (le script contient plusieurs phrases concatenées pouvant dépasser légèrement).",
+    "plateforme : Le CTA 'lien dans ma bio' est adapté au format Shorts, mais la mention de prise de rendez-vous peut nécessiter conformité aux règles publicitaires de la plateforme selon contenu professionnel.",
+    "editorial : Accroche claire et ton direct. Cependant la phrase 'Il fixe un repère : taux d'effort recommandé...' est dense — pour une compréhension immédiate d'un non-spécialiste, séparer assurance incluse et durée en deux courts segments améliorerait la clarté.",
+    "editorial : Le 'exemple 36%' est utile mais gagnerait à préciser rapidement que l'assurance et crédits en cours peuvent expliquer l'écart de pourcentage pour l'auditeur non spécialiste.",
+    "securite : Le script contient la mention légale en bas (Légende / Mention) qui protège contre le conseil individualisé. Toutefois, le CTA invitant à prendre rendez-vous pourrait être perçue comme incitative : recommander d'ajouter explicitement qu'il s'agira d'un bilan personnalisé et que les conseils seront adaptés éviterait toute ambiguïté.",
+    "securite : Aucune affirmation non étayée majeure, mais la déclaration 'vingt-sept ans possible' requiert vérification avant publication pour éviter risque de désinformation.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais quelques formulations longues (ex. la phrase listant 35 %, assurance et durées) pourraient être raccourcies pour la diction en voice-over.",
+    "formulation_professionnelle : Le passage 'Réserve : la dérogation dépend de l'appréciation de chaque établissement ; l'assurance et tous les crédits en cours sont pris en compte.' est correct mais gagnerait en impact si scindé en deux phrases courtes.",
+    "contre_verification_finale : Il y a une incohérence mineure entre la fiche (champ 'a_verifier' sur 27 ans et 20% dossiers dérogation) et le script qui affirme la possibilité de 27 ans sans réserve. La seconde lecture devrait corriger ou sourcer ces éléments.",
+    "contre_verification_finale : Vérifier la durée estimée (42 s) en la lisant à vitesse normale — risque de dépassement si la diction est lente.",
+    "coherence_pictogrammes : La plupart des pictogrammes proposés correspondent au propos. Observation : 'pictogramme HCSF' doit être non-propriétaire et neutre (ne pas utiliser de logo officiel sans autorisation).",
+    "coherence_pictogrammes : Le schéma en segment 3 doit clairement indiquer que l'assurance est incluse dans le calcul du 35 % pour éviter toute ambiguïté visuelle.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise. Néanmoins, la densité informative est élevée : fusionner trop d'informations dans une seule séquence peut nuire à la compréhension en 42 s. Recommander de séparer l'information sur l'assurance et les crédits en cours en une phrase dédiée.",
+    "densite_editoriale : L'exemple est pertinent mais aurait plus d'impact si le visuel rappelait que l'assurance peut alourdir la mensualité (icone assurance proche du 36 %).",
+    "pedagogie_client : Le script est adapté à un public non spécialiste mais emploie 'taux d'effort' sans définition explicite. Une brève parenthèse 'c'est la part des revenus consacrée aux mensualités' aiderait la compréhension immédiate.",
+    "pedagogie_client : Ne pas expliquer que 'crédits en cours' inclut les crédits conso et renouvelables peut laisser un non-spécialiste penser seulement aux crédits immobiliers.",
+    "retention_attention : Le hook est efficace ('La règle des trente-cinq pour cent est-elle une obligation ?') — bonne force initiale. Toutefois, la seconde phrase de la narration contient plusieurs éléments informatifs qui pourraient diluer l'attention ; scinder permettrait meilleur maintien de l'audience.",
+    "retention_attention : La durée estimée doit être validée en lecture à voix haute pour assurer que la vidéo ne dépasse pas la limite prévue et conserve le rythme.",
+    "conversion_confiance : Ton professionnel et mention des sources renforcent la confiance. Néanmoins, l'omission de la mention 'à vérifier' pour le point des 27 ans et l'absence de référence explicite à la possibilité limitée de dérogation (pourcentage ou critère) affaiblissent légèrement la précision perçue.",
+    "conversion_confiance : Le CTA est adapté mais pourrait être perçu comme commercial — ajouter 'bilan gratuit' ou préciser la nature du rendez-vous si applicable aiderait la transparence."
+  ],
+  "recommendations": [
+    "Marquer clairement dans la narration que la possibilité d'un crédit sur 27 ans pour travaux/VEFA est indiquée dans la fiche mais nécessite vérification : par exemple, dire 'jusqu'à 25 ans — et parfois 27 ans pour travaux ou VEFA selon les cas (information à vérifier)'.",
+    "Ajouter très brièvement la définition de 'taux d'effort' pour un non-spécialiste (ex. 'la part de vos revenus consacrée aux mensualités').",
+    "Préciser que tous les crédits en cours (y compris consommation et renouvelable) entrent dans le calcul, et placer cette précision immédiatement après l'affirmation sur l'assurance incluse.",
+    "Éviter d'affirmer des chiffres marqués 'a_verifier' dans la fiche sans sourcer : soit les retirer du script, soit les présenter comme conditionnels/à vérifier.",
+    "Scinder en phrases plus courtes la séquence énumérant 35 %, assurance et durées pour faciliter la diction et tenir la durée de 42 s. Faire une répétition à voix haute pour valider le timing.",
+    "Pour les pictogrammes, n'utiliser aucun logo officiel du HCSF sans autorisation ; préférer une icône neutre 'conseil financier' et s'assurer que l'icône d'assurance soit clairement liée au chiffre 35 % dans le visuel.",
+    "Dans le CTA, ajouter une courte mention garantissant l'absence de conseil personnalisé dans la vidéo et préciser la nature du rendez-vous (bilan/consultation) pour éviter impression commerciale trop directe."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-12:shorts:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__shorts__a3__v3.md"
+}

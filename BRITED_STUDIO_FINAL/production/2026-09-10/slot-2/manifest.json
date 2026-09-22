@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-10",
+  "slot": 2,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-10:shorts:immobilier_achat_couple_non_marie:1",
+      "platform": "shorts",
+      "title": "Acheter à deux sans être mariés : comment protéger chacun ?",
+      "script": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v14.md",
+      "status": "blocked",
+      "warnings": [
+        "Validation humaine du script absente"
+      ]
+    },
+    {
+      "publication_id": "2026-09-10:reels:immobilier_achat_couple_non_marie:1",
+      "platform": "reels",
+      "title": "Acheter à deux sans être mariés",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/immobilier/immobilier_achat_couple_non_marie__reels__a1__v11.md",
+      "status": "blocked",
+      "audit": {
+        "ok": false,
+        "score": 8.0,
+        "words": 158,
+        "seconds": 58.5,
+        "errors": [
+          "Face caméra : phrase trop longue pour un souffle naturel (40 mots, maximum 35)"
+        ],
+        "warnings": []
+      },
+      "warnings": [
+        "Face caméra : phrase trop longue pour un souffle naturel (40 mots, maximum 35)"
+      ]
+    },
+    {
+      "publication_id": "2026-09-10:tiktok:immobilier_achat_couple_non_marie:1",
+      "platform": "tiktok",
+      "title": "Acheter à deux sans être mariés",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/immobilier/immobilier_achat_couple_non_marie__reels__a1__v11.md",
+      "status": "blocked",
+      "audit": {
+        "ok": false,
+        "score": 8.0,
+        "words": 158,
+        "seconds": 58.5,
+        "errors": [
+          "Face caméra : phrase trop longue pour un souffle naturel (40 mots, maximum 35)"
+        ],
+        "warnings": []
+      },
+      "warnings": [
+        "Face caméra : phrase trop longue pour un souffle naturel (40 mots, maximum 35)"
+      ]
+    }
+  ]
+}

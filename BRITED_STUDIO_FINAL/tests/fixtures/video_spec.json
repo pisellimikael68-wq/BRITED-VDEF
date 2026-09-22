@@ -1,0 +1,13 @@
+{
+  "platform": "tiktok",
+  "title": "Test BRITED",
+  "header": "Test BRITED",
+  "serie": "juridique",
+  "disclaimer": "Information générale",
+  "beats": [
+    {"id": "hook", "narration": "Votre épargne est-elle vraiment personnelle ?", "visual": "épargne"},
+    {"id": "question", "narration": "Selon vous, ces sommes sont-elles communes ?", "visual": "mariage"},
+    {"id": "reponse", "narration": "Non, pas forcément.", "visual": "réponse"},
+    {"id": "cta", "narration": "Commentez, partagez et abonnez-vous.", "visual": "actions"}
+  ]
+}

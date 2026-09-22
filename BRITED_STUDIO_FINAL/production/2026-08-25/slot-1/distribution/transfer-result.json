@@ -1,0 +1,20 @@
+{
+  "safety": "no_publication",
+  "instagram": {
+    "mode": "local_locked",
+    "transferred": false,
+    "reason": "L’API Instagram ne propose pas de brouillon Reels."
+  },
+  "tiktok": {
+    "mode": "inbox_draft",
+    "publish_id": "v_inbox_file~v2.7676806502946146326",
+    "http_status": 201,
+    "published": false
+  },
+  "youtube": {
+    "mode": "private",
+    "video_id": "S4-H_OzUKWc",
+    "privacy_status": "private",
+    "published": false
+  }
+}

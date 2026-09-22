@@ -1,0 +1,187 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ est globalement respectée mais le script ne mentionne pas explicitement l'article 974 dans la narration visuelle (il est dans les sources mais la ligne parlée indique seulement « (article 974) » ; pour une fidélité stricte, il faut s'assurer que la mention orale et le texte écran reprennent exactement « article 974, CGI »).",
+        "La fiche indique le retraitement des prêts in fine et l'encadrement des prêts entre proches : la narration cite bien ces éléments mais n'indique pas que le prêt in fine est retraité « comme s'il s'amortissait linéairement sur sa durée » (la version présente dit « retraité linéairement » — formulation acceptable mais moins précise que la source)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'assertion principale est exacte : seules les dettes existantes au 1er janvier, à la charge personnelle et affectées à un bien taxable sont déductibles (article 974). Cependant, la formulation « Un crédit qui a financé la résidence principale est déductible » sans préciser immédiatement l'effet de l'abattement de 30 % peut entraîner une lecture incomplète ; le script le précise ensuite mais il convient de lier clairement les deux phrases pour éviter toute interprétation erronée.",
+        "La mention du seuil de 1 300 000 € est correcte, mais l'explication supplémentaire présente dans la fiche (« une fois franchi, le barème s'applique à partir de 800 000 € ») n'apparaît pas dans le script. Absence d'une précision juridique utile mais pas contradictoire."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est utile mais inachevé : il indique maison 500 000 €, base taxable 350 000 € et dette 200 000 € → « seule la part liée à la fraction taxable est déductible » sans chiffrer la part déductible. Pour la complétude pédagogique il faudrait indiquer le calcul numérique (200 000 × 350/500 = 140 000 € déductibles).",
+        "Le script ne rappelle pas explicitement que les prêts consentis par une société contrôlée peuvent être exclus (la fiche le mentionne)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : le script contient 7 beats et une narration continue qui pourrait dépasser 38 s en lecture naturelle. Il faut vérifier le rythme parlé (vitesse) et peut-être réduire le texte pour tenir 38 s sur Reels.",
+        "L'ordre des séquences est respecté mais l'affichage simultané de textes écran longs (conditions + exemple chiffré) peut surcharger l'espace visuel d'un format court ; recommander fractionner l'affichage ou simplifier le texte écran pour lisibilité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la formulation « Mon crédit immobilier réduit‑t‑il mon IFI ? OUI / NON » suivie de « Oui, parfois. » crée un léger anti-climax ; proposer reformulation pour renforcer curiosité (« Mon crédit immobilier réduit‑t‑il mon IFI ? Peut‑être — voici quand »).",
+        "CTA clair mais formule « lien dans ma bio » est adaptée à Instagram ; vérifier conformité aux règles de la plateforme pour prise de rendez‑vous (pas de promesse de résultat)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase « Seules sont déductibles les dettes au 1er janvier, à votre charge personnelle et affectées à un bien immobilier taxable (article 974). » est correcte mais lourde à l'oral ; proposer scinder en deux phrases plus naturelles pour la lecture.",
+        "Le texte contient des anglicismes/typos mineurs potentiels (« base taxable 350 000 €; dette 200 000 € → seule la part liée à la fraction taxable est déductible. » : remplacer le point-virgule par une virgule pour fluidité)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Transitions : la transition entre l'exemple chiffré et la nuance est un peu brutale ; ajouter une courte phrase de liaison faciliterait la compréhension (« Et attention : » ou « À noter toutefois : »).",
+        "Prononciation : la lecture continue comporte parenthèses et signes; recommander adaptation orale exacte pour éviter hésitations (par ex. prononcer « article 974 du CGI »)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 1 : pictogramme prêt bancaire OK. Beat 2 : gros carton OUI/NON clair. Beat 4 : schéma bien → dette affectée au bien : vérifier que la flèche indique bien « dette affectée au bien taxable » et non l'inverse.",
+        "Beat 5 : 'Illustration maison 500 k€ avec -30% et barre de dette proportionnelle' — le visuel doit clairement montrer que l'abattement réduit la base avant d'appliquer la dette proportionnelle ; sinon risque d'ambiguïté. Préciser à l'infographiste."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (dettes déductibles) et conserve la règle centrale, l'exception et un exemple utile — cependant le contenu tente d'inclure aussi le plafonnement 75 % et le seuil 1 300 000 € : dans 38 s cela alourdit la fin. Recommander réduire ou séparer en un second micro‑clip « seuil & plafonnement » pour éviter surcharge."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste, mais l'exemple chiffré gagnerait à expliciter le calcul numérique final (part déductible = 140 000 €) pour que l'auditeur retienne l'application pratique.",
+        "Le terme « affectée » peut mériter une très brève clarification orale (« affectée = liée officiellement au bien, mentionnée ou justifiable par le contrat ») pour éviter incompréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont correctes mais pourraient être resserrées : la phrase actuelle est un peu longue pour 2 s. Proposer une version plus percutante en 1–2 mots (« Votre prêt réduit‑il votre IFI ? ») avant d'enchaîner.",
+        "La progression est logique mais la fin énumérative (« Prêt in fine ..., certains prêts familiaux ..., seuil ... , plafonnement ... ») risque de diluer la rétention ; prioriser 1 nuance clé et inviter à approfondir en rendez‑vous ou second clip."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ est globalement respectée mais le script ne mentionne pas explicitement l'article 974 dans la narration visuelle (il est dans les sources mais la ligne parlée indique seulement « (article 974) » ; pour une fidélité stricte, il faut s'assurer que la mention orale et le texte écran reprennent exactement « article 974, CGI »).",
+    "source : La fiche indique le retraitement des prêts in fine et l'encadrement des prêts entre proches : la narration cite bien ces éléments mais n'indique pas que le prêt in fine est retraité « comme s'il s'amortissait linéairement sur sa durée » (la version présente dit « retraité linéairement » — formulation acceptable mais moins précise que la source).",
+    "juridique_fiscal : L'assertion principale est exacte : seules les dettes existantes au 1er janvier, à la charge personnelle et affectées à un bien taxable sont déductibles (article 974). Cependant, la formulation « Un crédit qui a financé la résidence principale est déductible » sans préciser immédiatement l'effet de l'abattement de 30 % peut entraîner une lecture incomplète ; le script le précise ensuite mais il convient de lier clairement les deux phrases pour éviter toute interprétation erronée.",
+    "juridique_fiscal : La mention du seuil de 1 300 000 € est correcte, mais l'explication supplémentaire présente dans la fiche (« une fois franchi, le barème s'applique à partir de 800 000 € ») n'apparaît pas dans le script. Absence d'une précision juridique utile mais pas contradictoire.",
+    "completude : L'exemple chiffré est utile mais inachevé : il indique maison 500 000 €, base taxable 350 000 € et dette 200 000 € → « seule la part liée à la fraction taxable est déductible » sans chiffrer la part déductible. Pour la complétude pédagogique il faudrait indiquer le calcul numérique (200 000 × 350/500 = 140 000 € déductibles).",
+    "completude : Le script ne rappelle pas explicitement que les prêts consentis par une société contrôlée peuvent être exclus (la fiche le mentionne).",
+    "plateforme : Durée estimée 38 s : le script contient 7 beats et une narration continue qui pourrait dépasser 38 s en lecture naturelle. Il faut vérifier le rythme parlé (vitesse) et peut-être réduire le texte pour tenir 38 s sur Reels.",
+    "plateforme : L'ordre des séquences est respecté mais l'affichage simultané de textes écran longs (conditions + exemple chiffré) peut surcharger l'espace visuel d'un format court ; recommander fractionner l'affichage ou simplifier le texte écran pour lisibilité.",
+    "editorial : Accroche efficace mais la formulation « Mon crédit immobilier réduit‑t‑il mon IFI ? OUI / NON » suivie de « Oui, parfois. » crée un léger anti-climax ; proposer reformulation pour renforcer curiosité (« Mon crédit immobilier réduit‑t‑il mon IFI ? Peut‑être — voici quand »).",
+    "editorial : CTA clair mais formule « lien dans ma bio » est adaptée à Instagram ; vérifier conformité aux règles de la plateforme pour prise de rendez‑vous (pas de promesse de résultat).",
+    "formulation_professionnelle : Phrase « Seules sont déductibles les dettes au 1er janvier, à votre charge personnelle et affectées à un bien immobilier taxable (article 974). » est correcte mais lourde à l'oral ; proposer scinder en deux phrases plus naturelles pour la lecture.",
+    "formulation_professionnelle : Le texte contient des anglicismes/typos mineurs potentiels (« base taxable 350 000 €; dette 200 000 € → seule la part liée à la fraction taxable est déductible. » : remplacer le point-virgule par une virgule pour fluidité).",
+    "contre_verification_finale : Transitions : la transition entre l'exemple chiffré et la nuance est un peu brutale ; ajouter une courte phrase de liaison faciliterait la compréhension (« Et attention : » ou « À noter toutefois : »).",
+    "contre_verification_finale : Prononciation : la lecture continue comporte parenthèses et signes; recommander adaptation orale exacte pour éviter hésitations (par ex. prononcer « article 974 du CGI »).",
+    "coherence_pictogrammes : Beat 1 : pictogramme prêt bancaire OK. Beat 2 : gros carton OUI/NON clair. Beat 4 : schéma bien → dette affectée au bien : vérifier que la flèche indique bien « dette affectée au bien taxable » et non l'inverse.",
+    "coherence_pictogrammes : Beat 5 : 'Illustration maison 500 k€ avec -30% et barre de dette proportionnelle' — le visuel doit clairement montrer que l'abattement réduit la base avant d'appliquer la dette proportionnelle ; sinon risque d'ambiguïté. Préciser à l'infographiste.",
+    "densite_editoriale : La vidéo traite un seul angle (dettes déductibles) et conserve la règle centrale, l'exception et un exemple utile — cependant le contenu tente d'inclure aussi le plafonnement 75 % et le seuil 1 300 000 € : dans 38 s cela alourdit la fin. Recommander réduire ou séparer en un second micro‑clip « seuil & plafonnement » pour éviter surcharge.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste, mais l'exemple chiffré gagnerait à expliciter le calcul numérique final (part déductible = 140 000 €) pour que l'auditeur retienne l'application pratique.",
+    "pedagogie_client : Le terme « affectée » peut mériter une très brève clarification orale (« affectée = liée officiellement au bien, mentionnée ou justifiable par le contrat ») pour éviter incompréhension.",
+    "retention_attention : Les deux premières secondes (hook) sont correctes mais pourraient être resserrées : la phrase actuelle est un peu longue pour 2 s. Proposer une version plus percutante en 1–2 mots (« Votre prêt réduit‑il votre IFI ? ») avant d'enchaîner.",
+    "retention_attention : La progression est logique mais la fin énumérative (« Prêt in fine ..., certains prêts familiaux ..., seuil ... , plafonnement ... ») risque de diluer la rétention ; prioriser 1 nuance clé et inviter à approfondir en rendez‑vous ou second clip."
+  ],
+  "recommendations": [
+    "Oral et texte écran : mentionner explicitement « article 974 du CGI » à l'oral et sur le texte écran pour parfaite fidélité à la source.",
+    "Exemple chiffré : ajouter le calcul final chiffré pour la part déductible (200 000 × 350/500 = 140 000 € déductibles) sur le texte écran et facultativement à l'oral en une phrase courte.",
+    "Clarifier la phrase sur le prêt in fine : dire « Le prêt in fine est retraité comme s'il s'amortissait linéairement sur sa durée » pour coller au libellé de la doctrine.",
+    "Rythme et durée : réduire légèrement le texte d'accroche (première phrase) et alléger la liste des nuances à la fin (garder 1 ou 2 points clés) afin de garantir une lecture naturelle en ~38 s.",
+    "Pictogrammes/infographie : s'assurer que le schéma montre explicitement que l'abattement de 30 % s'applique avant de calculer la fraction de dette déductible, et que la flèche illustre bien « dette affectée → bien taxable ». Fournir ces consignes à l'infographiste.",
+    "Formulation orale : scinder la phrase sur les conditions en deux phrases courtes et remplacer 'affectées' par 'liées officiellement au bien (mention contractuelle ou justificatif)' pour la compréhension d'un non-spécialiste.",
+    "Option éditoriale : envisager de retirer le détail du plafonnement 75 % et du seuil 1 300 000 € de ce clip court et prévoir un second clip « Seuils et plafonnements IFI » pour ne pas surcharger le format.",
+    "Corriger ponctuation et fluidité : remplacer le point‑virgule dans l'exemple par une virgule et vérifier la lecture à voix haute pour éviter hésitations sur les parenthèses et articles."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-31:reels:ifi_dettes_deductibles:1",
+  "script_path": "scripts/ifi/ifi_dettes_deductibles__reels__a5__v2.md"
+}

@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "9ca76da32125cb00c9b77fc63c476cea4a47c8e7cf40d8f83c1c14afd9fcdaca",
+      "adapted_hash": "9ca76da32125cb00c9b77fc63c476cea4a47c8e7cf40d8f83c1c14afd9fcdaca",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 40,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Pour renforcer la valeur pédagogique sans alourdir le script, envisagez d'ajouter une phrase très brève (écran ou voix) rappelant que la formulation (« mon épouse » vs « mon épouse Madame X ») peut avoir des conséquences pratiques ; c'est utile mais non indispensable pour l'angle choisi.",
+    "Conserver la légende actuelle (pas de conseil personnalisé) et les références légales visibles en description pour garantir traçabilité et conformité."
+  ],
+  "reviewed_at": "2026-08-17T15:25:46",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-26:tiktok:assurance_vie_clause_beneficiaire:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_clause_beneficiaire__tiktok__a1__v3.md"
+}

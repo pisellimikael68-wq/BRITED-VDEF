@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "threshold_strictly_above": 9.5,
+  "overall": 9.8,
+  "criteria": {
+    "Accroche dans les premières secondes": 9.8,
+    "Rétention et rythme": 9.7,
+    "Lisibilité mobile": 9.8,
+    "Synchronisation texte et voix": 10.0,
+    "Narration visuelle": 9.7,
+    "Interaction question-réponse": 9.8,
+    "Valeur enregistrable": 9.7,
+    "Potentiel de partage privé": 9.7,
+    "CTA Instagram": 9.8,
+    "Sécurité et intégrité": 10.0
+  },
+  "evidence": {
+    "duration": 35.5,
+    "resolution": "1080x1920",
+    "missing_words": 0,
+    "pages": 7,
+    "renderer": "BRITED deterministic renderer v2"
+  }
+}

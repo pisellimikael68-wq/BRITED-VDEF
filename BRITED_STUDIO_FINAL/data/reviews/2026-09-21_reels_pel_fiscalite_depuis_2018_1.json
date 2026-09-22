@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration respecte globalement les faits de la fiche source, mais une phrase du script — «Le prélèvement forfaitaire unique est de 30% pour ces plans» — pourrait être perçue comme incomplète : le PFU de 30% correspond à 12,8% d'impôt sur le revenu + 17,2% de prélèvements sociaux. La fiche source cite CGI art. 200 A, mais le script ne précise pas la composition du taux.",
+        "La mention «prime d'État supprimée» est correcte pour les plans ouverts depuis 2018, mais l'énoncé pourrait prêter à confusion si l'on ne précise pas que certains PEL ouverts avant 2018 peuvent toujours bénéficier d'une prime sous conditions (exception non rappelée)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'affirmation «intérêts soumis au prélèvement forfaitaire unique dès la première année» est exacte pour les plans ouverts depuis 2018, toutefois l'option pour l'imposition au barème de l'impôt sur le revenu (avec l'application des prélèvements sociaux) n'est pas mentionnée : selon les règles fiscales, il est possible d'opter pour le barème dans certains cas (ce point mérite une vérification/mention claire).",
+        "La référence aux articles est fournie en sources mais le script omet d'indiquer la possibilité d'exceptions liées à des situations particulières (ex. imposition différente pour anciens PEL)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale, la condition d'ancienneté et l'exemple, mais omet d'indiquer explicitement : (1) qu'il faut connaître la date d'ouverture et le taux du PEL avant de conseiller une clôture (la légende le rappelle mais le script principal ne l'affirme pas mot à mot), et (2) la durée minimale de 4 ans pour conserver certains avantages, qui figure dans les chiffres mais n'est dite que dans la légende et non dans la narration principale.",
+        "Absence d'une phrase brève rappelant que le contenu n'est pas un conseil personnalisé dans la narration Reels (présente seulement en légende)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée de 40 s semble compatible, mais la séquence comporte 7 beats avec textes denses — risque de surcharger la première moitié de la vidéo. Il faudrait simplifier une phrase ou répartir le texte visuel pour garantir lisibilité en 40s.",
+        "Le CTA 'lien dans ma bio' est adapté à Instagram Reels mais la formulation pourrait être plus directe et brève pour la contrainte temporelle (ex. ‘Prendre RDV via le lien en bio’)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace, mais le hook ‘Vous retrouvez un PEL ancien dans la famille ?’ et la question suivante sont proches — risquent de se heurter en rythme. Recommander d'allonger la pause entre hook et question ou de combiner.",
+        "Certaines phrases de la narration sont longues pour un format oral très court (ex. «Le droit à prêt subsiste, mais son taux dépend du taux du PEL et peut être moins intéressant que le marché.») : reformulation plus courte recommandée pour la diction et la mémorisation."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel et clair, mais quelques formulations peuvent être simplifiées pour l'oral (ex. remplacer «Le droit à prêt subsiste» par «Le droit au prêt existe toujours»).",
+        "Contrôle phrase par phrase : la phrase sur le plafond est correcte mais pourrait être intégrée plus naturellement (ex. «Plafond des versements : 61 200 €») pour éviter rupture de rythme."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Coherence question-réponse respectée, mais la recommandation 'Ne jamais conseiller de clôturer ou conserver un plan sans connaître son taux et sa date d'ouverture' est dans la fiche 'à ne pas dire' — la vidéo la rappelle partiellement en légende mais pas assez explicitement dans la narration. Ceci est important au plan de conformité.",
+        "Prononciation et enchaînements : certains beats textuels sont longs et risquent d'entraîner des coupes ou accélérations lors du tournage."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement pertinents, mais quelques précisions sont nécessaires : (1) 'pictogramme impôt/%' devrait illustrer clairement PFU (par ex. un document fiscal + 30%), (2) le pictogramme 'prêt + balance' pourrait être interprété comme avantage/risque ; recommander icônes distinctes pour 'droit au prêt' et pour 'taux potentiellement moins favorable'.",
+        "Éviter pictogrammes trop génériques (coffre/épargne) qui n'ajoutent pas d'information spécifique au PEL."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais inclut plusieurs données chiffrées et une nuance importante ; le rythme risque d'être serré. Recommander de supprimer un mot ou fractionner une beat (par ex. séparer plafond et irréversibilité en deux plans) pour préserver la clarté.",
+        "Le script mentionne l'exemple d'un PEL des années 2000 mais n'indique pas explicitement d'action claire à ce propos (vérifier la date et le taux) dans la narration principale."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible pour un non-spécialiste, mais le terme 'prélèvement forfaitaire unique' n'est pas expliqué (qu'est-ce que c'est ? que comprend le 30% ?) — une très courte précision faciliterait la compréhension du grand public.",
+        "La règle des 4 ans figure dans la fiche mais n'est pas mise en avant dans la narration principale, or c'est une information utile pour un non-spécialiste."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais le passage du hook à la question peut être resserré pour renforcer la curiosité. Le beat 3 et 4 sont denses et risquent de perdre l'attention si la vitesse de lecture est trop élevée.",
+        "Suggérer un micro-pause ou un effet visuel entre la déclaration fiscale et l'énoncé du PFU pour renforcer rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et sourcé, ce qui inspire confiance. Cependant, la mention de la légende qui évite le conseil personnalisé doit être audible ou très visible pour préserver la conformité (actuellement uniquement en légende détaillée).",
+        "Le CTA est bon mais pourrait être renforcé par une phrase qui rappelle la vérification indispensable (ex. ‘On vérifie ensemble la date et le taux de votre PEL’)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La narration respecte globalement les faits de la fiche source, mais une phrase du script — «Le prélèvement forfaitaire unique est de 30% pour ces plans» — pourrait être perçue comme incomplète : le PFU de 30% correspond à 12,8% d'impôt sur le revenu + 17,2% de prélèvements sociaux. La fiche source cite CGI art. 200 A, mais le script ne précise pas la composition du taux.",
+    "source : La mention «prime d'État supprimée» est correcte pour les plans ouverts depuis 2018, mais l'énoncé pourrait prêter à confusion si l'on ne précise pas que certains PEL ouverts avant 2018 peuvent toujours bénéficier d'une prime sous conditions (exception non rappelée).",
+    "juridique_fiscal : L'affirmation «intérêts soumis au prélèvement forfaitaire unique dès la première année» est exacte pour les plans ouverts depuis 2018, toutefois l'option pour l'imposition au barème de l'impôt sur le revenu (avec l'application des prélèvements sociaux) n'est pas mentionnée : selon les règles fiscales, il est possible d'opter pour le barème dans certains cas (ce point mérite une vérification/mention claire).",
+    "juridique_fiscal : La référence aux articles est fournie en sources mais le script omet d'indiquer la possibilité d'exceptions liées à des situations particulières (ex. imposition différente pour anciens PEL).",
+    "completude : Le script couvre la règle principale, la condition d'ancienneté et l'exemple, mais omet d'indiquer explicitement : (1) qu'il faut connaître la date d'ouverture et le taux du PEL avant de conseiller une clôture (la légende le rappelle mais le script principal ne l'affirme pas mot à mot), et (2) la durée minimale de 4 ans pour conserver certains avantages, qui figure dans les chiffres mais n'est dite que dans la légende et non dans la narration principale.",
+    "completude : Absence d'une phrase brève rappelant que le contenu n'est pas un conseil personnalisé dans la narration Reels (présente seulement en légende).",
+    "plateforme : La durée estimée de 40 s semble compatible, mais la séquence comporte 7 beats avec textes denses — risque de surcharger la première moitié de la vidéo. Il faudrait simplifier une phrase ou répartir le texte visuel pour garantir lisibilité en 40s.",
+    "plateforme : Le CTA 'lien dans ma bio' est adapté à Instagram Reels mais la formulation pourrait être plus directe et brève pour la contrainte temporelle (ex. ‘Prendre RDV via le lien en bio’).",
+    "editorial : Accroche efficace, mais le hook ‘Vous retrouvez un PEL ancien dans la famille ?’ et la question suivante sont proches — risquent de se heurter en rythme. Recommander d'allonger la pause entre hook et question ou de combiner.",
+    "editorial : Certaines phrases de la narration sont longues pour un format oral très court (ex. «Le droit à prêt subsiste, mais son taux dépend du taux du PEL et peut être moins intéressant que le marché.») : reformulation plus courte recommandée pour la diction et la mémorisation.",
+    "formulation_professionnelle : Le français est globalement naturel et clair, mais quelques formulations peuvent être simplifiées pour l'oral (ex. remplacer «Le droit à prêt subsiste» par «Le droit au prêt existe toujours»).",
+    "formulation_professionnelle : Contrôle phrase par phrase : la phrase sur le plafond est correcte mais pourrait être intégrée plus naturellement (ex. «Plafond des versements : 61 200 €») pour éviter rupture de rythme.",
+    "contre_verification_finale : Coherence question-réponse respectée, mais la recommandation 'Ne jamais conseiller de clôturer ou conserver un plan sans connaître son taux et sa date d'ouverture' est dans la fiche 'à ne pas dire' — la vidéo la rappelle partiellement en légende mais pas assez explicitement dans la narration. Ceci est important au plan de conformité.",
+    "contre_verification_finale : Prononciation et enchaînements : certains beats textuels sont longs et risquent d'entraîner des coupes ou accélérations lors du tournage.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement pertinents, mais quelques précisions sont nécessaires : (1) 'pictogramme impôt/%' devrait illustrer clairement PFU (par ex. un document fiscal + 30%), (2) le pictogramme 'prêt + balance' pourrait être interprété comme avantage/risque ; recommander icônes distinctes pour 'droit au prêt' et pour 'taux potentiellement moins favorable'.",
+    "coherence_pictogrammes : Éviter pictogrammes trop génériques (coffre/épargne) qui n'ajoutent pas d'information spécifique au PEL.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais inclut plusieurs données chiffrées et une nuance importante ; le rythme risque d'être serré. Recommander de supprimer un mot ou fractionner une beat (par ex. séparer plafond et irréversibilité en deux plans) pour préserver la clarté.",
+    "densite_editoriale : Le script mentionne l'exemple d'un PEL des années 2000 mais n'indique pas explicitement d'action claire à ce propos (vérifier la date et le taux) dans la narration principale.",
+    "pedagogie_client : Globalement compréhensible pour un non-spécialiste, mais le terme 'prélèvement forfaitaire unique' n'est pas expliqué (qu'est-ce que c'est ? que comprend le 30% ?) — une très courte précision faciliterait la compréhension du grand public.",
+    "pedagogie_client : La règle des 4 ans figure dans la fiche mais n'est pas mise en avant dans la narration principale, or c'est une information utile pour un non-spécialiste.",
+    "retention_attention : Les deux premières secondes sont bonnes mais le passage du hook à la question peut être resserré pour renforcer la curiosité. Le beat 3 et 4 sont denses et risquent de perdre l'attention si la vitesse de lecture est trop élevée.",
+    "retention_attention : Suggérer un micro-pause ou un effet visuel entre la déclaration fiscale et l'énoncé du PFU pour renforcer rétention.",
+    "conversion_confiance : Le ton est sérieux et sourcé, ce qui inspire confiance. Cependant, la mention de la légende qui évite le conseil personnalisé doit être audible ou très visible pour préserver la conformité (actuellement uniquement en légende détaillée).",
+    "conversion_confiance : Le CTA est bon mais pourrait être renforcé par une phrase qui rappelle la vérification indispensable (ex. ‘On vérifie ensemble la date et le taux de votre PEL’)."
+  ],
+  "recommendations": [
+    "Préciser brièvement dans la narration que le PFU de 30% se compose de 12,8% d'impôt sur le revenu et 17,2% de prélèvements sociaux, ou ajouter un texte écran court qui l'explique.",
+    "Ajouter une phrase très courte dans la narration principale rappelant qu'il faut connaître la date d'ouverture et le taux du PEL avant toute décision («Vérifiez la date d’ouverture et le taux avant de clôturer.»).",
+    "Intégrer la durée minimale de 4 ans comme point audible dans la narration (ex. «Attention : retirer avant 4 ans dégrade la rémunération et fait perdre le droit au prêt.») plutôt que de la limiter à la légende.",
+    "Alléger et raccourcir deux phrases pour l'oralité : (a) simplifier la phrase sur le droit au prêt ; (b) intégrer le plafond en une phrase courte («Plafond des versements : 61 200 €»).",
+    "Adapter les pictogrammes : préciser visuellement PFU (document fiscal + 30%), distinguer icônes pour 'droit au prêt' et 'taux potentiellement moins avantageux', et éviter pictogrammes trop génériques.",
+    "Réduire légèrement le contenu de l’un des beats (par ex. séparer le beat 5 en deux plans) pour respecter la lisibilité à l'écran en 40 s.",
+    "Rendre le CTA plus direct et orienté vérification (ex. «Prenez rendez‑vous via le lien en bio pour qu’on vérifie la date et le taux de votre PEL»).",
+    "Ajouter une mention audible ou un texte écran court précisant que la vidéo est de la pédagogie générale et ne constitue pas un conseil personnalisé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-21:reels:pel_fiscalite_depuis_2018:1",
+  "script_path": "scripts/pel/pel_fiscalite_depuis_2018__reels__a1__v4.md"
+}

@@ -1,0 +1,68 @@
+{
+  "version": "finale_validee_2026-08-19",
+  "source_verite": "Fiches conceptuelles locales BRITED certifiées",
+  "cadence": {"publications_par_jour": 2, "jours_par_semaine": 7, "creneaux": ["10:00", "17:00"]},
+  "series": {
+    "fiscalite": {"nom": "Fiscalité", "couleur": "#6F4E37", "pictogramme": "pourcentage"},
+    "immobilier": {"nom": "Immobilier", "couleur": "#C96F4A", "pictogramme": "maison"},
+    "juridique": {"nom": "Juridique", "couleur": "#D99A2B", "pictogramme": "balance"},
+    "finance": {"nom": "Finance", "couleur": "#2457D6", "pictogramme": "courbe"}
+  },
+  "principes_visuels": [
+    "Format vertical 9:16, fond chaud et identité neutre sans mention BRITED dans la vidéo",
+    "Texte central, grand et lisible, sans libellés internes Hook, Règle ou domaine",
+    "Apparition progressive fluide, synchronisée mot à mot avec la voix, sans effet saccadé",
+    "Transitions de pages souples avec respiration structurante de 0,9 seconde",
+    "Dessins et pictogrammes sélectionnés dans la bibliothèque vectorielle locale Lucide, contextualisés, diversifiés, présentables et cohérents avec chaque page, jamais superposés au texte, entre eux, ni coupés ; un contrôle visuel indépendant est bloquant",
+    "Barre de progression uniquement en bas, aucune barre supérieure, aucun crayon ni demi-cercle décoratif",
+    "Question affichée et lue avant la réponse ; options cohérentes puis réponse sur la page suivante",
+    "Dernière page uniquement après la fin de la narration, sans synthèse",
+    "Utiliser exclusivement le tiret standard - dans les mots composés ; bannir les tirets insécables ou exotiques",
+    "Afficher OUI et NON uniquement dans les deux cases ; ne jamais les répéter dans la question ni les prononcer",
+    "Conserver chaque beat narratif cohérent sur une seule page ; adapter automatiquement la police, le cadre et le centrage",
+    "Écrire et prononcer article en toutes lettres dans la narration, jamais art.",
+    "CTA pédagogique identique sur les trois plateformes : Le saviez-vous ? puis trois cadres centrés Commenter, Partager et Abonnez-vous, sans et ni répétition, avec Pour mieux comprendre et protéger votre patrimoine en bas",
+    "CTA rendez-vous : identité obligatoire entre le texte oral et le texte visuel",
+    "Contrôle oral exhaustif obligatoire : fréquence homogène à 24 kHz, débruitage, mesure du bruit résiduel, retranscription locale Whisper Large Turbo phrase par phrase, contrôle des mots juridiques porteurs de sens, des répétitions, hallucinations, microcoupures et divergences ; toute phrase refusée est régénérée sans réutiliser un cache ancien",
+    "Prononcer tous les nombres et références en français naturel et dans leur entièreté, jamais chiffre par chiffre ; conserver les chiffres à l'écran",
+    "Utiliser la même empreinte vocale, la même intonation et un débit légèrement accéléré identique sur les trois plateformes, sans recalage de vitesse propre à une plateforme ; resynchroniser chaque mot après toute modification du débit",
+    "Soumettre chaque phrase à un agent de formulation professionnelle puis à un second agent de contre-vérification indépendante",
+    "Interdire dans l'oral les libellés internes ou télégraphiques Court :, Règle :, Question : et Réponse :",
+    "Centrer géométriquement les trois cadres du CTA pédagogique entre Le saviez-vous ? et le cartouche patrimonial",
+    "Traiter un seul angle et une seule règle principale par vidéo",
+    "Ne jamais supprimer la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ou les sources pour raccourcir",
+    "Lorsqu'un sujet reste trop dense, le resserrer sur un sous-angle autonome ou le scinder en mini-série sans perdre de contenu"
+  ],
+  "plateformes": {
+    "tiktok": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_TIKTOK_REFERENCE_V33.md",
+      "duree_cible_secondes": [32, 40], "duree_max_secondes": 45,
+      "structure": ["hook direct", "règle bornée", "question", "réponse", "exemple", "appel à l'action"],
+      "priorite": "croissance et acquisition d'abonnés",
+      "controles_rendu_bloquants": ["pictogrammes locaux cohérents avec chaque page", "aucun pictogramme ambigu, coupé ou superposé", "voix unique débruitée", "retranscription Whisper phrase par phrase", "synchronisation mot-voix recalculée", "aucune microcoupure, répétition ou bruit parasite"]
+    },
+    "reels": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_INSTAGRAM_REFERENCE_V1.md",
+      "duree_cible_secondes": [35, 43], "duree_max_secondes": 48,
+      "structure": ["hook direct", "question quatre secondes avec choix non lus", "réponse entière page suivante", "preuve ou exemple", "appel à l'action conforme au mode du calendrier"],
+      "priorite": "sauvegardes, partages et compréhension complète",
+      "controles_rendu_bloquants": ["pictogrammes locaux cohérents avec chaque page", "aucun pictogramme ambigu, coupé ou superposé", "voix unique débruitée", "retranscription Whisper phrase par phrase", "synchronisation mot-voix recalculée", "aucune microcoupure, répétition ou bruit parasite"]
+    },
+    "shorts": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_YOUTUBE_SHORTS_REFERENCE_V1.md",
+      "duree_cible_secondes": [38, 48], "duree_max_secondes": 52,
+      "structure": ["promesse immédiate", "explication autonome", "question avec choix non lus", "réponse entière", "exemple", "appel à l'action conforme au mode du calendrier"],
+      "priorite": "rétention et clarté pédagogique",
+      "controles_rendu_bloquants": ["pictogrammes locaux cohérents avec chaque page", "aucun pictogramme ambigu, coupé ou superposé", "voix unique débruitée", "retranscription Whisper phrase par phrase", "synchronisation mot-voix recalculée", "aucune microcoupure, répétition ou bruit parasite"]
+    }
+  },
+  "garde_fous": [
+    "Ne jamais publier automatiquement",
+    "Ne jamais remplacer un script validé : créer une nouvelle version",
+    "Bloquer la génération si la fiche source est absente",
+    "Signaler toute incohérence juridique, fiscale ou factuelle",
+    "Contrôler la présence de tous les mots, les glyphes, la pagination, la synchronisation et l'audio avant validation",
+    "Créer un manifeste verrouillé et demander la validation humaine",
+    "Bloquer toute réduction de durée qui rendrait le contenu juridiquement, fiscalement ou factuellement incomplet"
+  ]
+}

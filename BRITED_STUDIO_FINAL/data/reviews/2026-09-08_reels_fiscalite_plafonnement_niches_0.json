@@ -1,0 +1,156 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement les faits et les sources listées, mais omet une précision figurant dans la fiche-source : l'exclusion de l'emploi à domicile est 'pour partie' (la fiche indique « dont les dons et l'emploi à domicile pour partie — en sont exclus »). Le script dit que dons et emploi à domicile 'échappent au plafond' sans la nuance 'pour partie' pour l'emploi à domicile. Il faut corriger pour rester strictement fidèle."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cite correctement l'article 200-0 A et les montants 10 000 € / 18 000 €, mais il simplifie l'exclusion de l'emploi à domicile en l'affirmant totalement ('échappent au plafond') alors que l'exclusion est partielle selon la nature des dépenses et règles applicables. Cette imprécision peut induire en erreur sur l'application concrète de la règle."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque une mention importante de la fiche-source : ce qui dépasse le plafond est perdu et n'est généralement pas reportable (sauf exceptions prévues expressément). Le script ne rappelle pas explicitement que l'excédent est perdu définitivement, ce qui est utile au public."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton, accroche et progression sont bons, mais la formulation de la question 'Vos dons et l'emploi à domicile comptent-ils ? OUI / NON' puis la réponse 'Non pour certains, oui pour la plupart.' est ambigüe et peut désorienter le spectateur. Il faut reformuler pour clarifier : 'Les dons : en général NON (sont exclus) ; l'emploi à domicile : partiellement exclu' ou équivalent."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être précisées pour un français naturel et professionnel : par exemple 'article 200-0 A : plafond de dix mille euros...' pourrait être 'Selon l'article 200‑0 A du CGI : plafond de 10 000 € par an et par foyer pour les réductions et crédits d'impôt.' De plus, préciser 'emploi à domicile (exclusion partielle selon nature des dépenses)' rendra la phrase plus exacte et fluide."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "À la relecture mot à mot, on note une incohérence fine entre la question binaire OUI/NON (beat 2) et la réponse nuancée (beat 3). Il faut aligner l'enchaînement question–réponse pour éviter confusion. De plus, vérifier l'alignement texte-écran/visuel sur la nuance 'pour partie' de l'emploi à domicile."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'loi + curseur bloqué' illustre correctement le plafond, mais le plan où 'dons' et 'emploi' franchissent le plafond (ex. flèche verte) doit clairement distinguer 'dons exclus' et 'emploi à domicile partiellement exclu' pour éviter représentation trompeuse. Le pictogramme pour l'emploi à domicile devrait traduire la nuance (ex. moitié verte / moitié jaune) plutôt qu'une simple passe verte."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les notions clefs (réduction vs déduction) sont correctement introduites, mais l'exemple pourrait inclure la précision que l'excédent est perdu (non reportable) pour bien faire comprendre l'enjeu. L'absence de cette mention réduit la pédagogie pour un non-spécialiste."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement les faits et les sources listées, mais omet une précision figurant dans la fiche-source : l'exclusion de l'emploi à domicile est 'pour partie' (la fiche indique « dont les dons et l'emploi à domicile pour partie — en sont exclus »). Le script dit que dons et emploi à domicile 'échappent au plafond' sans la nuance 'pour partie' pour l'emploi à domicile. Il faut corriger pour rester strictement fidèle.",
+    "juridique_fiscal : Le script cite correctement l'article 200-0 A et les montants 10 000 € / 18 000 €, mais il simplifie l'exclusion de l'emploi à domicile en l'affirmant totalement ('échappent au plafond') alors que l'exclusion est partielle selon la nature des dépenses et règles applicables. Cette imprécision peut induire en erreur sur l'application concrète de la règle.",
+    "completude : Manque une mention importante de la fiche-source : ce qui dépasse le plafond est perdu et n'est généralement pas reportable (sauf exceptions prévues expressément). Le script ne rappelle pas explicitement que l'excédent est perdu définitivement, ce qui est utile au public.",
+    "editorial : Ton, accroche et progression sont bons, mais la formulation de la question 'Vos dons et l'emploi à domicile comptent-ils ? OUI / NON' puis la réponse 'Non pour certains, oui pour la plupart.' est ambigüe et peut désorienter le spectateur. Il faut reformuler pour clarifier : 'Les dons : en général NON (sont exclus) ; l'emploi à domicile : partiellement exclu' ou équivalent.",
+    "formulation_professionnelle : Quelques formulations peuvent être précisées pour un français naturel et professionnel : par exemple 'article 200-0 A : plafond de dix mille euros...' pourrait être 'Selon l'article 200‑0 A du CGI : plafond de 10 000 € par an et par foyer pour les réductions et crédits d'impôt.' De plus, préciser 'emploi à domicile (exclusion partielle selon nature des dépenses)' rendra la phrase plus exacte et fluide.",
+    "contre_verification_finale : À la relecture mot à mot, on note une incohérence fine entre la question binaire OUI/NON (beat 2) et la réponse nuancée (beat 3). Il faut aligner l'enchaînement question–réponse pour éviter confusion. De plus, vérifier l'alignement texte-écran/visuel sur la nuance 'pour partie' de l'emploi à domicile.",
+    "coherence_pictogrammes : Le pictogramme 'loi + curseur bloqué' illustre correctement le plafond, mais le plan où 'dons' et 'emploi' franchissent le plafond (ex. flèche verte) doit clairement distinguer 'dons exclus' et 'emploi à domicile partiellement exclu' pour éviter représentation trompeuse. Le pictogramme pour l'emploi à domicile devrait traduire la nuance (ex. moitié verte / moitié jaune) plutôt qu'une simple passe verte.",
+    "pedagogie_client : Les notions clefs (réduction vs déduction) sont correctement introduites, mais l'exemple pourrait inclure la précision que l'excédent est perdu (non reportable) pour bien faire comprendre l'enjeu. L'absence de cette mention réduit la pédagogie pour un non-spécialiste."
+  ],
+  "recommendations": [
+    "Préciser la nuance sur l'emploi à domicile : remplacer toute affirmation absolue du type 'l'emploi à domicile échappe au plafond' par 'l'emploi à domicile est exclu pour partie : certaines dépenses ouvrent droit à une réduction/ crédit non prises en compte dans le plafond, selon la nature et la réglementation.'",
+    "Ajouter une phrase brève rappelant que l'excédent au-delà du plafond est en principe perdu et n'est pas reportable, sauf dispositions particulières (pour éviter que le public pense que l'excédent est reporté automatiquement). Exemple à insérer dans le beat 4 ou 6 en une courte phrase.",
+    "Aligner la séquence question (beat 2) et réponse (beat 3) pour éviter confusion : si vous maintenez le format OUI / NON, afficher immédiatement la nuance ('Dons : NON (exclus). Emploi à domicile : EN PARTIE (voir conditions).'), plutôt que 'Non pour certains, oui pour la plupart.'",
+    "Adapter les pictogrammes pour traduire la nuance : pour l'emploi à domicile, utiliser un visuel indiquant exclusion partielle (ex. icône moitié verte/moitié jaune) plutôt qu'une simple coche verte qui laisserait croire à une exclusion totale.",
+    "Ajouter, si l'espace le permet, une courte mention écran (ou voix off très brève) renvoyant à la source BOFIP et à l'article du CGI pour les spectateurs souhaitant vérifier les conditions précises (ex. 'voir BOFIP BOI-IR-LIQ-20-20-10').",
+    "Formuler légèrement pour plus de fluidité professionnelle : ex. 'Selon l'article 200‑0 A du CGI, les réductions et crédits d'impôt pour un foyer sont plafonnés à 10 000 € par an (18 000 € pour certains dispositifs outre‑mer et Sofica).' Remplacer formulations vagues comme 'article 200-0 A :' par la tournure ci‑dessus."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-08:reels:fiscalite_plafonnement_niches:0",
+  "script_path": "scripts/fiscalite/fiscalite_plafonnement_niches__reels__a1__v9.md"
+}

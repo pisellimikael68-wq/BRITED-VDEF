@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "failures": [],
+  "final": {
+    "rate": 24000,
+    "channels": 1,
+    "width": 2,
+    "duration": 37.534,
+    "peak": 0.84155,
+    "rms": 0.1439,
+    "dc": 0.000116,
+    "clipped_ratio": 0.0,
+    "abrupt_jump_ratio": 2.2e-06
+  },
+  "segments": {
+    "01_hook.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 3.153,
+      "peak": 0.90753,
+      "rms": 0.08139,
+      "dc": 6.6e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "02_question.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 3.207,
+      "peak": 0.77979,
+      "rms": 0.08978,
+      "dc": 6.8e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "03_reponse.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 5.092,
+      "peak": 0.98965,
+      "rms": 0.09153,
+      "dc": 4.9e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "04_regle.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 5.825,
+      "peak": 0.98965,
+      "rms": 0.12056,
+      "dc": 4.4e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "05_exemple.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 6.741,
+      "peak": 0.98981,
+      "rms": 0.11871,
+      "dc": 4e-06,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "06_nuance.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 6.089,
+      "peak": 0.98981,
+      "rms": 0.12843,
+      "dc": 3.9e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "07_cta.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 3.977,
+      "peak": 0.64359,
+      "rms": 0.08767,
+      "dc": 3.1e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    }
+  },
+  "background_noise": {
+    "passed": true,
+    "regions": [
+      {
+        "after_beat": 1,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 2,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 3,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 4,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 5,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 6,
+        "rms": 0.0,
+        "peak": 0.0
+      }
+    ],
+    "rms_limit": 0.003,
+    "peak_limit": 0.025
+  },
+  "checks": [
+    "sample_rate",
+    "format",
+    "clipping",
+    "abrupt_jumps",
+    "dc_offset",
+    "duration",
+    "background_noise"
+  ]
+}

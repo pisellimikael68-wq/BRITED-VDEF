@@ -1,0 +1,158 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source et les chiffres (PFU = 30 %, 12,8 % IR + 17,2 % prélèvements sociaux) mais omet une information essentielle tirée des sources : lorsqu'on opte pour le barème, les prélèvements sociaux (17,2 %) restent dus. L'exemple compare PFU = 300 € à barème = 0 € sans préciser que les prélèvements sociaux s'appliquent même au barème, ce qui peut induire en erreur."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Affirmation correcte que le PFU est l'imposition par défaut et que l'option pour le barème est possible. Toutefois l'exemple chiffré (1 000 € dividendes → PFU 300 € ; barème tranche 0 % → impôt 0 € après abattement) présente un risque d'omission fiscale : il ne mentionne pas les prélèvements sociaux dus quel que soit le mode d'imposition. Il faut préciser que seuls l'imposition au titre de l'IR change et que les prélèvements sociaux restent applicables."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition (tranches basses) et la contrainte d'option globale/annuelle, mais omet de traiter :\n- l'imputation de l'abattement de 40 % sur dividendes uniquement en cas d'option pour le barème (il est cité mais mal chiffré dans l'exemple),\n- le fait que sous le barème il y a toujours les prélèvements sociaux (coût restant non nul),\n- la précision que l'option est globale pour l'ensemble des revenus du capital du foyer (mentionnée mais à renforcer pour éviter que l'audience pense qu'on peut l'appliquer revenu par revenu)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Tonalité, accroche et progression sont bons. Cependant la phrase d'exemple chiffrée (« PFU = 300 € ; au barème en tranche 0 %, impôt 0 € après abattement ») est potentiellement trompeuse si le spectateur comprend que rien n'est dû. Il faut ajouter en narration courte que les prélèvements sociaux restent dus (ex. 172 € sur 1 000 €) pour garder crédibilité et éviter malentendu."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et adapté mais la formulation de l'exemple nécessite précision pour éviter interprétation erronée. Proposition : indiquer « PFU = 300 € ; au barème en tranche 0 %, impôt sur le revenu 0 € après abattement, mais prélèvements sociaux (~172 €) restent dus ». Cela corrige l'approximation actuelle."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Relue phrase par phrase, la cohérence globale est bonne mais l'exemple chiffré et la comparaison manquent la nuance sur les prélèvements sociaux. De plus vérifier la durée estimée (38 s) en intégrant la nouvelle phrase de précision — elle reste compatible mais à valider en lecture à voix haute."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise. Toutefois l'omission des prélèvements sociaux dans l'exemple fait perdre une information clé ; cela affecte la densité éditoriale car l'exemple est le point d'appui pédagogique principal et doit être complet."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La cible non spécialiste comprendra l'idée générale mais risque d'être trompée par l'exemple chiffré omettant les prélèvements sociaux. Ajouter une phrase simple expliquant que seuls l'IR et l'abattement changent, pas les prélèvements sociaux, est nécessaire pour pedagogie correcte."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est acceptable et non pressant. Pour renforcer la confiance, il faut corriger l'imprécision de l'exemple chiffré et éventuellement rappeler la source ou proposer une simulation rapide ; l'affirmation actuelle pourrait nuire à la crédibilité si un client constate qu'il a quand même payé des prélèvements sociaux."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source et les chiffres (PFU = 30 %, 12,8 % IR + 17,2 % prélèvements sociaux) mais omet une information essentielle tirée des sources : lorsqu'on opte pour le barème, les prélèvements sociaux (17,2 %) restent dus. L'exemple compare PFU = 300 € à barème = 0 € sans préciser que les prélèvements sociaux s'appliquent même au barème, ce qui peut induire en erreur.",
+    "juridique_fiscal : Affirmation correcte que le PFU est l'imposition par défaut et que l'option pour le barème est possible. Toutefois l'exemple chiffré (1 000 € dividendes → PFU 300 € ; barème tranche 0 % → impôt 0 € après abattement) présente un risque d'omission fiscale : il ne mentionne pas les prélèvements sociaux dus quel que soit le mode d'imposition. Il faut préciser que seuls l'imposition au titre de l'IR change et que les prélèvements sociaux restent applicables.",
+    "completude : Le script couvre règle centrale, condition (tranches basses) et la contrainte d'option globale/annuelle, mais omet de traiter :\n- l'imputation de l'abattement de 40 % sur dividendes uniquement en cas d'option pour le barème (il est cité mais mal chiffré dans l'exemple),\n- le fait que sous le barème il y a toujours les prélèvements sociaux (coût restant non nul),\n- la précision que l'option est globale pour l'ensemble des revenus du capital du foyer (mentionnée mais à renforcer pour éviter que l'audience pense qu'on peut l'appliquer revenu par revenu).",
+    "editorial : Tonalité, accroche et progression sont bons. Cependant la phrase d'exemple chiffrée (« PFU = 300 € ; au barème en tranche 0 %, impôt 0 € après abattement ») est potentiellement trompeuse si le spectateur comprend que rien n'est dû. Il faut ajouter en narration courte que les prélèvements sociaux restent dus (ex. 172 € sur 1 000 €) pour garder crédibilité et éviter malentendu.",
+    "formulation_professionnelle : Le français est naturel et adapté mais la formulation de l'exemple nécessite précision pour éviter interprétation erronée. Proposition : indiquer « PFU = 300 € ; au barème en tranche 0 %, impôt sur le revenu 0 € après abattement, mais prélèvements sociaux (~172 €) restent dus ». Cela corrige l'approximation actuelle.",
+    "contre_verification_finale : Relue phrase par phrase, la cohérence globale est bonne mais l'exemple chiffré et la comparaison manquent la nuance sur les prélèvements sociaux. De plus vérifier la durée estimée (38 s) en intégrant la nouvelle phrase de précision — elle reste compatible mais à valider en lecture à voix haute.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise. Toutefois l'omission des prélèvements sociaux dans l'exemple fait perdre une information clé ; cela affecte la densité éditoriale car l'exemple est le point d'appui pédagogique principal et doit être complet.",
+    "pedagogie_client : La cible non spécialiste comprendra l'idée générale mais risque d'être trompée par l'exemple chiffré omettant les prélèvements sociaux. Ajouter une phrase simple expliquant que seuls l'IR et l'abattement changent, pas les prélèvements sociaux, est nécessaire pour pedagogie correcte.",
+    "conversion_confiance : Le CTA est acceptable et non pressant. Pour renforcer la confiance, il faut corriger l'imprécision de l'exemple chiffré et éventuellement rappeler la source ou proposer une simulation rapide ; l'affirmation actuelle pourrait nuire à la crédibilité si un client constate qu'il a quand même payé des prélèvements sociaux."
+  ],
+  "recommendations": [
+    "Corriger l'exemple chiffré pour y inclure les prélèvements sociaux : par exemple, préciser que sur 1 000 € de dividendes le PFU = 300 € (12,8 % IR + 17,2 % PS) tandis qu'au barème en tranche 0 % l'impôt sur le revenu peut être 0 € après abattement de 40 %, mais les prélèvements sociaux (~172 €) restent dus — résultat net ≠ 0 €. Si vous voulez garder une formulation courte : « PFU = 300 € ; au barème 0 % → impôt IR 0 € après abattement, mais prélèvements sociaux (17,2 %) restent à payer. »",
+    "Renforcer la phrase sur l'option globale et annuelle : ajouter « l'option s'applique à l'ensemble des revenus du capital du foyer pour l'année » exactement comme dans la fiche, afin d'éviter que le spectateur comprenne qu'on peut choisir revenu par revenu.",
+    "Vérifier la synchronisation audio/visuel : faire figurer sur l'écran lors de l'exemple la ventilation PFU (12,8 % + 17,2 %) et, pour la colonne barème, montrer « IR = 0 € (après abattement 40 %) — PS = 172 € » pour cohérence pictogrammes/texte.",
+    "Relire la narration après insertion de la précision sur les prélèvements sociaux pour s'assurer que la durée reste proche de 38 s et que le rythme reste fluide.",
+    "Mettre à jour la légende finale pour rappeler explicitement : « Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé. Les prélèvements sociaux restent dus quel que soit le choix d'imposition. »"
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-10:reels:compte_titres_pfu:1",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__reels__a3__v7.md"
+}

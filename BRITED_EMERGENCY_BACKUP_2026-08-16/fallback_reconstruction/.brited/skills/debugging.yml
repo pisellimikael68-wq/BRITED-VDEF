@@ -1,0 +1,23 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: debugging
+
+capabilities:
+
+  - analyze_logs
+  - reproduce_bug
+  - isolate_root_cause
+  - propose_fix
+
+rules:
+
+  - reproduce_before_fix
+  - preserve_existing_behavior
+
+outputs:
+
+  - bug_analysis
+  

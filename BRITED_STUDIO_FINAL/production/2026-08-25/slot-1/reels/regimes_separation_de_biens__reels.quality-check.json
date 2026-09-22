@@ -1,0 +1,370 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 42.42,
+  "target_duration": [
+    35,
+    48
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 42.424,
+      "peak": 0.84146,
+      "rms": 0.14257,
+      "dc": 0.000107,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 3.14e-05
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.39,
+        "peak": 0.79388,
+        "rms": 0.12034,
+        "dc": 6.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_question.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.281,
+        "peak": 0.72876,
+        "rms": 0.11906,
+        "dc": 9.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.411,
+        "peak": 0.7952,
+        "rms": 0.1202,
+        "dc": 7.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.295,
+        "peak": 0.79443,
+        "rms": 0.1156,
+        "dc": 9.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.886,
+        "peak": 0.79465,
+        "rms": 0.11499,
+        "dc": 7.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.809,
+        "peak": 0.79514,
+        "rms": 0.11147,
+        "dc": 9.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.992,
+        "peak": 0.79428,
+        "rms": 0.12941,
+        "dc": 8.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Séparation de biens : votre patrimoine est il vraiment à l'abri ?",
+        "transcript": "Séparation de biens, votre patrimoine est-il vraiment à l'abri ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8919,
+        "passed": true
+      },
+      {
+        "beat": "question",
+        "expected": "Selon vous, ce régime protège t il de toutes les dettes du ménage ?",
+        "transcript": "Selon vous, ce régime protège-t-il de toutes les dettes du ménage ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9333,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Non. Certaines dépenses peuvent encore engager les deux époux.",
+        "transcript": "Non, certaines dépenses peuvent encore engager les deux époux.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9697,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "L'article mille cinq cent trente-six sépare. Les biens. Mais l'article deux cent vingt rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+        "transcript": "L'article 1536 sépare les biens, mais l'article 220 rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2034,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : un loyer pris par un seul époux peut engager l'autre. Acheter la résidence principale ensemble crée aussi une indivision.",
+        "transcript": "Un loyer pris par un seul époux peut engager l'autre. Acheter la résidence principale ensemble crée aussi une indivision.",
+        "similarity": 0.9756,
+        "missing": [
+          "exemple"
+        ],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1481,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Sans preuve de propriété, l'article mille cinq cent trente-huit présume le bien indivis. Par moitié.",
+        "transcript": "Sans preuve de propriété, l'article 1538 présume le bien indivis, par moitié.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9529,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Factures devant un bouclier fissuré",
+        "family": "menage",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "shield-alert",
+          "shield-check",
+          "receipt-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Deux patrimoines puis facture commune",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Contrat de location et maison divisée",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Dossier vide, loupe et partage",
+        "family": "preuve",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scale",
+          "book-open-text",
+          "file-check-2"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          509,
+          672,
+          671
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED et les sources listées, mais une phrase peut prêter à confusion : « un crédit ayant financé la résidence principale réduit la fraction taxable — calculée après l'abattement de 30 % sur la résidence principale. » Il faudrait expliciter que la dette est déductible seulement à la hauteur de la fraction taxable (après abattement), pour éviter l'interprétation qu'on retranche d'abord la dette puis l'abattement.",
+        "Il manque la mention explicite que le seuil de 1 300 000 € est un seuil d'assujettissement (non un abattement) dans le script principal — cette précision figure dans la fiche mais n'apparaît textuellement dans la narration."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les références aux articles CGI 974, 964 et 979 et au BOFiP sont correctes. Toutefois, l'affirmation « Un crédit qui a financé la résidence principale est déductible » doit être nuancée : la dette n'est déductible que dans la part taxable du bien (après l'abattement de 30 %) et sous réserve des conditions d'existence au 1er janvier et d'affectation. Le script l'indique mais de façon susceptible d'être mal comprise — reformuler précisément « déductible dans la fraction taxable du bien (après abattement) ».",
+        "La formulation « le barème s'applique à partir de 800 000 € » pourrait être interprétée hors-contexte ; préciser que le barème progressif de l'IFI inclut une tranche commençant à 800 000 € et que le seuil d'assujettissement est 1 300 000 € améliorerait la précision."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle centrale, la condition, l'exception (prêts in fine, prêts entre proches) et l'exemple. En revanche, omission : ne pas indiquer explicitement que la dette doit être ‘affectée’ au bien (le script dit « affectée au bien imposable » mais l'idée d'« affectation » fiscale mériterait un bref exemple concret — p.ex. prêt consenti pour acheter l'appartement X).",
+        "Absence d'une mention brève que les prêts consentis par une société contrôlée peuvent être remis en cause (le script dit « peuvent être écartés » mais sans préciser le critère de contrôle), ce qui affaiblit la complétude juridique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le storyboard respecte l'ordre et les beats pour un Reels d'environ 40 s. Cependant le texte de narration est dense ; risque que la lecture naturelle dépasse 40 s. Recommandation : raccourcir ou scinder une phrase (par ex. séparer la nuance sur prêts in fine et prêts entre proches en deux beats).",
+        "Le visuel proposé est adapté mais prévoir des micro-pauses et sous-titres pour lisibilité sur mobile."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire mais l'élément 'OUI / NON' en beat 2 fonctionne mieux s'il est suivi immédiatement par la condition (beat 3) — OK. Quelques tournures peuvent être simplifiées pour oralité (p.ex. remplacer « être affectée au bien compris dans l'assiette » par « être affectée à un bien taxable »).",
+        "CTA correct mais formule un peu longue pour un écran final ; suggérer raccourcir à « Prenez rendez‑vous via le lien en bio »."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais quelques formulations méritent une petite amélioration pour la fluidité orale :",
+        "- « être affectée au bien compris dans l'assiette » → « être affectée à un bien taxable » ;",
+        "- « retraité comme s'ils s'amortissaient » → « retraité comme s'il s'amortissait linéairement » (cohérence avec fiche)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence générale bonne. Points à corriger repérés : clarté sur la manière dont la dette et l'abattement interagissent (ordre et proportion), précision sur la phrase relative au barème à partir de 800 000 € et potentiel dépassement de la durée estimée par la densité du texte."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes conviennent. Deux remarques :",
+        "- Beat 4 (documents légaux) : proposer un pictogramme représentant un article de loi ou un parchemin/bulle ‘CGI’ plutôt qu'un document générique pour renvoyer précisément aux articles 974 et 964.",
+        "- Beat 6 : l'icône pour l'article 979 devrait plutôt illustrer un plafonnement (balance ou barre limite) plutôt qu'un symbole générique d'avertissement, pour mieux correspondre à la notion évoquée."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (dettes déductibles) et contient la règle, la condition, l'exception et un exemple. Toutefois, densité élevée : la phrase sur les prêts in fine + prêts entre proches + article 979 cumule trois nuances dans un seul beat ; cela nuit à la clarté et à la mémorisation. Il faut répartir ou simplifier."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique mais une partie peut perdre un non-spécialiste : l'expression « affectée au bien compris dans l'assiette » et la notion de 'retraitement' des prêts in fine demandent une reformulation très simple (p.ex. « un prêt in fine est recalculé comme s'il était remboursé progressivement »).",
+        "L'exemple chiffré manque : un petit arrondi (ex. bien 1 000 000 €, abattement 30 % → taxable 700 000 €, dette déductible proportionnelle) aiderait la compréhension sans être un calcul personnalisé."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes. Risque de perte d'attention dans la partie nuance (beat 6) si trop condensée. Recommander scinder les nuances en deux beats pour maintenir l'attention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton instille confiance et renvoie aux sources. Pour renforcer la conversion sans surpromesse, alléger légèrement le CTA (« Prenez rendez-vous via le lien en bio ») et conserver la mention légale (déjà fournie) sur la vignette finale.",
+        "Éviter toute tournure pouvant sembler promettre un bénéfice automatique (le script est prudent, mais reformuler la phrase d'exemple pour éviter l'impression d'une règle mécanique)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED et les sources listées, mais une phrase peut prêter à confusion : « un crédit ayant financé la résidence principale réduit la fraction taxable — calculée après l'abattement de 30 % sur la résidence principale. » Il faudrait expliciter que la dette est déductible seulement à la hauteur de la fraction taxable (après abattement), pour éviter l'interprétation qu'on retranche d'abord la dette puis l'abattement.",
+    "source : Il manque la mention explicite que le seuil de 1 300 000 € est un seuil d'assujettissement (non un abattement) dans le script principal — cette précision figure dans la fiche mais n'apparaît textuellement dans la narration.",
+    "juridique_fiscal : Les références aux articles CGI 974, 964 et 979 et au BOFiP sont correctes. Toutefois, l'affirmation « Un crédit qui a financé la résidence principale est déductible » doit être nuancée : la dette n'est déductible que dans la part taxable du bien (après l'abattement de 30 %) et sous réserve des conditions d'existence au 1er janvier et d'affectation. Le script l'indique mais de façon susceptible d'être mal comprise — reformuler précisément « déductible dans la fraction taxable du bien (après abattement) ».",
+    "juridique_fiscal : La formulation « le barème s'applique à partir de 800 000 € » pourrait être interprétée hors-contexte ; préciser que le barème progressif de l'IFI inclut une tranche commençant à 800 000 € et que le seuil d'assujettissement est 1 300 000 € améliorerait la précision.",
+    "completude : La vidéo couvre la règle centrale, la condition, l'exception (prêts in fine, prêts entre proches) et l'exemple. En revanche, omission : ne pas indiquer explicitement que la dette doit être ‘affectée’ au bien (le script dit « affectée au bien imposable » mais l'idée d'« affectation » fiscale mériterait un bref exemple concret — p.ex. prêt consenti pour acheter l'appartement X).",
+    "completude : Absence d'une mention brève que les prêts consentis par une société contrôlée peuvent être remis en cause (le script dit « peuvent être écartés » mais sans préciser le critère de contrôle), ce qui affaiblit la complétude juridique.",
+    "plateforme : Le storyboard respecte l'ordre et les beats pour un Reels d'environ 40 s. Cependant le texte de narration est dense ; risque que la lecture naturelle dépasse 40 s. Recommandation : raccourcir ou scinder une phrase (par ex. séparer la nuance sur prêts in fine et prêts entre proches en deux beats).",
+    "plateforme : Le visuel proposé est adapté mais prévoir des micro-pauses et sous-titres pour lisibilité sur mobile.",
+    "editorial : Accroche claire mais l'élément 'OUI / NON' en beat 2 fonctionne mieux s'il est suivi immédiatement par la condition (beat 3) — OK. Quelques tournures peuvent être simplifiées pour oralité (p.ex. remplacer « être affectée au bien compris dans l'assiette » par « être affectée à un bien taxable »).",
+    "editorial : CTA correct mais formule un peu longue pour un écran final ; suggérer raccourcir à « Prenez rendez‑vous via le lien en bio ».",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais quelques formulations méritent une petite amélioration pour la fluidité orale :",
+    "formulation_professionnelle : - « être affectée au bien compris dans l'assiette » → « être affectée à un bien taxable » ;",
+    "formulation_professionnelle : - « retraité comme s'ils s'amortissaient » → « retraité comme s'il s'amortissait linéairement » (cohérence avec fiche).",
+    "contre_verification_finale : Cohérence générale bonne. Points à corriger repérés : clarté sur la manière dont la dette et l'abattement interagissent (ordre et proportion), précision sur la phrase relative au barème à partir de 800 000 € et potentiel dépassement de la durée estimée par la densité du texte.",
+    "coherence_pictogrammes : La plupart des pictogrammes conviennent. Deux remarques :",
+    "coherence_pictogrammes : - Beat 4 (documents légaux) : proposer un pictogramme représentant un article de loi ou un parchemin/bulle ‘CGI’ plutôt qu'un document générique pour renvoyer précisément aux articles 974 et 964.",
+    "coherence_pictogrammes : - Beat 6 : l'icône pour l'article 979 devrait plutôt illustrer un plafonnement (balance ou barre limite) plutôt qu'un symbole générique d'avertissement, pour mieux correspondre à la notion évoquée.",
+    "densite_editoriale : La vidéo traite un seul angle (dettes déductibles) et contient la règle, la condition, l'exception et un exemple. Toutefois, densité élevée : la phrase sur les prêts in fine + prêts entre proches + article 979 cumule trois nuances dans un seul beat ; cela nuit à la clarté et à la mémorisation. Il faut répartir ou simplifier.",
+    "pedagogie_client : Le contenu est pédagogique mais une partie peut perdre un non-spécialiste : l'expression « affectée au bien compris dans l'assiette » et la notion de 'retraitement' des prêts in fine demandent une reformulation très simple (p.ex. « un prêt in fine est recalculé comme s'il était remboursé progressivement »).",
+    "pedagogie_client : L'exemple chiffré manque : un petit arrondi (ex. bien 1 000 000 €, abattement 30 % → taxable 700 000 €, dette déductible proportionnelle) aiderait la compréhension sans être un calcul personnalisé.",
+    "retention_attention : Les deux premières secondes (hook) sont fortes. Risque de perte d'attention dans la partie nuance (beat 6) si trop condensée. Recommander scinder les nuances en deux beats pour maintenir l'attention.",
+    "conversion_confiance : Le ton instille confiance et renvoie aux sources. Pour renforcer la conversion sans surpromesse, alléger légèrement le CTA (« Prenez rendez-vous via le lien en bio ») et conserver la mention légale (déjà fournie) sur la vignette finale.",
+    "conversion_confiance : Éviter toute tournure pouvant sembler promettre un bénéfice automatique (le script est prudent, mais reformuler la phrase d'exemple pour éviter l'impression d'une règle mécanique)."
+  ],
+  "recommendations": [
+    "Reformuler clairement l'interaction dette / abattement : remplacer la phrase « un crédit ayant financé la résidence principale réduit la fraction taxable — calculée après l'abattement de 30 % » par « si un crédit a financé la résidence principale, il est déductible uniquement dans la part taxable du bien (la valeur du bien après l’abattement de 30 %). »",
+    "Préciser brièvement dans la narration que le seuil de 1 300 000 € est un seuil d'assujettissement et non un abattement, et que le barème comporte une tranche commençant à 800 000 € (formulation courte à insérer si possible).",
+    "Alléger et découper la nuance (beat 6) en deux beats : (a) prêts in fine — expliquer en une courte phrase « retraité comme s'il s'amortissait linéairement », (b) prêts entre proches / société contrôlée + article 979 (plafonnement) — avec pictogrammes adaptés (plafond pour art. 979).",
+    "Adapter pictogrammes : utiliser un symbole ‘CGI’ ou article de loi pour beat 4 ; pour beat 6 remplacer l'icône d'avertissement générale par une icône de plafond/limite pour l'article 979.",
+    "Simplifier le CTA texte écran (par ex. « Prenez rendez‑vous via le lien en bio ») et réduire le libellé vocal si nécessaire pour tenir la durée ciblée.",
+    "Ajouter un micro-exemple chiffré très simple (montants ronds) dans la voix ou en texte écran pour aider la compréhension, par ex. : « Exemple rapide : bien 1 000 000 € → après abattement 30 % = 700 000 € taxable ; la dette est déductible à hauteur de cette fraction. »",
+    "Corriger formulations recommandées pour l'oralité :",
+    "- « être affectée au bien compris dans l'assiette » → « être affectée à un bien taxable »,",
+    "- « retraité comme s'ils s'amortissaient » → « retraité comme s'il s'amortissait linéairement ». "
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-10:reels:ifi_dettes_deductibles:0",
+  "script_path": "scripts/ifi/ifi_dettes_deductibles__reels__a2__v3.md"
+}

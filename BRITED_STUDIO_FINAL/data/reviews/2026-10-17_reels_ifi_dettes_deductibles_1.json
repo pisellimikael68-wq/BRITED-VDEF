@@ -1,0 +1,198 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche respecte globalement les sources indiquées, mais le script ne cite pas explicitement l'article 974 au moment où la règle est donnée (le script mentionne 'selon l'article 974 du CGI' dans la voix, mais le visuel 'document article 974' est générique). Recommandation : faire figurer en petit texte écran la référence complète 'CGI art. 974' lors de la slide 4 pour lier mot à mot la règle à la source.",
+        "La légende et le script évoquent le plafonnement/ seuils (1 300 000 € et 800 000 €) sans indiquer la référence légale immédiate (art. 979 pour le plafonnement, art. 964 pour assiette); proposer d'afficher ces références sur la slide correspondante."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Précision requise : la phrase 'le barème s'applique à partir de 800 000 €' mérite d'être libellée 'le barème s'applique sur la fraction nette taxable supérieure à 800 000 €' pour éviter une lecture selon laquelle le seuil de 1 300 000 € serait remplacé. Localisation : légende et point 'Le point de vigilance'.",
+        "La mention 'prêts entre proches ... peuvent être écartés' est correcte mais trop vague. Il faut préciser brièvement le motif légal (risque d'abus et retraitement quand le passif n'est pas réel) ou indiquer BOFiP/contrôle fiscal pour renforcer l'exactitude."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple pédagogique (prêt 200 000 € / maison 400 000 €) doit expliciter le calcul sommaire montrant comment l'abattement de 30 % sur la résidence principale affecte la dette admise (par ex. valeur taxable = 400 000 × 0,7 = 280 000 → la dette admise ne peut excéder cette valeur taxable). La slide 5 et la narration actuelle restent trop implicites.",
+        "Absence d'indication explicite que seule la fraction de la dette affectée au bien taxable est déductible si l'emprunt finance plusieurs actifs (cas fréquent). Ajouter une courte phrase ou bulle visuelle."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : la narration continue fournie paraît légèrement dense pour 38 s. Il faut vérifier la vitesse de diction et éventuellement raccourcir une phrase (p.ex. condenser la slide 4 en deux segments) pour garantir respect du format Reels.",
+        "Visuel 'deux cases OUI / NON côte à côte (vides)' fonctionne mais risque d'être perdu visuellement ; prévoir animation rapide remplissant la bonne case 'OUI' pour renforcer la rétention."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche 'Ma dette réduit-elle mon IFI ?' est efficace mais répétée deux fois immédiatement dans la narration; recommander légère variation à la deuxième répétition pour éviter redondance.",
+        "CTA OK, mais formuler plus direct 'Prenez rendez-vous via le lien dans ma bio' plutôt que 'Vous souhaitez...' pour améliorer conversion. Toutefois cela reste une préférence éditoriale."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction de conseil personnalisé, mais la phrase 'Prenez rendez-vous...' peut être perçue comme une invitation au diagnostic individuel — ajouter la mention standard déjà fournie en légende (ne constitue pas un conseil personnalisé) visible à l'écran à la fin pour renforcer la sécurité.",
+        "Éviter toute formulation qui pourrait être interprétée comme incitant à monter un passif : bien que l'a_ne_pas_dire soit respecté, il faut s'assurer qu'aucune animation ne suggère 'astuce' ou 'truc' (visuel à contrôler)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations méritent d'être précisées pour un locuteur non spécialiste : par exemple 'charge personnelle' peut être incompris — proposer 'à la charge personnelle du redevable (vous)' sur la slide 4.",
+        "Expression 'retraités comme s'ils s'amortissaient linéairement' est correcte mais peut être allégée: 'retraités comme s'ils étaient remboursés de façon linéaire' afin d'améliorer l'oralité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînement global cohérent, mais la progression d'information gagnerait à inverser légèrement slides 4 et 3 : poser d'abord la condition légale (art. 974) puis l'exemple pour clarté pédagogique.",
+        "Vérifier la prononciation de 'in fine' dans la narration (risque de malaise pour certains orateurs) et prévoir alternative 'prêts in fine (remboursement en une fois en fin de durée)'."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'document article 974' doit clairement représenter un texte légal (titre 'CGI art. 974') pour éviter ambiguïté. Sinon le visuel paraît décoratif.",
+        "Slide 5 : le graphique -30% devrait montrer que l'abattement s'applique à la valeur du bien avant de calculer la dette admise (actuellement le visuel montre juste -30% sans lien explicite avec la dette)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste sur un seul angle mais contient plusieurs nuances légales importantes ; pour ne pas surcharger, il faut soit accepter une micro-réduction de mots dans la narration soit déporter une précision (comme le retraitement des in fine) en texte écran complémentaire plutôt qu'en voix.",
+        "La phrase finale de la narration récapitule bien, mais répète des éléments déjà dits — suggérer d'éliminer une répétition pour tenir la contrainte temporelle."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est globalement adapté à un non-spécialiste, mais 'affectée' est un terme technique : recommander 'liée au bien (emprunt utilisé pour ce bien)' en voix et texte écran pour faciliter compréhension.",
+        "Risque de confusion sur la notion 'exister au 1er janvier' — proposer ajout d'une courte parenthèse '(contrat en cours au 1er janvier)' sur la slide 4."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes, mais la transition vers la checklist en slide 4 risque d'éroder l'attention si la vitesse de parole est trop élevée. Recommander une micro-pause visuelle avant la checklist.",
+        "Slide 2 (cases OUI/NON vides) est une bonne stimulation mais il faut animer rapidement la sélection 'OUI' pour capitaliser sur la curiosité."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé inspire confiance mais la mention légale finale devrait apparaître aussi à l'écran à la fin pour rassurer l'audience avant le CTA.",
+        "Ajouter la mention 'Sources : CGI art. 974, 964, 979 + BOFiP' en petit en bas de l'écran final renforcerait la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 101,
+      "seconds": 37.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche respecte globalement les sources indiquées, mais le script ne cite pas explicitement l'article 974 au moment où la règle est donnée (le script mentionne 'selon l'article 974 du CGI' dans la voix, mais le visuel 'document article 974' est générique). Recommandation : faire figurer en petit texte écran la référence complète 'CGI art. 974' lors de la slide 4 pour lier mot à mot la règle à la source.",
+    "source : La légende et le script évoquent le plafonnement/ seuils (1 300 000 € et 800 000 €) sans indiquer la référence légale immédiate (art. 979 pour le plafonnement, art. 964 pour assiette); proposer d'afficher ces références sur la slide correspondante.",
+    "juridique_fiscal : Précision requise : la phrase 'le barème s'applique à partir de 800 000 €' mérite d'être libellée 'le barème s'applique sur la fraction nette taxable supérieure à 800 000 €' pour éviter une lecture selon laquelle le seuil de 1 300 000 € serait remplacé. Localisation : légende et point 'Le point de vigilance'.",
+    "juridique_fiscal : La mention 'prêts entre proches ... peuvent être écartés' est correcte mais trop vague. Il faut préciser brièvement le motif légal (risque d'abus et retraitement quand le passif n'est pas réel) ou indiquer BOFiP/contrôle fiscal pour renforcer l'exactitude.",
+    "completude : L'exemple pédagogique (prêt 200 000 € / maison 400 000 €) doit expliciter le calcul sommaire montrant comment l'abattement de 30 % sur la résidence principale affecte la dette admise (par ex. valeur taxable = 400 000 × 0,7 = 280 000 → la dette admise ne peut excéder cette valeur taxable). La slide 5 et la narration actuelle restent trop implicites.",
+    "completude : Absence d'indication explicite que seule la fraction de la dette affectée au bien taxable est déductible si l'emprunt finance plusieurs actifs (cas fréquent). Ajouter une courte phrase ou bulle visuelle.",
+    "plateforme : Durée estimée 38 s : la narration continue fournie paraît légèrement dense pour 38 s. Il faut vérifier la vitesse de diction et éventuellement raccourcir une phrase (p.ex. condenser la slide 4 en deux segments) pour garantir respect du format Reels.",
+    "plateforme : Visuel 'deux cases OUI / NON côte à côte (vides)' fonctionne mais risque d'être perdu visuellement ; prévoir animation rapide remplissant la bonne case 'OUI' pour renforcer la rétention.",
+    "editorial : Accroche 'Ma dette réduit-elle mon IFI ?' est efficace mais répétée deux fois immédiatement dans la narration; recommander légère variation à la deuxième répétition pour éviter redondance.",
+    "editorial : CTA OK, mais formuler plus direct 'Prenez rendez-vous via le lien dans ma bio' plutôt que 'Vous souhaitez...' pour améliorer conversion. Toutefois cela reste une préférence éditoriale.",
+    "securite : Le script respecte l'interdiction de conseil personnalisé, mais la phrase 'Prenez rendez-vous...' peut être perçue comme une invitation au diagnostic individuel — ajouter la mention standard déjà fournie en légende (ne constitue pas un conseil personnalisé) visible à l'écran à la fin pour renforcer la sécurité.",
+    "securite : Éviter toute formulation qui pourrait être interprétée comme incitant à monter un passif : bien que l'a_ne_pas_dire soit respecté, il faut s'assurer qu'aucune animation ne suggère 'astuce' ou 'truc' (visuel à contrôler).",
+    "formulation_professionnelle : Quelques formulations méritent d'être précisées pour un locuteur non spécialiste : par exemple 'charge personnelle' peut être incompris — proposer 'à la charge personnelle du redevable (vous)' sur la slide 4.",
+    "formulation_professionnelle : Expression 'retraités comme s'ils s'amortissaient linéairement' est correcte mais peut être allégée: 'retraités comme s'ils étaient remboursés de façon linéaire' afin d'améliorer l'oralité.",
+    "contre_verification_finale : Enchaînement global cohérent, mais la progression d'information gagnerait à inverser légèrement slides 4 et 3 : poser d'abord la condition légale (art. 974) puis l'exemple pour clarté pédagogique.",
+    "contre_verification_finale : Vérifier la prononciation de 'in fine' dans la narration (risque de malaise pour certains orateurs) et prévoir alternative 'prêts in fine (remboursement en une fois en fin de durée)'.",
+    "coherence_pictogrammes : Le pictogramme 'document article 974' doit clairement représenter un texte légal (titre 'CGI art. 974') pour éviter ambiguïté. Sinon le visuel paraît décoratif.",
+    "coherence_pictogrammes : Slide 5 : le graphique -30% devrait montrer que l'abattement s'applique à la valeur du bien avant de calculer la dette admise (actuellement le visuel montre juste -30% sans lien explicite avec la dette).",
+    "densite_editoriale : La vidéo reste sur un seul angle mais contient plusieurs nuances légales importantes ; pour ne pas surcharger, il faut soit accepter une micro-réduction de mots dans la narration soit déporter une précision (comme le retraitement des in fine) en texte écran complémentaire plutôt qu'en voix.",
+    "densite_editoriale : La phrase finale de la narration récapitule bien, mais répète des éléments déjà dits — suggérer d'éliminer une répétition pour tenir la contrainte temporelle.",
+    "pedagogie_client : Le niveau est globalement adapté à un non-spécialiste, mais 'affectée' est un terme technique : recommander 'liée au bien (emprunt utilisé pour ce bien)' en voix et texte écran pour faciliter compréhension.",
+    "pedagogie_client : Risque de confusion sur la notion 'exister au 1er janvier' — proposer ajout d'une courte parenthèse '(contrat en cours au 1er janvier)' sur la slide 4.",
+    "retention_attention : Les deux premières secondes sont fortes, mais la transition vers la checklist en slide 4 risque d'éroder l'attention si la vitesse de parole est trop élevée. Recommander une micro-pause visuelle avant la checklist.",
+    "retention_attention : Slide 2 (cases OUI/NON vides) est une bonne stimulation mais il faut animer rapidement la sélection 'OUI' pour capitaliser sur la curiosité.",
+    "conversion_confiance : Ton sérieux et sourcé inspire confiance mais la mention légale finale devrait apparaître aussi à l'écran à la fin pour rassurer l'audience avant le CTA.",
+    "conversion_confiance : Ajouter la mention 'Sources : CGI art. 974, 964, 979 + BOFiP' en petit en bas de l'écran final renforcerait la crédibilité."
+  ],
+  "recommendations": [
+    "Ajouter explicitement les références légales à l'écran lors des slides pertinentes : 'CGI art. 974' sur la slide 4 (règle), 'CGI art. 964' sur la slide 5 (assiette / abattement), 'CGI art. 979' sur la slide qui mentionne le plafonnement.",
+    "Préciser l'exemple chiffré sur la slide 5 : montrer le calcul sommaire (valeur taxable = 400 000 × 0,70 = 280 000 → la part de dette admise ne peut excéder 280 000) et indiquer que si l'emprunt finance plusieurs actifs, seule la fraction affectée est déductible.",
+    "Reformuler deux libellés pour l'oralité et la clarté : remplacer 'charge personnelle' par 'à la charge personnelle du redevable (vous)' et 'in fine = retraité en amortissement linéaire' par 'prêts in fine : retraités comme s'ils étaient remboursés linéairement sur la durée (évite maintien artificiel du passif)'.",
+    "Alléger légèrement la narration ou répartir une nuance en texte écran pour tenir la durée de 38 s. Ajouter une micro-pause visuelle avant la checklist pour améliorer la rétention.",
+    "Adapter les pictogrammes : faire figurer 'CGI art. 974' sur le document visuel, et sur la slide 5 animer le -30% comme appliqué à la valeur du bien puis relier visuellement à la dette admise.",
+    "Ajouter en tout petit texte en fin de vidéo la mention de non-conseil déjà présente en légende et la liste courte des sources (CGI art. 974, 964, 979 + BOFiP) pour renforcer sécurité et confiance.",
+    "Remplacer ou expliciter 'prêts entre proches ... peuvent être écartés' par une courte parenthèse 'risque de retraitement en cas de passif de complaisance (contrôle fiscal/BOFiP)' pour plus de précision juridique."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-17:reels:ifi_dettes_deductibles:1",
+  "script_path": "scripts/ifi/ifi_dettes_deductibles__reels__a3__v4.md"
+}

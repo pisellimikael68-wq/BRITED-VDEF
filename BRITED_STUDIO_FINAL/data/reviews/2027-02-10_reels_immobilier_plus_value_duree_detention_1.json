@@ -1,0 +1,182 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE indique clairement les chiffres et la cadence des abattements. Le script reprend correctement les chiffres clés (36,2 % ; 19 % effacé à 22 ans ; prélèvements sociaux jusqu'à 30 ans). Toutefois la phrase d'accroche (« Vous vendez un bien locatif détenu depuis vingt-deux ans et pensez être totalement exonéré ? ») est formulée au singulier sans préciser « hors résidence principale », ce qui peut prêter à confusion avec le régime de la résidence principale (qui est exonérée sans condition de durée) : la source exige de distinguer ce cas. Localisation : Beat 1 (hook) et narration continue première phrase."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le rappel fiscal principal est exact (taux global 36,2 %, abattements distincts pour IR et prélèvements sociaux, exonération IR à 22 ans, prélèvements sociaux à 30 ans). En revanche, le script omet la précision que les abattements pour l'impôt sont de 6 % par an de la 6e à la 21e année puis 4 % la 22e année ; pour les prélèvements sociaux 1,65 % par an 6e-21e puis 9 % par an au-delà — l'absence de ces rythmes chiffrés rend la règle moins vérifiable. Localisation : Beat 4 (règle) et Beat 5 (exemple) — demander d'ajouter la cadence chiffrée ou indiquer la source textuelle pour l'exactitude juridique.",
+        "Le script affirme « l'impôt de 19 % est effacé à vingt-deux ans » sans préciser que ceci concerne l'impôt sur le revenu sur la plus-value (compléter pour éviter ambiguïté avec autres impôts). Localisation : Beat 4."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle centrale et une nuance utile (factures/travaux). Mais manque une mention explicite qu'aucun abattement n'existe pendant les cinq premières années (erreur fréquente listée dans la fiche). Cette information est importante pédagogiquement et attendue par le public (questions_clients inclut « Faut‑il attendre 30 ans ? »). Localisation : Beat 4/5 — ajouter phrase courte « aucun abattement les 5 premières années ».",
+        "L'exemple reste générique : un chiffre simple illustratif (ex. base de plus‑value de 100 000 € et montant dû à 22 ans vs 30 ans) améliorerait la compréhension sans rallonger significativement la vidéo. Localisation : Beat 5."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 39 secondes paraît ambitieuse au vu du texte de narration tel quel (narration continue complète dépasse probablement 39 s à débit naturel). Localisation : durée en en‑tête et narration continue.",
+        "Ordre des séquences respecte la logique Reels, CTA en fin ok. Toutefois la slide 2 (question OUI/NON) et slide 3 (réponse NON) peuvent alourdir le tempo ; envisager fusion visuelle pour gagner du temps. Localisation : Beat 2/3."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et accroche présent. Quelques formulations alourdissent la fluidité orale : ex. « La plus-value hors résidence principale est taxée à 36,2 % avant abattement : l'impôt de 19 % est effacé à vingt-deux ans. » Proposer scinder en deux phrases plus courtes pour l'oralité. Localisation : Beat 4 narration.",
+        "CTA « lien dans ma bio » est standard mais peut réduire conversion si l'audience attend un rendez‑vous direct ; indiquer « lien dans la bio pour rendez‑vous » ou « Réservez via le lien en bio » pour plus d'actionnabilité. Localisation : Beat 7."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel mais certaines tournures peuvent être améliorées pour la prononciation et la clarté (voir remarques editorial). Exemple concret : remplacer « l'impôt de dix-neuf pour cent disparaît » par « l'impôt sur la plus‑value de 19 % est annulé ». Localisation : Beats 4–5."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence question/réponse globalement bonne. En revanche, la légende finale répète l'idée principale mais omet la précision sur l'absence d'abattement les 5 premières années (contradiction potentielle avec la fiche d'erreurs fréquentes). Localisation : Légende et FAQ internes."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont génériques (« pictogramme horloge », « pictogramme croix », « pictogramme point d'interrogation »). La consigne BRITED exige que chaque visuel illustre précisément la notion prononcée. Par exemple, pour le double‑compteur il faut un visuel montrant clairement deux compteurs marqués 'IR' et 'Prélèvements sociaux' avec années 22/30. Localisation : Beats 1,2,3,4."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (exonération partielle à 22 ans) mais omet la mention clé « pas d'abattement pendant les 5 premières années » et les cadences chiffrées des abattements. Ces omissions réduisent la densité informative promise par la fiche. Localisation : Beats 4–5 et Légende."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le langage est accessible mais certains termes (abattement, prélèvements sociaux) ne sont pas explicités pour un non‑spécialiste. Une courte phrase « prélèvements sociaux = charges sociales liées à la plus‑value » aiderait la compréhension. Localisation : Beat 4.",
+        "La recommandation de conserver factures est pertinente mais gagnerait à préciser brièvement quels types de travaux sont pris en compte (travaux facturés) selon la fiche. Localisation : Beat 6."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort, mais le tempo risque de ralentir sur les beats 4–5 si on ajoute les cadences chiffrées et un exemple chiffré. Durée estimée (39 s) risque d'être dépassée. Localisation : Beats 1,4,5 et durée estimée."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et la mention des sources est bonne. Cependant l'absence d'une mini‑phrase de non‑conseil juste avant le CTA (la légende en contient une mais hors vidéo) affaiblit la conformité à la règle 'pas de conseil personnalisé' lors de l'appel à prendre rendez‑vous. Localisation : Beat 7 et Légende."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 96,
+      "seconds": 35.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 96,
+        "seconds": 35.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE indique clairement les chiffres et la cadence des abattements. Le script reprend correctement les chiffres clés (36,2 % ; 19 % effacé à 22 ans ; prélèvements sociaux jusqu'à 30 ans). Toutefois la phrase d'accroche (« Vous vendez un bien locatif détenu depuis vingt-deux ans et pensez être totalement exonéré ? ») est formulée au singulier sans préciser « hors résidence principale », ce qui peut prêter à confusion avec le régime de la résidence principale (qui est exonérée sans condition de durée) : la source exige de distinguer ce cas. Localisation : Beat 1 (hook) et narration continue première phrase.",
+    "juridique_fiscal : Le rappel fiscal principal est exact (taux global 36,2 %, abattements distincts pour IR et prélèvements sociaux, exonération IR à 22 ans, prélèvements sociaux à 30 ans). En revanche, le script omet la précision que les abattements pour l'impôt sont de 6 % par an de la 6e à la 21e année puis 4 % la 22e année ; pour les prélèvements sociaux 1,65 % par an 6e-21e puis 9 % par an au-delà — l'absence de ces rythmes chiffrés rend la règle moins vérifiable. Localisation : Beat 4 (règle) et Beat 5 (exemple) — demander d'ajouter la cadence chiffrée ou indiquer la source textuelle pour l'exactitude juridique.",
+    "juridique_fiscal : Le script affirme « l'impôt de 19 % est effacé à vingt-deux ans » sans préciser que ceci concerne l'impôt sur le revenu sur la plus-value (compléter pour éviter ambiguïté avec autres impôts). Localisation : Beat 4.",
+    "completude : La vidéo couvre la règle centrale et une nuance utile (factures/travaux). Mais manque une mention explicite qu'aucun abattement n'existe pendant les cinq premières années (erreur fréquente listée dans la fiche). Cette information est importante pédagogiquement et attendue par le public (questions_clients inclut « Faut‑il attendre 30 ans ? »). Localisation : Beat 4/5 — ajouter phrase courte « aucun abattement les 5 premières années ».",
+    "completude : L'exemple reste générique : un chiffre simple illustratif (ex. base de plus‑value de 100 000 € et montant dû à 22 ans vs 30 ans) améliorerait la compréhension sans rallonger significativement la vidéo. Localisation : Beat 5.",
+    "plateforme : Durée estimée 39 secondes paraît ambitieuse au vu du texte de narration tel quel (narration continue complète dépasse probablement 39 s à débit naturel). Localisation : durée en en‑tête et narration continue.",
+    "plateforme : Ordre des séquences respecte la logique Reels, CTA en fin ok. Toutefois la slide 2 (question OUI/NON) et slide 3 (réponse NON) peuvent alourdir le tempo ; envisager fusion visuelle pour gagner du temps. Localisation : Beat 2/3.",
+    "editorial : Ton direct et accroche présent. Quelques formulations alourdissent la fluidité orale : ex. « La plus-value hors résidence principale est taxée à 36,2 % avant abattement : l'impôt de 19 % est effacé à vingt-deux ans. » Proposer scinder en deux phrases plus courtes pour l'oralité. Localisation : Beat 4 narration.",
+    "editorial : CTA « lien dans ma bio » est standard mais peut réduire conversion si l'audience attend un rendez‑vous direct ; indiquer « lien dans la bio pour rendez‑vous » ou « Réservez via le lien en bio » pour plus d'actionnabilité. Localisation : Beat 7.",
+    "formulation_professionnelle : Le français est globalement naturel mais certaines tournures peuvent être améliorées pour la prononciation et la clarté (voir remarques editorial). Exemple concret : remplacer « l'impôt de dix-neuf pour cent disparaît » par « l'impôt sur la plus‑value de 19 % est annulé ». Localisation : Beats 4–5.",
+    "contre_verification_finale : Cohérence question/réponse globalement bonne. En revanche, la légende finale répète l'idée principale mais omet la précision sur l'absence d'abattement les 5 premières années (contradiction potentielle avec la fiche d'erreurs fréquentes). Localisation : Légende et FAQ internes.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont génériques (« pictogramme horloge », « pictogramme croix », « pictogramme point d'interrogation »). La consigne BRITED exige que chaque visuel illustre précisément la notion prononcée. Par exemple, pour le double‑compteur il faut un visuel montrant clairement deux compteurs marqués 'IR' et 'Prélèvements sociaux' avec années 22/30. Localisation : Beats 1,2,3,4.",
+    "densite_editoriale : La vidéo traite un seul angle (exonération partielle à 22 ans) mais omet la mention clé « pas d'abattement pendant les 5 premières années » et les cadences chiffrées des abattements. Ces omissions réduisent la densité informative promise par la fiche. Localisation : Beats 4–5 et Légende.",
+    "pedagogie_client : Le langage est accessible mais certains termes (abattement, prélèvements sociaux) ne sont pas explicités pour un non‑spécialiste. Une courte phrase « prélèvements sociaux = charges sociales liées à la plus‑value » aiderait la compréhension. Localisation : Beat 4.",
+    "pedagogie_client : La recommandation de conserver factures est pertinente mais gagnerait à préciser brièvement quels types de travaux sont pris en compte (travaux facturés) selon la fiche. Localisation : Beat 6.",
+    "retention_attention : Hook fort, mais le tempo risque de ralentir sur les beats 4–5 si on ajoute les cadences chiffrées et un exemple chiffré. Durée estimée (39 s) risque d'être dépassée. Localisation : Beats 1,4,5 et durée estimée.",
+    "conversion_confiance : Le ton inspire sérieux et la mention des sources est bonne. Cependant l'absence d'une mini‑phrase de non‑conseil juste avant le CTA (la légende en contient une mais hors vidéo) affaiblit la conformité à la règle 'pas de conseil personnalisé' lors de l'appel à prendre rendez‑vous. Localisation : Beat 7 et Légende."
+  ],
+  "recommendations": [
+    "Préciser dans l'accroche et dès la première phrase que l'on parle d'un bien 'hors résidence principale' pour éviter toute confusion (modification Beat 1 et narration).",
+    "Ajouter en une courte phrase (Beat 4) les cadences chiffrées des abattements : pour l'IR 6 %/an de la 6e à la 21e, puis 4 % la 22e (exonération IR à 22 ans) ; pour les prélèvements sociaux 1,65 %/an de la 6e à la 21e puis 9 %/an au‑delà (exonération à 30 ans). Citer brièvement la source à l'écran (CGI art. 150 VC / BOFiP).",
+    "Inclure explicitement la règle 'aucun abattement les 5 premières années' (une phrase très courte, Beat 4 ou 5) car c'est une information fréquemment ignorée.",
+    "Raccourcir ou fusionner les Beats 2 et 3 visuellement pour gagner du temps (par exemple question OUI/NON avec révélation immédiate), afin de respecter la durée de ~39 s.",
+    "Améliorer les pictogrammes pour qu'ils soient descriptifs : remplacer symboles génériques par un double‑compteur étiqueté 'IR' et 'Prél. sociaux' avec 22/30 ans, et un visuel de factures/justificatifs pour le conseil travaux (modifications Beats 4,5,6).",
+    "Ajouter un exemple chiffré très simple (p. ex. base de plus‑value 100 000 € → montrer rapidement montant dû à 22 ans vs montant dû à 30 ans) pour rendre l'impact concret sans allonger la durée plus de 5–6 s (Beat 5).",
+    "Phrase de clarification fiscale : remplacer 'l'impôt de 19 % est effacé' par 'l'impôt sur la plus‑value de 19 % est effacé' pour plus de précision (Beat 4).",
+    "Avant le CTA, ajouter une courte phrase orale de non‑conseil (ex. « Contenu pédagogique, pas un conseil personnalisé ») pour préserver la conformité lors de la conversion (Beat 7).",
+    "Reformuler légèrement pour l'oralité : scinder phrases longues en deux et privilégier formulations courtes et actives (par ex. 'À 22 ans, l'impôt sur la plus‑value de 19 % tombe. Mais les prélèvements sociaux restent.').",
+    "Relire la narration à voix haute pour vérifier que la durée réelle respecte la contrainte 39 s après intégration des modifications; si dépassement, prioriser suppression d'une phrase non essentielle ou fusion visuelle."
+  ],
+  "reviewed_at": "2026-08-24T15:19:30",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-10:reels:immobilier_plus_value_duree_detention:1",
+  "script_path": "scripts/immobilier/immobilier_plus_value_duree_detention__reels__a5__v6.md"
+}

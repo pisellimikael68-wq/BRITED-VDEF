@@ -1,0 +1,198 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est respectée globalement, mais le script ne cite pas explicitement la loi ou les articles (L.121-1, L.533-12, loi 2023-451) en tant que sources visibles dans la vidéo ou la légende — la source est fournie en métadonnées mais pas mentionnée comme référence dans la partie 'Sources' à l'écran ou dans la légende.",
+        "Le chiffre « 2 ans » (sanction pénale maximale) figure dans la fiche mais n'apparaît ni dans le script ni dans la légende — si la décision est de citer ce type d'information, il faut l'énoncer exactement et contextualiser."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement les mentions obligatoires mais omet d'indiquer clairement que certaines promotions restent interdites même si la mention est présente (la nuance est faite, mais sans citer d'exemples concrets ni la référence légale précise qui interdit certains produits).",
+        "La formule de la mention « Contenu pédagogique » est correcte mais la mention finale fournie ('Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé...') pourrait être interprétée comme trop large; il manque l'avertissement explicite sur l'absence de recommandation personnalisée au moment où un rendez-vous est proposé (risque d'apparence de conseils personnalisés via CTA)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale et donne un exemple, mais n'explique pas brièvement comment rendre la mention lisible (ex. : texte superposé en haut de la vidéo OU les deux premières lignes de la légende) de façon impérative plutôt que conseillée.",
+        "Il manque une courte phrase expliquant que la contrepartie non monétaire (produit, séjour, accès) doit être précisée par l'auteur, en situation d'exemple (bien que citée, l'exemple ne montre pas la formulation exacte à inscrire pour ces cas)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38s) et la structure sont plausibles pour un Reels, mais le script ne précise pas le placement exact du texte superposé (hauteur/safe area) ; or, sur Reels, le texte peut être masqué par l'interface (boutons, légende) : il faut indiquer explicitement 'texte superposé en haut, en dehors des zones masquées par l'interface'.",
+        "Le risque de légende tronquée est mentionné mais il manque une instruction technique courte pour garantir lecture sur Reels (ex. : placez la mention dans les deux premières lignes et en superposition en haut de l'image)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression convenables, mais la première phrase du hook est longue ('Vous tombez sur une vidéo qui parle de placements sans avertissement visible.') ; pour les 2 premières secondes, une version plus courte et percutante augmente la rétention (ex. : 'Une vidéo parle d'argent... sans avertissement.')",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio.' est clair mais pourrait être formulé avec moins d'apparence commerciale pour rester en cohérence avec le ton pédagogique (ex. : 'Pour un point personnalisé, prenez rendez‑vous via le lien en bio')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la neutralité pédagogique et évite le conseil personnalisé, mais le CTA proposant un rendez-vous peut donner l'impression d'une ouverture au conseil personnalisé ; il faut ajouter une phrase de garde‑fou réitérant que la prise de rendez-vous n'est pas une validation d'investissement (ex. : 'Pour un diagnostic, pas une recommandation immédiate').",
+        "La mention 'Partenariat : contrepartie (argent, produit, accès)' est correcte, mais il conviendrait d'ajouter que la nature exacte de la contrepartie doit être précisée quand possible (par ex. 'Partenariat : produit offert (valeur estimée X)') pour la transparence."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques libellés peuvent être améliorés pour un français plus naturel et professionnel : par exemple remplacer 'Ne constitue pas une recommandation personnalisée' par 'Ne constitue pas une recommandation personnalisée ni un conseil individualisé'.",
+        "La 'Mention' en fin de document inclut 'général' après 'Contenu pédagogique' (\"Contenu pédagogique général.\") — l'adverbe 'général' est redondant et pourrait être omis pour plus de clarté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Révision phrase par phrase valide la cohérence globale, toutefois le script contient deux formulations proches ('Ne constitue pas une recommandation personnalisée' et la mention 'ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement') — risque de redondance potentiellement confusante à l'oral si non simplifiée.",
+        "La narration continue reprend mot à mot les éléments, mais il faut vérifier la fluidité à l'oral : la phrase listant les quatre mentions est dense et pourrait être légèrement ralentie ou séparée pour la compréhension."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés (livre / bulle / avertissement / badge partenariat) sont pertinents mais l'agent relève qu'ils doivent être non-ambiguës : par ex. l'icône 'bulle' pour 'absence de recommandation personnalisée' pourrait laisser penser à 'commentaire' — il est préférable d'utiliser une icône stylisée 'personne barrée' pour indiquer 'pas de conseil personnalisé'.",
+        "Le visuel 'œil barré' dans la nuance peut être perçu comme contradictoire (on recommande que la mention soit lue mais l'icône 'œil barré' suggère de ne pas regarder) ; meilleure icône : œil + point d'exclamation pour signaler 'attention : lisible ou absent'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste sur un seul angle (mentions obligatoires) mais comporte deux phrases presque identiques dans la zone 'Mention' et la 'Légende' — duplication inutile qui diminue la densité éditoriale.",
+        "Manque un chiffre ou une donnée de contexte synthétique (ex. que l'absence peut être sanctionnée) : la fiche rappelle la sanction pénale maximale, mais le script se contente d'une phrase générale; une courte référence chiffrée renforcerait la portée pédagogique (avec prudence)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format liste des quatre mentions est accessible, mais un non-spécialiste pourrait ne pas saisir immédiatement la différence entre 'contenu pédagogique' et 'absence de recommandation personnalisée' — une très courte reformulation pour chaque item aiderait (ex. 'Contenu pédagogique (explication générale, pas d'instructions pour vous)').",
+        "L'exemple de légende est utile, mais il faudrait indiquer explicitement qu'il doit apparaître en première ligne (actuellement indiqué ailleurs) et donner un très court modèle prêt à copier-coller pour rassurer l'utilisateur sans prétendre valider juridiquement le libellé."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont informatives mais pourraient être raccourcies pour maximiser la rétention (hook plus percutant conseillé).",
+        "L'enchaînement est logique, mais la section 'exemple' pourrait être placée immédiatement après la règle pour renforcer la mémorisation (au lieu d'introduire une nuance avant l'exemple)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et pédagogique, mais le CTA 'Prenez rendez-vous via le lien dans ma bio.' risque d'apparaître commercial : il conviendrait d'ajouter une phrase de confiance neutre (ex. 'Diagnostic objectif, sans engagement').",
+        "Pour renforcer la crédibilité, la vidéo pourrait rappeler très brièvement la source autoritative (AMF) visuellement, sans transformer la vidéo en contenu légaliste."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est respectée globalement, mais le script ne cite pas explicitement la loi ou les articles (L.121-1, L.533-12, loi 2023-451) en tant que sources visibles dans la vidéo ou la légende — la source est fournie en métadonnées mais pas mentionnée comme référence dans la partie 'Sources' à l'écran ou dans la légende.",
+    "source : Le chiffre « 2 ans » (sanction pénale maximale) figure dans la fiche mais n'apparaît ni dans le script ni dans la légende — si la décision est de citer ce type d'information, il faut l'énoncer exactement et contextualiser.",
+    "juridique_fiscal : Le script indique correctement les mentions obligatoires mais omet d'indiquer clairement que certaines promotions restent interdites même si la mention est présente (la nuance est faite, mais sans citer d'exemples concrets ni la référence légale précise qui interdit certains produits).",
+    "juridique_fiscal : La formule de la mention « Contenu pédagogique » est correcte mais la mention finale fournie ('Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé...') pourrait être interprétée comme trop large; il manque l'avertissement explicite sur l'absence de recommandation personnalisée au moment où un rendez-vous est proposé (risque d'apparence de conseils personnalisés via CTA).",
+    "completude : Le script couvre la règle principale et donne un exemple, mais n'explique pas brièvement comment rendre la mention lisible (ex. : texte superposé en haut de la vidéo OU les deux premières lignes de la légende) de façon impérative plutôt que conseillée.",
+    "completude : Il manque une courte phrase expliquant que la contrepartie non monétaire (produit, séjour, accès) doit être précisée par l'auteur, en situation d'exemple (bien que citée, l'exemple ne montre pas la formulation exacte à inscrire pour ces cas).",
+    "plateforme : La durée estimée (38s) et la structure sont plausibles pour un Reels, mais le script ne précise pas le placement exact du texte superposé (hauteur/safe area) ; or, sur Reels, le texte peut être masqué par l'interface (boutons, légende) : il faut indiquer explicitement 'texte superposé en haut, en dehors des zones masquées par l'interface'.",
+    "plateforme : Le risque de légende tronquée est mentionné mais il manque une instruction technique courte pour garantir lecture sur Reels (ex. : placez la mention dans les deux premières lignes et en superposition en haut de l'image).",
+    "editorial : Accroche et progression convenables, mais la première phrase du hook est longue ('Vous tombez sur une vidéo qui parle de placements sans avertissement visible.') ; pour les 2 premières secondes, une version plus courte et percutante augmente la rétention (ex. : 'Une vidéo parle d'argent... sans avertissement.')",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio.' est clair mais pourrait être formulé avec moins d'apparence commerciale pour rester en cohérence avec le ton pédagogique (ex. : 'Pour un point personnalisé, prenez rendez‑vous via le lien en bio').",
+    "securite : Le script respecte la neutralité pédagogique et évite le conseil personnalisé, mais le CTA proposant un rendez-vous peut donner l'impression d'une ouverture au conseil personnalisé ; il faut ajouter une phrase de garde‑fou réitérant que la prise de rendez-vous n'est pas une validation d'investissement (ex. : 'Pour un diagnostic, pas une recommandation immédiate').",
+    "securite : La mention 'Partenariat : contrepartie (argent, produit, accès)' est correcte, mais il conviendrait d'ajouter que la nature exacte de la contrepartie doit être précisée quand possible (par ex. 'Partenariat : produit offert (valeur estimée X)') pour la transparence.",
+    "formulation_professionnelle : Quelques libellés peuvent être améliorés pour un français plus naturel et professionnel : par exemple remplacer 'Ne constitue pas une recommandation personnalisée' par 'Ne constitue pas une recommandation personnalisée ni un conseil individualisé'.",
+    "formulation_professionnelle : La 'Mention' en fin de document inclut 'général' après 'Contenu pédagogique' (\"Contenu pédagogique général.\") — l'adverbe 'général' est redondant et pourrait être omis pour plus de clarté.",
+    "contre_verification_finale : Révision phrase par phrase valide la cohérence globale, toutefois le script contient deux formulations proches ('Ne constitue pas une recommandation personnalisée' et la mention 'ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement') — risque de redondance potentiellement confusante à l'oral si non simplifiée.",
+    "contre_verification_finale : La narration continue reprend mot à mot les éléments, mais il faut vérifier la fluidité à l'oral : la phrase listant les quatre mentions est dense et pourrait être légèrement ralentie ou séparée pour la compréhension.",
+    "coherence_pictogrammes : Les pictogrammes proposés (livre / bulle / avertissement / badge partenariat) sont pertinents mais l'agent relève qu'ils doivent être non-ambiguës : par ex. l'icône 'bulle' pour 'absence de recommandation personnalisée' pourrait laisser penser à 'commentaire' — il est préférable d'utiliser une icône stylisée 'personne barrée' pour indiquer 'pas de conseil personnalisé'.",
+    "coherence_pictogrammes : Le visuel 'œil barré' dans la nuance peut être perçu comme contradictoire (on recommande que la mention soit lue mais l'icône 'œil barré' suggère de ne pas regarder) ; meilleure icône : œil + point d'exclamation pour signaler 'attention : lisible ou absent'.",
+    "densite_editoriale : La vidéo reste sur un seul angle (mentions obligatoires) mais comporte deux phrases presque identiques dans la zone 'Mention' et la 'Légende' — duplication inutile qui diminue la densité éditoriale.",
+    "densite_editoriale : Manque un chiffre ou une donnée de contexte synthétique (ex. que l'absence peut être sanctionnée) : la fiche rappelle la sanction pénale maximale, mais le script se contente d'une phrase générale; une courte référence chiffrée renforcerait la portée pédagogique (avec prudence).",
+    "pedagogie_client : Le format liste des quatre mentions est accessible, mais un non-spécialiste pourrait ne pas saisir immédiatement la différence entre 'contenu pédagogique' et 'absence de recommandation personnalisée' — une très courte reformulation pour chaque item aiderait (ex. 'Contenu pédagogique (explication générale, pas d'instructions pour vous)').",
+    "pedagogie_client : L'exemple de légende est utile, mais il faudrait indiquer explicitement qu'il doit apparaître en première ligne (actuellement indiqué ailleurs) et donner un très court modèle prêt à copier-coller pour rassurer l'utilisateur sans prétendre valider juridiquement le libellé.",
+    "retention_attention : Les deux premières secondes sont informatives mais pourraient être raccourcies pour maximiser la rétention (hook plus percutant conseillé).",
+    "retention_attention : L'enchaînement est logique, mais la section 'exemple' pourrait être placée immédiatement après la règle pour renforcer la mémorisation (au lieu d'introduire une nuance avant l'exemple).",
+    "conversion_confiance : Le ton est sérieux et pédagogique, mais le CTA 'Prenez rendez-vous via le lien dans ma bio.' risque d'apparaître commercial : il conviendrait d'ajouter une phrase de confiance neutre (ex. 'Diagnostic objectif, sans engagement').",
+    "conversion_confiance : Pour renforcer la crédibilité, la vidéo pourrait rappeler très brièvement la source autoritative (AMF) visuellement, sans transformer la vidéo en contenu légaliste."
+  ],
+  "recommendations": [
+    "1) Incorporez une phrase très courte et visible indiquant que certaines promotions restent interdites malgré la présence de la mention (ex. : 'Attention : la mention ne légitimise pas la promotion de produits dont la publicité est interdite').",
+    "2) Ajustez le visuel et la formulation du hook pour tenir les 2 premières secondes (raccourcir la phrase d'accroche et placer la première mention en superposition haute, hors zones masquées).",
+    "3) Remplacez ou précisez les pictogrammes : utiliser 'personne barrée' pour 'pas de recommandation personnalisée' et 'œil + point d'exclamation' pour l'avertissement de lisibilité, afin d'éviter ambiguïté visuelle.",
+    "4) Précisez techniquement où placer la mention sur Reels (texte superposé en haut, en dehors des zones d'interface, ET dans les deux premières lignes de la légende) pour éviter la troncation.",
+    "5) Clarifiez le CTA pour dissocier la prise de rendez‑vous d'une recommandation immédiate (ex. ajouter 'diagnostic sans engagement, pas une recommandation d'investissement').",
+    "6) Harmonisez et simplifiez les libellés pour éviter redondance : proposer un modèle court et clair à l'écran et dans la légende (ex. 'Contenu pédagogique • Pas de conseil personnalisé • Risque de perte en capital • Partenariat : contrepartie (préciser)').",
+    "7) Si vous décidez de mentionner la sanction ou les textes, ajoutez une brève référence visible (ex. 'Voir : loi 2023-451, AMF') dans la zone 'Sources' de la publication, sans en faire un élément central du Reels."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-18:reels:conformite_mentions_obligatoires:1",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__reels__a3__v7.md"
+}

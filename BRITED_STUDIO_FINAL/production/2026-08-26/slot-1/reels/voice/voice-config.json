@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "8b9a2fee2815a6ecfa1e81282f06202898bfbc1558d05d2232e9fb883b442155",
+  "beat_hashes": {
+    "hook": "a42f83fc906ddc5762219e7248276a7a066f13904669ccb274bf4326c45c174b",
+    "question": "e9b31f3f4189d0af2577befeb261314c2935f81ef403b4a31ef061e9242d23d3",
+    "reponse": "da169e0dcfb6efd10d18545348780f01a1e6790efbafcf99b7a165b29723c1d0",
+    "regle": "f4c2d4015153012121b581d0658192f992646b39fb04e957eea03f08e1397d26",
+    "exemple": "90457e7ac531c7550c5f9933134966f00d9353adc2a6145d1bb8caa65ac105c0",
+    "nuance": "31451ebc58dcc3953ef4e6935e9fcf759d949f67301d3a577b0ca4626fe3046c",
+    "cta": "a38acb655f92d6105c664aaad7c3eb9f98da045b0c99c844c7409cb900d4971f"
+  },
+  "spoken_texts": {
+    "hook": "La phrase la plus importante de votre contrat tient en deux lignes.",
+    "question": "Dans mon contrat, la clause bénéficiaire peut elle être changée facilement ?",
+    "reponse": "Oui. Vous pouvez la modifier gratuitement à tout moment. Sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+    "regle": "La clause désigne qui reçoit le capital et le nombre d'abattements applicables ; elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+    "exemple": "Exemple : modifier la désignation coûte zéro euro. Si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+    "nuance": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+    "cta": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

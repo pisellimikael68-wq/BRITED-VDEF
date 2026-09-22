@@ -1,0 +1,420 @@
+{
+  "passed": false,
+  "failures": [
+    "pictogramme non contextualisé pour la page exemple"
+  ],
+  "expected_duration": 39.11,
+  "target_duration": [
+    35,
+    48
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 39.112,
+      "peak": 0.84161,
+      "rms": 0.13502,
+      "dc": 8.5e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 2.918,
+        "peak": 0.71436,
+        "rms": 0.08147,
+        "dc": 1.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_question.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 2.473,
+        "peak": 0.94705,
+        "rms": 0.07408,
+        "dc": 3.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.037,
+        "peak": 0.98959,
+        "rms": 0.09899,
+        "dc": 1.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.673,
+        "peak": 0.95166,
+        "rms": 0.09451,
+        "dc": 5.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_precision.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.634,
+        "peak": 0.98987,
+        "rms": 0.13329,
+        "dc": 1.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.512,
+        "peak": 0.98969,
+        "rms": 0.10677,
+        "dc": 2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.069,
+        "peak": 0.71298,
+        "rms": 0.06785,
+        "dc": 8e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "08_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.589,
+        "peak": 0.84515,
+        "rms": 0.08985,
+        "dc": 4.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 7,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Vous envisagez de changer de régime matrimonial ?",
+        "transcript": "Vous envisagez de changer de régime matrimonial ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8929,
+        "passed": true
+      },
+      {
+        "beat": "question",
+        "expected": "Selon vous, l’acte notarié suffit il ?",
+        "transcript": "Selon vous, l'acte notarié suffit-il ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8298,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+        "transcript": "Non, l'acte est indispensable, mais d'autres étapes sont obligatoires.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9467,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+        "transcript": "Les enfants majeurs et les créanciers sont informés. Ils disposent de 3 mois pour s'opposer.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0562,
+        "passed": true
+      },
+      {
+        "beat": "precision",
+        "expected": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+        "transcript": "En cas d'opposition, le tribunal homologue l'acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1858,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+        "transcript": "Exemple, un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1158,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+        "transcript": "Le changement peut nécessiter de liquider l'ancien régime et avoir des conséquences fiscales.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0787,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1034,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": false,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Couple + acte notarié",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "landmark",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Enveloppes + calendrier trois mois",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "users",
+          "calendar"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          480,
+          672,
+          699
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "precision",
+        "description": "Tribunal + enfant protégé",
+        "family": "enfants",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scale",
+          "shield-check",
+          "users"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Entreprise séparée du patrimoine familial",
+        "family": "generic",
+        "semantic_match": false,
+        "geometry_ok": true,
+        "library_icons": [
+          "heart-handshake",
+          "shield-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": false
+      },
+      {
+        "beat": "nuance",
+        "description": "Dossier + balance",
+        "family": "fiscalite",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scale",
+          "banknote"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          480,
+          672,
+          699
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

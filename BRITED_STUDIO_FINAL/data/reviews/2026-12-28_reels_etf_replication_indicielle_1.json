@@ -1,0 +1,186 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Les chiffres 0,05–0,40 % et 1,5–2,5 % figurent comme ordre de grandeur dans la fiche mais sont marqués 'a_verifier'. Le script affiche ces plages sans rappeler explicitement qu'il faut vérifier le DIC pour chaque produit (la phrase '— à vérifier sur le DIC du produit.' existe dans la narration, mais le texte écran affiche les chiffres seuls). Il faut s'assurer que l'avertissement de vérification apparaisse clairement à l'écran en même temps que les chiffres.",
+        "La mention 'éligibilité au PEA possible si UCITS et quotas européens respectés' omet la condition pratique de domiciliation (ou distribution) en UE pour l'éligibilité au PEA : il serait préférable de préciser 'si le fonds est UCITS, respecte les quotas et est domicilié ou distribué conformément aux règles PEA'.",
+        "La source AMF et la Directive UCITS sont listées dans la fiche, mais le script ne cite aucune source à l'écran ou dans la légende (la légende contient un rappel général mais pas d'indication explicite 'voir AMF'). Pour stricte fidélité aux sources, indiquer au moins 'Source : AMF' dans la légende ou à l'écran lors du résumé chiffré."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement que le capital n'est pas garanti et que l'éligibilité au PEA dépend d'UCITS et des quotas européens, mais il manque la précision sur la domiciliation/distribution (voir remarque source).",
+        "La formule 'PEA si UCITS et quotas européens' peut être interprétée comme suffisante : juridiquement, l'éligibilité au PEA s'applique aux OPC respectant les règles et effectivement admissibles selon l'administration fiscale; il faut éviter toute formulation laissant croire à une automatique admissibilité."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite l'angle principal (ETF = contenant, frais plus faibles, risque) mais omet d'expliquer brièvement la différence entre réplication physique et synthétique, qui est une caractéristique utile à vérifier (mentionnée dans 'erreurs_frequentes' de la fiche).",
+        "L'exemple chiffré est présent mais manque d'un rappel explicite que ces valeurs sont typiques pour 'grands indices' (le chiffre dans la fiche est pour 'grand indice'). Le public pourrait croire que ces plages s'appliquent à tous les ETF."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est directe mais la mention 'question rhétorique' affichée en visuel est superflue et alourdit la lecture. Cela nuit légèrement à la fluidité visuelle des premières secondes.",
+        "La phrase finale 'Prenez rendez-vous via le lien dans ma bio.' est adaptée au format Reels mais pourrait être allégée pour conserver le ton professionnel (ex. 'Prenez rendez‑vous via le lien en bio')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être améliorées pour un français plus naturel : par exemple, remplacer 'c'est un contenant qui réplique un indice' par 'c'est un contenant : il réplique un indice.'",
+        "La juxtaposition 'Est-ce un placement ? OUI ☐   NON ☐ — question rhétorique.' sonne contraintes et pourrait être lue maladroitement à l'oral ; simplifier la voix off éviterait hésitation."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Il existe des incohérences mineures entre narration et texte écran : les chiffres sont accompagnés dans la narration de l'avertissement 'à vérifier sur le DIC', mais le texte écran présente uniquement les chiffres. Le pictogramme 'question rhétorique' figure à la fois comme mot et visuel — redondance inutile.",
+        "La correspondance exacte entre chaque visuel et la phrase prononcée doit être revue ligne par ligne pour éviter toute déconnexion (par ex. l'icône 'contenant ouvert + miniature d'indice' doit apparaître précisément durant la phrase 'c'est un contenant qui réplique un indice')."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont décrits de façon un peu générique ('pictogramme balance', 'pictogramme triangle attention') : il faut s'assurer que le pictogramme 'balance' illustre bien 'frais bas vs frais hauts' et que l'icône d'attention ne ressemble pas à un avertissement réglementaire officiel.",
+        "La vignette pour l'exemple chiffré doit intégrer l'avertissement 'vérifier DIC' pour que le visuel illustre la précaution verbale."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept 'contenant' est pédagogique mais mérite une phrase courte supplémentaire pour éviter une lecture littérale (ex. 'un contenant : il contient un panier de titres qui suit un indice').",
+        "Absence d'une très brève explication ou d'un mot sur 'réplication' (physique vs synthétique) peut laisser un public non spécialiste sans point d'action concret à vérifier."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook 'Vous voyez \"ETF\"...' est bon, mais la scène 2 (cases OUI/NON) prend du temps visuel sans ajouter d'information. Cela peut réduire l'efficacité des deux premières secondes. Remplacer la case animée par une seule phrase visuelle plus percutante augmenterait la rétention.",
+        "La vidéo est estimée à 40 secondes ; pour Reels, un rythme légèrement plus rapide et suppression des éléments redondants améliorerait la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'appel à l'action 'Prenez rendez-vous via le lien dans ma bio.' est acceptable, mais pour inspirer plus de confiance il faudrait ajouter la mention 'contenu pédagogique général, non‑conseil personnalisé' visible au moins dans la légende (la fiche contient cette mention, vérifier qu'elle sera incluse dans la publication).",
+        "La vidéo doit éviter toute tonalité de vente pressante ; la formulation actuelle est correcte mais peut être adoucie pour maintenir neutralité professionnelle."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Les chiffres 0,05–0,40 % et 1,5–2,5 % figurent comme ordre de grandeur dans la fiche mais sont marqués 'a_verifier'. Le script affiche ces plages sans rappeler explicitement qu'il faut vérifier le DIC pour chaque produit (la phrase '— à vérifier sur le DIC du produit.' existe dans la narration, mais le texte écran affiche les chiffres seuls). Il faut s'assurer que l'avertissement de vérification apparaisse clairement à l'écran en même temps que les chiffres.",
+    "source : La mention 'éligibilité au PEA possible si UCITS et quotas européens respectés' omet la condition pratique de domiciliation (ou distribution) en UE pour l'éligibilité au PEA : il serait préférable de préciser 'si le fonds est UCITS, respecte les quotas et est domicilié ou distribué conformément aux règles PEA'.",
+    "source : La source AMF et la Directive UCITS sont listées dans la fiche, mais le script ne cite aucune source à l'écran ou dans la légende (la légende contient un rappel général mais pas d'indication explicite 'voir AMF'). Pour stricte fidélité aux sources, indiquer au moins 'Source : AMF' dans la légende ou à l'écran lors du résumé chiffré.",
+    "juridique_fiscal : Le script indique correctement que le capital n'est pas garanti et que l'éligibilité au PEA dépend d'UCITS et des quotas européens, mais il manque la précision sur la domiciliation/distribution (voir remarque source).",
+    "juridique_fiscal : La formule 'PEA si UCITS et quotas européens' peut être interprétée comme suffisante : juridiquement, l'éligibilité au PEA s'applique aux OPC respectant les règles et effectivement admissibles selon l'administration fiscale; il faut éviter toute formulation laissant croire à une automatique admissibilité.",
+    "completude : Le script traite l'angle principal (ETF = contenant, frais plus faibles, risque) mais omet d'expliquer brièvement la différence entre réplication physique et synthétique, qui est une caractéristique utile à vérifier (mentionnée dans 'erreurs_frequentes' de la fiche).",
+    "completude : L'exemple chiffré est présent mais manque d'un rappel explicite que ces valeurs sont typiques pour 'grands indices' (le chiffre dans la fiche est pour 'grand indice'). Le public pourrait croire que ces plages s'appliquent à tous les ETF.",
+    "editorial : L'accroche est directe mais la mention 'question rhétorique' affichée en visuel est superflue et alourdit la lecture. Cela nuit légèrement à la fluidité visuelle des premières secondes.",
+    "editorial : La phrase finale 'Prenez rendez-vous via le lien dans ma bio.' est adaptée au format Reels mais pourrait être allégée pour conserver le ton professionnel (ex. 'Prenez rendez‑vous via le lien en bio').",
+    "formulation_professionnelle : Quelques formulations pourraient être améliorées pour un français plus naturel : par exemple, remplacer 'c'est un contenant qui réplique un indice' par 'c'est un contenant : il réplique un indice.'",
+    "formulation_professionnelle : La juxtaposition 'Est-ce un placement ? OUI ☐   NON ☐ — question rhétorique.' sonne contraintes et pourrait être lue maladroitement à l'oral ; simplifier la voix off éviterait hésitation.",
+    "contre_verification_finale : Il existe des incohérences mineures entre narration et texte écran : les chiffres sont accompagnés dans la narration de l'avertissement 'à vérifier sur le DIC', mais le texte écran présente uniquement les chiffres. Le pictogramme 'question rhétorique' figure à la fois comme mot et visuel — redondance inutile.",
+    "contre_verification_finale : La correspondance exacte entre chaque visuel et la phrase prononcée doit être revue ligne par ligne pour éviter toute déconnexion (par ex. l'icône 'contenant ouvert + miniature d'indice' doit apparaître précisément durant la phrase 'c'est un contenant qui réplique un indice').",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont décrits de façon un peu générique ('pictogramme balance', 'pictogramme triangle attention') : il faut s'assurer que le pictogramme 'balance' illustre bien 'frais bas vs frais hauts' et que l'icône d'attention ne ressemble pas à un avertissement réglementaire officiel.",
+    "coherence_pictogrammes : La vignette pour l'exemple chiffré doit intégrer l'avertissement 'vérifier DIC' pour que le visuel illustre la précaution verbale.",
+    "pedagogie_client : Le concept 'contenant' est pédagogique mais mérite une phrase courte supplémentaire pour éviter une lecture littérale (ex. 'un contenant : il contient un panier de titres qui suit un indice').",
+    "pedagogie_client : Absence d'une très brève explication ou d'un mot sur 'réplication' (physique vs synthétique) peut laisser un public non spécialiste sans point d'action concret à vérifier.",
+    "retention_attention : Le hook 'Vous voyez \"ETF\"...' est bon, mais la scène 2 (cases OUI/NON) prend du temps visuel sans ajouter d'information. Cela peut réduire l'efficacité des deux premières secondes. Remplacer la case animée par une seule phrase visuelle plus percutante augmenterait la rétention.",
+    "retention_attention : La vidéo est estimée à 40 secondes ; pour Reels, un rythme légèrement plus rapide et suppression des éléments redondants améliorerait la rétention.",
+    "conversion_confiance : L'appel à l'action 'Prenez rendez-vous via le lien dans ma bio.' est acceptable, mais pour inspirer plus de confiance il faudrait ajouter la mention 'contenu pédagogique général, non‑conseil personnalisé' visible au moins dans la légende (la fiche contient cette mention, vérifier qu'elle sera incluse dans la publication).",
+    "conversion_confiance : La vidéo doit éviter toute tonalité de vente pressante ; la formulation actuelle est correcte mais peut être adoucie pour maintenir neutralité professionnelle."
+  ],
+  "recommendations": [
+    "Affichez simultanément avec les chiffres (0,05–0,40 % vs 1,5–2,5 %) un avertissement clair à l'écran : 'Ordres de grandeur — vérifier le DIC du produit'.",
+    "Précisez la condition PEA en ajoutant la mention de domiciliation/distribution : 'PEA possible si le fonds est UCITS, respecte les quotas européens et est domicilié/distribué conformément aux règles PEA'.",
+    "Ajoutez une très courte phrase (5–7 mots) ou une vignette expliquant la différence utile à vérifier : 'Réplication physique vs synthétique : à vérifier dans le DIC'.",
+    "Retirez la mention visuelle 'question rhétorique' et simplifiez la séquence 2 pour accélérer les deux premières secondes (ex. affichez directement 'Est‑ce un placement ? Non.').",
+    "Harmonisez visuel et narration pour chaque beat : par exemple, montrez l'icône 'contenant + indice' exactement pendant 'c'est un contenant : il réplique un indice.'",
+    "Assurez-vous que la légende de la publication inclue la mention 'Contenu pédagogique général. Ne constitue pas un conseil personnalisé.' et la source 'AMF' (liens fournis dans la fiche).",
+    "Revoyez quelques formulations orales pour un français plus naturel : remplacer 'c'est un contenant qui réplique un indice' par 'c'est un contenant : il réplique un indice', et simplifier la fin 'Prenez rendez‑vous via le lien en bio.'",
+    "Vérifiez que les pictogrammes choisis illustrent précisément la notion (ex. balance pour 'frais relatifs', triangle d'attention avec texte explicatif, et inclusion du rappel DIC dans la vignette chiffrée)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-28:reels:etf_replication_indicielle:1",
+  "script_path": "scripts/etf/etf_replication_indicielle__reels__a4__v5.md"
+}

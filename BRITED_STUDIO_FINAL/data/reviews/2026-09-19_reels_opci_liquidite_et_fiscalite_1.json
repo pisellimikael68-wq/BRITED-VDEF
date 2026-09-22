@@ -1,0 +1,179 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « prélèvement forfaitaire unique » est correcte, mais le script n'explicite pas la ventilation (12,8 % impôt + 17,2 % prélèvements sociaux = 30 %) ce qui peut prêter à confusion pour un public non spécialiste.",
+        "La fiche indique que la fiscalité dépend de la forme juridique (SPPICAV vs FPI). Le script ne rappelle pas cette nuance ; il ne mentionne pas que certains OPCI (FPI) peuvent relever des revenus fonciers."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple reste très générique (« pour un rachat courant »). Il manque un court chiffrage ou précision temporelle qui aiderait la compréhension (ex. montant couvert par la poche de liquidités ou délai moyen de traitement), même si des chiffres précis dépendent du fonds.",
+        "La mention des conditions réglementaires est présente (60 % / 5 %) mais il manque la référence explicite à l'article applicable (L214-33 et suivants sont en sources, mais non rappelés dans le script)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est clair mais pourrait être rendu plus percutant en 1–2 mots pour les 1–2 premières secondes (ex. « OPCI : remboursement possible ? ») afin d'optimiser la rétention sur Reels.",
+        "Le CTA est standard mais pourrait préciser la nature du rendez-vous (conseil, bilan) pour augmenter les conversions sans faire de promesse."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase « Condition : au moins 60% d'actifs immobiliers et une poche de 5% de liquidités. » est correcte mais pourrait être reformulée pour le grand public ('au moins 60 % doit être investi en immobilier et au moins 5 % doit rester en liquidités') pour une lecture plus fluide.",
+        "Le passage « pour un rachat courant, elle peut régler depuis cette trésorerie » répète le sujet 'elle' (OPCI) sans clarté absolue ; reformuler pour éviter toute ambiguïté (ex. « le OPCI peut » ou « le fonds peut »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Relire la cohérence mot à mot : le script alterne 'l'OPCI' et 'elle' ; uniformiser le sujet pour la fluidité orale.",
+        "Vérifier prononciation et débit : la séquence couvre 7 beats en ~38 s — certains segments (notamment la nuance) risquent d'être trop rapides à l'oral ; recommander chronométrer la lecture à voix haute."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le visuel 'Icône coffre+pièces et immeuble' illustre bien la poche de liquidités mais le pictogramme 'flèche paiement' pourrait être interprété comme dividende plutôt que rachat ; recommander un pictogramme plus explicite (main qui reçoit de l'argent).",
+        "Le schéma 60%/5% doit veiller à différencier visuellement 'actifs immobiliers' et 'liquidités' sans ambiguïté (couleurs distinctes avec légendes claires)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le langage est globalement accessible, mais l'abréviation 'SPPICAV' est employée dans hashtags et sources sans explication dans le script ; pour un non-spécialiste, ajouter entre parenthèses 'SPPICAV (forme la plus courante, fiscalité des revenus mobiliers)'.",
+        "Le concept 'liquidité organisée, pas garantie' est bien posé ; toutefois, un très court exemple d'événement (vague de rachats -> suspension possible) aiderait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes peuvent être renforcées (voir remarque sur le hook).",
+        "Le beat 2 (cases OUI/NON) est visuel mais freine la progression si gardé plus de 2–3 s ; recommander limiter ce plan pour maintenir l'élan."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et sobre ; cependant le CTA 'Prenez rendez-vous via le lien dans ma bio' pourrait être perçu comme commercial si non encadré. Ajouter la mention 'bilan pédagogique' ou 'point gratuit' (selon réalité) améliorerait la confiance — à condition de rester exact.",
+        "La mention légale en fin de légende est bonne ; dans la vidéo, l'énoncé audio devrait inclure une phrase rapide 'contenu pédagogique, pas un conseil personnalisé' pour réduire risque de mauvaise interprétation."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 95,
+      "seconds": 35.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 95,
+        "seconds": 35.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La mention « prélèvement forfaitaire unique » est correcte, mais le script n'explicite pas la ventilation (12,8 % impôt + 17,2 % prélèvements sociaux = 30 %) ce qui peut prêter à confusion pour un public non spécialiste.",
+    "juridique_fiscal : La fiche indique que la fiscalité dépend de la forme juridique (SPPICAV vs FPI). Le script ne rappelle pas cette nuance ; il ne mentionne pas que certains OPCI (FPI) peuvent relever des revenus fonciers.",
+    "completude : L'exemple reste très générique (« pour un rachat courant »). Il manque un court chiffrage ou précision temporelle qui aiderait la compréhension (ex. montant couvert par la poche de liquidités ou délai moyen de traitement), même si des chiffres précis dépendent du fonds.",
+    "completude : La mention des conditions réglementaires est présente (60 % / 5 %) mais il manque la référence explicite à l'article applicable (L214-33 et suivants sont en sources, mais non rappelés dans le script).",
+    "editorial : Le hook est clair mais pourrait être rendu plus percutant en 1–2 mots pour les 1–2 premières secondes (ex. « OPCI : remboursement possible ? ») afin d'optimiser la rétention sur Reels.",
+    "editorial : Le CTA est standard mais pourrait préciser la nature du rendez-vous (conseil, bilan) pour augmenter les conversions sans faire de promesse.",
+    "formulation_professionnelle : Phrase « Condition : au moins 60% d'actifs immobiliers et une poche de 5% de liquidités. » est correcte mais pourrait être reformulée pour le grand public ('au moins 60 % doit être investi en immobilier et au moins 5 % doit rester en liquidités') pour une lecture plus fluide.",
+    "formulation_professionnelle : Le passage « pour un rachat courant, elle peut régler depuis cette trésorerie » répète le sujet 'elle' (OPCI) sans clarté absolue ; reformuler pour éviter toute ambiguïté (ex. « le OPCI peut » ou « le fonds peut »).",
+    "contre_verification_finale : Relire la cohérence mot à mot : le script alterne 'l'OPCI' et 'elle' ; uniformiser le sujet pour la fluidité orale.",
+    "contre_verification_finale : Vérifier prononciation et débit : la séquence couvre 7 beats en ~38 s — certains segments (notamment la nuance) risquent d'être trop rapides à l'oral ; recommander chronométrer la lecture à voix haute.",
+    "coherence_pictogrammes : Le visuel 'Icône coffre+pièces et immeuble' illustre bien la poche de liquidités mais le pictogramme 'flèche paiement' pourrait être interprété comme dividende plutôt que rachat ; recommander un pictogramme plus explicite (main qui reçoit de l'argent).",
+    "coherence_pictogrammes : Le schéma 60%/5% doit veiller à différencier visuellement 'actifs immobiliers' et 'liquidités' sans ambiguïté (couleurs distinctes avec légendes claires).",
+    "pedagogie_client : Le langage est globalement accessible, mais l'abréviation 'SPPICAV' est employée dans hashtags et sources sans explication dans le script ; pour un non-spécialiste, ajouter entre parenthèses 'SPPICAV (forme la plus courante, fiscalité des revenus mobiliers)'.",
+    "pedagogie_client : Le concept 'liquidité organisée, pas garantie' est bien posé ; toutefois, un très court exemple d'événement (vague de rachats -> suspension possible) aiderait la compréhension.",
+    "retention_attention : Les deux premières secondes peuvent être renforcées (voir remarque sur le hook).",
+    "retention_attention : Le beat 2 (cases OUI/NON) est visuel mais freine la progression si gardé plus de 2–3 s ; recommander limiter ce plan pour maintenir l'élan.",
+    "conversion_confiance : Le ton est professionnel et sobre ; cependant le CTA 'Prenez rendez-vous via le lien dans ma bio' pourrait être perçu comme commercial si non encadré. Ajouter la mention 'bilan pédagogique' ou 'point gratuit' (selon réalité) améliorerait la confiance — à condition de rester exact.",
+    "conversion_confiance : La mention légale en fin de légende est bonne ; dans la vidéo, l'énoncé audio devrait inclure une phrase rapide 'contenu pédagogique, pas un conseil personnalisé' pour réduire risque de mauvaise interprétation."
+  ],
+  "recommendations": [
+    "Juridique/fiscal : ajouter en une courte phrase la ventilation du PFU (12,8 % impôt + 17,2 % prélèvements sociaux = 30 %) ou reformuler pour éviter l'ambiguïté, et rappeler brièvement que certains OPCI (FPI) relèvent des revenus fonciers.",
+    "Completude : préciser légèrement l'exemple (ex. 'pour des rachats courants de petite taille, la poche de liquidités permet le règlement immédiat') et, si possible, citer la référence réglementaire (articles L214-33 et suivants) dans la légende ou le sous-texte.",
+    "Formulation : uniformiser le sujet ('l'OPCI' ou 'le fonds') et reformuler les phrases repérées pour une meilleure fluidité orale.",
+    "Editorial/retention : raccourcir le beat 2 (OUI/NON) à 1–2 secondes et renforcer le hook initial (« OPCI : remboursement possible ? ») pour maximiser les 2 premières secondes d'attention.",
+    "Pictogrammes : remplacer la 'flèche paiement' par un pictogramme main qui reçoit de l'argent pour clarifier l'idée de rachat ; distinguer nettement couleurs/légendes du schéma 60% / 5%.",
+    "Pédagogie : expliquer brièvement l'acronyme SPPICAV dans la légende ou la narration parenthétique et ajouter un très court exemple concret de suspension possible (« en cas de vagues de rachats la gestion peut suspendre les remboursements » → « ex. pendant X semaines » si vous avez une indication, sinon laisser la formulation actuelle mais prononcer lentement).",
+    "Conversion/confiance : modifier le CTA pour préciser la nature du rendez-vous (ex. 'point pédagogique' ou 'bilan rapide') et ajouter rapidement dans l'audio la mention 'contenu pédagogique, pas un conseil personnalisé'.",
+    "Contre-vérification finale : effectuez une lecture chronométrée à voix haute pour vérifier que le script tient bien en ~38 secondes et corrigez le débit si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-19:reels:opci_liquidite_et_fiscalite:1",
+  "script_path": "scripts/opci/opci_liquidite_et_fiscalite__reels__a1__v2.md"
+}

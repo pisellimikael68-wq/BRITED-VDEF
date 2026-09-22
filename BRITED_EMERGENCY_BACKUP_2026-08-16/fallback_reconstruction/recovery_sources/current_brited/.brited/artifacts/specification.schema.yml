@@ -1,0 +1,41 @@
+metadata:
+  schema: "1.0"
+
+specification:
+
+  id: ""
+
+  title: ""
+
+  objective: ""
+
+  business_value: ""
+
+  priority: medium
+
+  complexity: medium
+
+  dependencies: []
+
+  acceptance_criteria: []
+
+  assumptions: []
+
+  constraints: []
+
+deliverables:
+
+  code: true
+
+  tests: true
+
+  documentation: true
+
+validation:
+
+  required:
+
+    - title
+    - objective
+    - acceptance_criteria
+    

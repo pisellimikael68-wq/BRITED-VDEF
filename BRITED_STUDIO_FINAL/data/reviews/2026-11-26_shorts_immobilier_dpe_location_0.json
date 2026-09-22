@@ -1,0 +1,150 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration affirme «La loi de 1989 intègre la performance énergétique dans la décence du logement», ce qui peut laisser entendre que la loi de 1989 elle‑même contenait cette intégration. En réalité, la loi Climat et résilience de 2021 a modifié la définition issue de 1989 pour y intégrer la performance énergétique. Il faut reformuler pour rester strictement fidèle aux sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction graduelle par classes (G 2025, F 2028, E 2034) et précise que l'interdiction vise la mise en location (nouveau bail, renouvellement, reconduction).",
+        "Cependant, la phrase sur l'intégration de la performance énergétique dans la décence prête à confusion quant à l'auteur de la modification (2021). Il faut expliciter que c'est la loi Climat et résilience (2021) qui a introduit ce critère."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires, mais la phrase sur la loi de 1989 peut induire en erreur et affaiblir la crédibilité éditoriale. Reformuler pour éviter l'ambiguïté."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais une phrase («La loi de 1989 intègre la performance énergétique…») est imprécise et peut être contestée mot à mot. Proposer une reformulation plus exacte."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements et prononciation ok ; néanmoins, la seconde lecture relève la même imprécision historique sur l'origine de l'intégration de la performance énergétique dans la définition de la décence (il s'agit d'une modification de 2021)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement sérieux et professionnel, mais l'imprécision historique peut nuire à la confiance d'un spectateur attentif. Corriger la formulation pour renforcer la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 129,
+      "seconds": 47.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 129,
+        "seconds": 47.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La narration affirme «La loi de 1989 intègre la performance énergétique dans la décence du logement», ce qui peut laisser entendre que la loi de 1989 elle‑même contenait cette intégration. En réalité, la loi Climat et résilience de 2021 a modifié la définition issue de 1989 pour y intégrer la performance énergétique. Il faut reformuler pour rester strictement fidèle aux sources.",
+    "juridique_fiscal : Le script respecte l'interdiction graduelle par classes (G 2025, F 2028, E 2034) et précise que l'interdiction vise la mise en location (nouveau bail, renouvellement, reconduction).",
+    "juridique_fiscal : Cependant, la phrase sur l'intégration de la performance énergétique dans la décence prête à confusion quant à l'auteur de la modification (2021). Il faut expliciter que c'est la loi Climat et résilience (2021) qui a introduit ce critère.",
+    "editorial : Accroche et progression claires, mais la phrase sur la loi de 1989 peut induire en erreur et affaiblir la crédibilité éditoriale. Reformuler pour éviter l'ambiguïté.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais une phrase («La loi de 1989 intègre la performance énergétique…») est imprécise et peut être contestée mot à mot. Proposer une reformulation plus exacte.",
+    "contre_verification_finale : Enchaînements et prononciation ok ; néanmoins, la seconde lecture relève la même imprécision historique sur l'origine de l'intégration de la performance énergétique dans la définition de la décence (il s'agit d'une modification de 2021).",
+    "conversion_confiance : Globalement sérieux et professionnel, mais l'imprécision historique peut nuire à la confiance d'un spectateur attentif. Corriger la formulation pour renforcer la crédibilité."
+  ],
+  "recommendations": [
+    "Reformuler la phrase ambigüe sur la loi de 1989. Proposition : «La loi de 1989 impose au bailleur de délivrer un logement décent ; la loi Climat et résilience de 2021 a ajouté la performance énergétique à la définition de la décence.» Remplacez la formulation actuelle par celle‑ci dans la ligne de narration et dans le bloc “règle”.",
+    "Vérifier et, si besoin, ajuster la synchronisation parole/visuel pour la nouvelle phrase (conserver la durée totale estimée de ~42s).",
+    "Conserver toutes les précautions déjà présentes (ne pas évoquer une durée chiffrée du DPE si la source ne la donne pas), et s'assurer que le CTA reste conforme à l'usage pédagogique (pas de promesse juridique).",
+    "Après modification, relancer la contre‑vérification pour les agents 'source', 'juridique_fiscal', 'editorial', 'formulation_professionnelle', 'contre_verification_finale' et 'conversion_confiance' afin d'obtenir des scores à 10/10."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-26:shorts:immobilier_dpe_location:0",
+  "script_path": "scripts/immobilier/immobilier_dpe_location__shorts__a3__v7.md"
+}

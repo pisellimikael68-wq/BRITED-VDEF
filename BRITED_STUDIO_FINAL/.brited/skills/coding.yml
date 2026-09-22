@@ -1,0 +1,53 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+
+skill:
+
+  id: coding
+
+  name: Code Implementation
+
+  description: >
+    Produce production-ready code following project conventions.
+
+capabilities:
+
+  - implement_feature
+  - implement_bugfix
+  - generate_tests
+  - update_documentation
+
+inputs:
+
+  - specification
+  - architecture
+  - conventions
+
+outputs:
+
+  - source_code
+  - unit_tests
+
+rules:
+
+  - follow_conventions
+  - preserve_architecture
+  - no_dead_code
+  - no_duplication
+  - explicit_typing
+  - self_documented_code
+
+quality:
+
+  max_complexity: 10
+
+  require_tests: true
+
+  require_type_hints: true
+
+success:
+
+  - code_compiles
+  - tests_generated
+  

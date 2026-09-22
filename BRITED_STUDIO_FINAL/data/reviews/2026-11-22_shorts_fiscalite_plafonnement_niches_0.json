@@ -1,0 +1,161 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source (article 200-0 A, plafond 10 000 €, majoration 18 000 € pour outre‑mer/Sofica) mais n'énonce pas explicitement que certains dispositifs majeurs (notamment les dons aux œuvres et une partie des dépenses d'emploi à domicile) sont exclus du plafonnement. La fiche SOURCE_DE_VÉRITÉ indique cette exclusion comme information clé et elle doit apparaître verbalement dans la vidéo pour fidélité stricte."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le rappel des règles juridiques est correct (plafond 10 000 € par foyer, 18 000 € dans certains cas, distinction réduction/crédit vs déduction). En revanche le script ne cite pas explicitement que les dons et certaines parties de l'emploi à domicile sont exclus du plafonnement (mentionnée dans la source légale/BOFiP). L'exemple d'imputation chronologique est correct mais le script devrait préciser la règle administrative d'ordre d'imputation (la réduction souscrite en dernier est annulée) en renvoyant briefement à la doctrine BOFiP pour éviter d'appliquer mécaniquement la règle sans nuance."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition, l'exception générale (déductions hors plafond) et donne un exemple utile. Il omet toutefois une exception pratique importante listée dans la fiche : les dons aux œuvres et la part d'emploi à domicile. Il manque aussi une phrase très brève renvoyant aux sources (CGI et BOFiP) dans le corps pour crédibilité immédiate."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires ; longueur estimée acceptable pour un Short (~40 s). Toutefois le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçu comme une offre de conseil personnalisé. La fiche demande ton direct et CTA professionnel mais aussi limite à ne pas fournir de conseil personnalisé dans le contenu — il faudrait ajouter la mention de non-conseil immédiatement dans l'écran final ou atténuer le CTA (ex : 'faites le point avec un professionnel' plutôt que 'prenez rendez-vous')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention de non-responsabilité en légende, ce qui est conforme. Toutefois l'appel à rendez-vous dans le CTA sans préciser que la vidéo n'est pas un conseil personnalisé peut créer une tension avec l'exigence de neutralité pédagogique ; recommander d'ajouter une phrase très brève spoken ou en texte indiquant explicitement 'ne constitue pas un conseil personnalisé'."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais quelques formulations peuvent être précisées pour un locuteur non spécialiste : par exemple, remplacer 'déductions du revenu' par 'déductions qui réduisent votre revenu imposable (ex. PER, déficit foncier)' pour clarifier immédiatement. Aussi ajouter la mention explicite des exclusions (dons, emploi à domicile) pour correspondre mot à mot à la fiche."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les phrases s'enchaînent correctement et l'exemple est cohérent. Observations : omission explicite des exclusions (dons, emploi à domicile) et absence d'une référence verbale rapide aux sources (CGI/BOFiP) dans la narration. Le CTA devrait comporter la formule de non-conseil au moment de l'invitation."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et contient la règle centrale, exception indispensable (déductions), exemple et chiffres. Manque toutefois la mention explicite d'exceptions listées dans la fiche (dons, emploi à domicile) — information clé à intégrer sans alourdir."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo est bien pensée pour un non-spécialiste mais l'absence d'exemples concrets pour 'déduction vs réduction' (un bref exemple chiffré déjà présent pourrait être renforcé) et l'omission des dispositifs explicitement exclus (dons/emploi à domicile) peuvent laisser le spectateur avec une compréhension incomplète."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Tonalité sérieuse et sourcée en légende ; toutefois pour renforcer confiance professionnelle, ajouter en voix ou texte visible la mention courte 'sources : CGI art. 200‑0 A, BOFiP' et préciser 'ne constitue pas un conseil personnalisé' au moment du CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 129,
+      "seconds": 47.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 129,
+        "seconds": 47.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source (article 200-0 A, plafond 10 000 €, majoration 18 000 € pour outre‑mer/Sofica) mais n'énonce pas explicitement que certains dispositifs majeurs (notamment les dons aux œuvres et une partie des dépenses d'emploi à domicile) sont exclus du plafonnement. La fiche SOURCE_DE_VÉRITÉ indique cette exclusion comme information clé et elle doit apparaître verbalement dans la vidéo pour fidélité stricte.",
+    "juridique_fiscal : Le rappel des règles juridiques est correct (plafond 10 000 € par foyer, 18 000 € dans certains cas, distinction réduction/crédit vs déduction). En revanche le script ne cite pas explicitement que les dons et certaines parties de l'emploi à domicile sont exclus du plafonnement (mentionnée dans la source légale/BOFiP). L'exemple d'imputation chronologique est correct mais le script devrait préciser la règle administrative d'ordre d'imputation (la réduction souscrite en dernier est annulée) en renvoyant briefement à la doctrine BOFiP pour éviter d'appliquer mécaniquement la règle sans nuance.",
+    "completude : Le script couvre la règle centrale, la condition, l'exception générale (déductions hors plafond) et donne un exemple utile. Il omet toutefois une exception pratique importante listée dans la fiche : les dons aux œuvres et la part d'emploi à domicile. Il manque aussi une phrase très brève renvoyant aux sources (CGI et BOFiP) dans le corps pour crédibilité immédiate.",
+    "editorial : Accroche et progression claires ; longueur estimée acceptable pour un Short (~40 s). Toutefois le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçu comme une offre de conseil personnalisé. La fiche demande ton direct et CTA professionnel mais aussi limite à ne pas fournir de conseil personnalisé dans le contenu — il faudrait ajouter la mention de non-conseil immédiatement dans l'écran final ou atténuer le CTA (ex : 'faites le point avec un professionnel' plutôt que 'prenez rendez-vous').",
+    "securite : Le script contient la mention de non-responsabilité en légende, ce qui est conforme. Toutefois l'appel à rendez-vous dans le CTA sans préciser que la vidéo n'est pas un conseil personnalisé peut créer une tension avec l'exigence de neutralité pédagogique ; recommander d'ajouter une phrase très brève spoken ou en texte indiquant explicitement 'ne constitue pas un conseil personnalisé'.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais quelques formulations peuvent être précisées pour un locuteur non spécialiste : par exemple, remplacer 'déductions du revenu' par 'déductions qui réduisent votre revenu imposable (ex. PER, déficit foncier)' pour clarifier immédiatement. Aussi ajouter la mention explicite des exclusions (dons, emploi à domicile) pour correspondre mot à mot à la fiche.",
+    "contre_verification_finale : Les phrases s'enchaînent correctement et l'exemple est cohérent. Observations : omission explicite des exclusions (dons, emploi à domicile) et absence d'une référence verbale rapide aux sources (CGI/BOFiP) dans la narration. Le CTA devrait comporter la formule de non-conseil au moment de l'invitation.",
+    "densite_editoriale : La vidéo traite bien un seul angle et contient la règle centrale, exception indispensable (déductions), exemple et chiffres. Manque toutefois la mention explicite d'exceptions listées dans la fiche (dons, emploi à domicile) — information clé à intégrer sans alourdir.",
+    "pedagogie_client : La vidéo est bien pensée pour un non-spécialiste mais l'absence d'exemples concrets pour 'déduction vs réduction' (un bref exemple chiffré déjà présent pourrait être renforcé) et l'omission des dispositifs explicitement exclus (dons/emploi à domicile) peuvent laisser le spectateur avec une compréhension incomplète.",
+    "conversion_confiance : Tonalité sérieuse et sourcée en légende ; toutefois pour renforcer confiance professionnelle, ajouter en voix ou texte visible la mention courte 'sources : CGI art. 200‑0 A, BOFiP' et préciser 'ne constitue pas un conseil personnalisé' au moment du CTA."
+  ],
+  "recommendations": [
+    "Ajouter une phrase verbale (ou un texte écran rapide) précisant explicitement que certains dispositifs majeurs sont exclus du plafonnement : par exemple 'Attention : certains avantages, comme les dons aux œuvres et une partie des dépenses d'emploi à domicile, échappent au plafond.' Intégrer cela idéalement entre le beat 2 et le beat 3 ou dans le beat 5.",
+    "Modifier légèrement le CTA pour éviter toute impression de conseil personnalisé immédiat : par exemple remplacer 'Prenez rendez-vous via le lien dans ma bio.' par 'Pour un bilan personnalisé, consultez un professionnel via le lien dans ma bio (ce contenu n'est pas un conseil fiscal personnalisé).' Ajouter cette phrase courte parlée ou en texte final.",
+    "Préciser brièvement la différence par un très court exemple chiffré (10–15 mots) pour 'déduction vs réduction' si le temps le permet : ex. 'Ex. : versement PER = déduction (hors plafond); Pinel = réduction (sous plafond).' Cela améliore la pédagogie pour un non-spécialiste.",
+    "Ajouter en écran final une micro‑référence aux sources (texte court) : 'Sources : CGI art. 200‑0 A ; BOFiP BOI-IR-LIQ-20-20-10' pour renforcer crédibilité et conformité avec la fiche.",
+    "Relire la formulation du beat 2 pour expliciter l'ordre d'imputation : remplacer 'l'ordre d'imputation décide laquelle est annulée' par 'en cas de dépassement, la réduction liée au dernier dispositif souscrit dans l'année est annulée en priorité (sauf dispositions contraires pour certains dispositifs).' Ceci évite toute lecture trop mécanique."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-22:shorts:fiscalite_plafonnement_niches:0",
+  "script_path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a3__v3.md"
+}

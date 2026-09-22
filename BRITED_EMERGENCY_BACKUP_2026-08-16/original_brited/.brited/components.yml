@@ -1,0 +1,79 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Architecture"
+  last_updated: null
+
+components:
+
+  Studio:
+    layer: presentation
+    description: >
+      Main graphical interface of BRITED.
+
+    responsibilities:
+      - User interaction
+      - Navigation
+      - Visualization
+
+    depends_on:
+      - CorpusService
+
+  CorpusService:
+    layer: application
+
+    responsibilities:
+      - Manage corpus lifecycle
+      - Coordinate domain services
+      - Execute workflows
+
+    depends_on:
+      - Knowledge
+      - Corpus
+      - Validation
+
+  Validation:
+    layer: application
+
+    responsibilities:
+      - Execute validation rules
+      - Produce reports
+      - Aggregate diagnostics
+
+    depends_on:
+      - Knowledge
+
+  Knowledge:
+    layer: domain
+
+    responsibilities:
+      - Knowledge model
+      - Business rules
+
+    depends_on: []
+
+  Corpus:
+    layer: domain
+
+    responsibilities:
+      - Corpus representation
+      - Corpus metadata
+
+    depends_on: []
+
+  Chapter:
+    layer: domain
+
+    responsibilities:
+      - Chapter model
+      - Chapter hierarchy
+
+    depends_on: []
+
+relationships:
+
+  - Studio -> CorpusService
+  - CorpusService -> Knowledge
+  - CorpusService -> Corpus
+  - Validation -> Knowledge
+  

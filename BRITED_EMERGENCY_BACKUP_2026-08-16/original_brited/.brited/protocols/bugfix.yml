@@ -1,0 +1,48 @@
+metadata:
+  schema: "1.0"
+
+protocol:
+
+  id: bugfix
+
+trigger:
+
+  event: bug_reported
+
+pipeline:
+
+  - id: planner
+    produces:
+      - bug_specification
+
+  - id: builder
+    requires:
+      - bug_specification
+    produces:
+      - fix
+      - tests
+
+  - id: reviewer
+    requires:
+      - fix
+    produces:
+      - review_report
+
+  - id: tester
+    requires:
+      - review_report
+    produces:
+      - regression_report
+
+completion:
+
+  success:
+    - regression_passed
+
+  failure:
+    - regression_failed
+
+rollback:
+
+  enabled: true
+  

@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script s'appuie correctement sur la Loi du 9 juin 2023 et l'article L541-1 CMF, mais la phrase « contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés » reprend la fiche source sans citer explicitement l'étendue exacte des produits restreints ; recommander de préciser ou d'ajouter la référence textuelle exacte pour éviter toute lecture trop large.",
+        "Localisation : séquence 3 (règle) — reformuler pour citer explicitement « contrats financiers hautement spéculatifs » et préciser 'actifs numériques lorsque l'émetteur ou le prestataire n'est pas enregistré' ou renvoyer clairement à la source."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement qu'une recommandation personnalisée nécessite le statut de conseiller en investissement financier (L541-1 CMF). Toutefois, il devrait éviter l'expression 'interdit la promotion de produits' sans nuance : la loi encadre et restreint certaines promotions — il existe des conditions et exceptions (ex. conditions d'agrément/enregistrement des prestataires pour crypto).",
+        "Localisation : narration continue et séquence 3 — proposer d'ajouter la nuance 'sous réserve des conditions d'agrément/enregistrement prévues par le droit financier' pour éviter une affirmation trop catégorique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script présente la règle principale et un exemple utile, mais omet d'indiquer que la mention doit être lisible/contraste/accessible sur mobile (durée et visibilité technique).",
+        "Localisation : séquence 2 et 4 — ajouter une brève précision technique ('lisible et visible sur mobile') pour la conformité pratique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format respecte l'ordre et la durée estimée, mais l'estimation '44 secondes' devrait être vérifiée en lecture à la vitesse de narration prévue pour un YouTube Shorts (max 60s).",
+        "Localisation : entête 'Durée estimée' — recommander test de chronométrage à la vitesse de parole envisagée et adaptation si besoin."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et CTA clair. Toutefois, la répétition 'dès le début et pendant toute la durée de la vidéo' apparaît plusieurs fois; sur un format court, alléger une occurrence pour fluidité.",
+        "Localisation : séquences 2, 4 et narration continue — proposer réduction d'une répétition pour améliorer la fluidité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La légende précise l'absence de conseil personnalisé. Cependant, le CTA 'Prenez rendez-vous' peut être perçu comme une démarche commerciale ; il faut veiller à ne pas transformer l'offre en conseil personnalisé sans filtre préalable (prévoir mention de 'pour un examen personnalisé, consultez un professionnel réglementé').",
+        "Localisation : séquence 6 et légende — recommander d'ajouter 'avec un professionnel habilité' ou équivalent."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et clair. Petite correction stylistique : remplacer 'Si c'est rémunéré, vous devez l'indiquer' par 'S'il s'agit d'un contenu rémunéré, vous devez l'indiquer' pour une construction plus formelle et fluide.",
+        "Localisation : séquence 2 (réponse) et narration continue."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'ensemble est cohérent, mais une seconde lecture relève une potentielle ambigüité : 'la recommandation personnalisée nécessite le statut de conseiller en investissement financier' — ajouter 'pour être fournie légalement au public' pour clarifier le périmètre.",
+        "Localisation : séquence 3 et narration continue."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents, mais 'icône interdit' et 'icône conseiller' doivent être suffisamment explicites : l'icône 'interdit' pourrait prêter à confusion si utilisée pour tous les cas — recommander un pictogramme spécifique pour 'produits restreints' (ex. symbole financier barré) et une icône 'registre/agrément' pour le conseiller.",
+        "Localisation : séquence 3 (visuel) et séquence 5."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais condense plusieurs notions importantes ; pour éviter surcharge sur 44s, recommander de simplifier la liste des produits restreints à un libellé court et inviter à consulter les sources pour le détail.",
+        "Localisation : séquence 3 et narration continue."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le registre impersonnel et l'exemple sont adaptés à un non-spécialiste. Néanmoins, le terme 'recommandation personnalisée' mérite une courte définition (une phrase) pour éviter toute confusion chez les non-initiés.",
+        "Localisation : séquence 3 ou séquence 5 — ajouter 'recommandation personnalisée = conseil adapté à votre situation personnelle'."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Pour maximiser les deux premières secondes, suggérer d'accentuer visuel + texte (ex. label rouge 'Publicité' clignotant brièvement) et raccourcir la seconde moitié de la phrase en intro pour garder rythme.",
+        "Localisation : séquence 1 et 2 (hook et réponse)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel respecté. Pour renforcer la confiance, proposer d'ajouter une mention rapide des sources à l'écran (petit bandeau) ou 'sources en description' afin que l'audience voie l'ancrage juridique immédiatement.",
+        "Localisation : fin de la vidéo / écran sources."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script s'appuie correctement sur la Loi du 9 juin 2023 et l'article L541-1 CMF, mais la phrase « contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés » reprend la fiche source sans citer explicitement l'étendue exacte des produits restreints ; recommander de préciser ou d'ajouter la référence textuelle exacte pour éviter toute lecture trop large.",
+    "source : Localisation : séquence 3 (règle) — reformuler pour citer explicitement « contrats financiers hautement spéculatifs » et préciser 'actifs numériques lorsque l'émetteur ou le prestataire n'est pas enregistré' ou renvoyer clairement à la source.",
+    "juridique_fiscal : Le script indique correctement qu'une recommandation personnalisée nécessite le statut de conseiller en investissement financier (L541-1 CMF). Toutefois, il devrait éviter l'expression 'interdit la promotion de produits' sans nuance : la loi encadre et restreint certaines promotions — il existe des conditions et exceptions (ex. conditions d'agrément/enregistrement des prestataires pour crypto).",
+    "juridique_fiscal : Localisation : narration continue et séquence 3 — proposer d'ajouter la nuance 'sous réserve des conditions d'agrément/enregistrement prévues par le droit financier' pour éviter une affirmation trop catégorique.",
+    "completude : Le script présente la règle principale et un exemple utile, mais omet d'indiquer que la mention doit être lisible/contraste/accessible sur mobile (durée et visibilité technique).",
+    "completude : Localisation : séquence 2 et 4 — ajouter une brève précision technique ('lisible et visible sur mobile') pour la conformité pratique.",
+    "plateforme : Le format respecte l'ordre et la durée estimée, mais l'estimation '44 secondes' devrait être vérifiée en lecture à la vitesse de narration prévue pour un YouTube Shorts (max 60s).",
+    "plateforme : Localisation : entête 'Durée estimée' — recommander test de chronométrage à la vitesse de parole envisagée et adaptation si besoin.",
+    "editorial : Accroche forte et CTA clair. Toutefois, la répétition 'dès le début et pendant toute la durée de la vidéo' apparaît plusieurs fois; sur un format court, alléger une occurrence pour fluidité.",
+    "editorial : Localisation : séquences 2, 4 et narration continue — proposer réduction d'une répétition pour améliorer la fluidité.",
+    "securite : La légende précise l'absence de conseil personnalisé. Cependant, le CTA 'Prenez rendez-vous' peut être perçu comme une démarche commerciale ; il faut veiller à ne pas transformer l'offre en conseil personnalisé sans filtre préalable (prévoir mention de 'pour un examen personnalisé, consultez un professionnel réglementé').",
+    "securite : Localisation : séquence 6 et légende — recommander d'ajouter 'avec un professionnel habilité' ou équivalent.",
+    "formulation_professionnelle : Le français est naturel et clair. Petite correction stylistique : remplacer 'Si c'est rémunéré, vous devez l'indiquer' par 'S'il s'agit d'un contenu rémunéré, vous devez l'indiquer' pour une construction plus formelle et fluide.",
+    "formulation_professionnelle : Localisation : séquence 2 (réponse) et narration continue.",
+    "contre_verification_finale : L'ensemble est cohérent, mais une seconde lecture relève une potentielle ambigüité : 'la recommandation personnalisée nécessite le statut de conseiller en investissement financier' — ajouter 'pour être fournie légalement au public' pour clarifier le périmètre.",
+    "contre_verification_finale : Localisation : séquence 3 et narration continue.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents, mais 'icône interdit' et 'icône conseiller' doivent être suffisamment explicites : l'icône 'interdit' pourrait prêter à confusion si utilisée pour tous les cas — recommander un pictogramme spécifique pour 'produits restreints' (ex. symbole financier barré) et une icône 'registre/agrément' pour le conseiller.",
+    "coherence_pictogrammes : Localisation : séquence 3 (visuel) et séquence 5.",
+    "densite_editoriale : La vidéo traite un seul angle mais condense plusieurs notions importantes ; pour éviter surcharge sur 44s, recommander de simplifier la liste des produits restreints à un libellé court et inviter à consulter les sources pour le détail.",
+    "densite_editoriale : Localisation : séquence 3 et narration continue.",
+    "pedagogie_client : Le registre impersonnel et l'exemple sont adaptés à un non-spécialiste. Néanmoins, le terme 'recommandation personnalisée' mérite une courte définition (une phrase) pour éviter toute confusion chez les non-initiés.",
+    "pedagogie_client : Localisation : séquence 3 ou séquence 5 — ajouter 'recommandation personnalisée = conseil adapté à votre situation personnelle'.",
+    "retention_attention : Hook efficace. Pour maximiser les deux premières secondes, suggérer d'accentuer visuel + texte (ex. label rouge 'Publicité' clignotant brièvement) et raccourcir la seconde moitié de la phrase en intro pour garder rythme.",
+    "retention_attention : Localisation : séquence 1 et 2 (hook et réponse).",
+    "conversion_confiance : Ton professionnel respecté. Pour renforcer la confiance, proposer d'ajouter une mention rapide des sources à l'écran (petit bandeau) ou 'sources en description' afin que l'audience voie l'ancrage juridique immédiatement.",
+    "conversion_confiance : Localisation : fin de la vidéo / écran sources."
+  ],
+  "recommendations": [
+    "Préciser la formulation de la restriction produit en séquence 3 : remplacer 'actifs numériques hors prestataires enregistrés' par 'actifs numériques lorsque l'émetteur ou le prestataire n'est pas enregistré auprès des autorités compétentes', ou renvoyer textuellement à la source.",
+    "Ajouter une courte nuance juridique en séquence 3 : 'sous réserve des conditions d'agrément/enregistrement prévues par le droit financier' pour éviter une affirmation trop catégorique.",
+    "Indiquer techniquement que la mention 'Publicité'/'Collaboration commerciale' doit être lisible et visible sur mobile (contraste/tailles) et rester affichée pendant toute la durée ; intégrer cette précision en séquence 2 ou 4.",
+    "Vérifier et chronométrer la narration à la vitesse prévue pour s'assurer que la durée réelle reste adaptée à un YouTube Shorts (<= 60s) et ajuster si nécessaire.",
+    "Alléger une répétition de l'expression 'dès le début et pendant toute la durée de la vidéo' pour fluidité; conserver au moins une occurrence claire et une brève répétition dans l'exemple si utile.",
+    "Adapter le CTA pour éviter impression d'offre de conseil non autorisé : 'Prenez rendez-vous avec un professionnel habilité — lien en bio' ou ajouter 'pour un examen personnalisé par un professionnel réglementé'.",
+    "Remplacer 'Si c'est rémunéré' par 'S'il s'agit d'un contenu rémunéré' pour améliorer la formulation en séquence 2.",
+    "Modifier/clarifier certains pictogrammes : utiliser un symbole distinct pour 'produits restreints' (ex. icône financière barrée) et pour 'statut/registre' (ex. document officiel ou badge) afin d'éviter toute ambiguïté visuelle.",
+    "Ajouter une brève définition de 'recommandation personnalisée' (une phrase) pour les non-spécialistes, par exemple : 'une recommandation personnalisée = un conseil adapté à VOTRE situation financière personnelle'.",
+    "Afficher un petit bandeau 'Sources en description' ou mentionner visuellement les sources à l'écran en fin de vidéo pour renforcer la crédibilité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-05:shorts:conformite_influence_commerciale:0",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__shorts__a2__v3.md"
+}

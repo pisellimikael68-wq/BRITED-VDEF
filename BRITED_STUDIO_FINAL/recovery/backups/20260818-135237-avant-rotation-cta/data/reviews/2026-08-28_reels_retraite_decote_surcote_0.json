@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "862195da8daf80f9dea9a86f8fa60cb22d2fe92f5d42d43d059cf606e0a9f539",
+      "adapted_hash": "862195da8daf80f9dea9a86f8fa60cb22d2fe92f5d42d43d059cf606e0a9f539",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Pour renforcer l'impact pédagogique sans ajouter d'information nouvelle, envisagez une phrase courte mentionnant que la décote agit « aussi sur la retraite complémentaire » si l'angle créatif le permet (cela rappelle l'effet cumulé évoqué dans la source).",
+    "Si l'équipe veut réduire toute ambiguïté pour certains publics, prévoir dans les commentaires/texte d'accompagnement (pas dans la narration) la précision générationnelle déjà présente dans la source (ex. l'âge automatique souvent cité pour les générations récentes) — en gardant la mention « selon la génération » dans la voix off pour respecter la règle « ne pas citer de taux ni de durée sans préciser la génération ». ",
+    "Vérifier que les éléments visuels (relevé, chiffres affichés) n'induisent pas la lecture d'un taux chiffré si vous ne voulez pas préciser la génération : éviter d'insérer des pourcentages spécifiques à l'écran."
+  ],
+  "reviewed_at": "2026-08-17T18:45:41",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-28:reels:retraite_decote_surcote:0",
+  "script_path": "scripts/retraite/retraite_decote_surcote__reels__a1__v5.md"
+}

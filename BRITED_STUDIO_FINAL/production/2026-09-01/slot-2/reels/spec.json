@@ -1,0 +1,151 @@
+{
+  "publication_id": "2026-09-01:reels:cryptoactifs_fiscalite_cessions:1",
+  "platform": "reels",
+  "concept_id": "cryptoactifs_fiscalite_cessions",
+  "title": "Échanger une crypto contre une autre n'est pas imposable",
+  "header": "Échanger une crypto contre une autre n'est pas imposable",
+  "serie": "fiscalite",
+  "narration": "Échanger BTC contre ETH déclenche‑t‑il un impôt pour vous ?  \nNon. Un échange entre actifs numériques n'est pas un fait générateur d'impôt.  \nSeules les cessions contre une monnaie ayant cours légal, ou contre un bien ou service, déclenchent l'imposition (CGI art. 150 VH bis).  \nPrenons un cas : vous faites tourner BTC et ETH pendant des années sans vendre en €. Tant que rien ne sort en €, pas d'imposition.  \nÀ la sortie, la plus‑value se calcule sur la valeur globale du portefeuille au moment de la cession, pas opération par opération. En dessous de 305 € de cessions imposables dans l'année, pas d'impôt.  \nVous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook_question",
+      "label": "Hook (question)",
+      "narration": "Échanger BTC contre ETH déclenche-t-il un impôt pour vous ?",
+      "visual": "Mikael face caméra, regard direct, ton percutant.",
+      "screen_text": "Échanger BTC → ETH : imposable ?"
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non. Un échange entre actifs numériques n'est pas un fait générateur d'impôt.",
+      "visual": "Mikael assuré, geste d'arrêt.",
+      "screen_text": "Imposition = 0 €"
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Seules les cessions contre une monnaie ayant cours légal, ou contre un bien ou service, déclenchent l'imposition (CGI article 150 VH bis).",
+      "visual": "Incrustation texte légal, pictogramme balance.",
+      "screen_text": "CGI article 150 VH bis"
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Prenons un cas : vous faites tourner BTC et ETH pendant des années sans vendre en €. Tant que rien ne sort en €, pas d'imposition.",
+      "visual": "Illustration portefeuille qui tourne, flèche vers € barrée.",
+      "screen_text": "Sortie en € = imposition"
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "À la sortie, la plus-value se calcule sur la valeur globale du portefeuille au moment de la cession, pas opération par opération. En dessous de 305 € de cessions imposables dans l'année, pas d'impôt.",
+      "visual": "Pictogramme portefeuille global + chiffre 305 €.",
+      "screen_text": "Plus-value = valeur globale · Seuil =< 305 €"
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael conclut, sourire professionnel.",
+      "screen_text": "Prenez rendez-vous — lien dans ma bio"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook_question",
+      "label": "Hook (question)",
+      "narration": "Échanger BTC contre ETH déclenche-t-il un impôt pour vous ?",
+      "visual": "Mikael face caméra, regard direct, ton percutant.",
+      "screen_text": "Échanger BTC → ETH : imposable ?",
+      "source_beat_id": "hook_question",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non. Un échange entre actifs numériques n'est pas un fait générateur d'impôt.",
+      "visual": "Mikael assuré, geste d'arrêt.",
+      "screen_text": "Imposition = 0 €",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Seules les cessions contre une monnaie ayant cours légal, ou contre un bien ou service, déclenchent l'imposition (CGI article 150 VH bis).",
+      "visual": "Incrustation texte légal, pictogramme balance.",
+      "screen_text": "CGI article 150 VH bis",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 39
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Prenons un cas : vous faites tourner BTC et ETH pendant des années sans vendre en €. Tant que rien ne sort en €, pas d'imposition.",
+      "visual": "Illustration portefeuille qui tourne, flèche vers € barrée.",
+      "screen_text": "Sortie en € = imposition",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 37
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "À la sortie, la plus-value se calcule sur la valeur globale du portefeuille au moment de la cession, pas opération par opération. En dessous de 305 € de cessions imposables dans l'année, pas d'impôt.",
+      "visual": "Pictogramme portefeuille global + chiffre 305 €.",
+      "screen_text": "Plus-value = valeur globale · Seuil =< 305 €",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 33
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael conclut, sourire professionnel.",
+      "screen_text": "Prenez rendez-vous — lien dans ma bio",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "4999f77539ff592e51a170dc3f25bc0a1af7a33a0048508eb07af49295f86c0d",
+    "adapted_hash": "4999f77539ff592e51a170dc3f25bc0a1af7a33a0048508eb07af49295f86c0d",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 33,
+    "cta_normalized": false,
+    "warnings": [
+      "Densité élevée : police proche du minimum de sécurité"
+    ]
+  },
+  "answer_design": "adaptive_sections_v2",
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

@@ -1,0 +1,346 @@
+{
+  "passed": false,
+  "failures": [
+    "contrôle oral Whisper absent ou refusé",
+    "contrôle des mots absent ou refusé"
+  ],
+  "expected_duration": 46.95,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": false,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 46.952,
+      "peak": 0.84402,
+      "rms": 0.13623,
+      "dc": 9.6e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 1.15e-05
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 2.322,
+        "peak": 0.87646,
+        "rms": 0.07579,
+        "dc": 1.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.04,
+        "peak": 0.98996,
+        "rms": 0.12792,
+        "dc": 1.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.96,
+        "peak": 0.98996,
+        "rms": 0.0989,
+        "dc": 2e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.4,
+        "peak": 0.9252,
+        "rms": 0.08496,
+        "dc": 4e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 7.6,
+        "peak": 0.93173,
+        "rms": 0.09447,
+        "dc": 0.0,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.92,
+        "peak": 0.98996,
+        "rms": 0.11363,
+        "dc": 4.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.6,
+        "peak": 0.98996,
+        "rms": 0.1218,
+        "dc": 6.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 1.26e-05
+      },
+      "08_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.36,
+        "peak": 0.55969,
+        "rms": 0.05978,
+        "dc": 5e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 7,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "passed": false,
+    "failures": [
+      "contrôle oral absent"
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Point d'interrogation stylisé et deux alliances",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Maison, fiche de paie et épargne réunies dans une zone « communauté »",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Coffre personnel avec calendrier, donation et héritage",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Article 223, deux comptes et facture du foyer acquittée",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Héritage vers un coffre personnel, salaire vers une tirelire commune",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "landmark"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Compte commun, loupe et justificatifs",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "file-check-2"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

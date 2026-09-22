@@ -1,0 +1,159 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE de VÉRITÉ indique explicitement que l'exonération ne s'applique pas aux biens détenus par une société soumise à l'impôt sur les sociétés (erreurs_frequentes, item 5). Le script vidéo n'évoque pas cette exclusion. Absence localisable : section 'nuance' / beat 6 (et légende) ne mentionne pas l'exception société/IS."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script donne la règle principale (article 150 U) et la condition d'occupation au jour de la vente, mais omet une limitation importante prévue par la doctrine : un bien détenu par une société soumise à l'IS ne bénéficie pas de l'exonération même s'il sert de résidence principale. Localisation : 'nuance' (beat 6) et 'Légende'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque la précision sur l'exclusion pour les biens détenus par une société soumise à l'IS (élément disponible dans la fiche SOURCE sous erreurs_frequentes). Aussi, la comparaison chiffrée indique ~36,2% mais ne rappelle qu'il s'agit d'un taux avant abattements pour durée de détention (présent dans la fiche mais absent du texte du comparatif). Localisation : beat 5 (exemple chiffré) et beat 6 (nuance)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Visuel Beat 2 : le texte écran montre 'OUI  | NON' avec 'OUI' centré/présenté en premier, puis la narration répond 'Non', ce qui peut créer une légère confusion visuelle/verbale. Recommandation de clarifier que la bonne case est 'NON' (mettre NON en évidence). Localisation : beat 2."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase 'La plus-value sur la résidence principale : serez-vous imposé ? OUI / NON Non : 0 €...' contient une juxtaposition rapide qui peut gêner la diction. Suggestion : séparer la question et la réponse par une pause claire ou reformuler 'La plus-value sur la résidence principale : serez-vous imposé ? Non — 0 € d'impôt...' Localisation : Narration continue première phrase."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot : la mention chiffrée '~36,2%' est correcte mais la légende précise 'avant abattements' ; le script principal ne précise 'avant abattements' dans la phrase comparative (beat 5). Il faut aligner le script et la légende. Localisation : beat 5 et Narration continue."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 2 indique un pictogramme 'balance' mais la question est binaire OUI/NON — un pictogramme de vote/choix ou de questionnaire serait plus approprié. Beat 6 pictogramme 'horloge' est pertinent ; vérifier que les icônes ne prêtent pas à ambiguïté. Localisation : beat 2 (balance)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'absence d'une mention explicite sur l'exception 'bien détenu par une société soumise à l'IS' peut conduire à une interprétation erronée. De plus, le script mentionne 'mise en vente immédiate sans location admise' : utile, mais il conviendrait d'ajouter une courte formulation simple expliquant 'si vous avez déménagé mais mis le bien en vente immédiatement, l'exonération peut rester valable'. Localisation : beat 6."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est correct mais l'ensemble gagnerait en crédibilité en ajoutant une phrase courte rappelant que le contenu est pédagogique et non un conseil personnalisé directement à l'oral (la légende le contient, mais le message parlé pourrait inclure 'ceci est une information générale'). Localisation : beat 7 / Narration continue."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 98,
+      "seconds": 36.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 98,
+        "seconds": 36.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE de VÉRITÉ indique explicitement que l'exonération ne s'applique pas aux biens détenus par une société soumise à l'impôt sur les sociétés (erreurs_frequentes, item 5). Le script vidéo n'évoque pas cette exclusion. Absence localisable : section 'nuance' / beat 6 (et légende) ne mentionne pas l'exception société/IS.",
+    "juridique_fiscal : Le script donne la règle principale (article 150 U) et la condition d'occupation au jour de la vente, mais omet une limitation importante prévue par la doctrine : un bien détenu par une société soumise à l'IS ne bénéficie pas de l'exonération même s'il sert de résidence principale. Localisation : 'nuance' (beat 6) et 'Légende'.",
+    "completude : Manque la précision sur l'exclusion pour les biens détenus par une société soumise à l'IS (élément disponible dans la fiche SOURCE sous erreurs_frequentes). Aussi, la comparaison chiffrée indique ~36,2% mais ne rappelle qu'il s'agit d'un taux avant abattements pour durée de détention (présent dans la fiche mais absent du texte du comparatif). Localisation : beat 5 (exemple chiffré) et beat 6 (nuance).",
+    "editorial : Visuel Beat 2 : le texte écran montre 'OUI  | NON' avec 'OUI' centré/présenté en premier, puis la narration répond 'Non', ce qui peut créer une légère confusion visuelle/verbale. Recommandation de clarifier que la bonne case est 'NON' (mettre NON en évidence). Localisation : beat 2.",
+    "formulation_professionnelle : Phrase 'La plus-value sur la résidence principale : serez-vous imposé ? OUI / NON Non : 0 €...' contient une juxtaposition rapide qui peut gêner la diction. Suggestion : séparer la question et la réponse par une pause claire ou reformuler 'La plus-value sur la résidence principale : serez-vous imposé ? Non — 0 € d'impôt...' Localisation : Narration continue première phrase.",
+    "contre_verification_finale : Vérification mot à mot : la mention chiffrée '~36,2%' est correcte mais la légende précise 'avant abattements' ; le script principal ne précise 'avant abattements' dans la phrase comparative (beat 5). Il faut aligner le script et la légende. Localisation : beat 5 et Narration continue.",
+    "coherence_pictogrammes : Beat 2 indique un pictogramme 'balance' mais la question est binaire OUI/NON — un pictogramme de vote/choix ou de questionnaire serait plus approprié. Beat 6 pictogramme 'horloge' est pertinent ; vérifier que les icônes ne prêtent pas à ambiguïté. Localisation : beat 2 (balance).",
+    "pedagogie_client : Pour un non-spécialiste, l'absence d'une mention explicite sur l'exception 'bien détenu par une société soumise à l'IS' peut conduire à une interprétation erronée. De plus, le script mentionne 'mise en vente immédiate sans location admise' : utile, mais il conviendrait d'ajouter une courte formulation simple expliquant 'si vous avez déménagé mais mis le bien en vente immédiatement, l'exonération peut rester valable'. Localisation : beat 6.",
+    "conversion_confiance : Le CTA est correct mais l'ensemble gagnerait en crédibilité en ajoutant une phrase courte rappelant que le contenu est pédagogique et non un conseil personnalisé directement à l'oral (la légende le contient, mais le message parlé pourrait inclure 'ceci est une information générale'). Localisation : beat 7 / Narration continue."
+  ],
+  "recommendations": [
+    "Ajouter explicitement, dans la 'nuance' (beat 6) et idéalement en une phrase orale, que l'exonération ne s'applique pas aux biens détenus par une société soumise à l'impôt sur les sociétés (exclusion mentionnée dans la fiche source).",
+    "Préciser dans le comparatif chiffré (beat 5) que le taux ~36,2% correspond à impôt + prélèvements sociaux avant application des abattements pour durée de détention.",
+    "Clarifier visuellement beat 2 : afficher clairement la réponse 'NON' en surbrillance (ou inverser l'ordre pour éviter confusion entre la question écrite et la réponse verbale). Remplacer le pictogramme 'balance' par un pictogramme de choix binaire (cases OUI/NON) ou de question.",
+    "Alléger la formulation verbale de la question/réponse pour faciliter la diction (ex. 'La plus-value sur la résidence principale : serez-vous imposé ? Non — 0 € d'impôt.').",
+    "Ajouter, à l'oral ou en voix-off avant le CTA, une phrase courte rappelant que le contenu est d'ordre général et qu'un rendez-vous apportera un conseil personnalisé (« information générale, pour une analyse personnalisée prenez rendez-vous »).",
+    "Dans la légende ou mention affichée brièvement à l'écran, rappeler l'article de référence (150 U CGI) et la source BOFiP comme déjà prévu — conserver les liens fournis dans la fiche."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-01:reels:immobilier_plus_value_residence_principale:1",
+  "script_path": "scripts/immobilier/immobilier_plus_value_residence_principale__reels__a4__v3.md"
+}

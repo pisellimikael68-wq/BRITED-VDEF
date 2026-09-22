@@ -1,0 +1,53 @@
+{
+  "source_of_truth": "Les fiches certifiées locales BRITED/Leveria et leurs sources officielles sont l'unique source factuelle.",
+  "cadence": {"days": 7, "slots": [{"slot": 1, "time": "10:00"}, {"slot": 2, "time": "17:00"}], "platforms": ["tiktok", "reels", "shorts"]},
+  "content_rules": [
+    "Le script fournit toute la ligne directrice visible.",
+    "Conserver une information juridiquement et fiscalement complète malgré la concision.",
+    "Toujours inclure un exemple concret lorsque la source le permet.",
+    "S'adresser directement au spectateur comme une réponse ou un conseil général.",
+    "Question affichée et lue avant toute réponse ; réponse sur la page suivante.",
+    "Un script est certifié automatiquement uniquement si tous les agents atteignent 9,5/10 ; l'humain valide la vidéo finale.",
+    "Une version validée n'est jamais remplacée."
+  ],
+  "video_rules": [
+    "Format vertical 9:16, chaleureux, sérieux et dynamique.",
+    "Texte grand, centré et complet ; révélation progressive fluide synchronisée avec la voix.",
+    "Sur Instagram, un beat narratif cohérent reste intégralement sur une seule page ; la taille et l'espacement s'adaptent sans découpage automatique.",
+    "Sur Instagram, conserver une respiration de 1,5 seconde entre la dernière explication et la page finale d'appel à l'action.",
+    "Transitions de pages fluides avec respiration ; dernière slide seulement après la narration.",
+    "Pictogrammes et dessins parlants liés à chaque page, sans chevauchement ni découpe ; apparition progressive en fondu pendant la lecture sur TikTok et Instagram.",
+    "Aucun crayon jaune, demi-cercle inutile, barre supérieure, nom BRITED, domaine ou libellé interne.",
+    "Barre de progression uniquement en bas.",
+    "CTA TikTok : Le saviez-vous ? Commentez, Partagez, Abonnez-vous.",
+    "CTA Instagram : Enregistrez, Partagez, Abonnez-vous, sans promesse de fréquence."
+  ],
+  "platforms": {
+    "tiktok": {"target_seconds": [38, 42], "maximum_seconds": 60, "goal": "croissance, rétention, acquisition", "order": ["hook", "question", "reponse", "regle", "exemple", "nuance", "cta"]},
+    "reels": {"target_seconds": [28, 40], "maximum_seconds": 60, "goal": "enregistrement, partage privé, complétion", "order": ["hook", "question", "reponse", "regle", "exemple", "nuance", "cta"]},
+    "shorts": {"target_seconds": [40, 58], "maximum_seconds": 60, "goal": "réponse recherchée, rétention, clarté autonome", "order": ["hook", "reponse", "regle", "exemple", "nuance", "cta"]}
+  },
+  "series": {
+    "fiscalite": {"label": "Fiscalité", "color": "#6F4E37", "icon": "％"},
+    "immobilier": {"label": "Immobilier", "color": "#C96F4A", "icon": "⌂"},
+    "juridique": {"label": "Juridique", "color": "#D99A2B", "icon": "§"},
+    "finance": {"label": "Finance", "color": "#2457D6", "icon": "↗"}
+  },
+  "publication": {"automatic": false, "human_approval_required": true, "review_before_export": true},
+  "cta_rotation": {
+    "distribution": {"pedagogique": 50, "rendez_vous": 50},
+    "period": "7 jours / 14 publications",
+    "alternation": "créneaux 10 h et 17 h inversés un jour sur deux",
+    "tiktok_instagram_destination": "lien dans ma bio",
+    "youtube_destination": "lien sur mon profil"
+  },
+  "automation": {
+    "token_strategy": "Réutiliser les scripts certifiés et les actifs locaux ; aucun appel externe silencieux ; modèle local prioritaire ; secours externe uniquement après accord explicite.",
+    "script_score_threshold": 9.5,
+    "all_agents_must_pass": true,
+    "maximum_rewrites": 3,
+    "maximum_remediation_cycles": 3,
+    "human_role": "Validation finale des vidéos uniquement",
+    "agents": ["source", "juridique_fiscal", "completude", "plateforme", "editorial", "securite"]
+  }
+}

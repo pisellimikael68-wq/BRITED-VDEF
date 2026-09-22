@@ -1,0 +1,197 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est globalement respectée, mais la phrase \"jusqu'à 27 ans\" (cas travaux/VEFA) est marquée 'a_verifier' dans la fiche et doit être confirmée par une source précise et récente avant publication.",
+        "La référence à la Banque de France est donnée sans URL ciblée vers la page précise traitant des conditions d'octroi : il faudrait remplacer l'URL générique par le lien direct vers l'information consultée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne mention de l'article L631-2-1 et du caractère recommandation (HCSF).",
+        "Attention : présenter la marge de dérogation comme possible est correct, mais il faut éviter toute formulation pouvant être interprétée comme un droit à dérogation pour le client — le script est acceptable, toutefois la précision sur la part de dossiers dérogeant (20 %) n'apparaît pas dans le script mais figure dans la fiche et, si utilisée, doit être sourcée précisément."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale, l'exception (durée 27 ans) et l'exemple. Toutefois la mention que l'assurance emprunteur est incluse est essentielle et correctement présente.",
+        "Manque une source directe confirmant l'admission de 27 ans pour travaux/VEFA dans le script (la fiche l'indique mais la valeur est marquée à vérifier)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires ; durée estimée raisonnable.",
+        "Formulation 'La règle des 35 % est-elle une obligation ? OUI / NON' est efficace en format Reels, mais l'apparition simultanée des deux cases pourrait prêter à confusion visuelle si mal animée — précisez animation (par exemple 'afficher OUI, puis barrer, puis afficher NON')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut une légende précisant qu'il ne s'agit pas d'un conseil personnalisé, conformément à la consigne 'a_ne_pas_dire'.",
+        "Il faut veiller à ne pas, oralement ou visuellement, fournir de simulation chiffrée personnalisée (le script respecte cela).",
+        "Vérifier la prudence du CTA 'Prenez rendez-vous' : OK, mais s'assurer que la prise de rendez-vous ne constitue pas un engagement commercial trompeur."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et phrases courtes bien adaptées au format oral.",
+        "Suggestion : remplacer 'admet des durées plus longues' par 'peut admettre' pour marquer la discrétion et éviter une tournure trop affirmative."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements cohérents et prononçables en 38 secondes si le rythme est soutenu.",
+        "Relire la phrase longue du beat 4 ('Le Haut Conseil... jusqu'à 27 ans') pour s'assurer qu'elle reste claire à l'oral ; envisager une légère scission en deux phrases pour l'oralité."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés correspondent globalement aux notions prononcées.",
+        "Attention : le pictogramme 'VEFA' doit être explicite (petit immeuble en construction) pour éviter une icône générique qui ne ferait pas le lien avec l'énoncé 'VEFA'.",
+        "Pour le beat 1, 'pictogramme calendrier discret' peut prêter à confusion avec la durée ; préférez un pictogramme 'refus' (croix) ou 'simulation' (écran) pour renforcer le hook."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et conserve les éléments indispensables (règle, exception, exemple, inclusion de l'assurance).",
+        "Le point « part des dossiers pouvant déroger » n'est pas explicitement mentionné : si vous comptez l'ajouter, il faudra l'étayer ; sinon c'est cohérent de l'omettre pour garder la concision."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les formulations sont compréhensibles pour un non-spécialiste et expliquent l'essentiel.",
+        "Proposition : remplacer 'tous les crédits en cours' par 'tous vos crédits en cours (consommation, auto, renouvelable...)' dans une version parlée très brève pour améliorer la compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook initial est fort.",
+        "La deuxième seconde doit absolument marquer la question OUI/NON de manière visuelle nette ; sinon risque de perte d'attention. Indiquer que l'animation OUI barré puis NON apparaisse en moins d'une seconde pour conserver l'impact."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et CTA professionnel renforcent la confiance.",
+        "Veiller à ce que le lien dans la bio mène clairement à une page de prise de rendez-vous professionnelle (page indiquant statut, tarification éventuelle ou gratuité) pour éviter frustration ou perte de confiance."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est globalement respectée, mais la phrase \"jusqu'à 27 ans\" (cas travaux/VEFA) est marquée 'a_verifier' dans la fiche et doit être confirmée par une source précise et récente avant publication.",
+    "source : La référence à la Banque de France est donnée sans URL ciblée vers la page précise traitant des conditions d'octroi : il faudrait remplacer l'URL générique par le lien direct vers l'information consultée.",
+    "juridique_fiscal : Bonne mention de l'article L631-2-1 et du caractère recommandation (HCSF).",
+    "juridique_fiscal : Attention : présenter la marge de dérogation comme possible est correct, mais il faut éviter toute formulation pouvant être interprétée comme un droit à dérogation pour le client — le script est acceptable, toutefois la précision sur la part de dossiers dérogeant (20 %) n'apparaît pas dans le script mais figure dans la fiche et, si utilisée, doit être sourcée précisément.",
+    "completude : Le script couvre la règle principale, l'exception (durée 27 ans) et l'exemple. Toutefois la mention que l'assurance emprunteur est incluse est essentielle et correctement présente.",
+    "completude : Manque une source directe confirmant l'admission de 27 ans pour travaux/VEFA dans le script (la fiche l'indique mais la valeur est marquée à vérifier).",
+    "editorial : Accroche et progression claires ; durée estimée raisonnable.",
+    "editorial : Formulation 'La règle des 35 % est-elle une obligation ? OUI / NON' est efficace en format Reels, mais l'apparition simultanée des deux cases pourrait prêter à confusion visuelle si mal animée — précisez animation (par exemple 'afficher OUI, puis barrer, puis afficher NON').",
+    "securite : Le script inclut une légende précisant qu'il ne s'agit pas d'un conseil personnalisé, conformément à la consigne 'a_ne_pas_dire'.",
+    "securite : Il faut veiller à ne pas, oralement ou visuellement, fournir de simulation chiffrée personnalisée (le script respecte cela).",
+    "securite : Vérifier la prudence du CTA 'Prenez rendez-vous' : OK, mais s'assurer que la prise de rendez-vous ne constitue pas un engagement commercial trompeur.",
+    "formulation_professionnelle : Français naturel et phrases courtes bien adaptées au format oral.",
+    "formulation_professionnelle : Suggestion : remplacer 'admet des durées plus longues' par 'peut admettre' pour marquer la discrétion et éviter une tournure trop affirmative.",
+    "contre_verification_finale : Enchaînements cohérents et prononçables en 38 secondes si le rythme est soutenu.",
+    "contre_verification_finale : Relire la phrase longue du beat 4 ('Le Haut Conseil... jusqu'à 27 ans') pour s'assurer qu'elle reste claire à l'oral ; envisager une légère scission en deux phrases pour l'oralité.",
+    "coherence_pictogrammes : Les pictogrammes proposés correspondent globalement aux notions prononcées.",
+    "coherence_pictogrammes : Attention : le pictogramme 'VEFA' doit être explicite (petit immeuble en construction) pour éviter une icône générique qui ne ferait pas le lien avec l'énoncé 'VEFA'.",
+    "coherence_pictogrammes : Pour le beat 1, 'pictogramme calendrier discret' peut prêter à confusion avec la durée ; préférez un pictogramme 'refus' (croix) ou 'simulation' (écran) pour renforcer le hook.",
+    "densite_editoriale : La vidéo traite un seul angle et conserve les éléments indispensables (règle, exception, exemple, inclusion de l'assurance).",
+    "densite_editoriale : Le point « part des dossiers pouvant déroger » n'est pas explicitement mentionné : si vous comptez l'ajouter, il faudra l'étayer ; sinon c'est cohérent de l'omettre pour garder la concision.",
+    "pedagogie_client : Les formulations sont compréhensibles pour un non-spécialiste et expliquent l'essentiel.",
+    "pedagogie_client : Proposition : remplacer 'tous les crédits en cours' par 'tous vos crédits en cours (consommation, auto, renouvelable...)' dans une version parlée très brève pour améliorer la compréhension immédiate.",
+    "retention_attention : Le hook initial est fort.",
+    "retention_attention : La deuxième seconde doit absolument marquer la question OUI/NON de manière visuelle nette ; sinon risque de perte d'attention. Indiquer que l'animation OUI barré puis NON apparaisse en moins d'une seconde pour conserver l'impact.",
+    "conversion_confiance : Ton sérieux et CTA professionnel renforcent la confiance.",
+    "conversion_confiance : Veiller à ce que le lien dans la bio mène clairement à une page de prise de rendez-vous professionnelle (page indiquant statut, tarification éventuelle ou gratuité) pour éviter frustration ou perte de confiance."
+  ],
+  "recommendations": [
+    "Confirmer la possibilité de durée jusqu'à 27 ans pour travaux/VEFA par une source précise et récente (page ciblée du HCSF ou Banque de France) et, si la vérification ne confirme pas, modifier le libellé en 'peut être exceptionnellement portée au-delà de 25 ans dans certains cas (ex. travaux importants, VEFA) selon les règles du HCSF'.",
+    "Remplacer l'URL générique de la Banque de France par le lien direct vers la page consultée sur les conditions d'octroi du crédit immobilier.",
+    "Alléger et scinder à l'oral la phrase du beat 4 pour améliorer la compréhension (ex. phrase 1 : 'Le HCSF recommande un taux d'effort maximal de 35 % assurance incluse.' Phrase 2 : 'Il limite en principe la durée à 25 ans, mais peut, dans certains cas, admettre des durées plus longues.').",
+    "Préciser visuellement le pictogramme VEFA (immeuble en construction) et remplacer le pictogramme calendrier du hook par un symbole plus directement lié au refus/simulation (croix, écran de simulation) pour renforcer l'impact du hook.",
+    "Si vous souhaitez mentionner la part des dossiers dérogeant (ex. 20 %), ajoutez la source précise et n'en faites pas une affirmation catégorique sans preuve récente.",
+    "Dans la version parlée, expliciter brièvement quelles dettes sont prises en compte ('prêts à la consommation, crédit auto, renouvelables') pour éviter toute ambiguïté pour un public non spécialiste.",
+    "S'assurer que le lien en bio mène à une page de prise de rendez-vous claire et conforme (mention du statut professionnel, conditions de rendez-vous) afin d'éviter toute attente trompeuse pour l'utilisateur."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-29:reels:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__reels__a1__v3.md"
+}

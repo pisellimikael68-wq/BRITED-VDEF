@@ -1,0 +1,151 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La réponse très brève au beat 3 — «Non.» — est susceptible d'être interprétée comme une affirmation absolue sans nuance. Or le script précise ensuite l'exception (testament) ; juridiquement il serait préférable d'atténuer l'affirmation initiale pour éviter toute lecture erronée en quelques secondes (par ex. «En général, non» ou «Pas automatiquement»)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre bien la règle centrale, la condition (testament) et l'exception (réserve héréditaire), mais n'explicite pas brièvement que l'exonération fiscale du PACS ne s'applique que si un legs existe (phrase présente mais risque d'être perdue si l'auditeur ne capte pas la nuance). Suggestion : reformuler la ligne de règle pour enchaîner immédiatement la condition (testament) afin d'assurer la compréhension au premier passage."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est correct mais manque d'urgence/contraste visuel pour les 1–2 premières secondes sur Reels. La phrase 'Vous en couple : qui est protégé si l'un décède ?' peut être renforcée (ex. ajouter «en 30 secondes» ou «savez‑vous vraiment ?») pour maximiser l'accroche.",
+        "Le carton question OUI/NON suivi d'un «Non.» sec peut surprendre l'auditeur : proposer une légère reformulation pour fluidité ('La plupart du temps non — sauf si testament')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Petite incohérence de tonalité entre le beat 3 très abrupt ('Non.') et la nuance introduite ensuite. À corriger pour la cohérence phrase‑par‑phrase et la prononciation (éviter que l'acteur donne l'impression de contredire sa première phrase)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non‑spécialiste, la distinction 'exonération fiscale' vs 'vocation successorale' est centrale ; la formulation actuelle l'énonce mais risque d'être trop condensée dans le temps. Recommander d'articuler très brièvement ('PACS = pas d'impôts, mais sans testament rien n'est transmis') pour garantir compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée annoncée (38 s) est cohérente, mais la séquence question/réponse très sèche peut perdre l'audience en 1–2 s. Amélioration possible : renforcer le hook visuel ou modifier la réponse initiale pour maintenir la curiosité vers la suite."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La réponse très brève au beat 3 — «Non.» — est susceptible d'être interprétée comme une affirmation absolue sans nuance. Or le script précise ensuite l'exception (testament) ; juridiquement il serait préférable d'atténuer l'affirmation initiale pour éviter toute lecture erronée en quelques secondes (par ex. «En général, non» ou «Pas automatiquement»).",
+    "completude : Le script couvre bien la règle centrale, la condition (testament) et l'exception (réserve héréditaire), mais n'explicite pas brièvement que l'exonération fiscale du PACS ne s'applique que si un legs existe (phrase présente mais risque d'être perdue si l'auditeur ne capte pas la nuance). Suggestion : reformuler la ligne de règle pour enchaîner immédiatement la condition (testament) afin d'assurer la compréhension au premier passage.",
+    "editorial : Le hook est correct mais manque d'urgence/contraste visuel pour les 1–2 premières secondes sur Reels. La phrase 'Vous en couple : qui est protégé si l'un décède ?' peut être renforcée (ex. ajouter «en 30 secondes» ou «savez‑vous vraiment ?») pour maximiser l'accroche.",
+    "editorial : Le carton question OUI/NON suivi d'un «Non.» sec peut surprendre l'auditeur : proposer une légère reformulation pour fluidité ('La plupart du temps non — sauf si testament').",
+    "contre_verification_finale : Petite incohérence de tonalité entre le beat 3 très abrupt ('Non.') et la nuance introduite ensuite. À corriger pour la cohérence phrase‑par‑phrase et la prononciation (éviter que l'acteur donne l'impression de contredire sa première phrase).",
+    "pedagogie_client : Pour un non‑spécialiste, la distinction 'exonération fiscale' vs 'vocation successorale' est centrale ; la formulation actuelle l'énonce mais risque d'être trop condensée dans le temps. Recommander d'articuler très brièvement ('PACS = pas d'impôts, mais sans testament rien n'est transmis') pour garantir compréhension immédiate.",
+    "retention_attention : Durée annoncée (38 s) est cohérente, mais la séquence question/réponse très sèche peut perdre l'audience en 1–2 s. Amélioration possible : renforcer le hook visuel ou modifier la réponse initiale pour maintenir la curiosité vers la suite."
+  ],
+  "recommendations": [
+    "Atténuer la réponse au beat 3 pour éviter une affirmation absolue hors contexte : remplacer «Non.» par «Pas automatiquement» ou «La plupart du temps, non» afin que l'auditeur soit préparé à l'exception (testament) qui suit.",
+    "Rapprocher la mention de l'exonération fiscale et de l'existence d'un legs dans une même phrase au beat 4, pour que l'idée «le PACS exonère mais ne crée pas la vocation» soit comprise au premier passage (ex. «Le partenaire de PACS est exonéré des droits de succession — mais il n'est pas héritier automatiquement : sans testament, il ne reçoit rien»).",
+    "Renforcer le hook visuel/sonore sur les 1–2 premières secondes (ex. ajout d'un mot‑clé percutant comme «Vrai/faux?» ou un tempo sonore) pour améliorer la rétention sur Reels.",
+    "Adapter la formulation pédagogique pour un non‑spécialiste au beat 6 : remplacer 'limitée par la réserve héréditaire' par 'mais attention : si vous avez des enfants, une part minimale revient obligatoirement aux enfants (réserve héréditaire)' — phrase courte et explicite.",
+    "Effectuer une relecture finale en voix off pour vérifier la prononciation et la fluidité entre le carton question OUI/NON, la réponse abrupte et les explications qui suivent, afin d'éviter l'impression de contradiction."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-25:reels:regimes_pacs_concubinage:1",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__reels__a1__v16.md"
+}

@@ -1,0 +1,117 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Architecture"
+  last_updated: null
+
+architecture:
+
+  name: "BRITED Layered Architecture"
+
+  style: "Layered Modular"
+
+  description: >
+    BRITED is composed of independent modules organized into
+    logical layers. Dependencies always point downward.
+
+layers:
+
+  presentation:
+
+    description: >
+      User interfaces.
+
+    responsibilities:
+      - Display information
+      - Receive user actions
+      - Trigger application services
+
+    modules:
+      - Studio
+
+    depends_on:
+      - application
+
+  application:
+
+    description: >
+      Orchestrates business workflows.
+
+    responsibilities:
+      - Execute use cases
+      - Coordinate services
+      - Manage validation workflows
+
+    modules:
+      - CorpusService
+      - Validation
+
+    depends_on:
+      - domain
+      - infrastructure
+
+  domain:
+
+    description: >
+      Business rules and domain objects.
+
+    responsibilities:
+      - Knowledge
+      - Corpus
+      - Chapter
+      - Validation rules
+
+    modules:
+      - Knowledge
+      - Corpus
+      - Chapter
+
+    depends_on: []
+
+  infrastructure:
+
+    description: >
+      Filesystem and external resources.
+
+    responsibilities:
+      - File IO
+      - Serialization
+      - Persistence
+
+    modules: []
+
+    depends_on: []
+
+dependency_rules:
+
+  allowed:
+
+    - presentation -> application
+    - application -> domain
+    - application -> infrastructure
+
+  forbidden:
+
+    - domain -> presentation
+    - domain -> application
+    - infrastructure -> presentation
+
+principles:
+
+  - Single Responsibility
+  - Explicit Dependencies
+  - Dependency Inversion
+  - High Cohesion
+  - Low Coupling
+  - Composition over Inheritance
+  - Testability First
+
+future_extensions:
+
+  planned:
+
+    - AI Agents
+    - Prompt Engine
+    - Workflow Engine
+    - Plugin System
+    

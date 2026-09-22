@@ -1,0 +1,356 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "a43b76484f7098a0d46a934ab0fe9b709c6e131092eadca609d0f728f8428b0c"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Après 8 ans : combien retirer sans impôt ?",
+      "tokens": [
+        "Après",
+        "8",
+        "ans",
+        ":",
+        "combien",
+        "retirer",
+        "sans",
+        "impôt",
+        "?"
+      ],
+      "token_count": 9,
+      "speech_duration": 3.165,
+      "full_text_visible_at": 2.849,
+      "hold_after_full_text": 1.217,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          540,
+          672,
+          640
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "circle-help",
+          "badge-euro",
+          "file-signature"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Contrat d'assurance-vie de plus de 8 ans : 4 600 € d'abattement annuel sur les gains pour une personne seule et 9 200 € pour un couple marié ou pacsé imposé ensemble.",
+      "tokens": [
+        "Contrat",
+        "d'assurance-vie",
+        "de",
+        "plus",
+        "de",
+        "8",
+        "ans",
+        ":",
+        "4",
+        "600",
+        "€",
+        "d'abattement",
+        "annuel",
+        "sur",
+        "les",
+        "gains",
+        "pour",
+        "une",
+        "personne",
+        "seule",
+        "et",
+        "9",
+        "200",
+        "€",
+        "pour",
+        "un",
+        "couple",
+        "marié",
+        "ou",
+        "pacsé",
+        "imposé",
+        "ensemble."
+      ],
+      "token_count": 32,
+      "speech_duration": 11.682,
+      "duration": 11.902,
+      "full_text_visible_at": 10.514,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "verdict": "adaptatif",
+        "font_size": 25,
+        "answer_design": "adaptive_sections_v2",
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle_exemple",
+      "source_text": "Une assurance-vie valorisée à 120 K€, dont 20 K€ de gains. Sur un rachat de 12 K€, 10 K€ correspondent au capital et 2 K€ aux gains.",
+      "tokens": [
+        "Une",
+        "assurance-vie",
+        "valorisée",
+        "à",
+        "120",
+        "K€,",
+        "dont",
+        "20",
+        "K€",
+        "de",
+        "gains.",
+        "Sur",
+        "un",
+        "rachat",
+        "de",
+        "12",
+        "K€,",
+        "10",
+        "K€",
+        "correspondent",
+        "au",
+        "capital",
+        "et",
+        "2",
+        "K€",
+        "aux",
+        "gains."
+      ],
+      "token_count": 27,
+      "speech_duration": 9.958,
+      "full_text_visible_at": 8.962,
+      "hold_after_full_text": 1.216,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple_fiscal",
+      "source_text": "2 K€ de gains restent sous l'abattement de 4 600 € : pas d'impôt sur le revenu. Les prélèvements sociaux s'appliquent.",
+      "tokens": [
+        "2",
+        "K€",
+        "de",
+        "gains",
+        "restent",
+        "sous",
+        "l'abattement",
+        "de",
+        "4",
+        "600",
+        "€",
+        ":",
+        "pas",
+        "d'impôt",
+        "sur",
+        "le",
+        "revenu.",
+        "Les",
+        "prélèvements",
+        "sociaux",
+        "s'appliquent."
+      ],
+      "token_count": 21,
+      "speech_duration": 6.741,
+      "full_text_visible_at": 6.067,
+      "hold_after_full_text": 0.894,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Si la part de gains retirée dépasse l'abattement, seul l'excédent est imposable. Pour les versements depuis le 27/09/2017, le taux de 7,5 % s'applique dans la limite du seuil global de 150 K€ de primes, tous contrats confondus ; au-delà, 12,8 % peut s'appliquer.",
+      "tokens": [
+        "Si",
+        "la",
+        "part",
+        "de",
+        "gains",
+        "retirée",
+        "dépasse",
+        "l'abattement,",
+        "seul",
+        "l'excédent",
+        "est",
+        "imposable.",
+        "Pour",
+        "les",
+        "versements",
+        "depuis",
+        "le",
+        "27/09/2017,",
+        "le",
+        "taux",
+        "de",
+        "7,5",
+        "%",
+        "s'applique",
+        "dans",
+        "la",
+        "limite",
+        "du",
+        "seuil",
+        "global",
+        "de",
+        "150",
+        "K€",
+        "de",
+        "primes,",
+        "tous",
+        "contrats",
+        "confondus",
+        ";",
+        "au-delà,",
+        "12,8",
+        "%",
+        "peut",
+        "s'appliquer."
+      ],
+      "token_count": 44,
+      "speech_duration": 16.982,
+      "full_text_visible_at": 15.284,
+      "hold_after_full_text": 2.598,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          358,
+          672,
+          821
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 4.895,
+      "full_text_visible_at": 4.405,
+      "hold_after_full_text": 0.489,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

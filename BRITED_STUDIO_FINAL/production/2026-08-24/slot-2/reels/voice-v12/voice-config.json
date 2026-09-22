@@ -1,0 +1,107 @@
+{
+  "voice": {
+    "version": 12,
+    "speed": 1.0,
+    "exaggeration": 0.28,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "min_p": 0.08,
+    "repetition_penalty": 1.45
+  },
+  "hook_voice": {
+    "version": 12,
+    "speed": 1.02,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "post_atempo": 1.0
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "4e98be52204d59a97fc827af6ccd4ab25304b207036481e65863df31d077fc2d",
+  "audio_format_version": 12,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "e517474b5cad1b9cc88bc94d6029e6cd1c1be7bf685facc247e67f5add02e310",
+  "beat_hashes": {
+    "01_hook": "a4db657d928020c234969188bd1bcbf77bd899b233534886f4f8b42bdd42951e",
+    "02_question": "aae93c5e9ea00e4c7ee9c212a8761b01f086212ef460233d94a84f2e45e2ee67",
+    "03_reponse": "2561c182c090eb7935a3794118cd2ea8327ebdae4de2347118c1aa0e7a1ebd57",
+    "04_regle": "480b38e3e10a6cce93d4870fa39a0d3e86eb89ff16436ad79bfe9378cc72f4b6",
+    "05_precision": "d8aafe36a55efc7019ae886a2546d7d568c04f9018fe948d34e64e05fa3aa02e",
+    "06_exemple": "206f69af79a7883d64f0f1e014178730b9148dd78f69e36a78dcdacd9028040a",
+    "07_nuance": "6c37e9bc6c7ff3631b2e0472ec99ebddd562450987a6df99cf633068f463cce4",
+    "08_cta": "177a5deae385ea67d867d6d95d6fc6b3c900c0b6b932b1b7315717951f9c9208"
+  },
+  "spoken_texts": {
+    "01_hook": "Vous envisagez de changer de régime matrimonial ?",
+    "02_question": "Selon vous, l’acte notarié suffit il ?",
+    "03_reponse": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+    "04_regle": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+    "05_precision": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+    "06_exemple": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+    "07_nuance": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+    "08_cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.0,
+  "target_wpm": {
+    "hook": 176.0,
+    "question": 160.0,
+    "reponse": 158.0,
+    "regle": 174.0,
+    "precision": 168.0,
+    "exemple": 174.0,
+    "nuance": 165.0,
+    "cta": 170.0,
+    "default": 172.0
+  },
+  "atempo_bounds": [
+    0.84,
+    1.15
+  ],
+  "prosody": {
+    "hook": {
+      "speed": 1.02,
+      "exaggeration": 0.34,
+      "cfg_weight": 0.52
+    },
+    "question": {
+      "speed": 0.99,
+      "exaggeration": 0.3,
+      "cfg_weight": 0.53
+    },
+    "reponse": {
+      "speed": 1.08,
+      "exaggeration": 0.36,
+      "cfg_weight": 0.52
+    },
+    "regle": {
+      "speed": 1.01,
+      "exaggeration": 0.26,
+      "cfg_weight": 0.54
+    },
+    "precision": {
+      "speed": 0.99,
+      "exaggeration": 0.24,
+      "cfg_weight": 0.55
+    },
+    "exemple": {
+      "speed": 1.01,
+      "exaggeration": 0.31,
+      "cfg_weight": 0.52
+    },
+    "nuance": {
+      "speed": 0.98,
+      "exaggeration": 0.23,
+      "cfg_weight": 0.55
+    },
+    "cta": {
+      "speed": 0.88,
+      "exaggeration": 0.32,
+      "cfg_weight": 0.52
+    }
+  },
+  "voice_seed": 20260822,
+  "segment_level_filter": "loudnorm=I=-18:TP=-2:LRA=5"
+}

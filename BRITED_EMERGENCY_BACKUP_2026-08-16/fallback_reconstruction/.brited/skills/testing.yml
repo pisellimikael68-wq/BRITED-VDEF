@@ -1,0 +1,28 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: testing
+
+capabilities:
+
+  - write_unit_tests
+  - write_integration_tests
+  - run_regression
+  - measure_coverage
+
+rules:
+
+  - deterministic_tests
+  - isolated_tests
+  - reproducible
+
+outputs:
+
+  - test_suite
+  - coverage_report
+
+quality:
+
+  minimum_coverage: 90

@@ -1,0 +1,154 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « En principe il n'y a pas de sortie anticipée » est correcte mais trop binaire. Le Code et la documentation AMF expliquent que les sorties anticipées sont en pratique rares et souvent encadrées par les statuts du fonds ou des mécanismes exceptionnels (marché secondaire, liquidation). Recommander d'ajouter « en principe impossible sauf cas exceptionnels prévus par les statuts ou le marché secondaire » pour être juridiquement plus précis."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre bien le mécanisme principal et l'exemple d'appels de fonds, mais n'explicite pas que les engagements sont généralement appelés sur plusieurs années pendant la période d'investissement (lock-up/investment period). Il manque la mention explicite que l'engagement se matérialise par des appels successifs pendant la phase d'investissement."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et texte écran initial: le titre « En private equity, votre argent est‑il immobilisé dix ans ? » peut créer une attente trop stricte (dix ans) alors que la fiche indique 8–10 ans. Risque de désalignement entre hook et réponse immédiate. Recommander d'harmoniser le hook avec la réponse (par ex. « ...immobilisé 8–10 ans ? »)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement le français est naturel, mais la phrase « des sommes ne sont pas demandées immédiatement mais doivent rester disponibles » peut être allégée pour la diction (ex. « certaines sommes ne sont pas appelées immédiatement : gardez-les disponibles »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot: le script mentionne 'FCPR ou FPCI' qui est conforme, mais la mention 'en principe il n'y a pas de sortie anticipée' contraste avec le tableau texte écran 'Sorties anticipées : cas exceptionnels' — cohérence acceptable mais pourrait être consolidée en une phrase plus ferme et concise pour la version courte (shorts)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'balance + flèche sortie rare' risque d'être interprété comme juridique; préférer un pictogramme plus neutre (ex. cadenas brisé petit) pour illustrer 'exceptions limitées'. Le calendrier + piles de pièces illustre bien les appels de fonds."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'expression 'FCPR ou FPCI' mérite un très court ajout explicatif (ex. 'types de fonds') car le format est très court et certains spectateurs peuvent ne pas connaître ces sigles."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La phrase « En principe il n'y a pas de sortie anticipée » est correcte mais trop binaire. Le Code et la documentation AMF expliquent que les sorties anticipées sont en pratique rares et souvent encadrées par les statuts du fonds ou des mécanismes exceptionnels (marché secondaire, liquidation). Recommander d'ajouter « en principe impossible sauf cas exceptionnels prévus par les statuts ou le marché secondaire » pour être juridiquement plus précis.",
+    "completude : Le script couvre bien le mécanisme principal et l'exemple d'appels de fonds, mais n'explicite pas que les engagements sont généralement appelés sur plusieurs années pendant la période d'investissement (lock-up/investment period). Il manque la mention explicite que l'engagement se matérialise par des appels successifs pendant la phase d'investissement.",
+    "editorial : Hook et texte écran initial: le titre « En private equity, votre argent est‑il immobilisé dix ans ? » peut créer une attente trop stricte (dix ans) alors que la fiche indique 8–10 ans. Risque de désalignement entre hook et réponse immédiate. Recommander d'harmoniser le hook avec la réponse (par ex. « ...immobilisé 8–10 ans ? »).",
+    "formulation_professionnelle : Globalement le français est naturel, mais la phrase « des sommes ne sont pas demandées immédiatement mais doivent rester disponibles » peut être allégée pour la diction (ex. « certaines sommes ne sont pas appelées immédiatement : gardez-les disponibles »).",
+    "contre_verification_finale : Vérification mot à mot: le script mentionne 'FCPR ou FPCI' qui est conforme, mais la mention 'en principe il n'y a pas de sortie anticipée' contraste avec le tableau texte écran 'Sorties anticipées : cas exceptionnels' — cohérence acceptable mais pourrait être consolidée en une phrase plus ferme et concise pour la version courte (shorts).",
+    "coherence_pictogrammes : Le pictogramme 'balance + flèche sortie rare' risque d'être interprété comme juridique; préférer un pictogramme plus neutre (ex. cadenas brisé petit) pour illustrer 'exceptions limitées'. Le calendrier + piles de pièces illustre bien les appels de fonds.",
+    "pedagogie_client : Pour un non-spécialiste, l'expression 'FCPR ou FPCI' mérite un très court ajout explicatif (ex. 'types de fonds') car le format est très court et certains spectateurs peuvent ne pas connaître ces sigles."
+  ],
+  "recommendations": [
+    "Harmoniser le hook avec la donnée chiffrée : remplacer le texte écran et le hook par « En private equity, votre argent est‑il immobilisé 8–10 ans ? » afin d'éviter l'impression que la durée est strictement 10 ans.",
+    "Préciser brièvement la nature des sorties anticipées dans la phrase de nuance : par exemple « En principe, la sortie anticipée est impossible ; seules des exceptions limitées existent (marché secondaire, liquidation, cas prévus par les statuts). »",
+    "Ajouter une mini-explication parenthétique lors de la première mention FCPR/FPCI : « (types de fonds) » pour aider le non-spécialiste.",
+    "Alléger la phrase sur les appels de fonds pour la diction : remplacez « des sommes ne sont pas demandées immédiatement mais doivent rester disponibles » par « certaines sommes ne sont pas appelées tout de suite : gardez-les disponibles ».",
+    "Remplacer le pictogramme 'balance + flèche sortie rare' par un visuel plus neutre et immédiatement lisible (ex. petit cadenas avec une minuscule brèche ou icône 'rare sortie') pour éviter une connotation trop juridique.",
+    "Mettre la source AMF en légende ou description de la vidéo (déjà listée dans les sources) pour renforcer la crédibilité sans rallonger la narration.",
+    "Vérifier le libellé du CTA pour s'assurer qu'il reste pédagogique et non commercial : conserver 'Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.' est acceptable mais veiller à l'orthographe et au ton non pressant."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-06:shorts:private_equity_illiquidite:1",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__shorts__a3__v4.md"
+}

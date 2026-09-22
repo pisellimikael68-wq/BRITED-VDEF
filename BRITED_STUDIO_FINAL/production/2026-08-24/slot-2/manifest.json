@@ -1,0 +1,157 @@
+{
+  "date": "2026-08-24",
+  "slot": 2,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:shorts:regimes_changement:1",
+      "platform": "shorts",
+      "title": "Changer de régime matrimonial en cours de mariage",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_changement__shorts__a1__v4.md",
+      "video": "",
+      "script_sha256": "740cff4ee040ea921c6cc896e517f673b7950ee1afdaaa07f0d5d452a377032d",
+      "spec_sha256": "115c801d010d8a7c128587e14a5a20ab37b253441e401a2c56fe9a5659c709d8",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 42.6,
+      "status": "blocked",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [
+        "Production ou contrôle vidéo refusé : Command '['/Users/Shared/BRITED-Audio/bin/python', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/generate_voice.py', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/spec.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/voice']' returned non-zero exit status 1."
+      ],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_changement:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+        "validated_at": "2026-08-24T14:34:50"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-08-24:reels:regimes_changement:1",
+      "platform": "reels",
+      "title": "Changer de régime matrimonial en cours de mariage",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_changement__shorts__a1__v4.md",
+      "video": "",
+      "script_sha256": "740cff4ee040ea921c6cc896e517f673b7950ee1afdaaa07f0d5d452a377032d",
+      "spec_sha256": "00e7fdacb407344a26165a65832d0c36e8406212f668287cfc2b5d1eca9c3412",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "reels",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 42.6,
+      "status": "blocked",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [
+        "Production ou contrôle vidéo refusé : Command '['/Users/Shared/BRITED-Audio/bin/python', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/generate_voice.py', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/reels/spec.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/voice']' returned non-zero exit status 1."
+      ],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_changement:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+        "validated_at": "2026-08-24T14:34:50"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "instagram",
+        "facebook"
+      ],
+      "delivery_profile": "reels",
+      "shared_identical_video": false,
+      "facebook_delivery_mode": "instagram_crosspost"
+    },
+    {
+      "publication_id": "2026-08-24:tiktok:regimes_changement:1",
+      "platform": "tiktok",
+      "title": "Changer de régime matrimonial en cours de mariage",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_changement__shorts__a1__v4.md",
+      "video": "",
+      "script_sha256": "740cff4ee040ea921c6cc896e517f673b7950ee1afdaaa07f0d5d452a377032d",
+      "spec_sha256": "2083a79a1c882dfef4be9d6abd824309138f7638c90e620bf650c37a39a2a785",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "tiktok",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 42.6,
+      "status": "blocked",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [
+        "Production ou contrôle vidéo refusé : Command '['/Users/Shared/BRITED-Audio/bin/python', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/generate_voice.py', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/tiktok/spec.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/voice']' returned non-zero exit status 1."
+      ],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_changement:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+        "validated_at": "2026-08-24T14:34:50"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "tiktok"
+      ],
+      "delivery_profile": "tiktok",
+      "shared_identical_video": false
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Vous envisagez de changer de régime matrimonial ?",
+      "transcript": "Vous envisagez de changer de régime matrimonial ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8929,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Selon vous, l’acte notarié suffit il ?",
+      "transcript": "Selon vous, l'acte notarié suffit-il ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8298,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+      "transcript": "Non, l'acte est indispensable, mais d'autres étapes sont obligatoires.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9467,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+      "transcript": "Les enfants majeurs et les créanciers sont informés. Ils disposent de 3 mois pour s'opposer.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0562,
+      "passed": true
+    },
+    {
+      "beat": "precision",
+      "expected": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+      "transcript": "En cas d'opposition, le tribunal homologue l'acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1858,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+      "transcript": "Exemple, un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1158,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+      "transcript": "Le changement peut nécessiter de liquider l'ancien régime et avoir des conséquences fiscales.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0787,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1034,
+      "passed": true
+    }
+  ]
+}

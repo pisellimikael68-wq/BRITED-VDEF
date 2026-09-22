@@ -1,0 +1,169 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source, les articles cités et l'exemple chiffré. Cependant la fiche BRITED précise explicitement que l'extinction de l'usufruit est automatique et qu'aucune formalité n'est nécessaire sauf pour la publicité foncière pour un bien immobilier; cette précision n'apparaît pas dans la narration (seule la légende l'évoque). Il manque donc la mention explicite de l'automaticité et de l'exception pratique pour les immeubles."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu juridique et fiscal principal est correct (art. 617 CC, art. 1133 CGI, barème art. 669 mentionné dans les sources). En revanche la narration n'indique pas que la valeur de la nue-propriété avait été taxée au moment de la donation selon l'article 669 (le script évoque l'exemple chiffré mais n'explique pas la fixation des droits au moment de la donation via le barème). C'est une donnée importante pour éviter les interprétations erronées et doit être formulée clairement."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle centrale, les causes d'extinction, un exemple et une nuance. Manquent cependant deux éléments demandés par la fiche : (1) précision que l'extinction est automatique et qu'aucune action n'est requise sauf publicité foncière pour l'immobilier ; (2) mention explicite que la donation en nue-propriété est irrévocable (la nuance l'évoque mais sans le mot 'irrévocable' réellement mis en avant dans la narration). L'exemple chiffré est présent mais la mécanique fiscale (droits payés une seule fois à la donation selon barème) n'est pas clairement expliquée dans la narration."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'ordre des séquences, la durée estimée et le format Reels. Cependant la séquence #2 'OUI / NON' est ambiguë dans son rôle pédagogique : elle n'apporte pas d'information factuelle et risque de ralentir la dynamique des premières secondes. Recommandation d'optimiser les 2 premières secondes pour accrocher mieux (par ex. poser directement la question et annoncer la réponse)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et CTA présents. Quelques formulations peuvent être améliorées pour plus de clarté en lecture à voix haute : par exemple 'Vous perdez l'usufruitier' peut surprendre — préférer 'Au décès de l'usufruitier' ou 'Quand l'usufruit prend fin'. La phrase listant les causes d'extinction est dense pour une lecture en 38 s ; il faut veiller au débit et à la ponctuation orale."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais quelques formulations méritent d'être retravaillées pour la prononciation et la clarté (voir 'Vous perdez l'usufruitier' et la phrase longue sur les causes d'extinction). De plus, l'usage de '0 €' peut être lu 'zéro euro' — vérifier le rythme pour que cela reste percutant."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, on relève : (1) absence explicite de la mention sur l'automaticité de l'extinction et de l'exception pour la publicité foncière ; (2) l'article 669 est cité en sources mais la narration ne précise pas que les droits sont fixés au moment de la donation selon ce barème. Ces deux omissions doivent être corrigées pour cohérence avec la fiche."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont adéquats. Points à corriger : la case 'OUI / NON' (séquence 2) est visuelle mais n'illustre pas une information utile — pictogramme d'interrogation est générique. La vignette 'Icône main qui reçoit clé' pour la réunion est bonne, mais le pictogramme 'euro barré' peut être perçu comme 'interdiction de payer' plutôt que 'aucun droit dû' — préférer un pictogramme '0 €' clair. Enfin, la schématisation des articles doit clairement associer chaque article au texte concerné (617 -> causes ; 1133 -> fiscalité) pour éviter toute confusion."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais la densité textuelle de la séquence 'règle' risque d'être trop élevée pour 38 s. Il manque la mention explicite que les droits ont été acquittés lors de la donation (barème art. 669) — information essentielle et synthétique à ajouter sans alourdir."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non-spécialiste, mais l'omission de l'information sur l'automaticité de l'extinction et la clarification sur le paiement des droits 'au moment de la donation' peut conduire à une incompréhension. Une phrase courte et claire expliquant que 'les droits sont payés une fois à la donation, calculés selon un barème' est nécessaire."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est adaptée mais la formulation initiale ('Vous perdez l'usufruitier') peut être moins percutante que 'Au décès de l'usufruitier, qui paie ?'. La séquence 'OUI / NON' occupe du temps sans ajouter d'information utile ; elle peut nuire à la rétention. Recommander de remplacer par une micro-pause visuelle ou d'annoncer directement 'Réponse : le nu-propriétaire...'."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA et le ton professionnel sont bons. Pour renforcer la confiance, ajouter brièvement la mention 'vérifié selon Code civil art. 617 et CGI art. 1133' dans l'audio (ou texte écran) renforcerait la crédibilité. Éviter la tournure 'Vous perdez' pour ne pas paraître alarmiste."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source, les articles cités et l'exemple chiffré. Cependant la fiche BRITED précise explicitement que l'extinction de l'usufruit est automatique et qu'aucune formalité n'est nécessaire sauf pour la publicité foncière pour un bien immobilier; cette précision n'apparaît pas dans la narration (seule la légende l'évoque). Il manque donc la mention explicite de l'automaticité et de l'exception pratique pour les immeubles.",
+    "juridique_fiscal : Le contenu juridique et fiscal principal est correct (art. 617 CC, art. 1133 CGI, barème art. 669 mentionné dans les sources). En revanche la narration n'indique pas que la valeur de la nue-propriété avait été taxée au moment de la donation selon l'article 669 (le script évoque l'exemple chiffré mais n'explique pas la fixation des droits au moment de la donation via le barème). C'est une donnée importante pour éviter les interprétations erronées et doit être formulée clairement.",
+    "completude : La vidéo couvre la règle centrale, les causes d'extinction, un exemple et une nuance. Manquent cependant deux éléments demandés par la fiche : (1) précision que l'extinction est automatique et qu'aucune action n'est requise sauf publicité foncière pour l'immobilier ; (2) mention explicite que la donation en nue-propriété est irrévocable (la nuance l'évoque mais sans le mot 'irrévocable' réellement mis en avant dans la narration). L'exemple chiffré est présent mais la mécanique fiscale (droits payés une seule fois à la donation selon barème) n'est pas clairement expliquée dans la narration.",
+    "plateforme : Le script respecte l'ordre des séquences, la durée estimée et le format Reels. Cependant la séquence #2 'OUI / NON' est ambiguë dans son rôle pédagogique : elle n'apporte pas d'information factuelle et risque de ralentir la dynamique des premières secondes. Recommandation d'optimiser les 2 premières secondes pour accrocher mieux (par ex. poser directement la question et annoncer la réponse).",
+    "editorial : Ton direct et CTA présents. Quelques formulations peuvent être améliorées pour plus de clarté en lecture à voix haute : par exemple 'Vous perdez l'usufruitier' peut surprendre — préférer 'Au décès de l'usufruitier' ou 'Quand l'usufruit prend fin'. La phrase listant les causes d'extinction est dense pour une lecture en 38 s ; il faut veiller au débit et à la ponctuation orale.",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais quelques formulations méritent d'être retravaillées pour la prononciation et la clarté (voir 'Vous perdez l'usufruitier' et la phrase longue sur les causes d'extinction). De plus, l'usage de '0 €' peut être lu 'zéro euro' — vérifier le rythme pour que cela reste percutant.",
+    "contre_verification_finale : En relecture mot à mot, on relève : (1) absence explicite de la mention sur l'automaticité de l'extinction et de l'exception pour la publicité foncière ; (2) l'article 669 est cité en sources mais la narration ne précise pas que les droits sont fixés au moment de la donation selon ce barème. Ces deux omissions doivent être corrigées pour cohérence avec la fiche.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont adéquats. Points à corriger : la case 'OUI / NON' (séquence 2) est visuelle mais n'illustre pas une information utile — pictogramme d'interrogation est générique. La vignette 'Icône main qui reçoit clé' pour la réunion est bonne, mais le pictogramme 'euro barré' peut être perçu comme 'interdiction de payer' plutôt que 'aucun droit dû' — préférer un pictogramme '0 €' clair. Enfin, la schématisation des articles doit clairement associer chaque article au texte concerné (617 -> causes ; 1133 -> fiscalité) pour éviter toute confusion.",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais la densité textuelle de la séquence 'règle' risque d'être trop élevée pour 38 s. Il manque la mention explicite que les droits ont été acquittés lors de la donation (barème art. 669) — information essentielle et synthétique à ajouter sans alourdir.",
+    "pedagogie_client : Le script est compréhensible pour un non-spécialiste, mais l'omission de l'information sur l'automaticité de l'extinction et la clarification sur le paiement des droits 'au moment de la donation' peut conduire à une incompréhension. Une phrase courte et claire expliquant que 'les droits sont payés une fois à la donation, calculés selon un barème' est nécessaire.",
+    "retention_attention : L'accroche est adaptée mais la formulation initiale ('Vous perdez l'usufruitier') peut être moins percutante que 'Au décès de l'usufruitier, qui paie ?'. La séquence 'OUI / NON' occupe du temps sans ajouter d'information utile ; elle peut nuire à la rétention. Recommander de remplacer par une micro-pause visuelle ou d'annoncer directement 'Réponse : le nu-propriétaire...'.",
+    "conversion_confiance : Le CTA et le ton professionnel sont bons. Pour renforcer la confiance, ajouter brièvement la mention 'vérifié selon Code civil art. 617 et CGI art. 1133' dans l'audio (ou texte écran) renforcerait la crédibilité. Éviter la tournure 'Vous perdez' pour ne pas paraître alarmiste."
+  ],
+  "recommendations": [
+    "Ajouter une phrase claire et courte sur l'automaticité de l'extinction : 'L'extinction de l'usufruit est automatique au décès ; seule la publicité foncière peut nécessiter une formalité pour un immeuble.' Insérer cela dans la séquence 3 ou 4.",
+    "Préciser que les droits ont été acquittés une seule fois, au moment de la donation, calculés selon le barème de l'article 669 : par exemple, ajouter après la phrase d'exemple : 'Les droits ont été payés lors de la donation sur la base de la nue-propriété (barème art. 669).' ",
+    "Remplacer ou clarifier la séquence #2 'OUI / NON' : soit la supprimer, soit la transformer en micro-accroche plus informative ('Réponse : NON, ils ne paient rien') pour ne pas perdre les premières secondes.",
+    "Améliorer quelques formulations pour la lecture à voix haute : remplacer 'Vous perdez l'usufruitier' par 'Au décès de l'usufruitier' ou 'Quand l'usufruit prend fin', et fractionner la liste des causes d'extinction en deux segments pour faciliter le débit.",
+    "Adapter les pictogrammes : remplacer 'euro barré' par un pictogramme '0 €' clair ; faire figurer à l'écran, lors de l'énoncé des articles, le libellé court (617 : causes d'extinction / 1133 : pas de droits à la réunion) pour associer visuel et texte légal.",
+    "Ajouter à la voix ou en texte écran une mention rapide des sources (art. 617 CC, art. 1133 CGI, art. 669) au moment opportun pour renforcer crédibilité.",
+    "Vérifier la durée à l'enregistrement vocal une fois les ajustements faits pour rester proche des 38 s estimés ; si l'ajout dépasse, réduire la durée de la séquence 'exemple' ou raccourcir la liste des causes."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-25:reels:demembrement_fin_usufruit:0",
+  "script_path": "scripts/demembrement/demembrement_fin_usufruit__reels__a4__v7.md"
+}

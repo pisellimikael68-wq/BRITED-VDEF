@@ -1,0 +1,91 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Chaque bénéficiaire peut il bénéficier de cent cinquante-deux mille cinq cents euros sur une assurance vie ?",
+      "transcript": "Chaque bénéficiaire peut-il bénéficier de 152 500 euros sur une assurance vie ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0247,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui — pour les primes versées avant soixante dix ans, chaque bénéficiaire a un abattement de cent cinquante-deux mille cinq cents euros.",
+      "transcript": "Oui, pour les primes versées avant 70 ans, chaque bénéficiaire a un abattement de 152 500 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0312,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Fiscalement, c'est prévu par l'article neuf cent quatre-vingt-dix I : chaque bénéficiaire bénéficie de cent cinquante-deux mille cinq cents euros ; au delà la part taxable est taxée vingt pour cent jusqu'à sept cent mille euros, puis trente et un virgule vingt cinq pour cent.",
+      "transcript": "Fiscalement, c'est prévu par l'article 990i, chaque bénéficiaire bénéficie de 152 500 euros. Au-delà, la part taxable est taxée 20% jusqu'à 700 000 euros, puis 31,25%.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1986,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple concret : si vous désignez trois bénéficiaires, chacun a cent cinquante-deux mille cinq cents euros d'abattement, soit quatre cent cinquante-sept mille cinq cents euros transmis sans taxation.",
+      "transcript": "Exemple concret, si vous désignez trois bénéficiaires, chacun à 152 500 euros d'abattement, soit 457 500 euros transmis sans taxation.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1405,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Important : l'abattement est apprécié par bénéficiaire tous contrats confondus et dépend de l'âge du souscripteur au moment de chaque versement.",
+      "transcript": "Important, l'abattement est apprécié par bénéficiaires tous contrats confondus et dépend de l'âge du souscripteur au moment de chaque versement.",
+      "similarity": 0.9545,
+      "missing": [
+        "beneficiaire"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "beneficiaires"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2397,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 37.53,
+  "target_duration": [
+    35,
+    48
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 37.534,
+      "peak": 0.84155,
+      "rms": 0.1439,
+      "dc": 0.000116,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 2.2e-06
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.153,
+        "peak": 0.90753,
+        "rms": 0.08139,
+        "dc": 6.6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_question.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.207,
+        "peak": 0.77979,
+        "rms": 0.08978,
+        "dc": 6.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.092,
+        "peak": 0.98965,
+        "rms": 0.09153,
+        "dc": 4.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.825,
+        "peak": 0.98965,
+        "rms": 0.12056,
+        "dc": 4.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.741,
+        "peak": 0.98981,
+        "rms": 0.11871,
+        "dc": 4e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.089,
+        "peak": 0.98981,
+        "rms": 0.12843,
+        "dc": 3.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.977,
+        "peak": 0.64359,
+        "rms": 0.08767,
+        "dc": 3.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Vous apprenez le décès d'un proche et vous pensez à l'assurance vie ?",
+        "transcript": "Vous apprenez le décès d'un proche et vous pensez à l'assurance vie ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9351,
+        "passed": true
+      },
+      {
+        "beat": "question",
+        "expected": "L'abattement de cent cinquante deux mille cinq cents euros s'applique t il ?",
+        "transcript": "L'abattement de 152 500 euros s'applittait-il ?",
+        "similarity": 0.8889,
+        "missing": [
+          "applique",
+          "t"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "applittait"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8545,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Oui, pour les primes versées avant soixante-dix ans, chaque bénéficiaire a cent cinquante deux mille cinq cents euros.",
+        "transcript": "Oui, pour les primes versées avant 70 ans, chaque bénéficiaire a 152 500 euros.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9762,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Au delà, la part taxable est imposée à vingt pour cent jusqu'à sept cent mille euros, puis à trente et un virgule vingt cinq pour cent.",
+        "transcript": "Au-delà, la part taxable est imposée à 20% jusqu'à 700 000 euros, puis à 31,25%.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9551,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Par exemple, trois bénéficiaires représentent trois × cent cinquante deux mille cinq cents euros, soit quatre cent cinquante sept mille cinq cents euros sans taxation.",
+        "transcript": "Par exemple, 3 bénéficiaires représentent 350 2500 euros, soit 457 500 euros sans taxation.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0444,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Pour les primes versées après soixante-dix ans, l'abattement global de trente mille cinq cents euros est partagé ; les gains attachés à ces primes restent exonérés.",
+        "transcript": "Pour les primes versées après 70 ans, l'abattement global de 30 500 euros est partagé. Les gains attachés à ces primes restent exonérés.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.144,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation, prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1059,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Personne lisant un courrier, pictogramme horloge courte",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "circle-help",
+          "lightbulb"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Barre de taux 20 % vers 31,25 %",
+        "family": "fiscalite",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "badge-percent",
+          "receipt-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          380,
+          660,
+          521
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Trois silhouettes + piles de pièces",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          378,
+          660,
+          522
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Schéma primes après 70 ans vers abattement partagé, gains exonérés",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "badge-percent",
+          "receipt-euro",
+          "split"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          360,
+          660,
+          539
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

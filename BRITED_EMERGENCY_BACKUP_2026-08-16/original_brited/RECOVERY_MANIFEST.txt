@@ -1,0 +1,2 @@
+VS Code history files: 346
+VS Code backup files: 11

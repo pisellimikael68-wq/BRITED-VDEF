@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "platform": "shorts",
+  "source_hash": "615d5aa0a0a5016447a15dfa1a6ccb546064b20f8868717cea553371ae62cbd1",
+  "adapted_hash": "615d5aa0a0a5016447a15dfa1a6ccb546064b20f8868717cea553371ae62cbd1",
+  "source_beats": 6,
+  "adapted_pages": 6,
+  "splits": 0,
+  "exact_text_preserved": true,
+  "minimum_font_size": 34,
+  "cta_normalized": false,
+  "warnings": []
+}

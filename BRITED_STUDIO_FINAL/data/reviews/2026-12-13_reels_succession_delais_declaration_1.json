@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est respectée globalement, mais le script écrit «0,20 pourcent» (sans espace et sans signe %) alors que la fiche et les sources formalisent le taux comme «0,20 %». Correction typographique nécessaire pour stricte fidélité au chiffre et au format."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script précise correctement les articles 641, 1727 et 1728 et la règle des 6/12 mois. Toutefois la phrase «Le taux mensuel est de 0,20 pourcent» devrait être reformulée en «Le taux mensuel est de 0,20 % (article 1727)» pour lier explicitement le chiffre à la source légale.",
+        "La mention de l'exemple chiffré (succession 400 000 €, droits 50 000 €) est pédagogique mais frôle l'interprétation de conséquences financières spécifiques ; il faut rappeler explicitement que les montants donnés ne sont qu'illustratifs («exemple indicatif»)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, les sanctions et la solution (paiement fractionné/différé). Manque une mention brève que la dispense existe uniquement pour situations très limitées (la fiche signale l'erreur fréquente qui confond absence de droits et dispense) — une phrase très courte à ajouter renforcerait la complétude utile au non-spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes. Pour la rétention, la seconde phrase «Avez-vous déposé la déclaration dans les six mois ?» doit être plus directe oralement («Avez‑vous déposé la déclaration dans les 6 mois suivant le décès ?») pour éviter l'ambiguïté sur le point de départ du délai."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations demandent une légère correction pour un français naturel et professionnel : remplacer «0,20 pourcent» par «0,20 %», et reformuler «Le paiement fractionné ou différé peut être demandé au dépôt avec garanties» en «Le paiement fractionné ou différé peut être demandé au moment du dépôt, sous réserve de garanties» pour précision et fluidité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase la cohérence est bonne, mais l'appel à l'action «Prenez rendez-vous via le lien dans ma bio» doit être conforme aux réglementations publicitaires si le compte est professionnel : ajouter «(contenu pédagogique — rdv payant possible)» n'est pas requis mais utile. Autre point : vérifier la prononciation fluide de «majoration prévue à l'article 1728» en une seule respiration pour la durée indiquée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance visuel/texte est correcte globalement. Remarque: pour le beat 4 la 'page du Code' pictogramme doit montrer visuellement un document fiscal identifié (mention 'CGI') pour éviter un pictogramme générique qui ne précise pas le texte cité.",
+        "Pour beat 6, le pictogramme combinant pourcentage, article 1728 et document signé risque d'être surchargé : proposer de séparer en deux visuels successifs ou un visuel clair montrant le pourcentage et un bandeau distinct indiquant 'article 1728'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est accessible, mais un non-spécialiste pourrait confondre délai de dépôt et délai de paiement — la fiche affirme que c'est le dépôt ET le paiement ; il faudrait une phrase très claire: «Le délai concerne à la fois le dépôt de la déclaration et le paiement des droits.»",
+        "Ajouter la mention courte «la dispense n'est possible que dans des cas précis de faible actif» (rappel de l'erreur fréquente) aiderait la compréhension sans alourdir le script."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont percutantes. Pour optimiser la rétention, remplacer «Vous héritez et les démarches s'allongent ?» par une formulation plus urgente: «Hérité récemment ? Attention au délai de déclaration !» améliorerait l'accroche.",
+        "Le script pourrait raccourcir légèrement l'exemple chiffré oral pour rester dans la fenêtre 38–42s si l'intonation est lente."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé. Pour renforcer la confiance professionnelle, ajouter une mention très courte en voix off ou texte écran: «Sources : CGI art. 641, 1727, 1728 — BOFIP» pour que l'audience voie la traçabilité immédiatement.",
+        "Éviter toute impression commerciale trop pressante dans le CTA ; l'actuel est acceptable mais la formulation «Prenez rendez-vous via le lien dans ma bio» pourrait ajouter «(évaluation initiale payante/non payante)» selon la pratique réelle pour rester transparent."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 115,
+      "seconds": 42.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est respectée globalement, mais le script écrit «0,20 pourcent» (sans espace et sans signe %) alors que la fiche et les sources formalisent le taux comme «0,20 %». Correction typographique nécessaire pour stricte fidélité au chiffre et au format.",
+    "juridique_fiscal : Le script précise correctement les articles 641, 1727 et 1728 et la règle des 6/12 mois. Toutefois la phrase «Le taux mensuel est de 0,20 pourcent» devrait être reformulée en «Le taux mensuel est de 0,20 % (article 1727)» pour lier explicitement le chiffre à la source légale.",
+    "juridique_fiscal : La mention de l'exemple chiffré (succession 400 000 €, droits 50 000 €) est pédagogique mais frôle l'interprétation de conséquences financières spécifiques ; il faut rappeler explicitement que les montants donnés ne sont qu'illustratifs («exemple indicatif»).",
+    "completude : Le script couvre la règle, les sanctions et la solution (paiement fractionné/différé). Manque une mention brève que la dispense existe uniquement pour situations très limitées (la fiche signale l'erreur fréquente qui confond absence de droits et dispense) — une phrase très courte à ajouter renforcerait la complétude utile au non-spécialiste.",
+    "editorial : Accroche et progression sont bonnes. Pour la rétention, la seconde phrase «Avez-vous déposé la déclaration dans les six mois ?» doit être plus directe oralement («Avez‑vous déposé la déclaration dans les 6 mois suivant le décès ?») pour éviter l'ambiguïté sur le point de départ du délai.",
+    "formulation_professionnelle : Quelques formulations demandent une légère correction pour un français naturel et professionnel : remplacer «0,20 pourcent» par «0,20 %», et reformuler «Le paiement fractionné ou différé peut être demandé au dépôt avec garanties» en «Le paiement fractionné ou différé peut être demandé au moment du dépôt, sous réserve de garanties» pour précision et fluidité.",
+    "contre_verification_finale : Phrase par phrase la cohérence est bonne, mais l'appel à l'action «Prenez rendez-vous via le lien dans ma bio» doit être conforme aux réglementations publicitaires si le compte est professionnel : ajouter «(contenu pédagogique — rdv payant possible)» n'est pas requis mais utile. Autre point : vérifier la prononciation fluide de «majoration prévue à l'article 1728» en une seule respiration pour la durée indiquée.",
+    "coherence_pictogrammes : La correspondance visuel/texte est correcte globalement. Remarque: pour le beat 4 la 'page du Code' pictogramme doit montrer visuellement un document fiscal identifié (mention 'CGI') pour éviter un pictogramme générique qui ne précise pas le texte cité.",
+    "coherence_pictogrammes : Pour beat 6, le pictogramme combinant pourcentage, article 1728 et document signé risque d'être surchargé : proposer de séparer en deux visuels successifs ou un visuel clair montrant le pourcentage et un bandeau distinct indiquant 'article 1728'.",
+    "pedagogie_client : Le contenu est accessible, mais un non-spécialiste pourrait confondre délai de dépôt et délai de paiement — la fiche affirme que c'est le dépôt ET le paiement ; il faudrait une phrase très claire: «Le délai concerne à la fois le dépôt de la déclaration et le paiement des droits.»",
+    "pedagogie_client : Ajouter la mention courte «la dispense n'est possible que dans des cas précis de faible actif» (rappel de l'erreur fréquente) aiderait la compréhension sans alourdir le script.",
+    "retention_attention : Les deux premières secondes sont percutantes. Pour optimiser la rétention, remplacer «Vous héritez et les démarches s'allongent ?» par une formulation plus urgente: «Hérité récemment ? Attention au délai de déclaration !» améliorerait l'accroche.",
+    "retention_attention : Le script pourrait raccourcir légèrement l'exemple chiffré oral pour rester dans la fenêtre 38–42s si l'intonation est lente.",
+    "conversion_confiance : Ton sérieux et sourcé. Pour renforcer la confiance professionnelle, ajouter une mention très courte en voix off ou texte écran: «Sources : CGI art. 641, 1727, 1728 — BOFIP» pour que l'audience voie la traçabilité immédiatement.",
+    "conversion_confiance : Éviter toute impression commerciale trop pressante dans le CTA ; l'actuel est acceptable mais la formulation «Prenez rendez-vous via le lien dans ma bio» pourrait ajouter «(évaluation initiale payante/non payante)» selon la pratique réelle pour rester transparent."
+  ],
+  "recommendations": [
+    "Corriger la typographie et la formulation du taux : écrire «0,20 %» et, idéalement, préciser «(article 1727)» immédiatement après le chiffre.",
+    "Ajouter très brièvement dans le script : «Le délai concerne à la fois le dépôt de la déclaration et le paiement des droits» pour lever toute ambiguïté.",
+    "Préciser que l'exemple chiffré est indicatif : remplacer «Exemple : succession 400000 euros...» par «Exemple indicatif : succession 400 000 €...».",
+    "Adapter les pictogrammes demandés : pour le visuel du Code montrer un document identifié 'CGI', et alléger le visuel du beat 6 en séparant pourcentage et référence à l'article 1728.",
+    "Raffiner l'accroche pour la rétention (optionnel) : «Hérité récemment ? Attention au délai de déclaration !» et vérifier que la narration tient bien dans 38–42 secondes en test de lecture.",
+    "Ajouter en texte-écran visible la mention courte des sources (CGI art. 641, 1727, 1728 — BOFIP) pour renforcer la traçabilité et la confiance.",
+    "Réviser l'appel à l'action pour transparence commerciale si applicable : indiquer succinctement si le rendez-vous est payant ou gratuit selon la pratique du compte."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-13:reels:succession_delais_declaration:1",
+  "script_path": "scripts/succession/succession_delais_declaration__reels__a3__v3.md"
+}

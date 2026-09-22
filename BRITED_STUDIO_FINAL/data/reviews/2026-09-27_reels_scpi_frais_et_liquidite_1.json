@@ -1,0 +1,180 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script se revendique fidèle aux faits et aux sources citées, mais la conversion chiffrée donnée dans l'exemple (« distribution 5 % → ~2,6 % net pour une TMI de 30 % ») ne correspond pas au calcul attendu à partir des règles indiquées (impôt au barème + 17,2 % de prélèvements sociaux). Avec 5 % brut, la post-PS et impôt pour une TMI 30 % donne environ 2,90 % (5 % × (1 - 0,172) × (1 - 0,30) ≈ 2,90 %), et non ~2,6 %.",
+        "La fiche indique que les frais de souscription usuels sont de 8 à 12 % mais la donnée est marquée 'à vérifier' ; le script présente cette fourchette comme un fait sans rappel explicite qu'il faut vérifier la note d'information de la SCPI concernée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script précise que les revenus sont des revenus fonciers imposés au barème et soumis à 17,2 % de prélèvements sociaux, ce qui est correct, mais l'exemple chiffré contient l'écart de calcul signalé ci-dessus.",
+        "Il manque une mention explicite que le taux de distribution est brut et non garanti (la fiche l'indique mais le script n'insiste pas suffisamment pour éviter une lecture comme un rendement assuré)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale, la condition (revente pour récupérer les frais) et une nuance sur la liquidité, mais omet d'indiquer clairement que la valeur des parts peut baisser (la liste 'a_ne_pas_dire' demandait de ne pas présenter le capital comme garanti ; toutefois, il faut rappeler la possibilité de perte en capital pour être complet).",
+        "L'exemple numérique est utile mais erroné (voir calcul)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression globalement bonnes, mais la formulation du CTA ('Prenez rendez-vous via le lien dans ma bio') est commerciale ; il conviendrait d'ajouter la légende déjà prévue ('Contenu pédagogique général. Ne constitue ni un conseil personnalisé...') directement liée au CTA pour rester conforme à la consigne de neutralité.",
+        "La phrase 'Non.' en beat 3 est très brute — acceptable en reels mais pourrait créer une rupture trop sèche ; proposer une variante légèrement plus explicative (ex. « Non — pas rapidement »)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention de non-conseil dans la légende, ce qui est bon. Cependant, le CTA proposant un rendez-vous peut être perçu comme un conseil commercial : il faut veiller à ne pas promettre d'aide personnalisée gratuite ou de rendement futur.",
+        "Il manque l'avertissement explicite que le taux de distribution est brut et non garanti au moment du chiffre donné, pour éviter toute interprétation trompeuse."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement bien formulé en français naturel. Quelques formulations pourraient être affinées : 'avec 10 % de frais, compter plusieurs années' → préciser 'plusieurs années pour amortir ces frais' ; 'revente dépend d'un acheteur' → 'la revente nécessite l'existence d'un acheteur sur le marché secondaire'.",
+        "Comme déjà noté, l'exemple chiffré doit être corrigé."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Seconde lecture détecte incohérence chiffrée majeure (5 % → ~2,6 %).",
+        "La concordance mot à mot entre 'frais 8 à 12 %' (marquée à vérifier) et l'affichage dans la vidéo manque d'un indicateur de vérification (ex. astérisque ou 'typique, à vérifier sur la note d'information')."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement cohérents, mais le 'pictogramme alerte neutre' au hook peut prêter à confusion ; préférer un pictogramme indiquant 'question/attention' plutôt qu'une alerte anxiogène.",
+        "Le pictogramme 'silhouette avec point d'interrogation' pour la liquidité est acceptable, mais il faudrait éviter toute icône suggérant une garantie (ex. cadenas/verrou) qui serait contradictoire avec le message."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo vise un non-spécialiste et explique la règle centrale ; toutefois, le calcul doit être explicité pas-à-pas ou présenté comme un 'exemple simplifié' pour éviter confusion. Il manque aussi une phrase très brève expliquant ce que sont les frais de souscription (frais à l'entrée prélevés sur le montant investi)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et sobre, mais l'approximation chiffrée affaiblit la crédibilité. Le CTA est clair, mais pour inspirer confiance il faudrait rappeler la disponibilité d'une information objective (ex. 'vérifions ensemble la note d'information de la SCPI') et maintenir la mention non-conseil proche du CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script se revendique fidèle aux faits et aux sources citées, mais la conversion chiffrée donnée dans l'exemple (« distribution 5 % → ~2,6 % net pour une TMI de 30 % ») ne correspond pas au calcul attendu à partir des règles indiquées (impôt au barème + 17,2 % de prélèvements sociaux). Avec 5 % brut, la post-PS et impôt pour une TMI 30 % donne environ 2,90 % (5 % × (1 - 0,172) × (1 - 0,30) ≈ 2,90 %), et non ~2,6 %.",
+    "source : La fiche indique que les frais de souscription usuels sont de 8 à 12 % mais la donnée est marquée 'à vérifier' ; le script présente cette fourchette comme un fait sans rappel explicite qu'il faut vérifier la note d'information de la SCPI concernée.",
+    "juridique_fiscal : Le script précise que les revenus sont des revenus fonciers imposés au barème et soumis à 17,2 % de prélèvements sociaux, ce qui est correct, mais l'exemple chiffré contient l'écart de calcul signalé ci-dessus.",
+    "juridique_fiscal : Il manque une mention explicite que le taux de distribution est brut et non garanti (la fiche l'indique mais le script n'insiste pas suffisamment pour éviter une lecture comme un rendement assuré).",
+    "completude : Le script couvre la règle principale, la condition (revente pour récupérer les frais) et une nuance sur la liquidité, mais omet d'indiquer clairement que la valeur des parts peut baisser (la liste 'a_ne_pas_dire' demandait de ne pas présenter le capital comme garanti ; toutefois, il faut rappeler la possibilité de perte en capital pour être complet).",
+    "completude : L'exemple numérique est utile mais erroné (voir calcul).",
+    "editorial : Accroche et progression globalement bonnes, mais la formulation du CTA ('Prenez rendez-vous via le lien dans ma bio') est commerciale ; il conviendrait d'ajouter la légende déjà prévue ('Contenu pédagogique général. Ne constitue ni un conseil personnalisé...') directement liée au CTA pour rester conforme à la consigne de neutralité.",
+    "editorial : La phrase 'Non.' en beat 3 est très brute — acceptable en reels mais pourrait créer une rupture trop sèche ; proposer une variante légèrement plus explicative (ex. « Non — pas rapidement »).",
+    "securite : Le script contient la mention de non-conseil dans la légende, ce qui est bon. Cependant, le CTA proposant un rendez-vous peut être perçu comme un conseil commercial : il faut veiller à ne pas promettre d'aide personnalisée gratuite ou de rendement futur.",
+    "securite : Il manque l'avertissement explicite que le taux de distribution est brut et non garanti au moment du chiffre donné, pour éviter toute interprétation trompeuse.",
+    "formulation_professionnelle : Globalement bien formulé en français naturel. Quelques formulations pourraient être affinées : 'avec 10 % de frais, compter plusieurs années' → préciser 'plusieurs années pour amortir ces frais' ; 'revente dépend d'un acheteur' → 'la revente nécessite l'existence d'un acheteur sur le marché secondaire'.",
+    "formulation_professionnelle : Comme déjà noté, l'exemple chiffré doit être corrigé.",
+    "contre_verification_finale : Seconde lecture détecte incohérence chiffrée majeure (5 % → ~2,6 %).",
+    "contre_verification_finale : La concordance mot à mot entre 'frais 8 à 12 %' (marquée à vérifier) et l'affichage dans la vidéo manque d'un indicateur de vérification (ex. astérisque ou 'typique, à vérifier sur la note d'information').",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement cohérents, mais le 'pictogramme alerte neutre' au hook peut prêter à confusion ; préférer un pictogramme indiquant 'question/attention' plutôt qu'une alerte anxiogène.",
+    "coherence_pictogrammes : Le pictogramme 'silhouette avec point d'interrogation' pour la liquidité est acceptable, mais il faudrait éviter toute icône suggérant une garantie (ex. cadenas/verrou) qui serait contradictoire avec le message.",
+    "pedagogie_client : La vidéo vise un non-spécialiste et explique la règle centrale ; toutefois, le calcul doit être explicité pas-à-pas ou présenté comme un 'exemple simplifié' pour éviter confusion. Il manque aussi une phrase très brève expliquant ce que sont les frais de souscription (frais à l'entrée prélevés sur le montant investi).",
+    "conversion_confiance : Le ton est sérieux et sobre, mais l'approximation chiffrée affaiblit la crédibilité. Le CTA est clair, mais pour inspirer confiance il faudrait rappeler la disponibilité d'une information objective (ex. 'vérifions ensemble la note d'information de la SCPI') et maintenir la mention non-conseil proche du CTA."
+  ],
+  "recommendations": [
+    "Corriger l'exemple chiffré : recalculer correctement l'effet de la TMI 30 % et des prélèvements sociaux. Exemple correct : 5 % brut × (1 - 0,172) × (1 - 0,30) ≈ 2,90 % net (arrondir et préciser méthode).",
+    "Ajouter une mention visible dans la vidéo (ou au minimum en texte écran) que le taux de distribution est brut et non garanti, et que l'exemple est indicatif et simplifié.",
+    "Préciser que la fourchette 'Frais 8 à 12 %' est un ordre de grandeur et qu'il faut vérifier la note d'information de la SCPI visée (insérer formule courte sur l'écran : 'Vérifiez la note d'information de la SCPI').",
+    "Rappeler brièvement, en une phrase, ce que sont les frais de souscription (prélevés à l'entrée sur le montant investi) pour un non-spécialiste.",
+    "Adoucir la réplique 'Non.' en beat 3 pour garder engagement tout en restant percutant (ex. 'Non — pas rapidement.').",
+    "Placer la mention de non-conseil/absence de recommandation immédiatement visible avec le CTA pour réduire tout risque d'interprétation commerciale.",
+    "Remplacer le 'pictogramme alerte neutre' par un pictogramme 'question' ou 'attention pédagogique', et éviter toute icône évoquant une garantie lors des séquences sur la liquidité.",
+    "Sur la page descriptive ou légende, conserver les sources légales et AMF, et ajouter la mention que les frais indiqués sont 'typiques mais variables selon la SCPI — consultez la note d'information'."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-27:reels:scpi_frais_et_liquidite:1",
+  "script_path": "scripts/scpi/scpi_frais_et_liquidite__reels__a1__v7.md"
+}

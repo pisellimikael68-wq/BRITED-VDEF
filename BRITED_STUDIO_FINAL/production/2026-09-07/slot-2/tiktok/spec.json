@@ -1,0 +1,191 @@
+{
+  "publication_id": "2026-09-07:tiktok:fiscalite_controle_fiscal:1",
+  "platform": "tiktok",
+  "concept_id": "fiscalite_controle_fiscal",
+  "title": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+  "header": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+  "serie": "fiscalite",
+  "narration": "Vous jetez vos justificatifs au bout de trois ans ? Non — selon le cas, l’administration peut reprendre pendant 3, 6 ou 10 ans. Pour l’impôt sur le revenu : la reprise court jusqu’au 31/12 de la 3e année suivant l’année d’imposition. Pour les droits d’enregistrement : 3 ans si la situation ressort d’une déclaration, mais 6 ans lorsque aucune déclaration n’a été déposée. Pour les avoirs détenus à l’étranger non déclarés, le délai est porté à 10 ans. Imaginez que vous percevez un revenu en 2023 et que vous le déclarez en 2024 : il reste contrôlable jusqu’au 31/12/2026. Mais attention : le délai s’allonge en cas d’absence de déclaration ou de fraude. Une erreur de bonne foi n’allonge pas le délai. La prescription constate le temps écoulé, elle ne valide rien rétroactivement. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "narration": "Vous jetez vos justificatifs au bout de trois ans ?",
+      "visual": "Mikael face caméra, regard direct, expression interrogative",
+      "screen_text": "Vous jetez vos justificatifs au bout de 3 ans ?"
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non — selon le cas, l’administration peut reprendre pendant 3, 6 ou 10 ans.",
+      "visual": "Chiffres 3 · 6 · 10 autour de Mikael",
+      "screen_text": "3 ans · 6 ans · 10 ans"
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Pour l’impôt sur le revenu : la reprise court jusqu’au 31/12 de la 3e année suivant l’année d’imposition.",
+      "visual": "Timeline simple : année d’imposition → 31/12 +3",
+      "screen_text": "IR =< 3 ans (31/12)"
+    },
+    {
+      "id": "regle_suite",
+      "label": "Règle (suite)",
+      "narration": "Pour les droits d’enregistrement : 3 ans si la situation ressort d’une déclaration, mais 6 ans lorsque aucune déclaration n’a été déposée.",
+      "visual": "Icônes : document déclaré / document absent",
+      "screen_text": "Enregistrement =< 3 ans si déclaré · =< 6 ans si pas de déclaration"
+    },
+    {
+      "id": "regle_suite",
+      "label": "Règle (suite)",
+      "narration": "Pour les avoirs détenus à l’étranger non déclarés, le délai est porté à 10 ans.",
+      "visual": "Icône : globe + coffre",
+      "screen_text": "Étranger non déclaré =< 10 ans"
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Imaginez que vous percevez un revenu en 2023 et que vous le déclarez en 2024 : il reste contrôlable jusqu’au 31/12/2026.",
+      "visual": "Calendrier 2023 → 2024 → 31/12/2026 mis en évidence",
+      "screen_text": "Revenu 2023 → contrôlable jusqu’au 31/12/2026"
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "Mais attention : le délai s’allonge en cas d’absence de déclaration ou de fraude. Une erreur de bonne foi n’allonge pas le délai. La prescription constate le temps écoulé, elle ne valide rien rétroactivement.",
+      "visual": "Mikael ton posé, geste de mise en garde",
+      "screen_text": "Absence de déclaration ou fraude = délai allongé · Erreur de bonne foi ≠ allongement"
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael souriant, léger hochement de tête",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "narration": "Vous jetez vos justificatifs au bout de trois ans ?",
+      "visual": "Mikael face caméra, regard direct, expression interrogative",
+      "screen_text": "Vous jetez vos justificatifs au bout de 3 ans ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non — selon le cas, l’administration peut reprendre pendant 3, 6 ou 10 ans.",
+      "visual": "Chiffres 3 · 6 · 10 autour de Mikael",
+      "screen_text": "3 ans · 6 ans · 10 ans",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Pour l’impôt sur le revenu : la reprise court jusqu’au 31/12 de la 3e année suivant l’année d’imposition.",
+      "visual": "Timeline simple : année d’imposition → 31/12 +3",
+      "screen_text": "IR =< 3 ans (31/12)",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 41
+    },
+    {
+      "id": "regle_suite",
+      "label": "Règle (suite)",
+      "narration": "Pour les droits d’enregistrement : 3 ans si la situation ressort d’une déclaration, mais 6 ans lorsque aucune déclaration n’a été déposée.",
+      "visual": "Icônes : document déclaré / document absent",
+      "screen_text": "Enregistrement =< 3 ans si déclaré · =< 6 ans si pas de déclaration",
+      "source_beat_id": "regle_suite",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 39
+    },
+    {
+      "id": "regle_suite",
+      "label": "Règle (suite)",
+      "narration": "Pour les avoirs détenus à l’étranger non déclarés, le délai est porté à 10 ans.",
+      "visual": "Icône : globe + coffre",
+      "screen_text": "Étranger non déclaré =< 10 ans",
+      "source_beat_id": "regle_suite",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 42
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Imaginez que vous percevez un revenu en 2023 et que vous le déclarez en 2024 : il reste contrôlable jusqu’au 31/12/2026.",
+      "visual": "Calendrier 2023 → 2024 → 31/12/2026 mis en évidence",
+      "screen_text": "Revenu 2023 → contrôlable jusqu’au 31/12/2026",
+      "source_beat_id": "exemple",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 39
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "Mais attention : le délai s’allonge en cas d’absence de déclaration ou de fraude. Une erreur de bonne foi n’allonge pas le délai. La prescription constate le temps écoulé, elle ne valide rien rétroactivement.",
+      "visual": "Mikael ton posé, geste de mise en garde",
+      "screen_text": "Absence de déclaration ou fraude = délai allongé · Erreur de bonne foi ≠ allongement",
+      "source_beat_id": "nuance",
+      "source_beat_index": 6,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 33
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael souriant, léger hochement de tête",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 7,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "fc621f3ccd9777633293a0347a54bbc5abff0f15881865fa5394351c826d9ca8",
+    "adapted_hash": "fc621f3ccd9777633293a0347a54bbc5abff0f15881865fa5394351c826d9ca8",
+    "source_beats": 8,
+    "adapted_pages": 8,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 33,
+    "cta_normalized": false,
+    "warnings": [
+      "Densité élevée : police proche du minimum de sécurité"
+    ]
+  },
+  "answer_design": "adaptive_sections_v2",
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

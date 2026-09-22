@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.69,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la vérité centrale (meublé = BIC, micro-BIC plus favorable en micro) mais il utilise un exemple chiffré 'sur 10 000 euros' sans afficher ni rappeler les taux ni préciser que ces taux varient selon la catégorie du meublé. Cela peut laisser l'audience penser qu'il y a un chiffre unique et stable.",
+        "La fiche SOURCE interdit d'énoncer les taux des meublés de tourisme sans vérification ; ici le script évite un taux précis, ce qui est conforme, mais l'exemple chiffré devrait être accompagné d'une mention audible très courte rappelant 'taux à vérifier selon la catégorie' pour rester strictement fidèle."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script énonce correctement que les loyers meublés relèvent des BIC et que le régime réel permet d'amortir, mais il n'indique pas l'obligation possible d'immatriculation de l'activité (statut LMNP) ou les obligations déclaratives mentionnées dans la SOURCE, ce qui constitue une omission juridique utile et potentiellement importante pour un non-spécialiste.",
+        "La ligne 'En micro, le micro-BIC applique un abattement forfaitaire plus favorable que le micro-foncier' est vraie pour le 'meublé classique' mais la précision indispensable sur la distinction 'meublé classique vs meublé de tourisme' est présente ailleurs ; toutefois il faut ajouter explicitement que les règles et seuils varient et doivent être vérifiés (oralement) pour éviter toute interprétation juridique incomplète."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (plafond et catégorie) et l'exception (réel/amortissement), mais omet de mentionner : 1) l'existence d'une immatriculation/obligation déclarative pour l'activité de location meublée, 2) l'impact possible sur la plus-value (réintégration partielle d'amortissements selon évolutions récentes) — points présentés comme 'a ne pas dire' dans la fiche.",
+        "L'exemple 'sur 10 000 euros' reste trop vague pour être réellement comparatif et n'aide pas suffisamment à évaluer quand le réel devient plus intéressant."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le storyboard respecte la durée et l'ordre des séquences d'un Reels et prévoit des visuels et textes d'écran adaptés, mais la durée estimée (40 s) peut être serrée si l'on ajoute la recommandation orale supplémentaire 'vérifier la catégorie et les seuils' — il faut prévoir une formulation très concise pour rester dans le timing.",
+        "Le hook fonctionne mais les deux premières secondes doivent impérativement comporter un visuel fort ; la description actuelle ('intérieur... valise') est correcte mais pourrait être précisée pour assurer une entrée visuelle immédiate (p.ex. gros plan sur 'À louer : meublé ou vide ?')."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est clair et suit une progression logique, mais la phrase 'En micro, le micro-BIC applique un abattement forfaitaire plus favorable que le micro-foncier' pourrait être reformulée pour être plus directe et plus simple à l'oral (p.ex. 'En micro, le meublé bénéficie d'un abattement plus important que le logement vide').",
+        "La narration continue reprend mot à mot les blocs et peut sembler un peu dense pour la voix-off : certaines phrases devront être resserrées pour être naturellement prononçables en 40 s."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et la mention en légende indique que ce n'est pas un conseil personnalisé, ce qui est positif. Toutefois, le script appelle à 'prendre rendez-vous via le lien dans ma bio' — il conviendrait d'éviter toute formulation qui pourrait être perçue comme conseil personnalisé dans la vidéo elle-même et de conserver la mention de non-responsabilité dans la légende/visuel, pour rester conforme au critère 'pas de conseil personnalisé' dans la vidéo.",
+        "Il manque l'alerte brève sur obligations déclaratives (immatriculation) qui est un élément de sécurité fiscale à rappeler pour éviter que des créateurs négligent cette étape."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais certaines formulations sont lourdes à l'oral ('Les loyers meublés relèvent des bénéfices industriels et commerciaux — BIC'). Une version plus courte et parlée serait préférable ('Les loyers meublés sont imposés au titre des BIC').",
+        "Le script devra être relu et ajusté pour le débit oral afin d'éviter des liaisons ou syllabes coupées dans une lecture synchronisée avec les visuels."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script contient une cohérence générale mais la 'seconde lecture indépendante' révélerait plusieurs petites incohérences de précision : l'exemple chiffré sans taux, l'absence de rappel de l'immatriculation et l'absence d'instruction claire sur où vérifier les plafonds (libellé 'plafond à vérifier' sans renvoi vers la source dans la légende explicite).",
+        "La question-réponse 'Le statut meublé change-t-il la fiscalité ? OUI / NON' est bien pour la rétention, mais la phrase suivante devrait expliciter très brièvement pourquoi (BIC vs revenus fonciers) pour être irréfutable au mot près."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement cohérents, mais 'Dossier fiscal marqué BIC' doit clairement différencier de 'revenus fonciers' (p.ex. icône de feuille de revenu foncier barrée) pour éviter toute ambiguïté visuelle.",
+        "Le pictogramme 'amortissement' doit représenter clairement une dépréciation comptable (p.ex. livre de compte + flèche) et non un symbole financier générique qui pourrait prêter à confusion."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo reste concentrée sur un seul angle (fiscalité différente entre meublé et vide) mais manque d'une donnée actionnable précise : soit un chiffrage indicatif (avec réserve) soit une phrase explicite sur l'immatriculation et le choix micro vs réel à tester via simulation.",
+        "L'exemple '10 000 €' ne donne pas de valeurs d'abattement effectives et nuit à la densité utile pour une décision rapide."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, le concept d'amortissement peut rester abstrait ; une phrase très courte ('amortir = déduire une partie de la valeur chaque année') devrait être intégrée pour améliorer la compréhension immédiate.",
+        "Le rappel des obligations déclaratives (immatriculation) est absent et pourrait surprendre un utilisateur novice après la vidéo."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes ont un hook acceptable mais perfectible : un texte-accroche plus direct et visuel (p.ex. 'Meublé ou vide : 1 décision, 2 fiscaux') renforcerait la rétention initiale.",
+        "La progression est logique mais risque de perdre de l'attention si le texte à l'écran reste trop verbeux lors de l'explication sur le réel/amortissement."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et la CTA (rendez-vous) est adaptée, mais le message gagnerait à inclure un micro-élément de preuve sociale ou de légitimité (p.ex. 'Vérification basée sur CGI & BOFiP' court dans la légende) pour augmenter la confiance.",
+        "Il faut éviter toute impression de promesse (p.ex. éviter formulations comme 'souvent plus avantageux' sans préciser 'selon votre situation') ; la phrase actuelle est acceptable mais peut être clarifiée pour réduire la perception de sur-généralisation."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte la vérité centrale (meublé = BIC, micro-BIC plus favorable en micro) mais il utilise un exemple chiffré 'sur 10 000 euros' sans afficher ni rappeler les taux ni préciser que ces taux varient selon la catégorie du meublé. Cela peut laisser l'audience penser qu'il y a un chiffre unique et stable.",
+    "source : La fiche SOURCE interdit d'énoncer les taux des meublés de tourisme sans vérification ; ici le script évite un taux précis, ce qui est conforme, mais l'exemple chiffré devrait être accompagné d'une mention audible très courte rappelant 'taux à vérifier selon la catégorie' pour rester strictement fidèle.",
+    "juridique_fiscal : Le script énonce correctement que les loyers meublés relèvent des BIC et que le régime réel permet d'amortir, mais il n'indique pas l'obligation possible d'immatriculation de l'activité (statut LMNP) ou les obligations déclaratives mentionnées dans la SOURCE, ce qui constitue une omission juridique utile et potentiellement importante pour un non-spécialiste.",
+    "juridique_fiscal : La ligne 'En micro, le micro-BIC applique un abattement forfaitaire plus favorable que le micro-foncier' est vraie pour le 'meublé classique' mais la précision indispensable sur la distinction 'meublé classique vs meublé de tourisme' est présente ailleurs ; toutefois il faut ajouter explicitement que les règles et seuils varient et doivent être vérifiés (oralement) pour éviter toute interprétation juridique incomplète.",
+    "completude : Le script couvre la règle centrale, la condition (plafond et catégorie) et l'exception (réel/amortissement), mais omet de mentionner : 1) l'existence d'une immatriculation/obligation déclarative pour l'activité de location meublée, 2) l'impact possible sur la plus-value (réintégration partielle d'amortissements selon évolutions récentes) — points présentés comme 'a ne pas dire' dans la fiche.",
+    "completude : L'exemple 'sur 10 000 euros' reste trop vague pour être réellement comparatif et n'aide pas suffisamment à évaluer quand le réel devient plus intéressant.",
+    "plateforme : Le storyboard respecte la durée et l'ordre des séquences d'un Reels et prévoit des visuels et textes d'écran adaptés, mais la durée estimée (40 s) peut être serrée si l'on ajoute la recommandation orale supplémentaire 'vérifier la catégorie et les seuils' — il faut prévoir une formulation très concise pour rester dans le timing.",
+    "plateforme : Le hook fonctionne mais les deux premières secondes doivent impérativement comporter un visuel fort ; la description actuelle ('intérieur... valise') est correcte mais pourrait être précisée pour assurer une entrée visuelle immédiate (p.ex. gros plan sur 'À louer : meublé ou vide ?').",
+    "editorial : Le script est clair et suit une progression logique, mais la phrase 'En micro, le micro-BIC applique un abattement forfaitaire plus favorable que le micro-foncier' pourrait être reformulée pour être plus directe et plus simple à l'oral (p.ex. 'En micro, le meublé bénéficie d'un abattement plus important que le logement vide').",
+    "editorial : La narration continue reprend mot à mot les blocs et peut sembler un peu dense pour la voix-off : certaines phrases devront être resserrées pour être naturellement prononçables en 40 s.",
+    "securite : Le contenu est pédagogique et la mention en légende indique que ce n'est pas un conseil personnalisé, ce qui est positif. Toutefois, le script appelle à 'prendre rendez-vous via le lien dans ma bio' — il conviendrait d'éviter toute formulation qui pourrait être perçue comme conseil personnalisé dans la vidéo elle-même et de conserver la mention de non-responsabilité dans la légende/visuel, pour rester conforme au critère 'pas de conseil personnalisé' dans la vidéo.",
+    "securite : Il manque l'alerte brève sur obligations déclaratives (immatriculation) qui est un élément de sécurité fiscale à rappeler pour éviter que des créateurs négligent cette étape.",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais certaines formulations sont lourdes à l'oral ('Les loyers meublés relèvent des bénéfices industriels et commerciaux — BIC'). Une version plus courte et parlée serait préférable ('Les loyers meublés sont imposés au titre des BIC').",
+    "formulation_professionnelle : Le script devra être relu et ajusté pour le débit oral afin d'éviter des liaisons ou syllabes coupées dans une lecture synchronisée avec les visuels.",
+    "contre_verification_finale : Le script contient une cohérence générale mais la 'seconde lecture indépendante' révélerait plusieurs petites incohérences de précision : l'exemple chiffré sans taux, l'absence de rappel de l'immatriculation et l'absence d'instruction claire sur où vérifier les plafonds (libellé 'plafond à vérifier' sans renvoi vers la source dans la légende explicite).",
+    "contre_verification_finale : La question-réponse 'Le statut meublé change-t-il la fiscalité ? OUI / NON' est bien pour la rétention, mais la phrase suivante devrait expliciter très brièvement pourquoi (BIC vs revenus fonciers) pour être irréfutable au mot près.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement cohérents, mais 'Dossier fiscal marqué BIC' doit clairement différencier de 'revenus fonciers' (p.ex. icône de feuille de revenu foncier barrée) pour éviter toute ambiguïté visuelle.",
+    "coherence_pictogrammes : Le pictogramme 'amortissement' doit représenter clairement une dépréciation comptable (p.ex. livre de compte + flèche) et non un symbole financier générique qui pourrait prêter à confusion.",
+    "densite_editoriale : La vidéo reste concentrée sur un seul angle (fiscalité différente entre meublé et vide) mais manque d'une donnée actionnable précise : soit un chiffrage indicatif (avec réserve) soit une phrase explicite sur l'immatriculation et le choix micro vs réel à tester via simulation.",
+    "densite_editoriale : L'exemple '10 000 €' ne donne pas de valeurs d'abattement effectives et nuit à la densité utile pour une décision rapide.",
+    "pedagogie_client : Pour un non-spécialiste, le concept d'amortissement peut rester abstrait ; une phrase très courte ('amortir = déduire une partie de la valeur chaque année') devrait être intégrée pour améliorer la compréhension immédiate.",
+    "pedagogie_client : Le rappel des obligations déclaratives (immatriculation) est absent et pourrait surprendre un utilisateur novice après la vidéo.",
+    "retention_attention : Les deux premières secondes ont un hook acceptable mais perfectible : un texte-accroche plus direct et visuel (p.ex. 'Meublé ou vide : 1 décision, 2 fiscaux') renforcerait la rétention initiale.",
+    "retention_attention : La progression est logique mais risque de perdre de l'attention si le texte à l'écran reste trop verbeux lors de l'explication sur le réel/amortissement.",
+    "conversion_confiance : Le ton est professionnel et la CTA (rendez-vous) est adaptée, mais le message gagnerait à inclure un micro-élément de preuve sociale ou de légitimité (p.ex. 'Vérification basée sur CGI & BOFiP' court dans la légende) pour augmenter la confiance.",
+    "conversion_confiance : Il faut éviter toute impression de promesse (p.ex. éviter formulations comme 'souvent plus avantageux' sans préciser 'selon votre situation') ; la phrase actuelle est acceptable mais peut être clarifiée pour réduire la perception de sur-généralisation."
+  ],
+  "recommendations": [
+    "Oralement, ajouter une phrase très brève (3–4 secondes) dans le segment 'nuance' : 'Les taux et plafonds varient selon la catégorie du meublé, vérifiez la règle en vigueur avant de conclure.' Cela corrige la source et la sécurité.",
+    "Dans la vidéo et la légende, rappeler l'obligation possible d'immatriculation de l'activité de location meublée (une ligne courte : 'Pensez à l'immatriculation/obligations déclaratives').",
+    "Reformuler la phrase clé pour l'oral afin de la rendre plus naturelle et plus courte : par exemple remplacer 'Les loyers meublés relèvent des bénéfices industriels et commerciaux — BIC.' par 'Les loyers meublés sont imposés au titre des BIC (pas des revenus fonciers).'",
+    "Soigner l'exemple '10 000 €' : soit retirer le montant et garder l comparaison qualitative, soit préciser immédiatement 'exemple indicatif — taux à vérifier selon la catégorie' pour éviter toute lecture erronée.",
+    "Adapter les pictogrammes pour qu'ils illustrent explicitement la différence (BIC vs revenus fonciers), l'amortissement de façon non-ambiguë et un symbole clair pour 'plafond/seuil'.",
+    "Raccourcir légèrement la narration continue pour garantir le timing de 40 s : viser des phrases de 5–7 mots au moment des titres/visuels, et prévoir une lecture chronométrée avant tournage.",
+    "Dans la légende, inclure les sources citées et la mention de non-conseil (déjà prévue). Ajouter une phrase courte de preuve ('Basé sur CGI art. 50-0 et BOFiP') pour renforcer la confiance.",
+    "Avant publication, réaliser une seconde relecture juridique ciblée pour décider s'il faut évoquer la réintégration des amortissements dans la plus-value (si applicable) et pour valider l'absence d'affirmation chiffrée sur les meublés de tourisme."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-02:reels:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__reels__a3__v7.md"
+}

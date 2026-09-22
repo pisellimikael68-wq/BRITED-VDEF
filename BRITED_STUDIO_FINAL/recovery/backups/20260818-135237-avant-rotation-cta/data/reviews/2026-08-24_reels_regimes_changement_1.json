@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 99,
+      "seconds": 36.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 99,
+        "seconds": 36.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "f57bb17765c837141b500d9868e37de1430d3b432caabb65d5c336cd4a713d84",
+      "adapted_hash": "f57bb17765c837141b500d9868e37de1430d3b432caabb65d5c336cd4a713d84",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 40,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Éventuellement remplacer la réponse brute « Oui, en principe » du beat 3 par « Oui, en principe, par acte notarié » (le script contient déjà cette formulation à la narration) pour éviter toute impression d'absence de condition avant la nuance en beat 6.",
+    "Conserver la mention explicite d'éventuelle saisine judiciaire si opposition (présente dans la légende) dans le texte écran ou la voix pour renforcer la chaîne causale lorsque le délai de 3 mois est évoqué."
+  ],
+  "reviewed_at": "2026-08-17T17:23:30",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-24:reels:regimes_changement:1",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_changement__reels__a1.md"
+}

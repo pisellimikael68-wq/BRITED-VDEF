@@ -1,0 +1,221 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.69,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Incohérence interne dans la fiche source BRITED : le résumé indique que le taux marginal atteint 45 % au-delà de 552 324 € par enfant, alors que la rubrique 'chiffres' indique un 'Seuil d'entrée dans la tranche à 45 %' à 1 805 677 € (par part taxable après abattement). Il faut corriger et unifier la valeur référente.",
+        "Le script respecte globalement les éléments clés (abattement 100 000 € par parent, barème 5 %–45 %, exonération conjoint/PACS, intégration des donations < 15 ans), mais la fiche source demande fidélité stricte mot à mot aux chiffres et aux formulations — l'incohérence citée empêche une validation stricte."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les affirmations principales du script sont exactes et bien sourcées (CGI art. 777 et 779 I, BOFIP).",
+        "Manque une précision utile et exigée par la fiche : rappeler que l'abattement est 'par parent et par enfant' (le script dit '100 000 € par parent, soit 200 000 € si deux parents' — correct — mais il convient d'ajouter explicitement « par enfant » pour lever toute ambiguïté pour un non‑spécialiste).",
+        "La fiche source signale que le concubin est traité comme un tiers et que le taux le plus défavorable s'applique ; le script ne mentionne pas explicitement le traitement du concubin (le script évoque uniquement le conjoint/PACS exonérés), il faut ajouter cette nuance."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception importante (conjoint/PACS) et un exemple comparatif. Toutefois :",
+        "- Il n'indique pas explicitement la durée d'imputation des donations (15 ans est mentionné mais sans préciser l'effet exact : elles 'consomment l'abattement' — utile d'ajouter brièvement qu'elles réduisent l'abattement disponible et peuvent être réintégrées).",
+        "- L'exemple chiffré (600 000 € pour un enfant) est évoqué sans quantification de l'impôt réellement payé ; un chiffre indicatif simple (ex. part taxable après abattement et tranche majoritaire) améliorerait la compréhension sans devenir personnalisé."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script suit l'ordre des séquences et le format Reels (hook, question, réponse, règle, exemple, nuance, CTA).",
+        "La durée estimée (38 s) paraît acceptable mais il faudrait vérifier qu'à l'oral la narration tient bien dans 38 secondes — la fiche exige respect du timing natif ; recommander une lecture chronométrée.",
+        "Visuels/pictogrammes proposés sont pertinents mais la consigne 'Deux cases OUI/NON' dans la séquence 2 pourrait nuire au rythme si mal exécutée (risque de ralentir l'accroche)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et accroche efficace. Toutefois :",
+        "- La ligne 'OUI ☐    NON ☐' risque d'être confusante à l'oral si elle n'est pas transformée en interaction claire (ex. voix : 'Vous vous demandez ? Oui ou non ?').",
+        "- La phrase 'Non : pas de taux unique.' est brève et percutante mais gagnerait en clarté avec 'Il n'y a pas de taux unique : le barème est progressif'."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention légale finale et évite les conseils personnalisés. L'appel au rendez-vous est acceptable.",
+        "Préciser dans la mention orale/écran que le contenu est 'pédagogique général et non un conseil personnalisé' est recommandé pour garantir la conformité et éviter toute interprétation de conseil spécifique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et adapté à l'audience. Quelques formulations courtes pourraient être clarifiées :",
+        "- 'Chaque enfant bénéficie d'un abattement de 100 000 € par parent, soit 200 000 € si deux parents' → ajouter 'par enfant' pour lever tout doute.",
+        "- 'Les donations des quinze dernières années consomment l'abattement' → préciser brièvement 'elles viennent réduire l'abattement restant et peuvent augmenter la part taxable'."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot : la cohérence question-réponse est bonne, mais il existe trois points à corriger avant publication :",
+        "1) Incohérence chiffrée interne à la fiche (voir agent 'source').",
+        "2) Omission du traitement du concubin (figure dans la fiche 'a_ne_pas_dire' et 'point de vigilance').",
+        "3) Petites imprécisions sur la formulation des donations (effet exact sur l'abattement)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés (famille, calculatrice, loi, cœur, calendrier) correspondent aux notions évoquées.",
+        "Attention : la consigne 'schéma : part → - 100 000 € par parent → barème 5 %–45 %' doit être visuellement lisible en quelques secondes ; prévoir un graphiste pour s'assurer que le pictogramme 'loi' illustre bien l'abattement (ex. icône 'abrégé article de loi' plutôt qu'un symbole générique)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite d'un seul angle et reste concise. Néanmoins :",
+        "- L'exemple pourrait inclure une micro-calculatrice (part taxable après abattement) pour renforcer la démonstration sans allonger la durée.",
+        "- Éviter d'introduire un second chiffre contradictoire (voir incohérence existante) pour préserver la densité et la clarté."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La pédagogie est globale, accessible à un non-spécialiste. Pour être plus immédiatement compréhensible :",
+        "- Remplacer 'part taxable' une fois par 'part imposable' ou expliquer brièvement le terme si utilisé.",
+        "- Ajouter une phrase très courte expliquant que le barème est 'par tranches' (pour éviter l'erreur fréquente associée aux taux marginaux)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est fort; le flux narratif conserve l'attention. Toutefois la séquence 'OUI ☐    NON ☐' peut ralentir les deux premières secondes si mal rendue à l'oral/visuel.",
+        "Recommander d'avoir la version finale lue à voix haute et chronométrée pour confirmer la fluidité dans les 38 secondes annoncées."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inspire sérieux et appelle au rendez-vous sans surpromesse. Pour renforcer la confiance :",
+        "- Ajouter brièvement en fin d'écran 'sources : CGI art. 777 et 779, BOFIP' (la légende l'indique, mais l'afficher à l'écran renforce la crédibilité).",
+        "- Veiller à ne pas laisser l'impression d'un conseil personnalisé dans l'appel au rendez-vous (garder la mention légale visible)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence interne dans la fiche source BRITED : le résumé indique que le taux marginal atteint 45 % au-delà de 552 324 € par enfant, alors que la rubrique 'chiffres' indique un 'Seuil d'entrée dans la tranche à 45 %' à 1 805 677 € (par part taxable après abattement). Il faut corriger et unifier la valeur référente.",
+    "source : Le script respecte globalement les éléments clés (abattement 100 000 € par parent, barème 5 %–45 %, exonération conjoint/PACS, intégration des donations < 15 ans), mais la fiche source demande fidélité stricte mot à mot aux chiffres et aux formulations — l'incohérence citée empêche une validation stricte.",
+    "juridique_fiscal : Les affirmations principales du script sont exactes et bien sourcées (CGI art. 777 et 779 I, BOFIP).",
+    "juridique_fiscal : Manque une précision utile et exigée par la fiche : rappeler que l'abattement est 'par parent et par enfant' (le script dit '100 000 € par parent, soit 200 000 € si deux parents' — correct — mais il convient d'ajouter explicitement « par enfant » pour lever toute ambiguïté pour un non‑spécialiste).",
+    "juridique_fiscal : La fiche source signale que le concubin est traité comme un tiers et que le taux le plus défavorable s'applique ; le script ne mentionne pas explicitement le traitement du concubin (le script évoque uniquement le conjoint/PACS exonérés), il faut ajouter cette nuance.",
+    "completude : Le script couvre la règle centrale, l'exception importante (conjoint/PACS) et un exemple comparatif. Toutefois :",
+    "completude : - Il n'indique pas explicitement la durée d'imputation des donations (15 ans est mentionné mais sans préciser l'effet exact : elles 'consomment l'abattement' — utile d'ajouter brièvement qu'elles réduisent l'abattement disponible et peuvent être réintégrées).",
+    "completude : - L'exemple chiffré (600 000 € pour un enfant) est évoqué sans quantification de l'impôt réellement payé ; un chiffre indicatif simple (ex. part taxable après abattement et tranche majoritaire) améliorerait la compréhension sans devenir personnalisé.",
+    "plateforme : Le script suit l'ordre des séquences et le format Reels (hook, question, réponse, règle, exemple, nuance, CTA).",
+    "plateforme : La durée estimée (38 s) paraît acceptable mais il faudrait vérifier qu'à l'oral la narration tient bien dans 38 secondes — la fiche exige respect du timing natif ; recommander une lecture chronométrée.",
+    "plateforme : Visuels/pictogrammes proposés sont pertinents mais la consigne 'Deux cases OUI/NON' dans la séquence 2 pourrait nuire au rythme si mal exécutée (risque de ralentir l'accroche).",
+    "editorial : Ton direct et accroche efficace. Toutefois :",
+    "editorial : - La ligne 'OUI ☐    NON ☐' risque d'être confusante à l'oral si elle n'est pas transformée en interaction claire (ex. voix : 'Vous vous demandez ? Oui ou non ?').",
+    "editorial : - La phrase 'Non : pas de taux unique.' est brève et percutante mais gagnerait en clarté avec 'Il n'y a pas de taux unique : le barème est progressif'.",
+    "securite : Le script inclut la mention légale finale et évite les conseils personnalisés. L'appel au rendez-vous est acceptable.",
+    "securite : Préciser dans la mention orale/écran que le contenu est 'pédagogique général et non un conseil personnalisé' est recommandé pour garantir la conformité et éviter toute interprétation de conseil spécifique.",
+    "formulation_professionnelle : Le français est naturel et adapté à l'audience. Quelques formulations courtes pourraient être clarifiées :",
+    "formulation_professionnelle : - 'Chaque enfant bénéficie d'un abattement de 100 000 € par parent, soit 200 000 € si deux parents' → ajouter 'par enfant' pour lever tout doute.",
+    "formulation_professionnelle : - 'Les donations des quinze dernières années consomment l'abattement' → préciser brièvement 'elles viennent réduire l'abattement restant et peuvent augmenter la part taxable'.",
+    "contre_verification_finale : En relecture mot à mot : la cohérence question-réponse est bonne, mais il existe trois points à corriger avant publication :",
+    "contre_verification_finale : 1) Incohérence chiffrée interne à la fiche (voir agent 'source').",
+    "contre_verification_finale : 2) Omission du traitement du concubin (figure dans la fiche 'a_ne_pas_dire' et 'point de vigilance').",
+    "contre_verification_finale : 3) Petites imprécisions sur la formulation des donations (effet exact sur l'abattement).",
+    "coherence_pictogrammes : Les pictogrammes proposés (famille, calculatrice, loi, cœur, calendrier) correspondent aux notions évoquées.",
+    "coherence_pictogrammes : Attention : la consigne 'schéma : part → - 100 000 € par parent → barème 5 %–45 %' doit être visuellement lisible en quelques secondes ; prévoir un graphiste pour s'assurer que le pictogramme 'loi' illustre bien l'abattement (ex. icône 'abrégé article de loi' plutôt qu'un symbole générique).",
+    "densite_editoriale : La vidéo traite d'un seul angle et reste concise. Néanmoins :",
+    "densite_editoriale : - L'exemple pourrait inclure une micro-calculatrice (part taxable après abattement) pour renforcer la démonstration sans allonger la durée.",
+    "densite_editoriale : - Éviter d'introduire un second chiffre contradictoire (voir incohérence existante) pour préserver la densité et la clarté.",
+    "pedagogie_client : La pédagogie est globale, accessible à un non-spécialiste. Pour être plus immédiatement compréhensible :",
+    "pedagogie_client : - Remplacer 'part taxable' une fois par 'part imposable' ou expliquer brièvement le terme si utilisé.",
+    "pedagogie_client : - Ajouter une phrase très courte expliquant que le barème est 'par tranches' (pour éviter l'erreur fréquente associée aux taux marginaux).",
+    "retention_attention : Le hook est fort; le flux narratif conserve l'attention. Toutefois la séquence 'OUI ☐    NON ☐' peut ralentir les deux premières secondes si mal rendue à l'oral/visuel.",
+    "retention_attention : Recommander d'avoir la version finale lue à voix haute et chronométrée pour confirmer la fluidité dans les 38 secondes annoncées.",
+    "conversion_confiance : Le script inspire sérieux et appelle au rendez-vous sans surpromesse. Pour renforcer la confiance :",
+    "conversion_confiance : - Ajouter brièvement en fin d'écran 'sources : CGI art. 777 et 779, BOFIP' (la légende l'indique, mais l'afficher à l'écran renforce la crédibilité).",
+    "conversion_confiance : - Veiller à ne pas laisser l'impression d'un conseil personnalisé dans l'appel au rendez-vous (garder la mention légale visible)."
+  ],
+  "recommendations": [
+    "Corriger l'incohérence chiffrée dans la fiche BRITED (résumé vs rubrique 'chiffres') : confirmer et uniformiser le seuil d'entrée dans la tranche à 45 % (valeur correcte conforme à l'article 777/BOFIP) puis mettre à jour le texte et les chiffres du script si nécessaire.",
+    "Ajouter explicitement la mention 'par enfant' dans la phrase sur l'abattement : 'Chaque enfant bénéficie d'un abattement de 100 000 € par parent (donc 200 000 € si les deux parents sont décédés), par enfant.'",
+    "Inclure la mention sur le traitement du concubin : ajouter une courte phrase du type 'Attention : le concubin est traité comme un tiers et ne bénéficie pas de l'exonération du conjoint/PACS.'",
+    "Préciser brièvement l'effet des donations des 15 dernières années : 'les donations consenties depuis moins de 15 ans sont réintégrées et consomment l'abattement, ce qui peut augmenter la part taxable.'",
+    "Amender la formulation du hook/question pour éviter la mise en forme littérale 'OUI ☐    NON ☐' à l'écran si elle gêne le rythme : prévoir une version orale claire ('Vous vous demandez ? Oui ? Non ?') et un visuel simplifié.",
+    "Afficher les sources à l'écran (ex. petit bandeau) lors de la conclusion pour renforcer la crédibilité : 'Sources : CGI art. 777 & 779 I, BOFIP'.",
+    "Faire une lecture à voix haute chronométrée de la narration finale et ajuster si nécessaire pour tenir dans 38 secondes (ou recalculer la durée estimée si la lecture dépasse).",
+    "Améliorer l'exemple chiffré en ajoutant une micro-calculation indicative (sans devenir un conseil personnalisé) : par exemple montrer la part taxable après abattement pour les cas 1 enfant vs 3 enfants, illustrant la baisse effective d'impôt.",
+    "S'assurer que les pictogrammes sont explicites et non décoratifs : par exemple utiliser une icône 'document loi' pour l'abattement et une icône 'alerte' pour le point sur les donations <15 ans.",
+    "Mettre à jour la légende/mention finale à l'écran pour préciser 'Contenu pédagogique général. Ne constitue ni conseil juridique, fiscal ou financier personnalisé.' (et s'assurer qu'elle reste lisible)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-28:reels:succession_bareme_droits:1",
+  "script_path": "scripts/succession/succession_bareme_droits__reels__a1__v7.md"
+}

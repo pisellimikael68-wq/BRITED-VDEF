@@ -1,0 +1,105 @@
+{
+  "voice": {
+    "version": 14,
+    "speed": 1.0,
+    "exaggeration": 0.28,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "min_p": 0.08,
+    "repetition_penalty": 1.45
+  },
+  "hook_voice": {
+    "version": 14,
+    "speed": 1.02,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.52,
+    "temperature": 0.22,
+    "top_p": 0.7,
+    "post_atempo": 1.0
+  },
+  "reference_sha256": "68c8fe4af7e0638f4ea139875af80f8ed7b3c6b6f99cf9ae93de1f537ae4f61a",
+  "voice_signature": "aa8be1d3c5cbf74e0682fbd5dce8cfa62589df1bf704f5129de26d3edbcf3579",
+  "audio_format_version": 14,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "c1f451b87ce3178790e8e033f72f4a9a5523900b8f9005fe00a3951bfdf75dc5",
+  "beat_hashes": {
+    "01_hook": "21e31dcc1d1d7895c8869c506ba089faccb2027e77abadf8c5fef48fbc23c5cf",
+    "02_question": "527cae7e842abb55a00eeabeac0a3621636eef7cbbb23eba485f26b01de8ffbc",
+    "03_reponse": "398b3d691bb125c75924cb9454c85edf42d60f2ad151e6bd4cf47f2457dde8fa",
+    "04_regle": "61fbe24fe42e9df6b28e158c117ee1f37e80a76868c6e97902ee83e43cf2d79c",
+    "05_exemple": "665e2e06fc55c5e68cd4944ef96852ad54be18561bb7ab431b10f3d1f71055a2",
+    "06_nuance": "671bd77c1dacae80decf53d657e2b765acadd6e11c862399b13434e119f6b0c9",
+    "07_cta": "6135ebebeee64cb12ff1bec820ab9a602d1fa4890ebfc162c0593d224492eb4f"
+  },
+  "spoken_texts": {
+    "01_hook": "Vous pensez qu'on ne peut pas changer de régime pendant le mariage ?",
+    "02_question": "Peut on changer de régime matrimonial ?",
+    "03_reponse": "Oui : par acte notarié, sans délai minimum ni homologation systématique.",
+    "04_regle": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer.",
+    "05_exemple": "Exemple : un chef d'entreprise passe de la communauté à la séparation de biens pour isoler le risque professionnel.",
+    "06_nuance": "Si des enfants sont mineurs, l'homologation judiciaire reste exigée ; la communauté universelle supprime la succession du premier parent et peut faire perdre l'abattement aux enfants.",
+    "07_cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.0,
+  "target_wpm": {
+    "hook": 190.0,
+    "question": 160.0,
+    "reponse": 158.0,
+    "regle": 174.0,
+    "precision": 168.0,
+    "exemple": 174.0,
+    "nuance": 165.0,
+    "cta": 184.0,
+    "default": 172.0
+  },
+  "atempo_bounds": [
+    0.82,
+    1.22
+  ],
+  "prosody": {
+    "hook": {
+      "speed": 1.02,
+      "exaggeration": 0.34,
+      "cfg_weight": 0.52
+    },
+    "question": {
+      "speed": 0.99,
+      "exaggeration": 0.3,
+      "cfg_weight": 0.53
+    },
+    "reponse": {
+      "speed": 1.08,
+      "exaggeration": 0.36,
+      "cfg_weight": 0.52
+    },
+    "regle": {
+      "speed": 1.01,
+      "exaggeration": 0.26,
+      "cfg_weight": 0.54
+    },
+    "precision": {
+      "speed": 0.99,
+      "exaggeration": 0.24,
+      "cfg_weight": 0.55
+    },
+    "exemple": {
+      "speed": 1.01,
+      "exaggeration": 0.31,
+      "cfg_weight": 0.52
+    },
+    "nuance": {
+      "speed": 0.98,
+      "exaggeration": 0.23,
+      "cfg_weight": 0.55
+    },
+    "cta": {
+      "speed": 0.88,
+      "exaggeration": 0.32,
+      "cfg_weight": 0.52
+    }
+  },
+  "voice_seed": 20260822,
+  "segment_level_filter": "loudnorm=I=-18:TP=-2:LRA=5"
+}

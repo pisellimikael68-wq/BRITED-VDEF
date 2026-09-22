@@ -1,0 +1,374 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "visual_overlap_control": true,
+    "cta_variant": "pedagogique",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "header_fingerprint": "cf5494c82211aa9566d64ab483f44d6e41c20c76fb6f19d48109a39e49a123d7"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Se marier sans contrat, est-ce neutre ?",
+      "tokens": [
+        "Se",
+        "marier",
+        "sans",
+        "contrat,",
+        "est-ce",
+        "neutre",
+        "?"
+      ],
+      "token_count": 7,
+      "speech_duration": 2.271,
+      "full_text_visible_at": 2.044,
+      "hold_after_full_text": 1.127,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 56,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+      "tokens": [
+        "Non.",
+        "En",
+        "l'absence",
+        "de",
+        "contrat,",
+        "le",
+        "régime",
+        "légal",
+        "est",
+        "celui",
+        "de",
+        "la",
+        "communauté",
+        "réduite",
+        "aux",
+        "acquêts."
+      ],
+      "token_count": 16,
+      "speech_duration": 4.322,
+      "full_text_visible_at": 3.89,
+      "hold_after_full_text": 0.682,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "tokens": [
+        "Entrent",
+        "en",
+        "principe",
+        "dans",
+        "la",
+        "communauté",
+        "les",
+        "biens",
+        "acquis",
+        "pendant",
+        "le",
+        "mariage,",
+        "ainsi",
+        "que",
+        "les",
+        "gains,",
+        "les",
+        "salaires",
+        "et",
+        "les",
+        "économies",
+        "constituées",
+        "avec",
+        "ces",
+        "revenus."
+      ],
+      "token_count": 25,
+      "speech_duration": 6.897,
+      "full_text_visible_at": 6.207,
+      "hold_after_full_text": 0.94,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          452,
+          672,
+          727
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "house",
+          "key-round",
+          "landmark"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+      "tokens": [
+        "Restent",
+        "propres",
+        "les",
+        "biens",
+        "possédés",
+        "avant",
+        "le",
+        "mariage,",
+        "ainsi",
+        "que",
+        "ceux",
+        "reçus",
+        "personnellement",
+        "par",
+        "donation",
+        "ou",
+        "succession."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.911,
+      "full_text_visible_at": 5.32,
+      "hold_after_full_text": 0.841,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "tokens": [
+        "L'article",
+        "223",
+        "permet",
+        "cependant",
+        "à",
+        "chaque",
+        "époux",
+        "de",
+        "percevoir",
+        "ses",
+        "gains",
+        "et",
+        "salaires",
+        "et",
+        "d'en",
+        "disposer",
+        "après",
+        "s'être",
+        "acquitté",
+        "des",
+        "charges",
+        "du",
+        "mariage."
+      ],
+      "token_count": 23,
+      "speech_duration": 6.857,
+      "full_text_visible_at": 6.172,
+      "hold_after_full_text": 0.936,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "héritage",
+        "reçu",
+        "reste",
+        "votre",
+        "bien",
+        "propre",
+        ";",
+        "une",
+        "paie",
+        "épargnée",
+        "pendant",
+        "le",
+        "mariage",
+        "alimente",
+        "la",
+        "communauté."
+      ],
+      "token_count": 19,
+      "speech_duration": 6.201,
+      "full_text_visible_at": 5.581,
+      "hold_after_full_text": 0.87,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users",
+          "landmark"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+      "tokens": [
+        "Attention",
+        "au",
+        "mélange",
+        "de",
+        "fonds",
+        ":",
+        "verser",
+        "un",
+        "héritage",
+        "sur",
+        "un",
+        "compte",
+        "commun",
+        "crée",
+        "un",
+        "enjeu",
+        "de",
+        "preuve",
+        "et",
+        "peut",
+        "entraîner",
+        "une",
+        "récompense."
+      ],
+      "token_count": 23,
+      "speech_duration": 5.973,
+      "full_text_visible_at": 5.376,
+      "hold_after_full_text": 1.497,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users",
+          "file-check-2"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "tokens": [
+        "Le",
+        "saviez-vous",
+        "?",
+        "Commentez,",
+        "partagez",
+        "et",
+        "abonnez-vous",
+        "pour",
+        "mieux",
+        "comprendre",
+        "et",
+        "protéger",
+        "votre",
+        "patrimoine."
+      ],
+      "token_count": 14,
+      "speech_duration": 4.7,
+      "full_text_visible_at": 4.23,
+      "hold_after_full_text": 0.47,
+      "visual_layout": null
+    }
+  ]
+}

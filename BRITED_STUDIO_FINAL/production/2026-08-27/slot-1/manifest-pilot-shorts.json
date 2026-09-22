@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-27",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-27:shorts:assurance_vie_abattement_8ans:0",
+      "platform": "shorts",
+      "title": "Les 4 600 € de gains retirables chaque année sans impôt",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/assurance_vie/assurance_vie_abattement_8ans__shorts__a1__v4.md",
+      "video": "",
+      "script_sha256": "b41ebba2e4d67f4d383fc196423101274caab9cef81b4643bff01eb41234483a",
+      "spec_sha256": "b1e56e7a0b28e605cff1cf23d2ed9ddbde9a4e6bd0df548988169548761a6486",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 48.1,
+      "status": "blocked",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 130,
+        "seconds": 48.1,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [
+        "Production ou contrôle vidéo refusé : Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_words.py', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-1/shorts/spec.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-1/shorts/voice/timing.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-1/shorts/assurance_vie_abattement_8ans__shorts.mp4']' returned non-zero exit status 1."
+      ],
+      "validation": {
+        "publication_id": "2026-08-27:shorts:assurance_vie_abattement_8ans:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-27_shorts_assurance_vie_abattement_8ans_0.json",
+        "validated_at": "2026-08-27T10:05:39"
+      },
+      "review_path": "data/reviews/2026-08-27_shorts_assurance_vie_abattement_8ans_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

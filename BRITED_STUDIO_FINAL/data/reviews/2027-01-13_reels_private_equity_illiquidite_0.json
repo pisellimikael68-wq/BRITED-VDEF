@@ -1,0 +1,162 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique « Possibilité de sortie anticipée : en principe aucune » (chiffres[1]) — le script dit correctement « Non — en principe la sortie anticipée n'est pas possible. » Toutefois la formulation pourrait prêter à interprétation : il existe des mécanismes rares (marché secondaire des parts, clauses contractuelles exceptionnelles, rachats par la société de gestion) qui ne sont pas évoqués. Le libellé « en principe » doit être accompagné d'une courte précision ou d'un renvoi aux sources pour éviter une lecture trop tranchée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme l'absence de sortie anticipée « en principe » et la durée d'immobilisation « huit à dix ans » conformément à la fiche. Mais il n'indique pas les limites juridiques ou exceptions prévues par le Code monétaire et financier (ex. modalités de liquidation du fonds, dispositions statutaires ou clauses dérogatoires) ni ne cite explicitement les articles L214-27 et suivants qui encadrent les FCPR. Il faut ajouter une phrase courte précisant que des exceptions statutaires existent et renvoyer aux sources juridiques citées."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception implícite et un exemple d'appels de fonds, mais omet d'expliquer brièvement : 1) que l'engagement se matérialise par un engagement ferme et des appels en capital (voir erreur fréquente listée), 2) l'absence de montant minimum mentionné dans le script alors que la fiche liste « Quel montant minimum ? » parmi les questions clients. Il faut ajouter une phrase très courte sur l'existence variable des montants minimums selon fonds et renvoyer au gestionnaire/statuts."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et progression claire. Toutefois la répétition « Pouvez‑vous sortir avant dix ans ? OUI   NON » puis immédiatement « Non — en principe… » est légèrement redondante pour un format 38s ; recommander de condenser la question/réponse pour respecter rythme très serré des Reels (ex. question 2 visuel + réponse 3 voix enchaînée sans pause)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est généralement claire. Deux légers problèmes : 1) l'expression « Les engagements se libèrent par tranches » peut être mal comprise (préférer « l'engagement est appelé par tranches » ou « les appels de fonds interviennent par tranches ») ; 2) phrase « Les sommes sont appelées par tranches et restent indisponibles jusqu'à la cession » pourrait être interprétée comme absolue — préciser « en pratique, elles sont indisponibles tant qu'elles ne sont pas remboursées par cession/liquidation du fonds ». Ces précisions améliorent exactitude et clarté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Lecture mot à mot révèle une incohérence de ton mineure : la légende précise « non personnalisé » mais le CTA invite à « Prenez rendez‑vous via le lien dans ma bio » — acceptable mais nécessite d'ajouter verbalement et/ou en texte « pour un point personnalisé » afin d'éviter contradiction entre contenu général et invitation. De plus, vérifier prononciation fluide de « appels de fonds échelonnés » dans le tempo proposé."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (illiquidité). Toutefois la séquence comprend deux phrases qui répètent la même idée (beats 5 et 6). Pour conserver densité et durée, recommander fusionner l'exemple d'appels de fonds et la nuance risque en une phrase plus brève afin de libérer temps pour la mention rapide du montant minimum ou des exceptions."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Explications compréhensibles pour un non-spécialiste globalement, mais le concept « appels de fonds » n'est pas défini (pour un novice, on peut ajouter « vous vous engagez pour une somme ; le gestionnaire appelle des tranches de ce montant au fil des années »). Aussi, le mot « dispersion » peut être obscur : proposer « forte dispersion des résultats entre fonds (beaucoup de variance) » ou un court synonyme."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial est bon (« pensez-vous pouvoir récupérer... »). Néanmoins, la question OUI/NON visuelle risque d'absorber trop de temps pour un format 38s si les plans ne sont pas extrêmement courts. Suggestion : réduire durée du carton question à une seule seconde et lancer immédiatement la réponse pour maintenir rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources affichées inspirent confiance. Points à améliorer : 1) ajouter la mention explicite « sources : AMF, Code monétaire et financier » sur l'écran final (au-delà de la légende) pour renforcer crédibilité visuelle ; 2) éviter toute implication de conseil personnalisé dans la narration — reformuler légèrement le CTA en « Pour un point personnalisé, prenez rendez‑vous via le lien dans ma bio »."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique « Possibilité de sortie anticipée : en principe aucune » (chiffres[1]) — le script dit correctement « Non — en principe la sortie anticipée n'est pas possible. » Toutefois la formulation pourrait prêter à interprétation : il existe des mécanismes rares (marché secondaire des parts, clauses contractuelles exceptionnelles, rachats par la société de gestion) qui ne sont pas évoqués. Le libellé « en principe » doit être accompagné d'une courte précision ou d'un renvoi aux sources pour éviter une lecture trop tranchée.",
+    "juridique_fiscal : Le script affirme l'absence de sortie anticipée « en principe » et la durée d'immobilisation « huit à dix ans » conformément à la fiche. Mais il n'indique pas les limites juridiques ou exceptions prévues par le Code monétaire et financier (ex. modalités de liquidation du fonds, dispositions statutaires ou clauses dérogatoires) ni ne cite explicitement les articles L214-27 et suivants qui encadrent les FCPR. Il faut ajouter une phrase courte précisant que des exceptions statutaires existent et renvoyer aux sources juridiques citées.",
+    "completude : Le script couvre la règle centrale, l'exception implícite et un exemple d'appels de fonds, mais omet d'expliquer brièvement : 1) que l'engagement se matérialise par un engagement ferme et des appels en capital (voir erreur fréquente listée), 2) l'absence de montant minimum mentionné dans le script alors que la fiche liste « Quel montant minimum ? » parmi les questions clients. Il faut ajouter une phrase très courte sur l'existence variable des montants minimums selon fonds et renvoyer au gestionnaire/statuts.",
+    "editorial : Accroche forte et progression claire. Toutefois la répétition « Pouvez‑vous sortir avant dix ans ? OUI   NON » puis immédiatement « Non — en principe… » est légèrement redondante pour un format 38s ; recommander de condenser la question/réponse pour respecter rythme très serré des Reels (ex. question 2 visuel + réponse 3 voix enchaînée sans pause).",
+    "formulation_professionnelle : La formulation est généralement claire. Deux légers problèmes : 1) l'expression « Les engagements se libèrent par tranches » peut être mal comprise (préférer « l'engagement est appelé par tranches » ou « les appels de fonds interviennent par tranches ») ; 2) phrase « Les sommes sont appelées par tranches et restent indisponibles jusqu'à la cession » pourrait être interprétée comme absolue — préciser « en pratique, elles sont indisponibles tant qu'elles ne sont pas remboursées par cession/liquidation du fonds ». Ces précisions améliorent exactitude et clarté.",
+    "contre_verification_finale : Lecture mot à mot révèle une incohérence de ton mineure : la légende précise « non personnalisé » mais le CTA invite à « Prenez rendez‑vous via le lien dans ma bio » — acceptable mais nécessite d'ajouter verbalement et/ou en texte « pour un point personnalisé » afin d'éviter contradiction entre contenu général et invitation. De plus, vérifier prononciation fluide de « appels de fonds échelonnés » dans le tempo proposé.",
+    "densite_editoriale : La vidéo traite bien un seul angle (illiquidité). Toutefois la séquence comprend deux phrases qui répètent la même idée (beats 5 et 6). Pour conserver densité et durée, recommander fusionner l'exemple d'appels de fonds et la nuance risque en une phrase plus brève afin de libérer temps pour la mention rapide du montant minimum ou des exceptions.",
+    "pedagogie_client : Explications compréhensibles pour un non-spécialiste globalement, mais le concept « appels de fonds » n'est pas défini (pour un novice, on peut ajouter « vous vous engagez pour une somme ; le gestionnaire appelle des tranches de ce montant au fil des années »). Aussi, le mot « dispersion » peut être obscur : proposer « forte dispersion des résultats entre fonds (beaucoup de variance) » ou un court synonyme.",
+    "retention_attention : Hook initial est bon (« pensez-vous pouvoir récupérer... »). Néanmoins, la question OUI/NON visuelle risque d'absorber trop de temps pour un format 38s si les plans ne sont pas extrêmement courts. Suggestion : réduire durée du carton question à une seule seconde et lancer immédiatement la réponse pour maintenir rythme.",
+    "conversion_confiance : Ton sérieux et sources affichées inspirent confiance. Points à améliorer : 1) ajouter la mention explicite « sources : AMF, Code monétaire et financier » sur l'écran final (au-delà de la légende) pour renforcer crédibilité visuelle ; 2) éviter toute implication de conseil personnalisé dans la narration — reformuler légèrement le CTA en « Pour un point personnalisé, prenez rendez‑vous via le lien dans ma bio »."
+  ],
+  "recommendations": [
+    "Clarifier la formulation sur l'impossibilité de sortie : ajouter une phrase courte du type « En principe, la sortie anticipée n'est pas possible ; des cas exceptionnels existent (marché secondaire, clauses statutaires, rachats rares) — voir sources. »",
+    "Ajouter une très brève définition pour « appels de fonds » (ex. « vous vous engagez sur un montant ; le gestionnaire appelle des tranches de ce montant au fil des années ») pour un public non spécialiste.",
+    "Remplacer « Les engagements se libèrent par tranches » par « Les appels de fonds interviennent par tranches » et condenser beats 5–6 en une seule phrase pour gagner du temps.",
+    "Inclure une courte mention sur les montants minimums : « Les montants minimums varient selon le fonds — renseignez‑vous dans les statuts ».",
+    "Rendre le CTA explicite et cohérent : « Pour un point personnalisé, prenez rendez‑vous via le lien dans ma bio. » et afficher les sources (AMF + Code monétaire et financier) sur l'écran final.",
+    "Adapter le timing visuel du carton OUI/NON pour n'occuper qu'une seconde et lancer immédiatement la réponse vocale afin de respecter le tempo de 38 s."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-13:reels:private_equity_illiquidite:0",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__reels__a4__v2.md"
+}

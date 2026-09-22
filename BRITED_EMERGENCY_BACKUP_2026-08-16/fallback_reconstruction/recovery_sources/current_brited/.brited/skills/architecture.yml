@@ -1,0 +1,24 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: architecture
+
+capabilities:
+
+  - design_component
+  - define_interfaces
+  - define_dependencies
+  - create_adr
+
+rules:
+
+  - low_coupling
+  - high_cohesion
+  - dependency_inversion
+  - modularity
+
+outputs:
+
+  - architecture_update

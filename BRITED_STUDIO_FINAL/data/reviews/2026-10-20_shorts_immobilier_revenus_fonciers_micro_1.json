@@ -1,0 +1,175 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence factuelle dans l'exemple (Beat 4 / Narration) : loyers 12 000 € et charges 5 000 € donnent un net imposable de 7 000 €, donc pas de déficit. Le script indique pourtant « le réel produit un déficit », ce qui contredit la règle « déficit = charges > loyers ». Corriger l'exemple ou les chiffres.",
+        "Rappel à renforcer : préciser la source primaire (CGI art. 32 et 31, art. 156 I 3°) directement lié à chaque affirmation majeure dans la fiche pour rester fidèle et traçable."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Erreur d'affirmation dans l'exemple (voir supra) qui pourrait induire en erreur fiscalement un spectateur : présentation erronée d'un déficit.",
+        "Formulation à clarifier : « La part du déficit liée aux intérêts d'emprunt s'impute seulement sur les revenus fonciers » est correcte mais pourrait être complétée par la précision que seuls les autres frais (travaux, taxe, etc.) ouvrent droit à imputation sur le revenu global, conformément à l'article 156 I 3°. À expliciter brièvement pour éviter toute lecture incomplète."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale mais l'exemple chiffré contredit la règle; n'est donc pas complet et clair sur l'effet fiscal exact (déficit vs simple baisse de revenu imposable).",
+        "Manque une mention très brève expliquant que l'excédent de déficit non imputable (au-delà de 10 700 €) est reportable sur revenus fonciers des 10 années suivantes (la fiche source le mentionne mais le script ne l'indique que partiellement)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression adaptées, mais la contradiction factuelle de l'exemple affaiblit la crédibilité éditoriale.",
+        "Suggestion : remplacer la phrase erronée par une formulation correcte et percutante (ex. : « ici le réel réduit votre revenu imposable à 7 000 € ; il n'y a déficit que si les charges > loyers »)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'erreur d'exemple peut induire en erreur un public non spécialiste sur un point fiscal sensible (déficit). Risque de mauvaise interprétation des conséquences fiscales.",
+        "Le script respecte l'interdiction de conseil personnalisé et la mention de non-responsabilité est fournie, mais il faut corriger l'exemple avant publication."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel globalement bon mais phrase « le réel produit un déficit » est incorrecte dans l'exemple chiffré et nuit à la précision professionnelle.",
+        "Proposer une reformulation claire et courte pour la nuance sur les intérêts d'emprunt (ex. : « Les intérêts d'emprunt ne permettent pas d'imputer le déficit sur le revenu global ; ils restent imputables uniquement sur les revenus fonciers. »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Seconde lecture identifie la contradiction entre règle générale et exemple chiffré (net positif mais présenté comme déficit). Doit être corrigée mot à mot.",
+        "Vérifier aussi la cohérence des libellés d'écran (texte vs narration) après correction."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais l'exemple erroné compromet la densité utile. Remplacer l'exemple ou ajuster les chiffres pour que l'illustration serve réellement la règle centrale."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des notions sont expliquées simplement, mais l'incohérence de l'exemple risque de perdre un non-spécialiste : il faut expliciter la différence entre « baisse du revenu imposable » et « déficit » en une phrase compréhensible."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et l'appel à l'action adéquat, mais l'erreur factuelle mine la confiance. Corriger l'exemple renforcera la crédibilité commerciale sans changer le CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence factuelle dans l'exemple (Beat 4 / Narration) : loyers 12 000 € et charges 5 000 € donnent un net imposable de 7 000 €, donc pas de déficit. Le script indique pourtant « le réel produit un déficit », ce qui contredit la règle « déficit = charges > loyers ». Corriger l'exemple ou les chiffres.",
+    "source : Rappel à renforcer : préciser la source primaire (CGI art. 32 et 31, art. 156 I 3°) directement lié à chaque affirmation majeure dans la fiche pour rester fidèle et traçable.",
+    "juridique_fiscal : Erreur d'affirmation dans l'exemple (voir supra) qui pourrait induire en erreur fiscalement un spectateur : présentation erronée d'un déficit.",
+    "juridique_fiscal : Formulation à clarifier : « La part du déficit liée aux intérêts d'emprunt s'impute seulement sur les revenus fonciers » est correcte mais pourrait être complétée par la précision que seuls les autres frais (travaux, taxe, etc.) ouvrent droit à imputation sur le revenu global, conformément à l'article 156 I 3°. À expliciter brièvement pour éviter toute lecture incomplète.",
+    "completude : Le script couvre la règle centrale mais l'exemple chiffré contredit la règle; n'est donc pas complet et clair sur l'effet fiscal exact (déficit vs simple baisse de revenu imposable).",
+    "completude : Manque une mention très brève expliquant que l'excédent de déficit non imputable (au-delà de 10 700 €) est reportable sur revenus fonciers des 10 années suivantes (la fiche source le mentionne mais le script ne l'indique que partiellement).",
+    "editorial : Accroche et progression adaptées, mais la contradiction factuelle de l'exemple affaiblit la crédibilité éditoriale.",
+    "editorial : Suggestion : remplacer la phrase erronée par une formulation correcte et percutante (ex. : « ici le réel réduit votre revenu imposable à 7 000 € ; il n'y a déficit que si les charges > loyers »).",
+    "securite : L'erreur d'exemple peut induire en erreur un public non spécialiste sur un point fiscal sensible (déficit). Risque de mauvaise interprétation des conséquences fiscales.",
+    "securite : Le script respecte l'interdiction de conseil personnalisé et la mention de non-responsabilité est fournie, mais il faut corriger l'exemple avant publication.",
+    "formulation_professionnelle : Français naturel globalement bon mais phrase « le réel produit un déficit » est incorrecte dans l'exemple chiffré et nuit à la précision professionnelle.",
+    "formulation_professionnelle : Proposer une reformulation claire et courte pour la nuance sur les intérêts d'emprunt (ex. : « Les intérêts d'emprunt ne permettent pas d'imputer le déficit sur le revenu global ; ils restent imputables uniquement sur les revenus fonciers. »).",
+    "contre_verification_finale : Seconde lecture identifie la contradiction entre règle générale et exemple chiffré (net positif mais présenté comme déficit). Doit être corrigée mot à mot.",
+    "contre_verification_finale : Vérifier aussi la cohérence des libellés d'écran (texte vs narration) après correction.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais l'exemple erroné compromet la densité utile. Remplacer l'exemple ou ajuster les chiffres pour que l'illustration serve réellement la règle centrale.",
+    "pedagogie_client : La plupart des notions sont expliquées simplement, mais l'incohérence de l'exemple risque de perdre un non-spécialiste : il faut expliciter la différence entre « baisse du revenu imposable » et « déficit » en une phrase compréhensible.",
+    "conversion_confiance : Le ton est professionnel et l'appel à l'action adéquat, mais l'erreur factuelle mine la confiance. Corriger l'exemple renforcera la crédibilité commerciale sans changer le CTA."
+  ],
+  "recommendations": [
+    "Corriger l'exemple du Beat 4 / narration : soit modifier les chiffres pour que les charges dépassent les loyers (ex. loyers 12 000 €, charges 13 000 € → déficit 1 000 €), soit reformuler la conclusion pour indiquer correctement qu'avec loyers 12 000 € et charges 5 000 € le réel réduit le revenu imposable à 7 000 € mais ne produit pas de déficit.",
+    "Ajouter une brève phrase (ou un texte écran court) rappelant que l'excédent de déficit non imputé (au-delà de 10 700 €) est reportable sur les revenus fonciers des 10 années suivantes, pour cohérence avec la source (CGI art. 156 I 3°).",
+    "Préciser brièvement la nuance sur les intérêts d'emprunt : indiquer clairement que seuls les autres charges (notamment travaux) ouvrent droit à l'imputation sur le revenu global, conformément à l'article 156 I 3°, pour éviter toute confusion.",
+    "Vérifier mot à mot les textes écran après correction de l'exemple afin d'assurer parfaite correspondance entre narration et visuel (éviter toute phrase contradictoire).",
+    "Conserver la mention légale de non-conseil et les sources en description, et, si possible, lier directement aux articles CGI et au BOFIP cités pour permettre vérification par l'audience."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-20:shorts:immobilier_revenus_fonciers_micro:1",
+  "script_path": "scripts/immobilier/immobilier_revenus_fonciers_micro__shorts__a2__v4.md"
+}

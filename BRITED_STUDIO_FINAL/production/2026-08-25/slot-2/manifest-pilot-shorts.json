@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-25",
+  "slot": 2,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+      "platform": "shorts",
+      "title": "PACS et concubinage : ce qui n'est pas protégé",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_pacs_concubinage__shorts__a1__v7.md",
+      "video": "",
+      "script_sha256": "0a0d740688c74f8071fab5d5eb77d015c1ca4ac7703b048dcf5e82d2374fc066",
+      "spec_sha256": "f0accd02cd8a8ced866061ba77a2385c7a8c798016b405d77b3741ff45643ad5",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 44.4,
+      "status": "blocked",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [
+        "Production ou contrôle vidéo refusé : Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/video_pipeline/verify_video_quality.py', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/spec.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/voice/timing.json', '/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/regimes_pacs_concubinage__shorts.mp4']' returned non-zero exit status 1."
+      ],
+      "validation": {
+        "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-25_shorts_regimes_pacs_concubinage_1.json",
+        "validated_at": "2026-08-24T15:19:09"
+      },
+      "review_path": "data/reviews/2026-08-25_shorts_regimes_pacs_concubinage_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

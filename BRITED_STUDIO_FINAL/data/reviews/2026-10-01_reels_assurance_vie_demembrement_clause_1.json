@@ -1,0 +1,184 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source et les références juridiques citées, mais il manque une précision importante issue de la fiche : la nécessité explicite d'un acte enregistré pour la convention de quasi‑usufruit (la fiche indique 'acte enregistré' ; le script parle de 'date certaine' sans préciser l'enregistrement). Il faut aligner la formulation mot à mot avec la condition pratique soulignée dans la fiche : 'acte enregistré' ou équivalent, pour éviter toute ambiguïté pratique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention des articles (587, 669, 773, 990 I) est correcte, mais le script pourrait induire en erreur sur l'abattement : la fiche précise que l'abattement de 152 500 € est 'réparti entre usufruitier et nu-propriétaire selon le barème de l'article 669' et que 'chaque couple usufruitier–nu‑propriétaire bénéficie d'un abattement propre' lorsqu'il y a plusieurs enfants. Le script énonce la répartition, mais n'indique pas que l'abattement s'applique par couple (usufruitier / chaque nu-propriétaire), ce qui est un élément fiscal important à conserver pour exactitude pratique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Manque une mise en garde pratique importante figurant dans la fiche : le risque économique que le conjoint usufruitier puisse consommer la totalité du capital, laissant une créance sur une succession éventuellement insolvable. Le script évoque que le conjoint 'peut disposer du capital' mais n'insiste pas sur le risque de succession insolvable et sur l'utilité de vérifier la solvabilité prévue.",
+        "L'élément sur l'existence d'une convention de quasi‑usufruit datée et enregistrée apparaît mais sans indiquer les conséquences concrètes d'une absence d'enregistrement (taxation double possible)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38 s) est précisée et le découpage en beats respecte le format Reels, mais l'écran 2 texte 'Peut-on donner usufruit au conjoint et nue-propriété aux enfants ? OUI | NON' contient une faute d'article ('donner usufruit' → 'donner l'usufruit') et la mise en page 'OUI | NON' risque de créer une scène visuelle peu claire (les cases OUI/NON doivent être distinctes et la réponse ensuite marquée)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Tonalité et accroche efficaces, mais une phrase du hook ('Conjoint protégé, enfants inquiets ?') pourrait être perçue comme alarmiste. Recommander une reformulation plus neutre comme 'Protéger le conjoint sans écarter les enfants ?' pour rester pédagogique.",
+        "La narration continue est fluide mais dense ; certaines phrases risquent d'être trop longues pour la lecture orale en 38 s (notamment la phrase sur l'abattement et l'article 669). Il faudrait fractionner ou ralentir."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations à corriger pour un français naturel : 'donner usufruit' → 'donner l'usufruit'; 'les enfants la nue-propriété ; l'abattement...' — la ponctuation et la coordination peuvent gêner la compréhension orale. Proposer de scinder en deux phrases courtes.",
+        "Le libellé de la CTA est correct mais pourrait préciser 'lien dans la bio' en restant neutre ('Prenez rendez‑vous via le lien en bio')."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence générale bonne, mais détectée une faiblesse de correspondance mot-à-mot entre la fiche (insistance sur 'acte enregistré') et le script (qui emploie 'date certaine'). Il faut harmoniser l'énoncé sur la forme exigée pour la convention de quasi‑usufruit pour éviter un risque légal d'interprétation.",
+        "Vérifier la lisibilité du texte écran du beat 2 (présence de 'OUI | NON' superflue)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche exige que chaque pictogramme illustre précisément la notion prononcée. Le visuel proposé au beat 3 ('Icone document + clé') est générique ; préférer un pictogramme illustrant 'clause démembrée' (par exemple, document divisé en deux parties étiquetées 'usufruit' et 'nue‑propriété').",
+        "Le visuel de l'alerte (beat 6) doit représenter explicitement 'acte enregistré' (par ex. tampon 'enregistré' sur un acte) et non un pictogramme d'alerte générique."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien d'un seul angle mais laisse de côté un exemple chiffré simple (même succinct) qui aiderait la compréhension de l'abattement et de la créance. La fiche recommande un exemple utile ; le script a un 'exemple' mais sans chiffre concret — cela réduit l'efficacité pédagogique."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible pour un non-spécialiste, mais certaines notions juridiques (quasi‑usufruit, créance de restitution, déduction au second décès) sont énoncées sans très brève clarification des conséquences pratiques. Par exemple, expliciter en une courte phrase ce que signifie 'créance exigible au second décès' (les enfants recevront une somme si la succession du conjoint le permet)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes, mais la question OUI / NON visuelle au beat 2 risque d'être lue trop vite — reformuler visuellement pour que la réponse 'OUI' apparaisse clairement ensuite et ne laisse pas d'ambiguïté.",
+        "Risque de surcharge d'information entre les beats 4 et 5 (abattement + mécanisme + conséquence) — recommander d'aérer légèrement le texte écran ou de réduire les mots pour maintenir la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux mais l'absence d'une invite claire à consulter un professionnel (en évitant le conseil personnalisé) pourrait nuire à la conversion. La CTA actuelle est acceptable mais gagnerait à rappeler la nature pédagogique ('Pour un examen personnalisé, prenez rendez‑vous via le lien en bio').",
+        "Le disclaimer en légende est présent, mais il serait utile d'insérer une brève phrase orale (ou texte écran) rappelant qu'il ne s'agit pas d'un conseil personnalisé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source et les références juridiques citées, mais il manque une précision importante issue de la fiche : la nécessité explicite d'un acte enregistré pour la convention de quasi‑usufruit (la fiche indique 'acte enregistré' ; le script parle de 'date certaine' sans préciser l'enregistrement). Il faut aligner la formulation mot à mot avec la condition pratique soulignée dans la fiche : 'acte enregistré' ou équivalent, pour éviter toute ambiguïté pratique.",
+    "juridique_fiscal : La mention des articles (587, 669, 773, 990 I) est correcte, mais le script pourrait induire en erreur sur l'abattement : la fiche précise que l'abattement de 152 500 € est 'réparti entre usufruitier et nu-propriétaire selon le barème de l'article 669' et que 'chaque couple usufruitier–nu‑propriétaire bénéficie d'un abattement propre' lorsqu'il y a plusieurs enfants. Le script énonce la répartition, mais n'indique pas que l'abattement s'applique par couple (usufruitier / chaque nu-propriétaire), ce qui est un élément fiscal important à conserver pour exactitude pratique.",
+    "completude : Manque une mise en garde pratique importante figurant dans la fiche : le risque économique que le conjoint usufruitier puisse consommer la totalité du capital, laissant une créance sur une succession éventuellement insolvable. Le script évoque que le conjoint 'peut disposer du capital' mais n'insiste pas sur le risque de succession insolvable et sur l'utilité de vérifier la solvabilité prévue.",
+    "completude : L'élément sur l'existence d'une convention de quasi‑usufruit datée et enregistrée apparaît mais sans indiquer les conséquences concrètes d'une absence d'enregistrement (taxation double possible).",
+    "plateforme : La durée estimée (38 s) est précisée et le découpage en beats respecte le format Reels, mais l'écran 2 texte 'Peut-on donner usufruit au conjoint et nue-propriété aux enfants ? OUI | NON' contient une faute d'article ('donner usufruit' → 'donner l'usufruit') et la mise en page 'OUI | NON' risque de créer une scène visuelle peu claire (les cases OUI/NON doivent être distinctes et la réponse ensuite marquée).",
+    "editorial : Tonalité et accroche efficaces, mais une phrase du hook ('Conjoint protégé, enfants inquiets ?') pourrait être perçue comme alarmiste. Recommander une reformulation plus neutre comme 'Protéger le conjoint sans écarter les enfants ?' pour rester pédagogique.",
+    "editorial : La narration continue est fluide mais dense ; certaines phrases risquent d'être trop longues pour la lecture orale en 38 s (notamment la phrase sur l'abattement et l'article 669). Il faudrait fractionner ou ralentir.",
+    "formulation_professionnelle : Quelques formulations à corriger pour un français naturel : 'donner usufruit' → 'donner l'usufruit'; 'les enfants la nue-propriété ; l'abattement...' — la ponctuation et la coordination peuvent gêner la compréhension orale. Proposer de scinder en deux phrases courtes.",
+    "formulation_professionnelle : Le libellé de la CTA est correct mais pourrait préciser 'lien dans la bio' en restant neutre ('Prenez rendez‑vous via le lien en bio').",
+    "contre_verification_finale : Cohérence générale bonne, mais détectée une faiblesse de correspondance mot-à-mot entre la fiche (insistance sur 'acte enregistré') et le script (qui emploie 'date certaine'). Il faut harmoniser l'énoncé sur la forme exigée pour la convention de quasi‑usufruit pour éviter un risque légal d'interprétation.",
+    "contre_verification_finale : Vérifier la lisibilité du texte écran du beat 2 (présence de 'OUI | NON' superflue).",
+    "coherence_pictogrammes : La fiche exige que chaque pictogramme illustre précisément la notion prononcée. Le visuel proposé au beat 3 ('Icone document + clé') est générique ; préférer un pictogramme illustrant 'clause démembrée' (par exemple, document divisé en deux parties étiquetées 'usufruit' et 'nue‑propriété').",
+    "coherence_pictogrammes : Le visuel de l'alerte (beat 6) doit représenter explicitement 'acte enregistré' (par ex. tampon 'enregistré' sur un acte) et non un pictogramme d'alerte générique.",
+    "densite_editoriale : La vidéo traite bien d'un seul angle mais laisse de côté un exemple chiffré simple (même succinct) qui aiderait la compréhension de l'abattement et de la créance. La fiche recommande un exemple utile ; le script a un 'exemple' mais sans chiffre concret — cela réduit l'efficacité pédagogique.",
+    "pedagogie_client : Globalement compréhensible pour un non-spécialiste, mais certaines notions juridiques (quasi‑usufruit, créance de restitution, déduction au second décès) sont énoncées sans très brève clarification des conséquences pratiques. Par exemple, expliciter en une courte phrase ce que signifie 'créance exigible au second décès' (les enfants recevront une somme si la succession du conjoint le permet).",
+    "retention_attention : Les deux premières secondes sont fortes, mais la question OUI / NON visuelle au beat 2 risque d'être lue trop vite — reformuler visuellement pour que la réponse 'OUI' apparaisse clairement ensuite et ne laisse pas d'ambiguïté.",
+    "retention_attention : Risque de surcharge d'information entre les beats 4 et 5 (abattement + mécanisme + conséquence) — recommander d'aérer légèrement le texte écran ou de réduire les mots pour maintenir la rétention.",
+    "conversion_confiance : Le ton inspire sérieux mais l'absence d'une invite claire à consulter un professionnel (en évitant le conseil personnalisé) pourrait nuire à la conversion. La CTA actuelle est acceptable mais gagnerait à rappeler la nature pédagogique ('Pour un examen personnalisé, prenez rendez‑vous via le lien en bio').",
+    "conversion_confiance : Le disclaimer en légende est présent, mais il serait utile d'insérer une brève phrase orale (ou texte écran) rappelant qu'il ne s'agit pas d'un conseil personnalisé."
+  ],
+  "recommendations": [
+    "Remplacer 'date certaine' par 'acte enregistré (date certaine)' ou ajouter la précision 'acte enregistré' dans le beat 6 et la narration pour coller à la fiche source et prévenir les conséquences fiscales.",
+    "Corriger la formulation du beat 2 : 'Peut-on donner l'usufruit au conjoint et la nue-propriété aux enfants ?' et rendre la visualisation OUI / NON claire : afficher les cases séparées puis cocher 'OUI' en transition.",
+    "Clarifier en une courte phrase le risque économique : ajouter au beat 5 ou 6 'Attention : le conjoint peut consommer le capital — la créance des enfants ne vaut que si la succession du conjoint est solvable.'",
+    "Préciser fiscalement l'application de l'abattement : indiquer brièvement que l'abattement de 152 500 € est réparti selon l'article 669 et que, en présence de plusieurs enfants, chaque couple usufruitier/nu‑propriétaire bénéficie d'un abattement propre (formulation très brève).",
+    "Adapter pictogrammes pour qu'ils illustrent précisément les notions : beat 3 document scindé 'usufruit / nue‑propriété'; beat 6 acte avec tampon 'enregistré' + pictogramme d'alerte si besoin.",
+    "Alléger et couper en phrases plus courtes la narration sur l'abattement et la déduction (pour respect de la durée et meilleure prononciation).",
+    "Ajouter, si possible, un mini‑exemple chiffré très court (une phrase) montrant comment l'abattement se répartit pour un usufruitier d'un âge donné, ou au moins indiquer que le barème de l'article 669 dépend de l'âge de l'usufruitier.",
+    "Inclure oralement ou en texte écran une phrase brève rappelant que le contenu est pédagogique et ne constitue pas un conseil personnalisé, en plus de la légende."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-01:reels:assurance_vie_demembrement_clause:1",
+  "script_path": "scripts/assurance_vie/assurance_vie_demembrement_clause__reels__a1__v4.md"
+}

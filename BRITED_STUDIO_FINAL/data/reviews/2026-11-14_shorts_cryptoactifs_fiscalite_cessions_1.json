@@ -1,0 +1,143 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Mention de l'amende « 750 € par compte et par année » : le chiffrement indique la référence CGI article 1736 X dans le commentaire des chiffres, mais cette référence n'apparaît pas dans la section 'sources' fournie au dossier (les sources listées sont 150 VH bis, 1649 bis C et BOFIP BOI-RPPM-PVBMC-30). Il faut soit ajouter explicitement la référence législative CGI article 1736 X dans les sources, soit remplacer/référencer précisément l'origine de ce montant si elle provient d'une autre disposition."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase finale et CTA : le script propose « Prenez rendez-vous via le lien dans ma bio. » Ceci est acceptable mais la mention « Vous souhaitez faire le point sur votre situation ? » suivie du CTA peut être perçue comme une incitation commerciale douce ; vérifier que les conditions de diffusion (plateforme et statut d'auteur) autorisent ce call-to-action. Indiquer clairement la mention légale déjà fournie (« Contenu pédagogique général... Ne constitue ni un conseil personnalisé... ») juste avant ou après le CTA renforcerait la conformité et réduirait le risque d'interprétation commerciale.",
+        "Vérifier la correspondance mot à mot entre la narration continue et les textes écran proposés : quelques formulations sont reformulées (ex. 'la plus-value se calcule sur la valeur globale du portefeuille au moment de la sortie') — confirmer que les micro-textes à l'écran reprennent exactement les éléments réglementaires pour éviter toute imprécision vocale/visuelle."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Visuel ligne 4 : l'étiquette 'portefeuille fermé' ou 'timeline stylisée montrant BTC → ETH → portefeuille fermé' est ambiguë. Le pictogramme devrait illustrer clairement l'absence de sortie en monnaie ayant cours légal (par exemple une croix ou un symbole 'non imposable' sur la flèche crypto→crypto) plutôt qu'un 'portefeuille fermé' qui peut être interprété de façon variable.",
+        "Ligne 3 : schéma avec 'flèches entre cryptos neutralisées' doit comporter un symbole clair de neutralité (par ex. signe = ou pictogramme neutre) pour éviter toute lecture erronée que des échanges sont exonérés juridiquement de façon absolue dans tous les cas — la narration explique la condition mais le pictogramme doit la rendre immédiatement compréhensible."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 120,
+      "seconds": 44.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Mention de l'amende « 750 € par compte et par année » : le chiffrement indique la référence CGI article 1736 X dans le commentaire des chiffres, mais cette référence n'apparaît pas dans la section 'sources' fournie au dossier (les sources listées sont 150 VH bis, 1649 bis C et BOFIP BOI-RPPM-PVBMC-30). Il faut soit ajouter explicitement la référence législative CGI article 1736 X dans les sources, soit remplacer/référencer précisément l'origine de ce montant si elle provient d'une autre disposition.",
+    "contre_verification_finale : Phrase finale et CTA : le script propose « Prenez rendez-vous via le lien dans ma bio. » Ceci est acceptable mais la mention « Vous souhaitez faire le point sur votre situation ? » suivie du CTA peut être perçue comme une incitation commerciale douce ; vérifier que les conditions de diffusion (plateforme et statut d'auteur) autorisent ce call-to-action. Indiquer clairement la mention légale déjà fournie (« Contenu pédagogique général... Ne constitue ni un conseil personnalisé... ») juste avant ou après le CTA renforcerait la conformité et réduirait le risque d'interprétation commerciale.",
+    "contre_verification_finale : Vérifier la correspondance mot à mot entre la narration continue et les textes écran proposés : quelques formulations sont reformulées (ex. 'la plus-value se calcule sur la valeur globale du portefeuille au moment de la sortie') — confirmer que les micro-textes à l'écran reprennent exactement les éléments réglementaires pour éviter toute imprécision vocale/visuelle.",
+    "coherence_pictogrammes : Visuel ligne 4 : l'étiquette 'portefeuille fermé' ou 'timeline stylisée montrant BTC → ETH → portefeuille fermé' est ambiguë. Le pictogramme devrait illustrer clairement l'absence de sortie en monnaie ayant cours légal (par exemple une croix ou un symbole 'non imposable' sur la flèche crypto→crypto) plutôt qu'un 'portefeuille fermé' qui peut être interprété de façon variable.",
+    "coherence_pictogrammes : Ligne 3 : schéma avec 'flèches entre cryptos neutralisées' doit comporter un symbole clair de neutralité (par ex. signe = ou pictogramme neutre) pour éviter toute lecture erronée que des échanges sont exonérés juridiquement de façon absolue dans tous les cas — la narration explique la condition mais le pictogramme doit la rendre immédiatement compréhensible."
+  ],
+  "recommendations": [
+    "Ajouter explicitement la référence législative ou administrative supportant le montant d'amende « 750 € par compte et par année » dans la section 'Sources'. Si le montant provient de CGI article 1736 X, l'ajouter et fournir un lien Legifrance ; sinon, préciser la source exacte (BOFiP ou autre texte) et l'URL.",
+    "Préciser visuellement la condition d'imposition dans les pictogrammes : pour les échanges crypto→crypto utiliser un symbole clair de neutralité (ex. signe '=' ou étiquette 'non imposable tant qu'aucun euro ne sort') et pour la flèche vers la monnaie ayant cours légal ajouter un label explicite 'imposable'. Remplacer 'portefeuille fermé' par un visuel montrant 'pas de sortie en €' pour éviter toute ambiguïté.",
+    "Renforcer le libellé entourant le CTA : ajouter immédiatement avant ou après le CTA la mention courte et visible rappelant que le contenu est pédagogique et ne constitue pas un conseil personnalisé, afin d'éviter toute lecture commerciale trop affirmative.",
+    "Harmoniser mot à mot les formulations entre narration, texte à l'écran et légende pour éviter divergences lors du montage (par ex. uniformiser la formulation sur le calcul de la plus-value : 'la plus-value se calcule sur la valeur globale du portefeuille au moment de la sortie')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-14:shorts:cryptoactifs_fiscalite_cessions:1",
+  "script_path": "scripts/cryptoactifs/cryptoactifs_fiscalite_cessions__shorts__a3__v2.md"
+}

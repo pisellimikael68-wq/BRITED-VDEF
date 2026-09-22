@@ -1,0 +1,22 @@
+{
+  "voice": {
+    "version": 3,
+    "speed": 0.94,
+    "exaggeration": 0.38,
+    "cfg_weight": 0.32,
+    "temperature": 0.5,
+    "top_p": 0.86,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "mastering": "highpass=f=75,lowpass=f=14000,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "539f2e1e337a7a1331edd0bbe922256293811899cc275094c9c021238c2e7dfc",
+  "beat_hashes": {
+    "hook": "2dc000598fea399611ab4ea43802b515735b6ab0d75dc9ef103fea73c3cff2c7",
+    "reponse": "78bd5b4450e139590efd3c0452a78c87e165a7c91d2b0b8d356388c3410b191f",
+    "regle": "5b7f24945d1c56aab59467d5d5b1205c403fa64216e4874e3cc64a7b5366f718",
+    "exemple": "d89a915973e029d1bfa7a588b187fae277ee7233133a7ff17f9b9bb8a4daede2",
+    "nuance": "8b006328d48a976bb971ad75186c35d7d3c935840fc5c77670386766fcd57eda",
+    "cta": "8b6363dd44a1efab35e4faee1c98f4376b9e69ea68ea1ab3d8baf7f85323a6d3"
+  }
+}

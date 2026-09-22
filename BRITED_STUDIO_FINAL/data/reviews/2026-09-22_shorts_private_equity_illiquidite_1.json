@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.69,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique une durée usuelle d'immobilisation de « 8 à 10 ans » (chiffres, a_verifier: true). Le script principal et le titre utilisent « dix ans » sans conserver la fourchette « 8 à 10 ans » ; c'est une discordance mot à mot avec la source.",
+        "La fiche signale que la durée est à vérifier (« a_verifier: true ») : le script ne mentionne pas cette incertitude."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La phrase « en principe oui : les sommes restent immobilisées » est conforme à la fiche mais la formulation omet les exceptions juridiques praticables (marché secondaire, liquidations exceptionnelles, clauses contractuelles spécifiques).",
+        "Le script affirme l'impossibilité de sortie anticipée sans évoquer brièvement que des sorties peuvent exister dans des cas limités/contractuels, ce qui peut être juridiquement trompeur."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script donne un exemple chiffré (« appeler 30% la première année ») qui n'est pas sourcé dans la fiche. L'exemple est utile mais doit être présenté comme purement illustratif ou sourcé.",
+        "La fiche insiste sur la dispersion des performances et le risque de perte totale ; le script l'aborde, mais n'indique pas explicitement que les performances passées ne préjugent pas des performances futures (interdiction présente dans a_ne_pas_dire)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le scénario respecte globalement le format Short (hook, durée estimée ~42 s) et l'ordre des séquences.",
+        "Le texte d'écran et la narration semblent un peu dense pour 42 s : la phrase sur l'exemple chiffré et la nuance risque pourraient allonger la vidéo au-delà du timing estimé si narrés à vitesse naturelle."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et ton clair. Cependant, la répétition « en principe oui » puis « immobilisé : 8 à 10 ans » (dans le tableau) n'est pas cohérente avec le titre qui dit « dix ans » ; il faut harmoniser le libellé pour mémorisation.",
+        "L'appel à l'action (« prenez rendez-vous via le lien dans ma bio ») est conforme au format mais pourrait être perçue comme promotionnel si la vidéo est présentée comme 'générale'—préférer formulation neutre s'agissant de contenu pédagogique."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script est pédagogique et neutre mais inclut un CTA direct vers prise de rendez-vous ; le disclaimer final indique qu'il ne s'agit pas d'un conseil personnalisé, ce qui est correct, mais la présence du CTA nécessite prudence pour éviter impression de conseil sur mesure.",
+        "L'exemple chiffré (30%) non sourcé peut être interprété comme une promesse implicite de typologie d'appels de fonds."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Quelques ajustements de précision stylistique sont nécessaires : remplacer 'dix ans' par '8 à 10 ans' ou expliciter la variation.",
+        "La phrase « vous ne versez pas tout immédiatement et devez garder disponibles les montants non encore appelés » est bonne, mais pourrait être raccourcie pour la clarté orale (« vous ne versez pas tout d'un coup : conservez les montants non appelés »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mot à mot sur la durée (titre vs. fiche).",
+        "L'exemple chiffré (30%) n'apparaît pas dans la fiche source et doit être marqué comme hypothétique ou supprimé/sourcé.",
+        "La formulation de la nuance juridique/exceptionnelle manque de précision (marché secondaire, clauses contractuelles)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (durée d'immobilisation) et conserve la règle centrale, la condition et l'exception. Toutefois, l'exemple chiffré introduit une densité d'information supplémentaire non sourcée qui pourrait nuire à la concision.",
+        "Pour tenir 42 s, il faut vérifier le rythme de narration et éventuellement retirer l'exemple chiffré non essentiel."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo s'adresse à un non-spécialiste et évite le jargon, mais ne précise pas ce qu'est un FCPR/FPCI (abréviations non développées), ce qui peut perdre un spectateur non familier.",
+        "La notion « appels de fonds » est claire, mais un court ajout expliquant que l'engagement est 'un montant que vous vous engagez à verser sur demande' améliorerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Cependant, la troisième et quatrième séquence (schéma + exemple d'appels) sont denses ; pour maintenir l'attention il faudrait simplifier l'exemple ou réduire le détail chiffré.",
+        "La nuance finale sur la dispersion est essentielle mais devrait être formulée très brièvement pour conserver le rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé renforce la confiance. Le CTA pour prise de rendez-vous est acceptable, mais pour maintenir l'objectivité il convient de garder le disclaimer bien visible/lu et d'éviter toute formulation commerciale pressante."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique une durée usuelle d'immobilisation de « 8 à 10 ans » (chiffres, a_verifier: true). Le script principal et le titre utilisent « dix ans » sans conserver la fourchette « 8 à 10 ans » ; c'est une discordance mot à mot avec la source.",
+    "source : La fiche signale que la durée est à vérifier (« a_verifier: true ») : le script ne mentionne pas cette incertitude.",
+    "juridique_fiscal : La phrase « en principe oui : les sommes restent immobilisées » est conforme à la fiche mais la formulation omet les exceptions juridiques praticables (marché secondaire, liquidations exceptionnelles, clauses contractuelles spécifiques).",
+    "juridique_fiscal : Le script affirme l'impossibilité de sortie anticipée sans évoquer brièvement que des sorties peuvent exister dans des cas limités/contractuels, ce qui peut être juridiquement trompeur.",
+    "completude : Le script donne un exemple chiffré (« appeler 30% la première année ») qui n'est pas sourcé dans la fiche. L'exemple est utile mais doit être présenté comme purement illustratif ou sourcé.",
+    "completude : La fiche insiste sur la dispersion des performances et le risque de perte totale ; le script l'aborde, mais n'indique pas explicitement que les performances passées ne préjugent pas des performances futures (interdiction présente dans a_ne_pas_dire).",
+    "plateforme : Le scénario respecte globalement le format Short (hook, durée estimée ~42 s) et l'ordre des séquences.",
+    "plateforme : Le texte d'écran et la narration semblent un peu dense pour 42 s : la phrase sur l'exemple chiffré et la nuance risque pourraient allonger la vidéo au-delà du timing estimé si narrés à vitesse naturelle.",
+    "editorial : Accroche forte et ton clair. Cependant, la répétition « en principe oui » puis « immobilisé : 8 à 10 ans » (dans le tableau) n'est pas cohérente avec le titre qui dit « dix ans » ; il faut harmoniser le libellé pour mémorisation.",
+    "editorial : L'appel à l'action (« prenez rendez-vous via le lien dans ma bio ») est conforme au format mais pourrait être perçue comme promotionnel si la vidéo est présentée comme 'générale'—préférer formulation neutre s'agissant de contenu pédagogique.",
+    "securite : Le script est pédagogique et neutre mais inclut un CTA direct vers prise de rendez-vous ; le disclaimer final indique qu'il ne s'agit pas d'un conseil personnalisé, ce qui est correct, mais la présence du CTA nécessite prudence pour éviter impression de conseil sur mesure.",
+    "securite : L'exemple chiffré (30%) non sourcé peut être interprété comme une promesse implicite de typologie d'appels de fonds.",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Quelques ajustements de précision stylistique sont nécessaires : remplacer 'dix ans' par '8 à 10 ans' ou expliciter la variation.",
+    "formulation_professionnelle : La phrase « vous ne versez pas tout immédiatement et devez garder disponibles les montants non encore appelés » est bonne, mais pourrait être raccourcie pour la clarté orale (« vous ne versez pas tout d'un coup : conservez les montants non appelés »).",
+    "contre_verification_finale : Incohérence mot à mot sur la durée (titre vs. fiche).",
+    "contre_verification_finale : L'exemple chiffré (30%) n'apparaît pas dans la fiche source et doit être marqué comme hypothétique ou supprimé/sourcé.",
+    "contre_verification_finale : La formulation de la nuance juridique/exceptionnelle manque de précision (marché secondaire, clauses contractuelles).",
+    "densite_editoriale : La vidéo traite bien un seul angle (durée d'immobilisation) et conserve la règle centrale, la condition et l'exception. Toutefois, l'exemple chiffré introduit une densité d'information supplémentaire non sourcée qui pourrait nuire à la concision.",
+    "densite_editoriale : Pour tenir 42 s, il faut vérifier le rythme de narration et éventuellement retirer l'exemple chiffré non essentiel.",
+    "pedagogie_client : La vidéo s'adresse à un non-spécialiste et évite le jargon, mais ne précise pas ce qu'est un FCPR/FPCI (abréviations non développées), ce qui peut perdre un spectateur non familier.",
+    "pedagogie_client : La notion « appels de fonds » est claire, mais un court ajout expliquant que l'engagement est 'un montant que vous vous engagez à verser sur demande' améliorerait la compréhension.",
+    "retention_attention : Hook efficace. Cependant, la troisième et quatrième séquence (schéma + exemple d'appels) sont denses ; pour maintenir l'attention il faudrait simplifier l'exemple ou réduire le détail chiffré.",
+    "retention_attention : La nuance finale sur la dispersion est essentielle mais devrait être formulée très brièvement pour conserver le rythme.",
+    "conversion_confiance : Ton sérieux et sourcé renforce la confiance. Le CTA pour prise de rendez-vous est acceptable, mais pour maintenir l'objectivité il convient de garder le disclaimer bien visible/lu et d'éviter toute formulation commerciale pressante."
+  ],
+  "recommendations": [
+    "Harmoniser la durée : remplacer toute occurrence de « dix ans » par « 8 à 10 ans » (ou ajouter « en règle générale 8–10 ans ») pour coller mot à mot à la fiche source et signaler l'incertitude si souhaité.",
+    "Retirer ou qualifier l'exemple chiffré « 30% la 1re année » : soit supprimer ce chiffre, soit le présenter clairement comme purement illustratif (« exemple hypothétique ») ou fournir une source précise.",
+    "Ajouter une brève phrase de nuance juridique : mentionner que les sorties anticipées sont, en principe, impossibles mais que des liquidités limitées peuvent exister via le marché secondaire ou des clauses contractuelles très spécifiques (sans promettre qu'elles seront disponibles).",
+    "Ne pas omettre l'interdiction implicite de comparer directement aux marchés cotés : intégrer une courte phrase « la liquidité est précisément ce qui rémunère le non‑coté » (déjà présent dans la fiche) ou rappeler que la dispersion des performances rend l'issue incertaine.",
+    "Éviter acronymes non développés pour un public non spécialiste : développer FCPR/FPCI une première fois (« véhicules comme les FCPR — Fonds communs de placement à risque — ou FPCI »).",
+    "Alléger la narration pour respecter 42 s : retirer détails chiffrés superflus, raccourcir la phrase sur les appels de fonds et condenser la nuance finale en une phrase courte.",
+    "Vérifier que l'appel à l'action reste neutre et lisible avec le disclaimer vocal/écrit : conserver la mention « Contenu pédagogique général. Ne constitue ni un conseil personnalisé ni une recommandation » immédiatement après le CTA.",
+    "Mettre à jour le texte d'écran pour correspondre exactement à la narration (par ex. remplacer « Immobilisé : 8 à 10 ans » sur l'écran si la narration dit « en principe oui »)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-22:shorts:private_equity_illiquidite:1",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__shorts__a1__v10.md"
+}

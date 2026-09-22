@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 130,
+      "seconds": 48.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 130,
+        "seconds": 48.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "92597466f8055a57bae37f071013b7b307ce5002313ae7873e06df2ef24974b4",
+      "adapted_hash": "92597466f8055a57bae37f071013b7b307ce5002313ae7873e06df2ef24974b4",
+      "source_beats": 6,
+      "adapted_pages": 9,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Veiller à la diction rapide mais claire pour un format Shorts de ~45 s afin que l'exemple chiffré reste compréhensible à l'oral.",
+    "Sur l'écran texte, préciser « abattement annuel par personne : 4 600 € ; ménage imposé ensemble : 9 200 € » pour éviter toute ambiguïté sur le mode de calcul pour un couple.",
+    "Conserver la mention légale déjà présente (pas un conseil personnalisé) et, si l'on souhaite approfondir dans un autre contenu, détailler la question des plafonds de primes (150 000 €) et des cas où le prélèvement forfaitaire libératoire peut être choisi."
+  ],
+  "reviewed_at": "2026-08-17T17:33:55",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:shorts:assurance_vie_abattement_8ans:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_abattement_8ans__shorts__a1.md"
+}

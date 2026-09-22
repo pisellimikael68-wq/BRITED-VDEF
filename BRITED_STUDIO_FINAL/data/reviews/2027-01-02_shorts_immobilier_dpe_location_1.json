@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche mais n'indique pas explicitement la référence au Service-Public.fr lors de l'énoncé chiffré (2025/2028/2034). Ajouter la source à l'écran ou en voix renforcerait la fidélité stricte aux faits."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script précise correctement les dates par classe mais n'explicite pas que l'interdiction s'applique uniquement aux mises en location (nouveaux baux, renouvellements, reconductions) — la nuance est présente mais la formulation « non pour les nouvelles mises en location depuis 2025 » pourrait être interprétée trop globalement. Recommandation : reformuler la réponse initiale pour inclure immédiatement la condition 'pour les nouvelles mises en location (nouveaux baux, renouvellements, reconductions)'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, le calendrier et la nuance sur les baux en cours, mais omet d'indiquer la validité limitée du DPE (diagnostic ancien pouvant ne plus être conforme) — information listée dans la source qui mérite d'être rappelée brièvement."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée totale estimée (42 s) et structure en beats sont compatibles avec un Short, mais le beat 2 (énoncé des trois dates) et le beat 3 (explication légale) peuvent être trop denses pour une lecture claire en 42 s. Suggestion : allouer ~2–3 s pour l'accroche, ~6–8 s pour le calendrier, et simplifier un visuel pour que le texte écran reste lisible."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la phrase d'appel à l'action 'Prenez rendez‑vous via le lien dans ma bio' est commerciale ; elle est acceptable mais gagnerait en confiance si précédée d'une phrase rappelant la nature pédagogique ('Pour un point personnalisé, prenez rendez‑vous...')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la consigne de contenu pédagogique et neutre, cependant la CTA peut être perçue comme incitative. Recommander d'ajouter la mention courte 'Contenu général, pas un conseil personnalisé' sur la dernière page (ou en voix) pour respecter la règle 'ne constitue pas un conseil'."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation globalement claire. Une légère lourdeur : 'Si le DPE le classe G, non pour les nouvelles mises en location depuis 2025; F sera visé...' -> suggestion de reformulation plus fluide: 'Si le DPE classe votre logement G, il ne peut plus être mis en location pour les nouvelles mises en location depuis 2025 ; F le sera en 2028, E en 2034.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les enchaînements sont cohérents mais il y a un chevauchement entre la première phrase de la nuance et la mention d'un bail en cours : vérifier la répétition et clarifier que le locataire peut demander la mise en conformité ou saisir le juge (mentionnée dans la fiche mais absente du script)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents, mais 'pictogramme interdiction sur mise en location' (beat 2) doit être visuellement explicite (contrat barré + symbole interdiction) pour éviter toute ambiguïté. Préciser pour le graphiste : utiliser un symbole 'contrat' plutôt qu'un simple 'sens interdit' pour lier l'interdiction à la mise en location."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo garde un seul angle mais manque d'une brève mention sur la validité du DPE (diagnostic ancien) et sur l'impact marché (décote/banque) — la fiche évoque ces points ; au moins un mot sur la validité du DPE devrait être inclus pour éviter une omission dangereuse."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est accessible à un non-spécialiste, toutefois l'expression 'mise en location' mérite d'être explicitée immédiatement (nouveaux baux, renouvellements, reconductions) dès la première réponse pour éviter la confusion fréquente mentionnée dans la fiche."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais le rythme pourrait perdre l'audience lors des dates échelonnées. Recommander de renforcer les 2 premières secondes (par ex. geste fort + texte) et de simplifier la timeline visuelle pour améliorer rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et sourcé, mais la confiance serait renforcée en affichant brièvement une source (Service-Public.fr) sur l'écran du calendrier et en ajoutant la mention légale courte sur la dernière page ('Info générale, pas un conseil personnalisé')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 127,
+      "seconds": 47.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche mais n'indique pas explicitement la référence au Service-Public.fr lors de l'énoncé chiffré (2025/2028/2034). Ajouter la source à l'écran ou en voix renforcerait la fidélité stricte aux faits.",
+    "juridique_fiscal : Le script précise correctement les dates par classe mais n'explicite pas que l'interdiction s'applique uniquement aux mises en location (nouveaux baux, renouvellements, reconductions) — la nuance est présente mais la formulation « non pour les nouvelles mises en location depuis 2025 » pourrait être interprétée trop globalement. Recommandation : reformuler la réponse initiale pour inclure immédiatement la condition 'pour les nouvelles mises en location (nouveaux baux, renouvellements, reconductions)'.",
+    "completude : Le script couvre la règle, le calendrier et la nuance sur les baux en cours, mais omet d'indiquer la validité limitée du DPE (diagnostic ancien pouvant ne plus être conforme) — information listée dans la source qui mérite d'être rappelée brièvement.",
+    "plateforme : Durée totale estimée (42 s) et structure en beats sont compatibles avec un Short, mais le beat 2 (énoncé des trois dates) et le beat 3 (explication légale) peuvent être trop denses pour une lecture claire en 42 s. Suggestion : allouer ~2–3 s pour l'accroche, ~6–8 s pour le calendrier, et simplifier un visuel pour que le texte écran reste lisible.",
+    "editorial : Accroche efficace mais la phrase d'appel à l'action 'Prenez rendez‑vous via le lien dans ma bio' est commerciale ; elle est acceptable mais gagnerait en confiance si précédée d'une phrase rappelant la nature pédagogique ('Pour un point personnalisé, prenez rendez‑vous...').",
+    "securite : Le script respecte la consigne de contenu pédagogique et neutre, cependant la CTA peut être perçue comme incitative. Recommander d'ajouter la mention courte 'Contenu général, pas un conseil personnalisé' sur la dernière page (ou en voix) pour respecter la règle 'ne constitue pas un conseil'.",
+    "formulation_professionnelle : Formulation globalement claire. Une légère lourdeur : 'Si le DPE le classe G, non pour les nouvelles mises en location depuis 2025; F sera visé...' -> suggestion de reformulation plus fluide: 'Si le DPE classe votre logement G, il ne peut plus être mis en location pour les nouvelles mises en location depuis 2025 ; F le sera en 2028, E en 2034.'",
+    "contre_verification_finale : Les enchaînements sont cohérents mais il y a un chevauchement entre la première phrase de la nuance et la mention d'un bail en cours : vérifier la répétition et clarifier que le locataire peut demander la mise en conformité ou saisir le juge (mentionnée dans la fiche mais absente du script).",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents, mais 'pictogramme interdiction sur mise en location' (beat 2) doit être visuellement explicite (contrat barré + symbole interdiction) pour éviter toute ambiguïté. Préciser pour le graphiste : utiliser un symbole 'contrat' plutôt qu'un simple 'sens interdit' pour lier l'interdiction à la mise en location.",
+    "densite_editoriale : La vidéo garde un seul angle mais manque d'une brève mention sur la validité du DPE (diagnostic ancien) et sur l'impact marché (décote/banque) — la fiche évoque ces points ; au moins un mot sur la validité du DPE devrait être inclus pour éviter une omission dangereuse.",
+    "pedagogie_client : Le contenu est accessible à un non-spécialiste, toutefois l'expression 'mise en location' mérite d'être explicitée immédiatement (nouveaux baux, renouvellements, reconductions) dès la première réponse pour éviter la confusion fréquente mentionnée dans la fiche.",
+    "retention_attention : Hook fort mais le rythme pourrait perdre l'audience lors des dates échelonnées. Recommander de renforcer les 2 premières secondes (par ex. geste fort + texte) et de simplifier la timeline visuelle pour améliorer rétention.",
+    "conversion_confiance : Ton professionnel et sourcé, mais la confiance serait renforcée en affichant brièvement une source (Service-Public.fr) sur l'écran du calendrier et en ajoutant la mention légale courte sur la dernière page ('Info générale, pas un conseil personnalisé')."
+  ],
+  "recommendations": [
+    "Ajouter, dans le beat 2 (calendrier) ou en voix, la référence explicite à la source (Service-Public.fr) pour les dates 2025/2028/2034.",
+    "Reformuler l'annonce initiale pour inclure immédiatement que l'interdiction concerne 'les nouvelles mises en location (nouveaux baux, renouvellements et reconductions)'.",
+    "Inclure une phrase très brève rappelant la validité limitée du DPE (un diagnostic ancien peut ne plus refléter les règles en vigueur) — utile pour éviter une omission problématique.",
+    "Sur la dernière page, ajouter la mention courte 'Contenu général, pas un conseil personnalisé' (voix ou texte) pour cadrer la CTA et respecter la sécurité éditoriale.",
+    "Clarifier et préciser pour le graphiste les pictogrammes à utiliser (par ex. symbole contrat barré pour 'interdit de mise en location') et alléger la timeline visuelle pour une meilleure lisibilité en 42 s.",
+    "Ajuster légèrement le rythme alloué aux beats : raccourcir l'accroche à 2–3 s, donner 6–8 s au calendrier et 6–8 s à l'explication légale, puis 6–8 s pour nuance/exemple/CTA, afin d'assurer lisibilité et rétention."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-02:shorts:immobilier_dpe_location:1",
+  "script_path": "scripts/immobilier/immobilier_dpe_location__shorts__a4__v7.md"
+}

@@ -1,0 +1,185 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ a été globalement respectée, mais le script cite «loyers nets quatre mille euros» sans préciser s'il s'agit de loyers encaissés hors charges locatives et hors prélèvements sociaux. La source insiste sur la distinction micro-BIC / réel et sur l'isolement du terrain : le script ne mentionne pas explicitement la nécessité d'exclure la valeur du terrain lors de l'amortissement (même si c'est listé ailleurs dans la fiche)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script présente correctement le principe que la location meublée relève des BIC et que l'amortissement est possible au réel; cependant il omet une précision importante présente dans les sources : l'amortissement ne se déduit pas contre d'autres revenus et la fraction excédentaire est mise en report (cité), mais il manque la précision que l'amortissement pratiqué ne peut pas générer de déficit fiscal imputable sur le revenu global (la formulation actuelle pourrait être comprise comme ambiguë).",
+        "L'avertissement à l'écran ou dans la narration sur l'exclusion de la valeur du terrain de l'assiette d'amortissement n'apparaît pas dans la narration principale (seulement dans 'erreurs fréquentes')."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la règle centrale et l'exception (amortissement ne crée pas de déficit), mais il manque la mention que le régime réel suppose une comptabilité commerciale (bilan, liasse fiscale) dans la narration principale — cette condition n'apparaît que dans la fiche et la légende, pas dans les 38 secondes proposées.",
+        "L'exemple chiffré est utile mais basique : il serait prudent de préciser que l'exemple est simplifié et n'intègre pas prélèvements sociaux ni plus-value éventuelle."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38 secondes) paraît cohérente, mais la narration continue fournie contient beaucoup d'informations pour un Reels de 38 s ; risque de débit trop rapide. Le format séquencé est respecté, toutefois certaines boîtes de texte pourraient être trop longues à lire sur écran dans le temps imparti (par ex. la phrase complète du hook et de la nuance)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte, progression claire. Points à améliorer : le passage 'Micro-BIC ou réel : est-ce que l'amortissement explique tout ? OUI / NON' est un peu ambigu et pourrait laisser croire qu'une seule réponse vaut pour tous les cas ; il faut indiquer brièvement 'souvent OUI au réel' pour éviter interprétation binaire.",
+        "Le CTA est approprié mais pourrait inclure la mention «prise de rendez-vous pour un diagnostic fiscal personnalisé» pour plus de clarté professionnelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est globalement naturelle, mais quelques tournures méritent simplification : 'Le bien se décompose en composants, chacun amorti sur sa durée propre ; le gros œuvre s'amortit généralement sur trente à cinquante ans.' — la plage 'trente à cinquante ans' peut être entendue comme imprécise ; suggérer 'généralement 30–50 ans selon composant' ou préciser 'par composants'.",
+        "La narration continue contient des répétitions (ex. la question posée deux fois) qui alourdissent pour un format court."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Séquence et enchaînements corrects mais plusieurs éléments nécessitent contrôle mot à mot : la mention 'loyers nets 4 000 €' doit préciser base (loyers perçus hors charges) ; l'affirmation 'parfois pendant dix ou quinze ans' dans la fiche n'apparaît pas dans le script et, si utilisée, doit être introduite comme 'parfois' avec réserve.",
+        "Le libellé 'l'amortissement ne crée pas de déficit' est exact mais l'acception fiscale (impossibilité d'imputer sur le revenu global) devrait être formulée sans ambiguïté."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (régime réel et amortissement). En revanche, la quantité d'informations (règle, exception, durée, exemple chiffré, CTA) en 38 s est élevée et risque de sacrifier lisibilité. Certaines phrases texte-écran sont longues et devront être raccourcies pour la lecture rapide."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo s'adresse bien à un non-spécialiste mais emploie 'amortissement' sans définition très simple en début immédiat (bien que expliqué ensuite). Suggestion : ajouter une courte parenthèse 'déduction comptable annuelle sans sortie de trésorerie' directement après le mot 'amortissement' dans le beat 3 pour garantir compréhension instantanée.",
+        "La mention que la quote-part de terrain n'est pas amortissable n'est pas dans le script principal et doit être incluse car c'est une erreur fréquente."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Toutefois, la deuxième séquence (question OUI/NON) risque de freiner le rythme sans apporter d'information nouvelle — pourrait être remplacée par 'Souvent oui au réel' pour maintenir curiosité et progression.",
+        "Le beat 6 (nuance) est indispensable mais devrait être plus concis pour conserver l'attention jusqu'au CTA."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et sobre. Pour renforcer la confiance sans donner de conseil personnalisé, ajouter une brève précision dans le CTA : 'diagnostic fiscal personnalisé' ou 'vérification de vos amortissements' plutôt que seulement 'faire le point', et garder la mention légale déjà fournie.",
+        "Éviter formulations pouvant être perçues comme promesse («résultat imposable zéro pendant des années») sans nuancer par 'peut' ou 'souvent', même si la fiche le signale — dans le script dire 'peut ramener' plutôt que '→ résultat imposable zéro' est plus prudent."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ a été globalement respectée, mais le script cite «loyers nets quatre mille euros» sans préciser s'il s'agit de loyers encaissés hors charges locatives et hors prélèvements sociaux. La source insiste sur la distinction micro-BIC / réel et sur l'isolement du terrain : le script ne mentionne pas explicitement la nécessité d'exclure la valeur du terrain lors de l'amortissement (même si c'est listé ailleurs dans la fiche).",
+    "juridique_fiscal : Le script présente correctement le principe que la location meublée relève des BIC et que l'amortissement est possible au réel; cependant il omet une précision importante présente dans les sources : l'amortissement ne se déduit pas contre d'autres revenus et la fraction excédentaire est mise en report (cité), mais il manque la précision que l'amortissement pratiqué ne peut pas générer de déficit fiscal imputable sur le revenu global (la formulation actuelle pourrait être comprise comme ambiguë).",
+    "juridique_fiscal : L'avertissement à l'écran ou dans la narration sur l'exclusion de la valeur du terrain de l'assiette d'amortissement n'apparaît pas dans la narration principale (seulement dans 'erreurs fréquentes').",
+    "completude : Le script respecte la règle centrale et l'exception (amortissement ne crée pas de déficit), mais il manque la mention que le régime réel suppose une comptabilité commerciale (bilan, liasse fiscale) dans la narration principale — cette condition n'apparaît que dans la fiche et la légende, pas dans les 38 secondes proposées.",
+    "completude : L'exemple chiffré est utile mais basique : il serait prudent de préciser que l'exemple est simplifié et n'intègre pas prélèvements sociaux ni plus-value éventuelle.",
+    "plateforme : La durée estimée (38 secondes) paraît cohérente, mais la narration continue fournie contient beaucoup d'informations pour un Reels de 38 s ; risque de débit trop rapide. Le format séquencé est respecté, toutefois certaines boîtes de texte pourraient être trop longues à lire sur écran dans le temps imparti (par ex. la phrase complète du hook et de la nuance).",
+    "editorial : Accroche forte, progression claire. Points à améliorer : le passage 'Micro-BIC ou réel : est-ce que l'amortissement explique tout ? OUI / NON' est un peu ambigu et pourrait laisser croire qu'une seule réponse vaut pour tous les cas ; il faut indiquer brièvement 'souvent OUI au réel' pour éviter interprétation binaire.",
+    "editorial : Le CTA est approprié mais pourrait inclure la mention «prise de rendez-vous pour un diagnostic fiscal personnalisé» pour plus de clarté professionnelle.",
+    "formulation_professionnelle : La formulation est globalement naturelle, mais quelques tournures méritent simplification : 'Le bien se décompose en composants, chacun amorti sur sa durée propre ; le gros œuvre s'amortit généralement sur trente à cinquante ans.' — la plage 'trente à cinquante ans' peut être entendue comme imprécise ; suggérer 'généralement 30–50 ans selon composant' ou préciser 'par composants'.",
+    "formulation_professionnelle : La narration continue contient des répétitions (ex. la question posée deux fois) qui alourdissent pour un format court.",
+    "contre_verification_finale : Séquence et enchaînements corrects mais plusieurs éléments nécessitent contrôle mot à mot : la mention 'loyers nets 4 000 €' doit préciser base (loyers perçus hors charges) ; l'affirmation 'parfois pendant dix ou quinze ans' dans la fiche n'apparaît pas dans le script et, si utilisée, doit être introduite comme 'parfois' avec réserve.",
+    "contre_verification_finale : Le libellé 'l'amortissement ne crée pas de déficit' est exact mais l'acception fiscale (impossibilité d'imputer sur le revenu global) devrait être formulée sans ambiguïté.",
+    "densite_editoriale : La vidéo traite bien un seul angle (régime réel et amortissement). En revanche, la quantité d'informations (règle, exception, durée, exemple chiffré, CTA) en 38 s est élevée et risque de sacrifier lisibilité. Certaines phrases texte-écran sont longues et devront être raccourcies pour la lecture rapide.",
+    "pedagogie_client : La vidéo s'adresse bien à un non-spécialiste mais emploie 'amortissement' sans définition très simple en début immédiat (bien que expliqué ensuite). Suggestion : ajouter une courte parenthèse 'déduction comptable annuelle sans sortie de trésorerie' directement après le mot 'amortissement' dans le beat 3 pour garantir compréhension instantanée.",
+    "pedagogie_client : La mention que la quote-part de terrain n'est pas amortissable n'est pas dans le script principal et doit être incluse car c'est une erreur fréquente.",
+    "retention_attention : Hook efficace. Toutefois, la deuxième séquence (question OUI/NON) risque de freiner le rythme sans apporter d'information nouvelle — pourrait être remplacée par 'Souvent oui au réel' pour maintenir curiosité et progression.",
+    "retention_attention : Le beat 6 (nuance) est indispensable mais devrait être plus concis pour conserver l'attention jusqu'au CTA.",
+    "conversion_confiance : Le ton est professionnel et sobre. Pour renforcer la confiance sans donner de conseil personnalisé, ajouter une brève précision dans le CTA : 'diagnostic fiscal personnalisé' ou 'vérification de vos amortissements' plutôt que seulement 'faire le point', et garder la mention légale déjà fournie.",
+    "conversion_confiance : Éviter formulations pouvant être perçues comme promesse («résultat imposable zéro pendant des années») sans nuancer par 'peut' ou 'souvent', même si la fiche le signale — dans le script dire 'peut ramener' plutôt que '→ résultat imposable zéro' est plus prudent."
+  ],
+  "recommendations": [
+    "Préciser dans la narration principale que la valeur du terrain n'est pas amortissable et doit être isolée lors du calcul de l'amortissement (ajouter une courte phrase dans le beat 3 ou 4).",
+    "Clarifier 'loyers nets 4 000 €' : indiquer qu'il s'agit de loyers perçus hors charges locatives et sans tenir compte des prélèvements sociaux, ou ajouter 'exemple simplifié'.",
+    "Ajouter en une courte parenthèse immédiate après 'amortissement' : 'déduction comptable annuelle sans sortie de trésorerie' pour faciliter la compréhension immédiate d'un non-spécialiste.",
+    "Remplacer la case OUI / NON par une formulation moins binaire pour maintenir le rythme (ex. 'Souvent : oui au régime réel — voici pourquoi').",
+    "Raccourcir les textes écran pour s'assurer qu'ils sont lisibles en 2–3 secondes chacun ; par exemple transformer la nuance en 'L'amortissement ne crée pas de déficit — la fraction excédentaire est reportée'.",
+    "Nuancer la phrase chiffrée du beat 5 : remplacer '→ résultat imposable zéro pendant des années' par 'peut ramener le résultat imposable à zéro pendant des années (exemple simplifié)'.",
+    "Inclure brièvement, soit dans narration soit en texte écran, que le régime réel exige une comptabilité commerciale (bilan, compte de résultat, liasse) pour que l'auditoire saisisse le coût/obligation associés.",
+    "Adapter le CTA pour préciser l'objet du rendez-vous (ex. 'diagnostic fiscal de votre location meublée — lien en bio') et maintenir la mention légale existante.",
+    "Relire et alléger la narration continue pour éviter répétitions et garantir livraison confortable en 38 secondes.",
+    "Après modifications, effectuer une relecture mot à mot en se chronométrant pour vérifier que chaque texte écran reste lisible et que la voix-off respecte le rythme fixé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-18:reels:location_meublee_reel_amortissement:0",
+  "script_path": "scripts/location_meublee/location_meublee_reel_amortissement__reels__a1__v7.md"
+}

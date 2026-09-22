@@ -1,0 +1,176 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention dans la légende et la narration que le HCSF « fixe des repères » peut être interprétée comme un pouvoir normatif. Le HCSF émet des recommandations / repères (article L631-2-1 donne ses pouvoirs, pas une obligation automatique). Demander de remplacer toute formulation ambiguë par « recommande » ou « fixe des repères/recommandations » systématiquement.",
+        "La parenthèse « (à confirmer) » liée à la durée portée à 27 ans pour travaux/VEFA figure à deux endroits du script. Il faut soit confirmer la source précise (référence HCSF / Banque de France) soit retirer l'indication incertaine pour éviter une information juridique incomplète."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'angle unique mais omet d'indiquer explicitement que l'assurance emprunteur est calculée sur la mensualité (coût mensuel) — phrase utile à ajouter pour clarté: « l'assurance est intégrée au calcul en tant que coût mensuel ».",
+        "L'exemple des deux banques est clair mais gagnerait à préciser brièvement pourquoi une banque consomme sa marge (ex : politique interne, gestion du risque) pour éviter une interprétation arbitraire."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : le script textuel (7 beats + narration continue) peut dépasser 38 s à l'oral si lu à rythme naturel. Recommander un micro-ajustement — réduire la parenthèse '(à confirmer)' et condenser la phrase de la règle pour tenir 35–38 s.",
+        "Le CTA « Prenez rendez-vous via le lien dans ma bio » est conforme à Instagram, mais le script doit éviter toute formulation engageant un conseil personnalisé; la légende le précise, toutefois suggérer d'ajouter en voix « pour un point général » si nécessaire."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La hook est efficace mais la répétition « Les 35 % : OUI ou NON ? Non. » est très abrupte — proposer de remplacer la deuxième ligne par « Non : ce n'est pas une loi, c'est un repère » pour améliorer la fluidité et pédagogique.",
+        "La présence de « (à confirmer) » dans le texte visible à l'écran affaiblit le ton professionnel ; il faut soit confirmer la donnée soit supprimer la parenthèse."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations à lisser pour l'oral (ex : « généralement portée à 27 ans pour travaux ou VEFA » → « portée à 27 ans en cas de travaux importants ou d'achat en VEFA ») pour une prononciation plus naturelle.",
+        "La phrase « Dérogation discrétionnaire » est correcte mais peut surprendre un public non spécialiste ; proposer ajout court : « à la discrétion des banques » pour lever l'ambiguïté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre le tableau 'chiffres' (champ 'Durée maximale avec travaux ou achat en VEFA' marqué 'a_verifier: true') et l'usage dans le script (présenté mais avec '(à confirmer)'). Il faut soit valider la donnée (source HCSF/Banque de France) soit retirer toute mention non confirmée.",
+        "La narration continue répète mot à mot certaines phrases du tableau (risk of verbosity) : recommander une ultime lecture à voix haute pour vérifier durée et fluidité et enlever parenthèses ou redondances."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 4 : le schéma 'balance 35% - 25 ans / 27 ans' est pertinent, mais le pictogramme 'assurance' doit clairement représenter 'coût assurance mensuel' (ex : petite vignette avec € / mois) pour que le spectateur comprenne que l'assurance est incluse dans le calcul.",
+        "Beat 6 : les pictogrammes listés (assurance, voiture, pile de contrats) sont pertinents mais la mention 'pictogramme point d'exclamation' peut paraître alarmiste ; recommander un symbole neutre d'attention (triangle) et s'assurer qu'aucun pictogramme ne suggère un conseil personnalisé."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est globalement adapté à un non-spécialiste, mais l'expression 'reste à vivre' mériterait une very brève définition en une dizaine de signes à l'écran (ex : 'reste à vivre = revenus - charges') pour aider la compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention 'à confirmer' et l'absence d'une phrase très brève sur la liberté d'assurance (loi Lemoine) affaiblissent légèrement la confiance. Suggestion : ajouter une courte phrase écrite ou en voix « depuis la loi Lemoine, l'assurance est librement renégociable » pour renforcer utilité et crédibilité (en restant général)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La mention dans la légende et la narration que le HCSF « fixe des repères » peut être interprétée comme un pouvoir normatif. Le HCSF émet des recommandations / repères (article L631-2-1 donne ses pouvoirs, pas une obligation automatique). Demander de remplacer toute formulation ambiguë par « recommande » ou « fixe des repères/recommandations » systématiquement.",
+    "juridique_fiscal : La parenthèse « (à confirmer) » liée à la durée portée à 27 ans pour travaux/VEFA figure à deux endroits du script. Il faut soit confirmer la source précise (référence HCSF / Banque de France) soit retirer l'indication incertaine pour éviter une information juridique incomplète.",
+    "completude : Le script respecte l'angle unique mais omet d'indiquer explicitement que l'assurance emprunteur est calculée sur la mensualité (coût mensuel) — phrase utile à ajouter pour clarté: « l'assurance est intégrée au calcul en tant que coût mensuel ».",
+    "completude : L'exemple des deux banques est clair mais gagnerait à préciser brièvement pourquoi une banque consomme sa marge (ex : politique interne, gestion du risque) pour éviter une interprétation arbitraire.",
+    "plateforme : Durée estimée 38 secondes : le script textuel (7 beats + narration continue) peut dépasser 38 s à l'oral si lu à rythme naturel. Recommander un micro-ajustement — réduire la parenthèse '(à confirmer)' et condenser la phrase de la règle pour tenir 35–38 s.",
+    "plateforme : Le CTA « Prenez rendez-vous via le lien dans ma bio » est conforme à Instagram, mais le script doit éviter toute formulation engageant un conseil personnalisé; la légende le précise, toutefois suggérer d'ajouter en voix « pour un point général » si nécessaire.",
+    "editorial : La hook est efficace mais la répétition « Les 35 % : OUI ou NON ? Non. » est très abrupte — proposer de remplacer la deuxième ligne par « Non : ce n'est pas une loi, c'est un repère » pour améliorer la fluidité et pédagogique.",
+    "editorial : La présence de « (à confirmer) » dans le texte visible à l'écran affaiblit le ton professionnel ; il faut soit confirmer la donnée soit supprimer la parenthèse.",
+    "formulation_professionnelle : Quelques formulations à lisser pour l'oral (ex : « généralement portée à 27 ans pour travaux ou VEFA » → « portée à 27 ans en cas de travaux importants ou d'achat en VEFA ») pour une prononciation plus naturelle.",
+    "formulation_professionnelle : La phrase « Dérogation discrétionnaire » est correcte mais peut surprendre un public non spécialiste ; proposer ajout court : « à la discrétion des banques » pour lever l'ambiguïté.",
+    "contre_verification_finale : Incohérence mineure entre le tableau 'chiffres' (champ 'Durée maximale avec travaux ou achat en VEFA' marqué 'a_verifier: true') et l'usage dans le script (présenté mais avec '(à confirmer)'). Il faut soit valider la donnée (source HCSF/Banque de France) soit retirer toute mention non confirmée.",
+    "contre_verification_finale : La narration continue répète mot à mot certaines phrases du tableau (risk of verbosity) : recommander une ultime lecture à voix haute pour vérifier durée et fluidité et enlever parenthèses ou redondances.",
+    "coherence_pictogrammes : Beat 4 : le schéma 'balance 35% - 25 ans / 27 ans' est pertinent, mais le pictogramme 'assurance' doit clairement représenter 'coût assurance mensuel' (ex : petite vignette avec € / mois) pour que le spectateur comprenne que l'assurance est incluse dans le calcul.",
+    "coherence_pictogrammes : Beat 6 : les pictogrammes listés (assurance, voiture, pile de contrats) sont pertinents mais la mention 'pictogramme point d'exclamation' peut paraître alarmiste ; recommander un symbole neutre d'attention (triangle) et s'assurer qu'aucun pictogramme ne suggère un conseil personnalisé.",
+    "pedagogie_client : Le vocabulaire est globalement adapté à un non-spécialiste, mais l'expression 'reste à vivre' mériterait une very brève définition en une dizaine de signes à l'écran (ex : 'reste à vivre = revenus - charges') pour aider la compréhension immédiate.",
+    "conversion_confiance : La mention 'à confirmer' et l'absence d'une phrase très brève sur la liberté d'assurance (loi Lemoine) affaiblissent légèrement la confiance. Suggestion : ajouter une courte phrase écrite ou en voix « depuis la loi Lemoine, l'assurance est librement renégociable » pour renforcer utilité et crédibilité (en restant général)."
+  ],
+  "recommendations": [
+    "Remplacer toute formulation ambiguë sur le pouvoir du HCSF par « recommande » ou « fixe des repères/recommandations » pour éviter une interprétation normative.",
+    "Confirmer la donnée « 27 ans pour travaux / VEFA » auprès d'une source HCSF ou Banque de France ; si la confirmation n'est pas possible, supprimer la parenthèse '(à confirmer)' et reformuler prudemment (« parfois portée à 27 ans en cas de travaux importants ou VEFA »).",
+    "Retoucher la narration pour tenir la durée cible (38 s) : condenser la phrase de la règle, supprimer parenthèses et redondances, et effectuer une lecture chronométrée.",
+    "Amender la hook/réponse pour plus de pédagogie : par exemple remplacer « Non. » par « Non : ce n'est pas une loi, c'est un repère. »",
+    "Ajouter, en voix ou texte écran très bref, que l'assurance est intégrée au calcul en tant que coût mensuel (ex: 'assurance = coût €/mois inclus dans les 35 %').",
+    "Préciser brièvement pourquoi une banque peut consommer sa marge de dérogation (ex : politique interne / gestion du risque) dans l'exemple des deux banques.",
+    "Adapter pictogrammes : remplacer le point d'exclamation par un triangle d'attention neutre ; pour l'assurance, utiliser un pictogramme avec '€ / mois' pour expliciter qu'il s'agit d'un coût mensuel inclus.",
+    "Ajouter une mini-définition à l'écran pour 'reste à vivre' (ex : 'reste à vivre = revenus - charges') afin d'aider les non-spécialistes.",
+    "Optionnel mais recommandé pour confiance : ajouter une très courte mention (texte ou voix) rappelant la loi Lemoine sur la liberté d'assurance pour indiquer une piste d'amélioration du taux d'effort (sans conseil personnalisé)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-12:reels:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__reels__a3__v2.md"
+}

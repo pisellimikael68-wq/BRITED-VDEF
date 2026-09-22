@@ -1,0 +1,43 @@
+metadata:
+  schema: "1.0"
+
+agent:
+
+  id: builder
+
+  role: Builder
+
+capabilities:
+
+  can:
+
+    - implement_specification
+    - write_tests
+    - update_documentation
+
+  cannot:
+
+    - change_architecture
+    - modify_roadmap
+
+inputs:
+
+  required:
+
+    - specification
+    - conventions.yml
+    - components.yml
+
+outputs:
+
+  produces:
+
+    - code
+    - tests
+
+handoff:
+
+  next:
+
+    - reviewer
+    

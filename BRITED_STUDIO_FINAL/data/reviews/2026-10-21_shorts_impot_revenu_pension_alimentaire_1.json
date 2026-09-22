@@ -1,0 +1,185 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED mais répète mot pour mot la 'Narration continuous' deux fois (bloc narratif doublé), ce qui constitue une divergence formelle par rapport à la consigne de fidélité stricte au contenu source (redondance à corriger)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les références légales citées sont pertinentes, mais le script ne précise pas que les montants-plafonds précis de la déduction varient et ne donne pas l'ordre de grandeur ni l'indication que des montants forfaitaires s'appliquent différemment selon l'hébergement (il mentionne 'plafond varie' sans spécifier ni renvoyer au BOFiP pour montant/forfait).",
+        "L'exemple chiffré (4 000 € × 41 %) est pédagogique mais devrait rappeler que la pension déduite reste imposable chez l'enfant et qu'il faut envisager l'impact sur ses droits — cela est mentionné ailleurs, mais pas directement relié à l'exemple chiffré."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale et l'exemple mais omet d'indiquer explicitement que rattachement et déduction sont exclusifs pour une même année et pour le même enfant (la fiche BRITED l'indique comme erreur fréquente).",
+        "Il ne précise pas que la déduction nécessite des justificatifs et qu'un forfait existe pour logement/nourriture — la première phrase du point de vigilance mentionne la nécessité de justificatifs, mais le forfait est seulement évoqué rapidement; il faudrait lier clairement forfait → dispense de justificatifs pour ces postes."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes, mais la narration comporte une répétition intégrale à la fin (duplicata de la 'Narration continuous'), ce qui affaiblit la fluidité et risque d'alourdir la voix off ou la description.",
+        "Le CTA 'lien dans ma bio' est adapté à la plateforme mais pourrait préciser 'rendez-vous' sans ambigüité (ex. rendez-vous téléphonique ou bilan fiscal)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est généralement claire mais contient des tournures un peu techniques ('rapatrie ses revenus') qui pourraient être reformulées pour un non-spécialiste ('ses revenus sont intégrés au foyer fiscal').",
+        "La répétition textuelle nuit à la lecture phrase par phrase et doit être supprimée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, on relève la duplication complète de la 'Narration continuous' (deux blocs identiques) — erreur de montage/script à corriger.",
+        "La correspondance exacte entre chaque visuel et la phrase prononcée est globalement bonne mais le visuel 'pictogramme loi' est vague : il conviendrait d'indiquer 'icône texte de loi / document officiel' pour mieux coller au propos."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont cohérents, mais le libellé 'pictogramme loi' est générique et pourrait prêter à confusion ; il faudrait un visuel représentant un document officiel ou un paragraphe de loi.",
+        "Le schéma en deux voies est pertinent mais il faut s'assurer que l'icône 'euro' illustre bien la déduction et non le coût total (risque d'ambiguïté visuelle)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais contient redondance (duplication de narration) qui réduit l'efficacité du format court.",
+        "L'énoncé 'le plafond varie si l'enfant est hébergé (forfait logement et nourriture)' gagnerait à être légèrement précisé (forfait distinct pour hébergement) pour éviter toute confusion."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non-spécialiste mais emploie parfois des termes techniques non explicités ('demi‑part', 'rappatrie ses revenus'). Il faudrait une courte parenthèse explicative pour 'demi‑part' (gain fiscal via quotient familial).",
+        "L'exemple chiffré est utile mais il faudrait préciser qu'il s'agit d'une estimation brute et que l'impact réel dépend de la situation du parent et de l'enfant."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook en 1ère seconde efficace, mais la duplication finale et la densité de l'information dans un format 42s risquent de perdre l'auditeur si la diction est rapide ; recommande suppression du doublon et resserrage de certaines phrases."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et CTA approprié. Toutefois, pour renforcer la confiance, il serait utile d'ajouter une phrase très courte 'voir votre cas personnel avec un conseiller' (éviter impression de conseil personnalisé dans le contenu lui‑même), ou préciser que le rendez-vous est un 'bilan fiscal'.",
+        "La mention légale en bas est bonne, mais pourrait être légèrement reformulée pour insister sur l'absence de conseil personnalisé dans la vidéo."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 119,
+      "seconds": 44.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 119,
+        "seconds": 44.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED mais répète mot pour mot la 'Narration continuous' deux fois (bloc narratif doublé), ce qui constitue une divergence formelle par rapport à la consigne de fidélité stricte au contenu source (redondance à corriger).",
+    "juridique_fiscal : Les références légales citées sont pertinentes, mais le script ne précise pas que les montants-plafonds précis de la déduction varient et ne donne pas l'ordre de grandeur ni l'indication que des montants forfaitaires s'appliquent différemment selon l'hébergement (il mentionne 'plafond varie' sans spécifier ni renvoyer au BOFiP pour montant/forfait).",
+    "juridique_fiscal : L'exemple chiffré (4 000 € × 41 %) est pédagogique mais devrait rappeler que la pension déduite reste imposable chez l'enfant et qu'il faut envisager l'impact sur ses droits — cela est mentionné ailleurs, mais pas directement relié à l'exemple chiffré.",
+    "completude : Le script couvre la règle centrale et l'exemple mais omet d'indiquer explicitement que rattachement et déduction sont exclusifs pour une même année et pour le même enfant (la fiche BRITED l'indique comme erreur fréquente).",
+    "completude : Il ne précise pas que la déduction nécessite des justificatifs et qu'un forfait existe pour logement/nourriture — la première phrase du point de vigilance mentionne la nécessité de justificatifs, mais le forfait est seulement évoqué rapidement; il faudrait lier clairement forfait → dispense de justificatifs pour ces postes.",
+    "editorial : Accroche et progression sont bonnes, mais la narration comporte une répétition intégrale à la fin (duplicata de la 'Narration continuous'), ce qui affaiblit la fluidité et risque d'alourdir la voix off ou la description.",
+    "editorial : Le CTA 'lien dans ma bio' est adapté à la plateforme mais pourrait préciser 'rendez-vous' sans ambigüité (ex. rendez-vous téléphonique ou bilan fiscal).",
+    "formulation_professionnelle : La formulation est généralement claire mais contient des tournures un peu techniques ('rapatrie ses revenus') qui pourraient être reformulées pour un non-spécialiste ('ses revenus sont intégrés au foyer fiscal').",
+    "formulation_professionnelle : La répétition textuelle nuit à la lecture phrase par phrase et doit être supprimée.",
+    "contre_verification_finale : En relecture mot à mot, on relève la duplication complète de la 'Narration continuous' (deux blocs identiques) — erreur de montage/script à corriger.",
+    "contre_verification_finale : La correspondance exacte entre chaque visuel et la phrase prononcée est globalement bonne mais le visuel 'pictogramme loi' est vague : il conviendrait d'indiquer 'icône texte de loi / document officiel' pour mieux coller au propos.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont cohérents, mais le libellé 'pictogramme loi' est générique et pourrait prêter à confusion ; il faudrait un visuel représentant un document officiel ou un paragraphe de loi.",
+    "coherence_pictogrammes : Le schéma en deux voies est pertinent mais il faut s'assurer que l'icône 'euro' illustre bien la déduction et non le coût total (risque d'ambiguïté visuelle).",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais contient redondance (duplication de narration) qui réduit l'efficacité du format court.",
+    "densite_editoriale : L'énoncé 'le plafond varie si l'enfant est hébergé (forfait logement et nourriture)' gagnerait à être légèrement précisé (forfait distinct pour hébergement) pour éviter toute confusion.",
+    "pedagogie_client : Le script est compréhensible pour un non-spécialiste mais emploie parfois des termes techniques non explicités ('demi‑part', 'rappatrie ses revenus'). Il faudrait une courte parenthèse explicative pour 'demi‑part' (gain fiscal via quotient familial).",
+    "pedagogie_client : L'exemple chiffré est utile mais il faudrait préciser qu'il s'agit d'une estimation brute et que l'impact réel dépend de la situation du parent et de l'enfant.",
+    "retention_attention : Hook en 1ère seconde efficace, mais la duplication finale et la densité de l'information dans un format 42s risquent de perdre l'auditeur si la diction est rapide ; recommande suppression du doublon et resserrage de certaines phrases.",
+    "conversion_confiance : Ton sérieux et CTA approprié. Toutefois, pour renforcer la confiance, il serait utile d'ajouter une phrase très courte 'voir votre cas personnel avec un conseiller' (éviter impression de conseil personnalisé dans le contenu lui‑même), ou préciser que le rendez-vous est un 'bilan fiscal'.",
+    "conversion_confiance : La mention légale en bas est bonne, mais pourrait être légèrement reformulée pour insister sur l'absence de conseil personnalisé dans la vidéo."
+  ],
+  "recommendations": [
+    "Supprimer la duplication exacte de la 'Narration continuous' (bloc final répété) pour éviter redondance et perte de temps.",
+    "Ajouter une phrase très courte explicitant que rattachement et déduction sont exclusifs pour une même année et pour le même enfant (erreur fréquente à corriger impérativement).",
+    "Remplacer 'rapatrie ses revenus' par 'ses revenus sont intégrés au foyer fiscal (ils sont alors imposés avec les vôtres)' pour plus de clarté grand public.",
+    "Préciser brièvement que des plafonds/forfaits existent et renvoyer explicitement au BOFiP pour montants détaillés (ex. 'voir BOFiP pour montants/forfaits'), ou ajouter 'le plafond et les forfaits diffèrent selon que l'enfant est hébergé — voir BOFiP'.",
+    "Rendre le visuel 'pictogramme loi' plus précis (icône document officiel ou référence BOFiP) et s'assurer que l'icône 'euro' illustre la déductibilité, pas le montant payé.",
+    "Clarifier l'exemple chiffré en ajoutant une phrase courte: 'exemple indicatif — impact réel variable selon situation' afin d'éviter interprétation comme conseil personnalisé.",
+    "Alléger ou reformuler légèrement certaines tournures techniques ('demi‑part') en une parenthèse explicative courte pour un public non spécialiste.",
+    "Dans le CTA, préciser le type de rendez-vous proposé ('bilan fiscal' ou 'entretien') pour renforcer la confiance et la conversion."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-21:shorts:impot_revenu_pension_alimentaire:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__shorts__a2__v4.md"
+}

@@ -1,0 +1,162 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reste fidèle aux faits de la fiche, mais n'indique pas explicitement que l'exemple chiffré est fictif et qu'il ne doit pas être utilisé pour calculer l'impôt personnel (la fiche l'autorise mais impose la mention). Ajouter la mention directement dans le script/voix permettrait une fidélité stricte."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le mécanisme juridique est correctement cité (article 197 I 4) et l'explication est exacte. Cependant la phrase « Après le calcul de l'impôt brut la décote s'applique » gagnerait à préciser que la décote s'applique automatiquement (et ne se demande pas) pour éviter une interprétation erronée."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle centrale, l'effet sur le taux marginal et une nuance sur la revalorisation. Manque une phrase brève explicitant que la décote n'est pas un abattement sur le revenu (la fiche signale cette erreur fréquente)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bon enchaînement et accroche forte. Recommandation : insérer en voix-off très courte la phrase additionnelle « exemple fictif » lors du beat 5 pour renforcer la clarté et respecter l'éditeur pédagogique."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA propose un rendez‑vous — acceptable. Il manque cependant la mention audible ou visible précisant que le contenu n'est pas un conseil personnalisé (la légende le contient, mais il est préférable de l'indiquer en voix ou en texte court dans la vidéo pour la conformité sécuritaire)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation claire et naturelle globalement. Suggestion : reformuler légèrement la phrase « une hausse réduit la décote et augmente fortement l'impôt net » en « une hausse réduit la décote et peut fortement augmenter l'impôt net » pour nuancer et rester exact."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les enchaînements sont cohérents. Points à corriger détectés : ajouter mention « appliquée automatiquement » et préciser « exemple fictif » à l'instant où l'exemple chiffré est lu afin d'éviter toute confusion d'interprétation."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels proposés correspondent globalement au texte. Remarques localisables : beat 4 'pictogramme règle' devrait illustrer le flux (impôt brut → décote → impôt net) et non une icône générique de règle ; beat 5 doit afficher explicitement les pourcentages 45,25 % et 11 % à côté des colonnes avant/après pour synchronisation texte/visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu accessible à un non‑spécialiste. Toutefois il manque la formulation courte expliquant que la décote 'n'est pas un abattement sur le revenu' — mention présente dans la fiche et utile à un non-spécialiste pour éviter confusion."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et appels à l'action appropriés. Pour renforcer la confiance, ajouter en voix ou petit bandeau la phrase de non-responsabilité courte (ex. « contenu pédagogique, pas un conseil personnalisé ») lors du CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script reste fidèle aux faits de la fiche, mais n'indique pas explicitement que l'exemple chiffré est fictif et qu'il ne doit pas être utilisé pour calculer l'impôt personnel (la fiche l'autorise mais impose la mention). Ajouter la mention directement dans le script/voix permettrait une fidélité stricte.",
+    "juridique_fiscal : Le mécanisme juridique est correctement cité (article 197 I 4) et l'explication est exacte. Cependant la phrase « Après le calcul de l'impôt brut la décote s'applique » gagnerait à préciser que la décote s'applique automatiquement (et ne se demande pas) pour éviter une interprétation erronée.",
+    "completude : La vidéo couvre la règle centrale, l'effet sur le taux marginal et une nuance sur la revalorisation. Manque une phrase brève explicitant que la décote n'est pas un abattement sur le revenu (la fiche signale cette erreur fréquente).",
+    "editorial : Bon enchaînement et accroche forte. Recommandation : insérer en voix-off très courte la phrase additionnelle « exemple fictif » lors du beat 5 pour renforcer la clarté et respecter l'éditeur pédagogique.",
+    "securite : Le CTA propose un rendez‑vous — acceptable. Il manque cependant la mention audible ou visible précisant que le contenu n'est pas un conseil personnalisé (la légende le contient, mais il est préférable de l'indiquer en voix ou en texte court dans la vidéo pour la conformité sécuritaire).",
+    "formulation_professionnelle : Formulation claire et naturelle globalement. Suggestion : reformuler légèrement la phrase « une hausse réduit la décote et augmente fortement l'impôt net » en « une hausse réduit la décote et peut fortement augmenter l'impôt net » pour nuancer et rester exact.",
+    "contre_verification_finale : Les enchaînements sont cohérents. Points à corriger détectés : ajouter mention « appliquée automatiquement » et préciser « exemple fictif » à l'instant où l'exemple chiffré est lu afin d'éviter toute confusion d'interprétation.",
+    "coherence_pictogrammes : Les visuels proposés correspondent globalement au texte. Remarques localisables : beat 4 'pictogramme règle' devrait illustrer le flux (impôt brut → décote → impôt net) et non une icône générique de règle ; beat 5 doit afficher explicitement les pourcentages 45,25 % et 11 % à côté des colonnes avant/après pour synchronisation texte/visuel.",
+    "pedagogie_client : Contenu accessible à un non‑spécialiste. Toutefois il manque la formulation courte expliquant que la décote 'n'est pas un abattement sur le revenu' — mention présente dans la fiche et utile à un non-spécialiste pour éviter confusion.",
+    "conversion_confiance : Ton sérieux et appels à l'action appropriés. Pour renforcer la confiance, ajouter en voix ou petit bandeau la phrase de non-responsabilité courte (ex. « contenu pédagogique, pas un conseil personnalisé ») lors du CTA."
+  ],
+  "recommendations": [
+    "Ajouter, au moment de l'exemple chiffré (beat 5), une mention verbale et visuelle brève : « Exemple fictif — ne pas utiliser pour calculer votre impôt ». Cela respecte la source qui autorise des illustrations fictives mais interdit le calcul d'impôt réel du spectateur.",
+    "Préciser explicitement, dans la narration (par ex. beat 4 ou 6) que la décote est appliquée automatiquement par l'administration et ne se demande pas : phrase proposée « La décote est appliquée automatiquement, vous n'avez rien à demander. »",
+    "Inclure une très courte mention audible ou en bandeau lors du CTA répétant la légende : « Contenu pédagogique — pas un conseil fiscal personnalisé ». Cela améliore conformité sécurité et conversion confiance.",
+    "Modifier la formulation de la phrase sur l'effet d'une hausse : remplacer « augmente fortement l'impôt net » par « peut fortement augmenter l'impôt net » pour nuancer et rester précis.",
+    "Adapter les pictogrammes comme suit : beat 4 afficher clairement un schéma de flux (impôt brut → décote → impôt net) plutôt qu'une icône générique ; beat 5 faire apparaître les pourcentages 45,25 % et 11 % à côté des colonnes 'avant/après' pour une correspondance texte/visuel directe.",
+    "Ajouter une très brève phrase indiquant que les montants et plafonds sont revalorisés chaque année et qu'il faut se référer à l'année de référence pour des chiffres chiffrés (par ex. dans beat 6 : « Les montants sont revalorisés chaque année — vérifiez l'année de référence »)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-28:reels:impot_revenu_decote:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_decote__reels__a3__v7.md"
+}

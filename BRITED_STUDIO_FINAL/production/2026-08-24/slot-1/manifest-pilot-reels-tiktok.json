@@ -1,0 +1,59 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "scripts_ready",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+      "platform": "reels",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v13.md",
+      "video": "",
+      "script_sha256": "30d7cfd1739094c4300446180448cbe1cafb936eed0648067af7b570d8192e97",
+      "spec_sha256": "8f528da153c76a576f035e9e0ba8ac63e3b37c1228cc71d316c96dd02f55b917",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_INSTAGRAM_VISUEL_A_V5.json",
+        "reference_video": "design-system/prototypes/Prototype_Instagram_Visuel_A_V5_titre_aligne.mp4",
+        "reference_sha256": "af2073961d4658fde60a0c958e537695883ca778921be4b864339e3d78f0298e",
+        "renderer": "video_pipeline/render_social_visual_a.py"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 38.9,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-17T22:28:20"
+      },
+      "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "instagram",
+        "tiktok"
+      ],
+      "linked_publication_ids": [
+        "2026-08-24:reels:regimes_communaute_par_defaut:0",
+        "2026-08-24:tiktok:regimes_communaute_par_defaut:0"
+      ],
+      "shared_identical_video": true
+    }
+  ]
+}

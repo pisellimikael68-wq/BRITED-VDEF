@@ -1,0 +1,142 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Beat 2 visuel 'Deux portefeuilles identiques vs portefeuilles différents' : l'intitulé est descriptif mais ne précise suffisamment comment différencier visuellement des risques 'indépendants' (ex. mêmes grandes valeurs européennes vs exposition diversifiée géographiquement). Problème localisable : description de l'image au Beat 2.",
+        "Beat 3 schéma 3 pictogrammes (classes d'actifs, zones, enveloppes) : le pictogramme 'zones' et 'classes d'actifs' risquent d'être confondus si les icônes ne sont pas explicites (par ex. globe pour zones, barres pour classes). Problème localisable : description du visuel au Beat 3.",
+        "Beat 6 pictogramme calendrier et bouton centré : formulation 'lien dans ma bio' implique un créateur individuel ; si diffusion par un compte institutionnel, le pictogramme et le texte peuvent prêter à confusion. Problème localisable : Beat 6 visuel et texte écran."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "CTA 'Prenez rendez-vous via le lien dans ma bio.' : formulation en première personne peut créer une attente de conseil personnalisé immédiat. Problème localisable : texte écran et narration finale (CTA). Recommandation : ajouter la mention standard de non-conseil juste avant le CTA ou reformuler pour indiquer 'lien dans la bio du créateur' si diffusé par un tiers."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "coherence_pictogrammes : Beat 2 visuel 'Deux portefeuilles identiques vs portefeuilles différents' : l'intitulé est descriptif mais ne précise suffisamment comment différencier visuellement des risques 'indépendants' (ex. mêmes grandes valeurs européennes vs exposition diversifiée géographiquement). Problème localisable : description de l'image au Beat 2.",
+    "coherence_pictogrammes : Beat 3 schéma 3 pictogrammes (classes d'actifs, zones, enveloppes) : le pictogramme 'zones' et 'classes d'actifs' risquent d'être confondus si les icônes ne sont pas explicites (par ex. globe pour zones, barres pour classes). Problème localisable : description du visuel au Beat 3.",
+    "coherence_pictogrammes : Beat 6 pictogramme calendrier et bouton centré : formulation 'lien dans ma bio' implique un créateur individuel ; si diffusion par un compte institutionnel, le pictogramme et le texte peuvent prêter à confusion. Problème localisable : Beat 6 visuel et texte écran.",
+    "conversion_confiance : CTA 'Prenez rendez-vous via le lien dans ma bio.' : formulation en première personne peut créer une attente de conseil personnalisé immédiat. Problème localisable : texte écran et narration finale (CTA). Recommandation : ajouter la mention standard de non-conseil juste avant le CTA ou reformuler pour indiquer 'lien dans la bio du créateur' si diffusé par un tiers."
+  ],
+  "recommendations": [
+    "Coherence pictogrammes (Beat 2, 3, 6) : préciser dans le script des icônes claires et distinctes pour éviter toute ambiguïté visuelle. Suggestions concrètes :",
+    "- Beat 2 : remplacer 'Deux portefeuilles identiques vs portefeuilles différents' par 'Gauche : deux paniers contenant les mêmes grandes entreprises (mêmes logos répétées) ; Droite : paniers contenant actions, obligations, immobilier, cash (icônes distinctes)'.",
+    "- Beat 3 : définir explicitement les pictogrammes : 'Classes d'actifs = pile de pièces + immeuble + graph; Zones = petit globe + drapeaux; Enveloppes = icône PEA, icône assurance‑vie, icône compte‑titre'.",
+    "- Beat 6 : si la vidéo est publiée par une entreprise ou un compte collectif, remplacer le pictogramme calendrier par une icône 'contact' et reformuler le texte en 'Prenez rendez-vous via le lien dans la bio du compte.'",
+    "Conversion confiance / CTA : atténuer la première personne et préciser la nature du rendez‑vous pour éviter attente de conseil personnalisé gratuit immédiat. Exemple de reformulation : 'Pour faire le point sur votre situation, prenez rendez‑vous via le lien dans la bio. Contenu pédagogique — non un conseil personnalisé.' Ou ajouter la mention de non‑conseil juste avant le CTA dans la narration.",
+    "Après corrections proposées ci‑dessus, relancer une contre‑vérification ciblée sur les agents 'coherence_pictogrammes' et 'conversion_confiance' pour obtenir un score de 10/10 et ainsi atteindre la conformité totale exigée par la règle de certification."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-10:shorts:culture_diversification:1",
+  "script_path": "scripts/culture_financiere/culture_diversification__shorts__a2__v2.md"
+}

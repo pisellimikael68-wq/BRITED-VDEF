@@ -1,0 +1,367 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 42.49,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 42.49,
+      "peak": 0.84143,
+      "rms": 0.15185,
+      "dc": 5.8e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.166,
+        "peak": 0.78479,
+        "rms": 0.13194,
+        "dc": 8.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.408,
+        "peak": 0.75165,
+        "rms": 0.12753,
+        "dc": 0.000146,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.666,
+        "peak": 0.79434,
+        "rms": 0.1244,
+        "dc": 6.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.32,
+        "peak": 0.79431,
+        "rms": 0.12424,
+        "dc": 6.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.096,
+        "peak": 0.79431,
+        "rms": 0.11437,
+        "dc": 1.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.372,
+        "peak": 0.64655,
+        "rms": 0.1179,
+        "dc": 0.000116,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+        "transcript": "Changer de régime matrimonial en cours de mariage, c'est possible.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9178,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Oui, en général par acte notarié, sans délai minimum.",
+        "transcript": "Oui, en général par acte notarié, sans délai minimum.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8769,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+        "transcript": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers. Ils ont trois mois pour s'opposer. L'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.4143,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+        "transcript": "Exemple, un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité. Le notaire liquide le régime précédent et calcule les récompenses.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2986,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+        "transcript": "Attention, la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.3285,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      40,
+      42,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      189.5,
+      158.4,
+      173.8,
+      173.8,
+      164.9,
+      189.9
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Couple face à face, point d'interrogation",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "landmark",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Pictogrammes : enveloppe, horloge 3 mois, juge",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "users",
+          "calendar"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          429,
+          672,
+          751
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Patron, usine, séparation des coffres, calculatrices",
+        "family": "loi",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "heart-handshake",
+          "shield-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          419,
+          672,
+          761
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Balance, enfants et héritage barré, €100000 grisé",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scale",
+          "banknote"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          405,
+          672,
+          775
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

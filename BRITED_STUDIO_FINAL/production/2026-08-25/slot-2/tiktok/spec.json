@@ -1,0 +1,148 @@
+{
+  "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1",
+  "platform": "tiktok",
+  "concept_id": "regimes_pacs_concubinage",
+  "title": "PACS et concubinage : ce qui n'est pas protégé",
+  "header": "PACS et concubinage : ce qui n'est pas protégé",
+  "serie": "juridique",
+  "narration": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ? Le partenaire de PACS est exonéré de droits de succession mais, sans testament, il n'hérite de rien ; le concubin n'a aucune vocation successorale et serait taxé à soixante pour cent sur ce qu'un testament lui laisse. Qui hérite relève du Code civil ; combien on paie relève du Code général des impôts. Exemple : un couple pacsé propriétaire avec enfants d'une première union : une part revient aux enfants et se retrouve en indivision malgré l'exonération. Attention : le testament est limité par la réserve héréditaire ; le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ?",
+      "visual": "Grand point d'interrogation + pictogramme personne",
+      "screen_text": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ?"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Le partenaire de PACS est exonéré de droits de succession mais, sans testament, il n'hérite de rien ; le concubin n'a aucune vocation successorale et serait taxé à soixante pour cent sur ce qu'un testament lui laisse.",
+      "visual": "Deux colonnes : PACS / Concubinage, icônes fiscalité et croix héritage",
+      "screen_text": "PACS = exonération fiscale MAIS pas d'héritage sans testament. Concubin = aucune vocation ; si testament, taux 60 %"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Qui hérite relève du Code civil ; combien on paie relève du Code général des impôts.",
+      "visual": "Icône balance + icône %",
+      "screen_text": "Qui hérite = Code civil. Combien on paie = Code général des impôts"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : un couple pacsé propriétaire avec enfants d'une première union : une part revient aux enfants et se retrouve en indivision malgré l'exonération.",
+      "visual": "Maison en indivision, pictogrammes enfants + maison",
+      "screen_text": "Exemple : couple pacsé propriétaire + enfants = indivision malgré exonération"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Attention : le testament est limité par la réserve héréditaire ; le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an.",
+      "visual": "Icône contrat + calendrier 1 an",
+      "screen_text": "Testament limité par la réserve ; maintien logement 1 an"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier + pictogramme lien",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ?",
+      "visual": "Grand point d'interrogation + pictogramme personne",
+      "screen_text": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Le partenaire de PACS est exonéré de droits de succession mais, sans testament, il n'hérite de rien ; le concubin n'a aucune vocation successorale et serait taxé à soixante pour cent sur ce qu'un testament lui laisse.",
+      "visual": "Deux colonnes : PACS / Concubinage, icônes fiscalité et croix héritage",
+      "screen_text": "Le partenaire de PACS est exonéré de droits de succession mais, sans testament, il n'hérite de rien ; le concubin n'a aucune vocation successorale et serait taxé à soixante pour cent sur ce qu'un testament lui laisse.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 34
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Qui hérite relève du Code civil ; combien on paie relève du Code général des impôts.",
+      "visual": "Icône balance + icône %",
+      "screen_text": "Qui hérite relève du Code civil ; combien on paie relève du Code général des impôts.",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 42
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : un couple pacsé propriétaire avec enfants d'une première union : une part revient aux enfants et se retrouve en indivision malgré l'exonération.",
+      "visual": "Maison en indivision, pictogrammes enfants + maison",
+      "screen_text": "Exemple : un couple pacsé propriétaire avec enfants d'une première union : une part revient aux enfants et se retrouve en indivision malgré l'exonération.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 38
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Attention : le testament est limité par la réserve héréditaire ; le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an.",
+      "visual": "Icône contrat + calendrier 1 an",
+      "screen_text": "Attention : le testament est limité par la réserve héréditaire ; le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an.",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 38
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier + pictogramme lien",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "615d5aa0a0a5016447a15dfa1a6ccb546064b20f8868717cea553371ae62cbd1",
+    "adapted_hash": "615d5aa0a0a5016447a15dfa1a6ccb546064b20f8868717cea553371ae62cbd1",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 34,
+    "cta_normalized": false,
+    "warnings": []
+  },
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

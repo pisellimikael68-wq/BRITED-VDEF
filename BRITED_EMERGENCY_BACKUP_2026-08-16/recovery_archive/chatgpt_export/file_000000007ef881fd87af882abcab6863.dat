@@ -1,0 +1,73 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Engineering"
+  last_updated: null
+
+coding:
+
+  language: Python
+
+  python:
+    version: "3.12+"
+
+  formatting:
+    formatter: black
+    linter: ruff
+    type_checker: mypy
+
+  typing:
+    required: true
+
+  documentation:
+    docstrings: Google
+
+architecture:
+
+  philosophy:
+
+    - SOLID
+    - DRY
+    - KISS
+    - YAGNI
+
+  forbidden:
+
+    - Circular dependencies
+    - Business logic in UI
+    - God Objects
+    - Hidden globals
+
+quality:
+
+  testing:
+    framework: pytest
+    required: true
+
+  coverage:
+    minimum: 90
+
+review:
+
+  mandatory: true
+
+  checklist:
+
+    - Typing
+    - Documentation
+    - Tests
+    - Architecture
+    - Dead code
+    - Duplication
+
+git:
+
+  branching:
+
+    - feature/*
+    - fix/*
+    - hotfix/*
+    - release/*
+
+  commits: Conventional Commits
+  

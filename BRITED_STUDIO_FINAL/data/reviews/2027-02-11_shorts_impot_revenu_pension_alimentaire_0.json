@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ indique explicitement l'âge 18 et l'âge limite de rattachement 25 ; le script évoque bien la majorité et le rattachement étudiant mais n'affiche pas le chiffre 25 ans dans le texte écran ni dans la narration. Il manque la mention chiffrée explicite \"jusqu'à 25 ans\" pour le rattachement étudiant, alors que la source le précise."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement les références légales citées, mais il omet de préciser que la pension déduite doit être \"proportionnée aux ressources du débiteur et aux besoins de l'enfant\" (condition issue de la doctrine et de l'article 156 CGI) ; il évoque la nécessité de justification mais sans formuler la condition de proportionnalité, ce qui peut conduire à une interprétation incomplète."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script fournit un exemple chiffré sommaire (100 € → 41 €) mais ne propose pas de comparaison chiffrée concrète avec l'effet d'une demi‑part ou d'une part, ce qui est pourtant suggéré comme point central de la fiche. L'absence de ce chiffrage comparatif rend le conseil moins opérationnel."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes, mais la mention finale \"Prenez rendez-vous via le lien dans ma bio\" frôle le conseil personnalisé. La consigne \"Ne jamais trancher à la place du spectateur\" impose d'ajouter une phrase rappelant que le choix dépend de la TMI et de la composition du foyer avant le CTA (la fiche l'interdit de trancher à la place du spectateur)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient un CTA vers une prise de rendez‑vous ; il est pédagogique mais devrait rappeler explicitement que le contenu n'est pas un conseil personnalisé (la mention globale figure dans la légende mais pas dans la vidéo). Pour respecter l'agent sécurité, il faudrait une courte mention audio ou écran précisant que c'est une information générale, non un conseil personnalisé."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration est lisible mais une phrase est longue et dense : \"La rentabilité dépend de votre tranche marginale : la déduction réduit le revenu imposable au taux marginal, le rattachement donne un avantage lié au quotient familial, plafonné ; les deux s'excluent la même année.\" Pour la diction et la clarté orale, il est préférable de scinder en deux phrases plus courtes."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'enchaînement mais un contrôle mot à mot relève une petite incohérence de détail : la légende indique \"Comparer le gain fiscal d'une déduction (valeur multipliée par votre tranche marginale)\" — expression inexacte : l'économie fiscale est approximativement la déduction multipliée par le TMI, mais seuls certains éléments du revenu sont concernés. Il faut atténuer la formulation en « approximativement » ou « en gros ». Cet ajustement n'est pas fait."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La description visuelle indique un 'forfait logement/nourriture' avec un pictogramme mais la BOFIP distingue modalités selon hébergement : le pictogramme doit clairement référer à l'hébergement (ex. icône maison + assiette) pour éviter confusion avec un forfait générique. Le script ne précise pas assez le lien entre icône et règle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique mais contient des termes potentiellement techniques ('tranche marginale', 'quotient familial', 'plafonné') sans très brève définition. Pour un public non spécialiste sur un format très court, ajouter un mot explicatif rapide (ex. 'tranche marginale = taux d'imposition maximal') aiderait."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo inspire compétence mais l'absence d'une phrase audible ou visible indiquant 'information générale, pas un conseil personnalisé' affaiblit la conformité rédactionnelle et la confiance professionnelle pour un CTA menant à un rendez‑vous."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 123,
+      "seconds": 45.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 123,
+        "seconds": 45.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ indique explicitement l'âge 18 et l'âge limite de rattachement 25 ; le script évoque bien la majorité et le rattachement étudiant mais n'affiche pas le chiffre 25 ans dans le texte écran ni dans la narration. Il manque la mention chiffrée explicite \"jusqu'à 25 ans\" pour le rattachement étudiant, alors que la source le précise.",
+    "juridique_fiscal : Le script respecte globalement les références légales citées, mais il omet de préciser que la pension déduite doit être \"proportionnée aux ressources du débiteur et aux besoins de l'enfant\" (condition issue de la doctrine et de l'article 156 CGI) ; il évoque la nécessité de justification mais sans formuler la condition de proportionnalité, ce qui peut conduire à une interprétation incomplète.",
+    "completude : Le script fournit un exemple chiffré sommaire (100 € → 41 €) mais ne propose pas de comparaison chiffrée concrète avec l'effet d'une demi‑part ou d'une part, ce qui est pourtant suggéré comme point central de la fiche. L'absence de ce chiffrage comparatif rend le conseil moins opérationnel.",
+    "editorial : Accroche et progression sont bonnes, mais la mention finale \"Prenez rendez-vous via le lien dans ma bio\" frôle le conseil personnalisé. La consigne \"Ne jamais trancher à la place du spectateur\" impose d'ajouter une phrase rappelant que le choix dépend de la TMI et de la composition du foyer avant le CTA (la fiche l'interdit de trancher à la place du spectateur).",
+    "securite : Le script contient un CTA vers une prise de rendez‑vous ; il est pédagogique mais devrait rappeler explicitement que le contenu n'est pas un conseil personnalisé (la mention globale figure dans la légende mais pas dans la vidéo). Pour respecter l'agent sécurité, il faudrait une courte mention audio ou écran précisant que c'est une information générale, non un conseil personnalisé.",
+    "formulation_professionnelle : La narration est lisible mais une phrase est longue et dense : \"La rentabilité dépend de votre tranche marginale : la déduction réduit le revenu imposable au taux marginal, le rattachement donne un avantage lié au quotient familial, plafonné ; les deux s'excluent la même année.\" Pour la diction et la clarté orale, il est préférable de scinder en deux phrases plus courtes.",
+    "contre_verification_finale : Le script respecte l'enchaînement mais un contrôle mot à mot relève une petite incohérence de détail : la légende indique \"Comparer le gain fiscal d'une déduction (valeur multipliée par votre tranche marginale)\" — expression inexacte : l'économie fiscale est approximativement la déduction multipliée par le TMI, mais seuls certains éléments du revenu sont concernés. Il faut atténuer la formulation en « approximativement » ou « en gros ». Cet ajustement n'est pas fait.",
+    "coherence_pictogrammes : La description visuelle indique un 'forfait logement/nourriture' avec un pictogramme mais la BOFIP distingue modalités selon hébergement : le pictogramme doit clairement référer à l'hébergement (ex. icône maison + assiette) pour éviter confusion avec un forfait générique. Le script ne précise pas assez le lien entre icône et règle.",
+    "pedagogie_client : Le contenu est pédagogique mais contient des termes potentiellement techniques ('tranche marginale', 'quotient familial', 'plafonné') sans très brève définition. Pour un public non spécialiste sur un format très court, ajouter un mot explicatif rapide (ex. 'tranche marginale = taux d'imposition maximal') aiderait.",
+    "conversion_confiance : La vidéo inspire compétence mais l'absence d'une phrase audible ou visible indiquant 'information générale, pas un conseil personnalisé' affaiblit la conformité rédactionnelle et la confiance professionnelle pour un CTA menant à un rendez‑vous."
+  ],
+  "recommendations": [
+    "Mentionner explicitement l'âge-limite de rattachement pour étudiant (jusqu'à 25 ans) dans la narration ou le texte écran pour rester fidèle à la source.",
+    "Ajouter brièvement la condition de proportionnalité des pensions (dépenses réelles et proportionnées aux ressources du parent et aux besoins de l'enfant) dans la ligne sur la nécessité de justification.",
+    "Compléter l'exemple chiffré en comparant rapidement l'effet d'une demi‑part (ou part) pour rendre la comparaison opérationnelle — par exemple : « à 41 %, déduire 100 € économise ≈41 € ; une demi‑part vaut X € selon revenus (donner un exemple simplifié) » — ou remplacer X par « effet variable selon revenus, calculez votre cas ». Si l'ajout dépasse la durée, laisser au moins une invite vers un simulateur.",
+    "Scinder la phrase longue sur la rentabilité en deux phrases plus courtes pour faciliter la diction et la compréhension orale.",
+    "Ajouter une phrase courte et visible (audio ou texte écran) précisant que le contenu est d'ordre général et ne constitue pas un conseil personnalisé avant le CTA.",
+    "Adapter le pictogramme du forfait logement/nourriture pour montrer clairement l'hébergement (ex. maison + assiette) et, si l'espace le permet, ajouter le mot 'forfait si hébergé' en petit texte écran.",
+    "Atténuer la formulation absolue « valeur multipliée par votre tranche marginale » en « approximativement la déduction × votre TMI » pour être juridiquement et fiscalement précis.",
+    "Inclure une très brève définition parenthétique pour 'tranche marginale' ou 'quotient familial' (ex. 'tranche marginale = taux d'imposition maximal appliqué à votre dernier euro') pour un public non spécialiste."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-11:shorts:impot_revenu_pension_alimentaire:0",
+  "script_path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__shorts__a5__v6.md"
+}

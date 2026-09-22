@@ -1,0 +1,17 @@
+{
+  "schema": "brited.platform-connections.v1",
+  "platforms": {
+    "instagram": {
+      "next_step": "Tester l'autorisation sans publier",
+      "secrets_location": "Trousseau macOS"
+    },
+    "tiktok": {
+      "next_step": "Autorisation testée en lecture seule ; publication verrouillée",
+      "secrets_location": "Trousseau macOS"
+    },
+    "youtube": {
+      "next_step": "Périmètre youtube.upload vérifié ; publication verrouillée",
+      "secrets_location": "Trousseau macOS"
+    }
+  }
+}

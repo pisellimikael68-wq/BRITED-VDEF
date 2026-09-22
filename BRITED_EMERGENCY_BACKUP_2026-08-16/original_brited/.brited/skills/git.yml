@@ -1,0 +1,24 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: git
+
+capabilities:
+
+  - create_branch
+  - commit_changes
+  - prepare_pull_request
+  - generate_commit_message
+
+rules:
+
+  - atomic_commits
+  - conventional_commits
+
+outputs:
+
+  - commit
+  - pull_request
+  

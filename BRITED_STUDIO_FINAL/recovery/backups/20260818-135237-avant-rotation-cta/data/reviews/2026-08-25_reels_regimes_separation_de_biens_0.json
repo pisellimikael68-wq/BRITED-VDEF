@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.8,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.8,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 86,
+      "seconds": 31.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 86,
+        "seconds": 31.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "6aefc1616b00398eb7a5814034f88a6dc7b71abdf92c478d8cac61222db47163",
+      "adapted_hash": "6aefc1616b00398eb7a5814034f88a6dc7b71abdf92c478d8cac61222db47163",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter, si possible dans le texte écran ou la légende, un court exemple concret de dette ménagère (loyer ou facture) pour illustrer l'application de l'article 220 et renforcer l'impact pédagogique sans alourdir la voix off.",
+    "Préciser brièvement l'obligation de conserver preuves (relevés, factures) dans la légende ou un texte écran pour rendre l'avertissement lié à l'article 1538 plus opérationnel.",
+    "Vérifier que la mention « Contenu pédagogique général » reste visible en lecture sur Reels afin d'éviter toute impression de conseil personnalisé ; la légende actuelle contient cette réserve mais s'assurer de sa lisibilité est recommandé.",
+    "Si la durée le permet, ralentir légèrement la portion expliquant la présomption d'indivision (art.1538) pour que l'auditeur comprenne la conséquence pratique (présomption 50/50) — utile sur un format très court."
+  ],
+  "reviewed_at": "2026-08-17T17:24:47",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-25:reels:regimes_separation_de_biens:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_separation_de_biens__reels__a1.md"
+}

@@ -1,0 +1,111 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": false,
+  "failures": [
+    "diction non conforme sur question (similarité 50%)"
+  ],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Vous pensez qu'on ne peut pas changer de régime pendant le mariage ?",
+      "transcript": "Vous pensez qu'on ne peut pas changer de régime pendant le mariage ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9324,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Peut on changer de régime matrimonial ?",
+      "transcript": "Peu ont changé de régime matrimonial.",
+      "similarity": 0.5,
+      "missing": [
+        "peut",
+        "on",
+        "changer"
+      ],
+      "critical_missing": [
+        "peut"
+      ],
+      "unexpected": [
+        "peu",
+        "ont",
+        "change"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8298,
+      "passed": false
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui : par acte notarié, sans délai minimum ni homologation systématique.",
+      "transcript": "Oui, par acte notarié, sans délai minimum ni homologation systématique.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.961,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer.",
+      "transcript": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers. Ils ont trois mois pour s'opposer.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1616,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un chef d'entreprise passe de la communauté à la séparation de biens pour isoler le risque professionnel.",
+      "transcript": "Exemple, un chef d'entreprise passe de la communauté à la séparation de biens pour isoler le risque professionnel.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1143,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Si des enfants sont mineurs, l'homologation judiciaire reste exigée ; la communauté universelle supprime la succession du premier parent et peut faire perdre l'abattement aux enfants.",
+      "transcript": "Si des enfants sont mineurs, l'homologation judiciaire reste exigée, la communauté universelle supprime la succession du premier parent et peut faire perdre l'abattement aux enfants.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3333,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

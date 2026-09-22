@@ -1,0 +1,196 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ fournit les références légales et les chiffres-clés pertinents, mais la mention 'Abattement de 152 500 € en clause démembrée' avec valeur 'réparti' et source '1' est ambiguë : l'origine de la valeur et l'indication 'source: 1' (qui renvoie à quel élément ?) ne sont pas explicitées mot à mot. Il faut préciser que l'abattement de 152 500 € provient de l'article 990 I du CGI et expliciter que, en démembrement, cet abattement est réparti entre usufruitier et nus‑propriétaires selon l'article 669."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration évoque correctement les articles 587 (quasi-usufruit), 669 (barème) et 773, 2° (condition de déduction), mais omet de préciser que la déductibilité de la créance suppose une convention de quasi-usufruit ayant 'date certaine' et idéalement un acte enregistré (mentionnée ailleurs dans la fiche mais pas explicitement reliée aux références CGI dans le script).",
+        "La phrase 'L'abattement de 152 500 € n'est pas perdu : il est réparti entre l'usufruitier et les nus-propriétaires selon le barème de l'article 669' est exacte mais gagnerait à préciser que l'abattement s'applique par bénéficiaire (couple usufruitier–nu-propriétaire) et que la répartition dépend de l'âge de l'usufruitier au jour du décès selon le barème de l'article 669."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre mécanisme, intérêt et point de vigilance mais omet d'indiquer qu'en l'absence de convention, la créance peut être refusée fiscalement entraînant double imposition pour les enfants — la fiche l'indique ailleurs, mais le script devrait expliciter brièvement le risque fiscal concret (double imposition) pour être complet.",
+        "L'exemple signale 'Exemple chiffré possible' mais aucun chiffre n'est donné dans le script Reels alors que la fiche prévoit un avantage multiplicateur en présence de plusieurs enfants ; il faudrait soit retirer la mention 'chiffré possible' soit fournir un très bref exemple chiffré (rapide) compatible avec la durée."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La durée estimée 38 s paraît cohérente, mais la narration continue peut dépasser ce temps si l'intonation est normale ; il faut vérifier le rythme de lecture ou réduire une phrase pour tenir strictement 38 s.",
+        "Les visuels et textes écran sont adaptés à Reels, mais la mention 'Exemple chiffré possible' risque d'engendrer une attente visuelle non traitée dans la vidéo."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La accroche et CTA sont clairs, mais la ligne 'Choisissez : la clause bénéficiaire démembrée, est-ce pour vous ? OUI / NON' peut générer un engagement attendu (sticker sondage) ; il faudrait indiquer explicitement d'utiliser la fonctionnalité 'sondage' d'Instagram pour maximiser l'interaction.",
+        "Le texte est globalement fluide mais quelques formulations sont lourdes pour une lecture à l'oral (ex. 'déductible de l'actif successoral' pourrait être reformulé en 'réduira les droits dus au moment du second décès')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention légale 'Contenu pédagogique général...' qui respecte la consigne de ne pas délivrer de conseil personnalisé. Toutefois, la CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçue comme une incitation commerciale — acceptable si conforme aux règles de la plateforme et à la déontologie, mais il serait prudent d'ajouter explicitement que le rendez-vous permettra un conseil personnalisé (et donc qu'un conseil spécialisé sera factuel)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines phrases gagneraient à être raccourcies pour l'oral (ex. la phrase sur l'article 773, 2° est longue et juridique). Suggestion : scinder en deux courtes phrases pour la prononciation et la compréhension.",
+        "Le terme 'créance de restitution' est précis mais pourrait être brièvement défini en une expression parenthétique ('droit des enfants à réclamer une somme au décès du conjoint')."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, la répétition de la mention légale en fin de script apparaît deux fois (dans Légende et Mention) — risque de redondance mineure pour le texte accompagnant la vidéo.",
+        "La progression question → réponse → règle → nuance est cohérente, mais l'élément 'Exemple chiffré possible' non développé constitue une incohérence entre script et table de beats."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La correspondance visuel/narration est globalement bonne, mais le pictogramme 'main qui donne un sac d'argent' pour l'usufruit est potentiellement stigmatisant ou trop littéral ; préférer une icône 'pièces/argent et personne' plus neutre.",
+        "Le pictogramme 'balance juridique et argent' illustre bien la règle, à condition d'utiliser une balance stylisée juridique (éviter icônes génériques qui pourraient prêter à confusion)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais inclut plusieurs notions juridiques (articles, barème, convention de quasi-usufruit, abattement) ; pour une durée de ~38s, c'est dense et risque de saturer l'attention. Recommande alléger une phrase ou supprimer la mention 'Exemple chiffré possible' si aucun chiffre n'est présenté.",
+        "Le script ne mentionne pas explicitement que la valeur de l'usufruit (pour l'abattement) dépend de l'âge de l'usufruitier, information utile et liée à l'article 669."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est pédagogique mais utilise quelques termes techniques sans définition courte (ex. 'usufruit', 'nue-propriété', 'créance de restitution'). Il faut ajouter une brève parenthèse explicative pour chaque terme la première fois qu'ils apparaissent pour garantir compréhension au premier passage.",
+        "La question 'Le conjoint peut-il dépenser tout le capital ?' figure dans la fiche mais n'est pas reprise explicitement en format question/réponse dans le script — ajouter une ligne très courte 'Oui, il peut, mais les enfants auront une créance.' améliorerait la pédagogie."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes ('Vous voulez protéger votre conjoint...') sont attractives, mais l'usage du choix 'OUI / NON' doit être visuellement fort (sticker sondage) pour maximiser l'engagement. Sans cela, la promesse d'interaction risque de décevoir.",
+        "Le CTA final est correct, mais pour la rétention il est conseillé d'ajouter un micro-teasing ('Je vous explique comment l'écrire correctement') si un rendez-vous ou contenu complémentaire est proposé via le lien."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et sourcé, mais l'absence d'une phrase précisant 'consultez un notaire' ou 'votre situation nécessite un examen personnalisé' affaiblit légèrement la conversion vers un rendez-vous professionnel. Une petite phrase de recommandation professionnelle renforcerait la confiance.",
+        "Le script doit éviter toute promesse implicite ('Protéger conjoint et enfants' en accroche est acceptable, mais veiller à l'absence de surpromesse)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ fournit les références légales et les chiffres-clés pertinents, mais la mention 'Abattement de 152 500 € en clause démembrée' avec valeur 'réparti' et source '1' est ambiguë : l'origine de la valeur et l'indication 'source: 1' (qui renvoie à quel élément ?) ne sont pas explicitées mot à mot. Il faut préciser que l'abattement de 152 500 € provient de l'article 990 I du CGI et expliciter que, en démembrement, cet abattement est réparti entre usufruitier et nus‑propriétaires selon l'article 669.",
+    "juridique_fiscal : La narration évoque correctement les articles 587 (quasi-usufruit), 669 (barème) et 773, 2° (condition de déduction), mais omet de préciser que la déductibilité de la créance suppose une convention de quasi-usufruit ayant 'date certaine' et idéalement un acte enregistré (mentionnée ailleurs dans la fiche mais pas explicitement reliée aux références CGI dans le script).",
+    "juridique_fiscal : La phrase 'L'abattement de 152 500 € n'est pas perdu : il est réparti entre l'usufruitier et les nus-propriétaires selon le barème de l'article 669' est exacte mais gagnerait à préciser que l'abattement s'applique par bénéficiaire (couple usufruitier–nu-propriétaire) et que la répartition dépend de l'âge de l'usufruitier au jour du décès selon le barème de l'article 669.",
+    "completude : Le script couvre mécanisme, intérêt et point de vigilance mais omet d'indiquer qu'en l'absence de convention, la créance peut être refusée fiscalement entraînant double imposition pour les enfants — la fiche l'indique ailleurs, mais le script devrait expliciter brièvement le risque fiscal concret (double imposition) pour être complet.",
+    "completude : L'exemple signale 'Exemple chiffré possible' mais aucun chiffre n'est donné dans le script Reels alors que la fiche prévoit un avantage multiplicateur en présence de plusieurs enfants ; il faudrait soit retirer la mention 'chiffré possible' soit fournir un très bref exemple chiffré (rapide) compatible avec la durée.",
+    "plateforme : La durée estimée 38 s paraît cohérente, mais la narration continue peut dépasser ce temps si l'intonation est normale ; il faut vérifier le rythme de lecture ou réduire une phrase pour tenir strictement 38 s.",
+    "plateforme : Les visuels et textes écran sont adaptés à Reels, mais la mention 'Exemple chiffré possible' risque d'engendrer une attente visuelle non traitée dans la vidéo.",
+    "editorial : La accroche et CTA sont clairs, mais la ligne 'Choisissez : la clause bénéficiaire démembrée, est-ce pour vous ? OUI / NON' peut générer un engagement attendu (sticker sondage) ; il faudrait indiquer explicitement d'utiliser la fonctionnalité 'sondage' d'Instagram pour maximiser l'interaction.",
+    "editorial : Le texte est globalement fluide mais quelques formulations sont lourdes pour une lecture à l'oral (ex. 'déductible de l'actif successoral' pourrait être reformulé en 'réduira les droits dus au moment du second décès').",
+    "securite : Le script contient la mention légale 'Contenu pédagogique général...' qui respecte la consigne de ne pas délivrer de conseil personnalisé. Toutefois, la CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçue comme une incitation commerciale — acceptable si conforme aux règles de la plateforme et à la déontologie, mais il serait prudent d'ajouter explicitement que le rendez-vous permettra un conseil personnalisé (et donc qu'un conseil spécialisé sera factuel).",
+    "formulation_professionnelle : Certaines phrases gagneraient à être raccourcies pour l'oral (ex. la phrase sur l'article 773, 2° est longue et juridique). Suggestion : scinder en deux courtes phrases pour la prononciation et la compréhension.",
+    "formulation_professionnelle : Le terme 'créance de restitution' est précis mais pourrait être brièvement défini en une expression parenthétique ('droit des enfants à réclamer une somme au décès du conjoint').",
+    "contre_verification_finale : En relecture mot à mot, la répétition de la mention légale en fin de script apparaît deux fois (dans Légende et Mention) — risque de redondance mineure pour le texte accompagnant la vidéo.",
+    "contre_verification_finale : La progression question → réponse → règle → nuance est cohérente, mais l'élément 'Exemple chiffré possible' non développé constitue une incohérence entre script et table de beats.",
+    "coherence_pictogrammes : La correspondance visuel/narration est globalement bonne, mais le pictogramme 'main qui donne un sac d'argent' pour l'usufruit est potentiellement stigmatisant ou trop littéral ; préférer une icône 'pièces/argent et personne' plus neutre.",
+    "coherence_pictogrammes : Le pictogramme 'balance juridique et argent' illustre bien la règle, à condition d'utiliser une balance stylisée juridique (éviter icônes génériques qui pourraient prêter à confusion).",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais inclut plusieurs notions juridiques (articles, barème, convention de quasi-usufruit, abattement) ; pour une durée de ~38s, c'est dense et risque de saturer l'attention. Recommande alléger une phrase ou supprimer la mention 'Exemple chiffré possible' si aucun chiffre n'est présenté.",
+    "densite_editoriale : Le script ne mentionne pas explicitement que la valeur de l'usufruit (pour l'abattement) dépend de l'âge de l'usufruitier, information utile et liée à l'article 669.",
+    "pedagogie_client : Le script est pédagogique mais utilise quelques termes techniques sans définition courte (ex. 'usufruit', 'nue-propriété', 'créance de restitution'). Il faut ajouter une brève parenthèse explicative pour chaque terme la première fois qu'ils apparaissent pour garantir compréhension au premier passage.",
+    "pedagogie_client : La question 'Le conjoint peut-il dépenser tout le capital ?' figure dans la fiche mais n'est pas reprise explicitement en format question/réponse dans le script — ajouter une ligne très courte 'Oui, il peut, mais les enfants auront une créance.' améliorerait la pédagogie.",
+    "retention_attention : Les deux premières secondes ('Vous voulez protéger votre conjoint...') sont attractives, mais l'usage du choix 'OUI / NON' doit être visuellement fort (sticker sondage) pour maximiser l'engagement. Sans cela, la promesse d'interaction risque de décevoir.",
+    "retention_attention : Le CTA final est correct, mais pour la rétention il est conseillé d'ajouter un micro-teasing ('Je vous explique comment l'écrire correctement') si un rendez-vous ou contenu complémentaire est proposé via le lien.",
+    "conversion_confiance : Le ton est sérieux et sourcé, mais l'absence d'une phrase précisant 'consultez un notaire' ou 'votre situation nécessite un examen personnalisé' affaiblit légèrement la conversion vers un rendez-vous professionnel. Une petite phrase de recommandation professionnelle renforcerait la confiance.",
+    "conversion_confiance : Le script doit éviter toute promesse implicite ('Protéger conjoint et enfants' en accroche est acceptable, mais veiller à l'absence de surpromesse)."
+  ],
+  "recommendations": [
+    "Clarifier la référence à l'abattement : indiquer explicitement que l'abattement de 152 500 € est celui de l'article 990 I du CGI et préciser que, en démembrement, il est réparti entre usufruitier et nus-propriétaires selon l'article 669 (âge de l'usufruitier).",
+    "Supprimer ou remplacer la mention 'Exemple chiffré possible' par un très bref exemple chiffré (une phrase simple) si vous souhaitez garder un chiffre — sinon retirer la mention pour éviter une attente non satisfaite.",
+    "Raccourcir et scinder la phrase relative à l'article 773, 2° en deux phrases courtes pour la clarté orale : (1) 'Pour que la créance des enfants soit déductible au second décès, il faut une convention de quasi-usufruit.' (2) 'Cette convention doit avoir une date certaine — idéalement un acte enregistré.'",
+    "Ajouter une parenthèse ultra-courte la première fois que vous dites 'usufruit', 'nue-propriété' et 'créance de restitution' pour garantir compréhension immédiate par un public non spécialiste.",
+    "Remplacer le pictogramme 'sac d'argent' par une icône plus neutre (personne + pièces/argent) et vous assurer que chaque visuel illustre précisément la notion évoquée.",
+    "Vérifier le tempo de lecture pour tenir strictement 38 secondes ; si nécessaire, supprimer une phrase secondaire (par ex. 'Exemple chiffré possible') ou ralentir l'énonciation des points juridiques.",
+    "Ajouter une phrase brève recommandant de consulter un notaire ou un conseiller spécialisé avant toute rédaction de clause, afin de renforcer la sécurité juridique et la conversion professionnelle.",
+    "Corriger la duplication redondante de la mention légale dans les éléments accompagnant la vidéo et s'assurer qu'une seule version claire et concise figure sous la vidéo.",
+    "Si vous utilisez le choix OUI/NON, indiquer visuellement (sticker sondage) et, dans la description, rappeler le lien pour prendre rendez-vous afin d'éviter une promesse d'interaction non tenue."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-22:reels:assurance_vie_demembrement_clause:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_demembrement_clause__reels__a4__v5.md"
+}

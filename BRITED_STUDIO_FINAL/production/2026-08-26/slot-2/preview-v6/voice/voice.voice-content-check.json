@@ -1,0 +1,99 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Votre contrat d’assurance vie peut il transmettre cent cinquante-deux mille cinq cents euros à chacun de vos bénéficiaires sans prélèvement ?",
+      "transcript": "Votre contrat d'assurance vie peut-il transmettre 152 500 euros à chacun de vos bénéficiaires sans prélèvement ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0833,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui, pour les capitaux correspondant aux primes versées avant les soixante-dix ans de l’assuré.",
+      "transcript": "Oui, pour les capitaux correspondant aux primes versées avant les 70 ans de l'assuré.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Chaque bénéficiaire dispose alors d’un abattement de cent cinquante-deux mille cinq cents euros, tous contrats confondus. Au delà, le prélèvement est de vingt pour cent, puis de trente et un virgule vingt cinq pour cent au dessus de sept cent mille euros.",
+      "transcript": "Chaque bénéficiaire dispose alors d'un abattement de 152 500 euros, tous contrats confondus. Au-delà, le prélèvement est de 20%, puis de 30 et 1,25% au-dessus de 700 000 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2397,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Avec trois bénéficiaires distincts, cela peut représenter jusqu’à quatre cent cinquante-sept mille cinq cents euros d’abattements cumulés.",
+      "transcript": "Avec trois bénéficiaires distinctes, cela peut représenter jusqu'à 457 500 euros d'abattement cumulé.",
+      "similarity": 0.85,
+      "missing": [
+        "distincts",
+        "abattements",
+        "cumules"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "distinctes",
+        "abattement",
+        "cumule"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0392,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Après soixante-dix ans, le régime change : l’article sept cent cinquante-sept B prévoit un abattement global de trente mille cinq cents euros sur les primes, partagé entre les bénéficiaires.",
+      "transcript": "Après 70 ans, le régime change. L'article 757B prévoit un abattement global de 30 500 euros sur les primes partagées entre les bénéficiaires.",
+      "similarity": 0.9677,
+      "missing": [
+        "partage"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "partagees"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1575,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

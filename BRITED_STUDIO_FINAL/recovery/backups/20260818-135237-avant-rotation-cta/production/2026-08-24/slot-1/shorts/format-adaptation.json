@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "platform": "shorts",
+  "source_hash": "5e191a5b713217b32a1ba332e699f5396d3ac0b88969e450821a0d71b60a8b4c",
+  "adapted_hash": "5e191a5b713217b32a1ba332e699f5396d3ac0b88969e450821a0d71b60a8b4c",
+  "source_beats": 8,
+  "adapted_pages": 8,
+  "splits": 0,
+  "exact_text_preserved": true,
+  "minimum_font_size": 37,
+  "warnings": []
+}

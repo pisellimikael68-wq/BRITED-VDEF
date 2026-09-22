@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu globalement fidèle à la source BRITED, mais la mention « Durée estimée : 38 s » n'est pas sourcée et pourrait ne pas correspondre exactement au format Reels selon le rythme de lecture ; préciser qu'il s'agit d'une estimation de lecture/voix.",
+        "Le script reprend la règle essentielle (« prix inverse des taux ») mais n'indique pas explicitement la notion de rendement à l'achat vs rendement en cas de revente (figure dans erreurs_frequentes) — omission mineure par rapport à la fiche."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « Prenez rendez-vous via le lien dans ma bio » est une invitation générale acceptable, mais pourrait être interprétée comme incitation commerciale ; recommander d'ajouter la mention de non-conseil (déjà présente ailleurs) plus visible dans le script ou l'écran final pour séparer pédagogie et prospection.",
+        "La légende et la mention de non-conseil sont présentes, mais le script spoken ne rappelle pas explicitement l'absence de conseil personnalisé ; pour conformité stricte, inclure une phrase courte spoken ou un micro-texte écran (« contenu pédagogique, pas un conseil personnalisé »)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle, exception (échéance directe) et nuance (fonds). Toutefois l'erreur fréquente « confondre rendement affiché à l'achat et rendement en cas de revente anticipée » n'est pas illustrée dans l'exemple ; ajouter une brève phrase d'explication renforcerait la complétude.",
+        "Aucun chiffre chiffré (ex. « 100 % du nominal ») n'est prononcé dans le script bien que présent dans la fiche : omission d'un fait vérifiable utile."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format séquentiel Reels est respecté, durée estimée plausible, hook en début. Attention : écran avec deux cases OUI/NON peut nuire à lisibilité sur petit écran si mal conçu — préciser contraste/typographie ou durée d'affichage.",
+        "Le texte écran est un peu dense pour un Reels de ~38s ; envisager de réduire la quantité de texte affiché simultanément pour respecter les usages visuels de la plateforme."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la répétition « Votre fonds obligataire a baissé après la hausse des taux ? Est‑ce normal ? Oui : » est redondante oralement ; simplifier pour fluidité.",
+        "Le CTA est clair mais pourrait paraître commercial sans l'indication visible d'absence de conseil personnalisé."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et neutre, sourcé. Toutefois l'appel au rendez-vous est une action concrète ; sécuriser en rappelant écran/voiceover que ce n'est pas un conseil personnalisé et que l'analyse dépend de la situation individuelle."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et compréhensible, mais une phrase pourrait être reformulée pour la prononciation orale : « Son prix évolue à l'inverse des taux : si les taux montent, les anciennes obligations, moins rémunératrices, perdent de la valeur. » -> lourde à articuler, proposer scinder en deux phrases.",
+        "Pictogramme descriptions parfois redondantes avec le texte parlé ; vérifier synchronisation pour éviter chevauchement."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements cohérents mais une seconde lecture note deux omissions mineures : absence de la mention explicite « 100 % du nominal » lors de l'exemple, et absence de rappel audio de la mention légale de non-conseil.",
+        "Prononciation et rythme non testés oralement ici ; recommander lecture test pour confirmer durée et intelligibilité."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement pertinents. Observation : le pictogramme 'fonds' devrait illustrer la notion d'absence d'échéance (ex. calendrier circulaire) plus distinctement pour éviter confusion avec obligation à échéance.",
+        "L'icône 'sauf défaut' est vague ; préférer un pictogramme d'alerte + petite légende pour bien transmettre le conditionnel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise. Toutefois plusieurs phrases contiennent deux idées (règle + explication) — risque d'encombrement pour 38 s. Recommander léger allègement du texte écran ou suppression d'une répétition."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est adapté à un non-spécialiste. Mais l'exemple pourrait être rendu plus concret par une très courte phrase chiffrée (« si elle vaut 100 au départ... ») sans entrer dans un calcul complexe, ou en mentionnant explicitement 'perte latente vs réalisée'.",
+        "Le terme 'coupon' n'est pas utilisé dans le script parlé — acceptable mais la fiche inclut alias; absence non critique mais pédagogique à considérer."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort et immédiat. Toutefois l'écran 2 (OUI / NON) risque de faire perdre le flux si l'affichage dure trop longtemps ; recommander que la question soit claire et immédiatement suivie par la réponse pour maintenir attention.",
+        "La progression est logique mais l'ensemble pourrait gagner en rythme en raccourcissant légèrement la règle énoncée."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé inspire confiance. À améliorer : rendre la mention de non-conseil visible dans la vidéo elle-même (audio ou micro-texte) pour renforcer transparence commerciale et conformité.",
+        "CTA est présent mais pourrait être perçue comme trop générique ; suggérer ajout d'une formulation rassurante courte ('échange pédagogique') pour diminuer perception commerciale."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Contenu globalement fidèle à la source BRITED, mais la mention « Durée estimée : 38 s » n'est pas sourcée et pourrait ne pas correspondre exactement au format Reels selon le rythme de lecture ; préciser qu'il s'agit d'une estimation de lecture/voix.",
+    "source : Le script reprend la règle essentielle (« prix inverse des taux ») mais n'indique pas explicitement la notion de rendement à l'achat vs rendement en cas de revente (figure dans erreurs_frequentes) — omission mineure par rapport à la fiche.",
+    "juridique_fiscal : La mention « Prenez rendez-vous via le lien dans ma bio » est une invitation générale acceptable, mais pourrait être interprétée comme incitation commerciale ; recommander d'ajouter la mention de non-conseil (déjà présente ailleurs) plus visible dans le script ou l'écran final pour séparer pédagogie et prospection.",
+    "juridique_fiscal : La légende et la mention de non-conseil sont présentes, mais le script spoken ne rappelle pas explicitement l'absence de conseil personnalisé ; pour conformité stricte, inclure une phrase courte spoken ou un micro-texte écran (« contenu pédagogique, pas un conseil personnalisé »).",
+    "completude : Le script couvre règle, exception (échéance directe) et nuance (fonds). Toutefois l'erreur fréquente « confondre rendement affiché à l'achat et rendement en cas de revente anticipée » n'est pas illustrée dans l'exemple ; ajouter une brève phrase d'explication renforcerait la complétude.",
+    "completude : Aucun chiffre chiffré (ex. « 100 % du nominal ») n'est prononcé dans le script bien que présent dans la fiche : omission d'un fait vérifiable utile.",
+    "plateforme : Le format séquentiel Reels est respecté, durée estimée plausible, hook en début. Attention : écran avec deux cases OUI/NON peut nuire à lisibilité sur petit écran si mal conçu — préciser contraste/typographie ou durée d'affichage.",
+    "plateforme : Le texte écran est un peu dense pour un Reels de ~38s ; envisager de réduire la quantité de texte affiché simultanément pour respecter les usages visuels de la plateforme.",
+    "editorial : Accroche efficace mais la répétition « Votre fonds obligataire a baissé après la hausse des taux ? Est‑ce normal ? Oui : » est redondante oralement ; simplifier pour fluidité.",
+    "editorial : Le CTA est clair mais pourrait paraître commercial sans l'indication visible d'absence de conseil personnalisé.",
+    "securite : Contenu pédagogique et neutre, sourcé. Toutefois l'appel au rendez-vous est une action concrète ; sécuriser en rappelant écran/voiceover que ce n'est pas un conseil personnalisé et que l'analyse dépend de la situation individuelle.",
+    "formulation_professionnelle : Français naturel et compréhensible, mais une phrase pourrait être reformulée pour la prononciation orale : « Son prix évolue à l'inverse des taux : si les taux montent, les anciennes obligations, moins rémunératrices, perdent de la valeur. » -> lourde à articuler, proposer scinder en deux phrases.",
+    "formulation_professionnelle : Pictogramme descriptions parfois redondantes avec le texte parlé ; vérifier synchronisation pour éviter chevauchement.",
+    "contre_verification_finale : Enchaînements cohérents mais une seconde lecture note deux omissions mineures : absence de la mention explicite « 100 % du nominal » lors de l'exemple, et absence de rappel audio de la mention légale de non-conseil.",
+    "contre_verification_finale : Prononciation et rythme non testés oralement ici ; recommander lecture test pour confirmer durée et intelligibilité.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement pertinents. Observation : le pictogramme 'fonds' devrait illustrer la notion d'absence d'échéance (ex. calendrier circulaire) plus distinctement pour éviter confusion avec obligation à échéance.",
+    "coherence_pictogrammes : L'icône 'sauf défaut' est vague ; préférer un pictogramme d'alerte + petite légende pour bien transmettre le conditionnel.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise. Toutefois plusieurs phrases contiennent deux idées (règle + explication) — risque d'encombrement pour 38 s. Recommander léger allègement du texte écran ou suppression d'une répétition.",
+    "pedagogie_client : Le niveau est adapté à un non-spécialiste. Mais l'exemple pourrait être rendu plus concret par une très courte phrase chiffrée (« si elle vaut 100 au départ... ») sans entrer dans un calcul complexe, ou en mentionnant explicitement 'perte latente vs réalisée'.",
+    "pedagogie_client : Le terme 'coupon' n'est pas utilisé dans le script parlé — acceptable mais la fiche inclut alias; absence non critique mais pédagogique à considérer.",
+    "retention_attention : Hook fort et immédiat. Toutefois l'écran 2 (OUI / NON) risque de faire perdre le flux si l'affichage dure trop longtemps ; recommander que la question soit claire et immédiatement suivie par la réponse pour maintenir attention.",
+    "retention_attention : La progression est logique mais l'ensemble pourrait gagner en rythme en raccourcissant légèrement la règle énoncée.",
+    "conversion_confiance : Ton sérieux et sourcé inspire confiance. À améliorer : rendre la mention de non-conseil visible dans la vidéo elle-même (audio ou micro-texte) pour renforcer transparence commerciale et conformité.",
+    "conversion_confiance : CTA est présent mais pourrait être perçue comme trop générique ; suggérer ajout d'une formulation rassurante courte ('échange pédagogique') pour diminuer perception commerciale."
+  ],
+  "recommendations": [
+    "Ajouter une micro-mention visible (écran final ou bandeau court) et/ou une courte phrase audio indiquant clairement : « Contenu pédagogique, pas un conseil personnalisé. »",
+    "Inclure brièvement la notion de rendement à l'achat vs rendement en cas de revente dans l'exemple (une phrase très courte) ou mentionner explicitement 'rendement affiché à l'achat ≠ rendement en cas de revente anticipée'.",
+    "Préciser que la durée '38 s' est une estimation de lecture/voix uniquement, et effectuer une lecture test pour ajuster le texte parlé au format Reels.",
+    "Alléger une ou deux phrases lourdes pour faciliter l'articulation à l'oral (scinder la phrase expliquant l'inversement taux/prix en deux phrases plus courtes).",
+    "Adapter les pictogrammes : clarifier l'icône représentant l'absence d'échéance pour un fonds (calendrier circulaire distinct) et remplacer l'icône 'sauf défaut' par un pictogramme d'alerte plus explicite accompagné d'une courte légende.",
+    "Raccourcir légèrement le texte affiché simultanément sur l'écran pour améliorer lisibilité sur mobile et éviter surcharge visuelle (notamment l'écran avec OUI/NON).",
+    "Ajouter très brièvement dans l'exemple la référence 'remboursement du nominal (100 % du nominal) si pas de défaut' pour faire apparaître le chiffre présent dans la fiche BRITED."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-26:reels:obligations_risque_de_taux:1",
+  "script_path": "scripts/obligations/obligations_risque_de_taux__reels__a2__v3.md"
+}

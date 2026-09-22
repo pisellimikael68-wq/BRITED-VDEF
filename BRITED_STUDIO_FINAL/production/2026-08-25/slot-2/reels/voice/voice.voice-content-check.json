@@ -1,0 +1,101 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "PACS ou concubinage : votre partenaire héritera t il automatiquement ?",
+      "transcript": "Pax ou concubinage, votre partenaire éritera-t-il automatiquement ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9189,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Selon vous, le partenaire pacsé devient il héritier sans testament ?",
+      "transcript": "Selon vous, le partenaire Paxé devient îl héritier sans testament ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9211,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. Le PACS protège fiscalement, mais ne crée pas d'héritage automatique.",
+      "transcript": "Non, le PAX protège fiscalement mais ne crée pas d'héritage automatique.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9146,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Sans testament, le partenaire pacsé n'hérite pas. S'il reçoit un legs, l'article sept cent quatre-vingt-seize zéro bis l'exonère de droits de succession.",
+      "transcript": "Sans testament, le partenaire Paxé n'érite pas. S'il reçoit un leg, l'article 796 0 bis l'exonère de droite succession.",
+      "similarity": 0.9818,
+      "missing": [
+        "de"
+      ],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0885,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : avec des enfants, sans testament la succession leur revient ; le partenaire pacsé ne reçoit rien dans la succession.",
+      "transcript": "Exemple, avec des enfants, sans testament la succession leur revient, le partenaire paxé ne reçoit rien dans la succession.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.25,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Le concubin n'hérite pas non plus et son legs est taxé à soixante pour cent. Tout testament reste limité par la réserve des enfants.",
+      "transcript": "Le concubin n'hérite pas non plus et son leg est taxé à 60%. Tout testament reste limité par la réserve des enfants.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine.",
+      "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0825,
+      "passed": true
+    }
+  ]
+}

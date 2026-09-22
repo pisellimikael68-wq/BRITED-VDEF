@@ -1,0 +1,461 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 38.09,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 38.089,
+      "peak": 0.84152,
+      "rms": 0.156,
+      "dc": 6.3e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.774,
+        "peak": 0.72305,
+        "rms": 0.1224,
+        "dc": 4.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.713,
+        "peak": 0.78851,
+        "rms": 0.13367,
+        "dc": 4.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.88,
+        "peak": 0.78415,
+        "rms": 0.12677,
+        "dc": 5.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.905,
+        "peak": 0.79413,
+        "rms": 0.12355,
+        "dc": 6.6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_vigilance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.699,
+        "peak": 0.98987,
+        "rms": 0.12203,
+        "dc": 3.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.089,
+        "peak": 0.98956,
+        "rms": 0.11274,
+        "dc": 6.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.463,
+        "peak": 0.79431,
+        "rms": 0.10657,
+        "dc": 5.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.894,
+        "peak": 0.64243,
+        "rms": 0.11753,
+        "dc": 4.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.436,
+        "peak": 0.98871,
+        "rms": 0.10032,
+        "dc": 3.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.7,
+        "peak": 0.98938,
+        "rms": 0.12214,
+        "dc": 1.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance vie ?",
+        "transcript": "Vous savez quelle est la phrase la plus importante de votre contrat d'assurance vie ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0625,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+        "transcript": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d'un abattement propre.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.046,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-huit — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-neuf.",
+        "transcript": "Vous pouvez la modifier en général gratuitement auprès de l'assureur, voire article L132.8. Mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132.9.",
+        "similarity": 0.9714,
+        "missing": [
+          "voir"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "voire"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2639,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+        "transcript": "Exemple, rédiger « Mon épouse, Madame Dupont » conserve la personne même après divorce. Nommé une seule personne peut gaspiller des abattements.",
+        "similarity": 0.95,
+        "missing": [
+          "nommer"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "nomme"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.189,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-douze).",
+        "transcript": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession, article L132.12.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0521,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      222.6,
+      178.2,
+      164.0,
+      173.8,
+      164.8,
+      208.4
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Gros plan visage, pictogramme point d'interrogation",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "plus",
+          "file-signature",
+          "user-round-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "adaptatif",
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "label_checks": [],
+        "labels_ok": true,
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Pictogramme courrier + document ; pictogramme cadenas/signature",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          405,
+          672,
+          775
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Pictogramme personne + étiquette nominative ; pictogramme € abattement",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "circle-help",
+          "lightbulb"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Pictogramme maison + document succession ; pictogramme référence légale",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

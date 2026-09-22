@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "c3874634c3bf78617a84a1e02c33ef59c063cf6abebfade5dba65dcbffe7b0bd",
+      "adapted_hash": "c3874634c3bf78617a84a1e02c33ef59c063cf6abebfade5dba65dcbffe7b0bd",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter, si l'espace le permet, la mention du seuil de suppression du questionnaire médical (prêts ≤ 200 000 € par emprunteur se terminant avant le 60e anniversaire) — information issue de la source — car c'est une précision utile liée aux conséquences pratiques du changement d'assurance.",
+    "Conserver la règle de ne pas nommer d'assureur ou de promettre des montants d'économie chiffrés dans le script vocal et le texte à l'écran, conformément à la fiche source."
+  ],
+  "reviewed_at": "2026-08-17T16:08:57",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-30:tiktok:credit_assurance_emprunteur_lemoine:1",
+  "script_path": "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__tiktok__a1__v2.md"
+}

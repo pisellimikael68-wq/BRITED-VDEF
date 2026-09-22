@@ -1,0 +1,18 @@
+{
+  "jobs": [
+    {
+      "id": "c15ecf5c0efa",
+      "date": "2026-08-17",
+      "slot": 2,
+      "generate": true,
+      "render": false,
+      "status": "failed",
+      "attempts": 1,
+      "created_at": "2026-08-17T17:00:03",
+      "error": "Aucune publication prévue pour ce créneau",
+      "manifest": "",
+      "started_at": "2026-08-17T17:00:03",
+      "completed_at": "2026-08-17T17:00:03"
+    }
+  ]
+}

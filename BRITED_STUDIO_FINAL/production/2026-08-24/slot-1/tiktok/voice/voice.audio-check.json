@@ -1,0 +1,172 @@
+{
+  "passed": true,
+  "failures": [],
+  "final": {
+    "rate": 24000,
+    "channels": 1,
+    "width": 2,
+    "duration": 37.755,
+    "peak": 0.84222,
+    "rms": 0.1263,
+    "dc": 6.1e-05,
+    "clipped_ratio": 0.0,
+    "abrupt_jump_ratio": 0.0
+  },
+  "segments": {
+    "01_hook.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 2.182,
+      "peak": 0.88742,
+      "rms": 0.0837,
+      "dc": 1e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "02_question.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 2.937,
+      "peak": 0.98886,
+      "rms": 0.09394,
+      "dc": 2.2e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "03_reponse.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 2.279,
+      "peak": 0.68182,
+      "rms": 0.0808,
+      "dc": 3e-06,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "04_regle.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 2.095,
+      "peak": 0.7446,
+      "rms": 0.06333,
+      "dc": 8e-06,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "05_exemple.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 6.727,
+      "peak": 0.98956,
+      "rms": 0.12151,
+      "dc": 8e-06,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "06_exemple_suite.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 5.892,
+      "peak": 0.98944,
+      "rms": 0.09301,
+      "dc": 4e-06,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "07_nuance.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 4.941,
+      "peak": 0.89792,
+      "rms": 0.07169,
+      "dc": 0.000104,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "08_nuance_suite.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 3.74,
+      "peak": 0.86426,
+      "rms": 0.09013,
+      "dc": 2e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "09_cta.wav": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 2.849,
+      "peak": 0.67056,
+      "rms": 0.08122,
+      "dc": 3.1e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    }
+  },
+  "background_noise": {
+    "passed": true,
+    "regions": [
+      {
+        "after_beat": 1,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 2,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 3,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 4,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 5,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 6,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 7,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 8,
+        "rms": 0.0,
+        "peak": 0.0
+      }
+    ],
+    "rms_limit": 0.003,
+    "peak_limit": 0.025
+  },
+  "checks": [
+    "sample_rate",
+    "format",
+    "clipping",
+    "abrupt_jumps",
+    "dc_offset",
+    "duration",
+    "background_noise"
+  ]
+}

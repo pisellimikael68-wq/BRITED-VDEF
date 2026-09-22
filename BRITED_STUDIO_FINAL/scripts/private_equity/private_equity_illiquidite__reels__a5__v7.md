@@ -1,0 +1,33 @@
+# En private equity, votre argent est immobilisé dix ans
+**Plateforme** : Instagram Reels  
+**Durée estimée** : 40 s
+
+| # | Beat | Narration | Visuel | Texte écran |
+|---:|---|---|---|---|
+| 1 | hook | Vous vérifiez vos comptes et vous réalisez qu’un placement peut être bloqué longuement ? | Personne regardant un relevé, pictogramme horloge | Vous vérifiez vos comptes ? |
+| 2 | question | Pouvez‑vous récupérer votre argent avant dix ans ? | Deux cases centrées : OUI   NON | OUI   NON |
+| 3 | reponse | Non : en capital‑investissement l’argent est généralement immobilisé huit à dix ans. | Cadenas + 8–10 ans | Immobilisé 8–10 ans |
+| 4 | regle | La sortie anticipée est, en principe, impossible et les fonds appellent les engagements par tranches. | Schéma fonds → appels par tranches, pictogramme calendrier | Sortie anticipée : en principe impossible |
+| 5 | exemple | Exemple : un engagement de 100000 euros peut être appelé par tranches sur plusieurs années, prévoyez les montants non appelés. | Calendrier montrant appels par tranches ; pictogramme porte‑monnaie | Exemple : engagement 100000 € |
+| 6 | nuance | Chaque participation peut perdre la totalité et la dispersion des résultats entre fonds est très large. | Pictogramme alerte + nuage de points dispersion | Risque de perte totale — forte dispersion |
+| 7 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | Bouton calendrier centré + pictogramme lien | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+
+Vous vérifiez vos comptes et vous réalisez qu’un placement peut être bloqué longuement ? Pouvez‑vous récupérer votre argent avant dix ans ? Non : en capital‑investissement l’argent est généralement immobilisé huit à dix ans. La sortie anticipée est, en principe, impossible et les fonds appellent les engagements par tranches. Exemple : un engagement de 100000 euros peut être appelé par tranches sur plusieurs années, prévoyez les montants non appelés. Chaque participation peut perdre la totalité et la dispersion des résultats entre fonds est très large. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+## Légende
+
+En capital‑investissement l’argent est généralement immobilisé huit à dix ans. La sortie anticipée est, en principe, impossible et les fonds appellent les engagements par tranches : vous ne versez pas la totalité immédiatement et devez prévoir des liquidités pour les montants non appelés. Exemple donné : un engagement de 100000 euros appelé par tranches sur plusieurs années. Réserve : chaque participation peut perdre la totalité et la dispersion des résultats entre fonds est très large. Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d’investissement.
+
+## Hashtags
+
+#privateequity #capitalinvestissement #illiquidite #patrimoine #investissementnoncote
+
+## Sources
+
+- AMF — le capital-investissement pour les particuliers : https://www.amf-france.org/fr/espace-epargnants/comprendre-les-produits-financiers/panorama-des-produits/capital-investissement  
+- Code monétaire et financier, articles L214-27 et suivants (FCPR) : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072026/LEGISCTA000027758316
+
+## Mention
+
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

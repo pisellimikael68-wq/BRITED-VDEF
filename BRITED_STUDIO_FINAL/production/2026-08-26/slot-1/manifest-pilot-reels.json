@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-26",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-26:reels:assurance_vie_clause_beneficiaire:0",
+      "platform": "reels",
+      "title": "La phrase la plus importante de votre contrat fait deux lignes",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/assurance_vie/assurance_vie_clause_beneficiaire__reels__a1__v3.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/reels/assurance_vie_clause_beneficiaire__reels.mp4",
+      "duration": 38.88,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-26:reels:assurance_vie_clause_beneficiaire:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 9.5,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-26_reels_assurance_vie_clause_beneficiaire_0.json",
+        "validated_at": "2026-08-19T17:27:25"
+      },
+      "review_path": "data/reviews/2026-08-26_reels_assurance_vie_clause_beneficiaire_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/reels/assurance_vie_clause_beneficiaire__reels.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/reels/assurance_vie_clause_beneficiaire__reels.word-check.json"
+    }
+  ]
+}

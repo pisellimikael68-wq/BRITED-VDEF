@@ -1,0 +1,129 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Se marier sans contrat, est ce neutre ?",
+      "transcript": "Se marier sans contrat et se neutre ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8222,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+      "transcript": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquies.",
+      "similarity": 0.9412,
+      "missing": [
+        "acquets"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "acquies"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0778,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "transcript": "entre en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "similarity": 0.96,
+      "missing": [
+        "entrent"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "entre"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3652,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+      "transcript": "Reste propre les biens possédés avant le mariage ainsi que ceux reçus personnellement par donation ou succession.",
+      "similarity": 0.8824,
+      "missing": [
+        "restent",
+        "propres"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "reste",
+        "propre"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.16,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "L'article deux cent vingt-trois permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "transcript": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.184,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+      "transcript": "Exemple, un héritage reçu reste votre bien propre, une paix épargnée pendant le mariage alimente la communauté.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1262,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+      "transcript": "Attention au mélange de fonds. Verser un héritage sur un compte commun crée un enjeu de preuves et peut entraîner une récompense.",
+      "similarity": 0.9545,
+      "missing": [
+        "preuve"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "preuves"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2523,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine.",
+      "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0825,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "scripts/culture_financiere/culture_inflation__tiktok__a1__v2.md": {
+    "publication_id": "2026-10-09:tiktok:culture_inflation:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-10-09_tiktok_culture_inflation_0.json",
+    "validated_at": "2026-08-17T01:36:30"
+  }
+}

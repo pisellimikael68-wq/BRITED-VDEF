@@ -1,0 +1,466 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 46.18,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 46.184,
+      "peak": 0.84354,
+      "rms": 0.13419,
+      "dc": 0.000111,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 1.8e-06
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 2.271,
+        "peak": 0.98834,
+        "rms": 0.09574,
+        "dc": 9.6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.322,
+        "peak": 0.98972,
+        "rms": 0.11325,
+        "dc": 2e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.897,
+        "peak": 0.98965,
+        "rms": 0.11968,
+        "dc": 1.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.911,
+        "peak": 0.98929,
+        "rms": 0.10208,
+        "dc": 6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.857,
+        "peak": 0.98883,
+        "rms": 0.08832,
+        "dc": 2.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.201,
+        "peak": 0.9892,
+        "rms": 0.12628,
+        "dc": 5.9e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.973,
+        "peak": 0.98987,
+        "rms": 0.10547,
+        "dc": 1.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 1.4e-05
+      },
+      "08_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.7,
+        "peak": 0.98938,
+        "rms": 0.12214,
+        "dc": 1.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 6,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 7,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Se marier sans contrat, est ce neutre ?",
+        "transcript": "Se marier sans contrat et se neutre ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.8222,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+        "transcript": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquies.",
+        "similarity": 0.9412,
+        "missing": [
+          "acquets"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "acquies"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0778,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+        "transcript": "entre en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+        "similarity": 0.96,
+        "missing": [
+          "entrent"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "entre"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.3652,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+        "transcript": "Reste propre les biens possédés avant le mariage ainsi que ceux reçus personnellement par donation ou succession.",
+        "similarity": 0.8824,
+        "missing": [
+          "restent",
+          "propres"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "reste",
+          "propre"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.16,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "L'article deux cent vingt-trois permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+        "transcript": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.184,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+        "transcript": "Exemple, un héritage reçu reste votre bien propre, une paix épargnée pendant le mariage alimente la communauté.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1262,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+        "transcript": "Attention au mélange de fonds. Verser un héritage sur un compte commun crée un enjeu de preuves et peut entraîner une récompense.",
+        "similarity": 0.9545,
+        "missing": [
+          "preuve"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "preuves"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2523,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine.",
+        "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0825,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Point d'interrogation stylisé et deux alliances",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Maison, fiche de paie et épargne réunies dans une zone « communauté »",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Coffre personnel avec calendrier, donation et héritage",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Article 223, deux comptes et facture du foyer acquittée",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Héritage vers un coffre personnel, salaire vers une tirelire commune",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "landmark"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          500,
+          672,
+          681
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Compte commun, loupe et justificatifs",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "file-check-2"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

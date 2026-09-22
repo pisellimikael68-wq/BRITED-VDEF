@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 101,
+      "seconds": 37.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "57fc31159921b5669243c327d22a73616872c74bf85f09cd63e7ddda6dc456ae",
+      "adapted_hash": "57fc31159921b5669243c327d22a73616872c74bf85f09cd63e7ddda6dc456ae",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 40,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Optionnel : préciser très brièvement (texte écran ou légende) que le déblocage anticipé existe (achat résidence principale, accidents de la vie) si vous souhaitez éviter toute question récurrente du public — ceci figure dans la source mais n'est pas nécessairement attendu dans un format très court.",
+    "Vérifier en post‑production que le texte écran lit clairement « sans l'abattement de 10 % » pour éviter toute ambiguïté orale."
+  ],
+  "reviewed_at": "2026-08-17T18:03:14",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-29:reels:per_sortie_capital_rente:1",
+  "script_path": "scripts/per/per_sortie_capital_rente__reels__a1__v2.md"
+}

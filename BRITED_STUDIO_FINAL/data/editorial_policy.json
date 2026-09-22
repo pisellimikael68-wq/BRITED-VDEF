@@ -1,0 +1,257 @@
+{
+  "source_of_truth": "Les fiches certifiées locales BRITED/Leveria et leurs sources officielles sont l'unique source factuelle. Un seul script face caméra canonique existe par sujet.",
+  "cadence": {
+    "days": 7,
+    "slots": [
+      {
+        "slot": 1,
+        "time": "10:00"
+      },
+      {
+        "slot": 2,
+        "time": "17:00"
+      }
+    ],
+    "script_format": "face_camera_unique",
+    "destinations": [
+      "instagram",
+      "facebook",
+      "tiktok",
+      "youtube_shorts"
+    ]
+  },
+  "editorial_mission": {
+    "promise": "Apprendre à chacun une notion patrimoniale utile, simplement et sans prérequis, puis l'aider à reconnaître quand sa situation mérite un regard professionnel.",
+    "audience": "Grand public : salariés cadres et non-cadres, professions libérales et chefs d’entreprise. Une situation précise par vidéo.",
+    "business_goal": "Construire dans la durée une audience de confiance et un vivier de prospects qualifiés, sans transformer le contenu éducatif en publicité.",
+    "learning_path": [
+      "Comprendre une situation du quotidien",
+      "Retenir une règle simple",
+      "Voir un exemple concret",
+      "Identifier le point à vérifier dans sa propre situation",
+      "Ouvrir une discussion ou donner envie de suivre la série ; contact occasionnel"
+    ],
+    "topic_families": [
+      "protéger sa famille",
+      "organiser son épargne",
+      "comprendre ses impôts",
+      "préparer un projet immobilier",
+      "anticiper la retraite",
+      "transmettre son patrimoine",
+      "éviter une erreur coûteuse",
+      "décoder un produit ou un contrat"
+    ],
+    "diversity_rule": "Sur toute période glissante de 14 jours, les quatre séries Fiscalité, Immobilier, Juridique et Finance doivent apparaître ; les angles, niveaux de vie et mécanismes ne doivent pas se répéter consécutivement.",
+    "conversion_rule": "La valeur pédagogique est complète avant le CTA, quand une invitation est utile. La confiance vient de la clarté. La plupart des vidéos se terminent par une idée utile, sans invitation. Les contacts restent occasionnels."
+  },
+  "content_rules": [
+    "Le script est écrit pour être prononcé naturellement par Mikael face caméra.",
+    "Chaque vidéo part d'une situation que le grand public peut reconnaître, puis explique une seule notion avec des mots courants.",
+    "Tout terme technique indispensable est immédiatement traduit en langage simple ; aucun prérequis patrimonial n'est supposé.",
+    "Le spectateur doit repartir avec une règle mémorisable, un exemple concret et un point pratique à vérifier pour lui-même.",
+    "Avant le CTA, chaque script donne un réflexe immédiatement utilisable : un document à lire, un chiffre à comparer, une date à conserver, une clause à vérifier ou une action précise adaptée au sujet. Une conclusion générique ne suffit pas.",
+    "Chaque exemple place directement le spectateur dans la situation avec une projection orale naturelle, par exemple « Imaginez que vous… », « Prenons votre cas » ou « Si vous… ». La formulation varie selon le sujet et ne devient jamais un tic répétitif.",
+    "Le contenu est éducatif et autonome : il apporte toute sa valeur même si le spectateur ne prend jamais rendez-vous.",
+    "La conversion vient de la confiance et de l'utilité répétée, jamais d'une information volontairement incomplète, d'une peur ou d'une injonction commerciale.",
+    "Les deux premières secondes doivent arrêter le défilement avec un enjeu concret, spécifique au sujet et directement vécu par le spectateur.",
+    "Le hook compte idéalement 8 à 16 mots et ne dépasse jamais 18 mots ; toute ouverture générique ou professorale bloque la certification.",
+    "Le hook est autonome dès la première écoute : il nomme explicitement l'action, son objet et l'enjeu concret. Les verbes isolés comme « commencer », « verser », « placer » ou « mettre » sans préciser quoi, où ou pourquoi sont interdits.",
+    "Lorsqu'un titre ou une question promet de répondre à « quand », « à quel âge » ou « à quel moment », le script donne un repère de décision concret dès la vidéo : conditions préalables, horizon utile et limite à respecter. Expliquer seulement le mécanisme ne suffit pas.",
+    "Une formule, un acronyme ou une règle de calcul secondaire est supprimé s'il ne change pas directement la décision pratique du spectateur. Pour expliquer les intérêts composés au grand public, privilégier une comparaison à effort identique et une image simple plutôt qu'une formule mentale.",
+    "Toute explication d'un mécanisme abstrait doit pouvoir être comprise par un enfant : mots courants, causalité explicite et comparaison visuelle simple, sans sacrifier les réserves nécessaires.",
+    "La première valeur utile ou la réponse commence dès la phrase qui suit le hook, sans introduction ni suspense artificiel.",
+    "Chaque phrase apporte une révélation, une conséquence, une règle, un exemple ou une réserve indispensable ; toute transition décorative est supprimée.",
+    "Chaque phrase reprend naturellement l'idée précédente ou répond à la question qu'elle vient d'ouvrir, puis prépare la suivante ; toute succession de blocs indépendants ou tout effet de liste est bloquant.",
+    "La valeur concrète est formulée avec des verbes d'action et indique clairement ce que le spectateur peut regarder, comparer, conserver, déclarer, simuler ou demander après la vidéo, sans basculer dans le conseil personnalisé.",
+    "Le script ne doit jamais donner l'impression d'un cours : phrases majoritairement courtes, voix active, rythme variable et progression concrète.",
+    "Une seule version éditoriale canonique est conservée par sujet et alimente les quatre plateformes.",
+    "Les phrases sont respirables, conversationnelles, adressées directement au spectateur et exemptes de style administratif ou de voix off.",
+    "Mikael parle à une personne précise : il utilise vous, votre situation et des scénarios vécus afin de donner au discours une personnalité chaleureuse, complice et concrète.",
+    "Les intentions de jeu et les incrustations sont séparées du texte prononcé.",
+    "Conserver une information juridiquement et fiscalement complète malgré la concision.",
+    "Toujours inclure un exemple concret lorsque la source le permet.",
+    "S'adresser directement au spectateur comme une réponse ou un conseil général.",
+    "Question affichée et lue avant toute réponse ; réponse sur la page suivante.",
+    "Un script est certifié automatiquement uniquement si tous les agents atteignent 10/10, sans avertissement ni réserve non résolus ; l'humain valide la vidéo finale.",
+    "Une version validée n'est jamais remplacée.",
+    "Une vidéo traite un seul angle précis et une seule règle principale.",
+    "Dans la série Finance, lorsqu'un contrat, un compte, un support ou un produit précis est abordé, le titre ou l'accroche en donne toujours la nature exacte. Pour un mécanisme financier général, ne jamais inventer un produit absent de la fiche source : nommer précisément le mécanisme, par exemple un placement qui capitalise ses gains.",
+    "La concision ne retire jamais la règle centrale, sa condition, la réserve indispensable, l'exemple utile, les chiffres ou les sources.",
+    "Un sujet trop dense est resserré sur un sous-angle autonome ou scindé en mini-série, jamais appauvri silencieusement.",
+    "Parle comme à un ami en le vouvoyant : vous, votre, vos. Une situation familière, une seule idée, un exemple concret avec les chiffres utiles, une explication de ce que cela change pour lui et une conclusion utile. Pas de dialogue fictif à deux voix, pas de témoignage inventé, pas de tic systématique comme imaginez ou vous voyez.",
+    "Format validé le 11 septembre 2026 : vidéo de 60 à 65 secondes, cible 63 secondes. Préparer environ 150 à 165 mots prononcés, nombres développés, à un débit naturel autour de 160 mots/minute avec des pauses. Ce budget est indicatif : chronométrer la lecture puis le montage final, jingle compris. Si un jingle est ajouté, déduire sa durée du budget de parole ; ne pas accélérer artificiellement. Un texte seul ne garantit pas la durée réelle ni une rémunération TikTok.",
+    "Préserver les chiffres concrets pertinents. Ne pas ajouter de remplissage pour atteindre une minute ni plusieurs concepts pour allonger le script."
+  ],
+  "recording_rules": [
+    "Mikael est filmé face caméra avec un micro ; sa parole commande le montage.",
+    "Accroche naturelle, situation qui concerne un ami, exemple concret, explication et limite utile, conclusion adaptée au calendrier.",
+    "Aucune cadence synthétique fixe : les respirations et variations viennent du sens.",
+    "Les incrustations se limitent aux chiffres, conditions, mots-clés et sources utiles.",
+    "Le même script prononcé est utilisé sur Instagram, Facebook, TikTok et YouTube Shorts."
+  ],
+  "legacy_video_rules": [
+    "Format vertical 9:16, chaleureux, sérieux et dynamique.",
+    "Texte grand, centré et complet ; révélation progressive fluide synchronisée avec la voix.",
+    "Sur Instagram, un beat narratif cohérent reste intégralement sur une seule page ; la taille et l'espacement s'adaptent sans découpage automatique.",
+    "Utiliser exclusivement l'identité vocale locale Donny V14 depuis assets/voice_reference_donny.wav pour Instagram, TikTok et YouTube Shorts ; TikTok réutilise exactement le rendu Instagram sans nouvelle synthèse.",
+    "Appliquer une prosodie déterministe par intention : accroche 176 mots/minute, question 160, réponse 158, règle et exemple 174, précision 168, nuance 165 et CTA 170 ; correction temporelle bornée entre 0,82x et 1,22x, micro-respiration de 0,22 seconde et respiration structurante de 0,9 seconde.",
+    "Utiliser la même graine de génération, la même référence Donny et le même nivellement sonore pour chaque segment ; bloquer toute fluctuation involontaire de timbre, volume, intonation ou vitesse.",
+    "Bloquer le rendu si le contrôle vocal détecte un mot manquant, une répétition, une microcoupure, un bruit de fond, un écrêtage ou une rupture de débit.",
+    "Transitions de pages fluides avec respiration ; dernière slide seulement après la narration.",
+    "Pictogrammes issus de la bibliothèque vectorielle locale de 2 030 éléments, parlants, diversifiés, présentables et liés à chaque page, contrôlés sémantiquement et géométriquement, sans chevauchement ni découpe.",
+    "Voix légèrement accélérée et identique sur les trois plateformes ; débruitage systématique, retranscription locale Whisper Large Turbo phrase par phrase, contrôle bloquant des termes essentiels et régénération ciblée avant resynchronisation mot à mot.",
+    "Aucun crayon jaune, demi-cercle inutile, barre supérieure, nom BRITED, domaine ou libellé interne.",
+    "Barre de progression uniquement en bas.",
+    "Clôture conforme au mode du calendrier. Une seule invitation ; aucune formule de rendez-vous imposée."
+  ],
+  "platforms": {
+    "tiktok": {
+      "target_seconds": [
+        60,
+        65
+      ],
+      "maximum_seconds": 65,
+      "goal": "croissance, rétention, acquisition",
+      "order": [
+        "hook",
+        "question",
+        "reponse",
+        "regle",
+        "exemple",
+        "nuance",
+        "cta"
+      ]
+    },
+    "reels": {
+      "target_seconds": [
+        60,
+        65
+      ],
+      "maximum_seconds": 65,
+      "goal": "enregistrement, partage privé, complétion",
+      "order": [
+        "hook",
+        "question",
+        "reponse",
+        "regle",
+        "exemple",
+        "nuance",
+        "cta"
+      ]
+    },
+    "shorts": {
+      "target_seconds": [
+        60,
+        65
+      ],
+      "maximum_seconds": 65,
+      "goal": "réponse recherchée, rétention, clarté autonome",
+      "order": [
+        "hook",
+        "reponse",
+        "regle",
+        "exemple",
+        "nuance",
+        "cta"
+      ]
+    }
+  },
+  "series": {
+    "fiscalite": {
+      "label": "Fiscalité",
+      "color": "#6F4E37",
+      "icon": "％"
+    },
+    "immobilier": {
+      "label": "Immobilier",
+      "color": "#C96F4A",
+      "icon": "⌂"
+    },
+    "juridique": {
+      "label": "Juridique",
+      "color": "#D99A2B",
+      "icon": "§"
+    },
+    "finance": {
+      "label": "Finance",
+      "color": "#2457D6",
+      "icon": "↗"
+    }
+  },
+  "publication": {
+    "automatic": false,
+    "human_approval_required": true,
+    "review_before_export": true
+  },
+  "cta_rotation": {
+    "strategy": "community_first",
+    "distribution": {
+      "pedagogique": 57.14,
+      "discussion": 14.29,
+      "enregistrement": 14.29,
+      "abonnement": 7.14,
+      "rendez_vous": 7.14
+    },
+    "period": "14 publications, soit 7 jours à deux créneaux",
+    "alternation": "Rotation déterministe par date et créneau ; point de départ éditorial à ajuster selon les retours",
+    "tiktok_instagram_destination": "profil",
+    "youtube_destination": "profil"
+  },
+  "automation": {
+    "token_strategy": "Réutiliser les scripts certifiés et les actifs locaux ; aucun appel externe silencieux ; modèle local prioritaire ; secours externe uniquement après accord explicite.",
+    "script_score_threshold": 10.0,
+    "all_agents_must_pass": true,
+    "maximum_rewrites": 15,
+    "maximum_remediation_cycles": 15,
+    "human_role": "Validation finale des vidéos uniquement",
+    "agents": [
+      "source",
+      "juridique_fiscal",
+      "completude",
+      "plateforme",
+      "editorial",
+      "securite",
+      "formulation_professionnelle",
+      "contre_verification_finale",
+      "coherence_pictogrammes",
+      "densite_editoriale",
+      "pedagogie_client",
+      "retention_attention",
+      "impact_dynamique",
+      "conversion_confiance",
+      "fluidite_orale"
+    ]
+  },
+  "community_rules": [
+    "Commentaires : questions de compréhension ou choix de thème, sans informations personnelles.",
+    "Réutiliser uniquement les questions réellement reçues.",
+    "Ne pas inventer de résultat client.",
+    "Communauté prioritaire, coordonnées accessibles sans seuil d’abonnés."
+  ],
+  "plain_language_rules": [
+    "Une seule question du quotidien.",
+    "Compréhensible dès la première écoute, sans connaissance préalable.",
+    "Expliquer immédiatement le terme technique indispensable.",
+    "Conserver les conditions qui changent la réponse ; enlever les mécanismes secondaires.",
+    "Une conclusion utile suffit, sans invitation obligatoire.",
+    "Parle comme à un ami en le vouvoyant : vous, votre, vos. Une situation familière, une seule idée, un exemple concret avec les chiffres utiles, une explication de ce que cela change pour lui et une conclusion utile. Pas de dialogue fictif à deux voix, pas de témoignage inventé, pas de tic systématique comme imaginez ou vous voyez.",
+    "Format validé le 11 septembre 2026 : vidéo de 60 à 65 secondes, cible 63 secondes. Préparer environ 150 à 165 mots prononcés, nombres développés, à un débit naturel autour de 160 mots/minute avec des pauses. Ce budget est indicatif : chronométrer la lecture puis le montage final, jingle compris. Si un jingle est ajouté, déduire sa durée du budget de parole ; ne pas accélérer artificiellement. Un texte seul ne garantit pas la durée réelle ni une rémunération TikTok."
+  ],
+  "conversation_format": {
+    "revision": "2026-09-11",
+    "tone": "Parle comme à un ami en le vouvoyant : vous, votre, vos. Une situation familière, une seule idée, un exemple concret avec les chiffres utiles, une explication de ce que cela change pour lui et une conclusion utile. Pas de dialogue fictif à deux voix, pas de témoignage inventé, pas de tic systématique comme imaginez ou vous voyez.",
+    "duration": "Format validé le 11 septembre 2026 : vidéo de 60 à 65 secondes, cible 63 secondes. Préparer environ 150 à 165 mots prononcés, nombres développés, à un débit naturel autour de 160 mots/minute avec des pauses. Ce budget est indicatif : chronométrer la lecture puis le montage final, jingle compris. Si un jingle est ajouté, déduire sa durée du budget de parole ; ne pas accélérer artificiellement. Un texte seul ne garantit pas la durée réelle ni une rémunération TikTok.",
+    "target_seconds": [
+      60,
+      65
+    ],
+    "preferred_seconds": 63,
+    "spoken_words_guideline": [
+      150,
+      165
+    ],
+    "requires_timed_read": true,
+    "measured_video_required": true,
+    "preserve_existing_validated_versions": true
+  }
+}

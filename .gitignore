@@ -1,0 +1,13 @@
+.venv/
+venv/
+BRITED_STUDIO_FINAL/.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.local
+.env.production
+node_modules/
+dist/
+build/
+.next/

@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement les faits de la fiche SOURCE DE VÉRITÉ mais manque de précision sur la fiscalité des 'plus‑values' (qualifier le prélèvement forfaitaire et préciser qu'il s'agit du prélèvement forfaitaire unique, PFU, ou d'un autre régime selon le cas).",
+        "Il faudrait citer mot à mot les articles pertinents (L.224-5 pour modalités, L.224-4 pour déblocages anticipés) lorsqu'on affirme des règles provenant du Code monétaire et financier."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation correcte mais incomplète : l'affirmation 'les plus‑values restent soumises au prélèvement forfaitaire' nécessite précision — taux ou référence au PFU (12,8 %) et mention des prélèvements sociaux, ou mention que le contribuable peut opter pour l'imposition au barème dans certains cas.",
+        "La phrase 'Seules les rentes d'un montant très faible peuvent... être servies sous forme de capital' est vague et devrait préciser les conditions réglementaires ou renvoyer à L.224-5 pour éviter interprétation erronée."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale et l'exception principale (déduction ou non) mais omet d'expliciter que le fractionnement du capital est possible pour limiter l'effet de seuil (il est mentionné en narration mais pas comme option pratique — le script cite l'exemple 80 000 € mais ne précise que le fractionnement peut s'étaler sur plusieurs années).",
+        "Manque d'indication brève sur la possibilité de combiner capital et rente (mentionnée dans la fiche mais peu visible dans le script)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le découpage en beats respecte le format court, mais la durée estimée (42 s) paraît compatible uniquement si la narration est très rapide. Il faut vérifier temps de parole par beat pour rester dans les ~40 s.",
+        "Le CTA 'Prendre rendez‑vous via le lien dans ma bio' est adapté aux usages Shorts, mais attention à la mention d'un lien externe si la plateforme restreint la promotion commerciale."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte mais la deuxième phrase ('Les deux sont possibles ; le choix détermine la fiscalité et le risque.') est un peu lourde pour un format Très court — proposer une version plus directe pour les premières secondes.",
+        "La progression est logique, mais le script pourrait rappeler brièvement (une phrase) que la déduction à l'entrée n'est pas une exonération définitive (la fiche interdit de la présenter comme un gain définitif)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et mentionne la non‑généralisation, mais la phrase finale (CTA) approche une offre de rendez‑vous : il faut s'assurer que l'énoncé ne constitue pas un conseil personnalisé (la légende le précise, mais le CTA doit rester neutre).",
+        "Manque une phrase courte dans la narration rappelant que ceci n'est pas un conseil personnalisé (même si la légende le mentionne)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français globalement naturel mais plusieurs segments sont lourds pour la lecture à voix haute (ex. 'les plus‑values restent soumises au prélèvement forfaitaire'). Reformuler pour faciliter la diction.",
+        "La phrase 'Si les versements n'ont pas été déduits, la logique s'inverse' peut prêter à confusion : mieux dire 'Si vous n'avez pas déduit vos versements, le capital versé est exonéré d'impôt, seules les plus‑values sont taxées.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements cohérents mais quelques imprécisions légales à corriger (voir remarques sur les plus‑values et le 10 % d'abattement).",
+        "Le script respecte l'ordre question/réponse mais nécessiterait une relecture mot à mot pour ajuster le rythme et éviter que deux informations lourdes tombent l'une après l'autre sans respiration."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La majorité des pictogrammes correspondent aux notions, mais 'Pictogramme loi' pour indiquer 'IR sans abattement 10%' risque d'être trop générique — suggérer icône balance/impôt spécifique.",
+        "Le visuel 'personne + calendrier vie' pour la rente est adéquat mais le 'coffret héritage grisé' doit clairement indiquer 'transmission réduite' pour éviter interprétation erronée."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais manque de mention explicite que le capital peut être fractionné sur plusieurs années (mentionnée dans la fiche comme point de vigilance important).",
+        "L'exemple chiffré est pertinent mais pourrait brièvement ajouter 'fractionnement possible' comme solution immédiate pour la clarté pédagogique."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le langage est accessible mais quelques termes techniques ('prélèvement forfaitaire', 'abattement de 10 %') ne sont pas expliqués — suggérer une très courte parenthèse explicative (ex. 'abattement = réduction fiscale appliquée aux pensions').",
+        "Le spectateur non spécialiste peut ne pas comprendre la différence pratique entre 'versements déduits' et 'non déduits' : ajouter une brève reformulation ('si vous avez choisi la déduction à l'entrée...')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace mais les deux premières secondes pourraient gagner en impact par une reformulation plus directe et rapide (ex. 'PER : vous récupérez tout en capital ? ou en rente ?').",
+        "Le rythme entre beats 3 et 4 contient deux informations fiscales lourdes qui risquent de perdre l'attention si la diction est trop rapide."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et source listée ; toutefois, pour renforcer la confiance, indiquer brièvement les articles de loi dans l'écran de fin renforcerait la crédibilité (actuellement listés en sources mais pas visibles pendant la vidéo).",
+        "Le CTA est direct mais pourrait être adouci pour éviter pression commerciale ('Envie d'en parler ? Rendez‑vous en bio' plutôt que 'Prenez rendez‑vous')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 123,
+      "seconds": 45.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 123,
+        "seconds": 45.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement les faits de la fiche SOURCE DE VÉRITÉ mais manque de précision sur la fiscalité des 'plus‑values' (qualifier le prélèvement forfaitaire et préciser qu'il s'agit du prélèvement forfaitaire unique, PFU, ou d'un autre régime selon le cas).",
+    "source : Il faudrait citer mot à mot les articles pertinents (L.224-5 pour modalités, L.224-4 pour déblocages anticipés) lorsqu'on affirme des règles provenant du Code monétaire et financier.",
+    "juridique_fiscal : Formulation correcte mais incomplète : l'affirmation 'les plus‑values restent soumises au prélèvement forfaitaire' nécessite précision — taux ou référence au PFU (12,8 %) et mention des prélèvements sociaux, ou mention que le contribuable peut opter pour l'imposition au barème dans certains cas.",
+    "juridique_fiscal : La phrase 'Seules les rentes d'un montant très faible peuvent... être servies sous forme de capital' est vague et devrait préciser les conditions réglementaires ou renvoyer à L.224-5 pour éviter interprétation erronée.",
+    "completude : Le script couvre la règle centrale et l'exception principale (déduction ou non) mais omet d'expliciter que le fractionnement du capital est possible pour limiter l'effet de seuil (il est mentionné en narration mais pas comme option pratique — le script cite l'exemple 80 000 € mais ne précise que le fractionnement peut s'étaler sur plusieurs années).",
+    "completude : Manque d'indication brève sur la possibilité de combiner capital et rente (mentionnée dans la fiche mais peu visible dans le script).",
+    "plateforme : Le découpage en beats respecte le format court, mais la durée estimée (42 s) paraît compatible uniquement si la narration est très rapide. Il faut vérifier temps de parole par beat pour rester dans les ~40 s.",
+    "plateforme : Le CTA 'Prendre rendez‑vous via le lien dans ma bio' est adapté aux usages Shorts, mais attention à la mention d'un lien externe si la plateforme restreint la promotion commerciale.",
+    "editorial : L'accroche est forte mais la deuxième phrase ('Les deux sont possibles ; le choix détermine la fiscalité et le risque.') est un peu lourde pour un format Très court — proposer une version plus directe pour les premières secondes.",
+    "editorial : La progression est logique, mais le script pourrait rappeler brièvement (une phrase) que la déduction à l'entrée n'est pas une exonération définitive (la fiche interdit de la présenter comme un gain définitif).",
+    "securite : Le contenu est pédagogique et mentionne la non‑généralisation, mais la phrase finale (CTA) approche une offre de rendez‑vous : il faut s'assurer que l'énoncé ne constitue pas un conseil personnalisé (la légende le précise, mais le CTA doit rester neutre).",
+    "securite : Manque une phrase courte dans la narration rappelant que ceci n'est pas un conseil personnalisé (même si la légende le mentionne).",
+    "formulation_professionnelle : Français globalement naturel mais plusieurs segments sont lourds pour la lecture à voix haute (ex. 'les plus‑values restent soumises au prélèvement forfaitaire'). Reformuler pour faciliter la diction.",
+    "formulation_professionnelle : La phrase 'Si les versements n'ont pas été déduits, la logique s'inverse' peut prêter à confusion : mieux dire 'Si vous n'avez pas déduit vos versements, le capital versé est exonéré d'impôt, seules les plus‑values sont taxées.'",
+    "contre_verification_finale : Enchaînements cohérents mais quelques imprécisions légales à corriger (voir remarques sur les plus‑values et le 10 % d'abattement).",
+    "contre_verification_finale : Le script respecte l'ordre question/réponse mais nécessiterait une relecture mot à mot pour ajuster le rythme et éviter que deux informations lourdes tombent l'une après l'autre sans respiration.",
+    "coherence_pictogrammes : La majorité des pictogrammes correspondent aux notions, mais 'Pictogramme loi' pour indiquer 'IR sans abattement 10%' risque d'être trop générique — suggérer icône balance/impôt spécifique.",
+    "coherence_pictogrammes : Le visuel 'personne + calendrier vie' pour la rente est adéquat mais le 'coffret héritage grisé' doit clairement indiquer 'transmission réduite' pour éviter interprétation erronée.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais manque de mention explicite que le capital peut être fractionné sur plusieurs années (mentionnée dans la fiche comme point de vigilance important).",
+    "densite_editoriale : L'exemple chiffré est pertinent mais pourrait brièvement ajouter 'fractionnement possible' comme solution immédiate pour la clarté pédagogique.",
+    "pedagogie_client : Le langage est accessible mais quelques termes techniques ('prélèvement forfaitaire', 'abattement de 10 %') ne sont pas expliqués — suggérer une très courte parenthèse explicative (ex. 'abattement = réduction fiscale appliquée aux pensions').",
+    "pedagogie_client : Le spectateur non spécialiste peut ne pas comprendre la différence pratique entre 'versements déduits' et 'non déduits' : ajouter une brève reformulation ('si vous avez choisi la déduction à l'entrée...').",
+    "retention_attention : Hook efficace mais les deux premières secondes pourraient gagner en impact par une reformulation plus directe et rapide (ex. 'PER : vous récupérez tout en capital ? ou en rente ?').",
+    "retention_attention : Le rythme entre beats 3 et 4 contient deux informations fiscales lourdes qui risquent de perdre l'attention si la diction est trop rapide.",
+    "conversion_confiance : Le ton est sérieux et source listée ; toutefois, pour renforcer la confiance, indiquer brièvement les articles de loi dans l'écran de fin renforcerait la crédibilité (actuellement listés en sources mais pas visibles pendant la vidéo).",
+    "conversion_confiance : Le CTA est direct mais pourrait être adouci pour éviter pression commerciale ('Envie d'en parler ? Rendez‑vous en bio' plutôt que 'Prenez rendez‑vous')."
+  ],
+  "recommendations": [
+    "Préciser la fiscalité des plus‑values : indiquer qu'elles peuvent être soumises au prélèvement forfaitaire unique (PFU à 12,8 %) + prélèvements sociaux, ou qu'il y a parfois option pour le barème selon le cas. Ajouter une phrase courte dans le beat correspondant.",
+    "Ajouter une très brève mention expliquant ce qu'est l'abattement de 10 % (pour les pensions) afin d'aider un non‑spécialiste.",
+    "Clarifier la phrase sur les rentes de 'montant très faible' en renvoyant à l'article L.224-5 ou en précisant la condition réglementaire pour éviter formulation vague.",
+    "Inclure une phrase explicite très courte rappelant que la déduction à l'entrée est un report d'imposition et non une exonération définitive (la fiche l'exige).",
+    "Rendre l'exemple 80 000 € immédiatement suivi d'une solution possible : 'vous pouvez fractionner la sortie sur plusieurs années' pour renforcer l'utilité pratique.",
+    "Adapter la formulation pour la lecture à voix haute : alléger les constructions longues et préférer phrases courtes par beat pour tenir la durée annoncée (42 s).",
+    "Remplacer ou préciser certains pictogrammes (ex. icône 'loi' → balance/impôt, coffret héritage → icône clairement barrée ou diminuée) pour que le visuel illustre strictement la phrase prononcée.",
+    "Ajouter une phrase très courte avant le CTA rappelant que le contenu n'est pas un conseil personnalisé (p. ex. 'Ceci n'est pas un conseil personnalisé') pour renforcer la conformité sécuritaire.",
+    "Vérifier que la mention des références légales (L.224-5, L.224-4, CGI art.158,5 et 163 quatervicies) figure dans l'écran de fin ou la description afin d'appuyer la crédibilité.",
+    "Effectuer une relecture mot à mot pour vérifier le timing et la diction : s'assurer que chaque beat peut être lu clairement dans le temps imparti et que l'ensemble reste compréhensible pour un non‑spécialiste."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-29:shorts:per_sortie_capital_rente:1",
+  "script_path": "scripts/per/per_sortie_capital_rente__shorts__a3__v3.md"
+}

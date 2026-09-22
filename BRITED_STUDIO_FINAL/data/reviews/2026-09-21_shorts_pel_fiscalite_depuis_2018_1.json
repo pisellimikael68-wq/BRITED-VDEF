@@ -1,0 +1,200 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche-source et cite les bons chiffres (plafond 61 200 €, PFU 30 %, durée 4 ans).",
+        "Formulation « La prime d'État a été supprimée » : vrai pour les PEL ouverts depuis 2018, mais il faut éviter toute formulation pouvant laisser croire qu'il n'existe absolument aucune prime historique pour d'autres cas (la fiche l'indique, mais le script devrait préciser « pour les plans ouverts depuis 2018 » dans la même phrase pour éviter l'ambiguïté).",
+        "La phrase « le droit à prêt maintenu » est correcte mais réductrice : il faudrait rappeler que le droit à prêt subsiste mais que son taux est souvent moins intéressant que le marché (comme indiqué dans la fiche)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention PFU 30 % est correcte pour les plans ouverts depuis 2018 mais le script pourrait signaler que ce 30 % inclut prélèvement forfaitaire (12,8 %) et prélèvements sociaux (17,2 %), pour plus de précision juridique/fiscale.",
+        "Il manque la précision que les règles diffèrent selon la date d'ouverture (le script le dit ailleurs, mais la précision fiscale devrait rester proche de l'affirmation sur le PFU pour éviter toute lecture hors contexte).",
+        "Ne pas présenter l'information comme un conseil personnalisé : la mention légale en bas est présente dans la fiche mais pas dans le script final; il faut conserver ou rapprocher la mention 'Contenu pédagogique... ne constitue pas un conseil personnalisé' dans la vidéo ou description."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exception utile (PEL avant/since 2018) mais omet d'insister que le taux est fixé à l'ouverture pour toute la durée, phrase cruciale qui doit apparaître dès la comparaison (elle est citée mais pourrait être mise en tête dans la colonne 'Avant 2018').",
+        "Absence d'un très court exemple chiffré simple (même hypothétique) pour aider la compréhension en 42s : par exemple comparer brièvement un ancien taux garanti vs taux actuel pour illustrer 'irremplaçable'."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "YouTube Shorts limite la description cliquable et le 'lien dans ma bio' n'est pas toujours visible/accessible ; recommander d'ajouter le lien dans la description ou d'indiquer explicitement 'lien dans la description' si applicable.",
+        "Durée estimée 42s : le script parait dense pour un format 42s ; risque de parole trop rapide. Il faudrait vérifier le débit (vérification vocale) et simplifier deux phrases pour tenir la durée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais les deux premières secondes pourraient être encore plus percutantes en réduisant les mots (ex. « Votre PEL vaut-il encore quelque chose ? » reste bon mais la transition immédiate vers 'Depuis 2018...' doit être plus nette).",
+        "Le CTA est correct mais pourrait être formulé sans ambiguïté (« Prenez rendez-vous via le lien dans la description ou la bio ») pour augmenter conversion.",
+        "Certaines formules répétitives peuvent être simplifiées pour fluidité et mémorisation."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et crédible, mais quelques formulations sont un peu lourdes pour un format court (par ex. 'Taux fixé à l'ouverture; droit à prêt maintenu.' pourrait devenir 'Taux fixé à l'ouverture — le droit à prêt subsiste.').",
+        "Vérifier la diction sur l'enchaînement 'prime d'État a été supprimée' pour éviter de sembler catégorique sans rappeler 'pour les plans ouverts depuis 2018'."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent mais quelques micro-incohérences : la phrase « un PEL ouvert depuis 2018 reste fiscalisé » est vraie mais redondante après la mention PFU ; suggérer de replacer ou raccourcir pour éviter répétition.",
+        "Vérifier la concordance mot à mot entre texte à l'écran et narration (ex. écrans listent 'PFU 30% • Prime = supprimée • Plafond 61 200 € • 4 ans' ; la narration doit prononcer les mêmes éléments dans le même ordre pour éviter décalage)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents, mais attention : l'icône 'droit à prêt' doit clairement représenter un droit (contrat/prêt) et non seulement un symbole de taux, pour éviter confusion.",
+        "La vignette 'prime barrée' est correcte mais pourrait laisser penser qu'aucune prime n'a jamais existé : ajouter petit libellé 'pour les plans ouverts depuis 2018' pour cohérence visuelle/texte."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo garde un seul angle (comparaison avant/après 2018). Toutefois, elle tente d'inclure trop d'éléments (PFU détail, plafond, durée, droit à prêt, nuance finale) en 42s — risque de surcharge. Il faudrait prioriser 3-4 éléments coupés au plus court.",
+        "Manque d'un exemple chiffré très court pour renforcer la règle centrale sans alourdir."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Langage adapté à un non-spécialiste, mais le concept de PFU pourrait être brièvement expliqué ('PFU = 30 % au total, incluant impôt et prélèvements sociaux') pour éviter incompréhension.",
+        "La recommandation 'ne décidez pas sans connaître la date d'ouverture et le taux' est excellente ; suggérer de proposer comment vérifier ces éléments (ex. relevé ou contact banque) en une courte phrase."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook est fort ; toutefois le rythme doit être travaillé pour conserver l'attention sur 42s — risque d'information dense dès le troisième beat.",
+        "La nuance finale 'Attention : ne décidez pas...' est bonne pour retenir l'audience mais devrait être placée immédiatement après la comparaison pour maintenir la logique."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé inspire confiance, mais il manque la mention explicite 'sources officielles en description' ou l'affichage rapide d'une source sur écran pour renforcer la crédibilité dans le format court.",
+        "L'appel à l'action est doux mais pourrait préciser le type de rendez-vous (bilan gratuit, diagnostic payant ?) pour éviter surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 119,
+      "seconds": 44.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 119,
+        "seconds": 44.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche-source et cite les bons chiffres (plafond 61 200 €, PFU 30 %, durée 4 ans).",
+    "source : Formulation « La prime d'État a été supprimée » : vrai pour les PEL ouverts depuis 2018, mais il faut éviter toute formulation pouvant laisser croire qu'il n'existe absolument aucune prime historique pour d'autres cas (la fiche l'indique, mais le script devrait préciser « pour les plans ouverts depuis 2018 » dans la même phrase pour éviter l'ambiguïté).",
+    "source : La phrase « le droit à prêt maintenu » est correcte mais réductrice : il faudrait rappeler que le droit à prêt subsiste mais que son taux est souvent moins intéressant que le marché (comme indiqué dans la fiche).",
+    "juridique_fiscal : La mention PFU 30 % est correcte pour les plans ouverts depuis 2018 mais le script pourrait signaler que ce 30 % inclut prélèvement forfaitaire (12,8 %) et prélèvements sociaux (17,2 %), pour plus de précision juridique/fiscale.",
+    "juridique_fiscal : Il manque la précision que les règles diffèrent selon la date d'ouverture (le script le dit ailleurs, mais la précision fiscale devrait rester proche de l'affirmation sur le PFU pour éviter toute lecture hors contexte).",
+    "juridique_fiscal : Ne pas présenter l'information comme un conseil personnalisé : la mention légale en bas est présente dans la fiche mais pas dans le script final; il faut conserver ou rapprocher la mention 'Contenu pédagogique... ne constitue pas un conseil personnalisé' dans la vidéo ou description.",
+    "completude : Le script couvre la règle centrale, la condition et l'exception utile (PEL avant/since 2018) mais omet d'insister que le taux est fixé à l'ouverture pour toute la durée, phrase cruciale qui doit apparaître dès la comparaison (elle est citée mais pourrait être mise en tête dans la colonne 'Avant 2018').",
+    "completude : Absence d'un très court exemple chiffré simple (même hypothétique) pour aider la compréhension en 42s : par exemple comparer brièvement un ancien taux garanti vs taux actuel pour illustrer 'irremplaçable'.",
+    "plateforme : YouTube Shorts limite la description cliquable et le 'lien dans ma bio' n'est pas toujours visible/accessible ; recommander d'ajouter le lien dans la description ou d'indiquer explicitement 'lien dans la description' si applicable.",
+    "plateforme : Durée estimée 42s : le script parait dense pour un format 42s ; risque de parole trop rapide. Il faudrait vérifier le débit (vérification vocale) et simplifier deux phrases pour tenir la durée.",
+    "editorial : Accroche forte mais les deux premières secondes pourraient être encore plus percutantes en réduisant les mots (ex. « Votre PEL vaut-il encore quelque chose ? » reste bon mais la transition immédiate vers 'Depuis 2018...' doit être plus nette).",
+    "editorial : Le CTA est correct mais pourrait être formulé sans ambiguïté (« Prenez rendez-vous via le lien dans la description ou la bio ») pour augmenter conversion.",
+    "editorial : Certaines formules répétitives peuvent être simplifiées pour fluidité et mémorisation.",
+    "formulation_professionnelle : Le français est naturel et crédible, mais quelques formulations sont un peu lourdes pour un format court (par ex. 'Taux fixé à l'ouverture; droit à prêt maintenu.' pourrait devenir 'Taux fixé à l'ouverture — le droit à prêt subsiste.').",
+    "formulation_professionnelle : Vérifier la diction sur l'enchaînement 'prime d'État a été supprimée' pour éviter de sembler catégorique sans rappeler 'pour les plans ouverts depuis 2018'.",
+    "contre_verification_finale : Globalement cohérent mais quelques micro-incohérences : la phrase « un PEL ouvert depuis 2018 reste fiscalisé » est vraie mais redondante après la mention PFU ; suggérer de replacer ou raccourcir pour éviter répétition.",
+    "contre_verification_finale : Vérifier la concordance mot à mot entre texte à l'écran et narration (ex. écrans listent 'PFU 30% • Prime = supprimée • Plafond 61 200 € • 4 ans' ; la narration doit prononcer les mêmes éléments dans le même ordre pour éviter décalage).",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents, mais attention : l'icône 'droit à prêt' doit clairement représenter un droit (contrat/prêt) et non seulement un symbole de taux, pour éviter confusion.",
+    "coherence_pictogrammes : La vignette 'prime barrée' est correcte mais pourrait laisser penser qu'aucune prime n'a jamais existé : ajouter petit libellé 'pour les plans ouverts depuis 2018' pour cohérence visuelle/texte.",
+    "densite_editoriale : La vidéo garde un seul angle (comparaison avant/après 2018). Toutefois, elle tente d'inclure trop d'éléments (PFU détail, plafond, durée, droit à prêt, nuance finale) en 42s — risque de surcharge. Il faudrait prioriser 3-4 éléments coupés au plus court.",
+    "densite_editoriale : Manque d'un exemple chiffré très court pour renforcer la règle centrale sans alourdir.",
+    "pedagogie_client : Langage adapté à un non-spécialiste, mais le concept de PFU pourrait être brièvement expliqué ('PFU = 30 % au total, incluant impôt et prélèvements sociaux') pour éviter incompréhension.",
+    "pedagogie_client : La recommandation 'ne décidez pas sans connaître la date d'ouverture et le taux' est excellente ; suggérer de proposer comment vérifier ces éléments (ex. relevé ou contact banque) en une courte phrase.",
+    "retention_attention : Hook est fort ; toutefois le rythme doit être travaillé pour conserver l'attention sur 42s — risque d'information dense dès le troisième beat.",
+    "retention_attention : La nuance finale 'Attention : ne décidez pas...' est bonne pour retenir l'audience mais devrait être placée immédiatement après la comparaison pour maintenir la logique.",
+    "conversion_confiance : Ton sérieux et sourcé inspire confiance, mais il manque la mention explicite 'sources officielles en description' ou l'affichage rapide d'une source sur écran pour renforcer la crédibilité dans le format court.",
+    "conversion_confiance : L'appel à l'action est doux mais pourrait préciser le type de rendez-vous (bilan gratuit, diagnostic payant ?) pour éviter surpromesse."
+  ],
+  "recommendations": [
+    "Préciser systématiquement 'pour les plans ouverts depuis 2018' à chaque affirmation générale liée au PFU et à la suppression de la prime, pour éviter toute lecture hors-contexte.",
+    "Ajouter en voix off une micro-précision : 'Le PFU de 30 % comprend 12,8 % d'impôt et 17,2 % de prélèvements sociaux' (si le script reste court, le raccourci 'PFU = 30 % au total' suffit).",
+    "Raccourcir légèrement le texte pour garantir la tenue dans 42 secondes : fusionner ou supprimer une redondance (par ex. conserver la mention PFU et remplacer 'un PEL ouvert depuis 2018 reste fiscalisé' par une phrase plus courte).",
+    "Adapter le CTA à YouTube Shorts : indiquer 'lien dans la description' ou 'lien dans la bio et la description' selon où le lien sera effectivement placé, et préciser si le rendez-vous est gratuit ou payant.",
+    "Sur les visuels, ajouter le libellé 'pour les plans ouverts depuis 2018' près de la pictogramme 'prime barrée' et utiliser un pictogramme clair pour le 'droit à prêt' (contrat/maison + signe euro) afin d'éviter toute ambiguïté.",
+    "Envisager un très court exemple chiffré (une phrase) pour illustrer la différence entre un ancien PEL à taux élevé et un PEL récent fiscalisé, par exemple : 'Un vieux PEL à 4 % reste à 4 % ; un PEL ouvert depuis 2018 sera imposé à 30 %.'",
+    "Inclure dans la description de la vidéo les sources officielles listées et une mention légale explicite : 'Contenu pédagogique, ne constitue pas un conseil personnalisé.'",
+    "Faire une relecture à voix haute chronométrée pour s'assurer que la narration tient bien en 42s sans sacrifier l'articulation ni la clarté."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-21:shorts:pel_fiscalite_depuis_2018:1",
+  "script_path": "scripts/pel/pel_fiscalite_depuis_2018__shorts__a1__v3.md"
+}

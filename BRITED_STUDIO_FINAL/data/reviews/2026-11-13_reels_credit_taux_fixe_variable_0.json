@@ -1,0 +1,200 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reprend fidèlement les faits principaux mais n'affiche pas mot à mot la source réglementaire (ex. 'Code de la consommation, art. L.313-25' en écran) quand le contenu mentionne des obligations. Sur reels, intégrer brièvement la référence renforcerait la fidélité stricte.",
+        "La fiche indique des chiffres (durée d'offre 30 jours, délai de réflexion 10 jours) qui ne sont pas rappelés dans le script. Si l'intention est d'être strict sur la 'source de vérité', l'omission est localisable : absence de rappel de ces délais dans la narration ou en texte écran."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction de recommander un type de taux, mais il ne rappelle pas la mention obligatoire d'information annuelle en cas de taux variable (art. L.313-46) : il faudrait au minimum une mention courte en texte écran ou voix ('information annuelle prévue par la loi').",
+        "La phrase sur le capé '+1' est exacte mais omet de préciser que le cap s'exprime souvent en points et que le mécanisme peut concerner taux nominaux hors assurance : précision juridique manquante dans l'exemple chiffré."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient l'élément central, la condition et l'exception (mensualité vs durée), mais il n'indique pas le TAEG comme seul indicateur comparable à l'écran — la fiche demande d'insister sur le TAEG.",
+        "L'exemple chiffré est utile mais trop simplifié : il faudrait préciser 'taux nominal' ou rappeler que l'exemple n'inclut pas assurance ni frais pour éviter interprétations erronées."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40 secondes : le script contient 7 beats avec explications et un exemple chiffré; sans minutage précis par beat, risque de dépasser 40 s. Il manque un cadrage temps par beat (ex. 1-2s, 5s, etc.).",
+        "Le CTA renvoie au lien en bio, conforme aux usages Reels, mais il faudrait ajouter un micro-élément visuel d'animation sur le bouton pour maximiser le taux de clic — remarque d'optimisation non critique mais utile."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte, mais la répétition 'Voulez-vous limiter la hausse ? OUI NON' risque d'interrompre le flux narratif si non intégrée comme micro-interaction visuelle. Recommander de limiter le texte affiché simultanément pour lisibilité en <2s.",
+        "La narration continue contient une virgule manquante et une légère lourdeur stylistique à 'si le contrat est capé '+1' et que le taux initial 1,5 %, il ne dépassera...' : proposer reformulation plus fluide."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction de délivrer un conseil personnalisé, mais il ne reprend pas explicitement la légende 'Contenu pédagogique général. Ne constitue ni un conseil...' en voix ou texte écran. La mention figure en bas de fiche mais doit être visible dans la vidéo ou description pour la sécurité juridique.",
+        "L'exemple chiffré pourrait être interprété comme une promesse de plafond universel ; il faut préciser clairement que c'est un exemple contractuel ('selon le contrat, capé +1 signifie...')."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations demandent un ajustement micro-linguistique pour un français naturel et oral : par exemple 'Le taux variable suit un indice ; si le contrat est capé '+1' et que le taux initial 1,5 %, il ne dépassera...' -> '...si le contrat est capé +1 et que le taux initial est de 1,5 %, il ne dépassera...'.",
+        "Le libellé du CTA est correct mais gagnerait à être plus direct et court pour la lecture en écran vertical ('Prendre RDV — lien en bio')."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, l'enchaînement logique tient, mais il manque des micro-temps indiqués par beat pour garantir la durée totale. De plus, la mention 'OUI NON' devrait être conçue comme élément cliquable ou visuel rapide — préciser dans la consigne de réalisation.",
+        "Il y a une incohérence mineure : la fiche demande de ne jamais dire au spectateur quel type de taux prendre — le script respecte cela, mais la phrase 'Voulez-vous limiter la hausse ? OUI NON' pourrait être perçue comme orientante si le montage pousse vers 'OUI'. Préciser neutralité visuelle."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 5 : 'Schéma indice → taux' doit indiquer quel indice (ex. 'Euribor') ou préciser 'indice de référence (ex. Euribor)'; sans nom, le pictogramme peut paraître générique.",
+        "Beat 4 'Icône bouclier + calendrier' illustre bien la certitude, mais il faut éviter pictogrammes trop décoratifs : indiquer style (contraste élevé, lisible en petit format)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais souhaite aussi couvrir 'capé' et 'mensualité vs durée' — risque de surcharge pour 40 s. Recommander de condenser l'exemple chiffré ou d'ôter un détail pour rester clair.",
+        "Le script n'affiche pas le rappel essentiel 'Comparer via le TAEG' en texte écran clair et prioritaire ; omission qui nuit à la densité pédagogique demandée."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible mais le terme 'capé +1' mérite une micro-définition orale (ex. 'capé +1 : hausse limitée à +1 point') pour un non-spécialiste.",
+        "L'attention du non-spécialiste peut se perdre sur la nuance 'mensualité vs durée' si l'on n'illustre pas rapidement l'effet concret (ex. 'mensualité stable mais durée allongée de X années')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial efficace mais il faut assurer que les deux premières secondes montrent visuel + texte lisible simultanément ; la contrainte n'est pas explicitée dans le script.",
+        "Le progression est logique mais risque d'être trop dense au milieu (beat 4-6). Suggérer micro-pauses et rythme visuel (3-4 images maximum par 5 secondes)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé, mais l'absence visible de la mention légale de non-conseil dans la vidéo ou la description peut affaiblir la confiance et exposer au risque de lecture erronée.",
+        "Le CTA est professionnel mais gagnerait à inclure une promesse de service clair et limitée ('Bilan gratuit de 15 min' si applicable) ; en l'absence d'offre, garder 'Prendre rendez-vous' neutre."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script reprend fidèlement les faits principaux mais n'affiche pas mot à mot la source réglementaire (ex. 'Code de la consommation, art. L.313-25' en écran) quand le contenu mentionne des obligations. Sur reels, intégrer brièvement la référence renforcerait la fidélité stricte.",
+    "source : La fiche indique des chiffres (durée d'offre 30 jours, délai de réflexion 10 jours) qui ne sont pas rappelés dans le script. Si l'intention est d'être strict sur la 'source de vérité', l'omission est localisable : absence de rappel de ces délais dans la narration ou en texte écran.",
+    "juridique_fiscal : Le script respecte l'interdiction de recommander un type de taux, mais il ne rappelle pas la mention obligatoire d'information annuelle en cas de taux variable (art. L.313-46) : il faudrait au minimum une mention courte en texte écran ou voix ('information annuelle prévue par la loi').",
+    "juridique_fiscal : La phrase sur le capé '+1' est exacte mais omet de préciser que le cap s'exprime souvent en points et que le mécanisme peut concerner taux nominaux hors assurance : précision juridique manquante dans l'exemple chiffré.",
+    "completude : Le script contient l'élément central, la condition et l'exception (mensualité vs durée), mais il n'indique pas le TAEG comme seul indicateur comparable à l'écran — la fiche demande d'insister sur le TAEG.",
+    "completude : L'exemple chiffré est utile mais trop simplifié : il faudrait préciser 'taux nominal' ou rappeler que l'exemple n'inclut pas assurance ni frais pour éviter interprétations erronées.",
+    "plateforme : Durée estimée 40 secondes : le script contient 7 beats avec explications et un exemple chiffré; sans minutage précis par beat, risque de dépasser 40 s. Il manque un cadrage temps par beat (ex. 1-2s, 5s, etc.).",
+    "plateforme : Le CTA renvoie au lien en bio, conforme aux usages Reels, mais il faudrait ajouter un micro-élément visuel d'animation sur le bouton pour maximiser le taux de clic — remarque d'optimisation non critique mais utile.",
+    "editorial : Accroche forte, mais la répétition 'Voulez-vous limiter la hausse ? OUI NON' risque d'interrompre le flux narratif si non intégrée comme micro-interaction visuelle. Recommander de limiter le texte affiché simultanément pour lisibilité en <2s.",
+    "editorial : La narration continue contient une virgule manquante et une légère lourdeur stylistique à 'si le contrat est capé '+1' et que le taux initial 1,5 %, il ne dépassera...' : proposer reformulation plus fluide.",
+    "securite : Le script respecte l'interdiction de délivrer un conseil personnalisé, mais il ne reprend pas explicitement la légende 'Contenu pédagogique général. Ne constitue ni un conseil...' en voix ou texte écran. La mention figure en bas de fiche mais doit être visible dans la vidéo ou description pour la sécurité juridique.",
+    "securite : L'exemple chiffré pourrait être interprété comme une promesse de plafond universel ; il faut préciser clairement que c'est un exemple contractuel ('selon le contrat, capé +1 signifie...').",
+    "formulation_professionnelle : Quelques formulations demandent un ajustement micro-linguistique pour un français naturel et oral : par exemple 'Le taux variable suit un indice ; si le contrat est capé '+1' et que le taux initial 1,5 %, il ne dépassera...' -> '...si le contrat est capé +1 et que le taux initial est de 1,5 %, il ne dépassera...'.",
+    "formulation_professionnelle : Le libellé du CTA est correct mais gagnerait à être plus direct et court pour la lecture en écran vertical ('Prendre RDV — lien en bio').",
+    "contre_verification_finale : En relecture mot à mot, l'enchaînement logique tient, mais il manque des micro-temps indiqués par beat pour garantir la durée totale. De plus, la mention 'OUI NON' devrait être conçue comme élément cliquable ou visuel rapide — préciser dans la consigne de réalisation.",
+    "contre_verification_finale : Il y a une incohérence mineure : la fiche demande de ne jamais dire au spectateur quel type de taux prendre — le script respecte cela, mais la phrase 'Voulez-vous limiter la hausse ? OUI NON' pourrait être perçue comme orientante si le montage pousse vers 'OUI'. Préciser neutralité visuelle.",
+    "coherence_pictogrammes : Beat 5 : 'Schéma indice → taux' doit indiquer quel indice (ex. 'Euribor') ou préciser 'indice de référence (ex. Euribor)'; sans nom, le pictogramme peut paraître générique.",
+    "coherence_pictogrammes : Beat 4 'Icône bouclier + calendrier' illustre bien la certitude, mais il faut éviter pictogrammes trop décoratifs : indiquer style (contraste élevé, lisible en petit format).",
+    "densite_editoriale : La vidéo traite un seul angle mais souhaite aussi couvrir 'capé' et 'mensualité vs durée' — risque de surcharge pour 40 s. Recommander de condenser l'exemple chiffré ou d'ôter un détail pour rester clair.",
+    "densite_editoriale : Le script n'affiche pas le rappel essentiel 'Comparer via le TAEG' en texte écran clair et prioritaire ; omission qui nuit à la densité pédagogique demandée.",
+    "pedagogie_client : Globalement compréhensible mais le terme 'capé +1' mérite une micro-définition orale (ex. 'capé +1 : hausse limitée à +1 point') pour un non-spécialiste.",
+    "pedagogie_client : L'attention du non-spécialiste peut se perdre sur la nuance 'mensualité vs durée' si l'on n'illustre pas rapidement l'effet concret (ex. 'mensualité stable mais durée allongée de X années').",
+    "retention_attention : Hook initial efficace mais il faut assurer que les deux premières secondes montrent visuel + texte lisible simultanément ; la contrainte n'est pas explicitée dans le script.",
+    "retention_attention : Le progression est logique mais risque d'être trop dense au milieu (beat 4-6). Suggérer micro-pauses et rythme visuel (3-4 images maximum par 5 secondes).",
+    "conversion_confiance : Ton sérieux et sourcé, mais l'absence visible de la mention légale de non-conseil dans la vidéo ou la description peut affaiblir la confiance et exposer au risque de lecture erronée.",
+    "conversion_confiance : Le CTA est professionnel mais gagnerait à inclure une promesse de service clair et limitée ('Bilan gratuit de 15 min' si applicable) ; en l'absence d'offre, garder 'Prendre rendez-vous' neutre."
+  ],
+  "recommendations": [
+    "Ajouter en texte écran bref la mention légale 'Contenu pédagogique général — pas un conseil personnalisé' (voix ou écran) pour respecter la sécurité juridique.",
+    "Afficher ou prononcer explicitement que le seul comparateur fiable entre offres est le TAEG (taux annuel effectif global) — mettre 'TAEG' en texte écran lors du beat 6 ou 7.",
+    "Préciser l'exemple chiffré : ajouter 'exemple hors assurance et frais' et reformuler la phrase pour la rendre orale : 'si le contrat est capé +1 et que le taux initial est de 1,5 %, alors le taux ne dépassera pas 2,5 %'.",
+    "Indiquer un minutage indicatif par beat pour tenir la durée de 40 s (par ex. Beats 1-2: 4 s, Beat 3: 4 s, Beat 4: 7 s, Beat 5: 8 s, Beat 6: 7 s, Beat 7: 5 s) et condenser si nécessaire.",
+    "Mentionner rapidement l'obligation d'information annuelle en cas de taux variable (art. L.313-46) en 2-3 mots à l'écran ('info annuelle prévue par la loi').",
+    "Pour les pictogrammes : préciser le type d'indice (ex. 'indice de référence — ex. Euribor') dans le visuel du beat 5 et assurer contraste/ lisibilité des icônes en petit format.",
+    "Afficher succinctement les références légales citées (Code de la consommation art. L.313-25, L.313-46) dans la section 'Sources' ou en micro-texte dans la vidéo/description.",
+    "Reformuler micro-phrases pour fluidité orale et corriger les petites maladresses (ex. insertion 'est de' avant '1,5 %').",
+    "Si le format reste à 40 s, décider de sacrifier un détail (par ex. supprimer l'une des icônes explicatives) pour préserver clarté et rythme."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-13:reels:credit_taux_fixe_variable:0",
+  "script_path": "scripts/credit_immobilier/credit_taux_fixe_variable__reels__a3__v8.md"
+}

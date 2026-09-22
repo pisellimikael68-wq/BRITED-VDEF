@@ -1,0 +1,186 @@
+{
+  "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+  "platform": "shorts",
+  "concept_id": "regimes_communaute_par_defaut",
+  "title": "Se marier sans contrat, c'est déjà choisir un régime",
+  "header": "Se marier sans contrat, c'est déjà choisir un régime",
+  "serie": "juridique",
+  "narration": "Se marier sans contrat, est-ce neutre ? Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts. Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus. Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession. L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage. Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté. Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense. Abonnez-vous pour d'autres astuces sur la gestion de votre patrimoine.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "narration": "Se marier sans contrat, est-ce neutre ?",
+      "visual": "Point d'interrogation stylisé et deux alliances",
+      "screen_text": "Se marier sans contrat, est-ce neutre ?"
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+      "visual": "Balance puis intitulé du régime légal",
+      "screen_text": "Régime légal = communauté réduite aux acquêts"
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "visual": "Maison, fiche de paie et épargne réunies dans une zone « communauté »",
+      "screen_text": "Acquis pendant le mariage = commun"
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+      "visual": "Coffre personnel avec calendrier, donation et héritage",
+      "screen_text": "Avant le mariage, donation, succession = propres"
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "visual": "Article 223, deux comptes et facture du foyer acquittée",
+      "screen_text": "Article 223 : chacun perçoit et utilise ses revenus après les charges du mariage"
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+      "visual": "Héritage vers un coffre personnel, salaire vers une tirelire commune",
+      "screen_text": "Héritage = propre. Salaire épargné = commun"
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+      "visual": "Compte commun, loupe et justificatifs",
+      "screen_text": "Mélange de fonds = preuve indispensable"
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Abonnez-vous pour d'autres astuces sur la gestion de votre patrimoine.",
+      "visual": "Bouton d'abonnement discret",
+      "screen_text": "Abonnez-vous pour d'autres astuces sur la gestion de votre patrimoine"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "narration": "Se marier sans contrat, est-ce neutre ?",
+      "visual": "Point d'interrogation stylisé et deux alliances",
+      "screen_text": "Se marier sans contrat, est-ce neutre ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "Réponse",
+      "narration": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+      "visual": "Balance puis intitulé du régime légal",
+      "screen_text": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 45
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "visual": "Maison, fiche de paie et épargne réunies dans une zone « communauté »",
+      "screen_text": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 37
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+      "visual": "Coffre personnel avec calendrier, donation et héritage",
+      "screen_text": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+      "source_beat_id": "regle",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 41
+    },
+    {
+      "id": "regle",
+      "label": "Règle",
+      "narration": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "visual": "Article 223, deux comptes et facture du foyer acquittée",
+      "screen_text": "L'article 223 permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+      "source_beat_id": "regle",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 38
+    },
+    {
+      "id": "exemple",
+      "label": "Exemple",
+      "narration": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+      "visual": "Héritage vers un coffre personnel, salaire vers une tirelire commune",
+      "screen_text": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 40
+    },
+    {
+      "id": "nuance",
+      "label": "Nuance",
+      "narration": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+      "visual": "Compte commun, loupe et justificatifs",
+      "screen_text": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+      "source_beat_id": "nuance",
+      "source_beat_index": 6,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 38
+    },
+    {
+      "id": "cta",
+      "label": "CTA",
+      "narration": "Abonnez-vous pour d'autres astuces sur la gestion de votre patrimoine.",
+      "visual": "Bouton d'abonnement discret",
+      "screen_text": "Abonnez-vous pour d'autres astuces sur la gestion de votre patrimoine.",
+      "source_beat_id": "cta",
+      "source_beat_index": 7,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 43
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "5e191a5b713217b32a1ba332e699f5396d3ac0b88969e450821a0d71b60a8b4c",
+    "adapted_hash": "5e191a5b713217b32a1ba332e699f5396d3ac0b88969e450821a0d71b60a8b4c",
+    "source_beats": 8,
+    "adapted_pages": 8,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 37,
+    "warnings": []
+  },
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

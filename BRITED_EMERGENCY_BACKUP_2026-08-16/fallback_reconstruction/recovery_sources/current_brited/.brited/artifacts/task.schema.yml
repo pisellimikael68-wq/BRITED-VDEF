@@ -1,0 +1,36 @@
+metadata:
+  schema: "1.0"
+
+task:
+
+  id: ""
+
+  title: ""
+
+  description: ""
+
+  owner: builder
+
+  estimate: ""
+
+  priority: medium
+
+  depends_on: []
+
+  status: todo
+
+implementation:
+
+  files: []
+
+  components: []
+
+  interfaces: []
+
+validation:
+
+  required:
+
+    - title
+    - description
+    

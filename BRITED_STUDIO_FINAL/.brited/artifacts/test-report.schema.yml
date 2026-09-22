@@ -1,0 +1,38 @@
+metadata:
+  schema: "1.0"
+
+test_report:
+
+  id: ""
+
+summary:
+
+  total: 0
+
+  passed: 0
+
+  failed: 0
+
+  skipped: 0
+
+coverage:
+
+  line: 0
+
+  branch: 0
+
+performance:
+
+  duration: ""
+
+result:
+
+  success: false
+
+errors: []
+
+validation:
+
+  required:
+
+    - result

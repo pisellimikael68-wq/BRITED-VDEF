@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique «Durée usuelle d'immobilisation : 8 à 10 ans» avec champ a_verifier: true. Le script reprend «souvent 8 à 10 ans» sans mentionner que la valeur est à vérifier dans la source ou qu'il existe des variations selon véhicules et clauses.",
+        "La fiche source précise «en principe aucune» possibilité de sortie anticipée (champ Possibilité de sortie anticipée) : le script dit «En principe : NON.» mais n'explicite les rares exceptions (clauses contractuelles, marché secondaire très limité) ni la dépendance aux statuts du fonds."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme qu'en principe il n'y a pas de sortie anticipée, ce qui est correct, mais il omet de rappeler l'existence d'exceptions juridiques ou contractuelles possibles (clauses de rachat, marché secondaire, cas de force majeure, liquidités sur clauses statutaires) et ne signale pas que les règles diffèrent selon la forme juridique (FCPR, FPCI) et les statuts du fonds.",
+        "Aucune référence textuelle aux articles du Code monétaire et financier cités dans la source (L214-27 et suivants) pour préciser cadres ou obligations légales applicables aux FCPR/FPCI."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 6.0,
+      "passed": false,
+      "findings": [
+        "La fiche client listait «Quel montant minimum ?» comme question fréquente : le script ne répond pas à cette question ni n'indique que le montant minimum dépend du fonds et peut être élevé.",
+        "Le script évoque les appels de fonds sans expliquer brièvement ce que cela signifie (ex : vous vous engagez pour un montant global, puis payez en tranches lorsque le fonds appelle). Dans la version continue la notion est présente mais en visuel/texte écran la définition reste succincte et pourrait perdre un non-spécialiste.",
+        "L'exemple évoque appels de fonds et nécessité de garder les sommes non appelées disponibles, mais ne précise la durée d'appel qui peut s'étaler sur plusieurs années ni l'impact pratique pour la liquidité personnelle."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 39 secondes : le script semble un peu dense pour 39 s (7 beats plus narration continue). Il faudra vérifier le timing réel en répétition. Aucun ajustement précis de mots/secondes par séquence n'est fourni.",
+        "Le CTA «lien dans ma bio» est adapté à Instagram Reels, mais la mention doit rester conforme aux règles publicitaires et de conseil (déjà notée dans la légende)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais la phrase d'ouverture est une question double («Vous voulez investir... et craignez...»), un peu longue pour une accroche de 2 secondes ; risquerait de perdre l'attention initiale.",
+        "La narration répétée (hook + répétition dans narration continue) crée redondance ; pour 39 s il faut condenser pour maintenir rythme.",
+        "Formulations globalement claires mais plusieurs termes (FCPR, FPCI, appels de fonds, dispersion) devraient être accompagnés de micro-explications ou d'un mot simple pour un public non spécialiste."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention légale en fin de légende, ce qui respecte l'exigence de ne pas donner de conseil personnalisé. Toutefois, l'CTA pour prendre rendez-vous peut être perçue comme une incitation au conseil personnalisé ; la légende doit rappeler explicitement que le rendez-vous n'est pas une recommandation d'investissement si cela conduit à une recommandation commerciale."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques tournures pourraient être simplifiées pour l'oral : par exemple «En principe : NON.» peut être suivi immédiatement d'une courte nuance orale («sauf rares clauses ou marché secondaire limité») pour éviter une affirmation catégorique.",
+        "La phrase «la dispersion des résultats entre fonds est élevée» est correcte mais gagnerait à être reformulée pour l'oral (ex : «les performances varient beaucoup d'un fonds à l'autre»)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre tableau et narration : le beat 5 indique la durée «souvent 8 à 10 ans» — conforme — mais la source a_verifier true, il faut soit enlever l'adverbe 'souvent' soit préciser 'durée usuelle mentionnée par l'AMF : 8–10 ans (à vérifier selon fonds)'.",
+        "Le script évoque l'engagement global et appels de fonds correctement mais ne précise que les montants non appelés doivent rester disponibles — il le dit, mais sans indiquer que ces disponibilités peuvent représenter une contrainte pratique importante pour l'investisseur."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent. Remarque : le pictogramme 'cadenas + calendrier' illustre bien l'illiquidité, mais attention à l'utilisation du pictogramme 'document risk' qui doit clairement évoquer 'risque de perte totale' et non un risque générique.",
+        "Le visuel 'grand encadré avec deux cases OUI et NON' doit éviter d'inciter la réponse OUI ; l'accent visuel doit être sur NON pour être cohérent avec message principal."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (illiquidité) mais inclut plusieurs éléments (durée, appels de fonds, risque, dispersion, CTA). Pour 39 s, il y a un risque de surcharge ; il faut condenser ou rallonger la durée.",
+        "Manque l'exception indispensable (possibilité très limitée de sortie) formulée brièvement dans la vidéo."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Certains termes techniques (FCPR, FPCI, appels de fonds) ne sont pas expliqués simplement au premier passage pour un non-spécialiste.",
+        "La question client «Quel montant minimum ?» n'est pas traitée, ce qui laisse une attente d'information non satisfaite."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes contiennent une question longue et double qui peut affaiblir l'accroche. Mieux vaut une phrase plus courte et percutante.",
+        "La progression est logique mais le nombre d'informations risque de nuire à la mémorisation en 39 s."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources citées renforcent la confiance. Toutefois, l'absence d'une courte nuance sur exceptions et l'omission de la question sur montant minimum peuvent réduire la confiance d'un utilisateur cherchant précision pratique."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique «Durée usuelle d'immobilisation : 8 à 10 ans» avec champ a_verifier: true. Le script reprend «souvent 8 à 10 ans» sans mentionner que la valeur est à vérifier dans la source ou qu'il existe des variations selon véhicules et clauses.",
+    "source : La fiche source précise «en principe aucune» possibilité de sortie anticipée (champ Possibilité de sortie anticipée) : le script dit «En principe : NON.» mais n'explicite les rares exceptions (clauses contractuelles, marché secondaire très limité) ni la dépendance aux statuts du fonds.",
+    "juridique_fiscal : Le script affirme qu'en principe il n'y a pas de sortie anticipée, ce qui est correct, mais il omet de rappeler l'existence d'exceptions juridiques ou contractuelles possibles (clauses de rachat, marché secondaire, cas de force majeure, liquidités sur clauses statutaires) et ne signale pas que les règles diffèrent selon la forme juridique (FCPR, FPCI) et les statuts du fonds.",
+    "juridique_fiscal : Aucune référence textuelle aux articles du Code monétaire et financier cités dans la source (L214-27 et suivants) pour préciser cadres ou obligations légales applicables aux FCPR/FPCI.",
+    "completude : La fiche client listait «Quel montant minimum ?» comme question fréquente : le script ne répond pas à cette question ni n'indique que le montant minimum dépend du fonds et peut être élevé.",
+    "completude : Le script évoque les appels de fonds sans expliquer brièvement ce que cela signifie (ex : vous vous engagez pour un montant global, puis payez en tranches lorsque le fonds appelle). Dans la version continue la notion est présente mais en visuel/texte écran la définition reste succincte et pourrait perdre un non-spécialiste.",
+    "completude : L'exemple évoque appels de fonds et nécessité de garder les sommes non appelées disponibles, mais ne précise la durée d'appel qui peut s'étaler sur plusieurs années ni l'impact pratique pour la liquidité personnelle.",
+    "plateforme : Durée estimée 39 secondes : le script semble un peu dense pour 39 s (7 beats plus narration continue). Il faudra vérifier le timing réel en répétition. Aucun ajustement précis de mots/secondes par séquence n'est fourni.",
+    "plateforme : Le CTA «lien dans ma bio» est adapté à Instagram Reels, mais la mention doit rester conforme aux règles publicitaires et de conseil (déjà notée dans la légende).",
+    "editorial : Accroche forte mais la phrase d'ouverture est une question double («Vous voulez investir... et craignez...»), un peu longue pour une accroche de 2 secondes ; risquerait de perdre l'attention initiale.",
+    "editorial : La narration répétée (hook + répétition dans narration continue) crée redondance ; pour 39 s il faut condenser pour maintenir rythme.",
+    "editorial : Formulations globalement claires mais plusieurs termes (FCPR, FPCI, appels de fonds, dispersion) devraient être accompagnés de micro-explications ou d'un mot simple pour un public non spécialiste.",
+    "securite : Le script inclut la mention légale en fin de légende, ce qui respecte l'exigence de ne pas donner de conseil personnalisé. Toutefois, l'CTA pour prendre rendez-vous peut être perçue comme une incitation au conseil personnalisé ; la légende doit rappeler explicitement que le rendez-vous n'est pas une recommandation d'investissement si cela conduit à une recommandation commerciale.",
+    "formulation_professionnelle : Quelques tournures pourraient être simplifiées pour l'oral : par exemple «En principe : NON.» peut être suivi immédiatement d'une courte nuance orale («sauf rares clauses ou marché secondaire limité») pour éviter une affirmation catégorique.",
+    "formulation_professionnelle : La phrase «la dispersion des résultats entre fonds est élevée» est correcte mais gagnerait à être reformulée pour l'oral (ex : «les performances varient beaucoup d'un fonds à l'autre»).",
+    "contre_verification_finale : Incohérence mineure entre tableau et narration : le beat 5 indique la durée «souvent 8 à 10 ans» — conforme — mais la source a_verifier true, il faut soit enlever l'adverbe 'souvent' soit préciser 'durée usuelle mentionnée par l'AMF : 8–10 ans (à vérifier selon fonds)'.",
+    "contre_verification_finale : Le script évoque l'engagement global et appels de fonds correctement mais ne précise que les montants non appelés doivent rester disponibles — il le dit, mais sans indiquer que ces disponibilités peuvent représenter une contrainte pratique importante pour l'investisseur.",
+    "coherence_pictogrammes : Globalement cohérent. Remarque : le pictogramme 'cadenas + calendrier' illustre bien l'illiquidité, mais attention à l'utilisation du pictogramme 'document risk' qui doit clairement évoquer 'risque de perte totale' et non un risque générique.",
+    "coherence_pictogrammes : Le visuel 'grand encadré avec deux cases OUI et NON' doit éviter d'inciter la réponse OUI ; l'accent visuel doit être sur NON pour être cohérent avec message principal.",
+    "densite_editoriale : La vidéo traite bien un seul angle (illiquidité) mais inclut plusieurs éléments (durée, appels de fonds, risque, dispersion, CTA). Pour 39 s, il y a un risque de surcharge ; il faut condenser ou rallonger la durée.",
+    "densite_editoriale : Manque l'exception indispensable (possibilité très limitée de sortie) formulée brièvement dans la vidéo.",
+    "pedagogie_client : Certains termes techniques (FCPR, FPCI, appels de fonds) ne sont pas expliqués simplement au premier passage pour un non-spécialiste.",
+    "pedagogie_client : La question client «Quel montant minimum ?» n'est pas traitée, ce qui laisse une attente d'information non satisfaite.",
+    "retention_attention : Les deux premières secondes contiennent une question longue et double qui peut affaiblir l'accroche. Mieux vaut une phrase plus courte et percutante.",
+    "retention_attention : La progression est logique mais le nombre d'informations risque de nuire à la mémorisation en 39 s.",
+    "conversion_confiance : Ton sérieux et sources citées renforcent la confiance. Toutefois, l'absence d'une courte nuance sur exceptions et l'omission de la question sur montant minimum peuvent réduire la confiance d'un utilisateur cherchant précision pratique."
+  ],
+  "recommendations": [
+    "Ajouter une phrase courte et claire sur les exceptions : par exemple intégrer après «En principe : NON.» une phrase orale et visuelle «Rarement : des clauses contractuelles ou un marché secondaire très limité peuvent permettre des sorties, mais ce n'est pas la règle.»",
+    "Répondre brièvement à la question «Quel montant minimum ?» dans la légende ou en micro-textuel à l'écran : préciser que le minimum dépend du fonds et peut être élevé (dépend du véhicule) et qu'il faut vérifier le prospectus.",
+    "Remplacer ou compléter «souvent 8 à 10 ans» par «durée usuelle mentionnée par l'AMF : 8 à 10 ans (varie selon fonds)» pour refléter le champ a_verifier de la source.",
+    "Expliciter très brièvement ce que sont les appels de fonds (ex. une micro-phrase : «vous vous engagez pour un montant global, mais payez en tranches quand le fonds appelle»), car c'est central pour la liquidité personnelle.",
+    "Alléger l'accroche pour les 2 premières secondes : par ex. «Investir en non coté : craignez-vous de bloquer votre argent ?» puis enchaîner «Peut-on sortir avant 10 ans ?» pour être plus percutant.",
+    "Vérifier le timing de chaque beat en répétition et supprimer redondances de la narration continue afin de tenir 39 secondes sans perdre clarté.",
+    "Dans la légende/mention légale accompagnant la publication, rappeler que les règles peuvent varier selon la forme juridique (FCPR/FPCI) et inclure la référence aux articles L214-27 pour les utilisateurs souhaitant consulter le texte.",
+    "Adapter les pictogrammes pour renforcer le message principal : mettre visuellement l'accent sur 'NON' dans le OUI/NON, utiliser un pictogramme explicite pour 'appels de fonds' (par ex. main qui verse par tranches) et un pictogramme clair pour 'risque de perte totale' (ex. pièce cassée) plutôt que un document générique."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-30:reels:private_equity_illiquidite:0",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__reels__a2__v8.md"
+}

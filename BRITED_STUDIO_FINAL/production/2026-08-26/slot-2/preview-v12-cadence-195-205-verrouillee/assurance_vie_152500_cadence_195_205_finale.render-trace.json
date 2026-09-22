@@ -1,0 +1,289 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "2c29a489103119abc641df35d1b536d3dee77004ba5b5729f9e04a0344a460bb"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Votre assurance-vie transmet-elle 152 500 à chaque bénéficiaire ?",
+      "tokens": [
+        "Votre",
+        "assurance-vie",
+        "transmet-elle",
+        "152",
+        "500",
+        "à",
+        "chaque",
+        "bénéficiaire",
+        "?"
+      ],
+      "token_count": 9,
+      "speech_duration": 4.438,
+      "full_text_visible_at": 3.995,
+      "hold_after_full_text": 1.344,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Oui, mais uniquement pour les primes versées avant les 70 ans de l’assuré.",
+      "tokens": [
+        "Oui,",
+        "mais",
+        "uniquement",
+        "pour",
+        "les",
+        "primes",
+        "versées",
+        "avant",
+        "les",
+        "70",
+        "ans",
+        "de",
+        "l’assuré."
+      ],
+      "token_count": 13,
+      "speech_duration": 4.296,
+      "duration": 4.516,
+      "full_text_visible_at": 3.866,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "verdict": "adaptatif",
+        "font_size": 25,
+        "answer_design": "adaptive_sections_v2",
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "Après 152 500 euros par bénéficiaire : 20 %, puis 31,25 % après 700 000 euros.",
+      "tokens": [
+        "Après",
+        "152",
+        "500",
+        "euros",
+        "par",
+        "bénéficiaire",
+        ":",
+        "20",
+        "%,",
+        "puis",
+        "31,25",
+        "%",
+        "après",
+        "700",
+        "000",
+        "euros."
+      ],
+      "token_count": 16,
+      "speech_duration": 7.905,
+      "full_text_visible_at": 7.114,
+      "hold_after_full_text": 1.01,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Avec trois bénéficiaires distincts, le total de ces abattements peut atteindre 457 500 euros au total.",
+      "tokens": [
+        "Avec",
+        "trois",
+        "bénéficiaires",
+        "distincts,",
+        "le",
+        "total",
+        "de",
+        "ces",
+        "abattements",
+        "peut",
+        "atteindre",
+        "457",
+        "500",
+        "euros",
+        "au",
+        "total."
+      ],
+      "token_count": 16,
+      "speech_duration": 6.151,
+      "full_text_visible_at": 5.536,
+      "hold_after_full_text": 0.835,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Après 70 ans, un abattement global couvre 30 500 euros de primes.",
+      "tokens": [
+        "Après",
+        "70",
+        "ans,",
+        "un",
+        "abattement",
+        "global",
+        "couvre",
+        "30",
+        "500",
+        "euros",
+        "de",
+        "primes."
+      ],
+      "token_count": 12,
+      "speech_duration": 4.398,
+      "full_text_visible_at": 3.959,
+      "hold_after_full_text": 1.34,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 4.893,
+      "full_text_visible_at": 4.403,
+      "hold_after_full_text": 3.948,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

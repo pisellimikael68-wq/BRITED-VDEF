@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "ebf0ac1dff7a05c2f1faf5f9eb7ea19ca9933952a8827db7a76ac3976c12d7e4",
+      "adapted_hash": "ebf0ac1dff7a05c2f1faf5f9eb7ea19ca9933952a8827db7a76ac3976c12d7e4",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter — si l'on souhaite une précision supplémentaire sans alourdir la narration — la mention que l'abattement de 152 500 € est apprécié tous contrats confondus (pour éviter l'idée que plusieurs contrats multiplient automatiquement l'abattement).",
+    "Éventuellement remplacer le visuel 'OUI / NON' du beat 2 par un rappel court « Non — âge = âge au versement » dès le hook pour limiter toute interprétation erronée lors d'un visionnage rapide."
+  ],
+  "reviewed_at": "2026-08-17T15:26:57",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-26:tiktok:assurance_vie_990i_152500:1",
+  "script_path": "scripts/assurance_vie/assurance_vie_990i_152500__tiktok__a1.md"
+}

@@ -1,0 +1,30 @@
+# Déduire une pension versée à un enfant majeur
+**Plateforme** : Instagram Reels  
+**Durée estimée** : 38 s
+| # | Beat | Narration | Visuel | Texte écran |
+|---|------|-----------|--------|------------|
+| 1 | hook | Votre enfant a 18 ans et vous l'aidez ? | Parent et jeune adulte, pictogramme parent + euro | Votre enfant a 18 ans et vous l'aidez ? |
+| 2 | question | Rattacher ou déduire — quel choix ? OUI / NON. | Deux cases côte à côte, case OUI, case NON | OUI / NON |
+| 3 | reponse | On ne peut choisir qu'une seule voie par an et par enfant. | Icône calendrier et case cochée | Choix unique par an et par enfant |
+| 4 | regle | À sa majorité l'enfant sort du foyer : soit rattachement (possible jusqu'à 25 ans pour études), soit déduction d'une pension plafonnée. | Schéma enfant → deux flèches 'rattachement' / 'pension plafonnée' | Rattachement ou pension plafonnée |
+| 5 | exemple | Exemple : vous versez 3 000 euros par an. Si votre tranche marginale vaut 41 pour cent, la déduction rapporte environ 1 230 euros d'impôt économisé, souvent plus avantageux que le gain du quotient familial. | Montant 3 000 € en grand, 41% → 1 230 € économie, pictogramme pourcentage | 3 000 € → ≈ 1 230 € si TMM 41% |
+| 6 | nuance | Attention : pension imposable chez l'enfant, peut faire perdre aides ; forfait logement/nourriture existe. | Icône avertissement, maison + assiette, document justificatif | Pension imposable chez l'enfant — risque d'impact sur aides |
+| 7 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | Bouton calendrier centré, pictogramme rendez-vous | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+
+Votre enfant a 18 ans et vous l'aidez ? Rattacher ou déduire — quel choix ? OUI / NON. On ne peut choisir qu'une seule voie par an et par enfant. À sa majorité l'enfant sort du foyer : soit rattachement (possible jusqu'à 25 ans pour études), soit déduction d'une pension plafonnée. Exemple : vous versez 3 000 euros par an. Si votre tranche marginale vaut 41 pour cent, la déduction rapporte environ 1 230 euros d'impôt économisé, souvent plus avantageux que le gain du quotient familial. Attention : pension imposable chez l'enfant, peut faire perdre aides ; forfait logement/nourriture existe. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+## Légende
+À la majorité l'enfant cesse d'appartenir au foyer fiscal. Vous pouvez soit le rattacher (possible jusqu'à 25 ans s'il poursuit des études), soit déduire une pension alimentaire plafonnée ; les deux choix sont exclusifs la même année. Le meilleur choix dépend de votre tranche marginale : à 41 pour cent la déduction peut rapporter sensiblement plus qu'un rattachement. Attention : la pension déduite est imposable chez l'enfant et peut lui faire perdre des aides ; la déduction suppose des versements justifiables et un forfait couvre logement et nourriture si l'enfant est hébergé. Sources en légende.
+
+## Hashtags
+#impot #fiscalité #pensionalimentaire #rattachement #enfantmajeur #étudiant #optimisationfiscale
+
+## Sources
+https://bofip.impots.gouv.fr/doctrine/BOI-IR-BASE-20-30-20  
+Code général des impôts, article 156, II, 2°  
+Code général des impôts, article 196 B  
+Code civil, article 205
+
+## Mention
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

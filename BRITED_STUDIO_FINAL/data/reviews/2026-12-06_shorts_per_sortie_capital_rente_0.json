@@ -1,0 +1,161 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cite correctement les articles L.224-5 et CGI 163 quatervicies/158,5 en sources. Toutefois, le texte narratif met l'accent sur le cas des versements déduits sans expliciter clairement le cas inverse (versements non déduits : capital exonéré d'impôt, seules les plus‑values sont taxées). Il manque donc une mention explicite et directe dans la narration/visuels pour couvrir cette option, alors que la fiche source l'indique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La règle principale est correcte : versements déduits → capital imposé au barème sans abattement de 10 %; plus‑values soumises au prélèvement forfaitaire. Cependant le script n'indique pas explicitement que, pour les versements non déduits, le capital versé est en franchise d'impôt (seules les plus‑values sont imposées).",
+        "Il conviendrait aussi de préciser brièvement que l'abattement de 10 % s'applique aux pensions et rentes viagères à titre gratuit (référence CGI art.158,5) pour éviter toute confusion, plutôt que d'évoquer seulement sa suppression pour le capital."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque d'une phrase explicite et chiffrée sur le régime fiscal lorsque les versements n'ont pas été déduits (cas fréquent pour certains épargnants).",
+        "L'exemple chiffré est pertinent (80 000 €) mais pourrait brièvement indiquer l'hypothèse sur la part capital vs plus‑value pour éviter toute ambiguïté sur le mécanisme d'imposition des plus‑values."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace. Enchaînement clair. Toutefois, la phrase « Les deux sont possibles ; l'imposition dépend de l'option faite lors des versements, déduction ou non. » est légèrement trop générale ; il faut ajouter en une courte phrase la conséquence précise pour le cas des versements non déduits pour que le message soit complet pour un spectateur non spécialiste."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel. À corriger : remplacer « réintègre l'impôt sur le revenu » par « est imposable au barème de l'impôt sur le revenu » (plus direct).",
+        "Ajouter une phrase très courte sur le cas des versements non déduits pour clarté immédiate du non‑spécialiste."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent, mais la dissociation entre traitement du capital et des plus‑values mérite une phrase dédiée pour éviter que l'auditeur ne croie que tout est imposé de la même façon quel que soit le type de versement."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents. Observation : le visuel de la 'balance impôt/épargne' doit explicitement souligner les deux cas (versements déduits vs non déduits). Le schéma en colonne mentionne L.224-5 mais devrait clairement afficher aussi la règle pour les versements non déduits pour correspondre mot à mot à la narration attendue."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne pédagogie générale. Toutefois un non‑spécialiste pourrait rester incertain sur le sort fiscal du capital en cas de versements non déduits : il faut l'énoncer clairement et simplement (ex. « si vous n'avez pas déduit vos versements, le capital est en principe exonéré d'impôt »)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 121,
+      "seconds": 44.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 121,
+        "seconds": 44.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script cite correctement les articles L.224-5 et CGI 163 quatervicies/158,5 en sources. Toutefois, le texte narratif met l'accent sur le cas des versements déduits sans expliciter clairement le cas inverse (versements non déduits : capital exonéré d'impôt, seules les plus‑values sont taxées). Il manque donc une mention explicite et directe dans la narration/visuels pour couvrir cette option, alors que la fiche source l'indique.",
+    "juridique_fiscal : La règle principale est correcte : versements déduits → capital imposé au barème sans abattement de 10 %; plus‑values soumises au prélèvement forfaitaire. Cependant le script n'indique pas explicitement que, pour les versements non déduits, le capital versé est en franchise d'impôt (seules les plus‑values sont imposées).",
+    "juridique_fiscal : Il conviendrait aussi de préciser brièvement que l'abattement de 10 % s'applique aux pensions et rentes viagères à titre gratuit (référence CGI art.158,5) pour éviter toute confusion, plutôt que d'évoquer seulement sa suppression pour le capital.",
+    "completude : Manque d'une phrase explicite et chiffrée sur le régime fiscal lorsque les versements n'ont pas été déduits (cas fréquent pour certains épargnants).",
+    "completude : L'exemple chiffré est pertinent (80 000 €) mais pourrait brièvement indiquer l'hypothèse sur la part capital vs plus‑value pour éviter toute ambiguïté sur le mécanisme d'imposition des plus‑values.",
+    "editorial : Accroche efficace. Enchaînement clair. Toutefois, la phrase « Les deux sont possibles ; l'imposition dépend de l'option faite lors des versements, déduction ou non. » est légèrement trop générale ; il faut ajouter en une courte phrase la conséquence précise pour le cas des versements non déduits pour que le message soit complet pour un spectateur non spécialiste.",
+    "formulation_professionnelle : Le français est naturel et professionnel. À corriger : remplacer « réintègre l'impôt sur le revenu » par « est imposable au barème de l'impôt sur le revenu » (plus direct).",
+    "formulation_professionnelle : Ajouter une phrase très courte sur le cas des versements non déduits pour clarté immédiate du non‑spécialiste.",
+    "contre_verification_finale : Globalement cohérent, mais la dissociation entre traitement du capital et des plus‑values mérite une phrase dédiée pour éviter que l'auditeur ne croie que tout est imposé de la même façon quel que soit le type de versement.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents. Observation : le visuel de la 'balance impôt/épargne' doit explicitement souligner les deux cas (versements déduits vs non déduits). Le schéma en colonne mentionne L.224-5 mais devrait clairement afficher aussi la règle pour les versements non déduits pour correspondre mot à mot à la narration attendue.",
+    "pedagogie_client : Bonne pédagogie générale. Toutefois un non‑spécialiste pourrait rester incertain sur le sort fiscal du capital en cas de versements non déduits : il faut l'énoncer clairement et simplement (ex. « si vous n'avez pas déduit vos versements, le capital est en principe exonéré d'impôt »)."
+  ],
+  "recommendations": [
+    "Ajouter une phrase explicite et concise dans le script (beat 2 ou 3) pour couvrir le cas des versements non déduits, par exemple : « Si vous n'avez pas déduit vos versements, le capital récupéré est en principe exonéré d'impôt — seules les plus‑values sont taxées. »",
+    "Reformuler légèrement la phrase sur l'imposition du capital pour un français plus direct : remplacer « réintègre l'impôt sur le revenu » par « est imposable au barème de l'impôt sur le revenu (sans l'abattement de 10 %) ».",
+    "Dans le visuel de la colonne 'versements déduits / non déduits', ajouter explicitement la mention « versements non déduits = capital exonéré, seules les plus‑values taxées » pour que le visuel reflète exactement la narration.",
+    "Dans l'exemple chiffré (80 000 €), préciser brièvement l'hypothèse utile (par ex. « 80 000 € correspondant au capital net de plus‑values ; si ces sommes sont issues de versements déduits... ») ou indiquer que le risque de bascule de tranche concerne la part imposable issue des versements déduits.",
+    "Remplacer ou compléter la mention de l'abattement de 10 % par une courte précision : l'abattement de 10 % s'applique aux pensions et rentes viagères à titre gratuit (CGI art.158,5) et n'est pas applicable au capital issu de versements déduits."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-06:shorts:per_sortie_capital_rente:0",
+  "script_path": "scripts/per/per_sortie_capital_rente__shorts__a4__v2.md"
+}

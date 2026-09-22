@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source indique «Durée usuelle d'immobilisation: 8 à 10 ans» (champ chiffres) mais le titre principal et le titre du script annoncent «dix ans» sans expliciter la fourchette. Risque d'incohérence factuelle mot à mot.",
+        "La mention «en principe aucune» pour la possibilité de sortie anticipée provient du Code/AMF mais le script écrit «en principe impossible»—formulation légèrement différente qui doit rester alignée sur la source."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme que la sortie anticipée est «en principe impossible». Juridiquement, il existe des situations exceptionnelles (clauses contractuelles, marchés secondaires, mécanismes de liquidité gérés par certains fonds) — l'absence d'une brève mention d'exception pourrait être interprétée comme une généralisation trop large.",
+        "Le script ne rappelle pas que les caractéristiques peuvent varier selon la forme juridique (FCPR, FPCI) et les contrats : ceci est important juridiquement et fiscalement."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la contrainte de concision mais omet de rappeler explicitement qu'il s'agit d'engagements et non d'achats de parts immédiats (appel de capital vs versement intégral) — l'exemple l'évoque mais mérite une phrase claire.",
+        "Absence d'une brève précision sur l'importance de conserver une part de liquidités pour faire face aux appels de fonds (la phrase existe mais gagnerait en clarté et placement)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40 s : le script fourni semble correcte mais comporte à la fin une phrase longue (nuance + CTA) qui peut dépasser la contrainte de vitesse d'élocution pour 40s. Suggestion de phraser plus court le dernier segment.",
+        "Le format Reels privilégie accroches très courtes (2 premières secondes) : le hook est correct mais pourrait être raccourci pour maximiser rétention."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est pertinent mais la formulation interrogative initiale est un peu longue. Une version plus percutante sur 1-2 mots gagnerait en force.",
+        "Le script inclut deux fois la question (tableau + narration) — redondance acceptable mais pourrait être optimisée pour le rythme."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Le disclaimer final respecte la règle de ne pas donner de conseil personnalisé. Toutefois la CTA «Prenez rendez-vous via le lien dans ma bio» peut être perçue comme une incitation commerciale — il faudrait s'assurer que le rendez-vous est présenté comme une prise d'information et non une promesse de conseil personnalisé non déclaré."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être simplifiées pour une lecture orale fluide : ex. «Les fonds prennent des participations, développent puis cèdent : la sortie anticipée est en principe impossible.» → phrase longue et à l'intonation complexe.",
+        "Le passage «les montants non appelés doivent rester disponibles» est clair mais gagnerait à préciser 'pour l'investisseur' afin d'éviter toute ambiguïté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Petites incohérences répétées : titre «dix ans» vs contenu «8–10 ans»; formulation «en principe impossible» vs source «en principe aucune» ; ces écarts doivent être harmonisés mot à mot.",
+        "Vérifier la prononciation et le débit pour tenir 40s : la narration continue comporte plusieurs segments informatifs qui, lus naturellement, risquent de dépasser la durée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont globalement pertinents. Attention : le pictogramme 'calendrier + appels de fonds + tirelire' doit clairement montrer l'idée d'appels échelonnés (par tranches) sinon il peut prêter à confusion.",
+        "Le pictogramme 'nuage de points dispersion' est adéquat mais s'assurer qu'il soit lisible sur mobile (taille/contraste) dans un Reels."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (immobilisation), mais introduit aussi le risque de perte totale et la dispersion — utile mais augmente la densité. Pour une seule idée forte, cela reste acceptable ; toutefois il faut veiller à ne pas surcharger 40s.",
+        "L'«exception indispensable» (existence possible de solutions secondaires/liquidités spécifiques) n'est pas mentionnée alors que la fiche le signale comme condition à vérifier."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste, mais certains termes comme 'appels de fonds' ou 'dispersion des résultats' pourraient être très brièvement explicés (ex.: 'appels de fonds = le fonds réclame l'argent quand il en a besoin').",
+        "L'exemple demeure succinct ; une reformulation plus concrète (montant X engagé, appels sur Y années) aiderait la compréhension sans alourdir si chiffrée très brièvement."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Force des deux premières secondes : la question initiale est pertinente mais trop longue pour capter visuellement en 1-2s. Recommander de commencer par une phrase choc plus courte.",
+        "Progression logique bonne, mais la transition entre la règle générale et l'exemple pourrait être plus marquée pour maintenir l'attention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé bien rendu. À corriger : l'appel à rendez-vous doit être formulé de façon à éviter toute impression de promesse de résultat ou conseil personnalisé gratuit non encadré.",
+        "Ajouter une mention rapide 'Contenu général, non personnalisé' juste avant le CTA renforcerait la conformité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source indique «Durée usuelle d'immobilisation: 8 à 10 ans» (champ chiffres) mais le titre principal et le titre du script annoncent «dix ans» sans expliciter la fourchette. Risque d'incohérence factuelle mot à mot.",
+    "source : La mention «en principe aucune» pour la possibilité de sortie anticipée provient du Code/AMF mais le script écrit «en principe impossible»—formulation légèrement différente qui doit rester alignée sur la source.",
+    "juridique_fiscal : Le script affirme que la sortie anticipée est «en principe impossible». Juridiquement, il existe des situations exceptionnelles (clauses contractuelles, marchés secondaires, mécanismes de liquidité gérés par certains fonds) — l'absence d'une brève mention d'exception pourrait être interprétée comme une généralisation trop large.",
+    "juridique_fiscal : Le script ne rappelle pas que les caractéristiques peuvent varier selon la forme juridique (FCPR, FPCI) et les contrats : ceci est important juridiquement et fiscalement.",
+    "completude : Le script respecte la contrainte de concision mais omet de rappeler explicitement qu'il s'agit d'engagements et non d'achats de parts immédiats (appel de capital vs versement intégral) — l'exemple l'évoque mais mérite une phrase claire.",
+    "completude : Absence d'une brève précision sur l'importance de conserver une part de liquidités pour faire face aux appels de fonds (la phrase existe mais gagnerait en clarté et placement).",
+    "plateforme : Durée estimée 40 s : le script fourni semble correcte mais comporte à la fin une phrase longue (nuance + CTA) qui peut dépasser la contrainte de vitesse d'élocution pour 40s. Suggestion de phraser plus court le dernier segment.",
+    "plateforme : Le format Reels privilégie accroches très courtes (2 premières secondes) : le hook est correct mais pourrait être raccourci pour maximiser rétention.",
+    "editorial : Le hook est pertinent mais la formulation interrogative initiale est un peu longue. Une version plus percutante sur 1-2 mots gagnerait en force.",
+    "editorial : Le script inclut deux fois la question (tableau + narration) — redondance acceptable mais pourrait être optimisée pour le rythme.",
+    "securite : Le disclaimer final respecte la règle de ne pas donner de conseil personnalisé. Toutefois la CTA «Prenez rendez-vous via le lien dans ma bio» peut être perçue comme une incitation commerciale — il faudrait s'assurer que le rendez-vous est présenté comme une prise d'information et non une promesse de conseil personnalisé non déclaré.",
+    "formulation_professionnelle : Quelques formulations pourraient être simplifiées pour une lecture orale fluide : ex. «Les fonds prennent des participations, développent puis cèdent : la sortie anticipée est en principe impossible.» → phrase longue et à l'intonation complexe.",
+    "formulation_professionnelle : Le passage «les montants non appelés doivent rester disponibles» est clair mais gagnerait à préciser 'pour l'investisseur' afin d'éviter toute ambiguïté.",
+    "contre_verification_finale : Petites incohérences répétées : titre «dix ans» vs contenu «8–10 ans»; formulation «en principe impossible» vs source «en principe aucune» ; ces écarts doivent être harmonisés mot à mot.",
+    "contre_verification_finale : Vérifier la prononciation et le débit pour tenir 40s : la narration continue comporte plusieurs segments informatifs qui, lus naturellement, risquent de dépasser la durée.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont globalement pertinents. Attention : le pictogramme 'calendrier + appels de fonds + tirelire' doit clairement montrer l'idée d'appels échelonnés (par tranches) sinon il peut prêter à confusion.",
+    "coherence_pictogrammes : Le pictogramme 'nuage de points dispersion' est adéquat mais s'assurer qu'il soit lisible sur mobile (taille/contraste) dans un Reels.",
+    "densite_editoriale : La vidéo traite bien un seul angle (immobilisation), mais introduit aussi le risque de perte totale et la dispersion — utile mais augmente la densité. Pour une seule idée forte, cela reste acceptable ; toutefois il faut veiller à ne pas surcharger 40s.",
+    "densite_editoriale : L'«exception indispensable» (existence possible de solutions secondaires/liquidités spécifiques) n'est pas mentionnée alors que la fiche le signale comme condition à vérifier.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste, mais certains termes comme 'appels de fonds' ou 'dispersion des résultats' pourraient être très brièvement explicés (ex.: 'appels de fonds = le fonds réclame l'argent quand il en a besoin').",
+    "pedagogie_client : L'exemple demeure succinct ; une reformulation plus concrète (montant X engagé, appels sur Y années) aiderait la compréhension sans alourdir si chiffrée très brièvement.",
+    "retention_attention : Force des deux premières secondes : la question initiale est pertinente mais trop longue pour capter visuellement en 1-2s. Recommander de commencer par une phrase choc plus courte.",
+    "retention_attention : Progression logique bonne, mais la transition entre la règle générale et l'exemple pourrait être plus marquée pour maintenir l'attention.",
+    "conversion_confiance : Ton sérieux et sourcé bien rendu. À corriger : l'appel à rendez-vous doit être formulé de façon à éviter toute impression de promesse de résultat ou conseil personnalisé gratuit non encadré.",
+    "conversion_confiance : Ajouter une mention rapide 'Contenu général, non personnalisé' juste avant le CTA renforcerait la conformité."
+  ],
+  "recommendations": [
+    "Harmoniser formules exactes avec la fiche source : remplacer le titre/accroche «En private equity, votre argent est immobilisé dix ans» par «...immobilisé 8 à 10 ans» ou préciser «jusqu'à dix ans» pour éviter la contradiction mot à mot.",
+    "Ajouter une brève phrase (max 4–6 mots dans l'audio) précisant l'existence d'exceptions limitées : par exemple «Des mécanismes limités existent (marchés secondaires/clauses contractuelles) mais ils sont rares.»",
+    "Raccourcir le hook pour les 2 premières secondes, par ex. : «Non‑coté : vous récupérez vite ?» puis enchaîner «Non — 8 à 10 ans.»",
+    "Simplifier deux phrases longues pour la lecture orale : séparer en 2 phrases courtes la règle sur le cycle fonds→participations→cession et la conséquence «sortie anticipée en principe impossible».",
+    "Préciser que l'investissement est un engagement et non un versement immédiat : ajouter une courte phrase d'explication sur les appels de fonds (ex. «Vous vous engagez, le fonds appelle ensuite les tranches.»).",
+    "Raccourcir légèrement la fin du narratif pour respecter 40s : transformer la nuance + CTA en deux phrases très courtes et ajouter le disclaimer juste avant le CTA («Contenu général, pas un conseil personnalisé.»).",
+    "S'assurer que les pictogrammes montrent clairement les notions : - pour les appels de fonds, afficher une suite de versements échelonnés visuellement ; - pour la dispersion, garder un nuage de points contrasté et lisible sur mobile.",
+    "Avant publication, faire une répétition chronométrée en voix off : lire le script à vitesse naturelle pour confirmer la tenue dans 40s et ajuster si nécessaire.",
+    "Reformuler la CTA pour limiter l'aspect commercial : par ex. «Pour faire le point sur votre situation, prenez rendez‑vous (lien en bio).» et ajouter la mention légale déjà prévue.",
+    "Corriger les formulations mineures pour un français oral naturel : remplacer «les montants non appelés doivent rester disponibles» par «gardez disponibles les sommes non encore appelées.»"
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-06:reels:private_equity_illiquidite:1",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__reels__a3__v5.md"
+}

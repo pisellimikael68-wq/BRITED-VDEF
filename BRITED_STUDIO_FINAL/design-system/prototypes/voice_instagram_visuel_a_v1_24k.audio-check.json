@@ -1,0 +1,49 @@
+{
+  "passed": false,
+  "failures": [
+    "segments vocaux absents"
+  ],
+  "final": {
+    "rate": 24000,
+    "channels": 1,
+    "width": 2,
+    "duration": 35.517,
+    "peak": 0.84195,
+    "rms": 0.12753,
+    "dc": 0.000124,
+    "clipped_ratio": 0.0,
+    "abrupt_jump_ratio": 0.0
+  },
+  "segments": {},
+  "background_noise": {
+    "passed": true,
+    "regions": [
+      {
+        "after_beat": 1,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 2,
+        "rms": 0.0,
+        "peak": 0.0
+      },
+      {
+        "after_beat": 6,
+        "rms": 0.0,
+        "peak": 0.0
+      }
+    ],
+    "rms_limit": 0.003,
+    "peak_limit": 0.025
+  },
+  "checks": [
+    "sample_rate",
+    "format",
+    "clipping",
+    "abrupt_jumps",
+    "dc_offset",
+    "duration",
+    "background_noise"
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est respectée dans l'ensemble, mais la vidéo n'évoque pas explicitement la distinction avec l'article 790 G (don familial) alors que la fiche le signale comme relation/alternative ; il serait préférable d'ajouter une phrase très brève pour éviter la confusion."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement l'absence de montant légal et la proportionnalité appréciée au jour du don, et mentionne l'abattement de 100 000 €; toutefois il omet de rappeler que le don familial (article 790 G) suit un régime distinct et doit être déclaré sous conditions d'âge. L'absence de cette précision peut induire en erreur."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle, condition, exemple, nuance et CTA, mais il ne précise pas la conduite recommandée en cas de doute (par ex. conserver justificatif + caractère occasionnel répété), ni la nécessité possible d'une requalification et rappel des droits par l'administration avec conséquences fiscales concrètes (rappel d'impôt + pénalités)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La structure Reels et la durée estimée (38 s) sont appropriées. Toutefois, la narration continue est assez dense ; il faudrait vérifier que la vitesse de lecture reste compatible avec 38 secondes à un débit naturel. Aussi, la mention légale (disclaimer) figure hors script principal (dans 'Mention') — il est préférable de prévoir un visuel ou un plan final très bref intégrant ce disclaimer pour conformité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire et progression logique. Pourtant l'étape 2 (OUI / NON) apporte peu d'information supplémentaire et occupe du temps : on peut la garder pour l'effet visuel, mais si la durée est contraignante, envisager de la rendre plus brève. Le CTA est direct mais pourrait éviter le ton commercial excessif en ajoutant la mention 'contenu pédagogique' ou 'pas un conseil personnalisé' dans la fin visuelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et sourcé, mais il contient un appel à rendez-vous : il faut s'assurer que le CTA n'est pas perçu comme un conseil personnalisé. Le script devrait rappeler verbalement (ou par texte écran final) que le contenu n'est pas un conseil juridique/fiscal personnalisé."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Petite amélioration suggérée : remplacer 'Il n'impute pas sur l'abattement de cent mille euros.' par 'Il ne s'impute pas sur l'abattement de 100 000 €' (plus direct et chiffré) pour une compréhension immédiate."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'enchaînement question-réponse est cohérent. Vérifier mot à mot la narration pour tenir dans 38 s au débit normal ; certaines phrases longues ('Doit être offert... apprécié au jour du don') pourraient être légèrement raccourcies pour la diction."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés correspondent globalement au texte. Observation concrète : la case graphique 'OUI / NON' doit clairement illustrer la négation (réponse 'Non') pour éviter confusion visuelle. Le pictogramme 'archive' pour 'conservez preuve et date' est pertinent mais s'assurer qu'il affiche une date lisible."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste majoritairement concise. Néanmoins, la mention de l'abattement, de l'absence de montant légal, de l'exemple chiffré et de la requalification occupe beaucoup d'espace : envisager une légère simplification du phrasé pour préserver la clarté en 38 s."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non-spécialiste. Toutefois, l'expression 'proportionné aux revenus et au patrimoine du donateur, apprécié au jour du don' pourrait être perçue comme technique ; proposer une reformulation plus simple ('proportionné aux moyens du donneur au moment du cadeau') améliorerait l'accessibilité."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Pour maximiser rétention, la deuxième étape 'OUI / NON' devrait être très brève (1–2 s) afin de garder l'attention pour l'information clé. Le CTA final est utile, mais risquant d'éroder le temps d'explication si trop long."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et la mention des sources renforce la crédibilité. Pour renforcer la conversion sans surpromesse, il est conseillé d'ajouter une mention finale plus nuancée du type 'Pour un avis adapté à votre situation, consultez un professionnel' juste avant le CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est respectée dans l'ensemble, mais la vidéo n'évoque pas explicitement la distinction avec l'article 790 G (don familial) alors que la fiche le signale comme relation/alternative ; il serait préférable d'ajouter une phrase très brève pour éviter la confusion.",
+    "juridique_fiscal : Le script indique correctement l'absence de montant légal et la proportionnalité appréciée au jour du don, et mentionne l'abattement de 100 000 €; toutefois il omet de rappeler que le don familial (article 790 G) suit un régime distinct et doit être déclaré sous conditions d'âge. L'absence de cette précision peut induire en erreur.",
+    "completude : Le script couvre règle, condition, exemple, nuance et CTA, mais il ne précise pas la conduite recommandée en cas de doute (par ex. conserver justificatif + caractère occasionnel répété), ni la nécessité possible d'une requalification et rappel des droits par l'administration avec conséquences fiscales concrètes (rappel d'impôt + pénalités).",
+    "plateforme : La structure Reels et la durée estimée (38 s) sont appropriées. Toutefois, la narration continue est assez dense ; il faudrait vérifier que la vitesse de lecture reste compatible avec 38 secondes à un débit naturel. Aussi, la mention légale (disclaimer) figure hors script principal (dans 'Mention') — il est préférable de prévoir un visuel ou un plan final très bref intégrant ce disclaimer pour conformité.",
+    "editorial : Accroche claire et progression logique. Pourtant l'étape 2 (OUI / NON) apporte peu d'information supplémentaire et occupe du temps : on peut la garder pour l'effet visuel, mais si la durée est contraignante, envisager de la rendre plus brève. Le CTA est direct mais pourrait éviter le ton commercial excessif en ajoutant la mention 'contenu pédagogique' ou 'pas un conseil personnalisé' dans la fin visuelle.",
+    "securite : Le contenu est pédagogique et sourcé, mais il contient un appel à rendez-vous : il faut s'assurer que le CTA n'est pas perçu comme un conseil personnalisé. Le script devrait rappeler verbalement (ou par texte écran final) que le contenu n'est pas un conseil juridique/fiscal personnalisé.",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Petite amélioration suggérée : remplacer 'Il n'impute pas sur l'abattement de cent mille euros.' par 'Il ne s'impute pas sur l'abattement de 100 000 €' (plus direct et chiffré) pour une compréhension immédiate.",
+    "contre_verification_finale : L'enchaînement question-réponse est cohérent. Vérifier mot à mot la narration pour tenir dans 38 s au débit normal ; certaines phrases longues ('Doit être offert... apprécié au jour du don') pourraient être légèrement raccourcies pour la diction.",
+    "coherence_pictogrammes : Les pictogrammes proposés correspondent globalement au texte. Observation concrète : la case graphique 'OUI / NON' doit clairement illustrer la négation (réponse 'Non') pour éviter confusion visuelle. Le pictogramme 'archive' pour 'conservez preuve et date' est pertinent mais s'assurer qu'il affiche une date lisible.",
+    "densite_editoriale : La vidéo traite un seul angle et reste majoritairement concise. Néanmoins, la mention de l'abattement, de l'absence de montant légal, de l'exemple chiffré et de la requalification occupe beaucoup d'espace : envisager une légère simplification du phrasé pour préserver la clarté en 38 s.",
+    "pedagogie_client : Le script est compréhensible pour un non-spécialiste. Toutefois, l'expression 'proportionné aux revenus et au patrimoine du donateur, apprécié au jour du don' pourrait être perçue comme technique ; proposer une reformulation plus simple ('proportionné aux moyens du donneur au moment du cadeau') améliorerait l'accessibilité.",
+    "retention_attention : Hook efficace. Pour maximiser rétention, la deuxième étape 'OUI / NON' devrait être très brève (1–2 s) afin de garder l'attention pour l'information clé. Le CTA final est utile, mais risquant d'éroder le temps d'explication si trop long.",
+    "conversion_confiance : Le ton inspire sérieux et la mention des sources renforce la crédibilité. Pour renforcer la conversion sans surpromesse, il est conseillé d'ajouter une mention finale plus nuancée du type 'Pour un avis adapté à votre situation, consultez un professionnel' juste avant le CTA."
+  ],
+  "recommendations": [
+    "Ajouter une phrase très brève (visuelle et/ou auditive) rappelant que le don familial prévu par l'article 790 G obéit à des règles distinctes et peut nécessiter déclaration sous conditions d'âge, afin d'éviter la confusion.",
+    "Inclure verbalement ou en texte écran final la mention que le contenu est pédagogique et ne constitue pas un conseil personnalisé, pour encadrer le CTA vers la prise de rendez‑vous.",
+    "Raccourcir légèrement la formulation de la règle principale pour la rendre plus facile à lire et dicter en 38 secondes (ex. 'Doit avoir lieu pour un événement et rester proportionné aux moyens du donneur au moment du cadeau').",
+    "Remplacer 'cent mille euros' par '100 000 €' dans le texte écran pour lisibilité immédiate.",
+    "Raccourcir/abréger la séquence 'OUI / NON' pour préserver le temps d'explication utile et assurer que la narration tient dans la durée annoncée.",
+    "Ajouter visuellement, pour l'étape 'conservez preuve et date', un exemple concret de libellé ('cadeau anniversaire Léa — 12/06/2026') afin d'illustrer la pratique recommandée.",
+    "Vérifier en répétition orale que la narration complète tient dans 38 secondes à débit naturel ; si nécessaire, supprimer une phrase redondante ou condenser l'exemple chiffré."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-05:reels:donation_present_usage:1",
+  "script_path": "scripts/donation/donation_present_usage__reels__a1__v7.md"
+}

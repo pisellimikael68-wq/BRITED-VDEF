@@ -1,0 +1,30 @@
+# Échanger une crypto contre une autre n'est pas imposable
+**Plateforme** : Instagram Reels  
+**Durée estimée** : 39 s
+
+| # | Beat | Narration | Visuel | Texte écran |
+|---:|---:|---|---|---|
+| 1 | hook | Vous échangez des cryptos sans sortir d'euros ? | Personne regardant un smartphone, pictogramme portefeuille | Vous échangez des cryptos sans sortir d'euros ? |
+| 2 | question | Est-ce imposable ?  OUI  -  NON | Carton avec deux cases OUI et NON | Est-ce imposable ?  OUI  -  NON |
+| 3 | reponse | Non. | Gros plan texte centré, fond neutre | Non. |
+| 4 | regle | L'article 150 VH bis prévoit que seule la cession contre une monnaie ayant cours légal ou contre bien/service déclenche l'imposition : les échanges crypto-crypto sont neutres. | Schéma : deux cryptos échangées, pas de flèche vers euro, icône article | Article 150 VH bis — échanges crypto-crypto neutres |
+| 5 | exemple | Exemple : convertir bitcoin en ethereum puis solana sans vente en euros n'entraîne pas d'impôt tant qu'aucun euro ne sort ; l'impôt de 30 % s'applique à la sortie et se calcule sur la valeur globale du portefeuille ; sous 305 € par an, aucune imposition n'est due. | Fil d'icônes BTC → ETH → SOL, porte-monnaie fermé, icône 30% et 305 € | BTC → ETH → SOL : pas d'impôt si pas de sortie — impôt 30% à la sortie — seuil 305 € |
+| 6 | nuance | Attention : les comptes sur plateformes étrangères doivent être déclarés — amende de 750 euros par compte et par année. | Icône passeport / serveur étranger, pictogramme amende | Déclaration comptes étrangers obligatoire — 750 € / compte / an |
+| 7 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | Bouton calendrier centré, pictogramme rendez-vous | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+
+Vous échangez des cryptos sans sortir d'euros ? Est-ce imposable ?  OUI  -  NON Non. L'article 150 VH bis prévoit que seule la cession contre une monnaie ayant cours légal ou contre bien/service déclenche l'imposition : les échanges crypto-crypto sont neutres. Exemple : convertir bitcoin en ethereum puis solana sans vente en euros n'entraîne pas d'impôt tant qu'aucun euro ne sort ; l'impôt de 30 % s'applique à la sortie et se calcule sur la valeur globale du portefeuille ; sous 305 € par an, aucune imposition n'est due. Attention : les comptes sur plateformes étrangères doivent être déclarés — amende de 750 euros par compte et par année. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+## Légende
+Échanger une crypto contre une autre n'est pas un fait générateur d'imposition : seule la conversion en monnaie ayant cours légal ou l'achat d'un bien/service déclenche l'impôt, selon l'article 150 VH bis. L'impôt est de 30 % et se calcule à la sortie sur la valeur globale du portefeuille ; sous 305 € par an, aucune imposition n'est due. Déclarez les comptes détenus sur plateformes étrangères pour éviter une amende de 750 € par compte et par année. Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.
+
+## Hashtags
+#crypto #fiscalité #cryptos #plusvalue #bitcoin #ethereum #fiscalitécrypto
+
+## Sources
+- CGI, article 150 VH bis — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041464958  
+- CGI, article 1649 bis C — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037992141  
+- BOI-RPPM-PVBMC-30 — https://bofip.impots.gouv.fr/doctrine/BOI-RPPM-PVBMC-30
+
+## Mention
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

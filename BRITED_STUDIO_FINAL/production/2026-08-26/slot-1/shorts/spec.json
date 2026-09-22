@@ -1,0 +1,171 @@
+{
+  "publication_id": "2026-08-26:shorts:assurance_vie_clause_beneficiaire:0",
+  "platform": "shorts",
+  "concept_id": "assurance_vie_clause_beneficiaire",
+  "title": "La phrase la plus importante de votre contrat d’assurance-vie fait deux lignes",
+  "header": "La phrase la plus importante de votre contrat d’assurance-vie fait deux lignes",
+  "serie": "finance",
+  "narration": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ? La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre. Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-8 — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-9. Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements. Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-12). Contenu d'ordre général. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ?",
+      "visual": "Gros plan visage, pictogramme point d'interrogation",
+      "screen_text": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ?"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+      "visual": "Pictogramme € avec label \"abattement\"",
+      "screen_text": "Qui reçoit - Abattement propre"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-8 — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-9.",
+      "visual": "Pictogramme courrier + document ; pictogramme cadenas/signature",
+      "screen_text": "Modifiable en général gratuitement — voir article L132-8 ; acceptation = irrévocabilité (L132-9)"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+      "visual": "Pictogramme personne + étiquette nominative ; pictogramme € abattement",
+      "screen_text": "« mon épouse Madame Dupont » — Évitez une seule désignation"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-12).",
+      "visual": "Pictogramme maison + document succession ; pictogramme référence légale",
+      "screen_text": "Réintégration succession (article L132-12)"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Contenu d'ordre général. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton pictogramme calendrier centré en bas",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ?",
+      "visual": "Gros plan visage, pictogramme point d'interrogation",
+      "screen_text": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+      "visual": "Pictogramme € avec label \"abattement\"",
+      "screen_text": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-8 — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-9.",
+      "visual": "Pictogramme courrier + document ; pictogramme cadenas/signature",
+      "screen_text": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-8 — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-9.",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 36
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+      "visual": "Pictogramme personne + étiquette nominative ; pictogramme € abattement",
+      "screen_text": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 38
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-12).",
+      "visual": "Pictogramme maison + document succession ; pictogramme référence légale",
+      "screen_text": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-12).",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton pictogramme calendrier centré en bas",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "ef01ae25a962e4e94f6040336824118d322ff31928d65c065d72fb9b4147b442",
+    "adapted_hash": "46d96c381e465c95554d5d4cb839a15b2cbf420785893e8c62fdac91b18bb266",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": false,
+    "minimum_font_size": 36,
+    "cta_normalized": true,
+    "warnings": []
+  },
+  "voice_profile": {
+    "target_wpm": {
+      "hook": 222.0,
+      "question": 160.0,
+      "reponse": 178.0,
+      "regle": 164.0,
+      "precision": 168.0,
+      "exemple": 174.0,
+      "nuance": 165.0,
+      "cta": 208.0,
+      "default": 172.0
+    },
+    "role_settings": {
+      "hook": {
+        "stability": 0.4,
+        "similarity_boost": 0.82,
+        "style": 0.5,
+        "use_speaker_boost": true,
+        "speed": 1.12
+      }
+    }
+  },
+  "answer_design": "adaptive_sections_v2",
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

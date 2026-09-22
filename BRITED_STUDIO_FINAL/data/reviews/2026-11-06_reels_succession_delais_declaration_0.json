@@ -1,0 +1,172 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE a été respectée globalement, mais le script contient la phrase « quelques mois de retard se chiffrent en milliers d'euros » (dans la section ‘Ce qui se joue vraiment’), ce qui s'apparente à une quantification d'une pénalité pour un cas particulier alors que la rubrique 'a_ne_pas_dire' interdit de chiffrer une pénalité pour un cas particulier. Il faut supprimer ou reformuler cette formulation trop illustrative."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le texte indique correctement les articles 641, 1727 et 1728 et le taux mensuel de 0,20 %. Toutefois la mention « Le délai est celui du dépôt et du paiement » mérite précision : l'article 641 fixe le délai de dépôt et le paiement est exigible dans ce délai sauf disposition de paiement fractionné ou différé accordée sur demande au dépôt. Il faudrait préciser explicitement que les demandes de paiement fractionné/différé doivent être formées au moment du dépôt et que des garanties sont souvent exigées (la fiche le dit ailleurs, mais l'énoncé central gagnerait à être explicite pour éviter toute confusion juridique)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception (12 mois hors métropole), l'intérêt et la majoration, et évoque paiement fractionné/différé. Manque toutefois une précision utile : indiquer que l'intérêt court dès le premier jour suivant l'expiration du délai (la formulation 'dès le premier jour' apparaît, mais il faut préciser 'du dépassement' ou 'après les 6 mois') pour lever toute ambiguïté pour un non-spécialiste.",
+        "L'exemple chiffré présent dans la fiche (succession 400 000 € -> 50 000 € de droits) est mentionné dans la fiche mais n'est repris textuellement dans le script ; soit il faut l'intégrer correctement soit supprimer toute allusion qui pourrait être interprétée comme chiffrage de pénalité pour un cas concret."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est bien structuré et adapté au format Reels, mais la première phrase du hook 'Succession bloquée et le temps file ?' est convaincante ; toutefois la répétition brute de certaines informations (ex. règle + nuance) pourrait être légèrement resserrée pour tenir dans 40 s selon débit. Recommandation précise : raccourcir la phrase expliquant intérêt/majoration en une seule phrase compacte."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais une phrase est maladroite : 'Le délai est celui du dépôt et du paiement.' Pour fluidité, reformuler en 'Le délai concerne le dépôt ; le paiement est exigible dans ce délai sauf accord de paiement fractionné ou différé demandé au dépôt.'",
+        "La mention 'Vous devez déposer la déclaration dans les six mois suivant le décès.' est correcte, mais pour la prononciation orale il serait préférable d'éviter la répétition 'suivant le décès' en variant la formulation entre séquences."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot : le script et la narration concordent avec la fiche sauf pour la mention vague sur le montant ('quelques mois de retard se chiffrent en milliers d'euros') qui doit être retirée ou précisée génériquement sans chiffrage. De plus, l'ordre question-réponse est respecté, mais la question 'Avez-vous six mois pour déclarer ?' suivie d'une diapositive OUI/NON peut induire hésitation ; la réponse doit apparaître immédiatement claire pour l'auditeur."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance visuel/texte est globalement cohérente, toutefois la consigne 'pictogramme balance (intérêt/majoration)' peut être trompeuse : la balance évoque justice plutôt que pénalités financières. Recommander un pictogramme clairement financier (pièce/monnaie, pourcent) pour illustrer intérêt/majoration.",
+        "Le pictogramme 'sceau/garantie' pour le paiement différé/fractionné est pertinent mais doit clairement évoquer 'garantie' (ex. hypothèque/garantie bancaire) pour éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est accessible mais inclut des expressions techniques ('dispense', 'nue-propriété') sans définition rapide. Par exemple, remplacer ou ajouter en une courte parenthèse 'dispense (cas d'actif très faible)' et, si 'nue-propriété' est mentionnée, ajouter 'nue-propriété (usufruit/nue-propriété)' ou éviter le terme pour rester immédiatement compréhensible."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes, mais la diapositive avec OUI/NON risque de retarder la délivrance du message si l'animation prend du temps. Recommander que la diapo OUI/NON soit très brève (0.5 s) ou remplacée par une affirmation immédiate pour maintenir le rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est professionnel mais formule 'Prenez rendez-vous via le lien dans ma bio' est standard ; pour renforcer confiance, proposer une légère valeur ajoutée dans le CTA (ex. 'pour évaluer vos options de paiement') sans donner de conseils personnalisés dans le reel lui-même.",
+        "Veiller à l'absence de promesse ornementale ; le script actuel est plutôt prudent mais la phrase 'Vous souhaitez faire le point sur votre situation ?' pourrait être complétée par 'Examen personnalisé en rendez‑vous' qui reste acceptable si suivi."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE a été respectée globalement, mais le script contient la phrase « quelques mois de retard se chiffrent en milliers d'euros » (dans la section ‘Ce qui se joue vraiment’), ce qui s'apparente à une quantification d'une pénalité pour un cas particulier alors que la rubrique 'a_ne_pas_dire' interdit de chiffrer une pénalité pour un cas particulier. Il faut supprimer ou reformuler cette formulation trop illustrative.",
+    "juridique_fiscal : Le texte indique correctement les articles 641, 1727 et 1728 et le taux mensuel de 0,20 %. Toutefois la mention « Le délai est celui du dépôt et du paiement » mérite précision : l'article 641 fixe le délai de dépôt et le paiement est exigible dans ce délai sauf disposition de paiement fractionné ou différé accordée sur demande au dépôt. Il faudrait préciser explicitement que les demandes de paiement fractionné/différé doivent être formées au moment du dépôt et que des garanties sont souvent exigées (la fiche le dit ailleurs, mais l'énoncé central gagnerait à être explicite pour éviter toute confusion juridique).",
+    "completude : Le script couvre la règle centrale, l'exception (12 mois hors métropole), l'intérêt et la majoration, et évoque paiement fractionné/différé. Manque toutefois une précision utile : indiquer que l'intérêt court dès le premier jour suivant l'expiration du délai (la formulation 'dès le premier jour' apparaît, mais il faut préciser 'du dépassement' ou 'après les 6 mois') pour lever toute ambiguïté pour un non-spécialiste.",
+    "completude : L'exemple chiffré présent dans la fiche (succession 400 000 € -> 50 000 € de droits) est mentionné dans la fiche mais n'est repris textuellement dans le script ; soit il faut l'intégrer correctement soit supprimer toute allusion qui pourrait être interprétée comme chiffrage de pénalité pour un cas concret.",
+    "editorial : Le script est bien structuré et adapté au format Reels, mais la première phrase du hook 'Succession bloquée et le temps file ?' est convaincante ; toutefois la répétition brute de certaines informations (ex. règle + nuance) pourrait être légèrement resserrée pour tenir dans 40 s selon débit. Recommandation précise : raccourcir la phrase expliquant intérêt/majoration en une seule phrase compacte.",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais une phrase est maladroite : 'Le délai est celui du dépôt et du paiement.' Pour fluidité, reformuler en 'Le délai concerne le dépôt ; le paiement est exigible dans ce délai sauf accord de paiement fractionné ou différé demandé au dépôt.'",
+    "formulation_professionnelle : La mention 'Vous devez déposer la déclaration dans les six mois suivant le décès.' est correcte, mais pour la prononciation orale il serait préférable d'éviter la répétition 'suivant le décès' en variant la formulation entre séquences.",
+    "contre_verification_finale : Vérification mot à mot : le script et la narration concordent avec la fiche sauf pour la mention vague sur le montant ('quelques mois de retard se chiffrent en milliers d'euros') qui doit être retirée ou précisée génériquement sans chiffrage. De plus, l'ordre question-réponse est respecté, mais la question 'Avez-vous six mois pour déclarer ?' suivie d'une diapositive OUI/NON peut induire hésitation ; la réponse doit apparaître immédiatement claire pour l'auditeur.",
+    "coherence_pictogrammes : La correspondance visuel/texte est globalement cohérente, toutefois la consigne 'pictogramme balance (intérêt/majoration)' peut être trompeuse : la balance évoque justice plutôt que pénalités financières. Recommander un pictogramme clairement financier (pièce/monnaie, pourcent) pour illustrer intérêt/majoration.",
+    "coherence_pictogrammes : Le pictogramme 'sceau/garantie' pour le paiement différé/fractionné est pertinent mais doit clairement évoquer 'garantie' (ex. hypothèque/garantie bancaire) pour éviter ambiguïté.",
+    "pedagogie_client : Le script est accessible mais inclut des expressions techniques ('dispense', 'nue-propriété') sans définition rapide. Par exemple, remplacer ou ajouter en une courte parenthèse 'dispense (cas d'actif très faible)' et, si 'nue-propriété' est mentionnée, ajouter 'nue-propriété (usufruit/nue-propriété)' ou éviter le terme pour rester immédiatement compréhensible.",
+    "retention_attention : Les deux premières secondes sont fortes, mais la diapositive avec OUI/NON risque de retarder la délivrance du message si l'animation prend du temps. Recommander que la diapo OUI/NON soit très brève (0.5 s) ou remplacée par une affirmation immédiate pour maintenir le rythme.",
+    "conversion_confiance : Le CTA est professionnel mais formule 'Prenez rendez-vous via le lien dans ma bio' est standard ; pour renforcer confiance, proposer une légère valeur ajoutée dans le CTA (ex. 'pour évaluer vos options de paiement') sans donner de conseils personnalisés dans le reel lui-même.",
+    "conversion_confiance : Veiller à l'absence de promesse ornementale ; le script actuel est plutôt prudent mais la phrase 'Vous souhaitez faire le point sur votre situation ?' pourrait être complétée par 'Examen personnalisé en rendez‑vous' qui reste acceptable si suivi."
+  ],
+  "recommendations": [
+    "Supprimer ou reformuler la phrase 'quelques mois de retard se chiffrent en milliers d'euros' pour éviter toute quantification de pénalités applicables à un cas particulier. Remplacer par une formulation générique : 'Sur des successions conséquentes, le retard peut coûter cher.'",
+    "Préciser clairement que l'intérêt de retard court 'à partir du premier jour suivant l'expiration du délai de dépôt (après 6 mois)' pour lever toute ambiguïté.",
+    "Reformuler la phrase centrale pour la rendre plus fluide : par exemple 'Le délai porte sur le dépôt de la déclaration ; le paiement est exigible dans ce même délai, sauf si vous demandez, au moment du dépôt, un paiement fractionné ou différé, généralement assorti de garanties.'",
+    "Rendre les termes techniques immédiatement compréhensibles : remplacer 'dispense' par 'dispense (cas d'actif très faible)' et éviter ou expliquer 'nue-propriété' brièvement si elle est évoquée dans la narration.",
+    "Adapter les pictogrammes : remplacer la balance pour l'évocation des pénalités par un pictogramme financier (symbole pourcentage, euros, pièces) et préciser le visuel de 'garantie' (ex. icône de contrat, hypothèque, ou coffre).",
+    "Raccourcir la diapositive OUI/NON pour garantir le rythme (0,5 s) ou la remplacer par une affirmation immédiate afin de respecter la contrainte de 40 s et la rétention auditive.",
+    "Affiner le CTA pour augmenter la conversion sans surpromesse : par exemple 'Prenez rendez‑vous via le lien dans ma bio pour un point sur vos options de paiement' qui reste pédagogique et non engageant juridiquement.",
+    "Relire et harmoniser la formulation pour éviter répétitions et faciliter la prononciation à l'oral (notamment varier 'suivant le décès' et condenser l'explication intérêt/majoration en une seule phrase compacte)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-06:reels:succession_delais_declaration:0",
+  "script_path": "scripts/succession/succession_delais_declaration__reels__a2__v3.md"
+}

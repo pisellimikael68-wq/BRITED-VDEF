@@ -1,0 +1,184 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte fidèlement les sources citées (loi 2023-451, Code de la consommation, Code monétaire et financier, AMF) mais il présente un 'Exemple' de mention sans rappeler strictement la mise en garde de la fiche BRITED : « Ne pas donner de modèle de mention comme s'il valait validation juridique ». Le texte actuel peut être perçu comme un modèle validé."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement les obligations essentielles (vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, signalement du caractère commercial).",
+        "Cependant il manque une mention explicite qui rappelle que la mention ne rend pas licite la promotion de produits dont la publicité est interdite (présente dans la fiche).",
+        "L'exemple type fourni ('Partenariat rémunéré') peut être interprété comme suffisant légalement alors que la rédaction doit dépendre du statut de l'auteur et du contenu : la fiche interdit de présenter un modèle comme validation juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre les quatre éléments demandés et la nuance sur lisibilité.",
+        "Manque une précision opérationnelle demandée par la fiche : rappeler explicitement que la rémunération inclut contreparties non monétaires (produit offert, séjour, accès gratuit).",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' pourrait laisser supposer l'offre de conseil personnalisé ; il conviendrait de préciser que le rendez‑vous donnera lieu, le cas échéant, à un conseil personnalisé payant ou encadré."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire et progression logique respectant le format short.",
+        "La formulation du CTA est efficace mais pourrait affaiblir la neutralité (voir agent 'conversion_confiance').",
+        "Petit ajustement stylistique recommandé : alléger la légende pour éviter la répétition entre 'Mention' et 'Légende'."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et sourcé, sans conseil personnalisé dans le script lui‑même.",
+        "Cependant le CTA proposant un rendez‑vous nécessite une précaution : il faut éviter que le CTA soit perçu comme sollicitation pour donner un conseil gratuit non encadré ou promettant un résultat."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible globalement.",
+        "Une phrase de la légende est lourde/ambiguë : 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' Suggestion d'amélioration pour fluidité et précision (ex.: séparer juridique/fiscal/financier et préciser 'personnalisé').",
+        "L'exemple pourrait être marqué comme 'à adapter selon votre statut' de manière plus visible (la fiche insiste sur cette nuance)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence générale bonne, mais légende, mention d'écran et exemple présentent des formulations légèrement différentes (risque de confusion pour l'utilisateur qui lit rapidement).",
+        "Il faut unifier mot à mot la formulation recommandée pour l'affichage (tout en précisant que c'est un exemple à adapter)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non‑spécialiste et traite un seul angle.",
+        "Toutefois, l'expression 'risque de perte en capital' pourrait brièvement préciser ce que cela signifie pour un néophyte (ex. : 'vous pouvez perdre une partie ou la totalité de votre investissement'), afin d'assurer compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources citées inspirent confiance.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' peut donner une impression commerciale trop directe ; recommander de préciser le cadre du rendez‑vous (information gratuite/consultation payante) pour préserver la transparence et la confiance."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 115,
+      "seconds": 42.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte fidèlement les sources citées (loi 2023-451, Code de la consommation, Code monétaire et financier, AMF) mais il présente un 'Exemple' de mention sans rappeler strictement la mise en garde de la fiche BRITED : « Ne pas donner de modèle de mention comme s'il valait validation juridique ». Le texte actuel peut être perçu comme un modèle validé.",
+    "juridique_fiscal : Le script indique correctement les obligations essentielles (vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, signalement du caractère commercial).",
+    "juridique_fiscal : Cependant il manque une mention explicite qui rappelle que la mention ne rend pas licite la promotion de produits dont la publicité est interdite (présente dans la fiche).",
+    "juridique_fiscal : L'exemple type fourni ('Partenariat rémunéré') peut être interprété comme suffisant légalement alors que la rédaction doit dépendre du statut de l'auteur et du contenu : la fiche interdit de présenter un modèle comme validation juridique.",
+    "completude : Le script couvre les quatre éléments demandés et la nuance sur lisibilité.",
+    "completude : Manque une précision opérationnelle demandée par la fiche : rappeler explicitement que la rémunération inclut contreparties non monétaires (produit offert, séjour, accès gratuit).",
+    "completude : Le CTA 'Prenez rendez-vous via le lien dans ma bio' pourrait laisser supposer l'offre de conseil personnalisé ; il conviendrait de préciser que le rendez‑vous donnera lieu, le cas échéant, à un conseil personnalisé payant ou encadré.",
+    "editorial : Accroche claire et progression logique respectant le format short.",
+    "editorial : La formulation du CTA est efficace mais pourrait affaiblir la neutralité (voir agent 'conversion_confiance').",
+    "editorial : Petit ajustement stylistique recommandé : alléger la légende pour éviter la répétition entre 'Mention' et 'Légende'.",
+    "securite : Contenu pédagogique et sourcé, sans conseil personnalisé dans le script lui‑même.",
+    "securite : Cependant le CTA proposant un rendez‑vous nécessite une précaution : il faut éviter que le CTA soit perçu comme sollicitation pour donner un conseil gratuit non encadré ou promettant un résultat.",
+    "formulation_professionnelle : Le français est naturel et compréhensible globalement.",
+    "formulation_professionnelle : Une phrase de la légende est lourde/ambiguë : 'Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' Suggestion d'amélioration pour fluidité et précision (ex.: séparer juridique/fiscal/financier et préciser 'personnalisé').",
+    "formulation_professionnelle : L'exemple pourrait être marqué comme 'à adapter selon votre statut' de manière plus visible (la fiche insiste sur cette nuance).",
+    "contre_verification_finale : Cohérence générale bonne, mais légende, mention d'écran et exemple présentent des formulations légèrement différentes (risque de confusion pour l'utilisateur qui lit rapidement).",
+    "contre_verification_finale : Il faut unifier mot à mot la formulation recommandée pour l'affichage (tout en précisant que c'est un exemple à adapter).",
+    "pedagogie_client : Le script est compréhensible pour un non‑spécialiste et traite un seul angle.",
+    "pedagogie_client : Toutefois, l'expression 'risque de perte en capital' pourrait brièvement préciser ce que cela signifie pour un néophyte (ex. : 'vous pouvez perdre une partie ou la totalité de votre investissement'), afin d'assurer compréhension immédiate.",
+    "conversion_confiance : Ton sérieux et sources citées inspirent confiance.",
+    "conversion_confiance : Le CTA 'Prenez rendez-vous via le lien dans ma bio' peut donner une impression commerciale trop directe ; recommander de préciser le cadre du rendez‑vous (information gratuite/consultation payante) pour préserver la transparence et la confiance."
+  ],
+  "recommendations": [
+    "Marquer l'exemple comme indicatif et ajouter explicitement la mise en garde de la fiche BRITED : « Exemple à adapter selon votre situation et votre statut — ce modèle n'a pas valeur de validation juridique. »",
+    "Ajouter la précision que la rémunération couvre aussi les contreparties non monétaires (ex. : produit offert, séjour, accès gratuit) dans la partie où vous demandez de signaler le caractère commercial.",
+    "Inclure une phrase brève rappelant que 'la mention ne rend pas licite la promotion de produits dont la publicité est interdite' pour être conforme à la fiche et aux textes cités.",
+    "Unifier la formulation exacte de la mention recommandée entre l'écran d'exemple, la narration et la légende (p. ex. : 'Contenu pédagogique. Pas de recommandation personnalisée. Risque de perte en capital (vous pouvez perdre tout ou partie du capital). Partenariat rémunéré / contrepartie reçue.'), tout en répétant qu'il s'agit d'un exemple à adapter.",
+    "Rendre la légende plus fluide en simplifiant la phrase lourde : par exemple séparer en deux phrases courtes pour faciliter la lecture et l'affichage sur mobile.",
+    "Préciser le cadre du CTA : indiquer si le rendez‑vous est pour une information générale, un diagnostic payant ou une prise de contact, afin d'éviter toute interprétation comme promesse de conseil gratuit non encadré.",
+    "Déplacer ou s'assurer que les mentions obligatoires apparaissent dès les premières lignes visibles de la description et, si possible, les afficher aussi sur l'écran vidéo (sous forme condensée lisible) pour pallier un affichage tronqué."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-11:shorts:conformite_mentions_obligatoires:0",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__shorts__a2__v3.md"
+}

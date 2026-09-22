@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 102,
+      "seconds": 37.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 9.5,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 6.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 102,
+        "seconds": 37.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "d96a890585d1bfb5f32a042d6eaecc0c006f64093a3d555621c73bf0c6972444",
+      "adapted_hash": "d96a890585d1bfb5f32a042d6eaecc0c006f64093a3d555621c73bf0c6972444",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 35,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter une précision sur le délai pour la preuve des fonds (ex: 20 ans) pour éviter l'ambiguïté sur l'article 1538"
+  ],
+  "reviewed_at": "2026-08-19T00:17:30",
+  "model": "ollama:qwen3:4b",
+  "publication_id": "2026-08-25:reels:regimes_separation_de_biens:0_professional_final",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_separation_de_biens__reels__a1__v4.md"
+}

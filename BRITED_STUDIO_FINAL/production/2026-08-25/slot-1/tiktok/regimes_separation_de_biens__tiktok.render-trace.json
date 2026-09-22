@@ -1,0 +1,261 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.24,
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "safe_zones": true,
+    "visual_overlap_control": true
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Séparation de biens : êtes-vous protégé de toutes les dettes ?",
+      "tokens": [
+        "Séparation",
+        "de",
+        "biens",
+        ":",
+        "êtes-vous",
+        "protégé",
+        "de",
+        "toutes",
+        "les",
+        "dettes",
+        "?"
+      ],
+      "token_count": 11,
+      "speech_duration": 2.957,
+      "full_text_visible_at": 2.662,
+      "hold_after_full_text": 1.196,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          402,
+          660,
+          497
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "shield-alert",
+          "shield-check"
+        ],
+        "font_size": 43,
+        "overlap": false
+      }
+    },
+    {
+      "id": "question",
+      "source_text": "Selon vous, ce régime met-il toujours votre patrimoine à l'abri ?",
+      "tokens": [
+        "Selon",
+        "vous,",
+        "ce",
+        "régime",
+        "met-il",
+        "toujours",
+        "votre",
+        "patrimoine",
+        "à",
+        "l'abri",
+        "?"
+      ],
+      "token_count": 11,
+      "speech_duration": 3.203,
+      "full_text_visible_at": 2.883,
+      "hold_after_full_text": 1.22,
+      "visual_layout": null
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. Certaines dépenses peuvent encore engager les deux époux.",
+      "tokens": [
+        "Non.",
+        "Certaines",
+        "dépenses",
+        "peuvent",
+        "encore",
+        "engager",
+        "les",
+        "deux",
+        "époux."
+      ],
+      "token_count": 9,
+      "speech_duration": 3.005,
+      "full_text_visible_at": 2.705,
+      "hold_after_full_text": 0.551,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "L'article 1536 sépare les biens. Mais l'article 220 rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+      "tokens": [
+        "L'article",
+        "1536",
+        "sépare",
+        "les",
+        "biens.",
+        "Mais",
+        "l'article",
+        "220",
+        "rend",
+        "les",
+        "époux",
+        "solidaires",
+        "des",
+        "dettes",
+        "d'entretien",
+        "du",
+        "ménage",
+        "ou",
+        "d'éducation",
+        "des",
+        "enfants."
+      ],
+      "token_count": 21,
+      "speech_duration": 7.586,
+      "full_text_visible_at": 6.828,
+      "hold_after_full_text": 1.009,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          334,
+          660,
+          565
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "scale",
+          "book-open-text"
+        ],
+        "font_size": 39,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un loyer ou des frais d'école contractés par un époux peuvent engager l'autre.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "loyer",
+        "ou",
+        "des",
+        "frais",
+        "d'école",
+        "contractés",
+        "par",
+        "un",
+        "époux",
+        "peuvent",
+        "engager",
+        "l'autre."
+      ],
+      "token_count": 15,
+      "speech_duration": 4.55,
+      "full_text_visible_at": 4.095,
+      "hold_after_full_text": 0.705,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          378,
+          660,
+          522
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "receipt-euro",
+          "house"
+        ],
+        "font_size": 42,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Et sans preuve de propriété, l'article 1538 présume le bien indivis par moitié.",
+      "tokens": [
+        "Et",
+        "sans",
+        "preuve",
+        "de",
+        "propriété,",
+        "l'article",
+        "1538",
+        "présume",
+        "le",
+        "bien",
+        "indivis",
+        "par",
+        "moitié."
+      ],
+      "token_count": 13,
+      "speech_duration": 5.281,
+      "full_text_visible_at": 4.753,
+      "hold_after_full_text": 1.428,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-check-2",
+          "search"
+        ],
+        "font_size": 43,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 14,
+      "speech_duration": 3.399,
+      "full_text_visible_at": 3.059,
+      "hold_after_full_text": 0.34,
+      "visual_layout": null
+    }
+  ]
+}

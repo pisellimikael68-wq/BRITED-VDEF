@@ -1,0 +1,45 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "25a8eeae5f2ebde0174040dbdbf3b1de05d2eab11e923448a0247c49e553c7a6",
+  "beat_hashes": {
+    "hook": "2e856bfdfc69667dc852bfa8b8e6350911f7ddc7e163d1f52d456c58b13f9cb0",
+    "question": "ae0fa21154ee3d75aab5223984e5194de891b5c30a06a4c3ada002275e183374",
+    "reponse": "dc2b923c19b1faac45d13d59ca6b198129d12f9159aa3b74c2d1a8404c170401",
+    "regle": "b9fd95ec3d48c54ce9228a235f69c2b0b722580c9816f1d9671de0ab0728ee75",
+    "exemple": "9aeff06737e15273fb750ac6755d63cc4ec7b472fa478f1940148f466a40936a",
+    "nuance": "578ff2c2fa22ad9c8c97cf7d7dc5ed13ed417ede00183c66768b898f92b53690",
+    "cta": "398e5ea4320837b9d764d75d8bf6a5d395a8154e5a9f5e3194a7e3e485f8a32b"
+  },
+  "spoken_texts": {
+    "hook": "L’assurance vie transmet cent cinquante deux mille cinq cents euros à chaque bénéficiaire.",
+    "question": "L’abattement dépend il de l’âge au décès ?",
+    "reponse": "Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement.",
+    "regle": "Pour les primes versées avant soixante-dix ans, l’article neuf cent quatre-vingt-dix I prévoit cent cinquante deux mille cinq cents euros d’abattement par bénéficiaire ; ensuite vingt pour cent jusqu'à sept cent mille euros, puis trente et un virgule vingt cinq pour cent.",
+    "exemple": "Par exemple, avec trois bénéficiaires, trois × cent cinquante deux mille cinq cents euros représentent quatre cent cinquante sept mille cinq cents euros sans taxation.",
+    "nuance": "Les primes versées après soixante-dix ans relèvent de l'article sept cent cinquante-sept B avec un abattement global de trente mille cinq cents euros partagé entre bénéficiaires.",
+    "cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

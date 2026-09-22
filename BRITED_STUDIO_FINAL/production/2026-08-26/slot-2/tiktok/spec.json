@@ -1,0 +1,167 @@
+{
+  "publication_id": "2026-08-26:tiktok:assurance_vie_990i_152500:1",
+  "platform": "tiktok",
+  "concept_id": "assurance_vie_990i_152500",
+  "title": "Les 152 500 € par bénéficiaire de l'assurance-vie",
+  "header": "Les 152 500 € par bénéficiaire de l'assurance-vie",
+  "serie": "fiscalite",
+  "narration": "L’assurance-vie transmet 152 500 € à chaque bénéficiaire. L’abattement dépend-il de l’âge au décès ? OUI / NON. Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement. Pour les primes versées avant 70 ans, l’article 990 I prévoit 152 500 € d’abattement par bénéficiaire ; ensuite 20 % jusqu'à 700 000 €, puis 31,25 %. Par exemple, avec trois bénéficiaires, 3 × 152 500 € représentent 457 500 € sans taxation. Les primes versées après 70 ans relèvent de l'article 757 B avec un abattement global de 30 500 € partagé entre bénéficiaires. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "L’assurance-vie transmet 152 500 € à chaque bénéficiaire.",
+      "visual": "Pictogramme main donnant un paquet euros, fond chaud",
+      "screen_text": "152 500 € à chaque bénéficiaire"
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "narration": "L’abattement dépend-il de l’âge au décès ?",
+      "visual": "Gros point d'interrogation binaire OUI / NON",
+      "screen_text": "L'abattement dépend-il de l'âge au décès ? OUI / NON"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement.",
+      "visual": "Silhouette calendrier + personne",
+      "screen_text": "NON — âge au versement ; abattement par bénéficiaire"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Pour les primes versées avant 70 ans, l’article 990 I prévoit 152 500 € d’abattement par bénéficiaire ; ensuite 20 % jusqu'à 700 000 €, puis 31,25 %.",
+      "visual": "Icône livre loi + pourcentage",
+      "screen_text": "Avant 70 ans : 152 500 € par bénéficiaire — 20 % puis 31,25 %"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Par exemple, avec trois bénéficiaires, 3 × 152 500 € représentent 457 500 € sans taxation.",
+      "visual": "3 silhouettes avec euro et calcul",
+      "screen_text": "3 × 152 500 € = 457 500 € sans taxation"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Les primes versées après 70 ans relèvent de l'article 757 B avec un abattement global de 30 500 € partagé entre bénéficiaires.",
+      "visual": "Icône calendrier avec 70+ et document fiscal",
+      "screen_text": "Après 70 ans : abattement global de 30 500 € partagé"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Calendrier et bouton de rendez-vous",
+      "screen_text": "Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "L’assurance-vie transmet 152 500 € à chaque bénéficiaire.",
+      "visual": "Pictogramme main donnant un paquet euros, fond chaud",
+      "screen_text": "L’assurance-vie transmet 152 500 € à chaque bénéficiaire.",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "narration": "L’abattement dépend-il de l’âge au décès ?",
+      "visual": "Gros point d'interrogation binaire OUI / NON",
+      "screen_text": "L’abattement dépend-il de l’âge au décès ?",
+      "source_beat_id": "question",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "question",
+      "font_size": 46
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement.",
+      "visual": "Silhouette calendrier + personne",
+      "screen_text": "Non. C'est l'âge lors du versement qui compte ; chaque bénéficiaire a son abattement.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Pour les primes versées avant 70 ans, l’article 990 I prévoit 152 500 € d’abattement par bénéficiaire ; ensuite 20 % jusqu'à 700 000 €, puis 31,25 %.",
+      "visual": "Icône livre loi + pourcentage",
+      "screen_text": "Pour les primes versées avant 70 ans, l’article 990 I prévoit 152 500 € d’abattement par bénéficiaire ; ensuite 20 % jusqu'à 700 000 €, puis 31,25 %.",
+      "source_beat_id": "regle",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 36
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Par exemple, avec trois bénéficiaires, 3 × 152 500 € représentent 457 500 € sans taxation.",
+      "visual": "3 silhouettes avec euro et calcul",
+      "screen_text": "Par exemple, avec trois bénéficiaires, 3 × 152 500 € représentent 457 500 € sans taxation.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 42
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Les primes versées après 70 ans relèvent de l'article 757 B avec un abattement global de 30 500 € partagé entre bénéficiaires.",
+      "visual": "Icône calendrier avec 70+ et document fiscal",
+      "screen_text": "Les primes versées après 70 ans relèvent de l'article 757 B avec un abattement global de 30 500 € partagé entre bénéficiaires.",
+      "source_beat_id": "nuance",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 39
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Calendrier et bouton de rendez-vous",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 6,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "tiktok",
+    "source_hash": "2d523d81c71300ab59f899badff666a3541a6e21d1a25ae5d29214b8855101df",
+    "adapted_hash": "2d523d81c71300ab59f899badff666a3541a6e21d1a25ae5d29214b8855101df",
+    "source_beats": 7,
+    "adapted_pages": 7,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 36,
+    "warnings": []
+  },
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

@@ -1,0 +1,169 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche indique 'Durée maximale avec travaux ou achat en VEFA = 27 ans' et 'Part des dossiers pouvant déroger = 20 %' marqués 'a_verifier'. Le script mentionne 27 ans sans réserve et évoque la marge de dérogation sans chiffrage. Il faut soit fournir la source précise pour ces deux chiffres (HCSF / texte officiel) soit retirer/nuancer la valeur chiffrée de 27 ans et le pourcentage de 20 %."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase 'Le HCSF recommande un taux d'effort maximal de 35 % ... et une durée plafond de 25 ans, portée à 27 ans pour travaux ou VEFA.' est correcte comme formulation générale, mais l'affirmation sur 27 ans doit être nuancée en indiquant la condition (travaux importants / VEFA) et en citant la source précise ou en ajoutant 'selon le HCSF' pour éviter toute interprétation comme norme légale. Le script doit rappeler explicitement que ce sont des repères et non une obligation légale (la légende le fait, mais la narration principale devrait la répéter plus clairement)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est synthétique et pédagogique mais omet d'expliciter que tous les crédits en cours (y compris crédit renouvelable) sont intégrés. Le beat 6 cite 'tous les crédits en cours' mais il serait utile d'ajouter un bref exemple chiffré ou explicite (ex. 'même un petit crédit renouvelable') pour que le non-spécialiste comprenne l'impact.",
+        "Le script évoque la marge de dérogation mais n'explique pas que son usage dépend de la politique interne et de la consommation de cette marge par l'établissement, information présente dans la fiche et utile au public."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais la première phrase 'Vous galérez à obtenir un prêt malgré des revenus ?' est bonne. En revanche, la transition 'Votre banque exige-t-elle un taux d'effort inférieur à 35 % : OUI / NON' lira mieux en format oral si reformulée (ex. 'Votre banque vous demande d'être sous 35 % ?').",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio.' est commercialement acceptable mais il faut éviter toute promesse de conseil personnalisé (la légende précise la limite; ajouter 'pour un point général' ou 'pour évaluer vos options' peut mieux cadrer)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la consigne de ne pas donner de conseils personnalisés, mais le CTA peut être perçu comme une incitation à un rendez-vous personnalisé. Il faut garantir la mention orale ou visuelle que le contenu reste d'ordre pédagogique et que le rendez-vous n'est pas un conseil juridique/financier sans contrat (la légende le précise, mais le format Reels doit aussi inclure une phrase brève de réserve)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être affinées pour l'oral : 'taux d'effort' est technique — ajouter rapidement 'soit la part de vos revenus consacrée aux mensualités' améliorerait la compréhension immédiate.",
+        "L'énoncé 'Non — c'est un repère du Haut Conseil de stabilité financière.' est court et percutant mais gagnerait à préciser 'ce n'est pas une obligation légale' pour lever toute ambiguïté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérifier mot à mot : la narration reprend la légende mais n'inclut pas la précision explicite 'ne constitue pas un conseil personnalisé' dans la partie parlée. Il convient d'ajouter une phrase courte de réserve dans la narration (même brève) pour cohérence avec la légende.",
+        "S'assurer que les pictogrammes décrits correspondent exactement aux éléments parlés (voir agent 'coherence_pictogrammes')."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement accessible, mais le terme 'VEFA' peut être inconnu du grand public ; remplacer par 'achat en état futur d'achèvement (VEFA)' ou dire simplement 'VEFA (achat sur plan)' la première fois améliorerait la pédagogie.",
+        "Ajouter une très brève explication que l'assurance est souvent plus coûteuse avec l'âge et peut donc peser fortement sur le taux d'effort renforcerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance, mais l'absence d'une phrase de réserve orale et l'usage d'un CTA vers un rendez-vous personnel sans cadrage peuvent être perçus comme une promesse implicite de diagnostic. Ajouter une courte réserve orale (ex. 'contenu pédagogique, pas un conseil personnalisé') réduira ce risque."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche indique 'Durée maximale avec travaux ou achat en VEFA = 27 ans' et 'Part des dossiers pouvant déroger = 20 %' marqués 'a_verifier'. Le script mentionne 27 ans sans réserve et évoque la marge de dérogation sans chiffrage. Il faut soit fournir la source précise pour ces deux chiffres (HCSF / texte officiel) soit retirer/nuancer la valeur chiffrée de 27 ans et le pourcentage de 20 %.",
+    "juridique_fiscal : La phrase 'Le HCSF recommande un taux d'effort maximal de 35 % ... et une durée plafond de 25 ans, portée à 27 ans pour travaux ou VEFA.' est correcte comme formulation générale, mais l'affirmation sur 27 ans doit être nuancée en indiquant la condition (travaux importants / VEFA) et en citant la source précise ou en ajoutant 'selon le HCSF' pour éviter toute interprétation comme norme légale. Le script doit rappeler explicitement que ce sont des repères et non une obligation légale (la légende le fait, mais la narration principale devrait la répéter plus clairement).",
+    "completude : Le script est synthétique et pédagogique mais omet d'expliciter que tous les crédits en cours (y compris crédit renouvelable) sont intégrés. Le beat 6 cite 'tous les crédits en cours' mais il serait utile d'ajouter un bref exemple chiffré ou explicite (ex. 'même un petit crédit renouvelable') pour que le non-spécialiste comprenne l'impact.",
+    "completude : Le script évoque la marge de dérogation mais n'explique pas que son usage dépend de la politique interne et de la consommation de cette marge par l'établissement, information présente dans la fiche et utile au public.",
+    "editorial : Accroche forte mais la première phrase 'Vous galérez à obtenir un prêt malgré des revenus ?' est bonne. En revanche, la transition 'Votre banque exige-t-elle un taux d'effort inférieur à 35 % : OUI / NON' lira mieux en format oral si reformulée (ex. 'Votre banque vous demande d'être sous 35 % ?').",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio.' est commercialement acceptable mais il faut éviter toute promesse de conseil personnalisé (la légende précise la limite; ajouter 'pour un point général' ou 'pour évaluer vos options' peut mieux cadrer).",
+    "securite : Le script respecte la consigne de ne pas donner de conseils personnalisés, mais le CTA peut être perçu comme une incitation à un rendez-vous personnalisé. Il faut garantir la mention orale ou visuelle que le contenu reste d'ordre pédagogique et que le rendez-vous n'est pas un conseil juridique/financier sans contrat (la légende le précise, mais le format Reels doit aussi inclure une phrase brève de réserve).",
+    "formulation_professionnelle : Quelques formulations pourraient être affinées pour l'oral : 'taux d'effort' est technique — ajouter rapidement 'soit la part de vos revenus consacrée aux mensualités' améliorerait la compréhension immédiate.",
+    "formulation_professionnelle : L'énoncé 'Non — c'est un repère du Haut Conseil de stabilité financière.' est court et percutant mais gagnerait à préciser 'ce n'est pas une obligation légale' pour lever toute ambiguïté.",
+    "contre_verification_finale : Vérifier mot à mot : la narration reprend la légende mais n'inclut pas la précision explicite 'ne constitue pas un conseil personnalisé' dans la partie parlée. Il convient d'ajouter une phrase courte de réserve dans la narration (même brève) pour cohérence avec la légende.",
+    "contre_verification_finale : S'assurer que les pictogrammes décrits correspondent exactement aux éléments parlés (voir agent 'coherence_pictogrammes').",
+    "pedagogie_client : Globalement accessible, mais le terme 'VEFA' peut être inconnu du grand public ; remplacer par 'achat en état futur d'achèvement (VEFA)' ou dire simplement 'VEFA (achat sur plan)' la première fois améliorerait la pédagogie.",
+    "pedagogie_client : Ajouter une très brève explication que l'assurance est souvent plus coûteuse avec l'âge et peut donc peser fortement sur le taux d'effort renforcerait la compréhension.",
+    "conversion_confiance : Le ton inspire confiance, mais l'absence d'une phrase de réserve orale et l'usage d'un CTA vers un rendez-vous personnel sans cadrage peuvent être perçus comme une promesse implicite de diagnostic. Ajouter une courte réserve orale (ex. 'contenu pédagogique, pas un conseil personnalisé') réduira ce risque."
+  ],
+  "recommendations": [
+    "Vérifier et sourcer explicitement les éléments marqués 'a_verifier' dans la fiche (notamment la durée portée à 27 ans pour travaux/VEFA et le chiffre '20 %' pour la part des dossiers pouvant déroger). Si aucune source officielle précise n'existe, reformuler en nuance (ex. 'le HCSF peut prévoir des durées dérogatoires pour certains cas comme travaux/VEFA' et supprimer le pourcentage chiffré).",
+    "Ajouter une très brève réserve orale dans la narration (1–2 secondes), par exemple : 'Contenu pédagogique — pas un conseil personnalisé', afin d'être cohérent avec la légende et d'éviter tout risque réglementaire.",
+    "Clarifier pédagogiquement deux points dans la vidéo : (a) expliquer brièvement ce qu'est le taux d'effort ('la part de vos revenus consacrée aux mensualités'), (b) préciser que l'assurance et tous les crédits en cours (y compris crédit renouvelable) sont intégrés, éventuellement avec un exemple succinct.",
+    "Remplacer/compléter la mention 'VEFA' par 'achat en état futur d'achèvement (VEFA)' à la première occurrence pour le grand public.",
+    "Adoucir la formulation de la question beat 2 pour l'oral ('Votre banque vous demande d'être sous 35 % ?') afin d'améliorer la fluidité et l'impact à l'oral.",
+    "Si vous maintenez un CTA vers un rendez-vous, ajouter une brève mention qui le cadre : 'pour faire le point sur vos options' ou 'pour un diagnostic personnalisé sous conditions' et s'assurer que la prise de rendez-vous respecte l'interdiction de délivrer des conseils individualisés sans contrat si applicable."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-26:reels:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__reels__a5__v4.md"
+}

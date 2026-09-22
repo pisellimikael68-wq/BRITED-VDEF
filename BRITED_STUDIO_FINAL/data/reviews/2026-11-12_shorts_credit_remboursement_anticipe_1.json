@@ -1,0 +1,197 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED mais omet de mentionner explicitement la règle du « plus faible des deux plafonds s'applique » textuellement dans le visuel (la phrase existe dans la narration mais pas sous forme de texte écran exact). Proposer d'ajouter cette mention telle quelle sur l'écran du beat 3."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu conforme aux articles cités, mais la formulation « mutation professionnelle imposée » pourrait prêter à interprétation : la loi parle de vente suite à une mutation professionnelle entraînant un changement de résidence. Recommander d'utiliser la formulation légale exacte : « mutation professionnelle entraînant un changement de domicile » ou se référer explicitement à l'article L.313-48.",
+        "Le script ne précise pas que le plafond de 6 mois d'intérêts se calcule sur la base du taux moyen du prêt (mentionnée dans la source). Il faudrait l'ajouter brièvement pour être juridiquement complet."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est utile mais minimal : il montre bien le calcul entre 6 mois d'intérêts et 3 %, mais ne précise comment sont obtenus les 2 000 € (ex. taux implicite). Indiquer succinctement « si 6 mois d'intérêts = 2 000 € (selon votre taux moyen) » évitera toute confusion.",
+        "Il manque la mention que certains contrats prévoient des exonérations conventionnelles (la fiche le mentionne, le script la cite comme clause négociable mais sans visuel ni texte écran)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 42 s : le script est dense mais paraît compatible, toutefois la première phrase contient déjà beaucoup d'informations (hook + règle enchaînée). Pour un format Shorts (~42s), recommander de vérifier le débit de parole visé (rythme) et éventuellement scinder une phrase pour garder une bonne compréhension dans les 2 premières secondes.",
+        "Le tableau respecte l'ordre séquentiel demandé mais le CTA « lien dans ma bio » est adapté à la plateforme courte ; vérifier que le lien existe avant publication."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche claire, progression logique. Toutefois la répétition de la phrase « La banque peut réclamer une indemnité, mais elle est doublement plafonnée » puis la règle immédiate risque d'alourdir les deux premières secondes. Suggestion : garder hook puis basculer immédiatement sur la règle chiffrée pour maximiser rétention.",
+        "Le ton est professionnel mais le CTA pourrait sembler commercial si le créateur est un conseiller ; la mention légende limite déjà cela mais suggérer d'ajouter « gratuit » ou « premier diagnostic » uniquement si applicable et vérifiable."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention de non-conseil dans la légende, conforme à la consigne. Cependant, le CTA « Prenez rendez-vous via le lien dans ma bio » peut être perçu comme une incitation commerciale : vérifier que le rendez‑vous n'implique pas une promesse de résultat ou un service payant non mentionné.",
+        "Il faut éviter toute formulation laissant croire à un conseil personnalisé dans la narration (actuelle narration reste générique, OK)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phraseologie généralement naturelle et claire. Quelques formulations pourraient être affinées pour un français plus direct : remplacer « l'indemnité n'est pas due dans des cas limitativement énumérés par la loi, comme une mutation professionnelle imposée » par « elle n'est pas due dans les cas limitativement énumérés par la loi : mutation professionnelle entraînant un changement de domicile, cessation forcée d'activité, décès ».",
+        "Le passage « six mois d'intérêts sur le capital remboursé au taux moyen du prêt » devrait figurer mot à mot pour éviter ambiguïté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale bonne, mais il existe des micro-incohérences entre texte écran et narration : le beat 3 texte écran indique bien « 6 mois vs 3 % » mais n'explicite que c'est « au taux moyen du prêt » ; le beat 4 (exemple) n'explique pas d'où vient le chiffre 2 000 € (taux implicite). Demander d'aligner textes écran et narration mot à mot sur ces points.",
+        "Vérifier la prononciation et le flux pour tenir les 42 s sans perdre clarté (contrôle sonore recommandé)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes conviennent. Observations : beat 2 propose « Icône balance + coffre » — la balance évoque le droit mais peut être perçue comme ambiguë ; suggérer plutôt « icône banque + symbole euro » pour l'indemnité. Beat 3 « Schéma comparatif 6 mois vs 3% » est bon. Beat 5 utilise « icône document légal + croix » : s'assurer que l'icône de croix n'est pas interprétée comme médical ou stigmatisante ; préférer un tampon 'exonéré' ou un symbole clair 'non dû'.",
+        "Veiller à cohérence couleur et lisibilité sur petit format mobile."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien d'un seul angle (indemnités et calcul). Cependant, elle mélange règle, exception légale et conseil commercial (CTA) ; pour densité optimale, proposer de condenser la nuance sur l'exonération en une phrase plus courte afin de préserver du temps pour expliciter le calcul (ex. dire explicitement 'cas limités : mutation... décès' en un seul écran).",
+        "Ajouter la mention brève que certains contrats prévoient exonération conventionnelle pour éviter omission."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Explications accessibles pour un non-spécialiste, mais l'exemple gagnerait à montrer le calcul de 2 000 € (ex. mentionner un taux fictif de 4,8 % annuel qui donne ~2 400 € pour 6 mois — attention au calcul précis). Recommander d'indiquer 'selon votre taux moyen' plutôt que d'afficher un taux implicite non expliqué.",
+        "Éviter le jargon 'capital restant dû' sans courte reformulation possible ('somme encore due')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes accrochent avec la question, mais la phrase suivante accumule informations ; pour meilleure rétention, scinder l'information clé: hook (1s), annonce brève 'c'est plafonné' (1s), puis chiffrage (couple de secondes).",
+        "Le CTA en fin est pertinent, mais proposer d'ajouter un rappel visuel du hashtag ou d'un logo pour ancrer la confiance dans les dernières 1–2s."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources fournies augmentent la confiance. Toutefois, l'invitation à prendre rendez‑vous doit être accompagnée dans la légende (ou page) d'une précision sur la nature du rendez‑vous (gratuit/ payant / diagnostic) pour éviter toute perception d'opacité commerciale.",
+        "Suggérer d'afficher brièvement la mention 'sources : Code de la consommation' sur l'écran final pour renforcer la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 121,
+      "seconds": 44.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 121,
+        "seconds": 44.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED mais omet de mentionner explicitement la règle du « plus faible des deux plafonds s'applique » textuellement dans le visuel (la phrase existe dans la narration mais pas sous forme de texte écran exact). Proposer d'ajouter cette mention telle quelle sur l'écran du beat 3.",
+    "juridique_fiscal : Contenu conforme aux articles cités, mais la formulation « mutation professionnelle imposée » pourrait prêter à interprétation : la loi parle de vente suite à une mutation professionnelle entraînant un changement de résidence. Recommander d'utiliser la formulation légale exacte : « mutation professionnelle entraînant un changement de domicile » ou se référer explicitement à l'article L.313-48.",
+    "juridique_fiscal : Le script ne précise pas que le plafond de 6 mois d'intérêts se calcule sur la base du taux moyen du prêt (mentionnée dans la source). Il faudrait l'ajouter brièvement pour être juridiquement complet.",
+    "completude : L'exemple chiffré est utile mais minimal : il montre bien le calcul entre 6 mois d'intérêts et 3 %, mais ne précise comment sont obtenus les 2 000 € (ex. taux implicite). Indiquer succinctement « si 6 mois d'intérêts = 2 000 € (selon votre taux moyen) » évitera toute confusion.",
+    "completude : Il manque la mention que certains contrats prévoient des exonérations conventionnelles (la fiche le mentionne, le script la cite comme clause négociable mais sans visuel ni texte écran).",
+    "plateforme : Durée estimée 42 s : le script est dense mais paraît compatible, toutefois la première phrase contient déjà beaucoup d'informations (hook + règle enchaînée). Pour un format Shorts (~42s), recommander de vérifier le débit de parole visé (rythme) et éventuellement scinder une phrase pour garder une bonne compréhension dans les 2 premières secondes.",
+    "plateforme : Le tableau respecte l'ordre séquentiel demandé mais le CTA « lien dans ma bio » est adapté à la plateforme courte ; vérifier que le lien existe avant publication.",
+    "editorial : Accroche claire, progression logique. Toutefois la répétition de la phrase « La banque peut réclamer une indemnité, mais elle est doublement plafonnée » puis la règle immédiate risque d'alourdir les deux premières secondes. Suggestion : garder hook puis basculer immédiatement sur la règle chiffrée pour maximiser rétention.",
+    "editorial : Le ton est professionnel mais le CTA pourrait sembler commercial si le créateur est un conseiller ; la mention légende limite déjà cela mais suggérer d'ajouter « gratuit » ou « premier diagnostic » uniquement si applicable et vérifiable.",
+    "securite : Le script inclut la mention de non-conseil dans la légende, conforme à la consigne. Cependant, le CTA « Prenez rendez-vous via le lien dans ma bio » peut être perçu comme une incitation commerciale : vérifier que le rendez‑vous n'implique pas une promesse de résultat ou un service payant non mentionné.",
+    "securite : Il faut éviter toute formulation laissant croire à un conseil personnalisé dans la narration (actuelle narration reste générique, OK).",
+    "formulation_professionnelle : Phraseologie généralement naturelle et claire. Quelques formulations pourraient être affinées pour un français plus direct : remplacer « l'indemnité n'est pas due dans des cas limitativement énumérés par la loi, comme une mutation professionnelle imposée » par « elle n'est pas due dans les cas limitativement énumérés par la loi : mutation professionnelle entraînant un changement de domicile, cessation forcée d'activité, décès ».",
+    "formulation_professionnelle : Le passage « six mois d'intérêts sur le capital remboursé au taux moyen du prêt » devrait figurer mot à mot pour éviter ambiguïté.",
+    "contre_verification_finale : Cohérence globale bonne, mais il existe des micro-incohérences entre texte écran et narration : le beat 3 texte écran indique bien « 6 mois vs 3 % » mais n'explicite que c'est « au taux moyen du prêt » ; le beat 4 (exemple) n'explique pas d'où vient le chiffre 2 000 € (taux implicite). Demander d'aligner textes écran et narration mot à mot sur ces points.",
+    "contre_verification_finale : Vérifier la prononciation et le flux pour tenir les 42 s sans perdre clarté (contrôle sonore recommandé).",
+    "coherence_pictogrammes : La plupart des pictogrammes conviennent. Observations : beat 2 propose « Icône balance + coffre » — la balance évoque le droit mais peut être perçue comme ambiguë ; suggérer plutôt « icône banque + symbole euro » pour l'indemnité. Beat 3 « Schéma comparatif 6 mois vs 3% » est bon. Beat 5 utilise « icône document légal + croix » : s'assurer que l'icône de croix n'est pas interprétée comme médical ou stigmatisante ; préférer un tampon 'exonéré' ou un symbole clair 'non dû'.",
+    "coherence_pictogrammes : Veiller à cohérence couleur et lisibilité sur petit format mobile.",
+    "densite_editoriale : La vidéo traite bien d'un seul angle (indemnités et calcul). Cependant, elle mélange règle, exception légale et conseil commercial (CTA) ; pour densité optimale, proposer de condenser la nuance sur l'exonération en une phrase plus courte afin de préserver du temps pour expliciter le calcul (ex. dire explicitement 'cas limités : mutation... décès' en un seul écran).",
+    "densite_editoriale : Ajouter la mention brève que certains contrats prévoient exonération conventionnelle pour éviter omission.",
+    "pedagogie_client : Explications accessibles pour un non-spécialiste, mais l'exemple gagnerait à montrer le calcul de 2 000 € (ex. mentionner un taux fictif de 4,8 % annuel qui donne ~2 400 € pour 6 mois — attention au calcul précis). Recommander d'indiquer 'selon votre taux moyen' plutôt que d'afficher un taux implicite non expliqué.",
+    "pedagogie_client : Éviter le jargon 'capital restant dû' sans courte reformulation possible ('somme encore due').",
+    "retention_attention : Les deux premières secondes accrochent avec la question, mais la phrase suivante accumule informations ; pour meilleure rétention, scinder l'information clé: hook (1s), annonce brève 'c'est plafonné' (1s), puis chiffrage (couple de secondes).",
+    "retention_attention : Le CTA en fin est pertinent, mais proposer d'ajouter un rappel visuel du hashtag ou d'un logo pour ancrer la confiance dans les dernières 1–2s.",
+    "conversion_confiance : Ton sérieux et sources fournies augmentent la confiance. Toutefois, l'invitation à prendre rendez‑vous doit être accompagnée dans la légende (ou page) d'une précision sur la nature du rendez‑vous (gratuit/ payant / diagnostic) pour éviter toute perception d'opacité commerciale.",
+    "conversion_confiance : Suggérer d'afficher brièvement la mention 'sources : Code de la consommation' sur l'écran final pour renforcer la crédibilité."
+  ],
+  "recommendations": [
+    "Sur le plan juridique : ajouter mot à mot que le plafond de six mois d'intérêts se calcule 'au taux moyen du prêt' (beat 3 texte écran et narration).",
+    "Modifier la formulation des exonérations pour reprendre la formulation légale plus précise : 'exonération dans les cas limitativement énumérés par la loi : mutation professionnelle entraînant un changement de domicile, cessation forcée d'activité, décès de l'emprunteur ou de son conjoint'. Appliquer cette formulation en beat 5 narration et texte écran.",
+    "Clarifier l'exemple chiffré : préciser brièvement que '2 000 € correspondent ici à 6 mois d'intérêts calculés selon votre taux moyen' ou indiquer un taux fictif si vous voulez montrer le calcul (expliquer la méthode en une seconde à l'écran).",
+    "Aligner texte écran et narration sur les mentions juridiques clés (le 'plus faible des deux s'applique' et 'taux moyen du prêt').",
+    "Adapter pictogrammes : remplacer la 'balance + coffre' par 'icône banque + symbole €' et remplacer la 'croix' du beat 5 par un tampon 'exonéré' ou un symbole clair indiquant 'non dû'. Vérifier lisibilité mobile.",
+    "Alléger légèrement la seconde phrase après le hook pour préserver les deux premières secondes d'accroche (scinder la phrase en deux temps dans le montage vocal).",
+    "Ajouter dans la légende ou l'écran final une précision sur la nature du rendez-vous (gratuit/ payant) et afficher succinctement 'Sources : Code de la consommation, art. L.313-47, R.313-25, L.313-48' pour renforcer la confiance.",
+    "Avant publication, faire une relecture finale à voix haute pour vérifier que la narration tient bien dans 42 s sans perdre clarté et que la prononciation des chiffres est aisée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-12:shorts:credit_remboursement_anticipe:1",
+  "script_path": "scripts/credit_immobilier/credit_remboursement_anticipe__shorts__a2__v7.md"
+}

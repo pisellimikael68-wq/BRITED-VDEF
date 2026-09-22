@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 80,
+      "seconds": 29.6,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 80,
+        "seconds": 29.6,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "be7b613810760433f177e6c71b05463d323136cdf2b1c7312056b136acb33dc6",
+      "adapted_hash": "be7b613810760433f177e6c71b05463d323136cdf2b1c7312056b136acb33dc6",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Optionnel : préciser rapidement que l'option pour le barème se coche chaque année sur la déclaration (la mention « vous pouvez opter » est correcte mais préciser « chaque année » renforce la précision sans alourdir le script).",
+    "Pour la plateforme reels, envisager d'espacer très légèrement la partie \"exemple\" pour que l'abattement de 40 % soit bien lisible en écran court (optimisation de lisibilité, non une correction factuelle)."
+  ],
+  "reviewed_at": "2026-08-17T17:34:23",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:reels:compte_titres_pfu:1",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__reels__a1.md"
+}

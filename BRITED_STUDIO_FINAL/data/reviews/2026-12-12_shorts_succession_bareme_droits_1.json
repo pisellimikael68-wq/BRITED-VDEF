@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.62,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence factuelle interne : l'en-tête (resume) indique « c'est au-delà de 552 324 € par enfant que le taux marginal atteint 45 % », alors que le champ 'chiffres' et le script indiquent 1 805 677 € comme seuil d'entrée dans la tranche à 45 %. Il faut un chiffre unique, conforme aux textes cités (CGI art. 777 / BOFiP).",
+        "La source BOFiP est fournie mais la fiche ne précise pas la date de dernière consultation dans le script (la métadonnée indique 2026-07-29 pour la source)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La règle principale (abattement 100 000 € en ligne directe, barème progressif 5→45 %) est correcte et sourcée, mais l'incohérence de seuil (552 324 € vs 1 805 677 €) peut induire une erreur juridique/fiscale importante dans la compréhension du taux marginal applicable.",
+        "La formulation « 100 000 € par parent et par enfant » peut prêter à confusion pour les non-spécialistes : il faut préciser que l'abattement s'applique par parent (donateur) pour chaque enfant (bénéficiaire), et que deux parents donnent donc potentiellement deux abattements cumulés pour un même enfant si les deux sont donateurs."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle, l'exception (conjoint/PACS) et un exemple chiffré — complet pour un format court — mais l'incohérence chiffrée mentionnée plus haut crée une omission dangereuse (quelle est la vraie borne pour 45 %).",
+        "Il manque une mention explicite que le barème s'applique à la part reçue par héritier (même si présent ailleurs), qui est une précision essentielle à répéter brièvement dans le script pour la clarté du format short."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": false,
+      "findings": [
+        "Le format (shorts), la durée estimée (42 s), l'ordre des séquences et le CTA 'lien dans ma bio' sont adaptés. Toutefois, publication bloquée en raison des incohérences factuelles signalées."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et ton direct approprié. Quelques phrases peuvent être raccourcies pour l'oral rapide d'un short (par ex. la phrase listant tous les taux pourrait être découpée).",
+        "Le texte d'écran du beat 3 est dense — recommander une version abrégée pour lisibilité visuelle (ex : 'Abattement 100k €/parent — Barème 5→45 %')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention de non-conseil est présente en légende — conforme. Néanmoins l'erreur numérique interne pourrait conduire à une mauvaise information fiscale publiable, ce qui est un risque réglementaire."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et compréhensible globalement. À corriger : la phrase « Abattement en ligne directe : 100 000 € par parent et par enfant » peut être reformulée pour éviter l'ambiguïté suscitée chez un non-spécialiste (voir remarque ci-dessus).",
+        "Le passage numérique « 5, 10, 15, 20, 30, 40 et 45 % » énuméré rapidement peut être difficile à prononcer en 2–3 secondes ; recommander une livraison rythmée ou fractionnée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "La fiche n'a pas été relue pour cohérence mot à mot : présence de deux valeurs différentes pour le même seuil (552 324 € vs 1 805 677 €) montre qu'une seconde lecture indépendante n'a pas corrigé l'incohérence.",
+        "Exiger une seconde lecture ciblée sur tous les chiffres chiffrés et la correspondance textuelle avec les références légales/BOFiP avant publication."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels proposés correspondent globalement au narratif. Suggestion : pour le cas 'concubin/tiers', éviter un pictogramme générique 'tiers' qui pourrait être perçu comme stigmatisant ; préférer un symbole neutre (silhouette isolée) et clairement légendé.",
+        "Vérifier que le schéma par tranches montre bien les seuils numériques lisibles (notamment le seuil de 1 805 677 €) pour éviter contradiction entre visuel et narration."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo se concentre sur un angle pertinent et respecte la concision. Toutefois l'énumération rapide des taux et le chiffre contradictoire nuisent à la densité efficace ; corriger l'incohérence et alléger l'énumération."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (600 k€ → -100 k€ = 500 k€ taxable) est utile. En revanche, la fiche devrait rappeler brièvement que l'abattement s'applique par parent/donateur afin qu'un parent unique et deux parents ne soient pas confondus par l'audience non spécialiste.",
+        "L'incohérence chiffrée risque de perdre la confiance du public non spécialiste."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort. Le beat de réponse est court et pertinent. À optimiser : fractionner la longue énumération des taux en deux plans pour maintenir l'attention visuelle/auditive.",
+        "Encore une fois, l'incohérence numérique peut briser la confiance et donc la rétention au visionnage."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire compétence, la CTA est raisonnable. Mais l'erreur factuelle interne constitue une faiblesse de crédibilité qui empêche une certification de publication professionnelle.",
+        "Recommander de corriger les chiffres et d'ajouter une phrase brève réaffirmant l'absence de conseil personnalisé avant publication."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence factuelle interne : l'en-tête (resume) indique « c'est au-delà de 552 324 € par enfant que le taux marginal atteint 45 % », alors que le champ 'chiffres' et le script indiquent 1 805 677 € comme seuil d'entrée dans la tranche à 45 %. Il faut un chiffre unique, conforme aux textes cités (CGI art. 777 / BOFiP).",
+    "source : La source BOFiP est fournie mais la fiche ne précise pas la date de dernière consultation dans le script (la métadonnée indique 2026-07-29 pour la source).",
+    "juridique_fiscal : La règle principale (abattement 100 000 € en ligne directe, barème progressif 5→45 %) est correcte et sourcée, mais l'incohérence de seuil (552 324 € vs 1 805 677 €) peut induire une erreur juridique/fiscale importante dans la compréhension du taux marginal applicable.",
+    "juridique_fiscal : La formulation « 100 000 € par parent et par enfant » peut prêter à confusion pour les non-spécialistes : il faut préciser que l'abattement s'applique par parent (donateur) pour chaque enfant (bénéficiaire), et que deux parents donnent donc potentiellement deux abattements cumulés pour un même enfant si les deux sont donateurs.",
+    "completude : La vidéo couvre la règle, l'exception (conjoint/PACS) et un exemple chiffré — complet pour un format court — mais l'incohérence chiffrée mentionnée plus haut crée une omission dangereuse (quelle est la vraie borne pour 45 %).",
+    "completude : Il manque une mention explicite que le barème s'applique à la part reçue par héritier (même si présent ailleurs), qui est une précision essentielle à répéter brièvement dans le script pour la clarté du format short.",
+    "plateforme : Le format (shorts), la durée estimée (42 s), l'ordre des séquences et le CTA 'lien dans ma bio' sont adaptés. Toutefois, publication bloquée en raison des incohérences factuelles signalées.",
+    "editorial : Accroche forte et ton direct approprié. Quelques phrases peuvent être raccourcies pour l'oral rapide d'un short (par ex. la phrase listant tous les taux pourrait être découpée).",
+    "editorial : Le texte d'écran du beat 3 est dense — recommander une version abrégée pour lisibilité visuelle (ex : 'Abattement 100k €/parent — Barème 5→45 %').",
+    "securite : La mention de non-conseil est présente en légende — conforme. Néanmoins l'erreur numérique interne pourrait conduire à une mauvaise information fiscale publiable, ce qui est un risque réglementaire.",
+    "formulation_professionnelle : Français naturel et compréhensible globalement. À corriger : la phrase « Abattement en ligne directe : 100 000 € par parent et par enfant » peut être reformulée pour éviter l'ambiguïté suscitée chez un non-spécialiste (voir remarque ci-dessus).",
+    "formulation_professionnelle : Le passage numérique « 5, 10, 15, 20, 30, 40 et 45 % » énuméré rapidement peut être difficile à prononcer en 2–3 secondes ; recommander une livraison rythmée ou fractionnée.",
+    "contre_verification_finale : La fiche n'a pas été relue pour cohérence mot à mot : présence de deux valeurs différentes pour le même seuil (552 324 € vs 1 805 677 €) montre qu'une seconde lecture indépendante n'a pas corrigé l'incohérence.",
+    "contre_verification_finale : Exiger une seconde lecture ciblée sur tous les chiffres chiffrés et la correspondance textuelle avec les références légales/BOFiP avant publication.",
+    "coherence_pictogrammes : Les visuels proposés correspondent globalement au narratif. Suggestion : pour le cas 'concubin/tiers', éviter un pictogramme générique 'tiers' qui pourrait être perçu comme stigmatisant ; préférer un symbole neutre (silhouette isolée) et clairement légendé.",
+    "coherence_pictogrammes : Vérifier que le schéma par tranches montre bien les seuils numériques lisibles (notamment le seuil de 1 805 677 €) pour éviter contradiction entre visuel et narration.",
+    "densite_editoriale : La vidéo se concentre sur un angle pertinent et respecte la concision. Toutefois l'énumération rapide des taux et le chiffre contradictoire nuisent à la densité efficace ; corriger l'incohérence et alléger l'énumération.",
+    "pedagogie_client : L'exemple chiffré (600 k€ → -100 k€ = 500 k€ taxable) est utile. En revanche, la fiche devrait rappeler brièvement que l'abattement s'applique par parent/donateur afin qu'un parent unique et deux parents ne soient pas confondus par l'audience non spécialiste.",
+    "pedagogie_client : L'incohérence chiffrée risque de perdre la confiance du public non spécialiste.",
+    "retention_attention : Hook fort. Le beat de réponse est court et pertinent. À optimiser : fractionner la longue énumération des taux en deux plans pour maintenir l'attention visuelle/auditive.",
+    "retention_attention : Encore une fois, l'incohérence numérique peut briser la confiance et donc la rétention au visionnage.",
+    "conversion_confiance : Le ton inspire compétence, la CTA est raisonnable. Mais l'erreur factuelle interne constitue une faiblesse de crédibilité qui empêche une certification de publication professionnelle.",
+    "conversion_confiance : Recommander de corriger les chiffres et d'ajouter une phrase brève réaffirmant l'absence de conseil personnalisé avant publication."
+  ],
+  "recommendations": [
+    "Corriger l'incohérence chiffrée : remplacer toute mention erronée de « 552 324 € » comme seuil d'entrée dans la tranche à 45 % par la valeur correcte et unifiée (1 805 677 €) ou vérifier la source BOFiP/CGI et aligner toutes les occurrences.",
+    "Clarifier la formulation sur l'abattement : préciser que l'abattement de 100 000 € s'applique par parent (donateur) pour chaque enfant (bénéficiaire), et que deux parents peuvent donc donner deux abattements cumulés pour un même enfant si les deux transmettent.",
+    "Effectuer une seconde lecture ciblée (contre-vérification) mot à mot de tous les chiffres, des seuils et des références légales/BOFiP, et corriger toute divergence interne.",
+    "Alléger la phrase énumérant les taux pour une prononciation claire dans un short (par exemple scinder l'énumération en deux plans ou remplacer la liste complète par 'de 5 % à 45 % selon tranches, majoritairement 20 % pour les héritages courants').",
+    "Adapter les textes d'écran pour lisibilité (abréger le texte du beat 3) et vérifier que les pictogrammes visuels correspondent exactement aux notions prononcées (notamment la visualisation des seuils numériques).",
+    "Après corrections, relancer la validation BRITED : chaque agent doit alors rendre un verdict à 10/10 pour publication."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-12:shorts:succession_bareme_droits:1",
+  "script_path": "scripts/succession/succession_bareme_droits__shorts__a3__v4.md"
+}

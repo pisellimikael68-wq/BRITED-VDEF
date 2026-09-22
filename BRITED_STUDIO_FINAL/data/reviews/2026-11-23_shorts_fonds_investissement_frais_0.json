@@ -1,0 +1,147 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.62,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche contient la mention chiffrée « Effet d'un écart de frais de 1,5 % par an sur trente ans : plus d'un tiers du capital final » marquée 'a_verifier: true'. Le script reprend l'exemple « 1,5 % de frais annuels … sur trente ans, l'effet cumulé réduit d'une part importante le capital final ». Cette affirmation chiffrée n'est pas accompagnée d'une hypothèse de rendement nominal (brut de frais) ni d'un calcul justificatif : elle doit être recalculée ou contextualisée mathématiquement avant publication pour être considérée véridique et sourcée.",
+        "Le libellé 'document d'informations clés (DIC)' doit être vérifié pour conformité terminologique : historiquement l'acronyme courant en français est 'DICI' (Document d'Informations Clés pour l'Investisseur) ou 'KID' selon le cadre PRIIPs ; la dénomination et l'acronyme exacts applicables doivent être confirmés par la réglementation citée pour éviter une imprécision terminologique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script aborde la règle centrale et la superposition des frais, mais omet d'indiquer explicitement où l'on trouve le niveau précis des frais annuels (ex. le pourcentage exact : 'frais de gestion annuels en %' présent dans le DIC) et ne propose pas une méthode simple pour additionner les différents niveaux de frais afin d'obtenir le coût total (ex. additionner % du fonds + % du contrat + % du mandat). Une instruction courte et pratique aiderait la compréhension et la mise en application par un non-spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase, le script est clair mais nécessite deux corrections mineures avant publication : (1) valider ou supprimer la formulation chiffrée implicite « …sur trente ans, l'effet cumulé réduit d'une part importante le capital final » en reliant explicitement à la valeur chiffrée vérifiée ou en fournissant l'hypothèse de rendement utilisée ; (2) confirmer l'acronyme exact du document d'information clé (DIC/DICI/KID) pour éviter une erreur terminologique."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle principal correctement, mais l'exemple chiffré est présenté sans hypothèse de rendement ni mise en contexte numérique précise — cela réduit la densité éditoriale utile. Soit fournir le calcul chiffré (avec hypothèse de rendement) soit reformuler l'exemple en termes qualitatifs."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'idée que les frais sont 'prélevés sur l'actif' est compréhensible, mais l'absence d'une brève instruction pratique ('où regarder exactement dans le DIC' ou 'comment additionner les pourcentages') laisse une action concrète manquante. Ajouter une phrase très courte expliquant comment lire le pourcentage de frais dans le DIC ou comment additionner les niveaux de frais améliorerait la pédagogie."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 124,
+      "seconds": 45.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 124,
+        "seconds": 45.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche contient la mention chiffrée « Effet d'un écart de frais de 1,5 % par an sur trente ans : plus d'un tiers du capital final » marquée 'a_verifier: true'. Le script reprend l'exemple « 1,5 % de frais annuels … sur trente ans, l'effet cumulé réduit d'une part importante le capital final ». Cette affirmation chiffrée n'est pas accompagnée d'une hypothèse de rendement nominal (brut de frais) ni d'un calcul justificatif : elle doit être recalculée ou contextualisée mathématiquement avant publication pour être considérée véridique et sourcée.",
+    "source : Le libellé 'document d'informations clés (DIC)' doit être vérifié pour conformité terminologique : historiquement l'acronyme courant en français est 'DICI' (Document d'Informations Clés pour l'Investisseur) ou 'KID' selon le cadre PRIIPs ; la dénomination et l'acronyme exacts applicables doivent être confirmés par la réglementation citée pour éviter une imprécision terminologique.",
+    "completude : Le script aborde la règle centrale et la superposition des frais, mais omet d'indiquer explicitement où l'on trouve le niveau précis des frais annuels (ex. le pourcentage exact : 'frais de gestion annuels en %' présent dans le DIC) et ne propose pas une méthode simple pour additionner les différents niveaux de frais afin d'obtenir le coût total (ex. additionner % du fonds + % du contrat + % du mandat). Une instruction courte et pratique aiderait la compréhension et la mise en application par un non-spécialiste.",
+    "contre_verification_finale : Phrase par phrase, le script est clair mais nécessite deux corrections mineures avant publication : (1) valider ou supprimer la formulation chiffrée implicite « …sur trente ans, l'effet cumulé réduit d'une part importante le capital final » en reliant explicitement à la valeur chiffrée vérifiée ou en fournissant l'hypothèse de rendement utilisée ; (2) confirmer l'acronyme exact du document d'information clé (DIC/DICI/KID) pour éviter une erreur terminologique.",
+    "densite_editoriale : La vidéo traite un seul angle principal correctement, mais l'exemple chiffré est présenté sans hypothèse de rendement ni mise en contexte numérique précise — cela réduit la densité éditoriale utile. Soit fournir le calcul chiffré (avec hypothèse de rendement) soit reformuler l'exemple en termes qualitatifs.",
+    "pedagogie_client : Pour un non-spécialiste, l'idée que les frais sont 'prélevés sur l'actif' est compréhensible, mais l'absence d'une brève instruction pratique ('où regarder exactement dans le DIC' ou 'comment additionner les pourcentages') laisse une action concrète manquante. Ajouter une phrase très courte expliquant comment lire le pourcentage de frais dans le DIC ou comment additionner les niveaux de frais améliorerait la pédagogie."
+  ],
+  "recommendations": [
+    "Vérifier et préciser ou supprimer l'affirmation chiffrée relative à l'impact de 1,5 % sur 30 ans : fournir le calcul avec l'hypothèse de rendement utilisée (par exemple rendement brut annuel hypothétique) ou remplacer par une formulation qualitative ('impact cumulé très significatif') pour éviter une affirmation non sourcée.",
+    "Confirmer la terminologie réglementaire du document d'information clé : préciser si l'acronyme à utiliser est DIC, DICI ou KID selon le cadre applicable, et harmoniser le script avec la terminologie correcte.",
+    "Ajouter une phrase très courte et pratique pour le public non-spécialiste indiquant où trouver le pourcentage des frais dans le document d'information (ex. 'vérifiez la ligne \"frais de gestion\" dans le DIC/DICI/KID') et une méthode simple pour additionner les frais (ex. 'ajoutez % du fonds + % du contrat + % du mandat = coût total approximatif').",
+    "Après corrections, soumettre à une seconde lecture unique pour valider que (a) le chiffre ou l'exemple chiffré est sourcé et calculé, (b) la terminologie est conforme, et (c) le script reste sous la durée estimée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-23:shorts:fonds_investissement_frais:0",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a3__v8.md"
+}

@@ -1,0 +1,283 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "header_fingerprint": "a15d8b944a9e433904ecf980a959f9f9a5a70cc3e2105ba4b9c166f89c6d5c52"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Séparation de biens : votre patrimoine est-il vraiment à l'abri ?",
+      "tokens": [
+        "Séparation",
+        "de",
+        "biens",
+        ":",
+        "votre",
+        "patrimoine",
+        "est-il",
+        "vraiment",
+        "à",
+        "l'abri",
+        "?"
+      ],
+      "token_count": 11,
+      "speech_duration": 3.39,
+      "full_text_visible_at": 3.051,
+      "hold_after_full_text": 1.239,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          496,
+          672,
+          684
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "shield-alert",
+          "shield-check",
+          "receipt-euro"
+        ],
+        "font_size": 56,
+        "overlap": false
+      }
+    },
+    {
+      "id": "question",
+      "source_text": "Selon vous, ce régime protège-t-il de toutes les dettes du ménage ?",
+      "tokens": [
+        "Selon",
+        "vous,",
+        "ce",
+        "régime",
+        "protège-t-il",
+        "de",
+        "toutes",
+        "les",
+        "dettes",
+        "du",
+        "ménage",
+        "?"
+      ],
+      "token_count": 12,
+      "speech_duration": 4.281,
+      "full_text_visible_at": 3.853,
+      "hold_after_full_text": 1.328,
+      "visual_layout": null
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. Certaines dépenses peuvent encore engager les deux époux.",
+      "tokens": [
+        "Non.",
+        "Certaines",
+        "dépenses",
+        "peuvent",
+        "encore",
+        "engager",
+        "les",
+        "deux",
+        "époux."
+      ],
+      "token_count": 9,
+      "speech_duration": 3.411,
+      "full_text_visible_at": 3.07,
+      "hold_after_full_text": 0.561,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "L'article 1536 sépare les biens. Mais l'article 220 rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+      "tokens": [
+        "L'article",
+        "1536",
+        "sépare",
+        "les",
+        "biens.",
+        "Mais",
+        "l'article",
+        "220",
+        "rend",
+        "les",
+        "époux",
+        "solidaires",
+        "des",
+        "dettes",
+        "d'entretien",
+        "du",
+        "ménage",
+        "ou",
+        "d'éducation",
+        "des",
+        "enfants."
+      ],
+      "token_count": 21,
+      "speech_duration": 9.295,
+      "full_text_visible_at": 8.365,
+      "hold_after_full_text": 1.149,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un loyer pris par un seul époux peut engager l'autre. Acheter la résidence principale ensemble crée aussi une indivision.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "loyer",
+        "pris",
+        "par",
+        "un",
+        "seul",
+        "époux",
+        "peut",
+        "engager",
+        "l'autre.",
+        "Acheter",
+        "la",
+        "résidence",
+        "principale",
+        "ensemble",
+        "crée",
+        "aussi",
+        "une",
+        "indivision."
+      ],
+      "token_count": 21,
+      "speech_duration": 6.886,
+      "full_text_visible_at": 6.197,
+      "hold_after_full_text": 0.909,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          476,
+          672,
+          704
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Sans preuve de propriété, l'article 1538 présume le bien indivis par moitié.",
+      "tokens": [
+        "Sans",
+        "preuve",
+        "de",
+        "propriété,",
+        "l'article",
+        "1538",
+        "présume",
+        "le",
+        "bien",
+        "indivis",
+        "par",
+        "moitié."
+      ],
+      "token_count": 12,
+      "speech_duration": 5.809,
+      "full_text_visible_at": 5.228,
+      "hold_after_full_text": 1.481,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          509,
+          672,
+          671
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scale",
+          "book-open-text",
+          "file-check-2"
+        ],
+        "font_size": 48,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.992,
+      "full_text_visible_at": 5.393,
+      "hold_after_full_text": 0.599,
+      "visual_layout": null
+    }
+  ]
+}

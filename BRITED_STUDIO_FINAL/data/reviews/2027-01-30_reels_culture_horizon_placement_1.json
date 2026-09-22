@@ -1,0 +1,143 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration continue risquerait d'excéder 40 secondes à l'oral tel qu'elle est écrite. Le script détaillé en 7 beats est bien structuré, mais la partie narration contient des phrases cumulatives qui peuvent allonger la durée (par ex. l'enchaînement « Exemple : lisser le risque actions demande huit à dix ans ; besoin dans deux ans = risque de vendre en creux ; besoin dans vingt‑cinq ans = risque d'érosion »). Il faut réduire légèrement le texte lu (ou raccourcir/élider certaines phrases) pour garantir 40 s max sur Reels sans couper d'informations essentielles."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase-par-phrase : une petite incohérence de rythme existe entre le beat 2 (question avec 'OUI / NON') et la narration continue qui répète la question et enchaîne sans pause marquée. Recommandation précise : prévoir une pause ou un micro-jingle entre la question (beat 2) et l affirmation (beat 3) pour éviter chevauchement audio/visuel et faciliter la diction.",
+        "De plus, vérifier à l'enregistrement que la mention « Prenez rendez-vous via le lien dans ma bio » ne dépasse pas la durée allouée au beat 7 si la voix garde le même tempo que le reste."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont décrits de façon générale et peuvent prêter à ambiguïté : par exemple « triangle d'alerte + petite ligne calendrier » (beat 6) ne précise si le triangle est un pictogramme standard d'avertissement ou une icône stylisée liée à l'investissement. Autre cas : « Flèche reliant un calendrier à pictogrammes liquidité / volatilité / long terme » (beat 3) demande de définir explicitement les icônes retenues (ex. goutte/porte-monnaie pour liquidité, zigzag pour volatilité, montagne/colonne pour long terme) afin d'éviter un visuel générique ou trompeur.",
+        "Il faut préciser pour chaque beat l'icône exacte et s'assurer qu'aucune icône utilisée ne ressemble à un label/garantie (ex. coche verte type 'approuvé') qui pourrait induire en erreur."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "plateforme : La narration continue risquerait d'excéder 40 secondes à l'oral tel qu'elle est écrite. Le script détaillé en 7 beats est bien structuré, mais la partie narration contient des phrases cumulatives qui peuvent allonger la durée (par ex. l'enchaînement « Exemple : lisser le risque actions demande huit à dix ans ; besoin dans deux ans = risque de vendre en creux ; besoin dans vingt‑cinq ans = risque d'érosion »). Il faut réduire légèrement le texte lu (ou raccourcir/élider certaines phrases) pour garantir 40 s max sur Reels sans couper d'informations essentielles.",
+    "contre_verification_finale : Phrase-par-phrase : une petite incohérence de rythme existe entre le beat 2 (question avec 'OUI / NON') et la narration continue qui répète la question et enchaîne sans pause marquée. Recommandation précise : prévoir une pause ou un micro-jingle entre la question (beat 2) et l affirmation (beat 3) pour éviter chevauchement audio/visuel et faciliter la diction.",
+    "contre_verification_finale : De plus, vérifier à l'enregistrement que la mention « Prenez rendez-vous via le lien dans ma bio » ne dépasse pas la durée allouée au beat 7 si la voix garde le même tempo que le reste.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont décrits de façon générale et peuvent prêter à ambiguïté : par exemple « triangle d'alerte + petite ligne calendrier » (beat 6) ne précise si le triangle est un pictogramme standard d'avertissement ou une icône stylisée liée à l'investissement. Autre cas : « Flèche reliant un calendrier à pictogrammes liquidité / volatilité / long terme » (beat 3) demande de définir explicitement les icônes retenues (ex. goutte/porte-monnaie pour liquidité, zigzag pour volatilité, montagne/colonne pour long terme) afin d'éviter un visuel générique ou trompeur.",
+    "coherence_pictogrammes : Il faut préciser pour chaque beat l'icône exacte et s'assurer qu'aucune icône utilisée ne ressemble à un label/garantie (ex. coche verte type 'approuvé') qui pourrait induire en erreur."
+  ],
+  "recommendations": [
+    "Raccourcir légèrement la narration pour garantir une durée spoken de 40 s : par exemple remplacer « Exemple : lisser le risque actions demande huit à dix ans ; besoin dans deux ans = risque de vendre en creux ; besoin dans vingt‑cinq ans = risque d'érosion par l'inflation sur un livret. » par « Exemple : lisser le risque actions ≈ 8–10 ans. Besoin à 2 ans = risque de vendre en creux. À 25 ans = attention à l'érosion par l'inflation sur un livret. »",
+    "Préciser les pictogrammes exacts à utiliser pour chaque beat afin d'éviter ambiguïtés et symboles pouvant être interprétés comme des labels : proposer par exemple — disponibilité : porte‑monnaie / goutte d'eau ; volatilité : zigzag/flèche montante/descendante ; long terme : montagne/colonne ; alerte : triangle jaune standard sans texte de garantie.",
+    "Ajouter une pause ou un micro-jingle entre le beat 2 (question OUI/NON) et le beat 3 (affirmation) pour améliorer l'enchaînement audio/visuel et faciliter la diction, conformément à la remarque de contre‑vérification.",
+    "Avant publication, effectuer un essai d'enregistrement chronométré (read-through) pour valider la durée totale et ajuster l'intonation si nécessaire afin de ne pas dépasser 40 s."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-30:reels:culture_horizon_placement:1",
+  "script_path": "scripts/culture_financiere/culture_horizon_placement__reels__a4__v9.md"
+}

@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED, mais il n'indique pas explicitement la référence « article 197, I, 4 » au moment où la règle est énoncée (la référence est listée dans la légende/sources, mais l'alignement mot à mot dans la narration pourrait être précisé).",
+        "La fiche contient des chiffres (taux de résorption 45,25 % et taux de la première tranche 11 %) qui ne sont ni cités ni explicitement rappelés dans l'exemple proposé : l'absence de toute valeur chiffrée dans l'exemple est acceptable mais doit être mentionnée comme choix volontaire (pas de seuils chiffrés) pour rester fidèle à la règle 'datation des seuils'."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « La décote peut annuler l'impôt quand l'impôt brut reste inférieur au plafond » est correcte, mais il faudrait préciser verbalement (même brièvement) que la décote est égale au plafond diminué d'une fraction de l'impôt brut, pour éviter toute ambiguïté juridique au public non spécialiste — la table inclut cette phrase écrite, mais la narration devrait reprendre exactement la formule légale pour cohérence juridique.",
+        "Il manque la précision que la décote est appliquée par foyer fiscal (quotient familial) — la narration évoque 'foyer' mais ne rappelle pas que le calcul tient compte du nombre de parts."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cite un 'exemple' sans chiffre ni scénario concret. La fiche BRITED autorise un exemple fictif, mais pour la complétude il serait utile d'inclure un exemple chiffré daté (en précisant qu'il s'agit d'un exemple fictif et qu'il faut dater les seuils) ou d'indiquer explicitement que l'exemple est qualitatif afin d'éviter l'attente d'un seuil chiffré.",
+        "La question fréquente 'Faut-il demander la décote ?' figure dans la fiche mais n'est pas traitée explicitement dans le script (on dit seulement qu'elle est appliquée automatiquement). Il faudrait ajouter une phrase courte répondant clairement que la décote ne se demande pas."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : la densité du contenu (hook + question + règle + exemple + nuance + CTA) peut dépasser 38 s à l'oral. Il manque une vérification phrase-par-phrase pour garantir respect strict des 38 s pour un débit naturel.",
+        "Visuels décrits (cases OUI/NON, schéma décote) sont adaptés mais la consigne 'cases seules' pour la beat 2 peut être visuellement pauvre pour Reels ; recommander une animation brève pour capter l'attention dans les 2 premières secondes."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace, mais la question 'À partir de quel revenu paie-t-on des impôts ?' suivie immédiatement d'une double case OUI/NON peut créer confusion (elle suggère une question binaire alors que la réponse est conditionnelle). Il faut reformuler le visuel pour montrer que la question est ouverte.",
+        "Le CTA 'Prendre rendez-vous via le lien dans ma bio' est conforme, mais pour conversion il peut manquer une alternative (ex. 'ou commentaire si vous voulez un guide') — c'est une suggestion éditoriale si on souhaite augmenter l'engagement."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention légale en fin est bonne mais la narration principale manque d'une phrase explicite rappelant que ceci n'est pas un conseil personnalisé (la légende l'indique, mais la vidéo orale devrait contenir une phrase très courte pour la sécurité juridique).",
+        "Le script évite les conseils personnalisés, mais propose un rendez-vous — il faut s'assurer que l'appel à l'action n'induit pas de promesse de résultat."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations sont légèrement lourdes pour une lecture orale rapide (ex. 'elle se résorbe progressivement'). Proposer un équivalent plus oral comme 'elle diminue petit à petit' pour fluidité.",
+        "La phrase 'Article 197, I, 4 : après le calcul au barème, la décote = plafond moins une fraction de l'impôt brut' est très technique pour un public non spécialiste ; recommander une reformulation orale plus simple en conservant la référence écrite."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient cohérence générale, mais il y a une petite incohérence entre le visuel de la beat 2 (cases OUI/NON) et la narration qui pose la question ouverte — cela doit être aligné.",
+        "Vérifier la prononciation et le débit pour tenir les 38 s ; sans timecode précis la lecture risque de dépasser."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont pertinents, sauf 'cases visibles OUI / NON (cases seules)' pour la beat 2 qui peut induire une ambiguïté visuelle (suggère une question fermée).",
+        "Le pictogramme 'icône impôt = zéro, flèche annulation' est correct mais veiller à ce qu'il représente clairement la décote (ex. poubelle/annulation pourrait être perçu comme trompeur)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais risque d'être trop chargée pour 38 s. Soit réduire le nombre d'éléments (par ex. supprimer l'une des phrases de nuance), soit augmenter légèrement la durée prévue.",
+        "L'exemple utile est très général ; pour densité pédagogique, proposer un court scénario chiffré daté et présenté comme 'exemple fictif' améliorerait la clarté."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les concepts clés sont exposés, mais 'taux marginal réel' peut être un jargon pour un non-spécialiste sans explication rapide. Ajouter une brève parenthèse explicative ('c'est le taux effectif appliqué à l'euro supplémentaire') aiderait la compréhension.",
+        "La distinction entre 'après impôt' et 'abattement' est indiquée, mais mérite une formulation plus simple à l'oral ('ça s'enlève après qu'on a calculé l'impôt, pas sur le revenu déclaré')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont plutôt fortes (accroche), mais le visuel OUI/NON et la formulation de la question risquent d'affaiblir la progression de curiosité. Recommander une reformulation du beat 2 visuel pour maintenir tension.",
+        "Le nombre de concepts introduits avant le CTA est élevé ; pour assurer rétention, suggérer de scinder 'règle' et 'exemple' en deux plans très brefs avec transitions visuelles claires."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance mais l'absence dans la narration d'une mention explicite 'ceci n'est pas un conseil personnalisé' pourrait exposer à des attentes; la légende le contient cependant. Recommander une mention orale très brève avant le CTA.",
+        "Le CTA est clair mais pourrait être perçu comme commercial si l'énoncé donne l'impression d'une promesse de réduction d'impôt — il faut neutralité dans le libellé du rendez-vous."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED, mais il n'indique pas explicitement la référence « article 197, I, 4 » au moment où la règle est énoncée (la référence est listée dans la légende/sources, mais l'alignement mot à mot dans la narration pourrait être précisé).",
+    "source : La fiche contient des chiffres (taux de résorption 45,25 % et taux de la première tranche 11 %) qui ne sont ni cités ni explicitement rappelés dans l'exemple proposé : l'absence de toute valeur chiffrée dans l'exemple est acceptable mais doit être mentionnée comme choix volontaire (pas de seuils chiffrés) pour rester fidèle à la règle 'datation des seuils'.",
+    "juridique_fiscal : La phrase « La décote peut annuler l'impôt quand l'impôt brut reste inférieur au plafond » est correcte, mais il faudrait préciser verbalement (même brièvement) que la décote est égale au plafond diminué d'une fraction de l'impôt brut, pour éviter toute ambiguïté juridique au public non spécialiste — la table inclut cette phrase écrite, mais la narration devrait reprendre exactement la formule légale pour cohérence juridique.",
+    "juridique_fiscal : Il manque la précision que la décote est appliquée par foyer fiscal (quotient familial) — la narration évoque 'foyer' mais ne rappelle pas que le calcul tient compte du nombre de parts.",
+    "completude : Le script cite un 'exemple' sans chiffre ni scénario concret. La fiche BRITED autorise un exemple fictif, mais pour la complétude il serait utile d'inclure un exemple chiffré daté (en précisant qu'il s'agit d'un exemple fictif et qu'il faut dater les seuils) ou d'indiquer explicitement que l'exemple est qualitatif afin d'éviter l'attente d'un seuil chiffré.",
+    "completude : La question fréquente 'Faut-il demander la décote ?' figure dans la fiche mais n'est pas traitée explicitement dans le script (on dit seulement qu'elle est appliquée automatiquement). Il faudrait ajouter une phrase courte répondant clairement que la décote ne se demande pas.",
+    "plateforme : Durée estimée 38 s : la densité du contenu (hook + question + règle + exemple + nuance + CTA) peut dépasser 38 s à l'oral. Il manque une vérification phrase-par-phrase pour garantir respect strict des 38 s pour un débit naturel.",
+    "plateforme : Visuels décrits (cases OUI/NON, schéma décote) sont adaptés mais la consigne 'cases seules' pour la beat 2 peut être visuellement pauvre pour Reels ; recommander une animation brève pour capter l'attention dans les 2 premières secondes.",
+    "editorial : Hook efficace, mais la question 'À partir de quel revenu paie-t-on des impôts ?' suivie immédiatement d'une double case OUI/NON peut créer confusion (elle suggère une question binaire alors que la réponse est conditionnelle). Il faut reformuler le visuel pour montrer que la question est ouverte.",
+    "editorial : Le CTA 'Prendre rendez-vous via le lien dans ma bio' est conforme, mais pour conversion il peut manquer une alternative (ex. 'ou commentaire si vous voulez un guide') — c'est une suggestion éditoriale si on souhaite augmenter l'engagement.",
+    "securite : La mention légale en fin est bonne mais la narration principale manque d'une phrase explicite rappelant que ceci n'est pas un conseil personnalisé (la légende l'indique, mais la vidéo orale devrait contenir une phrase très courte pour la sécurité juridique).",
+    "securite : Le script évite les conseils personnalisés, mais propose un rendez-vous — il faut s'assurer que l'appel à l'action n'induit pas de promesse de résultat.",
+    "formulation_professionnelle : Quelques formulations sont légèrement lourdes pour une lecture orale rapide (ex. 'elle se résorbe progressivement'). Proposer un équivalent plus oral comme 'elle diminue petit à petit' pour fluidité.",
+    "formulation_professionnelle : La phrase 'Article 197, I, 4 : après le calcul au barème, la décote = plafond moins une fraction de l'impôt brut' est très technique pour un public non spécialiste ; recommander une reformulation orale plus simple en conservant la référence écrite.",
+    "contre_verification_finale : Le script contient cohérence générale, mais il y a une petite incohérence entre le visuel de la beat 2 (cases OUI/NON) et la narration qui pose la question ouverte — cela doit être aligné.",
+    "contre_verification_finale : Vérifier la prononciation et le débit pour tenir les 38 s ; sans timecode précis la lecture risque de dépasser.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont pertinents, sauf 'cases visibles OUI / NON (cases seules)' pour la beat 2 qui peut induire une ambiguïté visuelle (suggère une question fermée).",
+    "coherence_pictogrammes : Le pictogramme 'icône impôt = zéro, flèche annulation' est correct mais veiller à ce qu'il représente clairement la décote (ex. poubelle/annulation pourrait être perçu comme trompeur).",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais risque d'être trop chargée pour 38 s. Soit réduire le nombre d'éléments (par ex. supprimer l'une des phrases de nuance), soit augmenter légèrement la durée prévue.",
+    "densite_editoriale : L'exemple utile est très général ; pour densité pédagogique, proposer un court scénario chiffré daté et présenté comme 'exemple fictif' améliorerait la clarté.",
+    "pedagogie_client : Les concepts clés sont exposés, mais 'taux marginal réel' peut être un jargon pour un non-spécialiste sans explication rapide. Ajouter une brève parenthèse explicative ('c'est le taux effectif appliqué à l'euro supplémentaire') aiderait la compréhension.",
+    "pedagogie_client : La distinction entre 'après impôt' et 'abattement' est indiquée, mais mérite une formulation plus simple à l'oral ('ça s'enlève après qu'on a calculé l'impôt, pas sur le revenu déclaré').",
+    "retention_attention : Les deux premières secondes sont plutôt fortes (accroche), mais le visuel OUI/NON et la formulation de la question risquent d'affaiblir la progression de curiosité. Recommander une reformulation du beat 2 visuel pour maintenir tension.",
+    "retention_attention : Le nombre de concepts introduits avant le CTA est élevé ; pour assurer rétention, suggérer de scinder 'règle' et 'exemple' en deux plans très brefs avec transitions visuelles claires.",
+    "conversion_confiance : Le ton inspire confiance mais l'absence dans la narration d'une mention explicite 'ceci n'est pas un conseil personnalisé' pourrait exposer à des attentes; la légende le contient cependant. Recommander une mention orale très brève avant le CTA.",
+    "conversion_confiance : Le CTA est clair mais pourrait être perçu comme commercial si l'énoncé donne l'impression d'une promesse de réduction d'impôt — il faut neutralité dans le libellé du rendez-vous."
+  ],
+  "recommendations": [
+    "Ajouter dans la narration une phrase très courte précisant que la décote est appliquée au niveau du foyer fiscal (quotient familial) pour lever toute ambiguïté.",
+    "Reformuler la beat 2 visuelle : remplacer 'cases OUI / NON' par un visuel ouvrant (ex. 'À partir de quel revenu ?' avec curseur ou point d'interrogation animé) afin d'éviter la lecture binaire et mieux capter l'attention.",
+    "Dans la phrase technique sur l'article 197, prononcer d'abord la version orale simple ('la décote réduit ou annule l'impôt quand l'impôt brut est faible : elle diminue petit à petit') puis afficher la formule légale écrite sur l'écran (Article 197, I, 4 : décote = plafond - fraction de l'impôt brut).",
+    "Ajouter une courte phrase explicative sur 'taux marginal réel' (ex. 'c'est le taux effectif sur l'euro supplémentaire, et il peut dépasser le taux affiché') pour simplifier le jargon.",
+    "Soit simplifier le script pour tenir confortablement 38 s (élaguer une phrase de nuance ou raccourcir l'exemple), soit prévoir 45 s : vérifier le minutage en lecture à voix haute à débit naturel.",
+    "Inclure dans la narration une phrase très brève avant le CTA rappelant que la vidéo est d'ordre général et ne constitue pas un conseil personnalisé, et que la prise de rendez-vous permet d'examiner une situation particulière sans promesse de résultat.",
+    "Si vous souhaitez garder un exemple chiffré, ajoutez un court 'exemple fictif daté' (par ex. 'exemple fictif 2026 :...') en précisant qu'il faut dater les seuils et que les montants évoluent chaque année.",
+    "Remplacer ou clarifier le pictogramme 'annulation' pour qu'il illustre la décote (par ex. balance impôt = 0 ou icône 'impôt barré' avec libellé 'décote') afin d'éviter toute interprétation trompeuse."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-14:reels:impot_revenu_decote:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_decote__reels__a1__v7.md"
+}

@@ -1,0 +1,42 @@
+{
+  "audit": "02_securite",
+  "passed": true,
+  "checked_at": "2026-08-17T16:15:46",
+  "checks": [
+    {
+      "criterion": "Publication impossible",
+      "passed": true,
+      "evidence": "publish=false et aucune route de publication"
+    },
+    {
+      "criterion": "Validation vidéo humaine",
+      "passed": true,
+      "evidence": "Chaque manifeste reste verrouillé"
+    },
+    {
+      "criterion": "Seuil automatique 9,5",
+      "passed": true,
+      "evidence": "seuil vérifié dans la politique et le stockage"
+    },
+    {
+      "criterion": "Six agents obligatoires",
+      "passed": true,
+      "evidence": "agents=['completude', 'editorial', 'juridique_fiscal', 'plateforme', 'securite', 'source']"
+    },
+    {
+      "criterion": "Échec fermé",
+      "passed": true,
+      "evidence": "Aucune auto-certification sans contrôle contradictoire"
+    },
+    {
+      "criterion": "Sources incomplètes exclues",
+      "passed": true,
+      "evidence": "9 fiches bloquées, aucune planifiée"
+    },
+    {
+      "criterion": "Vidéo contrôlée",
+      "passed": true,
+      "evidence": "mots, audio, durée, résolution et synchronisation"
+    }
+  ]
+}

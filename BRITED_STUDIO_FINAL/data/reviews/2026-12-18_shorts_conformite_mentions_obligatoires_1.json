@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.69,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est respectée sur les points principaux, mais l'énoncé « jusqu'à deux ans d'emprisonnement » est présenté sans la mention concomitante de l'amende : la fiche indique « assortie d'une amende ». Il faut aligner le script sur la fiche mot à mot ou ajouter la précision.",
+        "La section 'Sources' du script renvoie aux textes cités mais n'indique pas la date de consultation de l'AMF (2026-07-29) contrairement à la source BRITED — imprécision mineure de traçabilité."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme que la publicité pour 'certains produits financiers est interdite' — il faudrait, pour être juridiquement précis, signaler au moins un exemple de catégorie interdite ou renvoyer explicitement à la loi de 2023 qui fixe ces interdictions, afin d'éviter une formulation trop générale.",
+        "La mention « Ne constitue ni un conseil juridique, fiscal ou financier personnalisé » est adéquate, mais le script et la légende utilisent des variantes (« absence de recommandation personnalisée » puis « ne constitue ni ... »). Harmoniser le libellé pour réduire le risque de contradiction."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche exige quatre éléments lisibles : vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, caractère commercial le cas échéant. Le script couvre ces éléments mais la légende omet d'indiquer explicitement le caractère commercial lorsque pertinent (la légende dit 'Publication commerciale signalée si rémunération ou contrepartie' — formulation conditionnelle qui peut être perçue comme moins explicite).",
+        "L'exemple mentionne 'en haut de la description' ; la fiche précise 'premières lignes de la description' — recommander l'expression exacte pour éviter qu'une mention soit placée hors visibilité."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 44 s pour 6 beats : le timing est serré, notamment l'exigence d'afficher les mentions 'pendant les trois premières secondes' (beat 5). Le script propose d'afficher les mentions pendant les 3 premières secondes, mais ne précise comment caser visuellement les autres visuels pendant cette fenêtre — risque d'incompatibilité avec le format Shorts si la lisibilité n'est pas testée.",
+        "Risque pratique : indiquer les mentions 'en haut de la description' peut être insuffisant sur YouTube Shorts si l'interface masque la description ; la recommandation devrait préciser 'premières lignes de la description' et rappeler que la mention doit être visible sans clic."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace, mais la phrase 'Indiquez clairement la vocation pédagogique, l'absence de recommandation personnalisée et le risque de perte en capital' est dense ; pour la compréhension orale en 44 s, scinder ou ralentir l'énonciation serait utile.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' est correct, mais pour conversion il vaut mieux dire explicitement quel type de rendez-vous (contrôle conformité / diagnostic) pour lever l'ambiguïté."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la consigne de ne pas donner de conseil personnalisé. Toutefois, la phrase 'Par exemple, une vidéo sur un produit d'épargne doit montrer ces mentions' peut être interprétée comme une autorisation implicite de promotion : il faut rappeler aussitôt que certaines publicités restent interdites (séquence 5 le fait, mais placer la nuance immédiatement après l'exemple réduirait le risque d'interprétation erronée).",
+        "Absence d'avertissement explicite que la mention ne suffit pas à légaliser la promotion d'un produit interdit (la fiche le souligne)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines formulations juxtapose plusieurs négations ('Ne constitue ni un conseil ... ni une recommandation d'investissement') — correct mais alourdit la lecture. Proposer une version plus directe pour oral : 'Contenu pédagogique — pas de conseil personnalisé ni de recommandation d'investissement.'",
+        "La légende et la 'Mention' sont redondantes ; uniformiser le libellé améliorerait la clarté professionnelle."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Petite incohérence entre le placement recommandé des mentions : le script dit 'affichez les mentions à l'écran pendant les trois premières secondes et placez-les dans les premières lignes de la description' (bonne) mais le tableau de beats place l'exemple des mentions 'en haut de l'écran et description' — harmoniser les formulations ('en haut de l'écran' vs 'au début de la description').",
+        "Le libellé 'affichez « partenariat » lisible' devrait préciser l'orthographe exacte recommandée (ex. 'Partenariat' ou 'Collaboration rémunérée') — la fiche interdit de donner un modèle validé juridiquement, mais ici la précision d'un terme lisible est utile et non prétendument juridique."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines icônes listées sont génériques ('Icônes pédagogie', 'croix conseil personnalisé') : il faut s'assurer que le pictogramme de 'croix conseil personnalisé' n'induise pas en erreur (par exemple une croix rouge pourrait signifier 'interdit' au lieu d''absence de recommandation personnalisée').",
+        "Le pictogramme 'balance + panneau interdit' pour la nuance est correct, mais veiller à ce que l'icône 'horloge 3s' soit compréhensible hors contexte — risque d'ambiguïté visuelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La vidéo vise un seul angle (mentions obligatoires) mais inclut un CTA de prise de rendez-vous qui peut détourner de l'objectif pédagogique si trop appuyé ; recommander de conserver le CTA court et non commercial.",
+        "Le script respecte la règle centrale et l'exception, mais n'intègre pas d'exemple de produit explicitement interdit (ce qui serait utile pour illustrer la limite sans promouvoir)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible au premier passage, mais le terme 'contrepartie' pourrait perdre un non-spécialiste : envisager la variante explicative '(ex. produit offert, séjour, accès gratuit)'.",
+        "La recommandation 'affichez les mentions à l'écran pendant les trois premières secondes' est opérationnelle, mais un non-spécialiste peut ignorer la contrainte technique — ajouter une brève instruction visuelle ('texte lisible, taille minimum X') améliorerait l'applicabilité."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort, mais la seconde 1–3 doit porter la mention clé ou une incitation visuelle ; le script demande d'afficher les mentions en 3s au beat 5 (nuance) — il faudrait garantir la répétition des mentions dans les 3 premières secondes dès le début (beat 1–2) pour maximiser la lecture.",
+        "Le rythme global paraît adapté à 44 s, mais la densité d'information sur les risques et le juridique peut nécessiter un léger ralentissement pour assurer mémorisation."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé, mais l'appel à rendez-vous 'Prenez rendez-vous via le lien dans ma bio' devrait préciser la nature du service (diagnostic conformité) pour renforcer la confiance professionnelle sans paraître commercial.",
+        "Indiquer la source AMF plus explicitement au moment de la nuance (par ex. 'selon l'AMF') augmenterait la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est respectée sur les points principaux, mais l'énoncé « jusqu'à deux ans d'emprisonnement » est présenté sans la mention concomitante de l'amende : la fiche indique « assortie d'une amende ». Il faut aligner le script sur la fiche mot à mot ou ajouter la précision.",
+    "source : La section 'Sources' du script renvoie aux textes cités mais n'indique pas la date de consultation de l'AMF (2026-07-29) contrairement à la source BRITED — imprécision mineure de traçabilité.",
+    "juridique_fiscal : Le script affirme que la publicité pour 'certains produits financiers est interdite' — il faudrait, pour être juridiquement précis, signaler au moins un exemple de catégorie interdite ou renvoyer explicitement à la loi de 2023 qui fixe ces interdictions, afin d'éviter une formulation trop générale.",
+    "juridique_fiscal : La mention « Ne constitue ni un conseil juridique, fiscal ou financier personnalisé » est adéquate, mais le script et la légende utilisent des variantes (« absence de recommandation personnalisée » puis « ne constitue ni ... »). Harmoniser le libellé pour réduire le risque de contradiction.",
+    "completude : La fiche exige quatre éléments lisibles : vocation pédagogique, absence de recommandation personnalisée, risque de perte en capital, caractère commercial le cas échéant. Le script couvre ces éléments mais la légende omet d'indiquer explicitement le caractère commercial lorsque pertinent (la légende dit 'Publication commerciale signalée si rémunération ou contrepartie' — formulation conditionnelle qui peut être perçue comme moins explicite).",
+    "completude : L'exemple mentionne 'en haut de la description' ; la fiche précise 'premières lignes de la description' — recommander l'expression exacte pour éviter qu'une mention soit placée hors visibilité.",
+    "plateforme : Durée estimée 44 s pour 6 beats : le timing est serré, notamment l'exigence d'afficher les mentions 'pendant les trois premières secondes' (beat 5). Le script propose d'afficher les mentions pendant les 3 premières secondes, mais ne précise comment caser visuellement les autres visuels pendant cette fenêtre — risque d'incompatibilité avec le format Shorts si la lisibilité n'est pas testée.",
+    "plateforme : Risque pratique : indiquer les mentions 'en haut de la description' peut être insuffisant sur YouTube Shorts si l'interface masque la description ; la recommandation devrait préciser 'premières lignes de la description' et rappeler que la mention doit être visible sans clic.",
+    "editorial : Accroche efficace, mais la phrase 'Indiquez clairement la vocation pédagogique, l'absence de recommandation personnalisée et le risque de perte en capital' est dense ; pour la compréhension orale en 44 s, scinder ou ralentir l'énonciation serait utile.",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio' est correct, mais pour conversion il vaut mieux dire explicitement quel type de rendez-vous (contrôle conformité / diagnostic) pour lever l'ambiguïté.",
+    "securite : Le script respecte la consigne de ne pas donner de conseil personnalisé. Toutefois, la phrase 'Par exemple, une vidéo sur un produit d'épargne doit montrer ces mentions' peut être interprétée comme une autorisation implicite de promotion : il faut rappeler aussitôt que certaines publicités restent interdites (séquence 5 le fait, mais placer la nuance immédiatement après l'exemple réduirait le risque d'interprétation erronée).",
+    "securite : Absence d'avertissement explicite que la mention ne suffit pas à légaliser la promotion d'un produit interdit (la fiche le souligne).",
+    "formulation_professionnelle : Certaines formulations juxtapose plusieurs négations ('Ne constitue ni un conseil ... ni une recommandation d'investissement') — correct mais alourdit la lecture. Proposer une version plus directe pour oral : 'Contenu pédagogique — pas de conseil personnalisé ni de recommandation d'investissement.'",
+    "formulation_professionnelle : La légende et la 'Mention' sont redondantes ; uniformiser le libellé améliorerait la clarté professionnelle.",
+    "contre_verification_finale : Petite incohérence entre le placement recommandé des mentions : le script dit 'affichez les mentions à l'écran pendant les trois premières secondes et placez-les dans les premières lignes de la description' (bonne) mais le tableau de beats place l'exemple des mentions 'en haut de l'écran et description' — harmoniser les formulations ('en haut de l'écran' vs 'au début de la description').",
+    "contre_verification_finale : Le libellé 'affichez « partenariat » lisible' devrait préciser l'orthographe exacte recommandée (ex. 'Partenariat' ou 'Collaboration rémunérée') — la fiche interdit de donner un modèle validé juridiquement, mais ici la précision d'un terme lisible est utile et non prétendument juridique.",
+    "coherence_pictogrammes : Certaines icônes listées sont génériques ('Icônes pédagogie', 'croix conseil personnalisé') : il faut s'assurer que le pictogramme de 'croix conseil personnalisé' n'induise pas en erreur (par exemple une croix rouge pourrait signifier 'interdit' au lieu d''absence de recommandation personnalisée').",
+    "coherence_pictogrammes : Le pictogramme 'balance + panneau interdit' pour la nuance est correct, mais veiller à ce que l'icône 'horloge 3s' soit compréhensible hors contexte — risque d'ambiguïté visuelle.",
+    "densite_editoriale : La vidéo vise un seul angle (mentions obligatoires) mais inclut un CTA de prise de rendez-vous qui peut détourner de l'objectif pédagogique si trop appuyé ; recommander de conserver le CTA court et non commercial.",
+    "densite_editoriale : Le script respecte la règle centrale et l'exception, mais n'intègre pas d'exemple de produit explicitement interdit (ce qui serait utile pour illustrer la limite sans promouvoir).",
+    "pedagogie_client : Globalement compréhensible au premier passage, mais le terme 'contrepartie' pourrait perdre un non-spécialiste : envisager la variante explicative '(ex. produit offert, séjour, accès gratuit)'.",
+    "pedagogie_client : La recommandation 'affichez les mentions à l'écran pendant les trois premières secondes' est opérationnelle, mais un non-spécialiste peut ignorer la contrainte technique — ajouter une brève instruction visuelle ('texte lisible, taille minimum X') améliorerait l'applicabilité.",
+    "retention_attention : Hook fort, mais la seconde 1–3 doit porter la mention clé ou une incitation visuelle ; le script demande d'afficher les mentions en 3s au beat 5 (nuance) — il faudrait garantir la répétition des mentions dans les 3 premières secondes dès le début (beat 1–2) pour maximiser la lecture.",
+    "retention_attention : Le rythme global paraît adapté à 44 s, mais la densité d'information sur les risques et le juridique peut nécessiter un léger ralentissement pour assurer mémorisation.",
+    "conversion_confiance : Ton sérieux et sourcé, mais l'appel à rendez-vous 'Prenez rendez-vous via le lien dans ma bio' devrait préciser la nature du service (diagnostic conformité) pour renforcer la confiance professionnelle sans paraître commercial.",
+    "conversion_confiance : Indiquer la source AMF plus explicitement au moment de la nuance (par ex. 'selon l'AMF') augmenterait la crédibilité."
+  ],
+  "recommendations": [
+    "Harmoniser les libellés exacts entre script, légende et mention : utiliser une formulation identique précisant les quatre éléments (vocation pédagogique ; absence de recommandation personnalisée ; risque de perte en capital ; caractère commercial si rémunération/contrepartie).",
+    "Ajouter la précision sur la sanction : 'promotion illicite ... peut être sanctionnée, y compris pénalement (jusqu'à deux ans d'emprisonnement et une amende)'.",
+    "Remplacer 'en haut de la description' par 'dans les premières lignes de la description (visibles sans clic)'.",
+    "Préciser, dans le visuel et le script, que la mention 'Partenariat' doit être lisible et placée dans la zone visible sans action utilisateur ; indiquer l'orthographe recommandée ('Partenariat' ou 'Collaboration rémunérée') selon la situation.",
+    "Rapprocher la consigne d'affichage des mentions des deux premières secondes : afficher visuellement les mentions principales dès les 0–3 premières secondes (et les garder lisibles), et répéter dans les premières lignes de la description.",
+    "Alléger et uniformiser la formulation orale pour faciliter la compréhension (ex. 'Contenu pédagogique — pas de conseil personnalisé — risque de perte en capital. Publication commerciale : 'Partenariat' visible.').",
+    "Clarifier le CTA en précisant le type de rendez-vous proposé (par ex. 'diagnostic conformité') et éviter un ton commercial trop poussé.",
+    "Adapter et tester la lisibilité des pictogrammes : remplacer icônes trop génériques par symboles explicites (ex. bulle livre pour pédagogique, buste barré pour pas de conseil personnalisé, triangle d'avertissement pour risque), et éviter symboles pouvant prêter à confusion.",
+    "Ajouter une brève parenthèse expliquant 'contrepartie' pour un non-spécialiste (ex. 'ex. produit offert, séjour, accès gratuit').",
+    "Mettre à jour la section Sources pour inclure la date de consultation de l'AMF (2026-07-29) afin d'être totalement aligné sur la fiche BRITED."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-18:shorts:conformite_mentions_obligatoires:1",
+  "script_path": "scripts/conformite/conformite_mentions_obligatoires__shorts__a3__v2.md"
+}

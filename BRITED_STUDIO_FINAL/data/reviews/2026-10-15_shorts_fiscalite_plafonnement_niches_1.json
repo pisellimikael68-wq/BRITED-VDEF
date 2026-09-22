@@ -1,0 +1,153 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Précision légale mineure : l’exclusion des dons et de « plusieurs dispositifs sociaux » est formulée correctement, mais le script écrit « une partie des crédits d'emploi à domicile » — la formulation exacte est que certaines réductions/credits (notamment dons ouvrant droit à la réduction d'impôt visée à l'art. 200 du CGI et le crédit d'impôt pour l'emploi d'un salarié à domicile sous réserve des règles spécifiques) ne concourent pas au plafonnement. Je recommande de remplacer « une partie des crédits d'emploi à domicile » par « les dons ouvrant droit à réduction et une partie des dépenses liées à l'emploi à domicile (selon conditions) » pour éviter toute ambiguïté opérationnelle."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la distinction déduction/réduction, l'ordre d'imputation et les exceptions principales, mais il n'indique pas explicitement que l'excédent est définitivement perdu (la phrase l'implique, mais il vaut mieux préciser « définitivement perdu, sans report sauf disposition expresse »). Ajouter cette précision évite une omission importante."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée : 42 secondes. Le script, tel que rédigé (6 beats avec explications et CTA), peut se rapprocher de 30–40 s selon rythme ; pour Shorts (format très rapide) vérifier le tempo et le nombre de mots à l'oral. Recommandation : mesurer le texte lu à voix normale et ajuster si nécessaire (ralentir l'énoncé du mécanisme ou raccourcir la nuance)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase de l'exemple : « il perdra 2 000 euros, le dernier avantage souscrit étant réduit. » Pour l'impact et la clarté, préciser « il perdra 2 000 € d'avantage fiscal : la réduction liée au dernier dispositif souscrit sera supprimée » afin d'éviter toute lecture selon laquelle 2 000 € seraient une charge matérielle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être rendues plus naturelles et précises pour un public non spécialiste : par exemple remplacer « Il s'applique aux réductions et crédits, pas aux déductions du revenu » par « Il ne s'applique qu'aux réductions et crédits d'impôt ; les déductions du revenu (ex. PER, déficit foncier) échappent au plafond. »"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale bonne ; erreurs mineures relevées ci‑dessus (formulations à clarifier, précision sur perte définitive). Vérifier l'alignement mot à mot entre visuel et narration sur la nuance des dons/emploi à domicile pour éviter contradiction visuelle/verbale."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept clé (déduction vs réduction) est présenté, mais un public non spécialiste pourrait confondre « crédit » et « déduction ». Suggestion : ajouter très brièvement (1 mot) un exemple concret pour chaque catégorie dans la même phrase (ex. « réduction = Pinel, crédit = emploi à domicile, déduction = PER »)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 123,
+      "seconds": 45.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 123,
+        "seconds": 45.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Précision légale mineure : l’exclusion des dons et de « plusieurs dispositifs sociaux » est formulée correctement, mais le script écrit « une partie des crédits d'emploi à domicile » — la formulation exacte est que certaines réductions/credits (notamment dons ouvrant droit à la réduction d'impôt visée à l'art. 200 du CGI et le crédit d'impôt pour l'emploi d'un salarié à domicile sous réserve des règles spécifiques) ne concourent pas au plafonnement. Je recommande de remplacer « une partie des crédits d'emploi à domicile » par « les dons ouvrant droit à réduction et une partie des dépenses liées à l'emploi à domicile (selon conditions) » pour éviter toute ambiguïté opérationnelle.",
+    "completude : Le script couvre la règle centrale, la distinction déduction/réduction, l'ordre d'imputation et les exceptions principales, mais il n'indique pas explicitement que l'excédent est définitivement perdu (la phrase l'implique, mais il vaut mieux préciser « définitivement perdu, sans report sauf disposition expresse »). Ajouter cette précision évite une omission importante.",
+    "plateforme : Durée estimée : 42 secondes. Le script, tel que rédigé (6 beats avec explications et CTA), peut se rapprocher de 30–40 s selon rythme ; pour Shorts (format très rapide) vérifier le tempo et le nombre de mots à l'oral. Recommandation : mesurer le texte lu à voix normale et ajuster si nécessaire (ralentir l'énoncé du mécanisme ou raccourcir la nuance).",
+    "editorial : Phrase de l'exemple : « il perdra 2 000 euros, le dernier avantage souscrit étant réduit. » Pour l'impact et la clarté, préciser « il perdra 2 000 € d'avantage fiscal : la réduction liée au dernier dispositif souscrit sera supprimée » afin d'éviter toute lecture selon laquelle 2 000 € seraient une charge matérielle.",
+    "formulation_professionnelle : Quelques formulations peuvent être rendues plus naturelles et précises pour un public non spécialiste : par exemple remplacer « Il s'applique aux réductions et crédits, pas aux déductions du revenu » par « Il ne s'applique qu'aux réductions et crédits d'impôt ; les déductions du revenu (ex. PER, déficit foncier) échappent au plafond. »",
+    "contre_verification_finale : Cohérence globale bonne ; erreurs mineures relevées ci‑dessus (formulations à clarifier, précision sur perte définitive). Vérifier l'alignement mot à mot entre visuel et narration sur la nuance des dons/emploi à domicile pour éviter contradiction visuelle/verbale.",
+    "pedagogie_client : Le concept clé (déduction vs réduction) est présenté, mais un public non spécialiste pourrait confondre « crédit » et « déduction ». Suggestion : ajouter très brièvement (1 mot) un exemple concret pour chaque catégorie dans la même phrase (ex. « réduction = Pinel, crédit = emploi à domicile, déduction = PER »)."
+  ],
+  "recommendations": [
+    "Remplacer dans le beat « Nuance » la formulation « une partie des crédits d'emploi à domicile » par : « les dons ouvrant droit à réduction et, sous conditions, certaines dépenses d'emploi à domicile sont hors plafond » pour plus de précision juridique.",
+    "Ajouter une phrase courte précisant que l'excédent dépassant le plafond est définitivement perdu « sans report » sauf disposition expresse, pour lever toute ambiguïté.",
+    "Clarifier l'exemple (beat 4) en écrivant : « Paul obtient 7 000 € en janvier puis 5 000 € en octobre ; il perdra définitivement 2 000 € d'avantage fiscal, la réduction liée au dernier dispositif souscrit étant supprimée. »",
+    "Vérifier la durée orale en conditions réelles : lire le script à voix normale et ajuster pour rester dans la contrainte de durée ciblée des Shorts (idéalement 30–45 s).",
+    "Alléger/ajouter un tout petit exemple-type dans la phrase sur déduction vs réduction pour aider les non-spécialistes (ex. « réduction = Pinel, crédit = emploi à domicile, déduction = PER »).",
+    "S'assurer que les visuels (pictogrammes) collent mot à mot à la formulation modifiée, notamment pour la nuance sur les dons et l'emploi à domicile, afin d'éviter contradiction entre voix et image."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-15:shorts:fiscalite_plafonnement_niches:1",
+  "script_path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a2__v5.md"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "platform": "tiktok",
+  "source_hash": "cd7ecd351e6a6188fd4976c0d1886d29c08814184b9004438cc35ad7b08365e4",
+  "adapted_hash": "cd7ecd351e6a6188fd4976c0d1886d29c08814184b9004438cc35ad7b08365e4",
+  "source_beats": 7,
+  "adapted_pages": 7,
+  "splits": 0,
+  "exact_text_preserved": true,
+  "minimum_font_size": 39,
+  "warnings": []
+}

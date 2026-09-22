@@ -1,0 +1,30 @@
+{
+  "source": "design-system/source-kits/Claude_Design_Kit_4_palette_series.zip",
+  "source_sha256": "334aae8a8323a360a9cac04b2b93353529eee573710f1ac48cdcaa7ca9c97d4e",
+  "statut": "appliquee",
+  "series": {
+    "fiscalite": "#6F4E37",
+    "immobilier": "#C96F4A",
+    "juridique": "#D99A2B",
+    "finance": "#2457D6"
+  },
+  "elements_colores": [
+    "titre supérieur et barre verticale",
+    "cadres et tracés des pictogrammes",
+    "segments actifs de progression"
+  ],
+  "invariants": [
+    "fond",
+    "structure",
+    "texte",
+    "typographie",
+    "tailles",
+    "placements",
+    "animations",
+    "rythme",
+    "choix OUI/NON",
+    "CTA"
+  ],
+  "portee": ["tiktok", "instagram", "youtube_shorts"],
+  "regle": "La couleur dépend de la série et s'applique à toutes les pages. Aucune autre propriété visuelle ou éditoriale ne varie."
+}

@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-21",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-21:shorts:pea_pme_et_jeunes:0",
+      "platform": "shorts",
+      "title": "PEA-PME et PEA jeunes : les enveloppes oubliées",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/pea/pea_pme_et_jeunes__shorts__a1__v4.md",
+      "video": "",
+      "script_sha256": "90533249a20772eccde7db0f55e2ff61faeb60f73caa279bcca99e12c32af8a0",
+      "spec_sha256": "155a3f98c91c2257dad0fcfa91b1789bcc2462fc2de67fc5d8e6f262518a28f2",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 60.2,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 150,
+        "seconds": 60.2,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-21:shorts:pea_pme_et_jeunes:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-21_shorts_pea_pme_et_jeunes_0.json",
+        "editorial_policy_sha256": "fb42282bd5c1475b74b558ee6837e89f97142b363de408c90f0f48891847739a",
+        "validated_at": "2026-09-21T10:01:37"
+      },
+      "review_path": "data/reviews/2026-09-21_shorts_pea_pme_et_jeunes_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-09-21:reels:pea_pme_et_jeunes:0",
+      "platform": "reels",
+      "title": "PEA-PME et PEA jeunes : les enveloppes oubliées",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/pea/pea_pme_et_jeunes__reels__a1__v5.md",
+      "status": "blocked",
+      "audit": {
+        "ok": false,
+        "score": 6.0,
+        "words": 161,
+        "seconds": 64.4,
+        "errors": [
+          "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+          "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+        ],
+        "warnings": []
+      },
+      "warnings": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ]
+    },
+    {
+      "publication_id": "2026-09-21:tiktok:pea_pme_et_jeunes:0",
+      "platform": "tiktok",
+      "title": "PEA-PME et PEA jeunes : les enveloppes oubliées",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/pea/pea_pme_et_jeunes__reels__a1__v5.md",
+      "status": "blocked",
+      "audit": {
+        "ok": false,
+        "score": 6.0,
+        "words": 161,
+        "seconds": 64.4,
+        "errors": [
+          "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+          "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+        ],
+        "warnings": []
+      },
+      "warnings": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "platform": "shorts",
+  "source_hash": "66ed87b24c4a9e65f8b18b407050b32c3f653b986aee1ef8bb45e70d082369c0",
+  "adapted_hash": "66ed87b24c4a9e65f8b18b407050b32c3f653b986aee1ef8bb45e70d082369c0",
+  "source_beats": 6,
+  "adapted_pages": 6,
+  "splits": 0,
+  "exact_text_preserved": true,
+  "minimum_font_size": 32,
+  "warnings": [
+    "Densité élevée : police proche du minimum de sécurité"
+  ]
+}

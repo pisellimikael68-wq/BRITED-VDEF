@@ -1,0 +1,83 @@
+{
+  "provider": "elevenlabs",
+  "voice_id": "jGpnMdbhtKgQbVrYezOx",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.56,
+    "similarity_boost": 0.84,
+    "style": 0.18,
+    "use_speaker_boost": true,
+    "speed": 1.04
+  },
+  "beat_hashes": {
+    "01_hook": "6c80cccfb6944d8e90b4c41ec3a13f0947b32ebfed72350393fa8edf0101f968",
+    "02_reponse": "1a89a9774362bafbb59e80354e310beab08d3d67e869b20875f2cf3037e69c16",
+    "03_regle": "a2a825c3ed3145b85cd917a4c7ae66d6f84738d5b35a7243aa9173a067134af0",
+    "04_exemple": "af0b5a2f56ba1172fc48405d6d087a9f1fd32753650bb571856265da4351bdd8",
+    "05_nuance": "d8fdbaf03965595490e72c430d73e393f900cba968ff96f1ea2c97e772a00127",
+    "06_cta": "9831bd1050b1716028231cbafe6b2a5b7df2edcff996ff9d3000977d24075bea"
+  },
+  "target_wpm": {
+    "hook": 185.0,
+    "question": 180.0,
+    "reponse": 185.0,
+    "regle": 180.0,
+    "precision": 178.0,
+    "exemple": 180.0,
+    "nuance": 175.0,
+    "cta": 185.0,
+    "default": 180.0
+  },
+  "voice_profile": {
+    "target_wpm": {
+      "hook": 185.0,
+      "reponse": 185.0,
+      "regle": 180.0,
+      "exemple": 180.0,
+      "nuance": 175.0,
+      "cta": 185.0,
+      "default": 180.0
+    },
+    "voice_settings": {
+      "stability": 0.56,
+      "similarity_boost": 0.84,
+      "style": 0.18,
+      "use_speaker_boost": true,
+      "speed": 1.04
+    },
+    "role_settings": {
+      "hook": {
+        "stability": 0.52,
+        "style": 0.24,
+        "speed": 1.05
+      },
+      "reponse": {
+        "stability": 0.53,
+        "style": 0.23,
+        "speed": 1.05
+      },
+      "regle": {
+        "stability": 0.6,
+        "style": 0.14,
+        "speed": 1.02
+      },
+      "exemple": {
+        "stability": 0.56,
+        "style": 0.19,
+        "speed": 1.03
+      },
+      "nuance": {
+        "stability": 0.61,
+        "style": 0.12,
+        "speed": 1.0
+      },
+      "cta": {
+        "stability": 0.53,
+        "style": 0.23,
+        "speed": 1.05
+      }
+    }
+  },
+  "key_storage": "macOS Keychain",
+  "api_key_recorded": false
+}

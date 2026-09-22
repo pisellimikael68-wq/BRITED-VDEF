@@ -1,0 +1,45 @@
+{
+  "agents": {
+    "source": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "completude": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "plateforme": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "editorial": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "securite": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "score": 0,
+      "passed": false,
+      "findings": []
+    }
+  },
+  "recommendations": []
+}

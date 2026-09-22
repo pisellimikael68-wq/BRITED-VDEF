@@ -1,0 +1,157 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED mais la séquence #5 est intitulée « Exemple chiffré » sans aucun chiffre. C'est une incohérence mot à mot avec l'étiquette utilisée dans la fiche-source.",
+        "La mention « lien dans ma bio » est conforme à l'usage plateforme mais la fiche a une règle absolue « a_ne_pas_dire » interdisant de recommander un régime : le CTA demande un rendez‑vous (acceptable), vérifier que le rendez‑vous n'inclut aucune recommandation directe avant rendez‑vous."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script énonce correctement la règle (art.1536), l'exception de solidarité (art.220) et la présomption (art.1538), mais n'explicite pas la condition fréquente d'achat en indivision (mentionnée dans la fiche comme 'fréquents en pratique'). La phrase « Exemple chiffré » laisse attendre un chiffre utile (par ex. part 50/50 présumée)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40 s : le script comporte 7 plans avec des explications essentielles (notamment règle + précision légale). Le rythme est probablement serré ; sans indication de temps par plan il peut dépasser 40 s.",
+        "Le texte écran de la séquence #2 reproduit la question puis 'OUI  NON' — visuel potentiellement confus pour un reel très court. Suggestion : simplifier l'affichage pour favoriser lisibilité rapide."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulations très claires globalement, mais la répétition « La séparation de biens m'abrite-t-elle des dettes ménagères ou de l'indivision ? OUI / NON Non. » est légèrement maladroite à l'oral (double question + réponse abrupte). Recommander d'élaguer pour une diction naturelle : poser la question puis dire simplement « Non. »",
+        "La mention « Exemple chiffré : vous achetez la maison à deux... » annonce un chiffrage non fourni — incohérence à corriger pour garder professionnalisme."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements logiques corrects mais deux points concrets à corriger : (1) séquence #5 intitulée 'Exemple chiffré' sans chiffre ; (2) vérifier la durée allouée à chaque beat pour garantir 40 s au total."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite un seul angle principal mais promet un 'exemple chiffré' et n'en donne pas. Soit fournir un court chiffre (ex. présomption 50/50) soit renommer la séquence 'Exemple' pour rester fidèle à la densité annoncée."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont bonnes, mais la présence simultanée de la question écrite et des boutons OUI/NON dans la deuxième séquence peut diluer l'attention. Recommander d'afficher soit la question soit l'option visuelle OUI/NON, pas les deux de manière égale."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED mais la séquence #5 est intitulée « Exemple chiffré » sans aucun chiffre. C'est une incohérence mot à mot avec l'étiquette utilisée dans la fiche-source.",
+    "source : La mention « lien dans ma bio » est conforme à l'usage plateforme mais la fiche a une règle absolue « a_ne_pas_dire » interdisant de recommander un régime : le CTA demande un rendez‑vous (acceptable), vérifier que le rendez‑vous n'inclut aucune recommandation directe avant rendez‑vous.",
+    "completude : Le script énonce correctement la règle (art.1536), l'exception de solidarité (art.220) et la présomption (art.1538), mais n'explicite pas la condition fréquente d'achat en indivision (mentionnée dans la fiche comme 'fréquents en pratique'). La phrase « Exemple chiffré » laisse attendre un chiffre utile (par ex. part 50/50 présumée).",
+    "plateforme : Durée estimée 40 s : le script comporte 7 plans avec des explications essentielles (notamment règle + précision légale). Le rythme est probablement serré ; sans indication de temps par plan il peut dépasser 40 s.",
+    "plateforme : Le texte écran de la séquence #2 reproduit la question puis 'OUI  NON' — visuel potentiellement confus pour un reel très court. Suggestion : simplifier l'affichage pour favoriser lisibilité rapide.",
+    "formulation_professionnelle : Formulations très claires globalement, mais la répétition « La séparation de biens m'abrite-t-elle des dettes ménagères ou de l'indivision ? OUI / NON Non. » est légèrement maladroite à l'oral (double question + réponse abrupte). Recommander d'élaguer pour une diction naturelle : poser la question puis dire simplement « Non. »",
+    "formulation_professionnelle : La mention « Exemple chiffré : vous achetez la maison à deux... » annonce un chiffrage non fourni — incohérence à corriger pour garder professionnalisme.",
+    "contre_verification_finale : Enchaînements logiques corrects mais deux points concrets à corriger : (1) séquence #5 intitulée 'Exemple chiffré' sans chiffre ; (2) vérifier la durée allouée à chaque beat pour garantir 40 s au total.",
+    "densite_editoriale : Le script traite un seul angle principal mais promet un 'exemple chiffré' et n'en donne pas. Soit fournir un court chiffre (ex. présomption 50/50) soit renommer la séquence 'Exemple' pour rester fidèle à la densité annoncée.",
+    "retention_attention : Les deux premières secondes (hook) sont bonnes, mais la présence simultanée de la question écrite et des boutons OUI/NON dans la deuxième séquence peut diluer l'attention. Recommander d'afficher soit la question soit l'option visuelle OUI/NON, pas les deux de manière égale."
+  ],
+  "recommendations": [
+    "Corriger la séquence #5 : soit fournir un chiffre simple et vérifiable (par ex. rappeler la présomption 50/50 issue de l'art.1538) et l'illustrer brièvement, soit renommer la vignette en 'Exemple' au lieu de 'Exemple chiffré'. Localisation : table Beat #5 (colonne Narration et Texte écran).",
+    "Réviser la formulation de la séquence #2 et l'affichage écran pour améliorer lisibilité rapide : afficher la question de façon concise, puis montrer une seule grande case 'NON' pour la réponse, ou garder OUI/NON mais faire ressortir clairement la réponse dans la séquence #3. Localisation : Beat #2 et #3.",
+    "Allouer le temps par beat pour garantir la durée totale de 40 s (ex. 4–6 s pour hook, 3–4 s question, 2 s réponse, 8–10 s règle, 8–10 s exemple, 4–5 s précision, 3–4 s CTA). Localisation : durée estimée globale et découpage plan par plan.",
+    "Vérifier dans le CTA et le discours de rendez‑vous qu'aucune recommandation de régime matrimonial n'est donnée avant un entretien personnalisé, conformément à la règle 'a_ne_pas_dire'. Localisation : Beat #7 (Narration et Texte écran)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-14:reels:regimes_separation_de_biens:1",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_separation_de_biens__reels__a5__v3.md"
+}

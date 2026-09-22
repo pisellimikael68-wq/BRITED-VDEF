@@ -1,0 +1,159 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reste globalement fidèle à la fiche-source, mais la fiche contient une note 'a_verifier' sur le chiffre « ≈ -35 % en 30 ans ». Le script affiche ce chiffre sans préciser l'hypothèse de rendement retenue ni signaler qu'il s'agit d'un ordre de grandeur à recalcule r. Il faut soit recalculer et expliciter l'hypothèse, soit marquer explicitement la valeur comme approximative/à vérifier."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention des articles du Code monétaire et financier en source est correcte, mais le script affirme de façon générale que « la valeur liquidative publiée est donc déjà nette de frais » sans préciser les exceptions réglementaires éventuelles (par exemple, modalités spécifiques pour certains frais comme les commissions de mouvement ou frais externes minoritaires). Il faudrait ajouter une phrase très brève précisant qu'il s'agit de la règle générale pour les frais de gestion déclarés et que certains frais spécifiques peuvent être traités différemment selon le produit (éviter toute généralisation absolue)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la conséquence pratique, l'exemple chiffré et la nuance sur les frais cumulés. En revanche il n'indique pas explicitement où trouver le montant exact des frais (le sigle usuel est DICI — Document d'information clé pour l'investisseur — et non DIC). Il faudra corriger le sigle et indiquer brièvement que le DICI figure dans la documentation commerciale ou sur le site de la société de gestion/du distributeur."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes. Petite incohérence visuelle décrite : le visuel propose une 'coche rouge \"Non\"' — une coche associe généralement l'idée d'acceptation; pour la réponse 'Non' il est plus clair d'utiliser une croix ou un pictogramme de rejet. À corriger pour cohérence image/texte."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel, mais la phrase 'la valeur liquidative publiée est donc déjà nette de frais' gagnerait à être allégée pour la prononciation : proposer 'la valeur liquidative publiée tient déjà compte des frais'. De plus, remplacer 'document d'informations clés' par le sigle correct 'DICI' améliore la crédibilité professionnelle."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, la chaîne narrative est cohérente. Points à corriger repérés : préciser l'hypothèse du calcul numérique (5 % brut → 3,5 % net), corriger 'DIC' → 'DICI', et remplacer la 'coche rouge' par une icône non ambiguë pour 'Non'."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont adéquats, mais la 'coche rouge \"Non\"' est source d'ambiguïté (cocher = ok). Le schéma 'part -> VL nette avec pictogramme calendrier' est bon ; vérifier que l'animation des courbes illustre bien des VL nettes (légende claire). Le pictogramme 'trois pictogrammes empilés : fonds - contrat - total' doit montrer clairement l'addition des frais."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et compréhensible pour un non-spécialiste. Cependant, l'exemple chiffré nécessite l'ajout d'une très courte précision sur l'hypothèse de rendement (par ex. 'hypothèse : rendement brut constant de 5 %/an') pour éviter toute interprétation erronée."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'appel à l'action est clair et non pressant. Pour renforcer la confiance, ajouter en une petite phrase de CTA la mention déjà présente en Légende (contenu pédagogique, pas conseil personnalisé) n'est pas nécessaire ici, mais il faut s'assurer que la landing page liée dans la bio respecte cette même neutralité et n'induise pas surpromesse commerciale."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 122,
+      "seconds": 45.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 122,
+        "seconds": 45.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script reste globalement fidèle à la fiche-source, mais la fiche contient une note 'a_verifier' sur le chiffre « ≈ -35 % en 30 ans ». Le script affiche ce chiffre sans préciser l'hypothèse de rendement retenue ni signaler qu'il s'agit d'un ordre de grandeur à recalcule r. Il faut soit recalculer et expliciter l'hypothèse, soit marquer explicitement la valeur comme approximative/à vérifier.",
+    "juridique_fiscal : La mention des articles du Code monétaire et financier en source est correcte, mais le script affirme de façon générale que « la valeur liquidative publiée est donc déjà nette de frais » sans préciser les exceptions réglementaires éventuelles (par exemple, modalités spécifiques pour certains frais comme les commissions de mouvement ou frais externes minoritaires). Il faudrait ajouter une phrase très brève précisant qu'il s'agit de la règle générale pour les frais de gestion déclarés et que certains frais spécifiques peuvent être traités différemment selon le produit (éviter toute généralisation absolue).",
+    "completude : Le script couvre la règle centrale, la conséquence pratique, l'exemple chiffré et la nuance sur les frais cumulés. En revanche il n'indique pas explicitement où trouver le montant exact des frais (le sigle usuel est DICI — Document d'information clé pour l'investisseur — et non DIC). Il faudra corriger le sigle et indiquer brièvement que le DICI figure dans la documentation commerciale ou sur le site de la société de gestion/du distributeur.",
+    "editorial : Accroche et progression sont bonnes. Petite incohérence visuelle décrite : le visuel propose une 'coche rouge \"Non\"' — une coche associe généralement l'idée d'acceptation; pour la réponse 'Non' il est plus clair d'utiliser une croix ou un pictogramme de rejet. À corriger pour cohérence image/texte.",
+    "formulation_professionnelle : Le français est globalement naturel, mais la phrase 'la valeur liquidative publiée est donc déjà nette de frais' gagnerait à être allégée pour la prononciation : proposer 'la valeur liquidative publiée tient déjà compte des frais'. De plus, remplacer 'document d'informations clés' par le sigle correct 'DICI' améliore la crédibilité professionnelle.",
+    "contre_verification_finale : En relecture mot à mot, la chaîne narrative est cohérente. Points à corriger repérés : préciser l'hypothèse du calcul numérique (5 % brut → 3,5 % net), corriger 'DIC' → 'DICI', et remplacer la 'coche rouge' par une icône non ambiguë pour 'Non'.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont adéquats, mais la 'coche rouge \"Non\"' est source d'ambiguïté (cocher = ok). Le schéma 'part -> VL nette avec pictogramme calendrier' est bon ; vérifier que l'animation des courbes illustre bien des VL nettes (légende claire). Le pictogramme 'trois pictogrammes empilés : fonds - contrat - total' doit montrer clairement l'addition des frais.",
+    "pedagogie_client : Le contenu est pédagogique et compréhensible pour un non-spécialiste. Cependant, l'exemple chiffré nécessite l'ajout d'une très courte précision sur l'hypothèse de rendement (par ex. 'hypothèse : rendement brut constant de 5 %/an') pour éviter toute interprétation erronée.",
+    "conversion_confiance : L'appel à l'action est clair et non pressant. Pour renforcer la confiance, ajouter en une petite phrase de CTA la mention déjà présente en Légende (contenu pédagogique, pas conseil personnalisé) n'est pas nécessaire ici, mais il faut s'assurer que la landing page liée dans la bio respecte cette même neutralité et n'induise pas surpromesse commerciale."
+  ],
+  "recommendations": [
+    "Recalculer ou vérifier le chiffre « ≈ -35 % en 30 ans » et, dans le script, préciser l'hypothèse retenue (par exemple : 'hypothèse : rendement brut constant de 5 % par an, donc 3,5 % après 1,5 point de frais'). Si vous maintenez l'ordre de grandeur sans recalcul, ajouter la mention 'ordre de grandeur' immédiatement après le chiffre.",
+    "Remplacer 'document d'informations clés (DIC)' par le sigle correct 'DICI (Document d'information clé pour l'investisseur)' et ajouter brièvement où le trouver (documentation commerciale, site de la société de gestion ou du distributeur).",
+    "Modifier le visuel du beat 2 pour remplacer la 'coche rouge \"Non\"' par une icône non ambiguë (par exemple une croix rouge ou un 'Non' en texte clair sur fond contrasté) afin d'éviter une lecture contradictoire image/voix.",
+    "Alléger la formulation orale recommandée : remplacer 'la valeur liquidative publiée est donc déjà nette de frais' par 'la valeur liquidative publiée tient déjà compte des frais' pour une meilleure prononciation et compréhension immédiate.",
+    "Ajouter une très brève phrase (ou un micro-énoncé visuel) indiquant que certains frais spécifiques peuvent être traités différemment selon le produit, pour éviter toute généralisation juridiquement risquée (ex. 'règle générale pour les frais de gestion déclarés ; cas spécifiques possibles selon le produit').",
+    "Vérifier la page de destination (lien en bio) pour s'assurer qu'elle respecte la même neutralité pédagogique (pas de promesse financière personnalisée hors rendez-vous) et, si nécessaire, harmoniser la mention 'contenu pédagogique — pas un conseil personnalisé' entre la vidéo et la page liée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-30:shorts:fonds_investissement_frais:1",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a4__v7.md"
+}

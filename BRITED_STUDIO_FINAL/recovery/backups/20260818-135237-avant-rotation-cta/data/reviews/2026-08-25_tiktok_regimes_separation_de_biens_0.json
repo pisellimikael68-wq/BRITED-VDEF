@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "b454f82da14f93a9e161a897b8f0a2c8218f873a8f761b693d891c1f51358c0a",
+      "adapted_hash": "b454f82da14f93a9e161a897b8f0a2c8218f873a8f761b693d891c1f51358c0a",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Eventuellement rappeler très brièvement que la séparation est souvent choisie par chefs d'entreprise et professions libérales pour isoler le patrimoine du conjoint (présent dans la fiche) — utile pour contextualiser le hook, sans en faire une recommandation.",
+    "Pour renforcer la prudence, ajouter une phrase très courte précisant qu'il ne s'agit pas d'un conseil personnalisé et qu'un notaire doit être consulté pour choisir un régime (la légende contient déjà une mention ; l'ajout à l'oral est facultatif selon la contrainte de durée)."
+  ],
+  "reviewed_at": "2026-08-17T15:56:28",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-25:tiktok:regimes_separation_de_biens:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_separation_de_biens__tiktok__a1__v3.md"
+}

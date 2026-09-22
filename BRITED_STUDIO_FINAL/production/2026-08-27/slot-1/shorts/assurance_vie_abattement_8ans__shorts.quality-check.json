@@ -1,0 +1,433 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 55.88,
+  "target_duration": null,
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 55.883,
+      "peak": 0.8414,
+      "rms": 0.1564,
+      "dc": 0.00011,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.165,
+        "peak": 0.79446,
+        "rms": 0.13241,
+        "dc": 6.3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 11.682,
+        "peak": 0.79453,
+        "rms": 0.12974,
+        "dc": 5.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.958,
+        "peak": 0.79416,
+        "rms": 0.12395,
+        "dc": 3.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple_fiscal.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.741,
+        "peak": 0.79428,
+        "rms": 0.11679,
+        "dc": 4e-06,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 16.982,
+        "peak": 0.79437,
+        "rms": 0.11667,
+        "dc": 6.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.895,
+        "peak": 0.71149,
+        "rms": 0.1226,
+        "dc": 7.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Après huit ans, combien retirer d'une assurance vie sans impôt ?",
+        "transcript": "Après 8 ans, combien retirer d'une assurance vie sans impôts ?",
+        "similarity": 0.9091,
+        "missing": [
+          "impot"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "impots"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9014,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Pour un contrat d'assurance vie de plus de huit ans, chaque année civile : quatre mille six cents euros d'abattement sur les gains pour une personne seule, neuf mille deux cents pour un couple marié ou paxée imposé ensemble.",
+        "transcript": "Pour un contrat d'assurance vie de plus de 8 ans, chaque année civile, 4 600 euros d'abattement sur les gains pour une personne seule, 9 200 pour un couple marié ou paxé imposé ensemble.",
+        "similarity": 0.975,
+        "missing": [
+          "pacse"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "pacs"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.3103,
+        "passed": true
+      },
+      {
+        "beat": "regle_exemple",
+        "expected": "Une assurance vie valorisée à cent vingt mille euros, dont vingt mille euros de gains. Sur un rachat de douze mille euros, dix mille euros correspondent au capital et deux mille euros aux gains.",
+        "transcript": "Une assurance vie valorisée à 120 000 euros, dont 20 000 euros de gains. Sur un rachat de 12 000 euros, 10 000 euros correspondent au capital et 2 000 euros au gain.",
+        "similarity": 0.9412,
+        "missing": [
+          "aux",
+          "gains"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "au",
+          "gain"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.4397,
+        "passed": true
+      },
+      {
+        "beat": "exemple_fiscal",
+        "expected": "Deux mille euros de gains restent sous l'abattement de quatre mille six cents euros : pas d'impôt sur le revenu. Les prélèvements sociaux s'appliquent.",
+        "transcript": "2000 euros de gains restent sous l'abattement de 4600 euros. Pas d'impôt sur le revenu. Les prélèvements sociaux s'appliquent.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1121,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Si la part de gains retirée dépasse l'abattement, seul l'excédent est imposable. Pour les versements depuis le vingt sept septembre deux mille dix sept, le taux de sept virgule cinq pour cent s'applique dans la limite du seuil global de cent cinquante mille euros de primes, tous contrats confondus ; au delà, douze virgule huit pour cent peut s'appliquer.",
+        "transcript": "Si la part de gain retirée dépasse l'abattement, seul l'excédent est imposable. Pour les versements depuis le 27 septembre 2017, le taux de 7,5% s'applique dans la limite du seuil global de 150 000 euros de prime. Tout contrat confondu, au-delà, 12,8% peut s'appliquer.",
+        "similarity": 0.9194,
+        "missing": [
+          "gains",
+          "primes",
+          "tous",
+          "contrats",
+          "confondus"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "gain",
+          "prime",
+          "tout",
+          "contrat",
+          "confondu"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.3515,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      40
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      189.6,
+      195.2,
+      204.9,
+      204.7,
+      204.9,
+      208.4
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Contrat d'assurance-vie, calendrier 8 ans et point d'interrogation",
+        "family": "question",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "circle-help",
+          "badge-euro",
+          "file-signature"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          540,
+          672,
+          640
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "adaptatif",
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "label_checks": [],
+        "labels_ok": true,
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle_exemple",
+        "description": "Répartition visuelle du rachat entre capital et gains",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple_fiscal",
+        "description": "Comparaison gains / abattement, puis prélèvements sociaux",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Dépassement de l'abattement, puis comparaison des taux selon le seuil global de primes",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          358,
+          672,
+          821
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

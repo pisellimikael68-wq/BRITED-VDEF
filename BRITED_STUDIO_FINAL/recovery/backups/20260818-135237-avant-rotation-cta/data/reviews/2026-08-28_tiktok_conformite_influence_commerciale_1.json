@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "b3f68b2d91ee8d55f7ca2f07f539e0e8291ebf550b75c4117871431f3ebcd4fd",
+      "adapted_hash": "b3f68b2d91ee8d55f7ca2f07f539e0e8291ebf550b75c4117871431f3ebcd4fd",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 41,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Ajouter en visuel ou en légende un rappel explicite que la mention ('Publicité' / 'Collaboration commerciale') doit rester visible pendant toute la durée d'une vidéo payée (le script le dit mais un exemple visuel d'emplacement peut aider la conformité).",
+    "Éventuellement, prévoir une version rallongée ou un post complémentaire rappelant les catégories de produits dont la promotion est restreinte (produits hautement spéculatifs, actifs numériques hors prestataires enregistrés), si vous souhaitez couvrir ce point sans alourdir ce format court.",
+    "Conserver la mention de non‑conseil en légende (déjà présente) et, pour renforcer la sécurité, ajouter verbalement en fin de vidéo une phrase très brève: « Ceci est un contenu pédagogique, pas un conseil personnalisé ». "
+  ],
+  "reviewed_at": "2026-08-17T15:46:06",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-28:tiktok:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__tiktok__a1__v3.md"
+}

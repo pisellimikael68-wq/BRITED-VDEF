@@ -1,0 +1,190 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 7.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme « Perdre 100 € par mois » et donne l'exemple Julie/Clara passant de 1 600 € à 1 500 € pour 1 trimestre manquant. Or la fiche source indique une décote de 0,625% par trimestre (chiffre marqué 'à vérifier'), soit 10 € sur 1 600 €, pas 100 €. Il y a une incohérence factuelle entre les chiffres du script et les chiffres de la fiche.",
+        "La fiche contient l'avertissement 'Ne pas citer de taux ni de durée sans préciser la génération concernée'. Le script mentionne l'âge d'annulation automatique (67 ans) sans préciser qu'il s'adresse aux personnes nées à partir de 1955 (formulation actuelle dans la fiche)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La phrase « La décote cesse à 67 ans » est simplifiée : la fiche indique que 67 ans correspond généralement à l'âge du taux plein automatique pour les personnes nées à partir de 1955 — il faut préciser la génération concernée pour éviter généralisation trompeuse.",
+        "Le script dit que la décote 'touche souvent aussi la complémentaire'. C'est un point important mais nécessite précision : la réduction peut affecter la complémentaire selon ses règles, et le mécanisme n'est pas décrit (risque de sur-généralisation)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré majeur (1 600 € → 1 500 € pour 1 trimestre) n'est pas cohérent avec le taux de décote indiqué dans la fiche (0,625% par trimestre) et avec la règle selon génération. Il manque l'indication 'exemple illustratif' ou correction des montants/calculs.",
+        "La fiche insiste sur la nécessité de vérifier le relevé de carrière avant liquidation ; le script propose un CTA 'Prenez rendez-vous via le lien dans ma bio' — ok, mais il manque une instruction claire recommandant de demander un relevé de carrière et les démarches pour le corriger avant liquidation."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reels (durée ~38 s) et la structure beats/CTA sont respectés. Toutefois, la présence d'un appel à prise de rendez-vous doit être formulée sans paraître comme conseil personnalisé : la mention légale existante aide, mais le CTA 'Prenez rendez-vous' peut être perçu comme commercial — il convient d'ajouter 'pour un bilan' neutre ou 'pour un rendez-vous d'information' et veiller à la conformité platforme si c'est une offre payante.",
+        "Le texte écran long du CTA (ligne finale) risque d'être trop verbeux pour un écran de Reels ; raccourcir est recommandé pour lisibilité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 6.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais contradictoire chiffres/texte: '100 € en moins, à vie' n'est justifiée par aucun calcul solide dans la fiche et contredit la décote par trimestre listée (0,625%).",
+        "La question OUI/NON 'Avez-vous tous vos trimestres ?' fonctionne, mais la réponse 'Réduction définitive' devrait inclure la nuance essentielle (génération/âge et possibilité d'annulation automatique à 67 ans selon génération).",
+        "La narration insiste sur 67 ans sans préciser génération. Le ton direct fonctionne mais la cohérence factuelle doit être rétablie."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention légale de non-conseil, ce qui respecte la consigne 'sécurité'.",
+        "Cependant, l'appel à prendre rendez-vous peut frôler le conseil personnalisé si la personne qui publie est un professionnel offrant des RDV : il faut s'assurer que le créateur a l'agrément approprié et que l'offre est clairement présentée comme 'bilan d'information' et non 'conseil personnalisé' sans cadre."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Français naturel globalement correct, mais certaines phrases sont imprécises ou potentiellement trompeuses (voir incohérence des montants).",
+        "La phrase 'La décote cesse à 67 ans mais la pension peut rester proratisée' mérite une légère reformulation pour être immédiatement compréhensible par un non-spécialiste (expliquer brièvement que le taux peut être rétabli mais le montant proratisé si des trimestres manquent)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 6.0,
+      "passed": false,
+      "findings": [
+        "Incohérence chiffrée majeure non détectée avant : calcul de l'exemple non aligné avec le taux par trimestre renseigné dans la fiche.",
+        "La consigne 'Ne pas citer de taux ni de durée sans préciser la génération' n'est pas respectée pour l'âge et pour l'utilisation des montants (exemple chiffré présenté sans préciser génération ni hypothèses)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite d'un seul angle (la décote à la liquidation) et reste concise, mais l'exemple chiffré erroné crée une faiblesse critique dans la densité éditoriale : un seul chiffre faux suffit à affaiblir tout le message."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La majorité des notions sont expliquées simplement, mais l'absence d'explication sur la variable 'génération' et l'incohérence chiffrée gêne la compréhension d'un non-spécialiste.",
+        "Il manque une courte instruction actionnable et précise : 'demandez votre relevé de carrière à l'Assurance retraite X mois avant de liquider' ou 'vérifiez les périodes apprentissage, maternité, chômage', etc."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont percutantes, le script conserve la progression. Toutefois, le final CTA texte est trop long pour un écran Reels et la contradiction chiffrée risque de faire décrocher l'attention si l'audience vérifie rapidement."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux mais l'erreur chiffrée et le manque de précision générationnelle affaiblissent la confiance. L'appel au rendez-vous peut être perçu comme commercial si l'auteur n'indique pas ses habilitations."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 101,
+      "seconds": 37.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script affirme « Perdre 100 € par mois » et donne l'exemple Julie/Clara passant de 1 600 € à 1 500 € pour 1 trimestre manquant. Or la fiche source indique une décote de 0,625% par trimestre (chiffre marqué 'à vérifier'), soit 10 € sur 1 600 €, pas 100 €. Il y a une incohérence factuelle entre les chiffres du script et les chiffres de la fiche.",
+    "source : La fiche contient l'avertissement 'Ne pas citer de taux ni de durée sans préciser la génération concernée'. Le script mentionne l'âge d'annulation automatique (67 ans) sans préciser qu'il s'adresse aux personnes nées à partir de 1955 (formulation actuelle dans la fiche).",
+    "juridique_fiscal : La phrase « La décote cesse à 67 ans » est simplifiée : la fiche indique que 67 ans correspond généralement à l'âge du taux plein automatique pour les personnes nées à partir de 1955 — il faut préciser la génération concernée pour éviter généralisation trompeuse.",
+    "juridique_fiscal : Le script dit que la décote 'touche souvent aussi la complémentaire'. C'est un point important mais nécessite précision : la réduction peut affecter la complémentaire selon ses règles, et le mécanisme n'est pas décrit (risque de sur-généralisation).",
+    "completude : L'exemple chiffré majeur (1 600 € → 1 500 € pour 1 trimestre) n'est pas cohérent avec le taux de décote indiqué dans la fiche (0,625% par trimestre) et avec la règle selon génération. Il manque l'indication 'exemple illustratif' ou correction des montants/calculs.",
+    "completude : La fiche insiste sur la nécessité de vérifier le relevé de carrière avant liquidation ; le script propose un CTA 'Prenez rendez-vous via le lien dans ma bio' — ok, mais il manque une instruction claire recommandant de demander un relevé de carrière et les démarches pour le corriger avant liquidation.",
+    "plateforme : Le format Reels (durée ~38 s) et la structure beats/CTA sont respectés. Toutefois, la présence d'un appel à prise de rendez-vous doit être formulée sans paraître comme conseil personnalisé : la mention légale existante aide, mais le CTA 'Prenez rendez-vous' peut être perçu comme commercial — il convient d'ajouter 'pour un bilan' neutre ou 'pour un rendez-vous d'information' et veiller à la conformité platforme si c'est une offre payante.",
+    "plateforme : Le texte écran long du CTA (ligne finale) risque d'être trop verbeux pour un écran de Reels ; raccourcir est recommandé pour lisibilité.",
+    "editorial : Accroche forte mais contradictoire chiffres/texte: '100 € en moins, à vie' n'est justifiée par aucun calcul solide dans la fiche et contredit la décote par trimestre listée (0,625%).",
+    "editorial : La question OUI/NON 'Avez-vous tous vos trimestres ?' fonctionne, mais la réponse 'Réduction définitive' devrait inclure la nuance essentielle (génération/âge et possibilité d'annulation automatique à 67 ans selon génération).",
+    "editorial : La narration insiste sur 67 ans sans préciser génération. Le ton direct fonctionne mais la cohérence factuelle doit être rétablie.",
+    "securite : Le script contient la mention légale de non-conseil, ce qui respecte la consigne 'sécurité'.",
+    "securite : Cependant, l'appel à prendre rendez-vous peut frôler le conseil personnalisé si la personne qui publie est un professionnel offrant des RDV : il faut s'assurer que le créateur a l'agrément approprié et que l'offre est clairement présentée comme 'bilan d'information' et non 'conseil personnalisé' sans cadre.",
+    "formulation_professionnelle : Français naturel globalement correct, mais certaines phrases sont imprécises ou potentiellement trompeuses (voir incohérence des montants).",
+    "formulation_professionnelle : La phrase 'La décote cesse à 67 ans mais la pension peut rester proratisée' mérite une légère reformulation pour être immédiatement compréhensible par un non-spécialiste (expliquer brièvement que le taux peut être rétabli mais le montant proratisé si des trimestres manquent).",
+    "contre_verification_finale : Incohérence chiffrée majeure non détectée avant : calcul de l'exemple non aligné avec le taux par trimestre renseigné dans la fiche.",
+    "contre_verification_finale : La consigne 'Ne pas citer de taux ni de durée sans préciser la génération' n'est pas respectée pour l'âge et pour l'utilisation des montants (exemple chiffré présenté sans préciser génération ni hypothèses).",
+    "densite_editoriale : La vidéo traite d'un seul angle (la décote à la liquidation) et reste concise, mais l'exemple chiffré erroné crée une faiblesse critique dans la densité éditoriale : un seul chiffre faux suffit à affaiblir tout le message.",
+    "pedagogie_client : La majorité des notions sont expliquées simplement, mais l'absence d'explication sur la variable 'génération' et l'incohérence chiffrée gêne la compréhension d'un non-spécialiste.",
+    "pedagogie_client : Il manque une courte instruction actionnable et précise : 'demandez votre relevé de carrière à l'Assurance retraite X mois avant de liquider' ou 'vérifiez les périodes apprentissage, maternité, chômage', etc.",
+    "retention_attention : Les deux premières secondes (hook) sont percutantes, le script conserve la progression. Toutefois, le final CTA texte est trop long pour un écran Reels et la contradiction chiffrée risque de faire décrocher l'attention si l'audience vérifie rapidement.",
+    "conversion_confiance : Le ton inspire sérieux mais l'erreur chiffrée et le manque de précision générationnelle affaiblissent la confiance. L'appel au rendez-vous peut être perçu comme commercial si l'auteur n'indique pas ses habilitations."
+  ],
+  "recommendations": [
+    "Corriger l'exemple chiffré : soit adapter les montants pour refléter la décote de 0,625% par trimestre (ex. 1 600 € → 1 590 € pour 1 trimestre manquant), soit préciser explicitement que l'exemple (1 600 € → 1 500 €) est purement illustratif et non conforme aux taux légaux. Idéal : recalculer l'exemple en montrant le calcul (0,625% × 1 600 € = 10 €).",
+    "Respecter la règle 'ne pas citer de taux ni de durée sans préciser la génération' : ajouter une phrase concise dans le script (ex. 'selon votre année de naissance et la réforme 2023 — pour beaucoup, le taux plein automatique intervient à 67 ans pour les générations nées à partir de 1955').",
+    "Clarifier la nuance sur la complémentaire : remplacer 'touche souvent aussi la complémentaire' par une phrase précise du type 'la réduction peut aussi réduire la retraite complémentaire selon ses règles : l'effet réel est souvent plus important que pour le seul régime de base'.",
+    "Ajuster le CTA pour qu'il soit clairement informatif et conforme à la non-consultation personnalisée : ex. 'Pour un point d'information, prenez rendez-vous via le lien dans ma bio' et, si des RDV payants sont proposés, ajouter une mention 'service payant' si applicable et les habilitations du professionnel si c'est un service réglementé.",
+    "Raccourcir le texte écran du CTA pour lisibilité sur Reels (une ligne courte plutôt qu'un long paragraphe).",
+    "Ajouter une action concrète à la fin (à l'écran et en voix) : 'Demandez votre relevé de carrière à l'Assurance retraite et vérifiez les périodes de travail, d'apprentissage, de maternité et de chômage avant de liquider.'",
+    "Reformuler la phrase sur l'annulation de la décote pour pédagogie : 'La décote n'est plus appliquée automatiquement à partir de 67 ans pour certaines générations, mais si des trimestres manquent, le montant peut rester réduit — vérifiez votre génération et vos trimestres.'",
+    "Faire une relecture mot à mot après corrections (contre-vérification) pour s'assurer qu'aucune formule chiffrée ou juridique incorrecte subsiste. Toute note inférieure à 10 impose une correction précise : corriger d'abord l'incohérence chiffrée avant toute republication."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-28:reels:retraite_decote_surcote:0",
+  "script_path": "scripts/retraite/retraite_decote_surcote__reels__a1__v15.md"
+}

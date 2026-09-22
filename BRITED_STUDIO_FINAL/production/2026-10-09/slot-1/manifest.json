@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-09",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-10-09:tiktok:culture_inflation:0",
+      "platform": "tiktok",
+      "title": "Ce que l'inflation fait à votre épargne",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/culture_financiere/culture_inflation__tiktok__a1__v2.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-10-09/slot-1/tiktok/culture_inflation__tiktok.mp4",
+      "duration": 40.0,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-10-09:tiktok:culture_inflation:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-10-09_tiktok_culture_inflation_0.json",
+        "validated_at": "2026-08-17T01:36:30"
+      },
+      "review_path": "data/reviews/2026-10-09_tiktok_culture_inflation_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-10-09/slot-1/tiktok/culture_inflation__tiktok.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-10-09/slot-1/tiktok/culture_inflation__tiktok.word-check.json"
+    },
+    {
+      "publication_id": "2026-10-09:reels:culture_inflation:0",
+      "platform": "reels",
+      "title": "Ce que l'inflation fait à votre épargne",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    },
+    {
+      "publication_id": "2026-10-09:shorts:culture_inflation:0",
+      "platform": "shorts",
+      "title": "Ce que l'inflation fait à votre épargne",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche respecte globalement les sources listées mais la mention « Les plus-values, elles, subissent le prélèvement forfaitaire » renvoie à une règle fiscale qui dépend du choix d'imposition (PFU ou option pour le barème) et, surtout, au taux du prélèvement forfaitaire unique (12,8 % hors prélèvements sociaux) qui n'est pas rappelé. Le script ne mentionne pas non plus explicitement que la distinction capitale/déductibilité renvoie à l'article 163 quatervicies pour la déduction et à l'article 158 CGI pour l'imposition des rentes — ces références figurent dans la fiche mais ne sont pas citées verbalement dans la vidéo."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message principal (capital réintégré au barème sans abattement de 10 % si versements déduits ; capital hors impôt si versements non déduits ; plus-values soumises au prélèvement forfaitaire) est exact mais trop synthétique sur deux points importants : (1) le PFU (prélèvement forfaitaire unique) et le taux applicable aux plus-values mobilières (12,8 % avant prélèvements sociaux) n'est pas précisé ; (2) l'énoncé pourrait laisser croire que l'abattement de 10 % s'applique automatiquement aux rentes issues de PER — il s'applique aux pensions et rentes viagères à titre gratuit dans des conditions fixées par le CGI et doit être présenté comme une règle distincte (article 158, 5), ce qui mérite une phrase clarificatrice."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo couvre la règle centrale, la condition clé et une exception utile (fractionnement) mais omet de préciser : (1) que le fractionnement doit être demandé et mis en oeuvre fiscalement (modalités pratiques non évoquées) ; (2) que les cas de déblocage anticipé (achat résidence principale, accidents de la vie) existent et méritent une mention brève pour éviter des questions récurrentes."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est efficace mais la séquence 'Choix : OUI / NON' peut créer de l'ambiguïté pour le spectateur (on ne comprend pas immédiatement ce que 'OUI' ou 'NON' signifient). Il vaudrait mieux remplacer par 'Capital ? Rente ?' ou 'Capital / Rente'."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et clair globalement, mais la phrase « Choix : OUI / NON. » est maladroite et gênante à l'oral. De plus, la formulation 'le capital réintègre le barème de l'impôt sur le revenu sans l'abattement de 10 % applicable aux pensions' est correcte mais gagnerait à être rendue plus audible (ex. « Si vous avez déduit vos versements, le capital récupéré est ajouté à vos revenus et imposé au barème — il n'y a pas l'abattement de 10 % qui s'applique aux pensions »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, certaines correspondances visuel/texte ne sont pas parfaitement alignées : ex. le texte écran « Déduits à l'entrée ? » au beat 3 correspond à la narration mais la mise en image 'Balance impôt / déduction, pictogramme document' risque de surcharger visuellement la courte durée. De plus, la répétition de l'appel à l'action dans la narration et le texte écran est acceptable, mais la mention 'lien dans ma bio' doit être compatible avec la plateforme et le profil (compte professionnel)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent, mais deux pictogrammes sont imprécis : (1) la 'balance impôt / déduction' peut prêter à interprétation visuelle — mieux vaut montrer un document fisc/une flèche vers 'IR' ; (2) l'icône « héritage partiellement barré » pour la rente doit être choisie avec soin pour éviter l'impression que la rente bloque systématiquement toute transmission (il faut suggérer 'transmission limitée selon options')."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est compréhensible pour un non-spécialiste mais deux points pourraient prêter à interprétation : (1) l'exemple des 80 000 € est utile mais il faudrait préciser qu'il s'agit d'un exemple illustratif et que l'impact dépend des autres revenus ; (2) le terme 'prélèvement forfaitaire' mérite une très brève précision (PFU) ou un renvoi vers la source pour un public non initié."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais la séquence 'Choix : OUI / NON' ralentit la progression d'information. Le rythme doit rester direct : hook immédiat puis règle clé. La vidéo estimée à 40 secondes est plausible mais serrée si on articule correctement les phrases et inclut les visuels proposés."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance mais l'absence de précision sur le traitement des plus-values (taux PFU) et la formulation 'rente limite souvent la transmission' sans nuance chiffrée ou renvoi peut donner une impression d'imprécision professionnelle. L'ajout d'une mention légale brève (déjà présente) et la conservation des sources suffisent, mais une phrase très courte rappelant 'exemple indicatif' améliorerait la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche respecte globalement les sources listées mais la mention « Les plus-values, elles, subissent le prélèvement forfaitaire » renvoie à une règle fiscale qui dépend du choix d'imposition (PFU ou option pour le barème) et, surtout, au taux du prélèvement forfaitaire unique (12,8 % hors prélèvements sociaux) qui n'est pas rappelé. Le script ne mentionne pas non plus explicitement que la distinction capitale/déductibilité renvoie à l'article 163 quatervicies pour la déduction et à l'article 158 CGI pour l'imposition des rentes — ces références figurent dans la fiche mais ne sont pas citées verbalement dans la vidéo.",
+    "juridique_fiscal : Le message principal (capital réintégré au barème sans abattement de 10 % si versements déduits ; capital hors impôt si versements non déduits ; plus-values soumises au prélèvement forfaitaire) est exact mais trop synthétique sur deux points importants : (1) le PFU (prélèvement forfaitaire unique) et le taux applicable aux plus-values mobilières (12,8 % avant prélèvements sociaux) n'est pas précisé ; (2) l'énoncé pourrait laisser croire que l'abattement de 10 % s'applique automatiquement aux rentes issues de PER — il s'applique aux pensions et rentes viagères à titre gratuit dans des conditions fixées par le CGI et doit être présenté comme une règle distincte (article 158, 5), ce qui mérite une phrase clarificatrice.",
+    "completude : La vidéo couvre la règle centrale, la condition clé et une exception utile (fractionnement) mais omet de préciser : (1) que le fractionnement doit être demandé et mis en oeuvre fiscalement (modalités pratiques non évoquées) ; (2) que les cas de déblocage anticipé (achat résidence principale, accidents de la vie) existent et méritent une mention brève pour éviter des questions récurrentes.",
+    "editorial : L'accroche est efficace mais la séquence 'Choix : OUI / NON' peut créer de l'ambiguïté pour le spectateur (on ne comprend pas immédiatement ce que 'OUI' ou 'NON' signifient). Il vaudrait mieux remplacer par 'Capital ? Rente ?' ou 'Capital / Rente'.",
+    "formulation_professionnelle : Le français est naturel et clair globalement, mais la phrase « Choix : OUI / NON. » est maladroite et gênante à l'oral. De plus, la formulation 'le capital réintègre le barème de l'impôt sur le revenu sans l'abattement de 10 % applicable aux pensions' est correcte mais gagnerait à être rendue plus audible (ex. « Si vous avez déduit vos versements, le capital récupéré est ajouté à vos revenus et imposé au barème — il n'y a pas l'abattement de 10 % qui s'applique aux pensions »).",
+    "contre_verification_finale : En relecture mot à mot, certaines correspondances visuel/texte ne sont pas parfaitement alignées : ex. le texte écran « Déduits à l'entrée ? » au beat 3 correspond à la narration mais la mise en image 'Balance impôt / déduction, pictogramme document' risque de surcharger visuellement la courte durée. De plus, la répétition de l'appel à l'action dans la narration et le texte écran est acceptable, mais la mention 'lien dans ma bio' doit être compatible avec la plateforme et le profil (compte professionnel).",
+    "coherence_pictogrammes : Globalement cohérent, mais deux pictogrammes sont imprécis : (1) la 'balance impôt / déduction' peut prêter à interprétation visuelle — mieux vaut montrer un document fisc/une flèche vers 'IR' ; (2) l'icône « héritage partiellement barré » pour la rente doit être choisie avec soin pour éviter l'impression que la rente bloque systématiquement toute transmission (il faut suggérer 'transmission limitée selon options').",
+    "pedagogie_client : Le contenu est compréhensible pour un non-spécialiste mais deux points pourraient prêter à interprétation : (1) l'exemple des 80 000 € est utile mais il faudrait préciser qu'il s'agit d'un exemple illustratif et que l'impact dépend des autres revenus ; (2) le terme 'prélèvement forfaitaire' mérite une très brève précision (PFU) ou un renvoi vers la source pour un public non initié.",
+    "retention_attention : Les deux premières secondes sont bonnes mais la séquence 'Choix : OUI / NON' ralentit la progression d'information. Le rythme doit rester direct : hook immédiat puis règle clé. La vidéo estimée à 40 secondes est plausible mais serrée si on articule correctement les phrases et inclut les visuels proposés.",
+    "conversion_confiance : Le ton inspire confiance mais l'absence de précision sur le traitement des plus-values (taux PFU) et la formulation 'rente limite souvent la transmission' sans nuance chiffrée ou renvoi peut donner une impression d'imprécision professionnelle. L'ajout d'une mention légale brève (déjà présente) et la conservation des sources suffisent, mais une phrase très courte rappelant 'exemple indicatif' améliorerait la crédibilité."
+  ],
+  "recommendations": [
+    "Remplacer 'Choix : OUI / NON' par 'Capital ? Rente ?' pour lever l'ambiguïté immédiate et améliorer la fluidité orale.",
+    "Ajouter une courte précision sur le traitement des plus-values : mentionner 'prélèvement forfaitaire unique (PFU) — 12,8 % hors prélèvements sociaux' ou, si manque de place, ajouter un texte écran renvoyant aux sources pour garder la brièveté.",
+    "Préciser brièvement que l'exemple '80 000 €' est illustratif et que l'impact dépend des autres revenus et de la situation individuelle.",
+    "Clarifier visuellement la balance 'déduction vs impôt' en privilégiant un visuel montrant un document marqué 'versements déduits' → flèche → 'IR' plutôt qu'une balance générique.",
+    "Ajouter une phrase très courte mentionnant l'existence des cas de déblocage anticipé (achat résidence principale, cas d'accidents de la vie) pour réduire les questions récurrentes.",
+    "Adoucir le pictogramme transmission pour la rente : utiliser une icône hérité partielle accompagnée d'un texte écran 'selon options' afin d'éviter toute affirmation trop catégorique.",
+    "Allonger légèrement les pauses ou raccourcir certaines phrases pour tenir les 40 secondes tout en gardant l'articulation claire — tester avec un doublage pour confirmer la durée.",
+    "Si possible, ajouter en légende ou en texte écran la référence au PFU et un renvoi aux articles mentionnés (L.224-5, CGI art.158 et art.163 quatervicies) pour permettre une vérification rapide par l'audience."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-19:reels:per_sortie_capital_rente:0",
+  "script_path": "scripts/per/per_sortie_capital_rente__reels__a6__v7.md"
+}

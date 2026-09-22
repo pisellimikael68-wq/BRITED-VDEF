@@ -1,0 +1,47 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "e889f04b98c07fe3a80cebf608fed669b1df88c7af0321e29d494abb819881fc",
+  "beat_hashes": {
+    "01_hook": "5dbb3512dd0ba5cb6984505bb89fa463c32589bb321aabf5d1d057973d54e5e6",
+    "02_reponse": "9b076cd79e13d1387a3c15285c58cebf6b3610aeb24150129eb549b86eff7caf",
+    "03_regle": "587fc0cd519ffbc40f6e1e93f3ac8802b1b921222167bc7acdcc7000d01e84a4",
+    "04_regle": "2c6cdb5ecb8c6eb05f522147b796712a7fae7f8c8d3fc832c014b3fa6ab6fd9b",
+    "05_regle": "c46f1c512f34f20c67744f6f1749aa0293d7b0d2cda5be3482744bdedf5e4a55",
+    "06_exemple": "e48a11ecdf9b28f6ad8d47de95b387a46de9af272a649c18481608e7dde8a1bc",
+    "07_nuance": "8c4971bffc9e6bae49791e44c6b6bc360f1c698044a2a728c7d66ea0bca3bdc4",
+    "08_cta": "a38acb655f92d6105c664aaad7c3eb9f98da045b0c99c844c7409cb900d4971f"
+  },
+  "spoken_texts": {
+    "01_hook": "Se marier sans contrat, est ce neutre ?",
+    "02_reponse": "Non. En l'absence de contrat, le régime légal est celui de la communauté réduite aux acquêts.",
+    "03_regle": "Entrent en principe dans la communauté les biens acquis pendant le mariage, ainsi que les gains, les salaires et les économies constituées avec ces revenus.",
+    "04_regle": "Restent propres les biens possédés avant le mariage, ainsi que ceux reçus personnellement par donation ou succession.",
+    "05_regle": "L'article deux cent vingt-trois permet cependant à chaque époux de percevoir ses gains et salaires et d'en disposer après s'être acquitté des charges du mariage.",
+    "06_exemple": "Exemple : un héritage reçu reste votre bien propre ; une paie épargnée pendant le mariage alimente la communauté.",
+    "07_nuance": "Attention au mélange de fonds : verser un héritage sur un compte commun crée un enjeu de preuve et peut entraîner une récompense.",
+    "08_cta": "Le saviez vous ? Commentez, partagez et abonnez vous pour mieux comprendre et protéger votre patrimoine."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

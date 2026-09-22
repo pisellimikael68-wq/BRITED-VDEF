@@ -1,0 +1,221 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la 'SOURCE DE VÉRITÉ' (articles cités, distinction rappel fiscal / rapport civil, exemple chiffré).",
+        "Manque une mention explicite, pourtant présente dans la fiche, sur la possibilité de consentir une donation 'hors part successorale' comme exception permettant d'avantager durablement un enfant dans la limite de la quotité disponible. La fiche indique que c'est une 'point de vigilance' indispensable à la compréhension complète.",
+        "Formulation ambivalente sur la valorisation : le texte du script dit 'en valeur au jour du partage selon le Code civil article 860' mais la fiche précise aussi 'd'après l'état du bien au jour de la donation' — il faut clarifier exactement la formulation pour éviter toute confusion factuelle mot à mot."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Règle centrale (donation présumée avance, art. 843) et distinction fiscale (CGI art. 784) sont correctement présentées.",
+        "Omission d'une mention nécessaire figurant dans la fiche : que la donation peut être consentie 'hors part successorale' et que cette solution reste limitée par la quotité disponible — information juridique importante pour éviter une généralisation trompeuse.",
+        "La phrase sur l'évaluation ('d'après l'état du bien au jour de la donation') peut prêter à confusion juridique si elle est lue littéralement ; il faut préciser que le rapport est effectué en valeur au jour du partage, la détermination du montant pouvant tenir compte de la valeur initiale et de l'évolution (référence art. 860 à citer textuellement ou reformuler précisément)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script présente la règle, l'exemple et la nuance fiscale, ce qui couvre l'essentiel demandé.",
+        "Il manque l'exception utile et indispensable: la donation 'hors part successorale' et la donation-partage (qui fige les valeurs si tous les enfants y participent). La fiche met en avant ces points comme compléments importants.",
+        "Aucune information sur l'obligation de déclarer une donation ancienne au notaire n'est fournie, alors que 'questions_clients' de la fiche inclut cette interrogation — omettre une réponse ou une mention minimale peut être perçu comme une lacune pour l'usage pratique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est structuré pour Reels (durée, hooks, CTA) et respecte l'ordre des séquences fourni.",
+        "Visuels et textes d'écran sont conformes, mais la densité peut être légèrement élevée pour 40 s ; il faudra s'assurer en production que chaque beat reste très court.",
+        "Manque d'une phrase courte intégrée au script (ou au texte écran) rappelant l'absence de conseil personnalisé, alors que la mention existe dans la légende — sur Reels, il est préférable de rendre explicite cette nuance dès la vidéo ou au moins dans le premier écran."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace et ton direct adaptés à Reels ; progression logique et CTA présent.",
+        "Formulation de la nuance fiscale ('l'abattement fiscal peut s'éteindre après quinze ans') est correcte mais gagnerait en clarté en précisant que cela concerne l'abattement fiscal sur droits de donation (CGI art. 784).",
+        "Le script omet l'exception 'hors part successorale' qui affaiblit la complétude éditoriale et la perception d'exhaustivité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est pédagogique, neutre et sourcé, et inclut la légende précisant l'absence de conseil personnalisé.",
+        "Aucune incitation à dissimuler information au notaire — respect de la règle 'a_ne_pas_dire'.",
+        "Il manque une mise en garde courte en vidéo (en plus de la légende) rappelant qu'il ne s'agit pas d'un conseil personnalisé, pour éviter tout risque de lecture comme conseil juridique spécifique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel, clair et adapté au format oral court.",
+        "Une phrase longue: 'Une donation à un enfant est présumée avance sur sa part et doit être rapportée à la succession selon le Code civil article 843, en valeur au jour du partage selon le Code civil article 860.' — recommandation de scinder pour faciliter la diction et la mémorisation.",
+        "Clarifier la formulation sur la valeur (voir remarques précédentes) pour éviter toute prononciation qui pourrait paraître contradictoire."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script maintient cohérence question-réponse et enchaînements logiques.",
+        "Cependant, un élément majeur de la fiche (donation hors part successorale / donation-partage) n'apparaît pas dans la vidéo ; cela constitue une omission localisable et contraire à l'exhaustivité demandée par la contre-vérification.",
+        "L'exemple chiffré est correct, mais la phrase sur la valorisation mérite reformulation pour garantir parfaite fidélité mot à mot aux articles cités."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés illustrent bien les idées (famille, bâtiment, impôt, horloge, calendrier).",
+        "Le libellé 'schéma pictogrammes : parent → flèche \"avance\" → masse successorale et balance' est pertinent mais il faut s'assurer que la balance illustre l'égalité entre héritiers (à préciser pour le graphiste).",
+        "Rien ne mentionne visuellement l'exception 'hors part successorale' — or la fiche la considère comme point de vigilance important et il faudrait un pictogramme court si on l'ajoute."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite d'un seul angle (pourquoi une donation ancienne ressort) et reste globalement concise.",
+        "Toutefois, la fiche demande d'inclure 'sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources' — l'exception indispensable (hors part successorale / donation-partage) est absente, ce qui empêche la pleine conformité à la contrainte de densité éditoriale."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est compréhensible pour un non-spécialiste, le hook est efficace et l'exemple chiffré concret aide la compréhension.",
+        "Toutefois, l'explication ne mentionne pas la possibilité d'éviter le rapport (donation hors part successorale, donation-partage), qui est une information pédagogique utile pour un client souhaitant 'avantager un enfant sans créer un conflit' (question client listée).",
+        "Il serait utile d'ajouter une très brève phrase expliquant qu'il existe des mécanismes légaux pour limiter le rapport (avec réserve sur quotité), sans donner un conseil personnalisé."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes et la progression maintient l'attention.",
+        "Le risque est la surcharge de la nuance fiscale en un seul beat ; il faudra vérifier le rythme et couper la phrase en deux pour garder l'attention jusqu'au CTA.",
+        "Ajouter une micro-pause ou un mot de transition avant l'exemple chiffré améliorerait la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu inspire sérieux (références légales citées en sources) et le CTA est posé sans pression commerciale.",
+        "Pour renforcer la confiance, ajouter très brièvement en vidéo (ou sur un écran) la mention 'renseignements personnalisés: rendez-vous' et la légende d'exclusion de conseil (déjà prévue) améliorerait la conversion.",
+        "Omission de l'exception notable ('hors part successorale') peut nuire à la perception d'exhaustivité par un spectateur informé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la 'SOURCE DE VÉRITÉ' (articles cités, distinction rappel fiscal / rapport civil, exemple chiffré).",
+    "source : Manque une mention explicite, pourtant présente dans la fiche, sur la possibilité de consentir une donation 'hors part successorale' comme exception permettant d'avantager durablement un enfant dans la limite de la quotité disponible. La fiche indique que c'est une 'point de vigilance' indispensable à la compréhension complète.",
+    "source : Formulation ambivalente sur la valorisation : le texte du script dit 'en valeur au jour du partage selon le Code civil article 860' mais la fiche précise aussi 'd'après l'état du bien au jour de la donation' — il faut clarifier exactement la formulation pour éviter toute confusion factuelle mot à mot.",
+    "juridique_fiscal : Règle centrale (donation présumée avance, art. 843) et distinction fiscale (CGI art. 784) sont correctement présentées.",
+    "juridique_fiscal : Omission d'une mention nécessaire figurant dans la fiche : que la donation peut être consentie 'hors part successorale' et que cette solution reste limitée par la quotité disponible — information juridique importante pour éviter une généralisation trompeuse.",
+    "juridique_fiscal : La phrase sur l'évaluation ('d'après l'état du bien au jour de la donation') peut prêter à confusion juridique si elle est lue littéralement ; il faut préciser que le rapport est effectué en valeur au jour du partage, la détermination du montant pouvant tenir compte de la valeur initiale et de l'évolution (référence art. 860 à citer textuellement ou reformuler précisément).",
+    "completude : Le script présente la règle, l'exemple et la nuance fiscale, ce qui couvre l'essentiel demandé.",
+    "completude : Il manque l'exception utile et indispensable: la donation 'hors part successorale' et la donation-partage (qui fige les valeurs si tous les enfants y participent). La fiche met en avant ces points comme compléments importants.",
+    "completude : Aucune information sur l'obligation de déclarer une donation ancienne au notaire n'est fournie, alors que 'questions_clients' de la fiche inclut cette interrogation — omettre une réponse ou une mention minimale peut être perçu comme une lacune pour l'usage pratique.",
+    "plateforme : Le script est structuré pour Reels (durée, hooks, CTA) et respecte l'ordre des séquences fourni.",
+    "plateforme : Visuels et textes d'écran sont conformes, mais la densité peut être légèrement élevée pour 40 s ; il faudra s'assurer en production que chaque beat reste très court.",
+    "plateforme : Manque d'une phrase courte intégrée au script (ou au texte écran) rappelant l'absence de conseil personnalisé, alors que la mention existe dans la légende — sur Reels, il est préférable de rendre explicite cette nuance dès la vidéo ou au moins dans le premier écran.",
+    "editorial : Accroche efficace et ton direct adaptés à Reels ; progression logique et CTA présent.",
+    "editorial : Formulation de la nuance fiscale ('l'abattement fiscal peut s'éteindre après quinze ans') est correcte mais gagnerait en clarté en précisant que cela concerne l'abattement fiscal sur droits de donation (CGI art. 784).",
+    "editorial : Le script omet l'exception 'hors part successorale' qui affaiblit la complétude éditoriale et la perception d'exhaustivité.",
+    "securite : Le script est pédagogique, neutre et sourcé, et inclut la légende précisant l'absence de conseil personnalisé.",
+    "securite : Aucune incitation à dissimuler information au notaire — respect de la règle 'a_ne_pas_dire'.",
+    "securite : Il manque une mise en garde courte en vidéo (en plus de la légende) rappelant qu'il ne s'agit pas d'un conseil personnalisé, pour éviter tout risque de lecture comme conseil juridique spécifique.",
+    "formulation_professionnelle : Le français est naturel, clair et adapté au format oral court.",
+    "formulation_professionnelle : Une phrase longue: 'Une donation à un enfant est présumée avance sur sa part et doit être rapportée à la succession selon le Code civil article 843, en valeur au jour du partage selon le Code civil article 860.' — recommandation de scinder pour faciliter la diction et la mémorisation.",
+    "formulation_professionnelle : Clarifier la formulation sur la valeur (voir remarques précédentes) pour éviter toute prononciation qui pourrait paraître contradictoire.",
+    "contre_verification_finale : Le script maintient cohérence question-réponse et enchaînements logiques.",
+    "contre_verification_finale : Cependant, un élément majeur de la fiche (donation hors part successorale / donation-partage) n'apparaît pas dans la vidéo ; cela constitue une omission localisable et contraire à l'exhaustivité demandée par la contre-vérification.",
+    "contre_verification_finale : L'exemple chiffré est correct, mais la phrase sur la valorisation mérite reformulation pour garantir parfaite fidélité mot à mot aux articles cités.",
+    "coherence_pictogrammes : Les pictogrammes proposés illustrent bien les idées (famille, bâtiment, impôt, horloge, calendrier).",
+    "coherence_pictogrammes : Le libellé 'schéma pictogrammes : parent → flèche \"avance\" → masse successorale et balance' est pertinent mais il faut s'assurer que la balance illustre l'égalité entre héritiers (à préciser pour le graphiste).",
+    "coherence_pictogrammes : Rien ne mentionne visuellement l'exception 'hors part successorale' — or la fiche la considère comme point de vigilance important et il faudrait un pictogramme court si on l'ajoute.",
+    "densite_editoriale : La vidéo traite d'un seul angle (pourquoi une donation ancienne ressort) et reste globalement concise.",
+    "densite_editoriale : Toutefois, la fiche demande d'inclure 'sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources' — l'exception indispensable (hors part successorale / donation-partage) est absente, ce qui empêche la pleine conformité à la contrainte de densité éditoriale.",
+    "pedagogie_client : Le contenu est compréhensible pour un non-spécialiste, le hook est efficace et l'exemple chiffré concret aide la compréhension.",
+    "pedagogie_client : Toutefois, l'explication ne mentionne pas la possibilité d'éviter le rapport (donation hors part successorale, donation-partage), qui est une information pédagogique utile pour un client souhaitant 'avantager un enfant sans créer un conflit' (question client listée).",
+    "pedagogie_client : Il serait utile d'ajouter une très brève phrase expliquant qu'il existe des mécanismes légaux pour limiter le rapport (avec réserve sur quotité), sans donner un conseil personnalisé.",
+    "retention_attention : Les deux premières secondes (hook) sont fortes et la progression maintient l'attention.",
+    "retention_attention : Le risque est la surcharge de la nuance fiscale en un seul beat ; il faudra vérifier le rythme et couper la phrase en deux pour garder l'attention jusqu'au CTA.",
+    "retention_attention : Ajouter une micro-pause ou un mot de transition avant l'exemple chiffré améliorerait la rétention.",
+    "conversion_confiance : Le contenu inspire sérieux (références légales citées en sources) et le CTA est posé sans pression commerciale.",
+    "conversion_confiance : Pour renforcer la confiance, ajouter très brièvement en vidéo (ou sur un écran) la mention 'renseignements personnalisés: rendez-vous' et la légende d'exclusion de conseil (déjà prévue) améliorerait la conversion.",
+    "conversion_confiance : Omission de l'exception notable ('hors part successorale') peut nuire à la perception d'exhaustivité par un spectateur informé."
+  ],
+  "recommendations": [
+    "Ajouter une courte phrase (20–25 signes à l'écran / 4–6 mots prononcés) mentionnant l'exception : 'Sauf donation consentie hors part successorale (dans la limite de la quotité disponible).' Insérer cette phrase après le beat 4 (règle) ou juste avant le CTA.",
+    "Clarifier mot à mot la formulation sur la valorisation : remplacer la phrase ambiguë par 'Le rapport se calcule en valeur au jour du partage (Code civil, art. 860) — même si le bien a pris de la valeur depuis la donation.' Ceci évite la contradiction et colle à la source.",
+    "Ajouter très brièvement (vidéo ou écran) une très courte mention de la donation-partage : 'La donation‑partage, si tous les enfants y participent, fige les valeurs et échappe au rapport.'",
+    "Scinder la phrase longue de la régie en deux phrases plus courtes pour la diction : 1) 'Une donation à un enfant est présumée être une avance sur sa part (Code civil, art. 843).' 2) 'Au décès, cette avance est rapportée au partage en valeur au jour du partage (art. 860).' ",
+    "Inclure sur un écran (ou dans la voix off) une brève mention que la vidéo est un contenu pédagogique et non un conseil personnalisé, en plus de la légende, afin de réduire tout risque d'interprétation comme conseil juridique spécifique.",
+    "Faire relire et timée la version finale (lecture à rythme réel) pour garantir que le tout tient dans 40 s et que chaque beat reste court. Vérifier que les pictogrammes illustrent explicitement l'égalité (balance) et, si vous ajoutez l'exception, prévoir un pictogramme distinct (par ex. cadenas/limite) pour 'hors part successorale'."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-03:reels:donation_rapport_civil:1",
+  "script_path": "scripts/donation/donation_rapport_civil__reels__a5__v7.md"
+}

@@ -1,0 +1,178 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.69,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence factuelle mineure entre la fiche et le script : la fiche précise que la garantie du fonds en euros est « nette de frais de gestion » (section 'Le point de vigilance' et 'chiffres'), alors que l'étape 3 du script indique « nette des frais d'entrée ». Il faut harmoniser la formulation : la garantie porte sur le capital versé net des frais d'entrée mais le rendement affiché est réduit chaque année par les frais de gestion. Actuellement le script peut prêter à confusion sur ce point."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La référence légale est fournie (Code des assurances L.131-1 et L.132-21) et pertinente. Toutefois, la phrase « Fonds en euros : garantie du capital versé nette des frais d'entrée » nécessite précision juridique : la garantie porte sur le capital investi net des frais d'entrée facturés à l'entrée et sur lequel l'assureur s'engage, mais la formulation devrait expliciter que l'assureur garantit le capital (sous réserve des conditions contractuelles et des dispositions légales) et que les UC ne sont pas garanties (l'assureur garantit seulement le nombre d'unités). Le script doit éviter toute généralisation sur 'garantie' sans ajouter 'selon les conditions du contrat'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Manque d'une précision importante dans l'exemple : l'écran indique « Exemple (cas fictif) : besoin dans 2 ans → UC -20% = perte si vente » — il faut explicitement afficher 'cas fictif' sur écran (la règle autorise un exemple chiffré s'il est fictif) ; le script oral le mentionne mais le visuel doit l'afficher clairement pour éviter toute interprétation comme conseil. ",
+        "La fiche insiste que les frais sont le seul paramètre connu à l'avance ; le script ne reprend pas textuellement cette clarification qui est importante pour la comparaison de contrats."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40 secondes cohérente, séquençage adapté au format Reels. Néanmoins veiller à la lisibilité des cartons texte : l'écran 2 inclut beaucoup d'informations (question + OUI/NON) — risqué pour 2 premières secondes (rétention). Recommander d'alléger le texte du hook/second écran pour respecter 'force des deux premières secondes'."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton clair et accrocheur. Points à corriger : formulation répétitive de la question dans la narration continue (redondance risque d'alourdir 40s), et l'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' est acceptable mais doit être présenté comme une proposition d'information et non de conseil personnalisé (la légende le précise, mais le CTA oral/visuel devrait aussi éviter toute promesse de conseil financier spécifique)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et neutre, la légende mentionne l'absence de conseil personnalisé. Toutefois l'énoncé de l'étape 7 (CTA) peut être perçu comme une incitation au conseil personnalisé ; il convient d'ajouter une courte mention orale ou visuelle précisant 'point d'information' ou 'bilan général' et de rappeler l'absence de recommandation personnalisée si un rendez-vous mène à du conseil payant."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations à améliorer pour un français naturel et précis : par exemple remplacer 'Les unités de compte ne garantissent pas la valeur.' par 'Les unités de compte ne garantissent pas la valeur des actifs : l'assureur garantit le nombre d'unités, pas leur prix.'",
+        "La phrase 'La garantie euros est portée par l'assureur et les frais de gestion annuels réduisent le capital net.' est techniquement correcte mais peut être perçue comme maladroite — préciser 'réduisent le rendement' ou 'affectent le capital disponible via prélèvement annuel de frais' pour être exact et clair."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements globalement cohérents mais présence d'une petite incohérence interne sur les 'frais' (cf. source agent). Vérifier mot à mot que chaque phrase parlée est strictement fidèle à la fiche et aux mentions légales ; par exemple l'affirmation 'Fonds en euros = capital garanti net des frais d'entrée' doit être accompagnée d'une mention sur les frais de gestion annuels pour éviter contradiction ultérieure."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés (bouclier pour fonds en euros, graphique variable pour UC, calendrier pour horizon) sont pertinents. Observation : l'icône 'assureur' mentionnée à l'étape 6 doit être un symbole clairement identifiable comme une compagnie d'assurance (bâtiment/contrat) pour éviter ambiguïté. De plus, l'écran 2 utilise trop d'éléments (question + deux cases OUI/NON) qui peuvent nuire à la lisibilité ; simplifier le visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle. Pour gagner en densité et clarté, il faut expliciter brièvement la condition majeure (horizon + capacité à ne pas vendre) dès le hook ou l'écran 2, et mentionner le rôle des frais comme unique paramètre connu à l'avance — actuellement ce dernier point n'est pas assez mis en avant dans le script."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Niveau grand public respecté. Recommandation : remplacer le jargon 'unités de compte' par un court rappel entre parenthèses ('placements soumis aux marchés') sur l'écran 3 pour aider le non-spécialiste au premier passage.",
+        "S'assurer que le terme 'garantie' est immédiatement suivi d'une phrase expliquant ce que couvre la garantie (capital investi net des frais d'entrée) et ce qu'elle ne couvre pas (rendement futur, inflation)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bon début avec une accroche émotionnelle. Toutefois la question large sur l'écran 2 + le détail légal risquent d'affaiblir l'attention dans les 2 premières secondes. Conseil : raccourcir l'écran 2 et placer la question complémentaire à l'écran 4 pour maintenir la progression de curiosité."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script instaure une image sérieuse et sourcée. Pour renforcer la confiance, afficher visuellement la mention 'Sources : Code des assurances, AMF, ACPR' brièvement en fin d'écran (ou en description) et, si possible, ajouter 'Contenu pédagogique général' dans le slide du CTA afin d'éviter toute impression de conseil personnalisé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence factuelle mineure entre la fiche et le script : la fiche précise que la garantie du fonds en euros est « nette de frais de gestion » (section 'Le point de vigilance' et 'chiffres'), alors que l'étape 3 du script indique « nette des frais d'entrée ». Il faut harmoniser la formulation : la garantie porte sur le capital versé net des frais d'entrée mais le rendement affiché est réduit chaque année par les frais de gestion. Actuellement le script peut prêter à confusion sur ce point.",
+    "juridique_fiscal : La référence légale est fournie (Code des assurances L.131-1 et L.132-21) et pertinente. Toutefois, la phrase « Fonds en euros : garantie du capital versé nette des frais d'entrée » nécessite précision juridique : la garantie porte sur le capital investi net des frais d'entrée facturés à l'entrée et sur lequel l'assureur s'engage, mais la formulation devrait expliciter que l'assureur garantit le capital (sous réserve des conditions contractuelles et des dispositions légales) et que les UC ne sont pas garanties (l'assureur garantit seulement le nombre d'unités). Le script doit éviter toute généralisation sur 'garantie' sans ajouter 'selon les conditions du contrat'.",
+    "completude : Manque d'une précision importante dans l'exemple : l'écran indique « Exemple (cas fictif) : besoin dans 2 ans → UC -20% = perte si vente » — il faut explicitement afficher 'cas fictif' sur écran (la règle autorise un exemple chiffré s'il est fictif) ; le script oral le mentionne mais le visuel doit l'afficher clairement pour éviter toute interprétation comme conseil. ",
+    "completude : La fiche insiste que les frais sont le seul paramètre connu à l'avance ; le script ne reprend pas textuellement cette clarification qui est importante pour la comparaison de contrats.",
+    "plateforme : Durée estimée 40 secondes cohérente, séquençage adapté au format Reels. Néanmoins veiller à la lisibilité des cartons texte : l'écran 2 inclut beaucoup d'informations (question + OUI/NON) — risqué pour 2 premières secondes (rétention). Recommander d'alléger le texte du hook/second écran pour respecter 'force des deux premières secondes'.",
+    "editorial : Ton clair et accrocheur. Points à corriger : formulation répétitive de la question dans la narration continue (redondance risque d'alourdir 40s), et l'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' est acceptable mais doit être présenté comme une proposition d'information et non de conseil personnalisé (la légende le précise, mais le CTA oral/visuel devrait aussi éviter toute promesse de conseil financier spécifique).",
+    "securite : Le contenu est pédagogique et neutre, la légende mentionne l'absence de conseil personnalisé. Toutefois l'énoncé de l'étape 7 (CTA) peut être perçu comme une incitation au conseil personnalisé ; il convient d'ajouter une courte mention orale ou visuelle précisant 'point d'information' ou 'bilan général' et de rappeler l'absence de recommandation personnalisée si un rendez-vous mène à du conseil payant.",
+    "formulation_professionnelle : Quelques formulations à améliorer pour un français naturel et précis : par exemple remplacer 'Les unités de compte ne garantissent pas la valeur.' par 'Les unités de compte ne garantissent pas la valeur des actifs : l'assureur garantit le nombre d'unités, pas leur prix.'",
+    "formulation_professionnelle : La phrase 'La garantie euros est portée par l'assureur et les frais de gestion annuels réduisent le capital net.' est techniquement correcte mais peut être perçue comme maladroite — préciser 'réduisent le rendement' ou 'affectent le capital disponible via prélèvement annuel de frais' pour être exact et clair.",
+    "contre_verification_finale : Enchaînements globalement cohérents mais présence d'une petite incohérence interne sur les 'frais' (cf. source agent). Vérifier mot à mot que chaque phrase parlée est strictement fidèle à la fiche et aux mentions légales ; par exemple l'affirmation 'Fonds en euros = capital garanti net des frais d'entrée' doit être accompagnée d'une mention sur les frais de gestion annuels pour éviter contradiction ultérieure.",
+    "coherence_pictogrammes : Les pictogrammes proposés (bouclier pour fonds en euros, graphique variable pour UC, calendrier pour horizon) sont pertinents. Observation : l'icône 'assureur' mentionnée à l'étape 6 doit être un symbole clairement identifiable comme une compagnie d'assurance (bâtiment/contrat) pour éviter ambiguïté. De plus, l'écran 2 utilise trop d'éléments (question + deux cases OUI/NON) qui peuvent nuire à la lisibilité ; simplifier le visuel.",
+    "densite_editoriale : La vidéo traite bien un seul angle. Pour gagner en densité et clarté, il faut expliciter brièvement la condition majeure (horizon + capacité à ne pas vendre) dès le hook ou l'écran 2, et mentionner le rôle des frais comme unique paramètre connu à l'avance — actuellement ce dernier point n'est pas assez mis en avant dans le script.",
+    "pedagogie_client : Niveau grand public respecté. Recommandation : remplacer le jargon 'unités de compte' par un court rappel entre parenthèses ('placements soumis aux marchés') sur l'écran 3 pour aider le non-spécialiste au premier passage.",
+    "pedagogie_client : S'assurer que le terme 'garantie' est immédiatement suivi d'une phrase expliquant ce que couvre la garantie (capital investi net des frais d'entrée) et ce qu'elle ne couvre pas (rendement futur, inflation).",
+    "retention_attention : Bon début avec une accroche émotionnelle. Toutefois la question large sur l'écran 2 + le détail légal risquent d'affaiblir l'attention dans les 2 premières secondes. Conseil : raccourcir l'écran 2 et placer la question complémentaire à l'écran 4 pour maintenir la progression de curiosité.",
+    "conversion_confiance : Le script instaure une image sérieuse et sourcée. Pour renforcer la confiance, afficher visuellement la mention 'Sources : Code des assurances, AMF, ACPR' brièvement en fin d'écran (ou en description) et, si possible, ajouter 'Contenu pédagogique général' dans le slide du CTA afin d'éviter toute impression de conseil personnalisé."
+  ],
+  "recommendations": [
+    "Harmoniser toutes les occurrences relatives aux frais : préciser clairement dans l'étape 3 et la narration que la garantie du fonds en euros porte sur le capital investi net des frais d'entrée facturés à l'entrée, ET rappeler explicitement que les frais de gestion annuels réduisent chaque année le rendement/net du contrat. Exemple de phrase unifiée : 'Le fonds en euros garantit le capital investi (après frais d'entrée), mais des frais de gestion annuels réduisent le rendement net.'",
+    "Afficher 'CAS FICTIF' clairement sur le visuel de l'exemple (étape 5) pour respecter la règle d'absence de conseil personnalisé.",
+    "Alléger le texte du second écran (hook) pour maximiser l'impact dans les 2 premières secondes : conserver une version courte de la question à l'écran et détailler la règle (horizon + capacité à ne pas vendre) sur l'écran suivant.",
+    "Modifier certaines formulations pour plus de clarté grand public : remplacer 'Les unités de compte ne garantissent pas la valeur.' par 'Les unités de compte ne garantissent pas la valeur des actifs : l'assureur garantit le nombre d'unités, pas leur prix (qui suit les marchés).'",
+    "Sur l'écran du CTA, ajouter une courte précision visuelle/verbale indiquant 'Point d'information général — pas un conseil personnalisé' pour rester conforme à la légende et à la sécurité juridique.",
+    "S'assurer que les pictogrammes sont explicites : utiliser un symbole contractuel/bâtiment pour 'assureur', simplifier l'écran 2 pour éviter surcharge et vérifier la lisibilité des textes (contrastes, taille) sur mobile.",
+    "Ajouter brièvement en fin de vidéo ou dans la description la mention des sources citées (Code des assurances, AMF, ACPR) pour renforcer crédibilité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-22:reels:assurance_vie_fonds_euros_uc:1",
+  "script_path": "scripts/assurance_vie/assurance_vie_fonds_euros_uc__reels__a4__v3.md"
+}

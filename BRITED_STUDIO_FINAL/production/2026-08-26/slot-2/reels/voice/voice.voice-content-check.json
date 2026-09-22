@@ -1,0 +1,104 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Vous apprenez le décès d'un proche et vous pensez à l'assurance vie ?",
+      "transcript": "Vous apprenez le décès d'un proche et vous pensez à l'assurance vie ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9351,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "L'abattement de cent cinquante deux mille cinq cents euros s'applique t il ?",
+      "transcript": "L'abattement de 152 500 euros s'applittait-il ?",
+      "similarity": 0.8889,
+      "missing": [
+        "applique",
+        "t"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "applittait"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8545,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui, pour les primes versées avant soixante-dix ans, chaque bénéficiaire a cent cinquante deux mille cinq cents euros.",
+      "transcript": "Oui, pour les primes versées avant 70 ans, chaque bénéficiaire a 152 500 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9762,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Au delà, la part taxable est imposée à vingt pour cent jusqu'à sept cent mille euros, puis à trente et un virgule vingt cinq pour cent.",
+      "transcript": "Au-delà, la part taxable est imposée à 20% jusqu'à 700 000 euros, puis à 31,25%.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9551,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Par exemple, trois bénéficiaires représentent trois × cent cinquante deux mille cinq cents euros, soit quatre cent cinquante sept mille cinq cents euros sans taxation.",
+      "transcript": "Par exemple, 3 bénéficiaires représentent 350 2500 euros, soit 457 500 euros sans taxation.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0444,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Pour les primes versées après soixante-dix ans, l'abattement global de trente mille cinq cents euros est partagé ; les gains attachés à ces primes restent exonérés.",
+      "transcript": "Pour les primes versées après 70 ans, l'abattement global de 30 500 euros est partagé. Les gains attachés à ces primes restent exonérés.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.144,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation, prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1059,
+      "passed": true
+    }
+  ]
+}

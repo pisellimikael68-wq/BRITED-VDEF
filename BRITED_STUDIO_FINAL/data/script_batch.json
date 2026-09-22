@@ -1,0 +1,346 @@
+{
+  "status": "blocked",
+  "started_at": "2026-09-05T08:00:44",
+  "start": "2026-09-06",
+  "days": 7,
+  "platforms": [
+    "shorts"
+  ],
+  "remediation_round": 5,
+  "maximum_remediation_rounds": 5,
+  "items": [
+    {
+      "publication_id": "2026-09-06:shorts:don_familial_790g:0",
+      "date": "2026-09-06",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "Don familial d’argent : à quoi correspondent les 31 865 € ?",
+      "status": "certified",
+      "path": "scripts/donation/don_familial_790g__shorts__a1__v8.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-06_shorts_don_familial_790g_0.json",
+      "completed_at": "2026-09-07T10:19:27",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-06:shorts:donation_rapport_civil:1",
+      "date": "2026-09-06",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Pourquoi une ancienne donation peut compter lors d’une succession",
+      "status": "certified",
+      "path": "scripts/donation/donation_rapport_civil__shorts__a1__v12.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-06_shorts_donation_rapport_civil_1.json",
+      "completed_at": "2026-09-07T10:21:32",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-07:shorts:etf_replication_indicielle:0",
+      "date": "2026-09-07",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "ETF : dans quoi investissez-vous réellement ?",
+      "status": "blocked",
+      "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v26.md",
+      "error": "Performance plateforme : 8.0/10, seuil 10.0/10",
+      "review_path": "data/reviews/2026-09-07_shorts_etf_replication_indicielle_0.json",
+      "completed_at": "2026-09-20T23:09:17",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 1,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 7.4/10, seuil 10.0/10",
+          "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v22.md",
+          "review_path": "data/reviews/2026-09-07_shorts_etf_replication_indicielle_0.json"
+        },
+        {
+          "round": 2,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 3,
+          "error": "Narration continue différente de la concaténation des beats · Performance plateforme : 8.1/10, seuil 10.0/10",
+          "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v24.md",
+          "review_path": "data/reviews/2026-09-07_shorts_etf_replication_indicielle_0.json"
+        },
+        {
+          "round": 4,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 8.1/10, seuil 10.0/10",
+          "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v25.md",
+          "review_path": "data/reviews/2026-09-07_shorts_etf_replication_indicielle_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+      "date": "2026-09-07",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Pendant combien de temps le fisc peut-il contrôler vos déclarations ?",
+      "status": "certified",
+      "path": "scripts/fiscalite/fiscalite_controle_fiscal__shorts__a1__v11.md",
+      "error": ""
+    },
+    {
+      "publication_id": "2026-09-08:shorts:fiscalite_plafonnement_niches:0",
+      "date": "2026-09-08",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "Réductions d’impôt : que limite réellement le plafond de 10 000 € ?",
+      "status": "certified",
+      "path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a1__v11.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-08_shorts_fiscalite_plafonnement_niches_0.json",
+      "completed_at": "2026-09-20T22:27:39",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 1,
+          "error": "Narration continue différente de la concaténation des beats · Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 7.9/10, seuil 10.0/10",
+          "path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a1__v10.md",
+          "review_path": "data/reviews/2026-09-08_shorts_fiscalite_plafonnement_niches_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-08:shorts:fiscalite_quotient_familial:1",
+      "date": "2026-09-08",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Enfant à charge : la baisse d’impôt est-elle la même pour tous ?",
+      "status": "certified",
+      "path": "scripts/fiscalite/fiscalite_quotient_familial__shorts__a1__v8.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-08_shorts_fiscalite_quotient_familial_1.json",
+      "completed_at": "2026-09-07T09:50:47"
+    },
+    {
+      "publication_id": "2026-09-09:shorts:fonds_investissement_frais:0",
+      "date": "2026-09-09",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "Fonds d’investissement : les frais que votre relevé ne montre pas clairement",
+      "status": "blocked",
+      "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v19.md",
+      "error": "Valeur concrète : aucun réflexe pratique précis et immédiatement utilisable avant le CTA · Performance plateforme : 7.2/10, seuil 10.0/10",
+      "review_path": "data/reviews/2026-09-09_shorts_fonds_investissement_frais_0.json",
+      "completed_at": "2026-09-20T23:12:35",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "Série Finance : la nature exacte du contrat ou du produit doit être précisée dans la même phrase · formulation_professionnelle : {'element': 'Narration / Beat 1 hook', 'texte_exact': \"Vos frais de fonds n'apparaissent jamais sur votre relevé ou dans votre contrat.\", 'probleme': \"Usage de « votre contrat » sans préciser le type de contrat dans la même phrase. La règle BRITED exige que l'on ne dise pas « votre contrat » quand le type (ex. assurance‑vie) n'est pas nommé dans la même phrase, car le référent devient ambigu pour un non‑spécialiste.\"} · contre_verification_finale : {'element': 'Narration / Hook', 'texte_exact': \"Vos frais de fonds n'apparaissent jamais sur votre relevé ou dans votre contrat.\", 'probleme': \"Seconde lecture indépendante : la phrase inclut « votre contrat » avant que le script précise plus bas (beat 5) le type de contrat (« assurance‑vie ou un autre contrat »). Cette anaphore viole la consigne d'exactitude de référent et doit être reformulée pour nommer le type immédiatement (par ex. « ...sur votre relevé ou dans un contrat comme une assurance‑vie »).\"}",
+          "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v12.md",
+          "review_path": "data/reviews/2026-09-09_shorts_fonds_investissement_frais_0.json"
+        },
+        {
+          "round": 1,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 2,
+          "error": "Performance plateforme : 7.6/10, seuil 10.0/10",
+          "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v16.md",
+          "review_path": "data/reviews/2026-09-09_shorts_fonds_investissement_frais_0.json"
+        },
+        {
+          "round": 3,
+          "error": "Performance plateforme : 8.4/10, seuil 10.0/10",
+          "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v17.md",
+          "review_path": "data/reviews/2026-09-09_shorts_fonds_investissement_frais_0.json"
+        },
+        {
+          "round": 4,
+          "error": "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation · Performance plateforme : 7.8/10, seuil 10.0/10",
+          "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v18.md",
+          "review_path": "data/reviews/2026-09-09_shorts_fonds_investissement_frais_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-09:shorts:ifi_seuil_declenchement:1",
+      "date": "2026-09-09",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "IFI : pourquoi le seuil de 1,3 M€ n’est pas le début du calcul",
+      "status": "certified",
+      "path": "scripts/ifi/ifi_seuil_declenchement__shorts__a2__v8.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-09_shorts_ifi_seuil_declenchement_1.json",
+      "completed_at": "2026-09-07T09:59:07"
+    },
+    {
+      "publication_id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+      "date": "2026-09-10",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "IFI : quelles dettes peut-on réellement déduire ?",
+      "status": "certified",
+      "path": "scripts/ifi/ifi_dettes_deductibles__shorts__a2__v9.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+      "completed_at": "2026-09-07T09:59:54"
+    },
+    {
+      "publication_id": "2026-09-10:shorts:immobilier_achat_couple_non_marie:1",
+      "date": "2026-09-10",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Acheter à deux sans être mariés : comment protéger chacun ?",
+      "status": "blocked",
+      "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v18.md",
+      "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · editorial : La narration contient une amorce de type fabrication/structure éditoriale: phrase exacte « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Les règles interdisent les libellés de fabrication (par ex. « Court : », « Règle : ») dans la narration. · contre_verification_finale : Seconde lecture identifie la même libellé problématique dans la narration: « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Ce marquage éditorial doit être retiré ou reformulé en phrase naturelle pour être conforme.",
+      "review_path": "data/reviews/2026-09-10_shorts_immobilier_achat_couple_non_marie_1.json",
+      "completed_at": "2026-09-20T23:16:26",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "Narration continue différente de la concaténation des beats · Performance plateforme : 8.5/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v13.md",
+          "review_path": "data/reviews/2026-09-10_shorts_immobilier_achat_couple_non_marie_1.json"
+        },
+        {
+          "round": 1,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 2,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 8.1/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v15.md",
+          "review_path": "data/reviews/2026-09-10_shorts_immobilier_achat_couple_non_marie_1.json"
+        },
+        {
+          "round": 3,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 8.1/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v16.md",
+          "review_path": "data/reviews/2026-09-10_shorts_immobilier_achat_couple_non_marie_1.json"
+        },
+        {
+          "round": 4,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · source : note 0/10 · juridique_fiscal : note 0/10",
+          "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v17.md",
+          "review_path": "data/reviews/2026-09-10_shorts_immobilier_achat_couple_non_marie_1.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-11:shorts:immobilier_plus_value_residence_principale:0",
+      "date": "2026-09-11",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "Vente de la résidence principale : quand la plus-value est-elle exonérée ?",
+      "status": "certified",
+      "path": "scripts/immobilier/immobilier_plus_value_residence_principale__shorts__a1__v6.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-11_shorts_immobilier_plus_value_residence_principale_0.json",
+      "completed_at": "2026-09-07T10:07:16"
+    },
+    {
+      "publication_id": "2026-09-11:shorts:immobilier_frais_de_notaire:1",
+      "date": "2026-09-11",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Frais de notaire : où va réellement votre argent ?",
+      "status": "certified",
+      "path": "scripts/immobilier/immobilier_frais_de_notaire__shorts__a1__v7.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-11_shorts_immobilier_frais_de_notaire_1.json",
+      "completed_at": "2026-09-07T10:09:24"
+    },
+    {
+      "publication_id": "2026-09-12:shorts:immobilier_dpe_location:0",
+      "date": "2026-09-12",
+      "slot": 1,
+      "platform": "shorts",
+      "title": "Logement classé G : peut-on encore le louer ?",
+      "status": "blocked",
+      "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v18.md",
+      "error": "Performance plateforme : 7.9/10, seuil 10.0/10",
+      "review_path": "data/reviews/2026-09-12_shorts_immobilier_dpe_location_0.json",
+      "completed_at": "2026-09-20T23:19:44",
+      "failure_history": [
+        {
+          "round": 0,
+          "error": "Performance plateforme : 8.4/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v13.md",
+          "review_path": "data/reviews/2026-09-12_shorts_immobilier_dpe_location_0.json"
+        },
+        {
+          "round": 1,
+          "error": "API OpenAI temporairement indisponible après 3 tentatives : TimeoutError",
+          "path": "",
+          "review_path": ""
+        },
+        {
+          "round": 2,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 7.2/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v15.md",
+          "review_path": "data/reviews/2026-09-12_shorts_immobilier_dpe_location_0.json"
+        },
+        {
+          "round": 3,
+          "error": "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Performance plateforme : 7.2/10, seuil 10.0/10",
+          "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v16.md",
+          "review_path": "data/reviews/2026-09-12_shorts_immobilier_dpe_location_0.json"
+        },
+        {
+          "round": 4,
+          "error": "Narration continue différente de la concaténation des beats · Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle · Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation",
+          "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v17.md",
+          "review_path": "data/reviews/2026-09-12_shorts_immobilier_dpe_location_0.json"
+        }
+      ]
+    },
+    {
+      "publication_id": "2026-09-12:shorts:immobilier_deficit_foncier:1",
+      "date": "2026-09-12",
+      "slot": 2,
+      "platform": "shorts",
+      "title": "Travaux locatifs : peuvent-ils réduire votre impôt sur le revenu ?",
+      "status": "certified",
+      "path": "scripts/immobilier/immobilier_deficit_foncier__shorts__a1__v6.md",
+      "error": "",
+      "review_path": "data/reviews/2026-09-12_shorts_immobilier_deficit_foncier_1.json",
+      "completed_at": "2026-09-07T10:15:56"
+    }
+  ],
+  "summary": {
+    "total": 14,
+    "certified": 10,
+    "blocked": 4,
+    "pending": 0
+  },
+  "remediation_started_at": "2026-09-20T23:05:44",
+  "resumed_at": "2026-09-11T13:58:48",
+  "completed_at": "2026-09-20T23:19:44"
+}

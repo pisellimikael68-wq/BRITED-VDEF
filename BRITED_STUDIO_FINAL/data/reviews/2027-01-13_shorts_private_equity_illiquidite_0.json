@@ -1,0 +1,222 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script se réfère correctement aux sources citées (AMF, Code monétaire et financier) et aux chiffres '8 à 10 ans'.",
+        "Manque de précision : l'affirmation 'en principe il n'y a pas de sortie anticipée' devrait rappeler brièvement la base légale ou préciser que cela dépend des statuts du fonds (référence L214-27 et suivants non explicitée dans le texte).",
+        "Localisation exacte : séquence 5 (nuance) — ajouter mention explicite que l'absence de sortie anticipée dépend du contrat/statuts rendrait la référence aux textes plus transparente."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est globalement correcte mais simplifie la portée juridique : dire 'en principe il n'y a pas de sortie anticipée' est acceptable, mais il faut préciser que des clauses statutaires ou circonstances exceptionnelles (faillite, clause de rachat exceptionnelle) peuvent exister.",
+        "Localisation exacte : narration et séquence 5 — recommander d'ajouter « selon les statuts du fonds et le droit applicable » pour éviter impression d'absolu juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition et exception, et fournit un exemple pratique (appels de fonds).",
+        "Omission utile : le rappel que les appels de fonds signifient que l'investisseur ne verse pas tout immédiatement mais doit garder la capacité de régler les appels (la fiche le dit ; le script le mentionne mais pourrait être plus explicite sur l'échelonnement sur plusieurs années).",
+        "Localisation : séquence 4 (exemple) — préciser 'appelés par tranches sur plusieurs années' plutôt que 'sur plusieurs années' pour renforcer clarté."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format correspond à un short : hook, réponse rapide, CTA, durée estimée 42 s cohérente.",
+        "Remarque d'optimisation : la première phrase doit capter en <2 secondes ; la formulation actuelle est bonne mais pourrait être raccourcie pour l'impact vocal (ex. 'Votre argent bloqué dix ans ?').",
+        "Localisation : beat 1 (hook) — proposition d'amélioration de la phrasing pour les 2 premières secondes."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct, progression claire, CTA présent.",
+        "Phrase un peu dense à la fin du paragraphe narratif : '...les montants non encore appelés doivent rester disponibles, et le capital peut rester bloqué jusqu'à dix ans.' Recommandation : couper en deux pour la respiration et la clarté.",
+        "Localisation : narration continue, phrase quatrième-quinzième seconde."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et neutre, mention de non-conseil présente dans la légende.",
+        "Un point à sécuriser : le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçu comme démarchage si l'auteur est un conseil en investissement ; il faut garder la non-personnalisation et rappeler l'absence de conseil personnalisé au moment du CTA ou dans un texte affiché.",
+        "Localisation : beat 6 (CTA) et légende."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et crédible globalement.",
+        "Quelques formulations à alléger pour la diction : par ex. remplacer 'Les fonds, tels que les FCPR ou FPCI, prennent des participations dans des entreprises non cotées, les développent puis cèdent après plusieurs années ;' par deux phrases courtes pour la fluidité orale.",
+        "Localisation : beat 3 et narration continue."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bon enchaînement et cohérence générale entre question et réponse.",
+        "Incohérence mineure : le script dit 'durée usuelle indiquée : 8 à 10 ans' puis 'jusqu'à dix ans' — cohérence ok mais suggérer uniformiser la formulation (toujours '8 à 10 ans').",
+        "Localisation : beat 2 et beat 4 (dernier segment)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés illustrent globalement les notions annoncées.",
+        "Amélioration : le pictogramme 'main qui réserve liquidités' pourrait être ambigu; remplacer par un pictogramme portefeuille/compte bloqué ou icône 'fonds indisponibles' pour être plus explicite.",
+        "Localisation : beat 4 (visuel)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (immobilisation) et reste concise tout en incluant règles, exceptions, exemple et chiffres.",
+        "Suggestion : retirer l'une des formulations redondantes sur la durée ('dix ans' vs '8 à 10 ans') pour alléger et maximiser le temps utile.",
+        "Localisation : hook vs beat 2 vs narration."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script s'adresse bien à un public non spécialiste et évite le jargon inutile.",
+        "Amélioration pédagogique : expliciter brièvement ce qu'est un 'appel de fonds' en une courte parenthèse orale ('le gestionnaire demande les sommes engagées en plusieurs fois').",
+        "Localisation : beat 4 (phrase sur appels de fonds)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne progression de curiosité, hook pertinent.",
+        "Le deuxième segment devrait être très percutant (chiffre seul '8 à 10 ans') — s'assurer que l'affichage visuel soit très contrasté et la lecture vocale très courte pour maintenir attention.",
+        "Localisation : beat 2 (visuel/voix)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et mention de sources augmentent confiance.",
+        "Pour renforcer, ajouter une courte phrase finale de transparence au CTA: 'Contenu pédagogique — pas un conseil personnalisé' (affiché pendant le CTA) pour éviter toute impression commerciale excessive.",
+        "Localisation : beat 6 et légende."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 124,
+      "seconds": 45.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 124,
+        "seconds": 45.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script se réfère correctement aux sources citées (AMF, Code monétaire et financier) et aux chiffres '8 à 10 ans'.",
+    "source : Manque de précision : l'affirmation 'en principe il n'y a pas de sortie anticipée' devrait rappeler brièvement la base légale ou préciser que cela dépend des statuts du fonds (référence L214-27 et suivants non explicitée dans le texte).",
+    "source : Localisation exacte : séquence 5 (nuance) — ajouter mention explicite que l'absence de sortie anticipée dépend du contrat/statuts rendrait la référence aux textes plus transparente.",
+    "juridique_fiscal : La formulation est globalement correcte mais simplifie la portée juridique : dire 'en principe il n'y a pas de sortie anticipée' est acceptable, mais il faut préciser que des clauses statutaires ou circonstances exceptionnelles (faillite, clause de rachat exceptionnelle) peuvent exister.",
+    "juridique_fiscal : Localisation exacte : narration et séquence 5 — recommander d'ajouter « selon les statuts du fonds et le droit applicable » pour éviter impression d'absolu juridique.",
+    "completude : Le script couvre règle centrale, condition et exception, et fournit un exemple pratique (appels de fonds).",
+    "completude : Omission utile : le rappel que les appels de fonds signifient que l'investisseur ne verse pas tout immédiatement mais doit garder la capacité de régler les appels (la fiche le dit ; le script le mentionne mais pourrait être plus explicite sur l'échelonnement sur plusieurs années).",
+    "completude : Localisation : séquence 4 (exemple) — préciser 'appelés par tranches sur plusieurs années' plutôt que 'sur plusieurs années' pour renforcer clarté.",
+    "plateforme : Le format correspond à un short : hook, réponse rapide, CTA, durée estimée 42 s cohérente.",
+    "plateforme : Remarque d'optimisation : la première phrase doit capter en <2 secondes ; la formulation actuelle est bonne mais pourrait être raccourcie pour l'impact vocal (ex. 'Votre argent bloqué dix ans ?').",
+    "plateforme : Localisation : beat 1 (hook) — proposition d'amélioration de la phrasing pour les 2 premières secondes.",
+    "editorial : Ton direct, progression claire, CTA présent.",
+    "editorial : Phrase un peu dense à la fin du paragraphe narratif : '...les montants non encore appelés doivent rester disponibles, et le capital peut rester bloqué jusqu'à dix ans.' Recommandation : couper en deux pour la respiration et la clarté.",
+    "editorial : Localisation : narration continue, phrase quatrième-quinzième seconde.",
+    "securite : Contenu pédagogique et neutre, mention de non-conseil présente dans la légende.",
+    "securite : Un point à sécuriser : le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être perçu comme démarchage si l'auteur est un conseil en investissement ; il faut garder la non-personnalisation et rappeler l'absence de conseil personnalisé au moment du CTA ou dans un texte affiché.",
+    "securite : Localisation : beat 6 (CTA) et légende.",
+    "formulation_professionnelle : Français naturel et crédible globalement.",
+    "formulation_professionnelle : Quelques formulations à alléger pour la diction : par ex. remplacer 'Les fonds, tels que les FCPR ou FPCI, prennent des participations dans des entreprises non cotées, les développent puis cèdent après plusieurs années ;' par deux phrases courtes pour la fluidité orale.",
+    "formulation_professionnelle : Localisation : beat 3 et narration continue.",
+    "contre_verification_finale : Bon enchaînement et cohérence générale entre question et réponse.",
+    "contre_verification_finale : Incohérence mineure : le script dit 'durée usuelle indiquée : 8 à 10 ans' puis 'jusqu'à dix ans' — cohérence ok mais suggérer uniformiser la formulation (toujours '8 à 10 ans').",
+    "contre_verification_finale : Localisation : beat 2 et beat 4 (dernier segment).",
+    "coherence_pictogrammes : Les pictogrammes proposés illustrent globalement les notions annoncées.",
+    "coherence_pictogrammes : Amélioration : le pictogramme 'main qui réserve liquidités' pourrait être ambigu; remplacer par un pictogramme portefeuille/compte bloqué ou icône 'fonds indisponibles' pour être plus explicite.",
+    "coherence_pictogrammes : Localisation : beat 4 (visuel).",
+    "densite_editoriale : La vidéo traite un seul angle (immobilisation) et reste concise tout en incluant règles, exceptions, exemple et chiffres.",
+    "densite_editoriale : Suggestion : retirer l'une des formulations redondantes sur la durée ('dix ans' vs '8 à 10 ans') pour alléger et maximiser le temps utile.",
+    "densite_editoriale : Localisation : hook vs beat 2 vs narration.",
+    "pedagogie_client : Le script s'adresse bien à un public non spécialiste et évite le jargon inutile.",
+    "pedagogie_client : Amélioration pédagogique : expliciter brièvement ce qu'est un 'appel de fonds' en une courte parenthèse orale ('le gestionnaire demande les sommes engagées en plusieurs fois').",
+    "pedagogie_client : Localisation : beat 4 (phrase sur appels de fonds).",
+    "retention_attention : Bonne progression de curiosité, hook pertinent.",
+    "retention_attention : Le deuxième segment devrait être très percutant (chiffre seul '8 à 10 ans') — s'assurer que l'affichage visuel soit très contrasté et la lecture vocale très courte pour maintenir attention.",
+    "retention_attention : Localisation : beat 2 (visuel/voix).",
+    "conversion_confiance : Ton sérieux et mention de sources augmentent confiance.",
+    "conversion_confiance : Pour renforcer, ajouter une courte phrase finale de transparence au CTA: 'Contenu pédagogique — pas un conseil personnalisé' (affiché pendant le CTA) pour éviter toute impression commerciale excessive.",
+    "conversion_confiance : Localisation : beat 6 et légende."
+  ],
+  "recommendations": [
+    "Préciser, dans la séquence 5 (nuance), que l'absence de sortie anticipée dépend des statuts du fonds et du droit applicable (référence aux articles L214-27 et suivants) pour éviter toute impression d'absolu juridique.",
+    "Raccourcir et scinder les phrases plus longues pour une diction plus fluide à l'oral (notamment beat 3 et narration continue).",
+    "Uniformiser la mention de la durée (préférer systématiquement '8 à 10 ans' plutôt que alterner avec 'jusqu'à dix ans').",
+    "Clarifier brièvement le terme 'appel de fonds' dans beat 4 (ex. 'le gestionnaire appelle des tranches — vous ne versez pas tout d'un coup mais devez pouvoir régler ces demandes').",
+    "Remplacer le pictogramme 'main qui réserve liquidités' par un visuel plus explicite (portefeuille bloqué ou cadenas sur une pièce) pour éviter toute ambiguïté.",
+    "Lors du CTA, afficher également la mention de non-conseil personnalisé afin de préserver la neutralité et conformité (ex. court bandeau 'Information générale — pas un conseil personnalisé').",
+    "Optimiser le hook pour capter en <2 secondes (ex. 'Votre argent bloqué dix ans ?') et afficher le chiffre '8–10 ans' immédiatement ensuite de façon très visible."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-13:shorts:private_equity_illiquidite:0",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__shorts__a4__v2.md"
+}

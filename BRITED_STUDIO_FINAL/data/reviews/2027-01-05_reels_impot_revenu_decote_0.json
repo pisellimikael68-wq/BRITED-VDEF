@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.42,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le chiffre « taux de résorption 45,25 % » (script, beat 5 et narration) n'est pas accompagné d'une source précise datée dans la fiche (la clé 'source' vaut 0). Il faut soit fournir la référence BOFiP/loi de finances exacte et l'année, soit retirer/qualificationner ce chiffre."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Mention du taux de la première tranche à 11 % sans indication d'année : les seuils et taux peuvent être revalorisés. Le script présente ce taux comme fixe (« 11 % ») alors que la fiche impose de dater tout seuil/taux chiffré.",
+        "Le libellé « taux de résorption de 45,25 % » est avancé comme un chiffre normatif sans référence légale/BOFiP datée. Juridiquement, les chiffres précis doivent être sourcés et datés."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple reste générique (« un foyer ») et utile, mais la fiche impose de ne jamais calculer l'impôt réel du spectateur et d'indiquer la nécessité de dater les montants : le script utilise deux chiffres (11 % et 45,25 %) sans préciser année ou composition du foyer. Il faut ajouter une brève phrase de précaution précisant qu'il s'agit d'exemples fictifs et datés si chiffrés."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La progression narrative est bonne mais la répétition « La décote peut expliquer ce saut ? OUI / NON Oui. » est maladroite à l'oral et nuit au flux. Proposer une reformulation plus fluide du hook/question/réponse (ex. : 'Petite augmentation = gros saut d'impôt ? La décote peut l'expliquer. Oui.')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être allégées pour l'oral (ex. 'elle s'éteint progressivement' → 'elle décroît progressivement') ; la narration contient deux formulations proches ('elle décroît progressivement' et 'elle s'éteint progressivement' dans la fiche) — homogénéiser le vocabulaire améliorerait la clarté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot : la mention du 'taux de résorption de 45,25 %' apparaît deux fois (chiffres et narration) sans source datée ; la consigne 'Ne jamais calculer l'impôt réel du spectateur' est respectée, mais le script devrait ajouter une précision orale rapide indiquant que les chiffres sont donnés à titre d'exemple et doivent être datés."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept de 'résorption de la décote' et de 'taux marginal implicite' est expliqué mais le terme 'taux de résorption' n'est pas défini précisément pour un non-spécialiste. Il faudrait une phrase très courte expliquant comment se calcule l'augmentation (ex. : 'la décote est réduite d'un pourcentage de l'impôt brut, ce qui accroît l'impôt payé pour chaque euro additionnel').",
+        "Il manque l'avertissement oral bref demandant au spectateur de dater les montants s'il entend des chiffres précis."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais la transition 'La décote peut expliquer ce saut ? OUI / NON Oui.' rompt légèrement l'attention ; simplifier pour un impact immédiat renforcerait la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est approprié mais l'ajout d'une mention de non-conseil est en légende seulement ; pour la conversion professionnelle, il est recommandé d'ajouter une micro-phrase orale (2–3 mots) rappelant qu'il s'agit d'un contenu pédagogique et non d'un conseil personnalisé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le chiffre « taux de résorption 45,25 % » (script, beat 5 et narration) n'est pas accompagné d'une source précise datée dans la fiche (la clé 'source' vaut 0). Il faut soit fournir la référence BOFiP/loi de finances exacte et l'année, soit retirer/qualificationner ce chiffre.",
+    "juridique_fiscal : Mention du taux de la première tranche à 11 % sans indication d'année : les seuils et taux peuvent être revalorisés. Le script présente ce taux comme fixe (« 11 % ») alors que la fiche impose de dater tout seuil/taux chiffré.",
+    "juridique_fiscal : Le libellé « taux de résorption de 45,25 % » est avancé comme un chiffre normatif sans référence légale/BOFiP datée. Juridiquement, les chiffres précis doivent être sourcés et datés.",
+    "completude : L'exemple reste générique (« un foyer ») et utile, mais la fiche impose de ne jamais calculer l'impôt réel du spectateur et d'indiquer la nécessité de dater les montants : le script utilise deux chiffres (11 % et 45,25 %) sans préciser année ou composition du foyer. Il faut ajouter une brève phrase de précaution précisant qu'il s'agit d'exemples fictifs et datés si chiffrés.",
+    "editorial : La progression narrative est bonne mais la répétition « La décote peut expliquer ce saut ? OUI / NON Oui. » est maladroite à l'oral et nuit au flux. Proposer une reformulation plus fluide du hook/question/réponse (ex. : 'Petite augmentation = gros saut d'impôt ? La décote peut l'expliquer. Oui.').",
+    "formulation_professionnelle : Quelques formulations peuvent être allégées pour l'oral (ex. 'elle s'éteint progressivement' → 'elle décroît progressivement') ; la narration contient deux formulations proches ('elle décroît progressivement' et 'elle s'éteint progressivement' dans la fiche) — homogénéiser le vocabulaire améliorerait la clarté.",
+    "contre_verification_finale : Vérification mot à mot : la mention du 'taux de résorption de 45,25 %' apparaît deux fois (chiffres et narration) sans source datée ; la consigne 'Ne jamais calculer l'impôt réel du spectateur' est respectée, mais le script devrait ajouter une précision orale rapide indiquant que les chiffres sont donnés à titre d'exemple et doivent être datés.",
+    "pedagogie_client : Le concept de 'résorption de la décote' et de 'taux marginal implicite' est expliqué mais le terme 'taux de résorption' n'est pas défini précisément pour un non-spécialiste. Il faudrait une phrase très courte expliquant comment se calcule l'augmentation (ex. : 'la décote est réduite d'un pourcentage de l'impôt brut, ce qui accroît l'impôt payé pour chaque euro additionnel').",
+    "pedagogie_client : Il manque l'avertissement oral bref demandant au spectateur de dater les montants s'il entend des chiffres précis.",
+    "retention_attention : Les deux premières secondes sont bonnes mais la transition 'La décote peut expliquer ce saut ? OUI / NON Oui.' rompt légèrement l'attention ; simplifier pour un impact immédiat renforcerait la rétention.",
+    "conversion_confiance : Le CTA est approprié mais l'ajout d'une mention de non-conseil est en légende seulement ; pour la conversion professionnelle, il est recommandé d'ajouter une micro-phrase orale (2–3 mots) rappelant qu'il s'agit d'un contenu pédagogique et non d'un conseil personnalisé."
+  ],
+  "recommendations": [
+    "Sourcing/daté : Soit fournir la référence précise et datée justifiant le chiffre '45,25 %' (BOFiP ou texte de loi et année), soit supprimer/qualificationner ce chiffre (ex. 'un taux de résorption d'environ X % selon l'année').",
+    "Préciser ou dater tout chiffre (notamment le '11 %' de la première tranche) ou remplacer par « première tranche (ex. 11 % selon l'année) » et ajouter une courte phrase orale : 'les taux et montants sont revalorisés chaque année'.",
+    "Reformuler le hook/question/réponse pour la fluidité orale : par exemple 'Petite augmentation et gros saut d'impôt ? La décote peut l'expliquer — oui.' Éviter l'enchaînement 'OUI / NON Oui.'",
+    "Ajouter une très brève phrase pédagogique (oralement, 1–2 secondes) précisant ce que signifie 'taux de résorption' : 'la décote diminue proportionnellement à l'impôt brut, ce qui augmente l'impôt au-delà du taux affiché'.",
+    "Ajouter une micro-mention orale avant le CTA rappelant la portée pédagogique : 'Contenu général, pas un conseil personnalisé' (2–3 mots suffisent) pour renforcer la confiance et la conformité.",
+    "Harmoniser le vocabulaire (préférer 'décroît progressivement' ou 's'éteint progressivement', une seule formulation) et corriger la répétition dans la narration.",
+    "Si vous maintenez un exemple chiffré, ajouter en voix off ou en texte écran 'exemple fictif, montants à titre indicatif et à dater' pour respecter la consigne de ne pas calculer l'impôt réel du spectateur."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-05:reels:impot_revenu_decote:0",
+  "script_path": "scripts/impot_revenu/impot_revenu_decote__reels__a4__v7.md"
+}

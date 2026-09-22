@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+      "platform": "shorts",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v6.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.mp4",
+      "script_sha256": "ffbfa5bda7985154eb86f13978742a93816fab756571d66d9aaedd4b6a7b0ae3",
+      "spec_sha256": "f81093e6aa1a29dd9bec26e5da79dd7dbc24a0213da6ebf9902eb92efa6ce21a",
+      "video_sha256": "449834c4e348be246de522b6ff3f706d3b7548874068cc294704a43796f7cc18",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 47.17,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-24T14:33:14"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.word-check.json"
+    }
+  ]
+}

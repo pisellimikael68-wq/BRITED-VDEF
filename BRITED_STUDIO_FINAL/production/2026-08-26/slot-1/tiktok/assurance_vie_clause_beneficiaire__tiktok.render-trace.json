@@ -1,0 +1,274 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.24,
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "safe_zones": true,
+    "visual_overlap_control": true
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "La phrase la plus importante de votre contrat tient en deux lignes.",
+      "tokens": [
+        "La",
+        "phrase",
+        "la",
+        "plus",
+        "importante",
+        "de",
+        "votre",
+        "contrat",
+        "tient",
+        "en",
+        "deux",
+        "lignes."
+      ],
+      "token_count": 12,
+      "speech_duration": 3.303,
+      "full_text_visible_at": 2.973,
+      "hold_after_full_text": 1.23,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 43,
+        "overlap": false
+      }
+    },
+    {
+      "id": "question",
+      "source_text": "Dans mon contrat, la clause bénéficiaire peut-elle être changée facilement ?",
+      "tokens": [
+        "Dans",
+        "mon",
+        "contrat,",
+        "la",
+        "clause",
+        "bénéficiaire",
+        "peut-elle",
+        "être",
+        "changée",
+        "facilement",
+        "?"
+      ],
+      "token_count": 11,
+      "speech_duration": 3.326,
+      "full_text_visible_at": 2.993,
+      "hold_after_full_text": 1.233,
+      "visual_layout": null
+    },
+    {
+      "id": "reponse",
+      "source_text": "Oui. Vous pouvez la modifier gratuitement à tout moment. Sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+      "tokens": [
+        "Oui.",
+        "Vous",
+        "pouvez",
+        "la",
+        "modifier",
+        "gratuitement",
+        "à",
+        "tout",
+        "moment.",
+        "Sauf",
+        "si",
+        "le",
+        "bénéficiaire",
+        "a",
+        "accepté,",
+        "elle",
+        "devient",
+        "irrévocable."
+      ],
+      "token_count": 18,
+      "speech_duration": 5.622,
+      "full_text_visible_at": 5.06,
+      "hold_after_full_text": 0.812,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "La clause désigne qui reçoit le capital et le nombre d'abattements applicables; elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+      "tokens": [
+        "La",
+        "clause",
+        "désigne",
+        "qui",
+        "reçoit",
+        "le",
+        "capital",
+        "et",
+        "le",
+        "nombre",
+        "d'abattements",
+        "applicables;",
+        "elle",
+        "est",
+        "modifiable",
+        "gratuitement,",
+        "sauf",
+        "acceptation",
+        "du",
+        "bénéficiaire."
+      ],
+      "token_count": 20,
+      "speech_duration": 7.661,
+      "full_text_visible_at": 6.895,
+      "hold_after_full_text": 1.016,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          332,
+          660,
+          568
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple: modifier la désignation coûte 0€; si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+      "tokens": [
+        "Exemple:",
+        "modifier",
+        "la",
+        "désignation",
+        "coûte",
+        "0€;",
+        "si",
+        "le",
+        "bénéficiaire",
+        "accepte,",
+        "il",
+        "faut",
+        "son",
+        "accord",
+        "pour",
+        "tout",
+        "rachat."
+      ],
+      "token_count": 17,
+      "speech_duration": 6.047,
+      "full_text_visible_at": 5.442,
+      "hold_after_full_text": 0.855,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          354,
+          660,
+          545
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 41,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+      "tokens": [
+        "En",
+        "l'absence",
+        "de",
+        "bénéficiaire,",
+        "le",
+        "capital",
+        "réintègre",
+        "la",
+        "succession",
+        "et",
+        "perd",
+        "son",
+        "régime",
+        "propre."
+      ],
+      "token_count": 14,
+      "speech_duration": 4.511,
+      "full_text_visible_at": 4.06,
+      "hold_after_full_text": 1.351,
+      "visual_layout": {
+        "text_bounds": [
+          60,
+          350,
+          660,
+          549
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 43,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Le saviez-vous ? Commentez, partagez, et abonnez-vous pour en savoir plus.",
+      "tokens": [
+        "Le",
+        "saviez-vous",
+        "?",
+        "Commentez,",
+        "partagez,",
+        "et",
+        "abonnez-vous",
+        "pour",
+        "en",
+        "savoir",
+        "plus."
+      ],
+      "token_count": 11,
+      "speech_duration": 4.243,
+      "full_text_visible_at": 3.818,
+      "hold_after_full_text": 0.424,
+      "visual_layout": null
+    }
+  ]
+}

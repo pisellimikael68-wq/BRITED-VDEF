@@ -1,0 +1,176 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED indique que le plafond est « le plus faible des deux plafonds s'applique » ; le script reprend correctement cette règle mais n'indique pas explicitement que le taux utilisé pour calculer les 6 mois d'intérêts est le taux moyen du prêt (mentionnée dans la fiche). Localisation : Beat 4 / texte écran et narration (« au maximum six mois d'intérêts ... ou 3 % »)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script énonce correctement les cas d'exonération mais omet la précision que ces cas sont limitativement énumérés par la loi (important pour éviter une interprétation trop large). Localisation : Beat 6 / narration (« Les exonérations sont limitativement listées : ... » — la formulation orale existante est proche mais dans la version visuelle la mention 'limitativement' n'apparaît pas clairement).",
+        "La mention du 'taux moyen du prêt' pour le calcul des 6 mois d'intérêts n'apparaît pas explicitement à l'écran (elle figure dans la fiche source). Localisation : Beat 4 / texte écran."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est pertinent mais n'indique pas comment est calculé le montant 'six mois d'intérêts' (nécessité d'indiquer qu'il s'agit du taux moyen du prêt appliqué au capital remboursé sur six mois). Localisation : Beat 5 / texte écran et animation.",
+        "Ne pas mentionner brièvement que certains contrats prévoient une exonération conventionnelle (indiqué dans la fiche) : omission dans le script. Localisation : narration générale / nuance."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook (Beat 1) est clair mais pourrait être renforcé dans les deux premières secondes pour maximiser la rétention (par ex. ajouter un chiffre ou une question encore plus percutante). Localisation : Beat 1.",
+        "Le CTA est correct mais 'lien dans ma bio' suppose un profil personnel — vérifier cohérence avec le compte (pro/entreprise). Localisation : Beat 7."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formules peuvent être précisées pour un français oral naturel : remplacer 'au maximum six mois d'intérêts sur le capital remboursé au taux moyen' par 'six mois d'intérêts calculés au taux moyen du prêt sur le capital remboursé' pour la clarté. Localisation : Beat 4 / narration et texte écran.",
+        "Phrase de nuance finale ('Les exonérations sont limitativement listées : mutation professionnelle imposée, cessation forcée d'activité, décès de l'emprunteur ou du conjoint.') est un peu longue pour une ligne de texte écran ; suggérer deux lignes plus courtes pour la lisibilité. Localisation : Beat 6."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot : la narration continue reprend l'essentiel mais omet la précision 'taux moyen du prêt' dans le passage oral sur le plafond des 6 mois. Localisation : Narration continue, 3e phrase.",
+        "Le script mentionne 'vente subie' dans la fiche, la vidéo parle de 'exonération prévue par la loi' — cohérence ok mais recommander d'ajouter 'limitativement énumérées' pour éviter interprétations. Localisation : Beats 3 et 6."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme 'balance' au Beat 3 peut laisser entendre une notion judiciaire : préférer un pictogramme d'accord/non (ou icône banque) pour signifier 'sauf exonération légale'. Localisation : Beat 3 visuel.",
+        "Pictogramme 'panneau stop' pour 'cessation forcée d'activité' peut prêter à confusion ; remplacer par une icône métier (outils barrés) ou un bâtiment d'entreprise fermé. Localisation : Beat 6 visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le concept 'taux moyen du prêt' peut être technique pour un non-spécialiste — suggérer une courte parenthèse orale/textuelle 'c'est le taux effectif de votre prêt, indiqué dans votre tableau d'amortissement' pour compréhension. Localisation : Beat 4 / texte écran ou narration.",
+        "Le script n'explique pas brièvement la différence d'effet entre réduire la durée et réduire la mensualité (figure dans la fiche comme point de vigilance) ; omission pédagogique susceptible d'être demandée par le public. Localisation : narration finale / nuance."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes accrochent mais pourraient être plus percutantes en ajoutant un chiffre ou une conséquence (ex. 'Vous vendez : combien ça va coûter ?'). Localisation : Beat 1.",
+        "Beat 2 (question OUI/NON) est efficace ; veillez toutefois à animer rapidement les cases pour maintenir rythmes (consigne de production, pas scriptuelle)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 95,
+      "seconds": 35.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 95,
+        "seconds": 35.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED indique que le plafond est « le plus faible des deux plafonds s'applique » ; le script reprend correctement cette règle mais n'indique pas explicitement que le taux utilisé pour calculer les 6 mois d'intérêts est le taux moyen du prêt (mentionnée dans la fiche). Localisation : Beat 4 / texte écran et narration (« au maximum six mois d'intérêts ... ou 3 % »).",
+    "juridique_fiscal : Le script énonce correctement les cas d'exonération mais omet la précision que ces cas sont limitativement énumérés par la loi (important pour éviter une interprétation trop large). Localisation : Beat 6 / narration (« Les exonérations sont limitativement listées : ... » — la formulation orale existante est proche mais dans la version visuelle la mention 'limitativement' n'apparaît pas clairement).",
+    "juridique_fiscal : La mention du 'taux moyen du prêt' pour le calcul des 6 mois d'intérêts n'apparaît pas explicitement à l'écran (elle figure dans la fiche source). Localisation : Beat 4 / texte écran.",
+    "completude : L'exemple chiffré est pertinent mais n'indique pas comment est calculé le montant 'six mois d'intérêts' (nécessité d'indiquer qu'il s'agit du taux moyen du prêt appliqué au capital remboursé sur six mois). Localisation : Beat 5 / texte écran et animation.",
+    "completude : Ne pas mentionner brièvement que certains contrats prévoient une exonération conventionnelle (indiqué dans la fiche) : omission dans le script. Localisation : narration générale / nuance.",
+    "editorial : Hook (Beat 1) est clair mais pourrait être renforcé dans les deux premières secondes pour maximiser la rétention (par ex. ajouter un chiffre ou une question encore plus percutante). Localisation : Beat 1.",
+    "editorial : Le CTA est correct mais 'lien dans ma bio' suppose un profil personnel — vérifier cohérence avec le compte (pro/entreprise). Localisation : Beat 7.",
+    "formulation_professionnelle : Quelques formules peuvent être précisées pour un français oral naturel : remplacer 'au maximum six mois d'intérêts sur le capital remboursé au taux moyen' par 'six mois d'intérêts calculés au taux moyen du prêt sur le capital remboursé' pour la clarté. Localisation : Beat 4 / narration et texte écran.",
+    "formulation_professionnelle : Phrase de nuance finale ('Les exonérations sont limitativement listées : mutation professionnelle imposée, cessation forcée d'activité, décès de l'emprunteur ou du conjoint.') est un peu longue pour une ligne de texte écran ; suggérer deux lignes plus courtes pour la lisibilité. Localisation : Beat 6.",
+    "contre_verification_finale : Vérification mot à mot : la narration continue reprend l'essentiel mais omet la précision 'taux moyen du prêt' dans le passage oral sur le plafond des 6 mois. Localisation : Narration continue, 3e phrase.",
+    "contre_verification_finale : Le script mentionne 'vente subie' dans la fiche, la vidéo parle de 'exonération prévue par la loi' — cohérence ok mais recommander d'ajouter 'limitativement énumérées' pour éviter interprétations. Localisation : Beats 3 et 6.",
+    "coherence_pictogrammes : Pictogramme 'balance' au Beat 3 peut laisser entendre une notion judiciaire : préférer un pictogramme d'accord/non (ou icône banque) pour signifier 'sauf exonération légale'. Localisation : Beat 3 visuel.",
+    "coherence_pictogrammes : Pictogramme 'panneau stop' pour 'cessation forcée d'activité' peut prêter à confusion ; remplacer par une icône métier (outils barrés) ou un bâtiment d'entreprise fermé. Localisation : Beat 6 visuel.",
+    "pedagogie_client : Le concept 'taux moyen du prêt' peut être technique pour un non-spécialiste — suggérer une courte parenthèse orale/textuelle 'c'est le taux effectif de votre prêt, indiqué dans votre tableau d'amortissement' pour compréhension. Localisation : Beat 4 / texte écran ou narration.",
+    "pedagogie_client : Le script n'explique pas brièvement la différence d'effet entre réduire la durée et réduire la mensualité (figure dans la fiche comme point de vigilance) ; omission pédagogique susceptible d'être demandée par le public. Localisation : narration finale / nuance.",
+    "retention_attention : Les deux premières secondes accrochent mais pourraient être plus percutantes en ajoutant un chiffre ou une conséquence (ex. 'Vous vendez : combien ça va coûter ?'). Localisation : Beat 1.",
+    "retention_attention : Beat 2 (question OUI/NON) est efficace ; veillez toutefois à animer rapidement les cases pour maintenir rythmes (consigne de production, pas scriptuelle)."
+  ],
+  "recommendations": [
+    "Ajouter explicitement, à Beat 4 (texte écran et narration), la précision 'calculé au taux moyen du prêt' lorsque vous mentionnez 'six mois d'intérêts'.",
+    "Topper la mention légale : dans Beat 6 ou la narration, dire clairement 'ces exonérations sont limitativement énumérées par la loi' pour éviter toute interprétation abusive.",
+    "Compléter l'exemple chiffré (Beat 5) d'une courte note/texte écran indiquant comment on obtient les 'six mois d'intérêts' (p. ex. 'six mois d'intérêts calculés au taux moyen du prêt sur le capital remboursé').",
+    "Évoquer brièvement (15–20 s) ou préparer en FAQ post-vidéo la différence entre réduire la durée et réduire la mensualité lors d'un remboursement partiel (point de vigilance de la fiche).",
+    "Remplacer ou préciser les pictogrammes : éviter la balance qui peut évoquer un procès ; pour 'cessation forcée' utiliser un pictogramme d'entreprise fermée ou outils barrés ; pour exonération, préférer un pictogramme 'document officiel' ou 'sceau légal'.",
+    "Renforcer le hook des 2 premières secondes en reformulant Beat 1 (ex. 'Vous vendez : combien ça va vous coûter de solder votre prêt ?') pour améliorer la rétention.",
+    "Adapter la CTA selon le type de compte (personnel vs pro) : 'lien dans ma bio' est acceptable mais vérifier cohérence avec le profil et, si possible, ajouter 'pour une simulation personnalisée' afin de gérer l'attente sans donner de conseils personnalisés dans la vidéo."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-20:reels:credit_remboursement_anticipe:0",
+  "script_path": "scripts/credit_immobilier/credit_remboursement_anticipe__reels__a3__v7.md"
+}

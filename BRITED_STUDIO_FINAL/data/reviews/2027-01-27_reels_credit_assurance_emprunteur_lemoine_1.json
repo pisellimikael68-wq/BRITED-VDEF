@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche-source, les textes cités et les seuils, mais il emploie l'expression «La banque dispose d'un délai pour répondre» sans indiquer qu'aucun délai précis n'est fixé dans la loi Lemoine (la mention donne l'impression d'une durée réglementée). Préciser l'absence de délai légal ou retirer la mention éviterait l'ambiguïté."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message juridique central est exact (résiliation à tout moment si équivalence de garanties). Toutefois la formulation «La banque dispose d'un délai pour répondre» peut laisser entendre l'existence d'un délai légal précis — or la loi impose seulement l'obligation de motiver un refus par écrit ; il faut éviter d'insinuer un délai non prévu.",
+        "La phrase sur la suppression du questionnaire de santé est correcte mais devrait rappeler la condition exacte : part assurée par emprunteur ≤ 200 000 € ET durée du prêt se terminant avant le 60e anniversaire (le script indique correctement les deux éléments mais la ponctuation/rythme risque de rendre la conjonction moins visible pour un non-spécialiste)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, l'exception et donne un exemple succinct — bonne densité. Cependant il omet d'indiquer que la banque ne peut refuser que si le nouveau contrat est moins couvrant ET qu'elle doit motiver ce refus par écrit (le script le dit mais de façon très condensée ; un mot supplémentaire sur l'obligation de motivation améliorerait la compréhension).",
+        "Aucun rappel qu'il ne s'agit pas d'un conseil personnalisé n'apparaît dans le script même si la légende contient la mention ; pour conformité, la vidéo courte devrait inclure au moins une phrase brève «contenu général, pas un conseil personnalisé» ou l'équivalent visible lors du CTA."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le découpage en beats et la durée estimée sont adaptés à Reels. En revanche la phrase finale de CTA «Prenez rendez-vous via le lien dans ma bio» est acceptable mais peut contrevenir aux règles de neutralité si le compte représente un produit commercial — le script respecte l'usage courant mais il faut s'assurer que l'appel à l'action ne soit pas perçu comme une sollicitation payante non indiquée.",
+        "Le beat 6 contient beaucoup d'informations techniques (CCSF, seuil 200 000 €, 60 ans, questionnaire) : risque de surcharge visuelle en 38 s si le texte écran est trop long. Recommander d'espacer ou condenser visuellement."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace et progression claire. Quelques formulations peuvent être simplifiées pour une meilleure mémorisation (par ex. remplacer «si le contrat de substitution offre des garanties au moins équivalentes» par «si le nouveau contrat offre au moins les mêmes garanties» pour l'oral).",
+        "Le script promet une donnée d'exemple («Exemple : contrat individuel moins cher couvrant décès et incapacité»), utile, mais ne précise pas que les économies dépendent de l'âge et du capital restant dû — la fiche interdit les montants chiffrés, il faudrait rappeler brièvement que les économies varient."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et sourcé. Cependant l'absence d'une phrase concise disant que ce n'est pas un conseil personnalisé dans la narration de la vidéo (même si présente dans la légende) peut être perçue comme manquement à la prudence pour des contenus touchant au juridique/financier.",
+        "Éviter toute recommandation d'acteur (la fiche interdit de recommander un assureur/courtier) — le CTA d'un rendez-vous doit rester neutre sur la nature du service proposé."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel. Quelques tournures peuvent être affinées pour l'oral : ex. «Peut-on la changer maintenant ? OUI / NON Oui.» peut être plus fluide en remplaçant la répétition par «Peut-on la changer maintenant ? Oui.»",
+        "La phrase sur le questionnaire médical combine deux conditions (≤ 200 000 € et prêt achevé avant 60 ans) ; pour l'oral, séparer clairement les deux conditions améliore la compréhension."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contrôle global OK mais relève de petites incohérences potentielles : la mention d'un «délai pour répondre» non chiffré, la place du non-conseil dans la narration, et la densité du beat 6 qui risque de nuire à la compréhension en 38 s.",
+        "Proposer de préciser ou reformuler 2-3 phrases permettrait d'atteindre la clarté parfaite requise pour publication sans révisions."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés (papiers €, loi, balance, lettre motivée, stéthoscope barré, 200 000 €, 60 ans, calendrier) illustrent bien chaque notion. Aucun pictogramme ambigu n'est utilisé.",
+        "Remarque : même si les pictogrammes sont cohérents, veiller à ce que le pictogramme «lettre motivée» soit accompagné d'une courte mention visible «motivation écrite» pour éviter toute confusion."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (résiliation grâce à la loi Lemoine) et reste concise. Toutefois beat 6 contient trop d'éléments (refus, CCSF, questionnaire, seuils) pour la durée ; risque de perte de compréhension. Proposer de fractionner ou ralentir ce segment."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste. Néanmoins la phrase sur l'équivalence de garanties et sur le questionnaire médical pourrait être simplifiée et articulée en deux courtes phrases pour un premier passage sans jargon.",
+        "Ajouter une micro-explication rapide de ce que signifie «équivalence de garanties» (ex. décès, PTIA, ITT, IP) aiderait la compréhension, sans alourdir le format."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort dès les deux premières secondes. Le risque est l'accumulation d'informations au milieu/finale qui peut diluer l'attention. Recommander d'espacer la nuance (beat 6) en deux plans visuels pour maintenir l'attention jusqu'au CTA."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et compétence. Pour renforcer la confiance, il serait utile d'inclure brièvement la référence légale visible à l'écran (ex : 'Loi Lemoine - 28/02/2022') lors du beat 4 ou en bas de l'écran.",
+        "Éviter toute impression de promesse (par ex. économies) ; le script respecte cela mais l'exemple pourrait inclure la mention rapide «selon votre situation» pour éviter toute interprétation commerciale excessive."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche-source, les textes cités et les seuils, mais il emploie l'expression «La banque dispose d'un délai pour répondre» sans indiquer qu'aucun délai précis n'est fixé dans la loi Lemoine (la mention donne l'impression d'une durée réglementée). Préciser l'absence de délai légal ou retirer la mention éviterait l'ambiguïté.",
+    "juridique_fiscal : Le message juridique central est exact (résiliation à tout moment si équivalence de garanties). Toutefois la formulation «La banque dispose d'un délai pour répondre» peut laisser entendre l'existence d'un délai légal précis — or la loi impose seulement l'obligation de motiver un refus par écrit ; il faut éviter d'insinuer un délai non prévu.",
+    "juridique_fiscal : La phrase sur la suppression du questionnaire de santé est correcte mais devrait rappeler la condition exacte : part assurée par emprunteur ≤ 200 000 € ET durée du prêt se terminant avant le 60e anniversaire (le script indique correctement les deux éléments mais la ponctuation/rythme risque de rendre la conjonction moins visible pour un non-spécialiste).",
+    "completude : Le script couvre la règle, l'exception et donne un exemple succinct — bonne densité. Cependant il omet d'indiquer que la banque ne peut refuser que si le nouveau contrat est moins couvrant ET qu'elle doit motiver ce refus par écrit (le script le dit mais de façon très condensée ; un mot supplémentaire sur l'obligation de motivation améliorerait la compréhension).",
+    "completude : Aucun rappel qu'il ne s'agit pas d'un conseil personnalisé n'apparaît dans le script même si la légende contient la mention ; pour conformité, la vidéo courte devrait inclure au moins une phrase brève «contenu général, pas un conseil personnalisé» ou l'équivalent visible lors du CTA.",
+    "plateforme : Le découpage en beats et la durée estimée sont adaptés à Reels. En revanche la phrase finale de CTA «Prenez rendez-vous via le lien dans ma bio» est acceptable mais peut contrevenir aux règles de neutralité si le compte représente un produit commercial — le script respecte l'usage courant mais il faut s'assurer que l'appel à l'action ne soit pas perçu comme une sollicitation payante non indiquée.",
+    "plateforme : Le beat 6 contient beaucoup d'informations techniques (CCSF, seuil 200 000 €, 60 ans, questionnaire) : risque de surcharge visuelle en 38 s si le texte écran est trop long. Recommander d'espacer ou condenser visuellement.",
+    "editorial : Accroche efficace et progression claire. Quelques formulations peuvent être simplifiées pour une meilleure mémorisation (par ex. remplacer «si le contrat de substitution offre des garanties au moins équivalentes» par «si le nouveau contrat offre au moins les mêmes garanties» pour l'oral).",
+    "editorial : Le script promet une donnée d'exemple («Exemple : contrat individuel moins cher couvrant décès et incapacité»), utile, mais ne précise pas que les économies dépendent de l'âge et du capital restant dû — la fiche interdit les montants chiffrés, il faudrait rappeler brièvement que les économies varient.",
+    "securite : Le contenu est pédagogique et sourcé. Cependant l'absence d'une phrase concise disant que ce n'est pas un conseil personnalisé dans la narration de la vidéo (même si présente dans la légende) peut être perçue comme manquement à la prudence pour des contenus touchant au juridique/financier.",
+    "securite : Éviter toute recommandation d'acteur (la fiche interdit de recommander un assureur/courtier) — le CTA d'un rendez-vous doit rester neutre sur la nature du service proposé.",
+    "formulation_professionnelle : Le français est naturel et professionnel. Quelques tournures peuvent être affinées pour l'oral : ex. «Peut-on la changer maintenant ? OUI / NON Oui.» peut être plus fluide en remplaçant la répétition par «Peut-on la changer maintenant ? Oui.»",
+    "formulation_professionnelle : La phrase sur le questionnaire médical combine deux conditions (≤ 200 000 € et prêt achevé avant 60 ans) ; pour l'oral, séparer clairement les deux conditions améliore la compréhension.",
+    "contre_verification_finale : Contrôle global OK mais relève de petites incohérences potentielles : la mention d'un «délai pour répondre» non chiffré, la place du non-conseil dans la narration, et la densité du beat 6 qui risque de nuire à la compréhension en 38 s.",
+    "contre_verification_finale : Proposer de préciser ou reformuler 2-3 phrases permettrait d'atteindre la clarté parfaite requise pour publication sans révisions.",
+    "coherence_pictogrammes : Les pictogrammes proposés (papiers €, loi, balance, lettre motivée, stéthoscope barré, 200 000 €, 60 ans, calendrier) illustrent bien chaque notion. Aucun pictogramme ambigu n'est utilisé.",
+    "coherence_pictogrammes : Remarque : même si les pictogrammes sont cohérents, veiller à ce que le pictogramme «lettre motivée» soit accompagné d'une courte mention visible «motivation écrite» pour éviter toute confusion.",
+    "densite_editoriale : La vidéo traite un seul angle (résiliation grâce à la loi Lemoine) et reste concise. Toutefois beat 6 contient trop d'éléments (refus, CCSF, questionnaire, seuils) pour la durée ; risque de perte de compréhension. Proposer de fractionner ou ralentir ce segment.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste. Néanmoins la phrase sur l'équivalence de garanties et sur le questionnaire médical pourrait être simplifiée et articulée en deux courtes phrases pour un premier passage sans jargon.",
+    "pedagogie_client : Ajouter une micro-explication rapide de ce que signifie «équivalence de garanties» (ex. décès, PTIA, ITT, IP) aiderait la compréhension, sans alourdir le format.",
+    "retention_attention : Hook fort dès les deux premières secondes. Le risque est l'accumulation d'informations au milieu/finale qui peut diluer l'attention. Recommander d'espacer la nuance (beat 6) en deux plans visuels pour maintenir l'attention jusqu'au CTA.",
+    "conversion_confiance : Le ton inspire sérieux et compétence. Pour renforcer la confiance, il serait utile d'inclure brièvement la référence légale visible à l'écran (ex : 'Loi Lemoine - 28/02/2022') lors du beat 4 ou en bas de l'écran.",
+    "conversion_confiance : Éviter toute impression de promesse (par ex. économies) ; le script respecte cela mais l'exemple pourrait inclure la mention rapide «selon votre situation» pour éviter toute interprétation commerciale excessive."
+  ],
+  "recommendations": [
+    "Remplacer ou préciser la mention «La banque dispose d'un délai pour répondre» par une formulation exacte : soit préciser qu'aucun délai légal précis n'est fixé dans la loi Lemoine, soit supprimer toute référence à un délai pour éviter une mauvaise interprétation.",
+    "Inclure brièvement dans la narration une phrase très courte indiquant que le contenu est d'ordre général et ne constitue pas un conseil personnalisé (ex. «Contenu général, pas un conseil personnalisé») afin d'assurer la sécurité juridique du message.",
+    "Alléger beat 6 : séparer l'information en deux plans ou deux phrases courtes (1. la condition de refus et l'obligation de motivation écrite ; 2. la suppression du questionnaire de santé et ses conditions: part assurée ≤ 200 000 € par emprunteur ET prêt se terminant avant 60 ans).",
+    "Simplifier à l'oral la formulation «si le contrat de substitution offre des garanties au moins équivalentes» en «si le nouveau contrat offre au moins les mêmes garanties» pour une meilleure mémorisation.",
+    "Ajouter discrètement la référence légale à l'écran (ex. 'Loi Lemoine - 28/02/2022') lors du beat 4 pour renforcer la crédibilité et la traçabilité.",
+    "Éventuellement, ajouter une micro-définition ou mention rapide des garanties clés (décès, incapacité, invalidité) pour expliciter ce que recouvre l'équivalence sans alourdir la vidéo."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-27:reels:credit_assurance_emprunteur_lemoine:1",
+  "script_path": "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__reels__a5__v4.md"
+}

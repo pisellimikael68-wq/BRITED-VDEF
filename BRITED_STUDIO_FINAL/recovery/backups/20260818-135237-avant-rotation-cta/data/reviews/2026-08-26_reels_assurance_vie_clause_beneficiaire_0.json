@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 86,
+      "seconds": 31.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 86,
+        "seconds": 31.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "4034ffcf6d647a71ed0da48607930aa0505cfc1df120bbcb92a398183a01438b",
+      "adapted_hash": "4034ffcf6d647a71ed0da48607930aa0505cfc1df120bbcb92a398183a01438b",
+      "source_beats": 7,
+      "adapted_pages": 7,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Reformuler légèrement l'exemple (beat 5) pour coller textuellement à la source : préciser que « mon épouse » désigne l'épouse au jour du décès tandis que « mon épouse Madame X » désigne cette personne même après divorce. La version actuelle (« peut désigner une autre personne après divorce ») est compréhensible mais moins précise.",
+    "Si l'écran légende est lu à voix haute, conserver la mention que chaque bénéficiaire dispose de son abattement (actuelle dans la légende) peut renforcer la valeur informative du Reels sans alourdir le format."
+  ],
+  "reviewed_at": "2026-08-17T17:29:05",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-26:reels:assurance_vie_clause_beneficiaire:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_clause_beneficiaire__reels__a1.md"
+}

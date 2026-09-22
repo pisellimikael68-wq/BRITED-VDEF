@@ -1,0 +1,192 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script donne un chiffre précis (~50 %) pour l'abattement micro-BIC du meublé classique alors que la fiche source marque explicitement ce taux comme 'a_verifier: true'. Il faut soit vérifier le texte en vigueur avant diffusion, soit retirer le taux chiffré.",
+        "La fiche signale que les taux et seuils des meublés de tourisme ont été modifiés récemment et diffèrent du meublé classique ; le script ne vérifie pas ni n'identifie explicitement la catégorie du bien avant d'énoncer le chiffre, ce qui contrevient à l'exigence de fidélité stricte aux sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La distinction fondamentale (meublé → BIC ; nu → revenus fonciers) est correctement énoncée.",
+        "Cependant, le script présente un exemple chiffré (abattement ~50 % pour le micro-BIC) sans mentionner explicitement les limites légales ou seuils de revenu applicables au régime micro-BIC (ex. seuil d'application), alors que la fiche contient un seuil (77 700 €) marqué 'a_verifier'. Il faut either vérifier et citer le seuil exact en vigueur ou éviter le chiffre."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (différence de régime) et une exception/nouance (réel et amortissement).",
+        "Manque une phrase très courte rappelant l'obligation d'immatriculation de l'activité (mentionnée dans la fiche comme obligation déclarative propre) — omission importante pour la complétude réglementaire."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression globalement bonnes ; toutefois la phrase 'le micro-BIC est souvent autour de 50 %, soit ~5 000 euros' risque d'être perçue comme une affirmation trop précise sans vérification. Remplacer par 'nettement supérieur' ou ajouter 'vérifier la catégorie et la règle en vigueur' plus visible améliorerait l'éditorial."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention de non-conseil figure dans la légende, ce qui est conforme.",
+        "Toutefois, l'exemple chiffré pourrait être interprété comme conseil implicite si non vérifié ; il faut soit retraiter l'exemple en valeurs relatives sans pourcentages précis, soit ajouter clairement 'exemple hypothétique à vérifier légalement'."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible.",
+        "Quelques formulations peuvent être resserrées pour la diction orale (ex. 'Concrètement le régime micro-BIC applique un abattement forfaitaire sur les recettes pour le meublé classique, distinct du micro-foncier de la location nue : charges, déductions et obligations diffèrent.' — phrase longue; la scinder améliorerait la prononciation)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La cohérence générale est bonne, mais au moins deux éléments demandent correction avant publication : (1) le taux micro-BIC chiffré marqué 'à vérifier' dans la fiche n'a pas été vérifié ; (2) omission du rappel d'immatriculation/obligations déclaratives propres au statut LMNP.",
+        "L'appel à l'action 'Prendre rendez-vous via le lien dans ma bio' est cohérent mais la durée exacte (42 s) et le temps de prononciation des phrases longues n'ont pas été revus pour s'assurer qu'elles tiennent dans le format court."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels proposés correspondent globalement aux éléments narrés.",
+        "Toutefois, 'pictogramme balance BIC vs foncier' et 'schéma 2 colonnes' doivent explicitement éviter toute icône générique pouvant prêter à confusion (par exemple la balance pourrait être interprétée comme un jugement). Recommander des pictogrammes factuels (icône document 'BIC', icône maison 'foncier') et une mention visuelle 'à vérifier' au calcul chiffré."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et reste concise.",
+        "Toutefois, l'exemple chiffré prend une place importante pour 42 s et nécessite vérification : soit réduire ou retirer le chiffrage pour garder densité sans risque d'erreur."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est adapté à un non-spécialiste et les notions sont expliquées simplement.",
+        "Absence d'un très bref rappel sur l'immatriculation de l'activité et la nécessité de déterminer la catégorie exacte du meublé (classé/non classé) pour connaître les taux — élément cité dans la fiche mais insuffisamment mis en avant."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort (question) et progression logique ; CTA en fin correcte.",
+        "Deux secondes initiales sont bonnes mais la phrase d'exemple chiffré et la mention 'à vérifier' risquent d'affaiblir la confiance/rétention si l'audience repère l'imprécision. Raccourcir ou reformuler augmente la rétention."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources affichées inspirent confiance.",
+        "Mais l'affirmation chiffrée non vérifiée et l'absence d'un rappel sur obligations déclaratives ou immatriculation réduisent la crédibilité professionnelle perçue. Il faut corriger les chiffres ou les vérifier et ajouter la mention sur obligations pour renforcer la conversion."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 125,
+      "seconds": 46.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 125,
+        "seconds": 46.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script donne un chiffre précis (~50 %) pour l'abattement micro-BIC du meublé classique alors que la fiche source marque explicitement ce taux comme 'a_verifier: true'. Il faut soit vérifier le texte en vigueur avant diffusion, soit retirer le taux chiffré.",
+    "source : La fiche signale que les taux et seuils des meublés de tourisme ont été modifiés récemment et diffèrent du meublé classique ; le script ne vérifie pas ni n'identifie explicitement la catégorie du bien avant d'énoncer le chiffre, ce qui contrevient à l'exigence de fidélité stricte aux sources.",
+    "juridique_fiscal : La distinction fondamentale (meublé → BIC ; nu → revenus fonciers) est correctement énoncée.",
+    "juridique_fiscal : Cependant, le script présente un exemple chiffré (abattement ~50 % pour le micro-BIC) sans mentionner explicitement les limites légales ou seuils de revenu applicables au régime micro-BIC (ex. seuil d'application), alors que la fiche contient un seuil (77 700 €) marqué 'a_verifier'. Il faut either vérifier et citer le seuil exact en vigueur ou éviter le chiffre.",
+    "completude : Le script couvre la règle centrale, la condition (différence de régime) et une exception/nouance (réel et amortissement).",
+    "completude : Manque une phrase très courte rappelant l'obligation d'immatriculation de l'activité (mentionnée dans la fiche comme obligation déclarative propre) — omission importante pour la complétude réglementaire.",
+    "editorial : Accroche et progression globalement bonnes ; toutefois la phrase 'le micro-BIC est souvent autour de 50 %, soit ~5 000 euros' risque d'être perçue comme une affirmation trop précise sans vérification. Remplacer par 'nettement supérieur' ou ajouter 'vérifier la catégorie et la règle en vigueur' plus visible améliorerait l'éditorial.",
+    "securite : La mention de non-conseil figure dans la légende, ce qui est conforme.",
+    "securite : Toutefois, l'exemple chiffré pourrait être interprété comme conseil implicite si non vérifié ; il faut soit retraiter l'exemple en valeurs relatives sans pourcentages précis, soit ajouter clairement 'exemple hypothétique à vérifier légalement'.",
+    "formulation_professionnelle : Le français est naturel et compréhensible.",
+    "formulation_professionnelle : Quelques formulations peuvent être resserrées pour la diction orale (ex. 'Concrètement le régime micro-BIC applique un abattement forfaitaire sur les recettes pour le meublé classique, distinct du micro-foncier de la location nue : charges, déductions et obligations diffèrent.' — phrase longue; la scinder améliorerait la prononciation).",
+    "contre_verification_finale : La cohérence générale est bonne, mais au moins deux éléments demandent correction avant publication : (1) le taux micro-BIC chiffré marqué 'à vérifier' dans la fiche n'a pas été vérifié ; (2) omission du rappel d'immatriculation/obligations déclaratives propres au statut LMNP.",
+    "contre_verification_finale : L'appel à l'action 'Prendre rendez-vous via le lien dans ma bio' est cohérent mais la durée exacte (42 s) et le temps de prononciation des phrases longues n'ont pas été revus pour s'assurer qu'elles tiennent dans le format court.",
+    "coherence_pictogrammes : Les visuels proposés correspondent globalement aux éléments narrés.",
+    "coherence_pictogrammes : Toutefois, 'pictogramme balance BIC vs foncier' et 'schéma 2 colonnes' doivent explicitement éviter toute icône générique pouvant prêter à confusion (par exemple la balance pourrait être interprétée comme un jugement). Recommander des pictogrammes factuels (icône document 'BIC', icône maison 'foncier') et une mention visuelle 'à vérifier' au calcul chiffré.",
+    "densite_editoriale : La vidéo traite bien un seul angle et reste concise.",
+    "densite_editoriale : Toutefois, l'exemple chiffré prend une place importante pour 42 s et nécessite vérification : soit réduire ou retirer le chiffrage pour garder densité sans risque d'erreur.",
+    "pedagogie_client : Le vocabulaire est adapté à un non-spécialiste et les notions sont expliquées simplement.",
+    "pedagogie_client : Absence d'un très bref rappel sur l'immatriculation de l'activité et la nécessité de déterminer la catégorie exacte du meublé (classé/non classé) pour connaître les taux — élément cité dans la fiche mais insuffisamment mis en avant.",
+    "retention_attention : Hook fort (question) et progression logique ; CTA en fin correcte.",
+    "retention_attention : Deux secondes initiales sont bonnes mais la phrase d'exemple chiffré et la mention 'à vérifier' risquent d'affaiblir la confiance/rétention si l'audience repère l'imprécision. Raccourcir ou reformuler augmente la rétention.",
+    "conversion_confiance : Ton sérieux et sources affichées inspirent confiance.",
+    "conversion_confiance : Mais l'affirmation chiffrée non vérifiée et l'absence d'un rappel sur obligations déclaratives ou immatriculation réduisent la crédibilité professionnelle perçue. Il faut corriger les chiffres ou les vérifier et ajouter la mention sur obligations pour renforcer la conversion."
+  ],
+  "recommendations": [
+    "Supprimer ou reformuler le chiffre ~50 % dans la version finale tant que le taux n'est pas vérifié sur le texte en vigueur. Remplacer par 'nettement supérieur à celui du micro-foncier' ou, si vous souhaitez conserver un chiffre, vérifier l'article officiel (CGI / BOFiP) et citer la donnée exacte et sa date de validité.",
+    "Ajouter une phrase courte (5–7 mots à l'écran) rappelant l'obligation d'immatriculation/déclarations propres au statut LMNP : par exemple 'Statut LMNP = obligations déclaratives (immatriculation)'.",
+    "Si vous gardez l'exemple chiffré, indiquer visuellement et oralement 'exemple hypothétique — à vérifier' (texte écran clair) et réduire la place du calcul pour ne pas dépasser 42 s.",
+    "Raccourcir la phrase longue sur le micro-BIC en deux segments pour faciliter la diction : 1) 'Le micro-BIC applique un abattement forfaitaire sur les recettes du meublé classique.' 2) 'Ce régime diffère du micro-foncier : charges, déductions et obligations ne sont pas les mêmes.'",
+    "Adapter les pictogrammes pour qu'ils soient factuels et non ambigus : utiliser une icône 'document/BIC' et une icône 'maison/foncier' plutôt qu'une balance, et ajouter un badge 'à vérifier' sur le calcul chiffré.",
+    "Vérifier la durée orale précise après ajustements (lecture à voix haute) pour garantir que l'ensemble tient dans 42 secondes, en particulier si vous ajoutez la phrase sur immatriculation.",
+    "Mettre à jour la mention légale finale pour inclure explicitement : 'Vérifiez la réglementation et votre catégorie de meublé avant toute décision — information générale, pas un conseil personnalisé.'",
+    "Avant publication, procéder à une vérification finale des chiffres et seuils cités contre les sources listées (CGI articles et BOFiP) et mettre à jour les chiffres + date de consultation visible si des pourcentages ou seuils sont conservés."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-18:shorts:location_meublee_micro_bic:1",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__shorts__a1__v2.md"
+}

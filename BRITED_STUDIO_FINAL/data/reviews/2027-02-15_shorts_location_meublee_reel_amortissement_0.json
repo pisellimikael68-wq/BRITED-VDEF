@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « parfois pendant dix ou quinze ans » n'est pas étayée par les sources citées (BOFiP / CGI) ni par la fiche. La fiche donne des durées usuelles du gros œuvre 30–50 ans mais pas une durée générale de 10–15 ans pour l'effacement du résultat. Remplacer ou sourcer cette durée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La précision juridique majeure est correcte (LMNP = BIC, amortissement par composants, charges déductibles). Cependant l'accroche « fait‑il disparaître l'impôt sur vos loyers ? » peut être interprétée comme une promesse si elle n'est pas immédiatement nuancée. Il faut expliciter dès l'accroche que l'avantage est fiscal (réduction du résultat) et que l'amortissement ne constitue ni exonération définitive ni application automatique pour tous les dossiers. De plus, l'exemple chiffré avec 10–15 ans n'est pas sourcé."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exception, mais omet d'indiquer que la part non amortissable du prix (le terrain) doit être isolée — la fiche signale cette erreur fréquente. Le visuel mentionne 'terrain non amortissable' mais la narration ne l'explique explicitement.",
+        "L'exemple chiffré manque de précision sur l'origine des amortissements (valeur amortie, durées par composants) et la source de la durée 10–15 ans."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'enchaînement est clair et adapté au format short, mais l'accroche est très interrogative et peut créer clicbait si la nuance n'est entendue immédiatement. Suggestion: garder accroche percutante mais raccourcir ou déplacer la nuance dans la seconde phrase pour sécurité éditoriale."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est globalement professionnelle. À corriger : ajouter très brièvement que le terrain n'est pas amortissable dans la narration (la mention figure seulement sur le visuel). Éviter tournures pouvant laisser croire à une exonération définitive (bien que la nuance soit présente)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase la cohérence est bonne, mais il y a deux points à vérifier/ajuster : 1) l'exemple chiffré avec durée 10–15 ans doit être sourcé ou supprimé ; 2) la mention « il n'impute pas d'autres revenus » est correcte mais gagnerait à être légèrement reformulée pour dire « ne s'impute pas sur les autres revenus » pour une lecture immédiate plus fluide."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle. Toutefois l'exemple numérique introduit une durée non sourcée (10–15 ans) qui augmente la densité sans justification. Soit sourcer cette durée, soit retirer les années pour rester strictement factuel."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est compréhensible pour un non-spécialiste mais omet d'expliquer brièvement que la part du terrain n'est pas amortissable (visuel seulement). De plus, l'usage du terme « résultat imposable » est compréhensible mais pourrait être accompagné d'une courte explication ('impôt sur le revenu et prélèvements sociaux') pour plus de clarté."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes accrochent bien. Cependant la nuance importante ('L'amortissement ne crée pas de déficit') arrive en position 5 — bonne pédagogique mais risque de perdre certains spectateurs si l'accroche est perçue comme promesse. Recentrer légèrement l'ordre pour mettre la nuance plus tôt pourrait améliorer la confiance et prévenir malentendus."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est adapté et non pressant. Pour renforcer la confiance, il serait utile d'ajouter rapidement la mention 'contenu pédagogique, non personnalisé' dans la narration ou l'écran final (la légende le contient mais elle n'est peut‑être pas lue sur un short)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 122,
+      "seconds": 45.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 122,
+        "seconds": 45.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La phrase « parfois pendant dix ou quinze ans » n'est pas étayée par les sources citées (BOFiP / CGI) ni par la fiche. La fiche donne des durées usuelles du gros œuvre 30–50 ans mais pas une durée générale de 10–15 ans pour l'effacement du résultat. Remplacer ou sourcer cette durée.",
+    "juridique_fiscal : La précision juridique majeure est correcte (LMNP = BIC, amortissement par composants, charges déductibles). Cependant l'accroche « fait‑il disparaître l'impôt sur vos loyers ? » peut être interprétée comme une promesse si elle n'est pas immédiatement nuancée. Il faut expliciter dès l'accroche que l'avantage est fiscal (réduction du résultat) et que l'amortissement ne constitue ni exonération définitive ni application automatique pour tous les dossiers. De plus, l'exemple chiffré avec 10–15 ans n'est pas sourcé.",
+    "completude : Le script couvre la règle centrale, la condition et l'exception, mais omet d'indiquer que la part non amortissable du prix (le terrain) doit être isolée — la fiche signale cette erreur fréquente. Le visuel mentionne 'terrain non amortissable' mais la narration ne l'explique explicitement.",
+    "completude : L'exemple chiffré manque de précision sur l'origine des amortissements (valeur amortie, durées par composants) et la source de la durée 10–15 ans.",
+    "editorial : L'enchaînement est clair et adapté au format short, mais l'accroche est très interrogative et peut créer clicbait si la nuance n'est entendue immédiatement. Suggestion: garder accroche percutante mais raccourcir ou déplacer la nuance dans la seconde phrase pour sécurité éditoriale.",
+    "formulation_professionnelle : La formulation est globalement professionnelle. À corriger : ajouter très brièvement que le terrain n'est pas amortissable dans la narration (la mention figure seulement sur le visuel). Éviter tournures pouvant laisser croire à une exonération définitive (bien que la nuance soit présente).",
+    "contre_verification_finale : Phrase par phrase la cohérence est bonne, mais il y a deux points à vérifier/ajuster : 1) l'exemple chiffré avec durée 10–15 ans doit être sourcé ou supprimé ; 2) la mention « il n'impute pas d'autres revenus » est correcte mais gagnerait à être légèrement reformulée pour dire « ne s'impute pas sur les autres revenus » pour une lecture immédiate plus fluide.",
+    "densite_editoriale : La vidéo traite bien un seul angle. Toutefois l'exemple numérique introduit une durée non sourcée (10–15 ans) qui augmente la densité sans justification. Soit sourcer cette durée, soit retirer les années pour rester strictement factuel.",
+    "pedagogie_client : Le script est compréhensible pour un non-spécialiste mais omet d'expliquer brièvement que la part du terrain n'est pas amortissable (visuel seulement). De plus, l'usage du terme « résultat imposable » est compréhensible mais pourrait être accompagné d'une courte explication ('impôt sur le revenu et prélèvements sociaux') pour plus de clarté.",
+    "retention_attention : Les deux premières secondes accrochent bien. Cependant la nuance importante ('L'amortissement ne crée pas de déficit') arrive en position 5 — bonne pédagogique mais risque de perdre certains spectateurs si l'accroche est perçue comme promesse. Recentrer légèrement l'ordre pour mettre la nuance plus tôt pourrait améliorer la confiance et prévenir malentendus.",
+    "conversion_confiance : Le CTA est adapté et non pressant. Pour renforcer la confiance, il serait utile d'ajouter rapidement la mention 'contenu pédagogique, non personnalisé' dans la narration ou l'écran final (la légende le contient mais elle n'est peut‑être pas lue sur un short)."
+  ],
+  "recommendations": [
+    "Supprimer ou sourcer la mention « parfois pendant dix ou quinze ans ». Si vous conservez une indication de durée, reformulez en 'selon les durées d'amortissement des composants — parfois plusieurs années' ou fournissez une source chiffrée.",
+    "Dans la narration, ajouter une phrase très brève précisant que la quote‑part de terrain n'est pas amortissable (même phrase courte suffit : 'attention : le terrain n'est pas amortissable, il faut l'isoler').",
+    "Déplacer ou anticiper légèrement la nuance 'L'amortissement ne crée pas de déficit...' pour apparaître plus tôt (par ex. juste après la première réponse) afin d'éviter toute interprétation d'exonération automatique.",
+    "Reformuler 'il n'impute pas d'autres revenus' en 'il ne s'impute pas sur les autres revenus' pour une lecture plus naturelle.",
+    "Ajouter très brièvement à l'écran final ou dans la narration la mention 'contenu pédagogique, non personnalisé' pour renforcer la conformité et la confiance (la légende existante est bonne mais risque de ne pas être lue).",
+    "Vérifier que la voix off suit exactement les libellés des visuels (par ex. si l'écran affiche 'terrain non amortissable', la voix doit le mentionner), afin d'assurer correspondance mot à mot entre audio et visuel."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-15:shorts:location_meublee_reel_amortissement:0",
+  "script_path": "scripts/location_meublee/location_meublee_reel_amortissement__shorts__a5__v2.md"
+}

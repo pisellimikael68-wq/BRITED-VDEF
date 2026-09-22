@@ -1,0 +1,139 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Texte : la narration continue est répétée deux fois à la fin du script (double impression du même paragraphe). Cela crée une redondance et peut nuire au rythme attendu pour un format 'Shorts' de ~42 s."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La consigne de seconde lecture n'a pas éliminé la répétition mot à mot de la narration (présente deux fois). Il faut corriger la duplication et relire une dernière fois pour vérifier qu'aucune autre répétition ou phrase non naturelle subsiste."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu traite bien un seul angle mais la répétition de la narration augmente artificiellement la durée et la densité — risque de dépasser 42 s. Après suppression de la répétition, vérifier le temps réel de lecture pour rester dans la durée estimée."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 129,
+      "seconds": 47.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 129,
+        "seconds": 47.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "editorial : Texte : la narration continue est répétée deux fois à la fin du script (double impression du même paragraphe). Cela crée une redondance et peut nuire au rythme attendu pour un format 'Shorts' de ~42 s.",
+    "contre_verification_finale : La consigne de seconde lecture n'a pas éliminé la répétition mot à mot de la narration (présente deux fois). Il faut corriger la duplication et relire une dernière fois pour vérifier qu'aucune autre répétition ou phrase non naturelle subsiste.",
+    "densite_editoriale : Le contenu traite bien un seul angle mais la répétition de la narration augmente artificiellement la durée et la densité — risque de dépasser 42 s. Après suppression de la répétition, vérifier le temps réel de lecture pour rester dans la durée estimée."
+  ],
+  "recommendations": [
+    "Supprimer la répétition mot à mot de la 'Narration continue' qui apparaît deux fois en fin de document. Conserver une seule occurrence pour éviter redondance et dépassement de durée.",
+    "Après suppression de la répétition, effectuer une lecture chronométrée (voix naturelle) pour vérifier que le script tient bien dans 42 s ; si nécessaire, réduire légèrement le texte (par ex. condenser la phrase d'exemple).",
+    "Relire les libellés visuels : remplacer 'panier stylisé remplacé par caisse d'actifs' par un libellé clair et simple (ex. 'icône panier d'actifs') afin d'éviter ambigüité pour le/des graphistes.",
+    "Effectuer une dernière relecture unique (contre-vérification) pour s'assurer que la version finale combine suppression des répétitions, fluidité et respect strict du temps format Shorts."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-26:shorts:obligations_risque_de_taux:1",
+  "script_path": "scripts/obligations/obligations_risque_de_taux__shorts__a2__v2.md"
+}

@@ -1,0 +1,175 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED est correctement citée en sources mais le script ne reprend pas explicitement le chiffre clé 'Nombre de classes d'actifs usuellement distinguées : 5' — l'ajouter augmenterait la fidélité à la source et la clarté pédagogique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient un CTA 'Prenez rendez-vous via le lien dans ma bio.' : juridiquement ceci reste acceptable, mais il faut s'assurer que l'oral ou l'écran comporte aussi la mention claire (visible) que le contenu ne constitue pas un conseil personnalisé avant d'inviter au rendez-vous. La légende contient la mention, mais elle n'est pas nécessairement entendue dans le Reels ; recommander d'ajouter une phrase courte audible/visible avant le CTA précisant 'ce n'est pas un conseil personnalisé'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, une condition et des exemples, mais omet d'utiliser le chiffre '5 classes d'actifs' issu de la source qui renforce la recommandation. De plus, la question fréquente 'Combien de placements différents faut-il avoir ?' n'est pas directement adressée — il faut rappeler que le nombre n'est pas la bonne question et renvoyer vers 'combien de risques indépendants'."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : la narration continue pourrait dépasser 38 s à l'oral. Il faut chronométrer la lecture à voix normale et ajuster le texte si nécessaire pour respecter la contrainte de format Reels (souvent < 45 s)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais le visuel 'bulletin de vote stylisé' peut prêter à confusion (connotation civique). Suggestion de remplacer par un visuel plus neutre (case à cocher simple ou curseur Oui/Non).",
+        "La phrase 'Diversifier, c'est multiplier des sources de risque indépendantes' est claire mais l'enchaînement énumératif ('classes d'actifs, zones et enveloppes (PEA, assurance‑vie, compte‑titre)') gagnerait à inclure un très court mot explicatif pour 'enveloppes' pour un non-spécialiste."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la neutralité pédagogique et la source, mais l'appel à prendre rendez‑vous peut être perçu comme commercial. Recommander d'adoucir le CTA (ex. 'Vous voulez en savoir plus ? Consultez les sources en légende ou prenez rendez‑vous') pour limiter l'impression de prospection directe."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais quelques micro-ajustements recommandés pour la fluidité orale : par exemple remplacer 'Diversifier, c'est multiplier des sources de risque indépendantes : classes d'actifs, zones et enveloppes (PEA, assurance‑vie, compte‑titre).' par 'Diversifier, c'est multiplier des risques qui ne réagissent pas de la même façon : classes d'actifs, zones géographiques et enveloppes fiscales (PEA, assurance‑vie, compte‑titre).' pour une meilleure prononciation et compréhension."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase, l'enchaînement est cohérent. Observation : la 'question' et la 'hook' sont redondantes (deux fois 'Tout votre argent sur un seul contrat... Est-ce dangereux...?'). Pour conserver le timing, envisager de fusionner ou raccourcir l'une des deux occurrences."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont pertinents, mais le 'bulletin de vote stylisé' risque d'être interprété politiquement. De plus, la 'chaîne de risques reliés' doit clairement représenter 'risques identiques' (flèches synchrones) pour éviter l'ambiguïté. Préciser visuellement le contraste entre 'lignes multiples / même risque' et 'lignes multiples / risques indépendants'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise, mais manque d'un chiffre-clé (5 classes d'actifs) et d'une phrase très brève expliquant que la diversification n'assure pas contre une baisse générale — la nuance est présente mais pourrait être une phrase plus frappante et courte pour l'impact final."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement accessible pour un non-spécialiste. Toutefois le terme 'enveloppes' et les sigles (PEA, compte‑titre) peuvent perdre une partie du public. Recommander d'ajouter un court parenthèse explicative ou d'illustrer chaque enveloppe par un pictogramme explicite (par ex. 'PEA (compte actions favorisé fiscalement)') si le temps le permet."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook initial fort. Risque de perte d'attention si la narration n'est pas rythmée : la partie 'exemple' énumère trois cas qui pourraient être trop longue. Recommander coupes/clips dynamiques ou un mot de transition très court entre exemples pour garder le tempo."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé renforce la confiance. Amélioration recommandée : faire apparaître brièvement les logos des sources ou la mention 'Sources : AMF, Banque de France' à l'écran pour renforcer l'autorité juste avant ou après la nuance finale."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED est correctement citée en sources mais le script ne reprend pas explicitement le chiffre clé 'Nombre de classes d'actifs usuellement distinguées : 5' — l'ajouter augmenterait la fidélité à la source et la clarté pédagogique.",
+    "juridique_fiscal : Le script contient un CTA 'Prenez rendez-vous via le lien dans ma bio.' : juridiquement ceci reste acceptable, mais il faut s'assurer que l'oral ou l'écran comporte aussi la mention claire (visible) que le contenu ne constitue pas un conseil personnalisé avant d'inviter au rendez-vous. La légende contient la mention, mais elle n'est pas nécessairement entendue dans le Reels ; recommander d'ajouter une phrase courte audible/visible avant le CTA précisant 'ce n'est pas un conseil personnalisé'.",
+    "completude : Le script couvre la règle centrale, une condition et des exemples, mais omet d'utiliser le chiffre '5 classes d'actifs' issu de la source qui renforce la recommandation. De plus, la question fréquente 'Combien de placements différents faut-il avoir ?' n'est pas directement adressée — il faut rappeler que le nombre n'est pas la bonne question et renvoyer vers 'combien de risques indépendants'.",
+    "plateforme : Durée estimée 38 s : la narration continue pourrait dépasser 38 s à l'oral. Il faut chronométrer la lecture à voix normale et ajuster le texte si nécessaire pour respecter la contrainte de format Reels (souvent < 45 s).",
+    "editorial : Accroche efficace mais le visuel 'bulletin de vote stylisé' peut prêter à confusion (connotation civique). Suggestion de remplacer par un visuel plus neutre (case à cocher simple ou curseur Oui/Non).",
+    "editorial : La phrase 'Diversifier, c'est multiplier des sources de risque indépendantes' est claire mais l'enchaînement énumératif ('classes d'actifs, zones et enveloppes (PEA, assurance‑vie, compte‑titre)') gagnerait à inclure un très court mot explicatif pour 'enveloppes' pour un non-spécialiste.",
+    "securite : Le script respecte la neutralité pédagogique et la source, mais l'appel à prendre rendez‑vous peut être perçu comme commercial. Recommander d'adoucir le CTA (ex. 'Vous voulez en savoir plus ? Consultez les sources en légende ou prenez rendez‑vous') pour limiter l'impression de prospection directe.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais quelques micro-ajustements recommandés pour la fluidité orale : par exemple remplacer 'Diversifier, c'est multiplier des sources de risque indépendantes : classes d'actifs, zones et enveloppes (PEA, assurance‑vie, compte‑titre).' par 'Diversifier, c'est multiplier des risques qui ne réagissent pas de la même façon : classes d'actifs, zones géographiques et enveloppes fiscales (PEA, assurance‑vie, compte‑titre).' pour une meilleure prononciation et compréhension.",
+    "contre_verification_finale : Phrase par phrase, l'enchaînement est cohérent. Observation : la 'question' et la 'hook' sont redondantes (deux fois 'Tout votre argent sur un seul contrat... Est-ce dangereux...?'). Pour conserver le timing, envisager de fusionner ou raccourcir l'une des deux occurrences.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont pertinents, mais le 'bulletin de vote stylisé' risque d'être interprété politiquement. De plus, la 'chaîne de risques reliés' doit clairement représenter 'risques identiques' (flèches synchrones) pour éviter l'ambiguïté. Préciser visuellement le contraste entre 'lignes multiples / même risque' et 'lignes multiples / risques indépendants'.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise, mais manque d'un chiffre-clé (5 classes d'actifs) et d'une phrase très brève expliquant que la diversification n'assure pas contre une baisse générale — la nuance est présente mais pourrait être une phrase plus frappante et courte pour l'impact final.",
+    "pedagogie_client : Globalement accessible pour un non-spécialiste. Toutefois le terme 'enveloppes' et les sigles (PEA, compte‑titre) peuvent perdre une partie du public. Recommander d'ajouter un court parenthèse explicative ou d'illustrer chaque enveloppe par un pictogramme explicite (par ex. 'PEA (compte actions favorisé fiscalement)') si le temps le permet.",
+    "retention_attention : Hook initial fort. Risque de perte d'attention si la narration n'est pas rythmée : la partie 'exemple' énumère trois cas qui pourraient être trop longue. Recommander coupes/clips dynamiques ou un mot de transition très court entre exemples pour garder le tempo.",
+    "conversion_confiance : Ton sérieux et sourcé renforce la confiance. Amélioration recommandée : faire apparaître brièvement les logos des sources ou la mention 'Sources : AMF, Banque de France' à l'écran pour renforcer l'autorité juste avant ou après la nuance finale."
+  ],
+  "recommendations": [
+    "Ajouter explicitement le chiffre '5 classes d'actifs (monétaire, obligations, actions, immobilier, actifs réels)' dans la ligne 'Diversifier = ...' ou en vignette pour fidélité à la source.",
+    "Avant le CTA oral/visuel, ajouter une phrase courte et audible : 'Contenu pédagogique — pas un conseil personnalisé.' La légende ne suffit pas toujours pour un Reels.",
+    "Remplacer le visuel 'bulletin de vote stylisé' par une case à cocher neutre ou un curseur Oui/Non pour éviter une connotation civique.",
+    "Raccourcir ou fusionner la hook/question initiale pour garantir le respect de la durée 38 s ; chronométrer une lecture orale à vitesse normale et ajuster si nécessaire.",
+    "Clarifier 'enveloppes (PEA, assurance‑vie, compte‑titre)' pour un non‑spécialiste par une très brève parenthèse explicative ou pictogrammes clairs.",
+    "Alléger l'exemple (trois vignettes) en réduisant chaque phrase à 3–5 mots clés lus lentement, et ajouter un très bref tempo entre les vignettes pour maintenir l'attention.",
+    "Afficher brièvement à l'écran les sources (AMF, Banque de France) près de la fin pour renforcer la crédibilité avant le CTA.",
+    "Ajuster la formulation recommandée pour la fluidité orale : remplacer certaines phrases longues par versions plus directes (exemples fournis dans findings)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-17:reels:culture_diversification:0",
+  "script_path": "scripts/culture_financiere/culture_diversification__reels__a3__v6.md"
+}

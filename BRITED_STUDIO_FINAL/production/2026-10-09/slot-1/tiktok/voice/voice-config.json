@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "speed": 0.88,
+  "exaggeration": 0.38,
+  "cfg_weight": 0.32,
+  "temperature": 0.5,
+  "top_p": 0.86,
+  "min_p": 0.08,
+  "repetition_penalty": 1.5
+}

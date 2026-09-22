@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-27",
+  "slot": 2,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-27:shorts:compte_titres_pfu:1",
+      "platform": "shorts",
+      "title": "Le PFU de 31,4 % n'est pas toujours le meilleur choix",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/compte_titres/compte_titres_pfu__shorts__a1__v11.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-2/shorts/compte_titres_pfu__shorts.mp4",
+      "script_sha256": "c141690f4510f77a394af36d23fd88e6bcaf8a52316fe6f052f4d2bfad373a67",
+      "spec_sha256": "15a6537531b1796fd4ba15754c3016149f45e2ac2ca21e9bd9ecac7ff901ea33",
+      "video_sha256": "f918f83cb0e72f30289125803bd7249dc7a3f3f5acc346589cb7aa6d7746c248",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 69.34,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 212,
+        "seconds": 78.5,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-27:shorts:compte_titres_pfu:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-27_shorts_compte_titres_pfu_1__v11.json",
+        "validated_at": "2026-08-27T11:20:41"
+      },
+      "review_path": "data/reviews/2026-08-27_shorts_compte_titres_pfu_1__v11.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-2/shorts/compte_titres_pfu__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-27/slot-2/shorts/compte_titres_pfu__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

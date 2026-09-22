@@ -1,0 +1,169 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script utilise des chiffres (0,05–0,40 % et 1,5–2,5 %) issus de la fiche mais ceux-ci sont marqués « a_verifier: true » dans la SOURCE DE VÉRITÉ. Il faut soit indiquer explicitement qu'il s'agit d'un ordre de grandeur vérifiable sur le DIC du produit, soit remplacer par la formulation « typiquement » ou ajouter une mention « à vérifier sur le DIC ». Localisation : ligne du script où sont annoncés les « Frais annuels typiques : 0,05–0,40 % » et « fonds actif facturant 1,5–2,5 % ».",
+        "La phrase « il achète l'indice » peut prêter à confusion (certains ETF répliquent par synthèse). Il faut ajouter la condition briève « (physique ou synthétique) » ou reformuler. Localisation : narration 'Non — c'est un contenant qui réplique un indice' et phrase suivante 'Il suit l'indice et ne cherche pas à le battre ; condition : il achète l'indice...'."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention « Éligibilité au PEA possible si le fonds est UCITS et respecte les quotas européens » figure dans la source mais le script omet toute nuance sur les conditions exactes (ex. fonds domicilié dans l'UE et respect des règles d'éligibilité du PEA). Il faudrait éviter toute implication généralisée ou ajouter la phrase courte « Certains ETF seulement sont éligibles au PEA » pour ne pas induire en erreur. Localisation : absence de cette nuance dans le script.",
+        "La narration dit « il achète l'indice » sans mentionner les modes de réplication et sans rappeler que la Directive UCITS encadre ces produits ; pour être juridiquement précis, ajouter « UCITS » si l'exemple porte sur l'éligibilité ou indiquer clairement que les règles peuvent varier selon le produit. Localisation : section expliquant la nature du produit."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite le point central (frais) et la nuance (capital non garanti) mais omet d'expliquer brièvement que la diversification réduit le risque idiosyncratique mais pas le risque systémique — l'énoncé actuel est correct mais trop synthétique pour un non-spécialiste. Localisation : phrase « la diversification évite le risque d'une seule société mais pas le risque de marché. »",
+        "L'exemple 'effet cumulé sur 20 ans' est mentionné sans chiffrage illustratif (même simple) — pour la complétude pédagogique un petit repère chiffré augmenterait la clarté (ex. ordre de grandeur d'impact d'1,5 % sur 20 ans). Localisation : beat 5."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accumulation de courtes phrases fonctionne, mais l'accroche « On vous dit souvent « achète un ETF ». » peut être rendue plus percutante dans les deux premières secondes (ex. tonalité ou formulation légèrement plus active). Localisation : hook.",
+        "Le CTA « Prenez rendez-vous via le lien dans ma bio » est standard mais devrait éviter toute pression commerciale ; suggérer formulation plus neutre comme « Prenez rendez‑vous si vous voulez en parler » pour aligner ton pédagogique et confiance. Localisation : beat 7."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être précisées pour un français naturel : par exemple « Il suit l'indice et ne cherche pas à le battre ; condition : il achète l'indice » → ambiguë; proposer « Il réplique un indice et ne cherche pas à le battre : il suit l'indice (réplication physique ou synthétique), d'où des frais bas. » Localisation : beats 3–4.",
+        "La phrase finale du script (CTA) est correcte mais la ponctuation pourrait être allégée pour une lecture orale plus fluide. Localisation : narration finale."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Orthographe et sens global vérifiés, mais il reste deux imprécisions majeures repérées par d'autres agents : le statut 'a_verifier' des chiffres non signalé et l'absence de mention sur réplication physique/synthétique. Ces éléments doivent être corrigés avant publication. Localisation : chiffres et définition de la réplication."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement adapté à un non-spécialiste mais l'usage du terme 'contenant' sans une très brève analogie risque de perdre certains spectateurs ; proposer une micro-métaphore orale: 'un ETF, c'est comme une boîte qui contient tout l'indice'. Localisation : beat 3.",
+        "Le message sur les frais gagnerait à inclure explicitement la notion d'effet composé (une phrase courte) pour que le non-spécialiste comprenne pourquoi l'écart se creuse. Localisation : beat 5."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont correctes mais l'accroche peut être optimisée pour capter davantage (ex. transformer en question directe adressée au spectateur: « On vous a déjà dit : 'achète un ETF' ? »). Localisation : hook.",
+        "Le passage explicatif (beats 4–5) est dense ; envisager une micro-pause visuelle ou un texte-clé renforcé pour maintenir l'attention. Localisation : transition entre les beats 4 et 5."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script utilise des chiffres (0,05–0,40 % et 1,5–2,5 %) issus de la fiche mais ceux-ci sont marqués « a_verifier: true » dans la SOURCE DE VÉRITÉ. Il faut soit indiquer explicitement qu'il s'agit d'un ordre de grandeur vérifiable sur le DIC du produit, soit remplacer par la formulation « typiquement » ou ajouter une mention « à vérifier sur le DIC ». Localisation : ligne du script où sont annoncés les « Frais annuels typiques : 0,05–0,40 % » et « fonds actif facturant 1,5–2,5 % ».",
+    "source : La phrase « il achète l'indice » peut prêter à confusion (certains ETF répliquent par synthèse). Il faut ajouter la condition briève « (physique ou synthétique) » ou reformuler. Localisation : narration 'Non — c'est un contenant qui réplique un indice' et phrase suivante 'Il suit l'indice et ne cherche pas à le battre ; condition : il achète l'indice...'.",
+    "juridique_fiscal : La mention « Éligibilité au PEA possible si le fonds est UCITS et respecte les quotas européens » figure dans la source mais le script omet toute nuance sur les conditions exactes (ex. fonds domicilié dans l'UE et respect des règles d'éligibilité du PEA). Il faudrait éviter toute implication généralisée ou ajouter la phrase courte « Certains ETF seulement sont éligibles au PEA » pour ne pas induire en erreur. Localisation : absence de cette nuance dans le script.",
+    "juridique_fiscal : La narration dit « il achète l'indice » sans mentionner les modes de réplication et sans rappeler que la Directive UCITS encadre ces produits ; pour être juridiquement précis, ajouter « UCITS » si l'exemple porte sur l'éligibilité ou indiquer clairement que les règles peuvent varier selon le produit. Localisation : section expliquant la nature du produit.",
+    "completude : Le script traite le point central (frais) et la nuance (capital non garanti) mais omet d'expliquer brièvement que la diversification réduit le risque idiosyncratique mais pas le risque systémique — l'énoncé actuel est correct mais trop synthétique pour un non-spécialiste. Localisation : phrase « la diversification évite le risque d'une seule société mais pas le risque de marché. »",
+    "completude : L'exemple 'effet cumulé sur 20 ans' est mentionné sans chiffrage illustratif (même simple) — pour la complétude pédagogique un petit repère chiffré augmenterait la clarté (ex. ordre de grandeur d'impact d'1,5 % sur 20 ans). Localisation : beat 5.",
+    "editorial : Accumulation de courtes phrases fonctionne, mais l'accroche « On vous dit souvent « achète un ETF ». » peut être rendue plus percutante dans les deux premières secondes (ex. tonalité ou formulation légèrement plus active). Localisation : hook.",
+    "editorial : Le CTA « Prenez rendez-vous via le lien dans ma bio » est standard mais devrait éviter toute pression commerciale ; suggérer formulation plus neutre comme « Prenez rendez‑vous si vous voulez en parler » pour aligner ton pédagogique et confiance. Localisation : beat 7.",
+    "formulation_professionnelle : Quelques formulations pourraient être précisées pour un français naturel : par exemple « Il suit l'indice et ne cherche pas à le battre ; condition : il achète l'indice » → ambiguë; proposer « Il réplique un indice et ne cherche pas à le battre : il suit l'indice (réplication physique ou synthétique), d'où des frais bas. » Localisation : beats 3–4.",
+    "formulation_professionnelle : La phrase finale du script (CTA) est correcte mais la ponctuation pourrait être allégée pour une lecture orale plus fluide. Localisation : narration finale.",
+    "contre_verification_finale : Orthographe et sens global vérifiés, mais il reste deux imprécisions majeures repérées par d'autres agents : le statut 'a_verifier' des chiffres non signalé et l'absence de mention sur réplication physique/synthétique. Ces éléments doivent être corrigés avant publication. Localisation : chiffres et définition de la réplication.",
+    "pedagogie_client : Le script est globalement adapté à un non-spécialiste mais l'usage du terme 'contenant' sans une très brève analogie risque de perdre certains spectateurs ; proposer une micro-métaphore orale: 'un ETF, c'est comme une boîte qui contient tout l'indice'. Localisation : beat 3.",
+    "pedagogie_client : Le message sur les frais gagnerait à inclure explicitement la notion d'effet composé (une phrase courte) pour que le non-spécialiste comprenne pourquoi l'écart se creuse. Localisation : beat 5.",
+    "retention_attention : Les deux premières secondes sont correctes mais l'accroche peut être optimisée pour capter davantage (ex. transformer en question directe adressée au spectateur: « On vous a déjà dit : 'achète un ETF' ? »). Localisation : hook.",
+    "retention_attention : Le passage explicatif (beats 4–5) est dense ; envisager une micro-pause visuelle ou un texte-clé renforcé pour maintenir l'attention. Localisation : transition entre les beats 4 et 5."
+  ],
+  "recommendations": [
+    "Marquer explicitement que les fourchettes de frais sont des ordres de grandeur à vérifier sur le DIC du produit (p.ex. ajouter une parenthèse « (ordre de grandeur — vérifier le DIC) » après les pourcentages).",
+    "Préciser brièvement que la réplication peut être physique ou synthétique (ex. « réplication physique ou synthétique ») afin d'éviter l'ambiguïté de « il achète l'indice ». Modifier la phrase correspondante.",
+    "Ajouter une phrase courte précisant que seuls certains ETF sont éligibles au PEA (ex. « Certains ETF seulement, s'ils respectent les règles européennes, sont éligibles au PEA ») si vous évoquez l'éligibilité dans d'autres contenus liés.",
+    "Optionnel : pour la pédagogie, remplacer 'contenant' par une micro-métaphore orale ('comme une boîte qui contient tout l'indice') et, dans l'exemple sur 20 ans, ajouter un repère chiffré simple (p.ex. '1,5 point d'écart peut réduire le capital final de X % sur 20 ans' — si vous ajoutez un chiffre précis, vérifier sa source avant publication).",
+    "Réviser l'accroche et le CTA pour maximiser l'impact en 2 s et éviter toute tonalité commerciale trop pressante (p.ex. 'Envie d'en parler ? Lien dans la bio')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-04:reels:etf_replication_indicielle:0",
+  "script_path": "scripts/etf/etf_replication_indicielle__reels__a5__v9.md"
+}

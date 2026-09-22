@@ -1,0 +1,200 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source mais omet de rappeler explicitement que la condition des deux ans de mariage a été supprimée (erreur fréquente mentionnée dans la fiche). Localisation : beat 4 (règle) — ajouter la mention « plus de délai minimum de mariage ».",
+        "La légende et le script citent le 'CGI article 1133 bis' comme source ; vérifier que cette référence correspond précisément au texte applicable sur le régime des droits en cas de changement de régime (localiser dans 'Sources'). Si la référence est correcte, indiquer 'CGI, art. 1133 bis' est acceptable ; sinon préciser la référence exacte."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script énonce correctement les règles essentielles (acte notarié, information des enfants majeurs et créanciers, délai d'opposition de 3 mois, homologation si mineurs). Localisation : beat 4 (règle).",
+        "Le passage sur l'impact fiscal pour les enfants est juste mais trop synthétique : il affirme que la communauté universelle 'supprime la succession du premier parent' et 'peut alourdir la charge fiscale', sans préciser l'effet concret (perte de l'abattement de 100 000 € par enfant) qui est mentionné dans la fiche mais absent du script. Localisation : beat 6 (nuance) — ajouter la mention de l'abattement de 100 000 € par enfant pour être fiscalement précis.",
+        "Il manque la précision que le changement liquide le régime précédent (récompenses, calculs, publication foncière si immeubles) et que l'acte a un coût non négligeable. Localisation : absence dans le script ; à ajouter brièvement entre beat 4 et 5 ou en nuance."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre le cœur du sujet mais omet deux éléments pratiques essentiels de la fiche : (1) l'absence de délai minimum de mariage (condition supprimée) ; (2) l'obligation technique de liquider l'ancien régime et les coûts associés (notaire, liquidation, publicité foncière). Ces omissions réduisent la complétude pour un spectateur souhaitant 'faire le point'.",
+        "L'exemple est correct mais gagnerait à inclure une phrase très brève sur la réaction possible des enfants majeurs (opposition fréquente dans familles recomposées) pour illustrer le risque pratique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le storyboard respecte l'ordre des séquences et la durée estimée (38s) paraît cohérente, mais il faudrait vérifier le minutage réel pour tenir 38s (la narration contient plusieurs phrases denses). Localisation : narration continue — recommander un texte légèrement abrégé ou une vitesse de parole mesurée.",
+        "Le CTA 'lien dans ma bio' est adapté à Instagram Reels. Aucun élément de format natif (sous-titres, punch) n'est explicitement indiqué : recommander d'ajouter une suggestion de sous-titrage pour accessibles et engagement."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte (beat 1) mais la répétition 'La communauté universelle protège-t-elle vraiment ? OUI NON' (beat 2) est efficace. Toutefois, la transition entre la réponse affirmative (beat 3) et la règle (beat 4) est un peu sèche : recommander une courte phrase de liaison (« oui mais attention ») pour préparer la nuance fiscale.",
+        "Certaines formulations peuvent être allégées pour la diction orale : par exemple, remplacer 'supprime la succession du premier parent' par 'annule l'ouverture d'une succession au premier décès' pour plus de clarté pour le grand public."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel mais quelques phrases longues nuisent à la prononciation fluide (narration continue). Localisation : phrase unique après beat 4 — proposez de scinder en deux phrases pour faciliter la diction.",
+        "Le texte de la légende est correct mais un peu dense ; recommander de réduire légèrement la répétition et de conserver la mention de non-conseil telle qu'elle figure (présente)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques incohérences mineures repérées en lecture mot à mot : (1) absence de mention explicite de la suppression de la condition des deux ans (fiche erreurs fréquentes) ; (2) omission de l'information sur la liquidation du régime précédent et ses coûts ; (3) la formulation 'supprime la succession du premier parent' est juridiquement sensible et mérite reformulation (« annule l'ouverture d'une succession au premier décès »). Ces trois points doivent être corrigés pour être parfaitement cohérents avec la fiche source.",
+        "Vérifier la référence CGI article 1133 bis (exactitude formelle) lors de la relecture finale."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes correspondent bien aux notions prononcées, mais quelques ajustements recommandés :",
+        "- Beat 1 : 'pictogramme alliance + coffre' convient mais le coffre peut suggérer secret/valeur — c'est acceptable.",
+        "- Beat 4 : 'notaire, enveloppes notification, pictogramme 3 mois' est correct. Veiller à ce que l'enveloppe illustre l'information aux enfants majeurs (par lettre recommandée) plutôt que simple notification générique.",
+        "- Beat 6 : 'pictogramme balance fiscale, flèche montant vers pourcentage' est pertinent ; ajouter visuel petit symbole '100k €' ou icône d'enfant pour illustrer l'abattement perdu, afin de rendre la nuance plus lisible visuellement."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un angle unique (communauté universelle) et reste concise, mais omet deux éléments de la 'règle centrale' listés dans la fiche : la suppression de la condition des deux ans et la liquidation technique du régime précédent. Ces éléments peuvent être ajoutés en une courte phrase sans alourdir la vidéo.",
+        "Le script contient les chiffres essentiels (3 mois) mais devrait rappeler l'abattement de 100 000 € pour être complet et fidèle à la fiche."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le langage est adapté à un non-spécialiste mais une phrase explicative courte sur 'qu'est-ce que ça signifie pour les enfants ?' (par ex. perte de l'abattement de 100 000 €) améliorerait la compréhension immédiate.",
+        "Éviter le jargon non expliqué : 'indivision' est utilisé (beat 5) — il peut être compris mais ajouter parenthèse très courte 'division impossible entre conjoint et enfants' aiderait la pédagogie."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes. Toutefois la narration continue est dense pour 38s — risque de perte d'attention au beat 4-6 si la diction n'est pas adaptée. Recommander de raccourcir ou de marquer une pause entre 'règle' et 'exemple' pour améliorer rétention.",
+        "Le CTA est bien placé mais pourrait gagner en impact avec un micro-social proof (par ex. 'rendez-vous gratuit de 15 min' seulement si vrai). Ne pas inventer d'offre."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire en grande partie sérieux et compétence, la mention de sources renforce la confiance. Cependant l'absence d'une brève mise en garde sur le coût et la complexité technique (liquidation, publicité foncière, frais de notaire) peut affaiblir la confiance si le spectateur découvre ces éléments après le CTA. Localisation : ajouter en nuance ou en légende une phrase très courte sur coûts/complexité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source mais omet de rappeler explicitement que la condition des deux ans de mariage a été supprimée (erreur fréquente mentionnée dans la fiche). Localisation : beat 4 (règle) — ajouter la mention « plus de délai minimum de mariage ».",
+    "source : La légende et le script citent le 'CGI article 1133 bis' comme source ; vérifier que cette référence correspond précisément au texte applicable sur le régime des droits en cas de changement de régime (localiser dans 'Sources'). Si la référence est correcte, indiquer 'CGI, art. 1133 bis' est acceptable ; sinon préciser la référence exacte.",
+    "juridique_fiscal : Le script énonce correctement les règles essentielles (acte notarié, information des enfants majeurs et créanciers, délai d'opposition de 3 mois, homologation si mineurs). Localisation : beat 4 (règle).",
+    "juridique_fiscal : Le passage sur l'impact fiscal pour les enfants est juste mais trop synthétique : il affirme que la communauté universelle 'supprime la succession du premier parent' et 'peut alourdir la charge fiscale', sans préciser l'effet concret (perte de l'abattement de 100 000 € par enfant) qui est mentionné dans la fiche mais absent du script. Localisation : beat 6 (nuance) — ajouter la mention de l'abattement de 100 000 € par enfant pour être fiscalement précis.",
+    "juridique_fiscal : Il manque la précision que le changement liquide le régime précédent (récompenses, calculs, publication foncière si immeubles) et que l'acte a un coût non négligeable. Localisation : absence dans le script ; à ajouter brièvement entre beat 4 et 5 ou en nuance.",
+    "completude : Le script couvre le cœur du sujet mais omet deux éléments pratiques essentiels de la fiche : (1) l'absence de délai minimum de mariage (condition supprimée) ; (2) l'obligation technique de liquider l'ancien régime et les coûts associés (notaire, liquidation, publicité foncière). Ces omissions réduisent la complétude pour un spectateur souhaitant 'faire le point'.",
+    "completude : L'exemple est correct mais gagnerait à inclure une phrase très brève sur la réaction possible des enfants majeurs (opposition fréquente dans familles recomposées) pour illustrer le risque pratique.",
+    "plateforme : Le storyboard respecte l'ordre des séquences et la durée estimée (38s) paraît cohérente, mais il faudrait vérifier le minutage réel pour tenir 38s (la narration contient plusieurs phrases denses). Localisation : narration continue — recommander un texte légèrement abrégé ou une vitesse de parole mesurée.",
+    "plateforme : Le CTA 'lien dans ma bio' est adapté à Instagram Reels. Aucun élément de format natif (sous-titres, punch) n'est explicitement indiqué : recommander d'ajouter une suggestion de sous-titrage pour accessibles et engagement.",
+    "editorial : L'accroche est forte (beat 1) mais la répétition 'La communauté universelle protège-t-elle vraiment ? OUI NON' (beat 2) est efficace. Toutefois, la transition entre la réponse affirmative (beat 3) et la règle (beat 4) est un peu sèche : recommander une courte phrase de liaison (« oui mais attention ») pour préparer la nuance fiscale.",
+    "editorial : Certaines formulations peuvent être allégées pour la diction orale : par exemple, remplacer 'supprime la succession du premier parent' par 'annule l'ouverture d'une succession au premier décès' pour plus de clarté pour le grand public.",
+    "formulation_professionnelle : Le français est naturel et professionnel mais quelques phrases longues nuisent à la prononciation fluide (narration continue). Localisation : phrase unique après beat 4 — proposez de scinder en deux phrases pour faciliter la diction.",
+    "formulation_professionnelle : Le texte de la légende est correct mais un peu dense ; recommander de réduire légèrement la répétition et de conserver la mention de non-conseil telle qu'elle figure (présente).",
+    "contre_verification_finale : Quelques incohérences mineures repérées en lecture mot à mot : (1) absence de mention explicite de la suppression de la condition des deux ans (fiche erreurs fréquentes) ; (2) omission de l'information sur la liquidation du régime précédent et ses coûts ; (3) la formulation 'supprime la succession du premier parent' est juridiquement sensible et mérite reformulation (« annule l'ouverture d'une succession au premier décès »). Ces trois points doivent être corrigés pour être parfaitement cohérents avec la fiche source.",
+    "contre_verification_finale : Vérifier la référence CGI article 1133 bis (exactitude formelle) lors de la relecture finale.",
+    "coherence_pictogrammes : La plupart des pictogrammes correspondent bien aux notions prononcées, mais quelques ajustements recommandés :",
+    "coherence_pictogrammes : - Beat 1 : 'pictogramme alliance + coffre' convient mais le coffre peut suggérer secret/valeur — c'est acceptable.",
+    "coherence_pictogrammes : - Beat 4 : 'notaire, enveloppes notification, pictogramme 3 mois' est correct. Veiller à ce que l'enveloppe illustre l'information aux enfants majeurs (par lettre recommandée) plutôt que simple notification générique.",
+    "coherence_pictogrammes : - Beat 6 : 'pictogramme balance fiscale, flèche montant vers pourcentage' est pertinent ; ajouter visuel petit symbole '100k €' ou icône d'enfant pour illustrer l'abattement perdu, afin de rendre la nuance plus lisible visuellement.",
+    "densite_editoriale : La vidéo traite un angle unique (communauté universelle) et reste concise, mais omet deux éléments de la 'règle centrale' listés dans la fiche : la suppression de la condition des deux ans et la liquidation technique du régime précédent. Ces éléments peuvent être ajoutés en une courte phrase sans alourdir la vidéo.",
+    "densite_editoriale : Le script contient les chiffres essentiels (3 mois) mais devrait rappeler l'abattement de 100 000 € pour être complet et fidèle à la fiche.",
+    "pedagogie_client : Le langage est adapté à un non-spécialiste mais une phrase explicative courte sur 'qu'est-ce que ça signifie pour les enfants ?' (par ex. perte de l'abattement de 100 000 €) améliorerait la compréhension immédiate.",
+    "pedagogie_client : Éviter le jargon non expliqué : 'indivision' est utilisé (beat 5) — il peut être compris mais ajouter parenthèse très courte 'division impossible entre conjoint et enfants' aiderait la pédagogie.",
+    "retention_attention : Les deux premières secondes (hook) sont fortes. Toutefois la narration continue est dense pour 38s — risque de perte d'attention au beat 4-6 si la diction n'est pas adaptée. Recommander de raccourcir ou de marquer une pause entre 'règle' et 'exemple' pour améliorer rétention.",
+    "retention_attention : Le CTA est bien placé mais pourrait gagner en impact avec un micro-social proof (par ex. 'rendez-vous gratuit de 15 min' seulement si vrai). Ne pas inventer d'offre.",
+    "conversion_confiance : Le ton inspire en grande partie sérieux et compétence, la mention de sources renforce la confiance. Cependant l'absence d'une brève mise en garde sur le coût et la complexité technique (liquidation, publicité foncière, frais de notaire) peut affaiblir la confiance si le spectateur découvre ces éléments après le CTA. Localisation : ajouter en nuance ou en légende une phrase très courte sur coûts/complexité."
+  ],
+  "recommendations": [
+    "Ajouter dans beat 4 (règle) la mention expresse que 'la condition des deux ans de mariage a été supprimée — aucun délai minimum n'est exigé' pour éviter l'erreur fréquente.",
+    "Dans beat 6 (nuance), préciser brièvement l'effet fiscal concret : 'cela annule l'ouverture d'une succession au premier décès et fait perdre aux enfants l'abattement de 100 000 € qui aurait pu s'appliquer, ce qui peut alourdir fortement l'imposition au second décès.'",
+    "Insérer entre beat 4 et 5 une très courte phrase rappelant que le changement entraîne la liquidation du régime précédent (calcul des récompenses), des frais notariaux et, si des immeubles sont concernés, des formalités de publicité foncière.",
+    "Reformuler la phrase 'supprime la succession du premier parent' en 'annule l'ouverture d'une succession au premier décès' pour une précision juridique et une meilleure compréhension du public.",
+    "Vérifier la référence au 'CGI, article 1133 bis' et, si nécessaire, corriger/compléter la source citée dans la légende.",
+    "Alléger la narration continue pour tenir la durée de 38s : scinder une ou deux phrases longues, prévoir une pause entre règle et exemple, et ajouter sous-titres pour l'accessibilité et la rétention.",
+    "Adapter les pictogrammes du beat 6 pour inclure visuellement l'impact sur les enfants (icône '100k €' ou petite silhouette d'enfant) et préciser que l'envoi aux enfants majeurs se fait par notification (enveloppe recommandée) dans le visuel du beat 4.",
+    "Ajouter en légende ou en superposition courte la mention sur le coût (notaire, liquidation, publicité foncière) pour éviter toute impression de gratuité et renforcer la confiance avant le CTA.",
+    "Modifier légèrement le langage pour remplacer 'indivision' par 'indivision (partage bloqué entre conjoint et enfants)' lors de l'exemple pour la pédagogie d'un non-spécialiste.",
+    "Faire une seconde lecture finale après intégration des modifications pour vérifier la tenue à 38s, la fluidité orale, l'exactitude des références et la conformité à la fiche BRITED."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-23:reels:regimes_changement:1",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_changement__reels__a2__v7.md"
+}

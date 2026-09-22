@@ -1,0 +1,167 @@
+{
+  "renderer": "BRITED deterministic renderer v1",
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Votre épargne perd-elle de la valeur sans que vous le remarquiez ?",
+      "tokens": [
+        "Votre",
+        "épargne",
+        "perd-elle",
+        "de",
+        "la",
+        "valeur",
+        "sans",
+        "que",
+        "vous",
+        "le",
+        "remarquiez",
+        "?"
+      ],
+      "token_count": 12,
+      "full_text_visible_at": 3.618,
+      "hold_after_full_text": 0.402
+    },
+    {
+      "id": "question",
+      "source_text": "Est‑ce que l'inflation réduit votre pouvoir d'achat, OUI ou NON ?",
+      "tokens": [
+        "Est‑ce",
+        "que",
+        "l'inflation",
+        "réduit",
+        "votre",
+        "pouvoir",
+        "d'achat,",
+        "OUI",
+        "ou",
+        "NON",
+        "?"
+      ],
+      "token_count": 11,
+      "full_text_visible_at": 4.244,
+      "hold_after_full_text": 0.472
+    },
+    {
+      "id": "reponse",
+      "source_text": "OUI. Le chiffre sur votre compte reste, mais il achète moins.",
+      "tokens": [
+        "OUI.",
+        "Le",
+        "chiffre",
+        "sur",
+        "votre",
+        "compte",
+        "reste,",
+        "mais",
+        "il",
+        "achète",
+        "moins."
+      ],
+      "token_count": 11,
+      "full_text_visible_at": 4.042,
+      "hold_after_full_text": 0.449
+    },
+    {
+      "id": "regle",
+      "source_text": "Règle : le rendement réel = rendement affiché moins l'inflation ; condition : il faut comparer ces deux taux.",
+      "tokens": [
+        "Règle",
+        ":",
+        "le",
+        "rendement",
+        "réel",
+        "=",
+        "rendement",
+        "affiché",
+        "moins",
+        "l'inflation",
+        ";",
+        "condition",
+        ":",
+        "il",
+        "faut",
+        "comparer",
+        "ces",
+        "deux",
+        "taux."
+      ],
+      "token_count": 19,
+      "full_text_visible_at": 6.674,
+      "hold_after_full_text": 0.742
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple concret : à 2 % d'inflation, 10 000 € laissés vingt ans sans rémunération ne valent que 6 730 € de pouvoir d'achat.",
+      "tokens": [
+        "Exemple",
+        "concret",
+        ":",
+        "à",
+        "2",
+        "%",
+        "d'inflation,",
+        "10",
+        "000",
+        "€",
+        "laissés",
+        "vingt",
+        "ans",
+        "sans",
+        "rémunération",
+        "ne",
+        "valent",
+        "que",
+        "6",
+        "730",
+        "€",
+        "de",
+        "pouvoir",
+        "d'achat."
+      ],
+      "token_count": 24,
+      "full_text_visible_at": 8.159,
+      "hold_after_full_text": 0.907
+    },
+    {
+      "id": "nuance",
+      "source_text": "Nuance : garder une trésorerie de précaution reste utile même si son rendement réel est négatif.",
+      "tokens": [
+        "Nuance",
+        ":",
+        "garder",
+        "une",
+        "trésorerie",
+        "de",
+        "précaution",
+        "reste",
+        "utile",
+        "même",
+        "si",
+        "son",
+        "rendement",
+        "réel",
+        "est",
+        "négatif."
+      ],
+      "token_count": 16,
+      "full_text_visible_at": 5.995,
+      "hold_after_full_text": 0.666
+    },
+    {
+      "id": "cta",
+      "source_text": "Le saviez‑vous ? Commentez, partagez, abonnez‑vous.",
+      "tokens": [
+        "Le",
+        "saviez‑vous",
+        "?",
+        "Commentez,",
+        "partagez,",
+        "abonnez‑vous."
+      ],
+      "token_count": 6,
+      "full_text_visible_at": 3.268,
+      "hold_after_full_text": 0.363
+    }
+  ]
+}

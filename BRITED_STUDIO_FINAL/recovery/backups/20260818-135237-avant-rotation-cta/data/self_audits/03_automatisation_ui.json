@@ -1,0 +1,42 @@
+{
+  "audit": "03_automatisation_ui",
+  "passed": true,
+  "checked_at": "2026-08-17T16:15:46",
+  "checks": [
+    {
+      "criterion": "Préparation en avance",
+      "passed": true,
+      "evidence": "préparation quotidienne sur sept jours"
+    },
+    {
+      "criterion": "Créneaux automatiques",
+      "passed": true,
+      "evidence": "runs=[(1, '10:00'), (2, '17:00')]"
+    },
+    {
+      "criterion": "Scripts visibles par date",
+      "passed": true,
+      "evidence": "sélecteur, résumé, texte et rapports"
+    },
+    {
+      "criterion": "File persistante",
+      "passed": true,
+      "evidence": "reprise, état, erreur et tentatives"
+    },
+    {
+      "criterion": "Trois plateformes isolées",
+      "passed": true,
+      "evidence": "une erreur est contenue dans l'élément concerné"
+    },
+    {
+      "criterion": "Exigences sans reste déclaré",
+      "passed": true,
+      "evidence": "61 exigences tracées"
+    },
+    {
+      "criterion": "Mémoire et provenance",
+      "passed": true,
+      "evidence": "historique indexé et empreintes conservées"
+    }
+  ]
+}

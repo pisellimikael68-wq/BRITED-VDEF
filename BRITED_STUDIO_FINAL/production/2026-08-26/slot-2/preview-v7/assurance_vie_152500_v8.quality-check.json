@@ -1,0 +1,466 @@
+{
+  "passed": false,
+  "failures": [
+    "fluidité orale : page 1 (hook) : débit 238.1 mots/min hors corridor naturel autour de 222.6",
+    "fluidité orale : page 2 (reponse) : débit 153.6 mots/min hors corridor naturel autour de 178.2",
+    "fluidité orale : page 3 (regle) : débit 206.4 mots/min hors corridor naturel autour de 164.0",
+    "fluidité orale : page 4 (exemple) : débit 156.7 mots/min hors corridor naturel autour de 173.8",
+    "fluidité orale : page 5 (nuance) : débit 176.1 mots/min hors corridor naturel autour de 164.8"
+  ],
+  "expected_duration": 38.05,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 38.052,
+      "peak": 0.84131,
+      "rms": 0.15337,
+      "dc": 5.4e-05,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.781,
+        "peak": 0.79434,
+        "rms": 0.12254,
+        "dc": 7.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.689,
+        "peak": 0.68509,
+        "rms": 0.11238,
+        "dc": 3e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 9.885,
+        "peak": 0.77454,
+        "rms": 0.11577,
+        "dc": 2.6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.891,
+        "peak": 0.73737,
+        "rms": 0.11195,
+        "dc": 7.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_taux.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.2,
+        "peak": 0.79434,
+        "rms": 0.10105,
+        "dc": 4.2e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.204,
+        "peak": 0.6506,
+        "rms": 0.10394,
+        "dc": 1.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.452,
+        "peak": 0.61053,
+        "rms": 0.10694,
+        "dc": 8.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.894,
+        "peak": 0.62097,
+        "rms": 0.11858,
+        "dc": 6.1e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.015,
+        "peak": 0.79434,
+        "rms": 0.12589,
+        "dc": 9.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "07_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.884,
+        "peak": 0.79407,
+        "rms": 0.12559,
+        "dc": 3.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Votre assurance vie transmet elle cent cinquante-deux mille cinq cents euros à chaque bénéficiaire ?",
+        "transcript": "Votre assurance vie transmet, elle, 152 500 euros à chaque bénéficiaire ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9268,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Oui, pour les primes versées avant les soixante-dix ans de l’assuré.",
+        "transcript": "Oui, pour les primes versées avant les 70 ans de l'assuré.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9677,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Chaque bénéficiaire a droit à cent cinquante-deux mille cinq cents euros d’abattement. Ensuite, le prélèvement atteint vingt pour cent, puis trente et un virgule vingt cinq pour cent après sept cent mille euros.",
+        "transcript": "Chaque bénéficiaire a droit à 152 500 euros d'abattement. Ensuite, le prélèvement atteint 20%, puis 31,25% après 700 000 euros.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0992,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Avec trois bénéficiaires distincts, le total des abattements peut atteindre quatre cent cinquante-sept mille cinq cents euros.",
+        "transcript": "Avec trois bénéficiaires distincts, le total des abattements peut atteindre 457 500 euros.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0337,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Après soixante-dix ans, l’abattement global sur les primes tombe à trente mille cinq cents euros.",
+        "transcript": "Après 70 ans, l'abattement global sur les primes tombe à 30 500 euros.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9114,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": false,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      238.1,
+      153.6,
+      206.4,
+      156.7,
+      176.1,
+      208.4
+    ],
+    "failures": [
+      "page 1 (hook) : débit 238.1 mots/min hors corridor naturel autour de 222.6",
+      "page 2 (reponse) : débit 153.6 mots/min hors corridor naturel autour de 178.2",
+      "page 3 (regle) : débit 206.4 mots/min hors corridor naturel autour de 164.0",
+      "page 4 (exemple) : débit 156.7 mots/min hors corridor naturel autour de 173.8",
+      "page 5 (nuance) : débit 176.1 mots/min hors corridor naturel autour de 164.8"
+    ]
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Contrat d’assurance-vie relié à trois bénéficiaires, montant central 152 500 €",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "adaptatif",
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "label_checks": [],
+        "labels_ok": true,
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Un bénéficiaire et son abattement, puis deux paliers fiscaux : 20 % et 31,25 %",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Trois bénéficiaires, chacun associé à 152 500 €, calcul 3 × 152 500 €",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Calendrier 70+, enveloppe commune 30 500 €, plusieurs bénéficiaires",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

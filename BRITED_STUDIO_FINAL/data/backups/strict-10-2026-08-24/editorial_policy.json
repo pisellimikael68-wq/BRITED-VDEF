@@ -1,0 +1,59 @@
+{
+  "source_of_truth": "Les fiches certifiées locales BRITED/Leveria et leurs sources officielles sont l'unique source factuelle.",
+  "cadence": {"days": 7, "slots": [{"slot": 1, "time": "10:00"}, {"slot": 2, "time": "17:00"}], "platforms": ["tiktok", "reels", "shorts"]},
+  "content_rules": [
+    "Le script fournit toute la ligne directrice visible.",
+    "Conserver une information juridiquement et fiscalement complète malgré la concision.",
+    "Toujours inclure un exemple concret lorsque la source le permet.",
+    "S'adresser directement au spectateur comme une réponse ou un conseil général.",
+    "Question affichée et lue avant toute réponse ; réponse sur la page suivante.",
+    "Un script est certifié automatiquement uniquement si tous les agents atteignent 10/10, sans avertissement ni réserve non résolus ; l'humain valide la vidéo finale.",
+    "Une version validée n'est jamais remplacée.",
+    "Une vidéo traite un seul angle précis et une seule règle principale.",
+    "La concision ne retire jamais la règle centrale, sa condition, la réserve indispensable, l'exemple utile, les chiffres ou les sources.",
+    "Un sujet trop dense est resserré sur un sous-angle autonome ou scindé en mini-série, jamais appauvri silencieusement."
+  ],
+  "video_rules": [
+    "Format vertical 9:16, chaleureux, sérieux et dynamique.",
+    "Texte grand, centré et complet ; révélation progressive fluide synchronisée avec la voix.",
+    "Sur Instagram, un beat narratif cohérent reste intégralement sur une seule page ; la taille et l'espacement s'adaptent sans découpage automatique.",
+    "Utiliser exclusivement l'identité vocale locale Donny V14 depuis assets/voice_reference_donny.wav pour Instagram, TikTok et YouTube Shorts ; TikTok réutilise exactement le rendu Instagram sans nouvelle synthèse.",
+    "Appliquer une prosodie déterministe par intention : accroche 176 mots/minute, question 160, réponse 158, règle et exemple 174, précision 168, nuance 165 et CTA 170 ; correction temporelle bornée entre 0,82x et 1,22x, micro-respiration de 0,22 seconde et respiration structurante de 0,9 seconde.",
+    "Utiliser la même graine de génération, la même référence Donny et le même nivellement sonore pour chaque segment ; bloquer toute fluctuation involontaire de timbre, volume, intonation ou vitesse.",
+    "Bloquer le rendu si le contrôle vocal détecte un mot manquant, une répétition, une microcoupure, un bruit de fond, un écrêtage ou une rupture de débit.",
+    "Transitions de pages fluides avec respiration ; dernière slide seulement après la narration.",
+    "Pictogrammes issus de la bibliothèque vectorielle locale de 2 030 éléments, parlants, diversifiés, présentables et liés à chaque page, contrôlés sémantiquement et géométriquement, sans chevauchement ni découpe.",
+    "Voix légèrement accélérée et identique sur les trois plateformes ; débruitage systématique, retranscription locale Whisper Large Turbo phrase par phrase, contrôle bloquant des termes essentiels et régénération ciblée avant resynchronisation mot à mot.",
+    "Aucun crayon jaune, demi-cercle inutile, barre supérieure, nom BRITED, domaine ou libellé interne.",
+    "Barre de progression uniquement en bas.",
+    "Clôture unique sur Instagram, TikTok et YouTube Shorts : « Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. » ; aucune autre présentation ni formulation n'est admise."
+  ],
+  "platforms": {
+    "tiktok": {"target_seconds": [32, 40], "maximum_seconds": 45, "goal": "croissance, rétention, acquisition", "order": ["hook", "question", "reponse", "regle", "exemple", "nuance", "cta"]},
+    "reels": {"target_seconds": [35, 43], "maximum_seconds": 48, "goal": "enregistrement, partage privé, complétion", "order": ["hook", "question", "reponse", "regle", "exemple", "nuance", "cta"]},
+    "shorts": {"target_seconds": [38, 48], "maximum_seconds": 52, "goal": "réponse recherchée, rétention, clarté autonome", "order": ["hook", "reponse", "regle", "exemple", "nuance", "cta"]}
+  },
+  "series": {
+    "fiscalite": {"label": "Fiscalité", "color": "#6F4E37", "icon": "％"},
+    "immobilier": {"label": "Immobilier", "color": "#C96F4A", "icon": "⌂"},
+    "juridique": {"label": "Juridique", "color": "#D99A2B", "icon": "§"},
+    "finance": {"label": "Finance", "color": "#2457D6", "icon": "↗"}
+  },
+  "publication": {"automatic": false, "human_approval_required": true, "review_before_export": true},
+  "cta_rotation": {
+    "distribution": {"pedagogique": 0, "rendez_vous": 100},
+    "period": "toutes les publications",
+    "alternation": "aucune : clôture rendez-vous unique validée",
+    "tiktok_instagram_destination": "lien dans ma bio",
+    "youtube_destination": "lien dans ma bio"
+  },
+  "automation": {
+    "token_strategy": "Réutiliser les scripts certifiés et les actifs locaux ; aucun appel externe silencieux ; modèle local prioritaire ; secours externe uniquement après accord explicite.",
+    "script_score_threshold": 10.0,
+    "all_agents_must_pass": true,
+    "maximum_rewrites": 5,
+    "maximum_remediation_cycles": 5,
+    "human_role": "Validation finale des vidéos uniquement",
+    "agents": ["source", "juridique_fiscal", "completude", "plateforme", "editorial", "securite", "formulation_professionnelle", "contre_verification_finale", "coherence_pictogrammes", "controle_visuel_geometrique", "controle_audio_residuel", "controle_oral_whisper_local", "densite_editoriale"]
+  }
+}

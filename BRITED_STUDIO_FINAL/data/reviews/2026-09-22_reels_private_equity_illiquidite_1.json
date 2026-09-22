@@ -1,0 +1,166 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script fait globalement fidélité aux faits de la fiche, mais il y a une légère incohérence terminologique entre le titre \"En private equity, votre argent est immobilisé dix ans\" (mentionnant 10 ans) et le texte/graphique qui indique \"8 à 10 ans (AMF)\". Il faut harmoniser le titre et le texte écran pour éviter toute ambiguïté."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « en principe il n'y a pas de sortie anticipée » est correcte mais gagnerait à préciser brièvement que des cas exceptionnels existent (liquidation, clauses statutaires, marché secondaire limité) — le script les cite oralement, mais la mention écran est abrégée. Il faudrait veiller à ce que la formulation écran ne crée pas d'exclusion trompeuse des exceptions légales.",
+        "La référence aux articles L214-27 et suivants est fournie dans les sources, mais le script ne rappelle pas explicitement que les règles varient selon la structure (FCPR vs FPCI)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception, l'exemple et les chiffres, mais n'indique pas explicitement la nécessité de conserver des liquidités pour les appels de fonds dans le texte écran (le visuel le suggère). Il manque une phrase écran claire invitant à conserver une réserve de liquidités.",
+        "Le minimum d'investissement (question client) n'est pas traité alors qu'il figure dans les questions fréquentes de la fiche."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort et progression claire, mais la première ligne du texte écran au beat 1 est plus longue que la recommandation d'accroche de 2 secondes ; il serait préférable de raccourcir le texte écran du hook pour garantir lecture et mémorisation immédiates."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement le français est naturel et professionnel. Toutefois la phrase de transition « Exemple un FCPR investit ; vous devez verser les montants lorsqu'ils sont appelés » gagnerait à être reformulée pour la fluidité (par ex. « Exemple : un FCPR investit. Vous versez les montants au fur et à mesure des appels de fonds. »)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, la narration continue reprend bien les étapes. Points à corriger : harmoniser « dix ans » du titre et « 8 à 10 ans (AMF) » du corps ; expliciter brièvement sur l'écran que les appels de fonds exigent de garder des liquidités ; ajuster une formulation lourde dans l'exemple FCPR."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont cohérents. Observation : le pictogramme \"loi\" au beat 3 doit clairement évoquer une exception légale (par ex. une icône de document législatif) et non un symbole générique pour éviter confusion. Le pictogramme 'horloge' au hook est adéquat mais le texte écran est long pour un hook visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'explication est compréhensible pour un non-spécialiste mais le concept d'« appels de fonds » est seulement évoqué ; un bref ajout explicatif sur l'écran (ex. « appels = demandes de versement successives ») améliorerait la compréhension au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont percutantes mais le texte écran initial est trop long pour une lecture instantanée. Réduire la longueur du texte du hook augmenterait la rétention.",
+        "La durée estimée (38 s) et le nombre de beats semblent compatibles, mais vérifier le rythme de lecture pour ne pas surcharger chaque plan."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script fait globalement fidélité aux faits de la fiche, mais il y a une légère incohérence terminologique entre le titre \"En private equity, votre argent est immobilisé dix ans\" (mentionnant 10 ans) et le texte/graphique qui indique \"8 à 10 ans (AMF)\". Il faut harmoniser le titre et le texte écran pour éviter toute ambiguïté.",
+    "juridique_fiscal : La phrase « en principe il n'y a pas de sortie anticipée » est correcte mais gagnerait à préciser brièvement que des cas exceptionnels existent (liquidation, clauses statutaires, marché secondaire limité) — le script les cite oralement, mais la mention écran est abrégée. Il faudrait veiller à ce que la formulation écran ne crée pas d'exclusion trompeuse des exceptions légales.",
+    "juridique_fiscal : La référence aux articles L214-27 et suivants est fournie dans les sources, mais le script ne rappelle pas explicitement que les règles varient selon la structure (FCPR vs FPCI).",
+    "completude : Le script couvre la règle centrale, l'exception, l'exemple et les chiffres, mais n'indique pas explicitement la nécessité de conserver des liquidités pour les appels de fonds dans le texte écran (le visuel le suggère). Il manque une phrase écran claire invitant à conserver une réserve de liquidités.",
+    "completude : Le minimum d'investissement (question client) n'est pas traité alors qu'il figure dans les questions fréquentes de la fiche.",
+    "editorial : Hook fort et progression claire, mais la première ligne du texte écran au beat 1 est plus longue que la recommandation d'accroche de 2 secondes ; il serait préférable de raccourcir le texte écran du hook pour garantir lecture et mémorisation immédiates.",
+    "formulation_professionnelle : Globalement le français est naturel et professionnel. Toutefois la phrase de transition « Exemple un FCPR investit ; vous devez verser les montants lorsqu'ils sont appelés » gagnerait à être reformulée pour la fluidité (par ex. « Exemple : un FCPR investit. Vous versez les montants au fur et à mesure des appels de fonds. »).",
+    "contre_verification_finale : En lecture mot à mot, la narration continue reprend bien les étapes. Points à corriger : harmoniser « dix ans » du titre et « 8 à 10 ans (AMF) » du corps ; expliciter brièvement sur l'écran que les appels de fonds exigent de garder des liquidités ; ajuster une formulation lourde dans l'exemple FCPR.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont cohérents. Observation : le pictogramme \"loi\" au beat 3 doit clairement évoquer une exception légale (par ex. une icône de document législatif) et non un symbole générique pour éviter confusion. Le pictogramme 'horloge' au hook est adéquat mais le texte écran est long pour un hook visuel.",
+    "pedagogie_client : L'explication est compréhensible pour un non-spécialiste mais le concept d'« appels de fonds » est seulement évoqué ; un bref ajout explicatif sur l'écran (ex. « appels = demandes de versement successives ») améliorerait la compréhension au premier passage.",
+    "retention_attention : Les deux premières secondes sont percutantes mais le texte écran initial est trop long pour une lecture instantanée. Réduire la longueur du texte du hook augmenterait la rétention.",
+    "retention_attention : La durée estimée (38 s) et le nombre de beats semblent compatibles, mais vérifier le rythme de lecture pour ne pas surcharger chaque plan."
+  ],
+  "recommendations": [
+    "Harmoniser la formulation du titre et du texte : choisir soit « dix ans » partout, soit « 8 à 10 ans » partout. Préférable : remplacer le titre par « En private equity, votre argent est immobilisé 8 à 10 ans » ou modifier le texte écran pour indiquer \"~10 ans (AMF)\".",
+    "Sur le beat 1, raccourcir le texte écran du hook pour garantir lecture en <2s. Exemple : « Récupérez-vous votre argent en non coté ? »",
+    "Au beat 3, préciser sur l'écran les exceptions légales en une courte mention lisible (« sauf liquidation, clauses statutaires, marché secondaire limité ») pour éviter une formulation trop abrégée qui pourrait être interprétée comme absolue.",
+    "Au beat 5 (exemple FCPR), reformuler oralement et à l'écran : « Exemple : un FCPR investit. Vous payez au fur et à mesure lors des appels de fonds. Gardez des liquidités. »",
+    "Ajouter sur un plan court ou en texte écran une définition micro de « appels de fonds » : « appels = demandes de versement successives de l'engagement » afin qu'un non-spécialiste comprenne immédiatement.",
+    "Vérifier que le pictogramme « loi » illustre clairement une exception juridique (document/texte de loi) et que le pictogramme « horloge » et le texte du hook restent lisibles ensemble.",
+    "Optionnel : répondre dans la légende ou un commentaire aux questions fréquentes non traitées dans la vidéo (par ex. montant minimum), en restant général et sans conseil personnalisé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-22:reels:private_equity_illiquidite:1",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__reels__a1__v3.md"
+}

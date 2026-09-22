@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+      "platform": "tiktok",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    },
+    {
+      "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+      "platform": "reels",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "script": "/Users/mikael_piselli/Documents/Codex/2026-07-31/su/work/BRITED_APP/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__instagram__a1.md",
+      "video": "",
+      "duration": 48.5,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 131,
+        "seconds": 48.5,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": []
+    },
+    {
+      "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+      "platform": "shorts",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+      "status": "blocked",
+      "warnings": [
+        "Script natif validé absent"
+      ]
+    }
+  ]
+}

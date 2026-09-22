@@ -1,0 +1,41 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "approved",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+      "platform": "reels",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v13.md",
+      "video": "production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.mp4",
+      "duration": 35.5,
+      "status": "approved",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-17T22:28:20"
+      },
+      "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.word-check.json",
+      "human_approved": true
+    }
+  ]
+}

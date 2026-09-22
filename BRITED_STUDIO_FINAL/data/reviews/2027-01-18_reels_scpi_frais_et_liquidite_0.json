@@ -1,0 +1,168 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence factuelle interne par rapport à la fiche SOURCE : la section 'Ce qui se joue vraiment' indique qu'une distribution de 5 % tombe à environ 2,6 % pour un contribuable en TMI 30 %, alors que le script et l'exemple chiffré affichent ≈ 2,9 % (5 % → -17,2 % prélèvements sociaux → -30 % impôt = ≈ 2,9 %). Il faut harmoniser la valeur et préciser la méthode de calcul."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement que les revenus sont des revenus fonciers imposés au barème + 17,2 % de prélèvements sociaux, mais il manque la précision que le montant net dépend de l'option fiscale choisie par le contribuable et qu'il peut exister des mécanismes (ex. régime micro-foncier quand applicability) — la phrase actuelle peut être interprétée comme une généralisation sans nuance. Ajouter une courte mention sur la dépendance à la situation fiscale renforcerait l'exactitude."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est utile mais omet de rappeler explicitement que les frais d'entrée (10 % dans l'exemple) ne sont pas déduits du rendement courant mais réduisent effectivement le rendement 'effectif' réalisé à l'achat (il faudrait montrer l'effet cumulatif sur plusieurs années ou préciser que les frais sont amortis sur la revente si le prix de la part suit).",
+        "La mention 'à vérifier sur la note d'information' est présente mais le script pourrait indiquer brièvement où trouver cette information (note d'information / prospectus) pour être complet."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires, mais la phrase de l'exemple chiffré est dense pour un Reels (risque de surcharge visuelle/verbale en 38s). Proposer d'alléger l'affichage du calcul ou d'utiliser des incréments visuels plus lents."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Petite maladresse : 'après 17,2 % de prélèvements sociaux puis impôt pour un contribuable à 30 %' — mieux formuler 'après prélèvements sociaux (17,2 %) puis impôt sur le revenu au taux marginal de 30 %' pour plus de clarté et lisibilité.",
+        "Veiller à la cohérence du chiffre final (2,9 % vs 2,6 %) pour éviter tout doute sur la crédibilité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements et logique globalement corrects, mais la fiche SOURCE contient deux valeurs différentes pour le même exemple (2,6 % vs 2,9 %). Il faut corriger l'une des occurrences pour cohérence mot à mot.",
+        "Vérifier que la durée totale vocale correspond bien aux 38 secondes prévues en pratique (le texte de narration peut dépasser si lu trop lentement)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais la séquence 'exemple' affiche plusieurs opérations chiffrées qui risquent de surcharger la courte durée. Suggestion : garder l'exemple mais simplifier l'affichage en deux étapes maximales."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bon ton pédagogique, vocabulaire accessible, mais l'usage de 'amorties que sur plusieurs années si le prix de la part suit' pourrait être clarifié pour un non-spécialiste : expliquer en une courte phrase ce que signifie 'si le prix de la part suit' (c.-à-d. si la valeur de revente compense les frais initiaux)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace, mais risque de perte d'attention au moment du calcul détaillé (séquence dense). Alléger ou ralentir visuel/voix sur ce passage pour maintenir engagement."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "CTA 'lien dans ma bio' est approprié mais l'ensemble gagnerait à rappeler la nature non personnalisée du contenu juste avant le CTA (pour renforcer la transparence), par exemple une phrase très brève 'contenu pédagogique, non personnalisé'."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence factuelle interne par rapport à la fiche SOURCE : la section 'Ce qui se joue vraiment' indique qu'une distribution de 5 % tombe à environ 2,6 % pour un contribuable en TMI 30 %, alors que le script et l'exemple chiffré affichent ≈ 2,9 % (5 % → -17,2 % prélèvements sociaux → -30 % impôt = ≈ 2,9 %). Il faut harmoniser la valeur et préciser la méthode de calcul.",
+    "juridique_fiscal : Le script indique correctement que les revenus sont des revenus fonciers imposés au barème + 17,2 % de prélèvements sociaux, mais il manque la précision que le montant net dépend de l'option fiscale choisie par le contribuable et qu'il peut exister des mécanismes (ex. régime micro-foncier quand applicability) — la phrase actuelle peut être interprétée comme une généralisation sans nuance. Ajouter une courte mention sur la dépendance à la situation fiscale renforcerait l'exactitude.",
+    "completude : L'exemple chiffré est utile mais omet de rappeler explicitement que les frais d'entrée (10 % dans l'exemple) ne sont pas déduits du rendement courant mais réduisent effectivement le rendement 'effectif' réalisé à l'achat (il faudrait montrer l'effet cumulatif sur plusieurs années ou préciser que les frais sont amortis sur la revente si le prix de la part suit).",
+    "completude : La mention 'à vérifier sur la note d'information' est présente mais le script pourrait indiquer brièvement où trouver cette information (note d'information / prospectus) pour être complet.",
+    "editorial : Accroche et progression claires, mais la phrase de l'exemple chiffré est dense pour un Reels (risque de surcharge visuelle/verbale en 38s). Proposer d'alléger l'affichage du calcul ou d'utiliser des incréments visuels plus lents.",
+    "formulation_professionnelle : Petite maladresse : 'après 17,2 % de prélèvements sociaux puis impôt pour un contribuable à 30 %' — mieux formuler 'après prélèvements sociaux (17,2 %) puis impôt sur le revenu au taux marginal de 30 %' pour plus de clarté et lisibilité.",
+    "formulation_professionnelle : Veiller à la cohérence du chiffre final (2,9 % vs 2,6 %) pour éviter tout doute sur la crédibilité.",
+    "contre_verification_finale : Enchaînements et logique globalement corrects, mais la fiche SOURCE contient deux valeurs différentes pour le même exemple (2,6 % vs 2,9 %). Il faut corriger l'une des occurrences pour cohérence mot à mot.",
+    "contre_verification_finale : Vérifier que la durée totale vocale correspond bien aux 38 secondes prévues en pratique (le texte de narration peut dépasser si lu trop lentement).",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais la séquence 'exemple' affiche plusieurs opérations chiffrées qui risquent de surcharger la courte durée. Suggestion : garder l'exemple mais simplifier l'affichage en deux étapes maximales.",
+    "pedagogie_client : Bon ton pédagogique, vocabulaire accessible, mais l'usage de 'amorties que sur plusieurs années si le prix de la part suit' pourrait être clarifié pour un non-spécialiste : expliquer en une courte phrase ce que signifie 'si le prix de la part suit' (c.-à-d. si la valeur de revente compense les frais initiaux).",
+    "retention_attention : Hook efficace, mais risque de perte d'attention au moment du calcul détaillé (séquence dense). Alléger ou ralentir visuel/voix sur ce passage pour maintenir engagement.",
+    "conversion_confiance : CTA 'lien dans ma bio' est approprié mais l'ensemble gagnerait à rappeler la nature non personnalisée du contenu juste avant le CTA (pour renforcer la transparence), par exemple une phrase très brève 'contenu pédagogique, non personnalisé'."
+  ],
+  "recommendations": [
+    "Harmoniser immédiatement la valeur chiffrée : remplacer la mention contradictoire (2,6 %) dans la section 'Ce qui se joue vraiment' par la valeur cohérente calculée (≈ 2,9 %) ou expliquer la différence si elle repose sur une hypothèse différente. Toujours afficher la méthode de calcul (5 % → x après prélèvements sociaux → y après impôt).",
+    "Préciser en une courte parenthèse que le résultat dépend de la situation fiscale individuelle et/ou de régimes applicables (ex. micro‑foncier quand c'est applicable) pour éviter toute généralisation.",
+    "Alléger l'affichage de l'exemple chiffré pour le format Reels : deux étapes visuelles (après prélèvements sociaux → après impôt) plutôt que trois lignes trop rapides; réduire le texte narré ou augmenter légèrement le temps sur ce beat si possible.",
+    "Améliorer la formulation de la phrase fiscale : 'après prélèvements sociaux (17,2 %) puis impôt sur le revenu au taux marginal de 30 %' pour plus de clarté.",
+    "Ajouter une toute petite précision expliquant 'si le prix de la part suit' (ex. 'i.e. si la valeur de revente compense les frais d'achat') pour la pédagogie d'un non-spécialiste.",
+    "Avant publication, vérifier la durée exacte de la lecture du script par la voix off et ajuster la vitesse ou le texte pour rester dans les 38 secondes prévues."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-18:reels:scpi_frais_et_liquidite:0",
+  "script_path": "scripts/scpi/scpi_frais_et_liquidite__reels__a4__v3.md"
+}

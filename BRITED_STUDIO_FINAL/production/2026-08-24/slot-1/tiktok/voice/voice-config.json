@@ -1,0 +1,49 @@
+{
+  "voice": {
+    "version": 8,
+    "speed": 0.99,
+    "exaggeration": 0.34,
+    "cfg_weight": 0.45,
+    "temperature": 0.35,
+    "top_p": 0.8,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "hook_voice": {
+    "speed": 0.89,
+    "exaggeration": 0.24,
+    "cfg_weight": 0.48,
+    "temperature": 0.25,
+    "top_p": 0.74,
+    "post_atempo": 1.02
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "3727f0e8ecff681619a61f26e9969d0c0d48e3b9ac41ef67de543b935aca5d60",
+  "audio_format_version": 8,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "eebb1a44c38dcca21bc35c50087328457347e687c7d0f95001a02ef0c6a7c8da",
+  "beat_hashes": {
+    "01_hook": "5dbb3512dd0ba5cb6984505bb89fa463c32589bb321aabf5d1d057973d54e5e6",
+    "02_question": "1c4e14d9e6965a365d336de04e5c1af8d4b1404a45b27b2187510e9aaee96f07",
+    "03_reponse": "4bc721a5438a753cc9c701afaa408186bc2a15c154e163cf144abaf665b468b6",
+    "04_regle": "24f8cf043428a91b7fb2c4292672ea00e8ed001c8426ea7b827eb1423e75889c",
+    "05_exemple": "919dbc220197cfe51061e5d62379a96139ccefa4d3ec2da7eea8849d16d0492a",
+    "06_exemple_suite": "7cf1132ef0453a89b0d29991918cd409baa0bcbea6c5963fae54f25f0b5fac1e",
+    "07_nuance": "74cff1cb3c2552c89a1f9aaffc04d33ac78c24cdb477eab7724ec3e3b318ef6c",
+    "08_nuance_suite": "c2623b10cf685a053b4c5543bc0fa98cd0d9cdd36f650753477117c4a2b5d29d",
+    "09_cta": "62fb804fa4bbe27212ad4c9452ca10385dea24cd133aaee6195d42bdf24e4e46"
+  },
+  "spoken_texts": {
+    "01_hook": "Se marier sans contrat, est ce neutre ?",
+    "02_question": "Sans contrat, le régime légal s'applique t il",
+    "03_reponse": "Oui — communauté réduite aux acquêts.",
+    "04_regle": "Ce qui est acquis pendant le mariage est commun.",
+    "05_exemple": "Sont propres les biens possédés avant le mariage et les donations ou successions ; gains et salaires perçus pendant le mariage alimentent la communauté.",
+    "06_exemple_suite": "L'épargne d'un salaire perçu pendant le mariage est commune et, à la liquidation, l'actif commun est partagé cinquante/cinquante.",
+    "07_nuance": "Chaque époux peut percevoir et disposer de ses gains après s'être acquitté des charges du mariage.",
+    "08_nuance_suite": "Les héritages restent propres, le mélange de fonds complique la preuve.",
+    "09_cta": "Le saviez vous ? Commentez, partagez, abonnez vous."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.04
+}

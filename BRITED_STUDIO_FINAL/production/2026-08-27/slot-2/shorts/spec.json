@@ -1,0 +1,151 @@
+{
+  "publication_id": "2026-08-27:shorts:compte_titres_pfu:1",
+  "platform": "shorts",
+  "concept_id": "compte_titres_pfu",
+  "title": "Le PFU de 31,4 % n'est pas toujours le meilleur choix",
+  "header": "Le PFU de 31,4 % n'est pas toujours le meilleur choix",
+  "serie": "fiscalite",
+  "narration": "Le prélèvement forfaitaire unique à trente et un virgule quatre pour cent est-il toujours le meilleur choix pour votre compte-titres ? Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus. En deux mille vingt-six, le PFU représente trente et un virgule quatre pour cent : douze virgule huit pour cent d'impôt sur le revenu et dix-huit virgule six pour cent de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus-values du foyer. Prenons mille euros de dividendes éligibles. Avec le PFU : cent vingt-huit euros d'impôt et cent quatre-vingt-six euros de prélèvements sociaux, soit trois cent quatorze euros. Avec une tranche à onze pour cent et l'abattement de quarante pour cent : soixante-six euros d'impôt, plus cent quatre-vingt-six euros de prélèvements sociaux, soit deux cent cinquante-deux euros avant l'effet ultérieur de la CSG déductible. L'abattement de quarante pour cent concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus-values du foyer : il faut donc comparer la situation globale. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Le prélèvement forfaitaire unique à trente et un virgule quatre pour cent est-il toujours le meilleur choix pour votre compte-titres ?",
+      "visual": "Balance clairement identifiée PFU contre barème, avec compte-titres",
+      "screen_text": "PFU à 31,4 % : toujours le meilleur choix pour votre compte-titres ?"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+      "visual": "Carte de réponse structurée avec verdict et deux critères",
+      "screen_text": "Cela dépend · Taux marginal d'imposition · Nature des revenus"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "En deux mille vingt-six, le PFU représente trente et un virgule quatre pour cent : douze virgule huit pour cent d'impôt sur le revenu et dix-huit virgule six pour cent de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus-values du foyer.",
+      "visual": "Décomposition du taux, puis case 2OP reliée au foyer",
+      "screen_text": "En 2026 : PFU 31,4 % = 12,8 % d'impôt sur le revenu + 18,6 % de prélèvements sociaux · Option globale pour le foyer"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Prenons mille euros de dividendes éligibles. Avec le PFU : cent vingt-huit euros d'impôt et cent quatre-vingt-six euros de prélèvements sociaux, soit trois cent quatorze euros. Avec une tranche à onze pour cent et l'abattement de quarante pour cent : soixante-six euros d'impôt, plus cent quatre-vingt-six euros de prélèvements sociaux, soit deux cent cinquante-deux euros avant l'effet ultérieur de la CSG déductible.",
+      "visual": "Comparaison chiffrée sur deux colonnes PFU et barème",
+      "screen_text": "1 000 € de dividendes éligibles · PFU : 128 € + 186 € = 314 € · Barème à 11 % : 66 € + 186 € = 252 € avant l'effet ultérieur de la CSG déductible"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "L'abattement de quarante pour cent concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus-values du foyer : il faut donc comparer la situation globale.",
+      "visual": "Calendrier annuel, dividende éligible, foyer et périmètre global",
+      "screen_text": "Abattement de 40 % : uniquement dividendes éligibles au barème · Aucun abattement sur les prélèvements sociaux · Option annuelle et globale"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier centré avec pictogramme",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Le prélèvement forfaitaire unique à trente et un virgule quatre pour cent est-il toujours le meilleur choix pour votre compte-titres ?",
+      "visual": "Balance clairement identifiée PFU contre barème, avec compte-titres",
+      "screen_text": "PFU à 31,4 % : toujours le meilleur choix pour votre compte-titres ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 39
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+      "visual": "Carte de réponse structurée avec verdict et deux critères",
+      "screen_text": "Cela dépend · Taux marginal d'imposition · Nature des revenus",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 44
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "En deux mille vingt-six, le PFU représente trente et un virgule quatre pour cent : douze virgule huit pour cent d'impôt sur le revenu et dix-huit virgule six pour cent de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus-values du foyer.",
+      "visual": "Décomposition du taux, puis case 2OP reliée au foyer",
+      "screen_text": "En 2026 : PFU 31,4 % = 12,8 % d'impôt sur le revenu + 18,6 % de prélèvements sociaux · Option globale pour le foyer",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Prenons mille euros de dividendes éligibles. Avec le PFU : cent vingt-huit euros d'impôt et cent quatre-vingt-six euros de prélèvements sociaux, soit trois cent quatorze euros. Avec une tranche à onze pour cent et l'abattement de quarante pour cent : soixante-six euros d'impôt, plus cent quatre-vingt-six euros de prélèvements sociaux, soit deux cent cinquante-deux euros avant l'effet ultérieur de la CSG déductible.",
+      "visual": "Comparaison chiffrée sur deux colonnes PFU et barème",
+      "screen_text": "1 000 € de dividendes éligibles · PFU : 128 € + 186 € = 314 € · Barème à 11 % : 66 € + 186 € = 252 € avant l'effet ultérieur de la CSG déductible",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "L'abattement de quarante pour cent concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus-values du foyer : il faut donc comparer la situation globale.",
+      "visual": "Calendrier annuel, dividende éligible, foyer et périmètre global",
+      "screen_text": "Abattement de 40 % : uniquement dividendes éligibles au barème · Aucun abattement sur les prélèvements sociaux · Option annuelle et globale",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier centré avec pictogramme",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "2237e6cd1ebb3af4219631dbea31bd04089b93159df630159f4788656e935c5a",
+    "adapted_hash": "2237e6cd1ebb3af4219631dbea31bd04089b93159df630159f4788656e935c5a",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 32,
+    "cta_normalized": false,
+    "warnings": [
+      "Densité élevée : police proche du minimum de sécurité"
+    ]
+  },
+  "answer_design": "adaptive_sections_v2",
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

@@ -1,0 +1,150 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est bien respectée globalement, mais le script écrit « On retient 8–10 ans » sans ajouter immédiatement la précision « ordre de grandeur pédagogique, aucune garantie de résultat » sur la même phrase : la fiche exige que cette mention accompagne la valeur chiffrée pour éviter toute lecture comme recommandation chiffrée. Dans le tableau visuel la mention existe, mais elle n'est pas verbalisée exactement au moment du chiffre dans la narration continue (la phrase suivante la contient, mais l'enchaînement risque d'être perçu comme dissocié). Recommandation : intégrer verbalement la mention immédiatement après « 8–10 ans » dans la même phrase prononcée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition, l'exception et donne un exemple utile. Cependant il manque une micro-instruction pratique sur la séparation des poches (par ex. nommer les supports typiques : livret/compte pour trésorerie, produit non bloqué ou assurance selon horizon) en respectant l'interdiction de recommander un support précis. Recommandation : ajouter une phrase très brève indiquant 'séparez physiquement — un compte disponible pour l'urgence, un placement daté pour projets, une poche longue durée' sans citer de produit spécifique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et progression claire. Point faible : la première phrase du hook et la première phrase de la narration sont identiques — risquent de sonner répétitives en 40s. Recommandation : raccourcir la répétition en transformant la phrase d'ouverture du hook en question oratoire et lancer directement la règle en narration pour gagner du temps et fluidité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel mais quelques segments peuvent être améliorés pour la diction courte : 'volatilité (variations de valeur) supportable' alourdit la phrase pour une lecture en 40s. Recommandation : remplacer par 'volatilité supportable (variations de valeur)' ou simplement 'volatilité' et laisser la parenthèse pour le texte écran."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, l'appel final 'Prenez rendez-vous via le lien dans ma bio' est correct mais l'usage du possessif 'ma' suppose un créateur unique — ok si la chaîne individuelle, mais si contenu institutionnel, préférer 'le lien dans la bio'. Recommandation : harmoniser selon l'entité (indiquer 'le lien dans la bio' pour usage institutionnel)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est pédagogique mais l'exemple 'vente forcée (personne quittant le marché)' pourrait être clarifié en précisant brièvement pourquoi (besoin à date obligeant la vente). Recommandation : ajouter une demi-phrase explicative dans la vignette audio/texte pour éviter toute interprétation vague."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est bien respectée globalement, mais le script écrit « On retient 8–10 ans » sans ajouter immédiatement la précision « ordre de grandeur pédagogique, aucune garantie de résultat » sur la même phrase : la fiche exige que cette mention accompagne la valeur chiffrée pour éviter toute lecture comme recommandation chiffrée. Dans le tableau visuel la mention existe, mais elle n'est pas verbalisée exactement au moment du chiffre dans la narration continue (la phrase suivante la contient, mais l'enchaînement risque d'être perçu comme dissocié). Recommandation : intégrer verbalement la mention immédiatement après « 8–10 ans » dans la même phrase prononcée.",
+    "completude : Le script couvre la règle centrale, la condition, l'exception et donne un exemple utile. Cependant il manque une micro-instruction pratique sur la séparation des poches (par ex. nommer les supports typiques : livret/compte pour trésorerie, produit non bloqué ou assurance selon horizon) en respectant l'interdiction de recommander un support précis. Recommandation : ajouter une phrase très brève indiquant 'séparez physiquement — un compte disponible pour l'urgence, un placement daté pour projets, une poche longue durée' sans citer de produit spécifique.",
+    "editorial : Accroche forte et progression claire. Point faible : la première phrase du hook et la première phrase de la narration sont identiques — risquent de sonner répétitives en 40s. Recommandation : raccourcir la répétition en transformant la phrase d'ouverture du hook en question oratoire et lancer directement la règle en narration pour gagner du temps et fluidité.",
+    "formulation_professionnelle : Le français est naturel et professionnel mais quelques segments peuvent être améliorés pour la diction courte : 'volatilité (variations de valeur) supportable' alourdit la phrase pour une lecture en 40s. Recommandation : remplacer par 'volatilité supportable (variations de valeur)' ou simplement 'volatilité' et laisser la parenthèse pour le texte écran.",
+    "contre_verification_finale : En relecture mot à mot, l'appel final 'Prenez rendez-vous via le lien dans ma bio' est correct mais l'usage du possessif 'ma' suppose un créateur unique — ok si la chaîne individuelle, mais si contenu institutionnel, préférer 'le lien dans la bio'. Recommandation : harmoniser selon l'entité (indiquer 'le lien dans la bio' pour usage institutionnel).",
+    "pedagogie_client : Le message est pédagogique mais l'exemple 'vente forcée (personne quittant le marché)' pourrait être clarifié en précisant brièvement pourquoi (besoin à date obligeant la vente). Recommandation : ajouter une demi-phrase explicative dans la vignette audio/texte pour éviter toute interprétation vague."
+  ],
+  "recommendations": [
+    "VerbalisER immédiatement la précision pédagogique après le chiffre : reformuler la phrase en narration pour dire par exemple 'On retient 8–10 ans — ordre de grandeur pédagogique, aucune garantie de résultat.'",
+    "Éviter la répétition exacte entre hook et narration. Par exemple, transformer le hook en question brève ('Pour quand avez-vous besoin de cet argent ?') et commencer la narration par 'L'horizon décide du placement, pas l'inverse.' sans répéter la question mot à mot.",
+    "Alléger la formulation sur la volatilité pour une diction fluide : remplacer 'volatilité (variations de valeur) supportable' par 'volatilité supportable' et garder la définition 'variations de valeur' comme texte écran.",
+    "Préciser brièvement l'exemple de vente forcée pour la rendre immédiatement compréhensible (ex. '...si vous devez acheter dans deux ans, vendre pendant une baisse vous ferait concrètement perdre de l'argent').",
+    "Harmoniser le CTA possessif selon l'entité : 'le lien dans la bio' si contenu institutionnel, ou garder 'ma bio' si c'est un créateur individuel.",
+    "Ajouter une micro-instruction pratique très neutre sur la séparation physique des poches, sans citer de produits (ex. 'Séparez physiquement : un compte disponible pour l'urgence, un placement daté pour vos projets, une poche longue durée pour la retraite')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-10:shorts:culture_horizon_placement:0",
+  "script_path": "scripts/culture_financiere/culture_horizon_placement__shorts__a1__v4.md"
+}

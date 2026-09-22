@@ -1,0 +1,1583 @@
+{
+  "patches": 157,
+  "operations": 264,
+  "successes": 39,
+  "failures": 225,
+  "failed": [
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/regimes_matrimoniaux/communaute_par_defaut.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/regimes_matrimoniaux/communaute_par_defaut.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a1.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a1.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__multi__a1__A_CORRIGER.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/script.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/family_office/family_office_coordination__multi__a3__A_CORRIGER.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/retraite/retraite_decote_surcote__multi__a2__A_CORRIGER.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/retraite/retraite_decote_surcote__multi__a3__A_CORRIGER.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a2.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a2.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a2.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/versements_apres_70_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/location_meublee/reel_amortissement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/revenus_fonciers_micro.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/per/sortie_capital_rente.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/versements_apres_70_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/versements_apres_70_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/location_meublee/reel_amortissement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/revenus_fonciers_micro.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/per/sortie_capital_rente.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/location_meublee/reel_amortissement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/revenus_fonciers_micro.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/per/sortie_capital_rente.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/assurance_vie/assurance_vie_versements_apres_70_ans__multi__a1.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/assurance_vie/assurance_vie_versements_apres_70_ans__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/per/per_sortie_capital_rente__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/per/per_sortie_capital_rente__multi__a3.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/regimes_matrimoniaux/changement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a3.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/regimes_matrimoniaux/changement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/donation_partage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/present_usage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/don_familial_790g.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/abattement_100000.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/donation_partage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/present_usage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/don_familial_790g.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/abattement_100000.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/abattement_100000.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/abattement_100000.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/present_usage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/don_familial_790g.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/abattement_100000.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/donation_partage.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/don_familial_790g.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/donation/don_familial_790g.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/conjoint_survivant.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/bareme_droits.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/reserve_hereditaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/conjoint_survivant.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/bareme_droits.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/reserve_hereditaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/reserve_hereditaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/reserve_hereditaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/succession/reserve_hereditaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/quotient_familial.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/controle_fiscal.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/plafonnement_niches.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/quotient_familial.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/controle_fiscal.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/plafonnement_niches.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite/plafonnement_niches.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/impot_revenu/tranche_marginale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/impot_revenu/tranche_marginale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/impot_revenu/decote.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/impot_revenu/prelevement_source.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/impot_revenu/pension_alimentaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/transmission_990i.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/rachat_huit_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/clause_beneficiaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/fonds_euros_uc.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/transmission_990i.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/transmission_990i.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/rachat_huit_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/clause_beneficiaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/fonds_euros_uc.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/assurance_vie/demembrement_clause.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/exoneration_cinq_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/pme_et_jeunes.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pel/fiscalite_depuis_2018.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ldds/plafond_et_don.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/csl/livret_fiscalise.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/compte_titres/pfu_flat_tax.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/actions/dividende_et_propriete.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/exoneration_cinq_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/pme_et_jeunes.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pel/fiscalite_depuis_2018.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ldds/plafond_et_don.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/csl/livret_fiscalise.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/compte_titres/pfu_flat_tax.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/actions/dividende_et_propriete.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/exoneration_cinq_ans.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pea/pme_et_jeunes.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pel/fiscalite_depuis_2018.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ldds/plafond_et_don.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/csl/livret_fiscalise.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/compte_titres/pfu_flat_tax.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/actions/dividende_et_propriete.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/pel/fiscalite_depuis_2018.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ldds/plafond_et_don.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/csl/livret_fiscalise.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/compte_titres/pfu_flat_tax.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/actions/dividende_et_propriete.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/frais_de_notaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/plus_value_duree_detention.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/plus_value_residence_principale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/achat_couple_non_marie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ifi/seuil_declenchement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/frais_de_notaire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/plus_value_duree_detention.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/plus_value_residence_principale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/achat_couple_non_marie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ifi/seuil_declenchement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/immobilier/achat_couple_non_marie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ifi/seuil_declenchement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/immobilier/immobilier_achat_couple_non_marie__multi__a1.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/culture_financiere/diversification.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/culture_financiere/horizon_placement.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/culture_financiere/inflation.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/culture_financiere/interets_composes.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/obligations/risque_de_taux.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/produits_structures/barriere_de_protection.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/patrimoine_professionnel/patrimoine_pro_cession_dirigeant__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/sci/apport_ou_acquisition.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite_internationale/residence_fiscale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/gouvernance_familiale/pacte_et_charte.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/family_office/coordination.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/scpi/a_credit_ou_assurance_vie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/transmission/cout_de_ne_rien_faire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/transmission/assurance_vie_vs_donation.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/sci/apport_ou_acquisition.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite_internationale/residence_fiscale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/gouvernance_familiale/pacte_et_charte.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/family_office/coordination.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/scpi/a_credit_ou_assurance_vie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/transmission/cout_de_ne_rien_faire.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/transmission/assurance_vie_vs_donation.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/opci/liquidite_et_fiscalite.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/sci/is_ou_ir.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/societes_civiles/responsabilite_indefinie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ingenierie_patrimoniale/objectif_avant_produit.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/etf/pea_ou_assurance_vie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/opci/liquidite_et_fiscalite.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/sci/is_ou_ir.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/opci/liquidite_et_fiscalite.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/sci/is_ou_ir.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/societes_civiles/responsabilite_indefinie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ingenierie_patrimoniale/objectif_avant_produit.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/etf/pea_ou_assurance_vie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/ingenierie_patrimoniale/objectif_avant_produit.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/etf/pea_ou_assurance_vie.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/fiscalite_internationale/residence_fiscale.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/ingenierie_patrimoniale/ingenierie_objectif_avant_produit__multi__a3.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/family_office/family_office_coordination__multi__a3.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/family_office/family_office_coordination__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/fiscalite_internationale/fiscalite_internationale_residence__multi__a2.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/patrimoine_professionnel/patrimoine_pro_cession_dirigeant__multi__a4.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "content/opci/liquidite_et_fiscalite.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/audit.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "docs/audit_factuel_2026-07-31.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/server.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/web/index.html",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/pipeline.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/server.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/script.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/pipeline.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/production.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_production.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/server.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/web/index.html",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/server.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/web/index.html",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/web/index.html",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/web/index.html",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "planning/calendrier.json",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "planning/calendrier.json",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/formats.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/formats.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/formats.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/charte.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/prompts.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "tests/test_leveria_engine.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "video_pipeline/render_whiteboard.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "video_pipeline/render_whiteboard.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "video_pipeline/render_whiteboard.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "video_pipeline/verify_video_words.py",
+      "success": false,
+      "detail": "contexte introuvable au bloc 2"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "video_pipeline/render_social.py",
+      "success": false,
+      "detail": "contexte introuvable au bloc 5"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__multi__a1.md",
+      "success": false,
+      "detail": "fichier de base absent"
+    },
+    {
+      "source": "/Users/mikael_piselli/.codex/sessions/2026/07/31/rollout-2026-07-31T13-44-58-019fb7fd-ea08-7473-9f64-293d37a2522a.jsonl",
+      "action": "Update",
+      "path": "leveria/compliance.py",
+      "success": false,
+      "detail": "fichier de base absent"
+    }
+  ]
+}

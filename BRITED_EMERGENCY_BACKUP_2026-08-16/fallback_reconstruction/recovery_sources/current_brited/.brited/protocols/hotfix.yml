@@ -1,0 +1,44 @@
+metadata:
+  schema: "1.0"
+
+protocol:
+
+  id: hotfix
+
+trigger:
+
+  event: production_incident
+
+priority: critical
+
+pipeline:
+
+  - id: builder
+    produces:
+      - emergency_fix
+
+  - id: tester
+    requires:
+      - emergency_fix
+    produces:
+      - smoke_tests
+
+  - id: reviewer
+    requires:
+      - smoke_tests
+    produces:
+      - post_review
+
+completion:
+
+  success:
+    - deployed
+
+failure:
+
+  - rollback_required
+
+rollback:
+
+  enabled: true
+  

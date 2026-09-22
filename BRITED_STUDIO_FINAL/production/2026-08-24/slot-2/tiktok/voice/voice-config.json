@@ -1,0 +1,24 @@
+{
+  "voice": {
+    "version": 3,
+    "speed": 0.94,
+    "exaggeration": 0.38,
+    "cfg_weight": 0.32,
+    "temperature": 0.5,
+    "top_p": 0.86,
+    "min_p": 0.08,
+    "repetition_penalty": 1.5
+  },
+  "mastering": "highpass=f=75,lowpass=f=14000,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "fb2b4a086873456006598029337f2621748e3cfd0e114f5a22c5c98f7cde9080",
+  "beat_hashes": {
+    "hook": "74e7875f9d7c6bc5313ab3e8cdecdb176e019dbd29ecf3893f2230b2a21aa87f",
+    "question": "5156fb185f7ce7690f4aa4b84d5440f9ab7ee3de6409a010d14bfbdc23a3ad64",
+    "reponse": "10b82ddb0e17d6d3c57edcb72d5446cf674b2ed808db2eb1e026896b1470c9bb",
+    "regle": "b43c6c9940d362d7d447152cc081dc61242e8768a149884bbaa7e694f74b2f0b",
+    "precision": "1b46691cad57773d4d6900108ec759a543a1eee86b5502b4fdd5c010a005d33b",
+    "exemple": "c2338b6a3d0fd1b24b8f17cfbef76bbaf9d06ad7770a87caa23eaf14af708775",
+    "nuance": "aac18907e6927ca61adf56da93519db8435cd500d01b5b1f9ede98350e751709",
+    "cta": "52d569a7753f0157477c8257bd43f2ab4eab57dab05b29e04f1900c04f507442"
+  }
+}

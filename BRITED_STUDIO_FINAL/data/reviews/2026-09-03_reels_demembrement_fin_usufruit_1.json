@@ -1,0 +1,172 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « Les droits ont été payés à la donation sur la valeur de la nue-propriété selon l'article 669 » est correcte mais would benefit from precise wording: il s'agit des droits de mutation à titre gratuit calculés selon le barème de l'article 669 du CGI. Localisation : Beat 5 (réponse/exemple)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque la précision que l'article 1133 CGI vise la réunion juridique de droits et empêche l'ouverture de droits fiscaux au moment de la réunion ; le script l'affirme mais pourrait citer explicitement « n'ouvre aucun droit » et rappeler qu'il s'agit des droits de succession/ mutation à titre gratuit. Localisation : Beat 4 (règle)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est utile mais omet d'indiquer que les droits initiaux ont été calculés sur 300 000 € (valeur de la nue-propriété) selon un barème; préciser l'âge du donateur lié au pourcentage (référence à l'article 669) renforcerait la complétude. Localisation : Beat 5 (exemple)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 39 s : plausible mais le script pourrait indiquer le tempo ou pauses entre beats pour respecter les contraintes Reels (hook <3s). Localisation : en-tête 'Durée estimée' et structure des beats (Beat 1–7)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est clair mais la formulation « Vos enfants paieront-ils quelque chose ? OUI / NON » peut prêter à hésitation à l'oral ; envisager « Vos enfants paieront-ils des droits à votre décès ? Oui ou non ? » pour plus de fluidité. Localisation : Beat 1–2 (hook/question)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention légale en bas est bonne; toutefois le script contient un CTA commercial (rendez‑vous) — acceptable, mais il faut veiller à ne pas présenter la vidéo comme conseil personnalisé. Localisation : Beat 7 (CTA) et légende."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations abruptes (par ex. simple 'Non' pour la réponse) peuvent nuire à la confiance orale ; proposer une phrase complète « Non : ils ne paieront rien à cause de la réunion de l'usufruit à la nue-propriété. » Localisation : Beat 3 (réponse)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Séquence logique correcte mais vérifier l'enchaînement exact des références légales prononcées (dire simultanément 'article 1133 du CGI' avec 'réunion = aucun droit') pour éviter toute ambiguïté ou erreur de diction. Localisation : Beat 4 et narration."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme proposé pour Beat 5 (schéma 300 000 € → 500 000 €, pictogramme euro barré) pourrait être mal interprété : le symbole euro barré peut suggérer interdiction plutôt que 'pas de taxation' — recommander une icône explicite '0 € droits' ou une croix sur une feuille d'impôt. Localisation : Beat 5 pictogramme."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais compresse beaucoup d'informations en peu de temps ; il faut s'assurer que la mention des causes alternatives d'extinction (terme, renonciation, consolidation, 30 ans) reste intelligible sans alourdir. Localisation : Beat 6 (nuance)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines expressions juridiques ('réunion', 'ouvre aucun droit') sont correctes mais peuvent dérouter un non-spécialiste ; recommander une courte reformulation simple : 'le nu-propriétaire récupère la pleine propriété sans payer de droits' en plus de la référence légale. Localisation : Beat 4 (règle)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes doivent être très percutantes ; le hook actuel est bon mais gagnerait à être réduit et prononcé plus vite (ex. 'Vous avez donné la nue-propriété ? Que devient l'usufruit ?'). Localisation : Beat 1 (hook)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel globalement respecté ; toutefois l'affirmation trop sèche 'Non' sans phrase d'appui peut affaiblir la crédibilité. Ajouter une micro-justification immédiate renforce confiance. Localisation : Beat 3 (réponse) et transition vers Beat 4."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La phrase « Les droits ont été payés à la donation sur la valeur de la nue-propriété selon l'article 669 » est correcte mais would benefit from precise wording: il s'agit des droits de mutation à titre gratuit calculés selon le barème de l'article 669 du CGI. Localisation : Beat 5 (réponse/exemple).",
+    "juridique_fiscal : Manque la précision que l'article 1133 CGI vise la réunion juridique de droits et empêche l'ouverture de droits fiscaux au moment de la réunion ; le script l'affirme mais pourrait citer explicitement « n'ouvre aucun droit » et rappeler qu'il s'agit des droits de succession/ mutation à titre gratuit. Localisation : Beat 4 (règle).",
+    "completude : L'exemple chiffré est utile mais omet d'indiquer que les droits initiaux ont été calculés sur 300 000 € (valeur de la nue-propriété) selon un barème; préciser l'âge du donateur lié au pourcentage (référence à l'article 669) renforcerait la complétude. Localisation : Beat 5 (exemple).",
+    "plateforme : Durée estimée 39 s : plausible mais le script pourrait indiquer le tempo ou pauses entre beats pour respecter les contraintes Reels (hook <3s). Localisation : en-tête 'Durée estimée' et structure des beats (Beat 1–7).",
+    "editorial : Le hook est clair mais la formulation « Vos enfants paieront-ils quelque chose ? OUI / NON » peut prêter à hésitation à l'oral ; envisager « Vos enfants paieront-ils des droits à votre décès ? Oui ou non ? » pour plus de fluidité. Localisation : Beat 1–2 (hook/question).",
+    "securite : La mention légale en bas est bonne; toutefois le script contient un CTA commercial (rendez‑vous) — acceptable, mais il faut veiller à ne pas présenter la vidéo comme conseil personnalisé. Localisation : Beat 7 (CTA) et légende.",
+    "formulation_professionnelle : Quelques formulations abruptes (par ex. simple 'Non' pour la réponse) peuvent nuire à la confiance orale ; proposer une phrase complète « Non : ils ne paieront rien à cause de la réunion de l'usufruit à la nue-propriété. » Localisation : Beat 3 (réponse).",
+    "contre_verification_finale : Séquence logique correcte mais vérifier l'enchaînement exact des références légales prononcées (dire simultanément 'article 1133 du CGI' avec 'réunion = aucun droit') pour éviter toute ambiguïté ou erreur de diction. Localisation : Beat 4 et narration.",
+    "coherence_pictogrammes : Pictogramme proposé pour Beat 5 (schéma 300 000 € → 500 000 €, pictogramme euro barré) pourrait être mal interprété : le symbole euro barré peut suggérer interdiction plutôt que 'pas de taxation' — recommander une icône explicite '0 € droits' ou une croix sur une feuille d'impôt. Localisation : Beat 5 pictogramme.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais compresse beaucoup d'informations en peu de temps ; il faut s'assurer que la mention des causes alternatives d'extinction (terme, renonciation, consolidation, 30 ans) reste intelligible sans alourdir. Localisation : Beat 6 (nuance).",
+    "pedagogie_client : Certaines expressions juridiques ('réunion', 'ouvre aucun droit') sont correctes mais peuvent dérouter un non-spécialiste ; recommander une courte reformulation simple : 'le nu-propriétaire récupère la pleine propriété sans payer de droits' en plus de la référence légale. Localisation : Beat 4 (règle).",
+    "retention_attention : Les deux premières secondes doivent être très percutantes ; le hook actuel est bon mais gagnerait à être réduit et prononcé plus vite (ex. 'Vous avez donné la nue-propriété ? Que devient l'usufruit ?'). Localisation : Beat 1 (hook).",
+    "conversion_confiance : Ton professionnel globalement respecté ; toutefois l'affirmation trop sèche 'Non' sans phrase d'appui peut affaiblir la crédibilité. Ajouter une micro-justification immédiate renforce confiance. Localisation : Beat 3 (réponse) et transition vers Beat 4."
+  ],
+  "recommendations": [
+    "Remplacer la réponse sèche 'Non' (Beat 3) par une phrase courte et explicative : 'Non — le nu‑propriétaire récupère la pleine propriété sans payer de droits.'",
+    "Préciser au Beat 5 que les droits visés sont les droits de mutation à titre gratuit et, si possible, rappeler l'exemple du pourcentage selon l'article 669 (ex. 'pour un donateur de 65 ans, la nue-propriété vaut 40%').",
+    "Adapter le pictogramme du Beat 5 pour éviter le symbole euro barré ambigu : utiliser une icône '0 € droits' ou une feuille d'impôt barrée clairement associée à '0'.",
+    "Alléger et accélérer le hook (2 premières secondes) pour Reels : formuler en une question brève et marquante.",
+    "Pour Beat 4, ajouter une phrase en langage clair en parallèle de la référence légale, par exemple : 'La loi (art. 1133 CGI) dit que cela n'entraîne aucun droit à payer.'",
+    "Vérifier à l'enregistrement la diction précise des références légales (article 1133 CGI, article 617 Code civil, article 669 CGI) pour éviter toute approximation orale.",
+    "Veiller à ce que le CTA reste informatif et non prescriptif : conserver la mention légale en légende et rappeler vocalement que le contenu n'est pas un conseil personnalisé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-03:reels:demembrement_fin_usufruit:1",
+  "script_path": "scripts/demembrement/demembrement_fin_usufruit__reels__a1__v7.md"
+}

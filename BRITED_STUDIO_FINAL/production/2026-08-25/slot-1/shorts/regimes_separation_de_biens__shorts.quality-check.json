@@ -1,0 +1,384 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 49.6,
+  "target_duration": [
+    38,
+    52
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 49.601,
+      "peak": 0.84143,
+      "rms": 0.15779,
+      "dc": 0.000106,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 3.463,
+        "peak": 0.77475,
+        "rms": 0.12632,
+        "dc": 8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.064,
+        "peak": 0.79434,
+        "rms": 0.12446,
+        "dc": 7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 17.253,
+        "peak": 0.79443,
+        "rms": 0.12827,
+        "dc": 7.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 8.637,
+        "peak": 0.79428,
+        "rms": 0.12107,
+        "dc": 8.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.189,
+        "peak": 0.71045,
+        "rms": 0.11362,
+        "dc": 6e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.535,
+        "peak": 0.77356,
+        "rms": 0.12192,
+        "dc": 0.00013,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "La séparation de biens vous protège si votre entreprise fait faillite ?",
+        "transcript": "La séparation de biens vous protège si votre entreprise fait faillite.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 0.9863,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Non : elle protège le patrimoine, mais pas nécessairement contre certaines dettes ménagères ou l'effet d'une indivision.",
+        "transcript": "Non, elle protège le patrimoine, mais pas nécessairement contre certaines dettes ménagères ou l'effet d'une indivision.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1714,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "Selon l'article mille cinq cent trente-six chaque époux reste propriétaire de ses biens, mais l'article deux cent vingt rend les époux solidaires des dettes pour l'entretien du ménage et l'article mille cinq cent trente-huit prévoit qu'un bien dont la propriété n'est pas prouvée est réputé indivis par moitié.",
+        "transcript": "Selon l'article 1536, chaque époux reste propriétaire de ses biens, mais l'article 220 rend les époux solidaires des dettes pour l'entretien du ménage et l'article 1538 prévoit qu'un bien dont la propriété n'est pas prouvée est réputé indivis par moitié.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.4804,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Exemple : vous financez seul une maison achetée à deux sans factures ni relevés ; vingt ans plus tard le bien peut être déclaré indivis par moitié.",
+        "transcript": "Exemple, vous financez seul une maison achetée à deux sans facture ni relevé. 20 ans plus tard, le bien peut être déclaré indivis par moitié.",
+        "similarity": 0.92,
+        "missing": [
+          "factures",
+          "releves"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "facture",
+          "releve"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2131,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "Conservez factures, contrats et relevés bancaires prouvant l'origine des fonds : c'est la condition de fonctionnement du régime.",
+        "transcript": "Conserver factures, contrats et relevé bancaire prouvant l'origine des fonds, c'est la condition de fonctionnement du régime.",
+        "similarity": 0.8421,
+        "missing": [
+          "conservez",
+          "releves",
+          "bancaires"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "conserver",
+          "releve",
+          "bancaire"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.1869,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      40,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      190.6,
+      158.3,
+      173.9,
+      173.7,
+      164.8,
+      184.3
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Question centrée, pictogramme '§' et point d'interrogation",
+        "family": "loi",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "briefcase-business",
+          "shield-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Schéma 3 pictogrammes : document propriété, facture/€ pour dette ménagère, document preuve",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          382,
+          672,
+          798
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Illustration couple et maison, documents manquants, balance égalité",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "plus",
+          "receipt-euro",
+          "house"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Icônes relevés bancaires, facture, cadenas",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

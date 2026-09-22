@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 0.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et apprentissage d'une règle utile avant l'appel à l'action.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme une personne sans aucune culture patrimoniale : situation familière, vocabulaire courant, terme technique immédiatement traduit, règle mémorisable, exemple parlant qui projette explicitement le spectateur dans la situation et point pratique compris au premier passage ; pour la Finance, la nature exacte du produit doit être nommée.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "impact_dynamique": {
+      "label": "Bloque tout script qui ressemble à un cours : exige un hook spécifique qui arrête le défilement, une valeur concrète dès la phrase suivante, des phrases nerveuses et une progression orale rapide sans sensationnalisme.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que la vidéo apporte toute sa valeur avant le CTA et construit un vivier de prospects par la confiance, sans rétention d'information, peur artificielle, surpromesse ni pression commerciale.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    },
+    "fluidite_orale": {
+      "label": "Lit le texte à voix haute mentalement et bloque toute formulation télégraphique, ponctuation cassante, répétition, liaison difficile ou enchaînement susceptible de produire une diction artificielle.",
+      "score": 0.0,
+      "passed": false,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": false,
+      "score": 8.0,
+      "words": 156,
+      "seconds": 57.8,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 8.5,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Information complète sans contrainte de durée": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 0.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 8
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": false,
+        "score": 8.0,
+        "words": 156,
+        "seconds": 57.8,
+        "errors": [
+          "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+        ],
+        "warnings": []
+      },
+      "ready": false
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "eb8c46a8823ff2eb415e74a8138474f6756f6dfd7f7e6ed42d8e8ed843f5a10c",
+      "adapted_hash": "eb8c46a8823ff2eb415e74a8138474f6756f6dfd7f7e6ed42d8e8ed843f5a10c",
+      "source_beats": 6,
+      "adapted_pages": 6,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 32,
+      "cta_normalized": false,
+      "warnings": [
+        "Densité élevée : police proche du minimum de sécurité"
+      ]
+    }
+  },
+  "errors": [
+    "Pédagogie grand public : terme technique non expliqué simplement : abattement",
+    "source : note 0/10",
+    "juridique_fiscal : note 0/10",
+    "completude : note 0/10",
+    "plateforme : note 0/10",
+    "editorial : note 0/10",
+    "securite : note 0/10",
+    "formulation_professionnelle : note 0/10",
+    "contre_verification_finale : note 0/10",
+    "coherence_pictogrammes : note 0/10",
+    "densite_editoriale : note 0/10",
+    "pedagogie_client : note 0/10",
+    "retention_attention : note 0/10",
+    "impact_dynamique : note 0/10",
+    "conversion_confiance : note 0/10",
+    "fluidite_orale : note 0/10",
+    "Performance plateforme : 8.5/10, seuil 10.0/10"
+  ],
+  "recommendations": [],
+  "reviewed_at": "2026-09-03T12:11:44",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-09-04:shorts:demembrement_bareme_669:0",
+  "script_path": "scripts/demembrement/demembrement_bareme_669__shorts__a1__v14.md"
+}

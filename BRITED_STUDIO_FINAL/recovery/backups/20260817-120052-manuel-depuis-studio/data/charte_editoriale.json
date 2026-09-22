@@ -1,0 +1,47 @@
+{
+  "version": "finale_restauree_2026-08-16",
+  "source_verite": "Fiches conceptuelles locales BRITED certifiées",
+  "cadence": {"publications_par_jour": 2, "jours_par_semaine": 7, "creneaux": ["10:00", "17:00"]},
+  "series": {
+    "fiscalite": {"nom": "Fiscalité", "couleur": "#6F4E37", "pictogramme": "pourcentage"},
+    "immobilier": {"nom": "Immobilier", "couleur": "#C96F4A", "pictogramme": "maison"},
+    "juridique": {"nom": "Juridique", "couleur": "#D99A2B", "pictogramme": "balance"},
+    "finance": {"nom": "Finance", "couleur": "#2457D6", "pictogramme": "courbe"}
+  },
+  "principes_visuels": [
+    "Format vertical 9:16, fond chaud et identité neutre sans mention BRITED dans la vidéo",
+    "Texte central, grand et lisible, sans libellés internes Hook, Règle ou domaine",
+    "Apparition progressive fluide, synchronisée mot à mot avec la voix, sans effet saccadé",
+    "Transitions de pages souples avec respiration de deux secondes avant le changement de partie",
+    "Dessins et pictogrammes contextualisés, jamais superposés au texte ni coupés",
+    "Barre de progression uniquement en bas, aucune barre supérieure, aucun crayon ni demi-cercle décoratif",
+    "Question affichée et lue avant la réponse ; options cohérentes puis réponse sur la page suivante",
+    "Dernière page uniquement après la fin de la narration, sans synthèse, avec commenter, partager et s'abonner"
+  ],
+  "plateformes": {
+    "tiktok": {
+      "reference": "scripts/regimes_matrimoniaux/CHARTE_TIKTOK_REFERENCE_V33.md",
+      "duree_cible_secondes": [38, 42], "duree_max_secondes": 60,
+      "structure": ["hook direct", "règle bornée", "question", "réponse", "exemple", "appel à l'action"],
+      "priorite": "croissance et acquisition d'abonnés"
+    },
+    "reels": {
+      "duree_cible_secondes": [35, 50], "duree_max_secondes": 60,
+      "structure": ["hook direct", "question quatre secondes", "réponse page suivante", "preuve ou exemple", "appel à l'action générique"],
+      "priorite": "sauvegardes, partages et compréhension complète"
+    },
+    "shorts": {
+      "duree_cible_secondes": [40, 55], "duree_max_secondes": 60,
+      "structure": ["promesse immédiate", "explication autonome", "question", "réponse", "exemple", "abonnement"],
+      "priorite": "rétention et clarté pédagogique"
+    }
+  },
+  "garde_fous": [
+    "Ne jamais publier automatiquement",
+    "Ne jamais remplacer un script validé : créer une nouvelle version",
+    "Bloquer la génération si la fiche source est absente",
+    "Signaler toute incohérence juridique, fiscale ou factuelle",
+    "Contrôler la présence de tous les mots et la synchronisation avant validation",
+    "Créer un manifeste verrouillé et demander la validation humaine"
+  ]
+}

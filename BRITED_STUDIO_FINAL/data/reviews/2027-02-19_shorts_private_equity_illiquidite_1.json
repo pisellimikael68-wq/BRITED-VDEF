@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique « sortie anticipée est en principe impossible » (beat 2 et narration) — conforme aux sources mais manque la mention explicite que des clauses statutaires ou exceptions existent (réf. fiche: ‘Possibilité de sortie anticipée: en principe aucune’ et section Nuance). Demander d'ajouter une phrase très brève précisant que les statuts du fonds peuvent prévoir des cas exceptionnels.",
+        "La valeur chiffrée '8 à 10 ans' est correctement reprise mais la légende « Durée usuelle d'immobilisation » dans la fiche est marquée 'a_verifier: true'. Le script ne signale pas cette incertitude de vérification. Il faut aligner: soit confirmer source AMF, soit indiquer 'habituellement 8–10 ans' plutôt que une assertion catégorique."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La référence au Code monétaire et financier est fournie en sources, mais le script ne précise pas que le cadre légal diffère selon la forme du véhicule (FCPR, FPCI) et que des règles de liquidité/cessibilité peuvent varier. Il faut ajouter une phrase très courte indiquant que les modalités dépendent des statuts et du type de véhicule.",
+        "L'appel à rendez-vous (CTA) pourrait être interprété comme conseil personnalisé si la formulation n'est pas soigneuse. La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil...' figure dans la légende, mais il faudrait, pour conformité juridique/fiscale, évoquer brièvement dans la narration que le contenu n'est pas un conseil personnalisé (une phrase très courte dans la outro ou dans le texte écran)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "La fiche liste 'questions_clients' dont 'Quel montant minimum ?' mais le script n'aborde pas le montant minimum d'investissement ni la nécessité de vérifier le ticket minimum. Il manque une courte mention exhortant à vérifier le montant minimum auprès du fonds/gestionnaire.",
+        "L'exemple (beat 4) conseille de 'garder des liquidités disponibles' mais n'indique pas explicitement que les appels de fonds peuvent s'étaler sur plusieurs années et représenter un pourcentage de l'engagement (même s'il n'est pas chiffré). Il faudrait préciser brièvement 'appels échelonnés sur plusieurs années — prévoyez de mobiliser la part non appelée'."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 42 s — la narration telle quelle semble adaptée, mais la version actuelle contient plusieurs phrases denses (beat 3 et narration) qui risquent d'allonger le temps de parole. Recommander de raccourcir légèrement la phrase du beat 3 pour respecter 42s.",
+        "Le CTA 'link in my bio' est standard pour Shorts, mais en français 'lien dans ma bio' dans le texte écran est cohérent ; vérifier que le call-to-action respecte les règles publicitaires de la plateforme (non promesse de performance). Ajouter une formulation non-pressante dans le texte écran (ex.: 'Prenez rendez-vous si besoin')."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort, mais la répétition 'En private equity, votre argent est-il immobilisé dix ans ?' puis 'Oui : l'horizon usuel est de huit à dix ans...' est bonne. Toutefois la phrase 'l'illiquidité rémunère le rendement espéré' (beat 3) peut être perçue comme trop technique pour un non-spécialiste. Proposition: remplacer par 'l'illiquidité explique en partie le supplément de rendement attendu'.",
+        "Le flow entre beat 4 et beat 5 est bon, mais la 'Nuance' (beat 5) contient deux informations distinctes (exceptions statutaires/marché secondaire et risque de perte totale). Il conviendrait de séparer en deux courtes phrases pour la clarté."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reste pédagogique et neutre, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' sans précision peut être lu comme incitation commerciale. Ajouter dans le texte écran ou narration une précision: 'contenu informatif, pas une recommandation — pour un diagnostic personnalisé, prenez rendez-vous'.",
+        "La mention du 'marché secondaire' comme mécanisme rare est correcte mais pourrait être mal comprise (on pourrait croire que l'accès est courant). Recommander d'ajouter 'rare' explicitement dans la phrase écran et narration (le script le dit mais renforcer)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs formulations sont naturelles, mais la phrase 'et la sortie anticipée est en principe impossible' est légèrement lourde ; proposer 'et la sortie anticipée est, en principe, impossible.'",
+        "Le mot 'liquidités' (beat 4) est compréhensible, mais pour un public non spécialiste, 'argent disponible' ou 'fonds disponibles' pourrait être plus direct à l'oral."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Petite incohérence de ton: la légende rappelle 'Contenu pédagogique; non personnalisé' mais la narration se termine par un CTA qui peut sembler personnel. Demander de contraindre la formulation du CTA pour éviter toute ambiguïté (par ex. 'si vous voulez en discuter, prenez rendez-vous via le lien dans la bio' avec rappel de non-conseil).",
+        "Vérifier la prononciation et débit pour tenir 42 s : la version actuelle contient plusieurs énumérations (beat 3) qui risquent d'allonger la durée. Suggestion : préparer une prise de parole chronométrée et contracter deux phrases longues."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 3 visuel proposé 'Schéma pictogrammes : société non cotée → fonds → calendrier → cession' illustre bien l'idée, mais le libellé texte écran 'FCPR / FPCI, participations non cotées, appels de fonds échelonnés' contient plusieurs éléments. Recommander d'assurer que chaque pictogramme s'affiche en synchronisation avec la phrase correspondante pour éviter surcharge visuelle.",
+        "Beat 5 propose 'Pictogramme nuage de points montrant dispersion des performances' — s'assurer que le pictogramme ne ressemble pas à une courbe de performance positive (pour ne pas induire en erreur). Privilégier un nuage de points neutre et une petite icône 'risque' (triangle exclamation)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (l'illiquidité) mais inclut aussi le risque de perte totale et le marché secondaire — ces nuances sont nécessaires mais risquent d'alourdir. Recommander de retravailler la formulation pour que la règle centrale, sa condition, l'exception et l'exemple tiennent en 3–4 phrases très nettes.",
+        "Le script omet la question du montant minimum (présente dans la fiche) — soit la traiter brièvement, soit la retirer explicitement des promesses pour rester concentré."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible, mais le terme 'FCPR / FPCI' est utilisé sans explication ; pour un non-spécialiste, ajouter entre parenthèses 'types de fonds' ou prononcer 'FCPR et FPCI (types de fonds)' pour ne pas perdre l'auditeur.",
+        "La phrase 'l'illiquidité rémunère le rendement espéré' peut nécessiter un mot supplémentaire: 'explique en partie' pour que le non-spécialiste ne retienne pas que l'illiquidité garantit le rendement."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont fortes. Toutefois, la densité d'informations dès le beat 2–3 peut faire décrocher. Recommander d'accentuer le rythme: hook (1s), réponse brève (2–3s), exemple/pratique (10s), nuance (5s), CTA (3s).",
+        "Le CTA pourrait être perçu comme tardif ; déplacer l'appel visuel au dernier 1–2 secondes en texte écran et réduire la phrase finale pour maintenir rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux respecté par les sources et la mention légale en légende. Toutefois l'appel 'Prenez rendez-vous via le lien dans ma bio' sans rappel du non-conseil immédiat affaiblit légèrement la protection. Recommander d'ajouter en petit texte écran 'diagnostic personnalisé payant/professionnel' ou 'pour un diagnostic personnalisé, rendez-vous' suivi de la mention de non-conseil.",
+        "Pour renforcer confiance, proposer d'ajouter brièvement 'Sources: AMF, Code monétaire et financier' en bas de l'écran final (petit texte) lors de la CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 119,
+      "seconds": 44.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 119,
+        "seconds": 44.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script indique « sortie anticipée est en principe impossible » (beat 2 et narration) — conforme aux sources mais manque la mention explicite que des clauses statutaires ou exceptions existent (réf. fiche: ‘Possibilité de sortie anticipée: en principe aucune’ et section Nuance). Demander d'ajouter une phrase très brève précisant que les statuts du fonds peuvent prévoir des cas exceptionnels.",
+    "source : La valeur chiffrée '8 à 10 ans' est correctement reprise mais la légende « Durée usuelle d'immobilisation » dans la fiche est marquée 'a_verifier: true'. Le script ne signale pas cette incertitude de vérification. Il faut aligner: soit confirmer source AMF, soit indiquer 'habituellement 8–10 ans' plutôt que une assertion catégorique.",
+    "juridique_fiscal : La référence au Code monétaire et financier est fournie en sources, mais le script ne précise pas que le cadre légal diffère selon la forme du véhicule (FCPR, FPCI) et que des règles de liquidité/cessibilité peuvent varier. Il faut ajouter une phrase très courte indiquant que les modalités dépendent des statuts et du type de véhicule.",
+    "juridique_fiscal : L'appel à rendez-vous (CTA) pourrait être interprété comme conseil personnalisé si la formulation n'est pas soigneuse. La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil...' figure dans la légende, mais il faudrait, pour conformité juridique/fiscale, évoquer brièvement dans la narration que le contenu n'est pas un conseil personnalisé (une phrase très courte dans la outro ou dans le texte écran).",
+    "completude : La fiche liste 'questions_clients' dont 'Quel montant minimum ?' mais le script n'aborde pas le montant minimum d'investissement ni la nécessité de vérifier le ticket minimum. Il manque une courte mention exhortant à vérifier le montant minimum auprès du fonds/gestionnaire.",
+    "completude : L'exemple (beat 4) conseille de 'garder des liquidités disponibles' mais n'indique pas explicitement que les appels de fonds peuvent s'étaler sur plusieurs années et représenter un pourcentage de l'engagement (même s'il n'est pas chiffré). Il faudrait préciser brièvement 'appels échelonnés sur plusieurs années — prévoyez de mobiliser la part non appelée'.",
+    "plateforme : Durée estimée 42 s — la narration telle quelle semble adaptée, mais la version actuelle contient plusieurs phrases denses (beat 3 et narration) qui risquent d'allonger le temps de parole. Recommander de raccourcir légèrement la phrase du beat 3 pour respecter 42s.",
+    "plateforme : Le CTA 'link in my bio' est standard pour Shorts, mais en français 'lien dans ma bio' dans le texte écran est cohérent ; vérifier que le call-to-action respecte les règles publicitaires de la plateforme (non promesse de performance). Ajouter une formulation non-pressante dans le texte écran (ex.: 'Prenez rendez-vous si besoin').",
+    "editorial : Hook fort, mais la répétition 'En private equity, votre argent est-il immobilisé dix ans ?' puis 'Oui : l'horizon usuel est de huit à dix ans...' est bonne. Toutefois la phrase 'l'illiquidité rémunère le rendement espéré' (beat 3) peut être perçue comme trop technique pour un non-spécialiste. Proposition: remplacer par 'l'illiquidité explique en partie le supplément de rendement attendu'.",
+    "editorial : Le flow entre beat 4 et beat 5 est bon, mais la 'Nuance' (beat 5) contient deux informations distinctes (exceptions statutaires/marché secondaire et risque de perte totale). Il conviendrait de séparer en deux courtes phrases pour la clarté.",
+    "securite : Le script reste pédagogique et neutre, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' sans précision peut être lu comme incitation commerciale. Ajouter dans le texte écran ou narration une précision: 'contenu informatif, pas une recommandation — pour un diagnostic personnalisé, prenez rendez-vous'.",
+    "securite : La mention du 'marché secondaire' comme mécanisme rare est correcte mais pourrait être mal comprise (on pourrait croire que l'accès est courant). Recommander d'ajouter 'rare' explicitement dans la phrase écran et narration (le script le dit mais renforcer).",
+    "formulation_professionnelle : Plusieurs formulations sont naturelles, mais la phrase 'et la sortie anticipée est en principe impossible' est légèrement lourde ; proposer 'et la sortie anticipée est, en principe, impossible.'",
+    "formulation_professionnelle : Le mot 'liquidités' (beat 4) est compréhensible, mais pour un public non spécialiste, 'argent disponible' ou 'fonds disponibles' pourrait être plus direct à l'oral.",
+    "contre_verification_finale : Petite incohérence de ton: la légende rappelle 'Contenu pédagogique; non personnalisé' mais la narration se termine par un CTA qui peut sembler personnel. Demander de contraindre la formulation du CTA pour éviter toute ambiguïté (par ex. 'si vous voulez en discuter, prenez rendez-vous via le lien dans la bio' avec rappel de non-conseil).",
+    "contre_verification_finale : Vérifier la prononciation et débit pour tenir 42 s : la version actuelle contient plusieurs énumérations (beat 3) qui risquent d'allonger la durée. Suggestion : préparer une prise de parole chronométrée et contracter deux phrases longues.",
+    "coherence_pictogrammes : Beat 3 visuel proposé 'Schéma pictogrammes : société non cotée → fonds → calendrier → cession' illustre bien l'idée, mais le libellé texte écran 'FCPR / FPCI, participations non cotées, appels de fonds échelonnés' contient plusieurs éléments. Recommander d'assurer que chaque pictogramme s'affiche en synchronisation avec la phrase correspondante pour éviter surcharge visuelle.",
+    "coherence_pictogrammes : Beat 5 propose 'Pictogramme nuage de points montrant dispersion des performances' — s'assurer que le pictogramme ne ressemble pas à une courbe de performance positive (pour ne pas induire en erreur). Privilégier un nuage de points neutre et une petite icône 'risque' (triangle exclamation).",
+    "densite_editoriale : La vidéo traite bien un seul angle (l'illiquidité) mais inclut aussi le risque de perte totale et le marché secondaire — ces nuances sont nécessaires mais risquent d'alourdir. Recommander de retravailler la formulation pour que la règle centrale, sa condition, l'exception et l'exemple tiennent en 3–4 phrases très nettes.",
+    "densite_editoriale : Le script omet la question du montant minimum (présente dans la fiche) — soit la traiter brièvement, soit la retirer explicitement des promesses pour rester concentré.",
+    "pedagogie_client : Globalement compréhensible, mais le terme 'FCPR / FPCI' est utilisé sans explication ; pour un non-spécialiste, ajouter entre parenthèses 'types de fonds' ou prononcer 'FCPR et FPCI (types de fonds)' pour ne pas perdre l'auditeur.",
+    "pedagogie_client : La phrase 'l'illiquidité rémunère le rendement espéré' peut nécessiter un mot supplémentaire: 'explique en partie' pour que le non-spécialiste ne retienne pas que l'illiquidité garantit le rendement.",
+    "retention_attention : Les deux premières secondes (hook) sont fortes. Toutefois, la densité d'informations dès le beat 2–3 peut faire décrocher. Recommander d'accentuer le rythme: hook (1s), réponse brève (2–3s), exemple/pratique (10s), nuance (5s), CTA (3s).",
+    "retention_attention : Le CTA pourrait être perçu comme tardif ; déplacer l'appel visuel au dernier 1–2 secondes en texte écran et réduire la phrase finale pour maintenir rythme.",
+    "conversion_confiance : Ton sérieux respecté par les sources et la mention légale en légende. Toutefois l'appel 'Prenez rendez-vous via le lien dans ma bio' sans rappel du non-conseil immédiat affaiblit légèrement la protection. Recommander d'ajouter en petit texte écran 'diagnostic personnalisé payant/professionnel' ou 'pour un diagnostic personnalisé, rendez-vous' suivi de la mention de non-conseil.",
+    "conversion_confiance : Pour renforcer confiance, proposer d'ajouter brièvement 'Sources: AMF, Code monétaire et financier' en bas de l'écran final (petit texte) lors de la CTA."
+  ],
+  "recommendations": [
+    "Ajouter une phrase brève (beat 5 ou outro) précisant que les statuts du fonds ou le marché secondaire peuvent, de façon rare, permettre des sorties anticipées : 'Des cas exceptionnels peuvent exister selon les statuts du fonds ou le marché secondaire, mais ce sont des exceptions.'",
+    "Modifier la formulation catégorique '8 à 10 ans' en 'habituellement 8 à 10 ans' pour refléter l'étiquette 'a_verifier' et la variabilité selon véhicules.",
+    "Inclure une très brève mention du montant minimum d'investissement (ou inviter explicitement à vérifier le ticket minimum) : par ex. une phrase écran courte 'Vérifiez le montant minimum auprès du fonds'.",
+    "Clarifier dans la narration que le contenu est d'ordre pédagogique et ne constitue pas un conseil personnalisé au moment du CTA : ajouter 'Ce n'est pas un conseil personnalisé — pour un diagnostic, prenez rendez-vous.'",
+    "Simplifier et raccourcir la phrase du beat 3 pour tenir le format 42 s : remplacer 'l'illiquidité rémunère le rendement espéré' par 'l'illiquidité explique en partie le supplément de rendement attendu'.",
+    "Expliquer très brièvement l'acronyme FCPR/FPCI pour un non-spécialiste (par ex. 'FCPR/FPCI — types de fonds de non‑coté').",
+    "Adapter pictogrammes : assurer synchronisation visuel/voix, utiliser un nuage de points neutre pour la dispersion et une icône '!' pour le risque de perte, et éviter symboles pouvant suggérer performance positive.",
+    "Sur le plan éditorial, scinder la 'Nuance' en deux phrases courtes (exceptions statutaires/secondaire et risque de perte totale) pour la clarté orale.",
+    "Ajouter en petit texte écran final les sources (AMF, Code monétaire et financier) lors de la CTA pour renforcer crédibilité.",
+    "Faire une prise de parole chronométrée de test et réduire deux phrases longues pour assurer la durée estimée de 42s."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-19:shorts:private_equity_illiquidite:1",
+  "script_path": "scripts/private_equity/private_equity_illiquidite__shorts__a5__v3.md"
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-26",
+  "slot": 2,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-26:reels:assurance_vie_990i_152500:1",
+      "platform": "reels",
+      "title": "Les 152 500 € par bénéficiaire de l'assurance-vie",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/assurance_vie/assurance_vie_990i_152500__reels__a1__v2.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-2/reels/assurance_vie_990i_152500__reels.mp4",
+      "duration": 37.53,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 97,
+        "seconds": 35.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-26:reels:assurance_vie_990i_152500:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 9.5,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-26_reels_assurance_vie_990i_152500_1.json",
+        "validated_at": "2026-08-19T18:06:14"
+      },
+      "review_path": "data/reviews/2026-08-26_reels_assurance_vie_990i_152500_1.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-2/reels/assurance_vie_990i_152500__reels.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-2/reels/assurance_vie_990i_152500__reels.word-check.json"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "982d2d3bb7c7d380e451a71171649b3678695bb86fac4a809a7548e47676063f"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance-vie ?",
+      "tokens": [
+        "Vous",
+        "savez",
+        "quelle",
+        "est",
+        "la",
+        "phrase",
+        "la",
+        "plus",
+        "importante",
+        "de",
+        "votre",
+        "contrat",
+        "d’assurance-vie",
+        "?"
+      ],
+      "token_count": 14,
+      "speech_duration": 3.774,
+      "full_text_visible_at": 3.396,
+      "hold_after_full_text": 1.277,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "plus",
+          "file-signature",
+          "user-round-check"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+      "tokens": [
+        "La",
+        "clause",
+        "bénéficiaire",
+        "fixe",
+        "qui",
+        "reçoit",
+        "le",
+        "capital",
+        "et",
+        "qui",
+        "dispose",
+        "d’un",
+        "abattement",
+        "propre."
+      ],
+      "token_count": 14,
+      "speech_duration": 4.713,
+      "duration": 4.933,
+      "full_text_visible_at": 4.242,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "verdict": "adaptatif",
+        "font_size": 25,
+        "answer_design": "adaptive_sections_v2",
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-8 — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-9.",
+      "tokens": [
+        "Vous",
+        "pouvez",
+        "la",
+        "modifier",
+        "en",
+        "général",
+        "gratuitement",
+        "auprès",
+        "de",
+        "l'assureur",
+        "—",
+        "voir",
+        "article",
+        "L132-8",
+        "—",
+        "mais",
+        "si",
+        "le",
+        "bénéficiaire",
+        "a",
+        "accepté,",
+        "elle",
+        "devient",
+        "irrévocable",
+        "selon",
+        "l'article",
+        "L132-9."
+      ],
+      "token_count": 27,
+      "speech_duration": 9.88,
+      "full_text_visible_at": 8.892,
+      "hold_after_full_text": 1.208,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          405,
+          672,
+          775
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "rédiger",
+        "«",
+        "mon",
+        "épouse",
+        "Madame",
+        "Dupont",
+        "»",
+        "conserve",
+        "la",
+        "personne",
+        "même",
+        "après",
+        "divorce",
+        ";",
+        "nommer",
+        "une",
+        "seule",
+        "personne",
+        "peut",
+        "gaspiller",
+        "des",
+        "abattements."
+      ],
+      "token_count": 24,
+      "speech_duration": 6.905,
+      "full_text_visible_at": 6.215,
+      "hold_after_full_text": 0.911,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "circle-help",
+          "lightbulb"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-12).",
+      "tokens": [
+        "Si",
+        "aucun",
+        "bénéficiaire",
+        "ne",
+        "peut",
+        "recueillir",
+        "le",
+        "capital,",
+        "il",
+        "réintègre",
+        "la",
+        "succession",
+        "(article",
+        "L132-12)."
+      ],
+      "token_count": 14,
+      "speech_duration": 5.463,
+      "full_text_visible_at": 4.916,
+      "hold_after_full_text": 1.446,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 4.894,
+      "full_text_visible_at": 4.405,
+      "hold_after_full_text": 0.489,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+
+protocol:
+
+  id: feature
+
+  description: >
+    Standard workflow for implementing a new feature.
+
+trigger:
+
+  event: feature_requested
+
+pipeline:
+
+  - id: planner
+    produces:
+      - specification
+
+  - id: architect
+    requires:
+      - specification
+    produces:
+      - architecture_update
+
+  - id: builder
+    requires:
+      - specification
+    produces:
+      - code
+      - tests
+
+  - id: reviewer
+    requires:
+      - code
+    produces:
+      - review_report
+
+  - id: tester
+    requires:
+      - review_report
+      - tests
+    produces:
+      - test_report
+
+completion:
+
+  success:
+    - review_approved
+    - tests_passed
+
+  failure:
+    - review_failed
+    - tests_failed
+
+rollback:
+
+  enabled: true
+
+notifications:
+
+  on_success:
+    - user
+
+  on_failure:
+    - builder
+    

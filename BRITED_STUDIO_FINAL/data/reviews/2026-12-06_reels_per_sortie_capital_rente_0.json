@@ -1,0 +1,184 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE précise clairement que la possibilité de sortie en capital concerne les 'versements volontaires' et l' 'épargne salariale' (et non tous les versements). Le script dit 'Les deux options existent' sans rappeler cette condition dans la narration principale (la légende le précise toutefois). Il faut mentionner explicitement, dans la vidéo ou la phrase clé, que la sortie en capital concerne les versements volontaires et l'épargne salariale."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La règle fiscale essentielle est bien mentionnée (versements déduits → capital réintégré au barème sans abattement de 10 % ; versements non déduits → capital exonéré, seules les plus‑values sont taxées). Cependant :",
+        "- Le script affirme 'sans l'abattement de 10 % applicable aux pensions' : techniquement l'abattement de 10 % s'applique aux pensions et rentes viagères 'à titre gratuit' selon la fiche; la formulation pourrait prêter à confusion si elle laisse entendre que tout type de rente bénéficie automatiquement d'un abattement sans préciser le champ. Il faut préciser 'abattement de 10 % qui s'applique aux pensions/rentes' ou 'abattement de 10 % applicable aux pensions et rentes' comme dans la source.",
+        "- Il manque la précision que les plus‑values sont soumises au prélèvement forfaitaire (PFU) et non au barème lorsque l'on parle de plus-values du capital; le script évoque 'les plus‑values' seulement dans la légende, pas dans la narration principale. Il faut l'intégrer si l'on veut être juridiquement complet."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La densité est globalement bonne et l'exemple chiffré (80 000 €) illustre le risque de basculement de tranche. Toutefois :",
+        "- On omet d'indiquer explicitement que le fractionnement sur plusieurs années est une possibilité prévue (la phrase 'le fractionnement sur plusieurs années permet de lisser' est bonne mais mérite d'être précisée que cela est possible administratif/contractuellement).",
+        "- L'exemple ne précise pas si le montant retiré est constitué de versements déduits ou non ; pour être utile et complet, l'exemple chiffré devrait indiquer que le risque de changement de tranche concerne les sommes réintégrées au barème (i.e. versements déduits)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace et progression claire. Points à améliorer :",
+        "- Le beat 2 texte 'Sortir en capital — OUI / NON' est visuel mais la narration pourrait reprendre immédiatement la condition 'si vos versements sont déduits ou non' pour renforcer la compréhension dès le second beat.",
+        "- Le CTA 'Prendre rendez-vous via le lien dans ma bio' est acceptable, mais la formulation de l'appel à l'action devrait rester neutre; c'est le cas, toutefois il pourrait préciser 'diagnostic personnalisé' pour coller au ton professionnel sans devenir prescriptif."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est globalement naturel et compréhensible. Remarques mineures :",
+        "- La phrase 'Si vos versements ont été déduits, le capital réintègre le barème... sans l'abattement de 10 % applicable aux pensions.' est un peu longue et pourrait être scindée pour une meilleure lisibilité orale.",
+        "- Remplacer 'la logique s'inverse' (dans la légende) par une formulation plus directe ('si vous n'avez pas déduit vos versements, le capital versé n'est pas imposé') aiderait la compréhension d'un public non spécialiste."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contrôle phrase par phrase : la narration continue reprend correctement les éléments essentiels mais laisse deux omissions localisables :",
+        "- Ne précise pas que la sortie en capital est possible pour 'versements volontaires et épargne salariale' dans la narration principale (alors que la légende le mentionne).",
+        "- N'intègre pas la taxe applicable aux plus‑values (prélèvement forfaitaire) dans la narration principale."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cible bien un public non spécialiste mais quelques notions pourraient être clarifiées pour être comprises au premier passage :",
+        "- Expliquer brièvement ce que signifie 'versements déduits' (par ex. 'versements déduits de votre revenu imposable') dans la phrase clé.",
+        "- Préciser rapidement ce qu'on entend par 'plus‑values' pour éviter toute confusion avec le capital versé."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et la mention légale est présente. Pour renforcer la confiance :",
+        "- Ajouter très rapidement une référence à la source principale (ex : 'selon le Code monétaire et financier') dans la légende ou le visuel final aiderait à asseoir l'autorité sans alourdir la vidéo.",
+        "- Éviter toute impression de recommandation directe (la fiche demande explicitement de ne pas orienter vers une modalité). Le script respecte cela, mais l'exemple chiffré doit préciser qu'il s'agit d'un exemple générique."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE précise clairement que la possibilité de sortie en capital concerne les 'versements volontaires' et l' 'épargne salariale' (et non tous les versements). Le script dit 'Les deux options existent' sans rappeler cette condition dans la narration principale (la légende le précise toutefois). Il faut mentionner explicitement, dans la vidéo ou la phrase clé, que la sortie en capital concerne les versements volontaires et l'épargne salariale.",
+    "juridique_fiscal : La règle fiscale essentielle est bien mentionnée (versements déduits → capital réintégré au barème sans abattement de 10 % ; versements non déduits → capital exonéré, seules les plus‑values sont taxées). Cependant :",
+    "juridique_fiscal : - Le script affirme 'sans l'abattement de 10 % applicable aux pensions' : techniquement l'abattement de 10 % s'applique aux pensions et rentes viagères 'à titre gratuit' selon la fiche; la formulation pourrait prêter à confusion si elle laisse entendre que tout type de rente bénéficie automatiquement d'un abattement sans préciser le champ. Il faut préciser 'abattement de 10 % qui s'applique aux pensions/rentes' ou 'abattement de 10 % applicable aux pensions et rentes' comme dans la source.",
+    "juridique_fiscal : - Il manque la précision que les plus‑values sont soumises au prélèvement forfaitaire (PFU) et non au barème lorsque l'on parle de plus-values du capital; le script évoque 'les plus‑values' seulement dans la légende, pas dans la narration principale. Il faut l'intégrer si l'on veut être juridiquement complet.",
+    "completude : La densité est globalement bonne et l'exemple chiffré (80 000 €) illustre le risque de basculement de tranche. Toutefois :",
+    "completude : - On omet d'indiquer explicitement que le fractionnement sur plusieurs années est une possibilité prévue (la phrase 'le fractionnement sur plusieurs années permet de lisser' est bonne mais mérite d'être précisée que cela est possible administratif/contractuellement).",
+    "completude : - L'exemple ne précise pas si le montant retiré est constitué de versements déduits ou non ; pour être utile et complet, l'exemple chiffré devrait indiquer que le risque de changement de tranche concerne les sommes réintégrées au barème (i.e. versements déduits).",
+    "editorial : Accroche efficace et progression claire. Points à améliorer :",
+    "editorial : - Le beat 2 texte 'Sortir en capital — OUI / NON' est visuel mais la narration pourrait reprendre immédiatement la condition 'si vos versements sont déduits ou non' pour renforcer la compréhension dès le second beat.",
+    "editorial : - Le CTA 'Prendre rendez-vous via le lien dans ma bio' est acceptable, mais la formulation de l'appel à l'action devrait rester neutre; c'est le cas, toutefois il pourrait préciser 'diagnostic personnalisé' pour coller au ton professionnel sans devenir prescriptif.",
+    "formulation_professionnelle : Le français est globalement naturel et compréhensible. Remarques mineures :",
+    "formulation_professionnelle : - La phrase 'Si vos versements ont été déduits, le capital réintègre le barème... sans l'abattement de 10 % applicable aux pensions.' est un peu longue et pourrait être scindée pour une meilleure lisibilité orale.",
+    "formulation_professionnelle : - Remplacer 'la logique s'inverse' (dans la légende) par une formulation plus directe ('si vous n'avez pas déduit vos versements, le capital versé n'est pas imposé') aiderait la compréhension d'un public non spécialiste.",
+    "contre_verification_finale : Contrôle phrase par phrase : la narration continue reprend correctement les éléments essentiels mais laisse deux omissions localisables :",
+    "contre_verification_finale : - Ne précise pas que la sortie en capital est possible pour 'versements volontaires et épargne salariale' dans la narration principale (alors que la légende le mentionne).",
+    "contre_verification_finale : - N'intègre pas la taxe applicable aux plus‑values (prélèvement forfaitaire) dans la narration principale.",
+    "pedagogie_client : Le script cible bien un public non spécialiste mais quelques notions pourraient être clarifiées pour être comprises au premier passage :",
+    "pedagogie_client : - Expliquer brièvement ce que signifie 'versements déduits' (par ex. 'versements déduits de votre revenu imposable') dans la phrase clé.",
+    "pedagogie_client : - Préciser rapidement ce qu'on entend par 'plus‑values' pour éviter toute confusion avec le capital versé.",
+    "conversion_confiance : Le ton est professionnel et la mention légale est présente. Pour renforcer la confiance :",
+    "conversion_confiance : - Ajouter très rapidement une référence à la source principale (ex : 'selon le Code monétaire et financier') dans la légende ou le visuel final aiderait à asseoir l'autorité sans alourdir la vidéo.",
+    "conversion_confiance : - Éviter toute impression de recommandation directe (la fiche demande explicitement de ne pas orienter vers une modalité). Le script respecte cela, mais l'exemple chiffré doit préciser qu'il s'agit d'un exemple générique."
+  ],
+  "recommendations": [
+    "Ajouter dans la narration principale une phrase très courte précisant que la sortie en capital est possible pour les versements volontaires et l'épargne salariale (ex. après beat 3 : 'Attention : la sortie en capital concerne les versements volontaires et l'épargne salariale.').",
+    "Dans la phrase sur la fiscalité, scinder et préciser : 'Si vos versements ont été déduits (ils ont réduit votre revenu imposable), le capital réintègre le barème de l'impôt sur le revenu. Il ne bénéficie pas de l'abattement de 10 % qui s'applique aux pensions et rentes.'",
+    "Intégrer dans la narration principale que les plus‑values sont soumises au prélèvement forfaitaire (PFU) et non au barème (ex. courte insertion : 'les plus‑values restent soumises au prélèvement forfaitaire').",
+    "Préciser dans l'exemple chiffré que le montant retiré de 80 000 € concerne des sommes réintégrées au barème (versements déduits) afin d'éviter toute ambiguïté : 'Ex. : 80 000 € réintégrés au barème...'.",
+    "Alléger légèrement la formulation fiscale pour l'oral (phrases plus courtes) et, si l'espace visuel le permet, ajouter en petit texte une source directe (ex. 'Voir CMF art. L.224-5 / CGI art. 158,5').",
+    "S'assurer que les pictogrammes correspondent exactement aux phrases : ajouter un pictogramme 'déductible/non déductible' ou un petit tag 'déduit'/'non déduit' au beat 4 pour renforcer visuellement la condition centrale."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-06:reels:per_sortie_capital_rente:0",
+  "script_path": "scripts/per/per_sortie_capital_rente__reels__a4__v4.md"
+}

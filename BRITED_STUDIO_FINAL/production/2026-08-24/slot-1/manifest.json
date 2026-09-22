@@ -1,0 +1,152 @@
+{
+  "date": "2026-08-24",
+  "slot": 1,
+  "status": "approved",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+      "platform": "shorts",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v7.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.mp4",
+      "script_sha256": "9fff1a861c89d47203b10a1d6fb6f53214602352e0dc9f4f68432120d2f63c93",
+      "spec_sha256": "411f69fc855baec7bbf98ad9e986b735a7975fdbc85f0f7c50d3448aa5e9bec9",
+      "video_sha256": "d889d296e842e733bc754a0413e46ef3c82a0f7edf8c6e225398f5a707389d28",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 44.8,
+      "status": "approved",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-24T16:32:08"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/shorts/regimes_communaute_par_defaut__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+      "platform": "reels",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v7.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.mp4",
+      "script_sha256": "9fff1a861c89d47203b10a1d6fb6f53214602352e0dc9f4f68432120d2f63c93",
+      "spec_sha256": "d9dcb11a9130711f80d3e2f0841be65339eba2757f3175e7b388e93f45fc2992",
+      "video_sha256": "8334bbd68f294d712fdbd1bbb003986ef1bd25ca70d9b511c161d9ac0faecf6f",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "reels",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 44.8,
+      "status": "approved",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-24T16:32:08"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/reels/regimes_communaute_par_defaut__reels.word-check.json",
+      "distribution_destinations": [
+        "instagram",
+        "facebook"
+      ],
+      "delivery_profile": "reels",
+      "shared_identical_video": false,
+      "facebook_delivery_mode": "instagram_crosspost"
+    },
+    {
+      "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+      "platform": "tiktok",
+      "title": "Se marier sans contrat, c'est déjà choisir un régime",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v7.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/tiktok/regimes_communaute_par_defaut__tiktok.mp4",
+      "script_sha256": "9fff1a861c89d47203b10a1d6fb6f53214602352e0dc9f4f68432120d2f63c93",
+      "spec_sha256": "2afa5f61e82e7b75c45f1ebbbf7d5736662ba1170fe73f22d090218e3874d3c3",
+      "video_sha256": "761160cbe7046f3c51219b36de4f03a29c5505e626b911442749eb28b42798f0",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "tiktok",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 44.8,
+      "status": "approved",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+        "validated_at": "2026-08-24T16:32:08"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/tiktok/regimes_communaute_par_defaut__tiktok.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-1/tiktok/regimes_communaute_par_defaut__tiktok.word-check.json",
+      "distribution_destinations": [
+        "tiktok"
+      ],
+      "delivery_profile": "tiktok",
+      "shared_identical_video": false
+    }
+  ],
+  "approved_for_publication_workflow": true
+}

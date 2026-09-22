@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est globalement respectée mais la mention 'parfois portée à 27 ans' est marquée 'à vérifier' dans les chiffres ; le script écrit 'parfois portée à 27 ans (travaux, VEFA) — à vérifier selon le dossier.' Il faudrait référencer explicitement la source administrative (Banque de France) ou préciser que c'est une pratique liée aux dérogations HCSF pour éviter toute impression d'incertitude non dissociée.",
+        "La phrase « — à vérifier selon le dossier. » dans un format court (Shorts) peut créer une hésitation inutile : préférer 'selon cas' ou citer explicitement la condition (travaux importants, VEFA) si l'on conserve la mention."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement que le HCSF fixe des repères (35 % et 25 ans) et que les banques disposent d'une marge de dérogation. Il conviendrait d'ajouter, même brièvement, la référence explicite à l'article L631-2-1 du Code monétaire et financier dans le texte ou la légende pour solidifier l'assise juridique, même si les sources sont listées en bas.",
+        "Attention : la formulation 'parfois portée à 27 ans (travaux, VEFA)' doit être présentée comme une pratique admise par le HCSF et les autorités bancaires, non comme un droit automatique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception (dérogation) et l'impact de l'assurance et crédits en cours. En revanche il omet de rappeler brièvement que l'assurance emprunteur est libre depuis la loi Lemoine (élément évoqué dans la fiche sous 'point de vigilance'), ce qui est pertinent pour les actions concrètes à proposer au public.",
+        "L'exemple chiffré (36 %) est utile mais pourrait préciser que la part de dossiers dérogeant représente une minorité (chiffre ’Part des dossiers pouvant déroger' 20 % est marqué 'à vérifier' — si on ne l'affirme pas, mieux vaut éviter tout chiffre additionnel)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (42 secondes) et la structure en beats conviennent à un Short. Toutefois, l'écran 3 comporte beaucoup d'informations (35 % + assurance incluse + 25/27 ans + 'à vérifier') pour un seul écran ; risque de surcharge visuelle en moins de 5 secondes d'affichage.",
+        "Le CTA 'Prendre rendez-vous via le lien dans ma bio' est conforme aux usages, mais attention aux règles publicitaires de la plateforme si le contenu est perçu comme sollicitation commerciale."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte. Progression logique. Quelques formulations peuvent être allégées pour la boucle temporelle d'un Short : par ex. remplacer '— à vérifier selon le dossier.' par 'selon le cas (travaux, VEFA)'.",
+        "L'appel à l'action est clair mais pourrait être reformulé pour être plus neutre et pédagogique ('Pour faire le point, lien dans la bio') afin de limiter l'impression commerciale."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la consigne de ne pas fournir de conseil personnalisé. Toutefois, l'invitation à prendre rendez-vous peut être perçue comme un appel à une action concrète : s'assurer que la landing page ou la prise de RDV contient les mentions légales nécessaires et n'offre pas de conseil individualisé sans vigilance.",
+        "Il manque la mention expresse en visuel ou texte court indiquant 'contenu général, non personnalisé' sur le Short pour renforcer la sécurité juridique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase le français est naturel et compréhensible. Quelques tournures peuvent être simplifiées pour fluidité orale : ex. 'Le HCSF recommande un taux d'effort maximal de 35 % des revenus, assurance emprunteur comprise, et une durée généralement plafonnée à 25 ans' → 'Le HCSF recommande un taux d'effort maximal de 35 % des revenus (assurance comprise) et une durée généralement limitée à 25 ans.'",
+        "La répétition '— à vérifier selon le dossier.' alourdit la formulation orale."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Lecture de cohérence : la mention 'parfois portée à 27 ans' est cohérente avec la fiche mais la fiche signale 'à_verifier' pour cette donnée — il faudrait confirmer la modalité précise (travaux importants, VEFA) et s'assurer que la formulation du script n'affirme pas une règle universelle.",
+        "La séquence exemple (36 % accepté vs refusé) est pédagogique mais pourrait être localisée (expliquer brièvement 'car la banque n'a plus de marge de dérogation') pour éviter toute ambiguïté."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance visuel/texte est adéquate globalement. Points à corriger : le pictogramme 'balance' pour 'repère du HCSF' peut prêter à confusion (balance évoque justice) — préférer un pictogramme 'boussole' ou 'repère' pour illustrer une recommandation.",
+        "Éviter pictogrammes trop génériques pour l'écran listant assurance + crédits — veiller à ce que les icônes représentent clairement 'assurance' et 'crédit' (p.ex. bouclier + voiture/maison/CB)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle (nature recommandation) et reste concise. Toutefois, l'écran 3 rassemble plusieurs chiffres et une mention 'à vérifier' : risque de perte de clarté. Réduire le texte visuel pour ne garder que l'essentiel (35 % assur. incluse • 25 ans) et expliciter 27 ans uniquement si l'on a l'espace pour l'expliquer clairement.",
+        "Le message pourrait gagner en punch en réduisant les mots superflus pour tenir dans le format très court."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le propos est compréhensible pour un non-spécialiste. Ajouter une courte phrase rappelant que 'l'assurance est incluse dans le calcul' est bien vu ; toutefois, mentionner la loi Lemoine (liberté d'assurance) aiderait le public à savoir qu'il peut agir pour réduire son taux d'effort.",
+        "Éviter le jargon 'taux d'effort' sans une très brève reformulation ('part de vos revenus consacrée au crédit') pour le public le moins familier."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Les deux premières secondes sont fortes. Risque de baisse d'attention sur l'écran 3/4 s'il y a trop d'informations simultanées — recommande fractionner ou allonger très légèrement le beat pour ces éléments clés.",
+        "La répétition finale avant le CTA est utile, mais veiller à garder le rythme pour ne pas dépasser le format attendu."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé. Pour renforcer la confiance, il serait préférable d'ajouter très brièvement 'sources en description' ou 'voir sources' pour que l'utilisateur puisse retrouver les références (L631-2-1, Banque de France).",
+        "Ne pas donner d'impression de promesse : le CTA doit rester neutre. Eventuellement remplacer 'Vous souhaitez faire le point...' par 'Pour faire le point, lien dans la bio' pour paraître moins promotionnel."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 122,
+      "seconds": 45.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 122,
+        "seconds": 45.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est globalement respectée mais la mention 'parfois portée à 27 ans' est marquée 'à vérifier' dans les chiffres ; le script écrit 'parfois portée à 27 ans (travaux, VEFA) — à vérifier selon le dossier.' Il faudrait référencer explicitement la source administrative (Banque de France) ou préciser que c'est une pratique liée aux dérogations HCSF pour éviter toute impression d'incertitude non dissociée.",
+    "source : La phrase « — à vérifier selon le dossier. » dans un format court (Shorts) peut créer une hésitation inutile : préférer 'selon cas' ou citer explicitement la condition (travaux importants, VEFA) si l'on conserve la mention.",
+    "juridique_fiscal : Le script indique correctement que le HCSF fixe des repères (35 % et 25 ans) et que les banques disposent d'une marge de dérogation. Il conviendrait d'ajouter, même brièvement, la référence explicite à l'article L631-2-1 du Code monétaire et financier dans le texte ou la légende pour solidifier l'assise juridique, même si les sources sont listées en bas.",
+    "juridique_fiscal : Attention : la formulation 'parfois portée à 27 ans (travaux, VEFA)' doit être présentée comme une pratique admise par le HCSF et les autorités bancaires, non comme un droit automatique.",
+    "completude : Le script couvre la règle centrale, l'exception (dérogation) et l'impact de l'assurance et crédits en cours. En revanche il omet de rappeler brièvement que l'assurance emprunteur est libre depuis la loi Lemoine (élément évoqué dans la fiche sous 'point de vigilance'), ce qui est pertinent pour les actions concrètes à proposer au public.",
+    "completude : L'exemple chiffré (36 %) est utile mais pourrait préciser que la part de dossiers dérogeant représente une minorité (chiffre ’Part des dossiers pouvant déroger' 20 % est marqué 'à vérifier' — si on ne l'affirme pas, mieux vaut éviter tout chiffre additionnel).",
+    "plateforme : La durée estimée (42 secondes) et la structure en beats conviennent à un Short. Toutefois, l'écran 3 comporte beaucoup d'informations (35 % + assurance incluse + 25/27 ans + 'à vérifier') pour un seul écran ; risque de surcharge visuelle en moins de 5 secondes d'affichage.",
+    "plateforme : Le CTA 'Prendre rendez-vous via le lien dans ma bio' est conforme aux usages, mais attention aux règles publicitaires de la plateforme si le contenu est perçu comme sollicitation commerciale.",
+    "editorial : Accroche forte. Progression logique. Quelques formulations peuvent être allégées pour la boucle temporelle d'un Short : par ex. remplacer '— à vérifier selon le dossier.' par 'selon le cas (travaux, VEFA)'.",
+    "editorial : L'appel à l'action est clair mais pourrait être reformulé pour être plus neutre et pédagogique ('Pour faire le point, lien dans la bio') afin de limiter l'impression commerciale.",
+    "securite : Le script respecte la consigne de ne pas fournir de conseil personnalisé. Toutefois, l'invitation à prendre rendez-vous peut être perçue comme un appel à une action concrète : s'assurer que la landing page ou la prise de RDV contient les mentions légales nécessaires et n'offre pas de conseil individualisé sans vigilance.",
+    "securite : Il manque la mention expresse en visuel ou texte court indiquant 'contenu général, non personnalisé' sur le Short pour renforcer la sécurité juridique.",
+    "formulation_professionnelle : Phrase par phrase le français est naturel et compréhensible. Quelques tournures peuvent être simplifiées pour fluidité orale : ex. 'Le HCSF recommande un taux d'effort maximal de 35 % des revenus, assurance emprunteur comprise, et une durée généralement plafonnée à 25 ans' → 'Le HCSF recommande un taux d'effort maximal de 35 % des revenus (assurance comprise) et une durée généralement limitée à 25 ans.'",
+    "formulation_professionnelle : La répétition '— à vérifier selon le dossier.' alourdit la formulation orale.",
+    "contre_verification_finale : Lecture de cohérence : la mention 'parfois portée à 27 ans' est cohérente avec la fiche mais la fiche signale 'à_verifier' pour cette donnée — il faudrait confirmer la modalité précise (travaux importants, VEFA) et s'assurer que la formulation du script n'affirme pas une règle universelle.",
+    "contre_verification_finale : La séquence exemple (36 % accepté vs refusé) est pédagogique mais pourrait être localisée (expliquer brièvement 'car la banque n'a plus de marge de dérogation') pour éviter toute ambiguïté.",
+    "coherence_pictogrammes : La correspondance visuel/texte est adéquate globalement. Points à corriger : le pictogramme 'balance' pour 'repère du HCSF' peut prêter à confusion (balance évoque justice) — préférer un pictogramme 'boussole' ou 'repère' pour illustrer une recommandation.",
+    "coherence_pictogrammes : Éviter pictogrammes trop génériques pour l'écran listant assurance + crédits — veiller à ce que les icônes représentent clairement 'assurance' et 'crédit' (p.ex. bouclier + voiture/maison/CB).",
+    "densite_editoriale : La vidéo traite bien un seul angle (nature recommandation) et reste concise. Toutefois, l'écran 3 rassemble plusieurs chiffres et une mention 'à vérifier' : risque de perte de clarté. Réduire le texte visuel pour ne garder que l'essentiel (35 % assur. incluse • 25 ans) et expliciter 27 ans uniquement si l'on a l'espace pour l'expliquer clairement.",
+    "densite_editoriale : Le message pourrait gagner en punch en réduisant les mots superflus pour tenir dans le format très court.",
+    "pedagogie_client : Le propos est compréhensible pour un non-spécialiste. Ajouter une courte phrase rappelant que 'l'assurance est incluse dans le calcul' est bien vu ; toutefois, mentionner la loi Lemoine (liberté d'assurance) aiderait le public à savoir qu'il peut agir pour réduire son taux d'effort.",
+    "pedagogie_client : Éviter le jargon 'taux d'effort' sans une très brève reformulation ('part de vos revenus consacrée au crédit') pour le public le moins familier.",
+    "retention_attention : Hook efficace. Les deux premières secondes sont fortes. Risque de baisse d'attention sur l'écran 3/4 s'il y a trop d'informations simultanées — recommande fractionner ou allonger très légèrement le beat pour ces éléments clés.",
+    "retention_attention : La répétition finale avant le CTA est utile, mais veiller à garder le rythme pour ne pas dépasser le format attendu.",
+    "conversion_confiance : Ton sérieux et sourcé. Pour renforcer la confiance, il serait préférable d'ajouter très brièvement 'sources en description' ou 'voir sources' pour que l'utilisateur puisse retrouver les références (L631-2-1, Banque de France).",
+    "conversion_confiance : Ne pas donner d'impression de promesse : le CTA doit rester neutre. Eventuellement remplacer 'Vous souhaitez faire le point...' par 'Pour faire le point, lien dans la bio' pour paraître moins promotionnel."
+  ],
+  "recommendations": [
+    "Confirmer la formulation autour de la durée portée à 27 ans : si vous la maintenez, préciser clairement 'dans certains cas (travaux importants, VEFA) et selon la politique de l'établissement' et, idéalement, citer la Banque de France ou le HCSF en appui visuel/sous-titre.",
+    "Remplacer la mention '— à vérifier selon le dossier.' par une formulation plus concise et assurée adaptée au format (ex. 'selon cas : travaux/VEFA').",
+    "Ajouter visuellement ou oralement une courte mention 'contenu général, non personnalisé' pour limiter le risque de conseil individualisé.",
+    "Alléger l'écran 3 (chiffres) : afficher uniquement '35 % (assurance incluse) • 25 ans' et, si nécessaire, consacrer un court écran supplémentaire pour la précision 27 ans.",
+    "Remplacer le pictogramme 'balance' par un symbole évoquant un repère (boussole, repère) et vérifier que les icônes d'assurance/crédits sont explicites (bouclier, voiture, CB).",
+    "Ajouter en voix-off ou en légende courte que l'assurance emprunteur est libre depuis la loi Lemoine (utile pour indiquer une action possible pour réduire le taux d'effort).",
+    "S'assurer que la page de prise de rendez-vous (lien en bio) comporte les mentions légales et n'offre pas de conseil personnalisé sans évaluation préalable.",
+    "Reformuler légèrement certaines phrases pour fluidité orale (propositions fournies dans findings de 'formulation_professionnelle')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-26:shorts:credit_capacite_emprunt:0",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__shorts__a5__v2.md"
+}

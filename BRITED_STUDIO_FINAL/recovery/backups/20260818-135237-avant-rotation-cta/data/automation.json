@@ -1,0 +1,35 @@
+{
+  "active": true,
+  "timezone": "Europe/Paris",
+  "runs": [
+    {"slot": 1, "time": "10:00", "platforms": ["tiktok", "reels", "shorts"]},
+    {"slot": 2, "time": "17:00", "platforms": ["tiktok", "reels", "shorts"]}
+  ],
+  "preflight": {"time": "08:00", "days_ahead": 7},
+  "generate_missing_scripts": true,
+  "script_generation_platforms": ["tiktok", "reels", "shorts"],
+  "script_preparation_horizon_days": 7,
+  "token_policy": "local_first_zero_by_default",
+  "reuse_certified_scripts": true,
+  "reuse_render_assets": true,
+  "external_ai": {
+    "enabled": false,
+    "manual_approval_granted": false,
+    "daily_call_limit": 0,
+    "purpose": "Secours ponctuel uniquement pour un script absent ou bloqué"
+  },
+  "local_ai": {
+    "enabled": false,
+    "provider": "ollama",
+    "endpoint": "http://127.0.0.1:11434",
+    "recommended_model_for_8gb": "qwen3:4b",
+    "status": "installation_required"
+  },
+  "render_validated_scripts": false,
+  "video_generation_status": "suspended_until_instagram_youtube_charters_are_approved",
+  "approved_video_formats": ["tiktok"],
+  "verify_words": true,
+  "verify_sync": true,
+  "publish": false,
+  "human_approval_required": true
+}

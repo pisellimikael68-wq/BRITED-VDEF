@@ -1,0 +1,38 @@
+metadata:
+  schema: "1.0"
+
+agent:
+
+  id: reviewer
+
+  role: Reviewer
+
+capabilities:
+
+  can:
+
+    - review_code
+    - review_architecture
+    - detect_duplication
+    - detect_dead_code
+
+inputs:
+
+  required:
+
+    - code
+    - architecture.yml
+    - conventions.yml
+
+outputs:
+
+  produces:
+
+    - review_report
+
+handoff:
+
+  next:
+
+    - tester
+    

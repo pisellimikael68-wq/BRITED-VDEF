@@ -1,0 +1,18 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: analysis
+
+capabilities:
+
+  - analyze_requirements
+  - identify_dependencies
+  - estimate_complexity
+  - detect_risks
+
+outputs:
+
+  - analysis_report
+  

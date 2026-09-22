@@ -1,0 +1,145 @@
+{
+  "passed": false,
+  "failures": [
+    "pictogramme non contextualisé pour la page hook",
+    "pictogramme non contextualisé pour la page regle",
+    "pictogramme non contextualisé pour la page exemple",
+    "pictogramme non contextualisé pour la page nuance",
+    "CTA pédagogique oral incomplet",
+    "contrôle audio refusé — fréquence audio finale anormale : 192000 Hz au lieu de 24000 Hz",
+    "contrôle oral Whisper absent ou refusé"
+  ],
+  "expected_duration": 35.5,
+  "target_duration": [
+    35,
+    48
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": false,
+    "failures": [
+      "contrôle audio refusé — fréquence audio finale anormale : 192000 Hz au lieu de 24000 Hz"
+    ]
+  },
+  "oral_check": {
+    "passed": false,
+    "failures": [
+      "contrôle oral absent"
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": false,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Couple signant (pictogramme mariage simple)",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": false,
+        "library_icons": [
+          "landmark",
+          "scale"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          529,
+          672,
+          651
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": false
+      },
+      {
+        "beat": "regle",
+        "description": "Schéma 3 masses (époux A, époux B, communauté)",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": false,
+        "library_icons": [
+          "users",
+          "calendar"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          452,
+          672,
+          727
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": false
+      },
+      {
+        "beat": "exemple",
+        "description": "Illustration compte bancaire commun, compte personnel et héritage identifié",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": false,
+        "library_icons": [
+          "heart-handshake",
+          "shield-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          452,
+          672,
+          727
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": false
+      },
+      {
+        "beat": "nuance",
+        "description": "Deux étapes simples : charges du mariage, puis règlement avant partage",
+        "family": "menage",
+        "semantic_match": true,
+        "geometry_ok": false,
+        "library_icons": [
+          "scale",
+          "banknote"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          452,
+          672,
+          727
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": false
+      }
+    ]
+  }
+}

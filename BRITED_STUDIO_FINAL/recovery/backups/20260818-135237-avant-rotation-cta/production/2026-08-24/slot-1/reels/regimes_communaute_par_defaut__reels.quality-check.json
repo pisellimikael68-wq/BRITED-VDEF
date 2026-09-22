@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 35.5,
+  "target_duration": [
+    28,
+    40
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "layout_check": "zones fixes sans chevauchement"
+}

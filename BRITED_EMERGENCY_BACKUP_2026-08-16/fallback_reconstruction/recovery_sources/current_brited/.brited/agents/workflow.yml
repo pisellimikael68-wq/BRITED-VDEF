@@ -1,0 +1,40 @@
+metadata:
+  schema: "1.0"
+
+workflow:
+
+  default:
+
+    - architect
+    - planner
+    - builder
+    - reviewer
+    - tester
+
+rules:
+
+  builder_requires:
+    - specification
+
+  reviewer_requires:
+    - code
+
+  tester_requires:
+    - tests
+
+  architect_requires:
+    - review_report
+
+termination:
+
+  success:
+
+    - tests_pass
+    - review_approved
+
+  failure:
+
+    - architecture_error
+    - review_failed
+    - tests_failed
+    

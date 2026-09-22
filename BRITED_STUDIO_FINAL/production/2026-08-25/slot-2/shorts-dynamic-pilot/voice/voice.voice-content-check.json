@@ -1,0 +1,91 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Votre partenaire de paxe, ou votre concubin, héritera t il vraiment de vous ?",
+      "transcript": "Votre partenaire de Pax ou votre concubin héritera-t-il vraiment de vous ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.974,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non, pas automatiquement. Sans testament, le partenaire de paxe n'hérite pas. Le concubin non plus. Les biens qu'il reçoit par testament sont imposés à soixante pour cent.",
+      "transcript": "Non, pas automatiquement. Sans testament, le partenaire de Pax n'hérite pas. Le concubin non plus. Les biens qu'il reçoit par testament sont imposés à 60%.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1955,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Deux questions différentes : le Code civil détermine qui hérite ; le Code général des impôts détermine ce qui sera payé.",
+      "transcript": "Deux questions différentes. Le Code civil détermine qui hérite. Le Code général des impôts détermine ce qui sera payé.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2115,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : avec des enfants d'une première union, transmettre une part du logement au partenaire peut créer une indivision avec eux.",
+      "transcript": "Exemple, avec des enfants d'une première union, transmettre une part du logement au partenaire peut créer une indivision avec eux.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.211,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Attention : le testament reste limité par la réserve héréditaire. Et le partenaire paxée ne bénéficie que d'un maintien au logement d'un an.",
+      "transcript": "Attention, le testament reste limité par la réserve héréditaire, et le partenaire Paxé ne bénéficie que d'un maintien au logement d'un an.",
+      "similarity": 0.9583,
+      "missing": [
+        "pacse"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "pacs"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2393,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE indique « Plusieurs dispositifs majeurs — dont les dons et l'emploi à domicile pour partie — en sont exclus. ». Le script dit que les dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile « échappent au plafonnement » sans préciser « pour partie ». Il faut aligner la formulation avec la source : les dons sont exclus mais l'exclusion pour l'emploi à domicile est partielle (certaines dépenses/conditions)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script mentionne correctement l'article 200-0 A et le plafond majoré à 18 000 € pour certains dispositifs outre-mer et Sofica, mais l'assertion que « les dons aux œuvres échappent au plafonnement » devrait renvoyer explicitement à l'article 200 (réduction pour dons) comme exclusion listée et préciser le cas particulier de l'emploi à domicile (exclusion partielle) afin d'éviter une généralisation qui pourrait être interprétée comme absolue."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (Samira) illustre bien le point mais n'indique pas que l'excédent perdu éventuel concerne uniquement les réductions/crédits soumis au plafond — le script le dit ailleurs, mais il serait préférable d'ajouter très brièvement dans l'exemple que les montants 'hors plafond' correspondent à dispositifs expressément exclus par la loi (dons, partie de l'emploi à domicile)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Format YouTube Shorts respecté en structure mais la vidéo annoncée de 42s peut frôler la limite d'attention ; aucune remarque concrète sur tempo/temps par plan. Suggestion : vérifier que l'exemple et la nuance soient livrés très rapidement pour tenir dans ~40s visuellement. Indiquer durée par beat aiderait la production."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et accroche clair. Toutefois la phrase « Certaines dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile et les dons aux œuvres échappent au plafonnement » peut prêter à confusion (voir remarque récurrente). Il faut nuancer en une courte correction pour garder clarté éditoriale."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et compréhensible globalement. À corriger mot à mot : remplacer « Certaines dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile et les dons aux œuvres échappent au plafonnement. Exemple : Samira a dix mille euros de réductions, donne deux mille euros... ; ces montants supplémentaires sont pris en compte. » par une formulation précisant « les dons aux œuvres sont exclus ; pour l'emploi à domicile l'exclusion est partielle sous conditions » pour éviter interprétation erronée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence générale bonne. Point précis à corriger : le script doit mentionner que c'est la dernière réduction souscrite qui saute en cas de dépassement (présent dans variantes mais absent du script final). L'omission est une incohérence avec les autres versions et avec la source 'erreurs fréquentes' qui alerte sur l'ordre d'imputation."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (plafond global) et inclut règle, exception et exemple. Cependant le script omet de rappeler, brièvement, que l'ordre d'imputation fait sauter généralement le dernier dispositif souscrit (information présente dans la fiche source et utile pour la décision). Son absence constitue une omission éditoriale identifiable."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort. Pour optimiser la rétention, l'exemple Samira devrait être formulé en une phrase encore plus concise et la nuance sur les déductions/réductions rendue ultra-rapide (par ex. 'déductions hors plafond : PER, déficit foncier') — actuellement risque de léger ralentissement du rythme."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 127,
+      "seconds": 47.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE indique « Plusieurs dispositifs majeurs — dont les dons et l'emploi à domicile pour partie — en sont exclus. ». Le script dit que les dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile « échappent au plafonnement » sans préciser « pour partie ». Il faut aligner la formulation avec la source : les dons sont exclus mais l'exclusion pour l'emploi à domicile est partielle (certaines dépenses/conditions).",
+    "juridique_fiscal : Le script mentionne correctement l'article 200-0 A et le plafond majoré à 18 000 € pour certains dispositifs outre-mer et Sofica, mais l'assertion que « les dons aux œuvres échappent au plafonnement » devrait renvoyer explicitement à l'article 200 (réduction pour dons) comme exclusion listée et préciser le cas particulier de l'emploi à domicile (exclusion partielle) afin d'éviter une généralisation qui pourrait être interprétée comme absolue.",
+    "completude : L'exemple chiffré (Samira) illustre bien le point mais n'indique pas que l'excédent perdu éventuel concerne uniquement les réductions/crédits soumis au plafond — le script le dit ailleurs, mais il serait préférable d'ajouter très brièvement dans l'exemple que les montants 'hors plafond' correspondent à dispositifs expressément exclus par la loi (dons, partie de l'emploi à domicile).",
+    "plateforme : Format YouTube Shorts respecté en structure mais la vidéo annoncée de 42s peut frôler la limite d'attention ; aucune remarque concrète sur tempo/temps par plan. Suggestion : vérifier que l'exemple et la nuance soient livrés très rapidement pour tenir dans ~40s visuellement. Indiquer durée par beat aiderait la production.",
+    "editorial : Ton direct et accroche clair. Toutefois la phrase « Certaines dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile et les dons aux œuvres échappent au plafonnement » peut prêter à confusion (voir remarque récurrente). Il faut nuancer en une courte correction pour garder clarté éditoriale.",
+    "formulation_professionnelle : Français naturel et compréhensible globalement. À corriger mot à mot : remplacer « Certaines dépenses ouvrant droit au crédit d'impôt pour l'emploi d'un salarié à domicile et les dons aux œuvres échappent au plafonnement. Exemple : Samira a dix mille euros de réductions, donne deux mille euros... ; ces montants supplémentaires sont pris en compte. » par une formulation précisant « les dons aux œuvres sont exclus ; pour l'emploi à domicile l'exclusion est partielle sous conditions » pour éviter interprétation erronée.",
+    "contre_verification_finale : Cohérence générale bonne. Point précis à corriger : le script doit mentionner que c'est la dernière réduction souscrite qui saute en cas de dépassement (présent dans variantes mais absent du script final). L'omission est une incohérence avec les autres versions et avec la source 'erreurs fréquentes' qui alerte sur l'ordre d'imputation.",
+    "densite_editoriale : La vidéo traite un seul angle (plafond global) et inclut règle, exception et exemple. Cependant le script omet de rappeler, brièvement, que l'ordre d'imputation fait sauter généralement le dernier dispositif souscrit (information présente dans la fiche source et utile pour la décision). Son absence constitue une omission éditoriale identifiable.",
+    "retention_attention : Hook fort. Pour optimiser la rétention, l'exemple Samira devrait être formulé en une phrase encore plus concise et la nuance sur les déductions/réductions rendue ultra-rapide (par ex. 'déductions hors plafond : PER, déficit foncier') — actuellement risque de léger ralentissement du rythme."
+  ],
+  "recommendations": [
+    "Corriger la formulation relative à l'emploi à domicile : préciser que l'exclusion du plafonnement pour l'emploi à domicile est partielle et soumise à conditions (aligner mot à mot avec la fiche source 'pour partie').",
+    "Dans l'exemple (Samira), ajouter en une courte parenthèse que les 2 000 € de dons et 5 000 € d'emploi à domicile sont des montants relevant d'exclusions ou d'exclusions partielles prévues par la loi, pour éviter toute lecture selon laquelle tous ces postes sont automatiquement hors plafond.",
+    "Ajouter une phrase très brève rappelant que, en cas de dépassement du plafond, c'est généralement la réduction liée au dernier dispositif souscrit qui est annulée (information présente dans la fiche source et utile au spectateur).",
+    "Réduire légèrement la formulation de l'exemple et de la nuance (déductions vs réductions) pour garantir le rythme et la durée — indiquer des durées cibles par beat lors de la production (ex. Hook 2s, Règle 8s, Exemple 12s, Nuance 8s, CTA 4s).",
+    "Réviser la phrase exacte évoquant les dons pour renvoyer à l'article 200 (réduction pour dons) et, si possible, ajouter un court visuel signalant 'exclusion légale' pour les dons afin d'augmenter la clarté pédagogique."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-05:shorts:fiscalite_plafonnement_niches:0",
+  "script_path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a5__v3.md"
+}

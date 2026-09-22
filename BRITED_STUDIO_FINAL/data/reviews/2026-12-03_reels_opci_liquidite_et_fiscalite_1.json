@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement les faits, chiffres et sources fournis par la fiche BRITED, mais l'affirmation « au moins 60 % » et « au minimum 5 % » doit être exactement libellée comme dans la source (articles L214‑33 et suivants / AMF) : vérifier la formulation légale précise (« part minimale d'actifs immobiliers 60 % ; part minimale de liquidités 5 % ») et conserver la référence explicite au Code monétaire et financier pour éviter toute simplification imprécise.",
+        "La mention « PFU 30 % » est correcte pour les revenus mobiliers, mais la fiche indique « 30 % » avec commentaire « prélèvement forfaitaire unique » ; il serait prudent d'ajouter immédiatement la notion des prélèvements sociaux séparément si l'on voulait être exhaustif (sinon, conserver l'énoncé tel quel)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script indique que la forme SPPICAV entraîne des revenus de capitaux mobiliers soumis au PFU à 30 % : c'est valide comme règle générale, mais manque la précision que la fiscalité dépend de la forme juridique (SPPICAV = revenus mobiliers ; FPI = revenus fonciers). Le script cite seulement la SPPICAV, il faut ajouter la nuance « selon la forme juridique, la fiscalité peut différer (SPPICAV vs FPI) » pour coller à la source.",
+        "L'affirmation selon laquelle la poche de trésorerie permet de rembourser un investisseur sans céder d'actif est correcte mais doit comporter la réserve légale : la gestion de liquidités est organisée par la société de gestion et peut être soumise à règles internes et limitations (ex : seuils, période de suspension) — le script mentionne la suspension mais pas les modalités réglementaires."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (60 % / 5 %) et l'exception (suspension), mais omet de rappeler brièvement que la poche comprend aussi d'autres actifs financiers (actions, obligations) dont la valeur peut fluctuer et affecter la valeur globale — la fiche signale cette différence importante.",
+        "L'exemple est correct mais manque un court rappel sur l'impact potentiel sur la valeur de part (suivi partiel des marchés financiers) : le spectateur pourrait penser à tort que seul le remboursement est concerné."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le timing estimé (38 secondes) paraît cohérent, mais la narration continue est dense ; il faut vérifier en répétition vocale que l'ensemble se prononce en 38 s sans accélération artificielle.",
+        "L'usage d'un carton avec cases OUI/NON et d'icônes est adapté au format Reels ; veiller toutefois à la lisibilité du texte et à l'ergonomie (durée d'affichage suffisante)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte en début, progression claire. Cependant la phrase « OUI ☐   NON ☐ » projetée visuellement puis répétée vocalement peut sembler redondante ; considérer la simplification pour fluidifier la voix off.",
+        "La mention « Prélèvement forfaitaire unique à 30 % » dans la même phrase que la suspension des rachats charge la phrase : séparer en deux phrases courtes améliorerait la compréhension."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel mais certaines phrases longues risquent d'entraver l'oralité (ex. : la phrase finale de la nuance combine trois idées distinctes : suspension possible / PFU 30 %). Scinder la phrase en deux pour une diction claire.",
+        "Le terme « pierre‑papier » est familier mais acceptable ; veiller à la cohérence du registre (maintenir un ton professionnel et accessible)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Quelques incohérences mineures entre le script et la légende : la légende répète intégralement la mention PFU 30 % — vérifier qu'il n'y ait pas de répétition identique verbatim dans la voix off et le texte écran pour éviter lourdeur.",
+        "Vérifier mot à mot la concordance des chiffres affichés à l'écran (60 % et 5 %) avec le texte prononcé pour éviter toute inversion accidentelle."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le visuel décrit (poche de trésorerie animée, billets + immeuble) correspond à la narration, mais l'icône de balance + pourcentage PFU 30 % doit clairement distinguer fiscalité et liquidité (ne pas mettre icône avertissement seule pour la fiscalité).",
+        "Le schéma pictogrammes 60% - cash 5% - autres actifs doit afficher explicitement les libellés pour éviter ambiguïté (par exemple indiquer 'autres actifs financiers')."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle principal (liquidité de l'OPCI), mais inclut aussi la fiscalité — c'est pertinent, toutefois la quantité d'information fiscale en peu de temps peut réduire la clarté. Recommander une phrase très courte pour la fiscalité plutôt qu'une phrase longue.",
+        "L'exemple utile est présent mais pourrait gagner en efficacité en précisant brièvement l'impact possible sur la valeur de part."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible pour un non spécialiste, mais le sigle SPPICAV n'est pas expliqué : ajouter une très courte parenthèse « (forme courante d'OPCI) » ou une formulation simple améliore la compréhension.",
+        "Le concept de 'liquidité organisée vs garantie' est mentionné mais mériterait une phrase d'explication plus simple pour un public non initié (ex. : 'organisée signifie qu'il y a des règles et une poche de cash, mais cela ne garantit pas un remboursement instantané en toutes circonstances')."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont efficaces, néanmoins la carte OUI/NON occupe du temps visuel sans apporter d'information nouvelle ; envisager de réduire sa durée d'affichage pour maintenir le rythme.",
+        "La répétition des messages (voix + texte écran) est utile pour Reels, mais vérifier que chaque phrase ait suffisamment de temps d'affichage pour la lecture complète."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est professionnel et non pressant. Toutefois, la mention « Prenez rendez-vous via le lien dans ma bio » implique un conseil personnel ; la mention légale en bas évite le piège mais il faut veiller à ce que la voix off ou le texte ne devienne trop prescriptif lors du tournage.",
+        "Ajouter brièvement la mention 'contenu pédagogique général' dans la légende ou en texte écran (si possible) renforce la conformité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement les faits, chiffres et sources fournis par la fiche BRITED, mais l'affirmation « au moins 60 % » et « au minimum 5 % » doit être exactement libellée comme dans la source (articles L214‑33 et suivants / AMF) : vérifier la formulation légale précise (« part minimale d'actifs immobiliers 60 % ; part minimale de liquidités 5 % ») et conserver la référence explicite au Code monétaire et financier pour éviter toute simplification imprécise.",
+    "source : La mention « PFU 30 % » est correcte pour les revenus mobiliers, mais la fiche indique « 30 % » avec commentaire « prélèvement forfaitaire unique » ; il serait prudent d'ajouter immédiatement la notion des prélèvements sociaux séparément si l'on voulait être exhaustif (sinon, conserver l'énoncé tel quel).",
+    "juridique_fiscal : Le script indique que la forme SPPICAV entraîne des revenus de capitaux mobiliers soumis au PFU à 30 % : c'est valide comme règle générale, mais manque la précision que la fiscalité dépend de la forme juridique (SPPICAV = revenus mobiliers ; FPI = revenus fonciers). Le script cite seulement la SPPICAV, il faut ajouter la nuance « selon la forme juridique, la fiscalité peut différer (SPPICAV vs FPI) » pour coller à la source.",
+    "juridique_fiscal : L'affirmation selon laquelle la poche de trésorerie permet de rembourser un investisseur sans céder d'actif est correcte mais doit comporter la réserve légale : la gestion de liquidités est organisée par la société de gestion et peut être soumise à règles internes et limitations (ex : seuils, période de suspension) — le script mentionne la suspension mais pas les modalités réglementaires.",
+    "completude : Le script couvre la règle centrale, la condition (60 % / 5 %) et l'exception (suspension), mais omet de rappeler brièvement que la poche comprend aussi d'autres actifs financiers (actions, obligations) dont la valeur peut fluctuer et affecter la valeur globale — la fiche signale cette différence importante.",
+    "completude : L'exemple est correct mais manque un court rappel sur l'impact potentiel sur la valeur de part (suivi partiel des marchés financiers) : le spectateur pourrait penser à tort que seul le remboursement est concerné.",
+    "plateforme : Le timing estimé (38 secondes) paraît cohérent, mais la narration continue est dense ; il faut vérifier en répétition vocale que l'ensemble se prononce en 38 s sans accélération artificielle.",
+    "plateforme : L'usage d'un carton avec cases OUI/NON et d'icônes est adapté au format Reels ; veiller toutefois à la lisibilité du texte et à l'ergonomie (durée d'affichage suffisante).",
+    "editorial : Accroche forte en début, progression claire. Cependant la phrase « OUI ☐   NON ☐ » projetée visuellement puis répétée vocalement peut sembler redondante ; considérer la simplification pour fluidifier la voix off.",
+    "editorial : La mention « Prélèvement forfaitaire unique à 30 % » dans la même phrase que la suspension des rachats charge la phrase : séparer en deux phrases courtes améliorerait la compréhension.",
+    "formulation_professionnelle : Le français est naturel et professionnel mais certaines phrases longues risquent d'entraver l'oralité (ex. : la phrase finale de la nuance combine trois idées distinctes : suspension possible / PFU 30 %). Scinder la phrase en deux pour une diction claire.",
+    "formulation_professionnelle : Le terme « pierre‑papier » est familier mais acceptable ; veiller à la cohérence du registre (maintenir un ton professionnel et accessible).",
+    "contre_verification_finale : Quelques incohérences mineures entre le script et la légende : la légende répète intégralement la mention PFU 30 % — vérifier qu'il n'y ait pas de répétition identique verbatim dans la voix off et le texte écran pour éviter lourdeur.",
+    "contre_verification_finale : Vérifier mot à mot la concordance des chiffres affichés à l'écran (60 % et 5 %) avec le texte prononcé pour éviter toute inversion accidentelle.",
+    "coherence_pictogrammes : Le visuel décrit (poche de trésorerie animée, billets + immeuble) correspond à la narration, mais l'icône de balance + pourcentage PFU 30 % doit clairement distinguer fiscalité et liquidité (ne pas mettre icône avertissement seule pour la fiscalité).",
+    "coherence_pictogrammes : Le schéma pictogrammes 60% - cash 5% - autres actifs doit afficher explicitement les libellés pour éviter ambiguïté (par exemple indiquer 'autres actifs financiers').",
+    "densite_editoriale : La vidéo traite un seul angle principal (liquidité de l'OPCI), mais inclut aussi la fiscalité — c'est pertinent, toutefois la quantité d'information fiscale en peu de temps peut réduire la clarté. Recommander une phrase très courte pour la fiscalité plutôt qu'une phrase longue.",
+    "densite_editoriale : L'exemple utile est présent mais pourrait gagner en efficacité en précisant brièvement l'impact possible sur la valeur de part.",
+    "pedagogie_client : Globalement compréhensible pour un non spécialiste, mais le sigle SPPICAV n'est pas expliqué : ajouter une très courte parenthèse « (forme courante d'OPCI) » ou une formulation simple améliore la compréhension.",
+    "pedagogie_client : Le concept de 'liquidité organisée vs garantie' est mentionné mais mériterait une phrase d'explication plus simple pour un public non initié (ex. : 'organisée signifie qu'il y a des règles et une poche de cash, mais cela ne garantit pas un remboursement instantané en toutes circonstances').",
+    "retention_attention : Les deux premières secondes (hook) sont efficaces, néanmoins la carte OUI/NON occupe du temps visuel sans apporter d'information nouvelle ; envisager de réduire sa durée d'affichage pour maintenir le rythme.",
+    "retention_attention : La répétition des messages (voix + texte écran) est utile pour Reels, mais vérifier que chaque phrase ait suffisamment de temps d'affichage pour la lecture complète.",
+    "conversion_confiance : Le CTA est professionnel et non pressant. Toutefois, la mention « Prenez rendez-vous via le lien dans ma bio » implique un conseil personnel ; la mention légale en bas évite le piège mais il faut veiller à ce que la voix off ou le texte ne devienne trop prescriptif lors du tournage.",
+    "conversion_confiance : Ajouter brièvement la mention 'contenu pédagogique général' dans la légende ou en texte écran (si possible) renforce la conformité."
+  ],
+  "recommendations": [
+    "Préciser mot à mot la formulation légale des parts minimales : afficher exactement « Immobilier ≥ 60 % ; liquidités ≥ 5 % » à l'écran et s'assurer que la voix la prononce identiquement.",
+    "Ajouter une courte phrase explicative glissée sur la forme juridique : par exemple « selon la forme juridique (SPPICAV ou FPI), la fiscalité diffère : SPPICAV = revenus mobiliers soumis au PFU 30 %). » (ou scinder en deux phrases pour rester clair).",
+    "Scinder la phrase de la nuance en deux : 1) 'Attention : la liquidité est organisée, non garantie ; en cas de rachats massifs, les rachats peuvent être suspendus.' 2) 'De plus, sous la forme fréquente SPPICAV, les revenus sont des revenus mobiliers soumis au PFU (30 %).' Cela améliore l'oralité et la compréhension.",
+    "Expliquer brièvement le sigle SPPICAV à l'oral ou en petit texte écran: 'SPPICAV (forme courante d'OPCI)'.",
+    "Clarifier visuels : sur le schéma 60%/5% ajouter le libellé 'autres actifs financiers' pour la part restante ; pour l'icône fiscalité, utiliser une balance + mention 'PFU 30 %' distincte de l'icône d'avertissement relative à la suspension des rachats.",
+    "Vérifier en répétition vocale que la narration complète tient bien dans 38 secondes ; si nécessaire, réduire la durée d'affichage de la carte OUI/NON et simplifier une phrase pour gagner 3–5 s.",
+    "Éviter les répétitions textuelles identiques entre légende et voix off (notamment sur PFU 30 %) ; assurer des formulations complémentaires plutôt que du verbatim.",
+    "Ajouter la mention 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' en texte écran ou dans la légende pour renforcer la conformité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-03:reels:opci_liquidite_et_fiscalite:1",
+  "script_path": "scripts/opci/opci_liquidite_et_fiscalite__reels__a3__v6.md"
+}

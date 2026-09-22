@@ -1,0 +1,158 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase finale de la narration «L'OPCI est logé en assurance-vie.» est trop généralisante par rapport à la source qui indique que l'OPCI se loge très fréquemment dans un contrat d'assurance-vie ; formuler au présent simple sans nuance est inexact. Localisation : Narration continue, dernière phrase avant le CTA."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Affirmation excessive concernant le logement en assurance-vie (voir remarque source). Localisation : Narration continue, «L'OPCI est logé en assurance-vie.»",
+        "Le script mentionne «SPPICAV (revenus mobiliers, PFU) ou FPI (revenus fonciers)» sans préciser que la fiscalité dépend de la forme juridique du véhicule — il faudrait ajouter explicitement que la fiscalité dépend de la forme (SPPICAV vs FPI). Localisation : Beat 5 texte écran / narration."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque de précision sur la portée du chiffre «5% en liquidités» : préciser qu'il s'agit d'une part minimale d'actifs liquides ou financiers destinée aux rachats (source indique 5% minimum). Localisation : Beat 3 et Beat 4.",
+        "L'exemple («si la poche de liquidités fait 5%...») pourrait être mal interprété sans indiquer que les rachats peuvent dépasser la poche en temps normal via actifs financiers liquides, mais sont limités en cas de stress — suggestion d'ajout mineur. Localisation : Beat 4 narration."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook en première seconde est efficace mais la phrase «L'OPCI est logé en assurance-vie.» affaiblit la neutralité pédagogique et la précision attendue — reformuler en «se loge fréquemment» pour conserver ton direct sans sur-généraliser. Localisation : Narration finale et Beat 5 texte écran."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Une phrase trop affirmative à corriger : «L'OPCI est logé en assurance-vie.» → préférer «L'OPCI se loge fréquemment en assurance-vie» pour respecter la nuance factuelle. Localisation : Narration continue, fin."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification phrase à phrase : la cohérence générale est bonne mais repérer et corriger l'assertion non nuancée sur l'assurance-vie (voir remarques précédentes). Localisation : narration finale et Beat 5 texte écran."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'explication est accessible mais la phrase catégorique sur l'assurance-vie peut induire en erreur un non-spécialiste ; reformuler pour conserver clarté et exactitude. Localisation : Beat 5 texte écran et narration finale."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Une affirmation trop générale («L'OPCI est logé en assurance-vie.») nuit légèrement à la confiance professionnelle — la nuance renforce la crédibilité. Localisation : narration finale / CTA enchaînement."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 120,
+      "seconds": 44.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La phrase finale de la narration «L'OPCI est logé en assurance-vie.» est trop généralisante par rapport à la source qui indique que l'OPCI se loge très fréquemment dans un contrat d'assurance-vie ; formuler au présent simple sans nuance est inexact. Localisation : Narration continue, dernière phrase avant le CTA.",
+    "juridique_fiscal : Affirmation excessive concernant le logement en assurance-vie (voir remarque source). Localisation : Narration continue, «L'OPCI est logé en assurance-vie.»",
+    "juridique_fiscal : Le script mentionne «SPPICAV (revenus mobiliers, PFU) ou FPI (revenus fonciers)» sans préciser que la fiscalité dépend de la forme juridique du véhicule — il faudrait ajouter explicitement que la fiscalité dépend de la forme (SPPICAV vs FPI). Localisation : Beat 5 texte écran / narration.",
+    "completude : Manque de précision sur la portée du chiffre «5% en liquidités» : préciser qu'il s'agit d'une part minimale d'actifs liquides ou financiers destinée aux rachats (source indique 5% minimum). Localisation : Beat 3 et Beat 4.",
+    "completude : L'exemple («si la poche de liquidités fait 5%...») pourrait être mal interprété sans indiquer que les rachats peuvent dépasser la poche en temps normal via actifs financiers liquides, mais sont limités en cas de stress — suggestion d'ajout mineur. Localisation : Beat 4 narration.",
+    "editorial : Hook en première seconde est efficace mais la phrase «L'OPCI est logé en assurance-vie.» affaiblit la neutralité pédagogique et la précision attendue — reformuler en «se loge fréquemment» pour conserver ton direct sans sur-généraliser. Localisation : Narration finale et Beat 5 texte écran.",
+    "formulation_professionnelle : Une phrase trop affirmative à corriger : «L'OPCI est logé en assurance-vie.» → préférer «L'OPCI se loge fréquemment en assurance-vie» pour respecter la nuance factuelle. Localisation : Narration continue, fin.",
+    "contre_verification_finale : Vérification phrase à phrase : la cohérence générale est bonne mais repérer et corriger l'assertion non nuancée sur l'assurance-vie (voir remarques précédentes). Localisation : narration finale et Beat 5 texte écran.",
+    "pedagogie_client : L'explication est accessible mais la phrase catégorique sur l'assurance-vie peut induire en erreur un non-spécialiste ; reformuler pour conserver clarté et exactitude. Localisation : Beat 5 texte écran et narration finale.",
+    "conversion_confiance : Une affirmation trop générale («L'OPCI est logé en assurance-vie.») nuit légèrement à la confiance professionnelle — la nuance renforce la crédibilité. Localisation : narration finale / CTA enchaînement."
+  ],
+  "recommendations": [
+    "Remplacer la phrase catégorique «L'OPCI est logé en assurance-vie.» par une formulation nuancée comme «L'OPCI se loge fréquemment dans un contrat d'assurance‑vie» ou «L'OPCI est souvent proposé via l'assurance‑vie» dans la narration et le texte écran (Beat 5 et Narration finale).",
+    "Préciser brièvement dans Beat 3/Beat 4 que le «5% en liquidités» est la part minimale d'actifs liquides ou financiers prévue pour les rachats, afin d'éviter toute interprétation erronée.",
+    "Ajouter une courte précision sur la fiscalité dans Beat 5 : «Fiscalité selon la forme : SPPICAV → revenus mobiliers (PFU), FPI → revenus fonciers», ou reformuler «La fiscalité dépend de la forme : SPPICAV (revenus mobiliers, PFU) ou FPI (revenus fonciers).» pour expliciter que c'est conditionnel à la forme juridique.",
+    "Appliquer ces corrections et relire une seconde fois la narration complète pour vérifier que chaque correction est bien intégrée et que la durée estimée (≈42 s) reste respectée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-10:shorts:opci_liquidite_et_fiscalite:0",
+  "script_path": "scripts/opci/opci_liquidite_et_fiscalite__shorts__a4__v3.md"
+}

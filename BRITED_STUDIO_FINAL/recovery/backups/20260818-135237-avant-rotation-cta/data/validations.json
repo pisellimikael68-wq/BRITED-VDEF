@@ -1,0 +1,574 @@
+{
+  "scripts/culture_financiere/culture_inflation__tiktok__a1__v2.md": {
+    "publication_id": "2026-10-09:tiktok:culture_inflation:0",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-10-09_tiktok_culture_inflation_0.json",
+    "validated_at": "2026-08-17T01:36:30",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/assurance_vie/assurance_vie_clause_beneficiaire__tiktok__a1__v3.md": {
+    "publication_id": "2026-08-26:tiktok:assurance_vie_clause_beneficiaire:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_tiktok_assurance_vie_clause_beneficiaire_0.json",
+    "validated_at": "2026-08-17T15:25:46"
+  },
+  "scripts/assurance_vie/assurance_vie_990i_152500__tiktok__a1.md": {
+    "publication_id": "2026-08-26:tiktok:assurance_vie_990i_152500:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_tiktok_assurance_vie_990i_152500_1.json",
+    "validated_at": "2026-08-17T15:26:57"
+  },
+  "scripts/assurance_vie/assurance_vie_abattement_8ans__tiktok__a1.md": {
+    "publication_id": "2026-08-27:tiktok:assurance_vie_abattement_8ans:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_tiktok_assurance_vie_abattement_8ans_0.json",
+    "validated_at": "2026-08-17T15:27:49"
+  },
+  "scripts/compte_titres/compte_titres_pfu__tiktok__a1.md": {
+    "publication_id": "2026-08-27:tiktok:compte_titres_pfu:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_tiktok_compte_titres_pfu_1.json",
+    "validated_at": "2026-08-17T15:28:30"
+  },
+  "scripts/credit_immobilier/credit_capacite_emprunt__tiktok__a1.md": {
+    "publication_id": "2026-08-29:tiktok:credit_capacite_emprunt:0",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_tiktok_credit_capacite_emprunt_0.json",
+    "validated_at": "2026-08-17T15:34:57",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/per/per_sortie_capital_rente__tiktok__a1.md": {
+    "publication_id": "2026-08-29:tiktok:per_sortie_capital_rente:1",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_tiktok_per_sortie_capital_rente_1.json",
+    "validated_at": "2026-08-17T15:37:17",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__tiktok__a1.md": {
+    "publication_id": "2026-08-30:tiktok:credit_assurance_emprunteur_lemoine:1",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_tiktok_credit_assurance_emprunteur_lemoine_1.json",
+    "validated_at": "2026-08-17T15:39:40",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__tiktok__a1__v2.md": {
+    "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_tiktok_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T15:40:09",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Formulation interdite détectée : \\bBRITED\\b",
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/regimes_matrimoniaux/regimes_changement__tiktok__a1__v2.md": {
+    "publication_id": "2026-08-24:tiktok:regimes_changement:1",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_tiktok_regimes_changement_1.json",
+    "validated_at": "2026-08-17T15:41:39",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/regimes_matrimoniaux/regimes_separation_de_biens__tiktok__a1__v2.md": {
+    "publication_id": "2026-08-25:tiktok:regimes_separation_de_biens:0",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_tiktok_regimes_separation_de_biens_0.json",
+    "validated_at": "2026-08-17T15:42:04",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T16:15:11",
+    "invalidation_reason": [
+      "Narration continue différente de la concaténation des beats"
+    ]
+  },
+  "scripts/conformite/conformite_influence_commerciale__tiktok__a1__v3.md": {
+    "publication_id": "2026-08-28:tiktok:conformite_influence_commerciale:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_tiktok_conformite_influence_commerciale_1.json",
+    "validated_at": "2026-08-17T15:46:06"
+  },
+  "scripts/regimes_matrimoniaux/regimes_changement__tiktok__a1__v3.md": {
+    "publication_id": "2026-08-24:tiktok:regimes_changement:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_tiktok_regimes_changement_1.json",
+    "validated_at": "2026-08-17T15:55:34"
+  },
+  "scripts/regimes_matrimoniaux/regimes_separation_de_biens__tiktok__a1__v3.md": {
+    "publication_id": "2026-08-25:tiktok:regimes_separation_de_biens:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_tiktok_regimes_separation_de_biens_0.json",
+    "validated_at": "2026-08-17T15:56:28"
+  },
+  "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__tiktok__a1__v5.md": {
+    "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_tiktok_regimes_pacs_concubinage_1.json",
+    "validated_at": "2026-08-17T15:58:08"
+  },
+  "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__tiktok__a1__v2.md": {
+    "publication_id": "2026-08-30:tiktok:credit_assurance_emprunteur_lemoine:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_tiktok_credit_assurance_emprunteur_lemoine_1.json",
+    "validated_at": "2026-08-17T16:08:57"
+  },
+  "scripts/credit_immobilier/credit_capacite_emprunt__tiktok__a1__v3.md": {
+    "publication_id": "2026-08-29:tiktok:credit_capacite_emprunt:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_tiktok_credit_capacite_emprunt_0.json",
+    "validated_at": "2026-08-17T16:16:03"
+  },
+  "scripts/credit_immobilier/credit_taux_fixe_variable__tiktok__a1__v5.md": {
+    "publication_id": "2026-08-30:tiktok:credit_taux_fixe_variable:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_tiktok_credit_taux_fixe_variable_0.json",
+    "validated_at": "2026-08-17T16:20:27"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__tiktok__a1__v6.md": {
+    "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_tiktok_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T16:31:26"
+  },
+  "scripts/per/per_sortie_capital_rente__tiktok__a1__v5.md": {
+    "publication_id": "2026-08-29:tiktok:per_sortie_capital_rente:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_tiktok_per_sortie_capital_rente_1.json",
+    "validated_at": "2026-08-17T16:34:36"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": false,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T17:20:42",
+    "previous_validation": true,
+    "stale": true,
+    "invalidated_at": "2026-08-17T19:25:41",
+    "invalidation_reason": [
+      "Script trop court : 99 mots (minimum 103)"
+    ]
+  },
+  "scripts/regimes_matrimoniaux/regimes_changement__reels__a1.md": {
+    "publication_id": "2026-08-24:reels:regimes_changement:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_changement_1.json",
+    "validated_at": "2026-08-17T17:23:30"
+  },
+  "scripts/regimes_matrimoniaux/regimes_changement__shorts__a1.md": {
+    "publication_id": "2026-08-24:shorts:regimes_changement:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+    "validated_at": "2026-08-17T17:23:57"
+  },
+  "scripts/regimes_matrimoniaux/regimes_separation_de_biens__reels__a1.md": {
+    "publication_id": "2026-08-25:reels:regimes_separation_de_biens:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 9.8,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_reels_regimes_separation_de_biens_0.json",
+    "validated_at": "2026-08-17T17:24:47"
+  },
+  "scripts/regimes_matrimoniaux/regimes_separation_de_biens__shorts__a1.md": {
+    "publication_id": "2026-08-25:shorts:regimes_separation_de_biens:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_shorts_regimes_separation_de_biens_0.json",
+    "validated_at": "2026-08-17T17:25:42"
+  },
+  "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__reels__a1.md": {
+    "publication_id": "2026-08-25:reels:regimes_pacs_concubinage:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_reels_regimes_pacs_concubinage_1.json",
+    "validated_at": "2026-08-17T17:27:14"
+  },
+  "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__shorts__a1.md": {
+    "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-25_shorts_regimes_pacs_concubinage_1.json",
+    "validated_at": "2026-08-17T17:28:23"
+  },
+  "scripts/assurance_vie/assurance_vie_clause_beneficiaire__reels__a1.md": {
+    "publication_id": "2026-08-26:reels:assurance_vie_clause_beneficiaire:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_reels_assurance_vie_clause_beneficiaire_0.json",
+    "validated_at": "2026-08-17T17:29:05"
+  },
+  "scripts/assurance_vie/assurance_vie_clause_beneficiaire__shorts__a1.md": {
+    "publication_id": "2026-08-26:shorts:assurance_vie_clause_beneficiaire:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 9.92,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_shorts_assurance_vie_clause_beneficiaire_0.json",
+    "validated_at": "2026-08-17T17:29:43"
+  },
+  "scripts/assurance_vie/assurance_vie_990i_152500__shorts__a1.md": {
+    "publication_id": "2026-08-26:shorts:assurance_vie_990i_152500:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_shorts_assurance_vie_990i_152500_1.json",
+    "validated_at": "2026-08-17T17:31:55"
+  },
+  "scripts/assurance_vie/assurance_vie_abattement_8ans__reels__a1.md": {
+    "publication_id": "2026-08-27:reels:assurance_vie_abattement_8ans:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_reels_assurance_vie_abattement_8ans_0.json",
+    "validated_at": "2026-08-17T17:33:15"
+  },
+  "scripts/assurance_vie/assurance_vie_abattement_8ans__shorts__a1.md": {
+    "publication_id": "2026-08-27:shorts:assurance_vie_abattement_8ans:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_shorts_assurance_vie_abattement_8ans_0.json",
+    "validated_at": "2026-08-17T17:33:55"
+  },
+  "scripts/compte_titres/compte_titres_pfu__reels__a1.md": {
+    "publication_id": "2026-08-27:reels:compte_titres_pfu:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_reels_compte_titres_pfu_1.json",
+    "validated_at": "2026-08-17T17:34:23"
+  },
+  "scripts/compte_titres/compte_titres_pfu__shorts__a1.md": {
+    "publication_id": "2026-08-27:shorts:compte_titres_pfu:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 9.75,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-27_shorts_compte_titres_pfu_1.json",
+    "validated_at": "2026-08-17T17:35:27"
+  },
+  "scripts/retraite/retraite_decote_surcote__shorts__a1.md": {
+    "publication_id": "2026-08-28:shorts:retraite_decote_surcote:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_shorts_retraite_decote_surcote_0.json",
+    "validated_at": "2026-08-17T17:40:57"
+  },
+  "scripts/conformite/conformite_influence_commerciale__reels__a1.md": {
+    "publication_id": "2026-08-28:reels:conformite_influence_commerciale:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_reels_conformite_influence_commerciale_1.json",
+    "validated_at": "2026-08-17T17:41:30"
+  },
+  "scripts/conformite/conformite_influence_commerciale__shorts__a1.md": {
+    "publication_id": "2026-08-28:shorts:conformite_influence_commerciale:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 9.92,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_shorts_conformite_influence_commerciale_1.json",
+    "validated_at": "2026-08-17T17:43:06"
+  },
+  "scripts/credit_immobilier/credit_capacite_emprunt__reels__a1.md": {
+    "publication_id": "2026-08-29:reels:credit_capacite_emprunt:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_reels_credit_capacite_emprunt_0.json",
+    "validated_at": "2026-08-17T17:44:28"
+  },
+  "scripts/credit_immobilier/credit_capacite_emprunt__shorts__a1.md": {
+    "publication_id": "2026-08-29:shorts:credit_capacite_emprunt:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_shorts_credit_capacite_emprunt_0.json",
+    "validated_at": "2026-08-17T17:45:09"
+  },
+  "scripts/per/per_sortie_capital_rente__shorts__a1.md": {
+    "publication_id": "2026-08-29:shorts:per_sortie_capital_rente:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_shorts_per_sortie_capital_rente_1.json",
+    "validated_at": "2026-08-17T17:49:28"
+  },
+  "scripts/credit_immobilier/credit_taux_fixe_variable__reels__a1.md": {
+    "publication_id": "2026-08-30:reels:credit_taux_fixe_variable:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_reels_credit_taux_fixe_variable_0.json",
+    "validated_at": "2026-08-17T17:51:20"
+  },
+  "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__reels__a1.md": {
+    "publication_id": "2026-08-30:reels:credit_assurance_emprunteur_lemoine:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 9.92,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_reels_credit_assurance_emprunteur_lemoine_1.json",
+    "validated_at": "2026-08-17T17:54:03"
+  },
+  "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__shorts__a1.md": {
+    "publication_id": "2026-08-30:shorts:credit_assurance_emprunteur_lemoine:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_shorts_credit_assurance_emprunteur_lemoine_1.json",
+    "validated_at": "2026-08-17T17:54:43"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v2.md": {
+    "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_shorts_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T17:55:54"
+  },
+  "scripts/assurance_vie/assurance_vie_990i_152500__reels__a1__v2.md": {
+    "publication_id": "2026-08-26:reels:assurance_vie_990i_152500:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-26_reels_assurance_vie_990i_152500_1.json",
+    "validated_at": "2026-08-17T17:58:22"
+  },
+  "scripts/per/per_sortie_capital_rente__reels__a1__v2.md": {
+    "publication_id": "2026-08-29:reels:per_sortie_capital_rente:1",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-29_reels_per_sortie_capital_rente_1.json",
+    "validated_at": "2026-08-17T18:03:14"
+  },
+  "scripts/credit_immobilier/credit_taux_fixe_variable__shorts__a1__v2.md": {
+    "publication_id": "2026-08-30:shorts:credit_taux_fixe_variable:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-30_shorts_credit_taux_fixe_variable_0.json",
+    "validated_at": "2026-08-17T18:03:53"
+  },
+  "scripts/retraite/retraite_decote_surcote__tiktok__a1__v14.md": {
+    "publication_id": "2026-08-28:tiktok:retraite_decote_surcote:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_tiktok_retraite_decote_surcote_0.json",
+    "validated_at": "2026-08-17T18:42:44"
+  },
+  "scripts/retraite/retraite_decote_surcote__reels__a1__v5.md": {
+    "publication_id": "2026-08-28:reels:retraite_decote_surcote:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-28_reels_retraite_decote_surcote_0.json",
+    "validated_at": "2026-08-17T18:45:41"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v3.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T19:16:01"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v4.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T19:53:08"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v10.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T21:00:49"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v11.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T22:13:09"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v12.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T22:23:28"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__reels__a1__v13.md": {
+    "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "mode": "automatic_committee",
+    "score": 10.0,
+    "threshold": 9.5,
+    "review_path": "data/reviews/2026-08-24_reels_regimes_communaute_par_defaut_0.json",
+    "validated_at": "2026-08-17T22:28:20"
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v3.md": {
+    "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "validated_at": "2026-08-18",
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 134,
+      "seconds": 49.6,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    }
+  },
+  "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v4.md": {
+    "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+    "validated": true,
+    "validated_at": "2026-08-18",
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 136,
+      "seconds": 50.4,
+      "errors": [],
+      "warnings": []
+    }
+  }
+}

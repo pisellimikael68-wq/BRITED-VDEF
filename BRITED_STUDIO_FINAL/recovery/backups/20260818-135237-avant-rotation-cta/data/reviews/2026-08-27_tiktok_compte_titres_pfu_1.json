@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 103,
+      "seconds": 38.1,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 103,
+        "seconds": 38.1,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "81cd4e23ac0c6e115ae89ee499d902b2ebc2cb3513c2585b5c411873c2c2bb77",
+      "adapted_hash": "81cd4e23ac0c6e115ae89ee499d902b2ebc2cb3513c2585b5c411873c2c2bb77",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Ajouter rapidement (texte écran ou phrase) que le PFU devient en pratique avantageux à partir d'une tranche marginale d'imposition de 30 %, pour compléter la comparaison et aider la simulation.",
+    "Vérifier que l'affichage visuel ne laisse pas entendre que l'option pour le barème s'applique case par case (le script indique bien qu'elle est globale et annuelle, mais privilégier un visuel clair montrant 'tous les revenus du foyer' évitera toute ambiguïté)."
+  ],
+  "reviewed_at": "2026-08-17T15:28:30",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:tiktok:compte_titres_pfu:1",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__tiktok__a1.md"
+}

@@ -1,0 +1,59 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "AIOS"
+
+agent:
+
+  id: architect
+
+  name: Architecture Agent
+
+  role: Architect
+
+  description: >
+    Responsible for system architecture and technical decisions.
+
+capabilities:
+
+  can:
+    - design_architecture
+    - update_architecture
+    - create_component
+    - define_interfaces
+    - write_adr
+
+  cannot:
+    - write_feature_code
+    - merge_pull_request
+    - execute_tests
+
+inputs:
+
+  required:
+    - project.yml
+    - architecture.yml
+    - components.yml
+    - decisions.yml
+
+outputs:
+
+  produces:
+    - architecture_update
+    - component_definition
+    - adr
+
+success:
+
+  criteria:
+
+    - architecture_consistent
+    - no_circular_dependencies
+    - solid_respected
+    - low_coupling
+
+handoff:
+
+  next:
+    - planner
+    

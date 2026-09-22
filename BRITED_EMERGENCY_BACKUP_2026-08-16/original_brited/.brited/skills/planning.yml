@@ -1,0 +1,18 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: planning
+
+capabilities:
+
+  - create_tasks
+  - prioritize
+  - estimate_effort
+  - identify_milestones
+
+outputs:
+
+  - sprint_plan
+  

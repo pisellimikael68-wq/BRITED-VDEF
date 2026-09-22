@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 132,
+      "seconds": 48.9,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 132,
+        "seconds": 48.9,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "f9ca4d17ec261b2d36d1b8cfa67c5615c71c2bb6222e0d031745c993a6b1a0de",
+      "adapted_hash": "f9ca4d17ec261b2d36d1b8cfa67c5615c71c2bb6222e0d031745c993a6b1a0de",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Optionnel : préciser dans le texte écran que la possibilité de sortie en capital s'applique aux versements volontaires et à l'épargne salariale (comme dit), afin d'éviter l'ambiguïté sur les compartiments obligatoires.",
+    "Optionnel : ajouter très brièvement (texte écran ou micro-phrase) que l'achat de la résidence principale et certains cas d'accident de la vie permettent un déblocage anticipé, si vous souhaitez couvrir entièrement les cas de sortie hors retraite (mais ceci reste facultatif pour le format court)."
+  ],
+  "reviewed_at": "2026-08-17T17:49:28",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-29:shorts:per_sortie_capital_rente:1",
+  "script_path": "scripts/per/per_sortie_capital_rente__shorts__a1.md"
+}

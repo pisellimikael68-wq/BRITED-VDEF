@@ -1,0 +1,299 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "cf5494c82211aa9566d64ab483f44d6e41c20c76fb6f19d48109a39e49a123d7"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Sans contrat de mariage, n'avez-vous rien choisi ?",
+      "tokens": [
+        "Sans",
+        "contrat",
+        "de",
+        "mariage,",
+        "n'avez-vous",
+        "rien",
+        "choisi",
+        "?"
+      ],
+      "token_count": 8,
+      "speech_duration": 2.514,
+      "full_text_visible_at": 2.262,
+      "hold_after_full_text": 1.151,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          540,
+          672,
+          640
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non. Sans contrat, le régime légal s'applique : la communauté réduite aux acquêts.",
+      "tokens": [
+        "Non.",
+        "Sans",
+        "contrat,",
+        "le",
+        "régime",
+        "légal",
+        "s'applique",
+        ":",
+        "la",
+        "communauté",
+        "réduite",
+        "aux",
+        "acquêts."
+      ],
+      "token_count": 13,
+      "speech_duration": 4.542,
+      "full_text_visible_at": 4.088,
+      "hold_after_full_text": 0.674,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Les biens acquis pendant le mariage sont communs. Les biens antérieurs, successions et donations restent propres. Les gains et salaires alimentent la communauté, même versés sur un compte individuel. Chaque époux dispose de sa rémunération après contribution aux charges du mariage.",
+      "tokens": [
+        "Les",
+        "biens",
+        "acquis",
+        "pendant",
+        "le",
+        "mariage",
+        "sont",
+        "communs.",
+        "Les",
+        "biens",
+        "antérieurs,",
+        "successions",
+        "et",
+        "donations",
+        "restent",
+        "propres.",
+        "Les",
+        "gains",
+        "et",
+        "salaires",
+        "alimentent",
+        "la",
+        "communauté,",
+        "même",
+        "versés",
+        "sur",
+        "un",
+        "compte",
+        "individuel.",
+        "Chaque",
+        "époux",
+        "dispose",
+        "de",
+        "sa",
+        "rémunération",
+        "après",
+        "contribution",
+        "aux",
+        "charges",
+        "du",
+        "mariage."
+      ],
+      "token_count": 41,
+      "speech_duration": 14.146,
+      "full_text_visible_at": 12.732,
+      "hold_after_full_text": 1.635,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          335,
+          672,
+          845
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "receipt-euro",
+          "house",
+          "scroll-text"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un héritage reste propre. S'il est versé sur un compte commun, conservez les justificatifs d'origine ; sinon, une récompense peut être due.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "héritage",
+        "reste",
+        "propre.",
+        "S'il",
+        "est",
+        "versé",
+        "sur",
+        "un",
+        "compte",
+        "commun,",
+        "conservez",
+        "les",
+        "justificatifs",
+        "d'origine",
+        ";",
+        "sinon,",
+        "une",
+        "récompense",
+        "peut",
+        "être",
+        "due."
+      ],
+      "token_count": 24,
+      "speech_duration": 7.594,
+      "full_text_visible_at": 6.834,
+      "hold_after_full_text": 0.979,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users",
+          "file-check-2"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Changer de régime reste possible par acte notarié. Selon la situation, des tiers peuvent s'y opposer ou une homologation judiciaire être nécessaire.",
+      "tokens": [
+        "Changer",
+        "de",
+        "régime",
+        "reste",
+        "possible",
+        "par",
+        "acte",
+        "notarié.",
+        "Selon",
+        "la",
+        "situation,",
+        "des",
+        "tiers",
+        "peuvent",
+        "s'y",
+        "opposer",
+        "ou",
+        "une",
+        "homologation",
+        "judiciaire",
+        "être",
+        "nécessaire."
+      ],
+      "token_count": 22,
+      "speech_duration": 8.007,
+      "full_text_visible_at": 7.206,
+      "hold_after_full_text": 1.701,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scale",
+          "file-signature",
+          "landmark"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.538,
+      "full_text_visible_at": 4.984,
+      "hold_after_full_text": 0.554,
+      "visual_layout": null
+    }
+  ]
+}

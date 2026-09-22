@@ -1,0 +1,176 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation sur les intérêts d'emprunt : le script écrit à la fois \"Intérêts exclus de l'imputation globale\" (tableau) et \"intérêts imputables seulement sur revenus fonciers\" (narration). Techniquement, les intérêts d'emprunt sont déductibles des revenus fonciers mais ne sont pas imputables sur le revenu global ; la formulation actuelle peut prêter à confusion. Il faut remplacer la phrase ambiguë par : \"Les intérêts d'emprunt sont déductibles des revenus fonciers mais ne s'imputent pas sur le revenu global.\"",
+        "Vérification non fournie sur le plafond majoré (21 400 €) : la fiche source signale que ce dispositif est temporaire et doit être vérifié. Le script n'évoque pas ce plafond majoré — c'est cohérent avec la prudence, mais il faut expliciter dans les recommandations de vérifier l'existence de mesures exceptionnelles pour l'année concernée si l'on souhaite en parler."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (location nue, régime réel), l'exception sur la nature des travaux et l'engagement de location de 3 ans, ainsi que l'exemple chiffré et les sources ; toutefois il omet d'expliquer brièvement ce qui est entendu par \"amélioration\" vs \"construction/reconstruction/agrandissement\" — ce point est identifié dans la fiche comme source fréquente d'erreurs et devrait être formulé en une courte précision pour éviter les confusions (par ex. exemples concrets d'opérations admises ou non)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : plausible mais la narration continue fournie est dense. Risque de dépasser 38 s à l'oral si la diction n'est pas très rapide. Recommandation : prévoir un texte lu en ~35 s et un marquage temporel par séquence pour s'assurer du respect de la durée.",
+        "Le visuel 'carton avec deux cases OUI / NON' et la rapidité du hook fonctionnent pour Reels, mais il faut vérifier que les textes à l'écran restent lisibles moins de 1,5–2 secondes chacun si le montage est dynamique."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace, progression logique, CTA clair. Remarque de formulation : la phrase du hook \"Travaux sur votre logement loué vide ?\" est naturelle mais pourrait être reformulée pour la compréhension immédiate du public non spécialisé : proposer \"Vous avez fait des travaux sur un logement que vous louez vide ?\"",
+        "La narration continue est dense et contient plusieurs éléments techniques successifs ; pour la clarté orale, il est préférable d'ajouter une très courte pause ou un mot de liaison entre la règle, l'exemple et la nuance."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement bon français, phrases compréhensibles. Point à corriger mot à mot : remplacer la formulation ambiguë sur les intérêts d'emprunt (voir agent juridique_fiscal).",
+        "Dans la table, la ligne 6 texte écran contient une contradiction mineure avec la narration (« Intérêts exclus de l'imputation globale - location 3 ans obligatoire »). Reformuler pour cohérence exacte : « Intérêts = imputables seulement sur revenus fonciers — location 3 ans obligatoire ». "
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La cohérence question-réponse est bonne, mais plusieurs formulations mineures et la densité de la narration peuvent nuire à une lecture fluide en une prise. Recommandation de relire à voix haute en mode téléprompteur et vérifier que chaque séquence tient la durée prévue.",
+        "Vérifier que les textes affichés à l'écran correspondent mot à mot à la narration finale (éviter formulations légèrement différentes qui peuvent induire incohérence)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La liste de pictogrammes proposée est pertinente mais certaines icônes sont vagues : par exemple 'coche verte, pictogramme euro' (séquence 3) doit clairement illustrer \"déductible sous conditions\" et non donner l'impression d'une exemption automatique.",
+        "Pour la nuance (séquence 6), l'icône prêt et calendrier 3 ans doit clairement indiquer l'obligation de location jusqu'au 31 décembre de la 3e année suivante, éviter un pictogramme générique qui pourrait être interprété comme durée d'occupation personnelle."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script s'adresse bien à un non-spécialiste mais le contraste entre 'entretien, réparation et amélioration' et 'construction, reconstruction et agrandissement' mérite un bref exemple concret (1 phrase) pour qu'un profane distingue immédiatement ces catégories.",
+        "L'exemple chiffré est pertinent mais pourrait préciser brièvement que le gain indiqué est estimatif (approx.) et dépend de la tranche marginale d'imposition."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais les deux premières secondes pourraient être renforcées par un élément visuel plus percutant (ex. gros plan sur facture très élevée) pour maximiser le taux de rétention.",
+        "La densité d'informations au milieu (règle + plafond + exemple) peut faire décrocher l'attention ; prévoir micro-pause visuelle entre règle et exemple."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Formulation sur les intérêts d'emprunt : le script écrit à la fois \"Intérêts exclus de l'imputation globale\" (tableau) et \"intérêts imputables seulement sur revenus fonciers\" (narration). Techniquement, les intérêts d'emprunt sont déductibles des revenus fonciers mais ne sont pas imputables sur le revenu global ; la formulation actuelle peut prêter à confusion. Il faut remplacer la phrase ambiguë par : \"Les intérêts d'emprunt sont déductibles des revenus fonciers mais ne s'imputent pas sur le revenu global.\"",
+    "juridique_fiscal : Vérification non fournie sur le plafond majoré (21 400 €) : la fiche source signale que ce dispositif est temporaire et doit être vérifié. Le script n'évoque pas ce plafond majoré — c'est cohérent avec la prudence, mais il faut expliciter dans les recommandations de vérifier l'existence de mesures exceptionnelles pour l'année concernée si l'on souhaite en parler.",
+    "completude : Le script couvre la règle centrale, la condition (location nue, régime réel), l'exception sur la nature des travaux et l'engagement de location de 3 ans, ainsi que l'exemple chiffré et les sources ; toutefois il omet d'expliquer brièvement ce qui est entendu par \"amélioration\" vs \"construction/reconstruction/agrandissement\" — ce point est identifié dans la fiche comme source fréquente d'erreurs et devrait être formulé en une courte précision pour éviter les confusions (par ex. exemples concrets d'opérations admises ou non).",
+    "plateforme : Durée estimée 38 s : plausible mais la narration continue fournie est dense. Risque de dépasser 38 s à l'oral si la diction n'est pas très rapide. Recommandation : prévoir un texte lu en ~35 s et un marquage temporel par séquence pour s'assurer du respect de la durée.",
+    "plateforme : Le visuel 'carton avec deux cases OUI / NON' et la rapidité du hook fonctionnent pour Reels, mais il faut vérifier que les textes à l'écran restent lisibles moins de 1,5–2 secondes chacun si le montage est dynamique.",
+    "editorial : Accroche efficace, progression logique, CTA clair. Remarque de formulation : la phrase du hook \"Travaux sur votre logement loué vide ?\" est naturelle mais pourrait être reformulée pour la compréhension immédiate du public non spécialisé : proposer \"Vous avez fait des travaux sur un logement que vous louez vide ?\"",
+    "editorial : La narration continue est dense et contient plusieurs éléments techniques successifs ; pour la clarté orale, il est préférable d'ajouter une très courte pause ou un mot de liaison entre la règle, l'exemple et la nuance.",
+    "formulation_professionnelle : Globalement bon français, phrases compréhensibles. Point à corriger mot à mot : remplacer la formulation ambiguë sur les intérêts d'emprunt (voir agent juridique_fiscal).",
+    "formulation_professionnelle : Dans la table, la ligne 6 texte écran contient une contradiction mineure avec la narration (« Intérêts exclus de l'imputation globale - location 3 ans obligatoire »). Reformuler pour cohérence exacte : « Intérêts = imputables seulement sur revenus fonciers — location 3 ans obligatoire ». ",
+    "contre_verification_finale : La cohérence question-réponse est bonne, mais plusieurs formulations mineures et la densité de la narration peuvent nuire à une lecture fluide en une prise. Recommandation de relire à voix haute en mode téléprompteur et vérifier que chaque séquence tient la durée prévue.",
+    "contre_verification_finale : Vérifier que les textes affichés à l'écran correspondent mot à mot à la narration finale (éviter formulations légèrement différentes qui peuvent induire incohérence).",
+    "coherence_pictogrammes : La liste de pictogrammes proposée est pertinente mais certaines icônes sont vagues : par exemple 'coche verte, pictogramme euro' (séquence 3) doit clairement illustrer \"déductible sous conditions\" et non donner l'impression d'une exemption automatique.",
+    "coherence_pictogrammes : Pour la nuance (séquence 6), l'icône prêt et calendrier 3 ans doit clairement indiquer l'obligation de location jusqu'au 31 décembre de la 3e année suivante, éviter un pictogramme générique qui pourrait être interprété comme durée d'occupation personnelle.",
+    "pedagogie_client : Le script s'adresse bien à un non-spécialiste mais le contraste entre 'entretien, réparation et amélioration' et 'construction, reconstruction et agrandissement' mérite un bref exemple concret (1 phrase) pour qu'un profane distingue immédiatement ces catégories.",
+    "pedagogie_client : L'exemple chiffré est pertinent mais pourrait préciser brièvement que le gain indiqué est estimatif (approx.) et dépend de la tranche marginale d'imposition.",
+    "retention_attention : Hook fort mais les deux premières secondes pourraient être renforcées par un élément visuel plus percutant (ex. gros plan sur facture très élevée) pour maximiser le taux de rétention.",
+    "retention_attention : La densité d'informations au milieu (règle + plafond + exemple) peut faire décrocher l'attention ; prévoir micro-pause visuelle entre règle et exemple."
+  ],
+  "recommendations": [
+    "Reformuler sans ambiguïté la phrase sur les intérêts d'emprunt en : \"Les intérêts d'emprunt sont déductibles des revenus fonciers mais ne s'imputent pas sur le revenu global.\" Appliquer la même formulation mot à mot sur le texte écran et dans la narration.",
+    "Ajouter une très courte précision (1 phrase) donnant un exemple concret d'\"amélioration\" admise vs d'\"agrandissement\" exclu (par ex. : \"Remplacer une chaudière ou rénover une salle de bain = amélioration ; ajouter une extension = agrandissement, non déductible\").",
+    "Relire la narration à voix haute et chronométrer chaque séquence ; si nécessaire raccourcir légèrement la partie explicative ou réduire la vitesse parlée pour rester autour de 38 s sans perdre la clarté.",
+    "Harmoniser les textes affichés à l'écran avec la narration mot à mot (notamment la ligne sur les intérêts et l'obligation de location 3 ans).",
+    "Affiner les pictogrammes : choisir une icône de prêt/banque associée à un petit euro barré ou à la mention 'sur revenus fonciers' pour éviter toute interprétation erronée, et un pictogramme calendrier avec la date exacte '31/12 3e année' plutôt que seulement '3 ans'.",
+    "Si le contenu devait mentionner un plafond majoré (21 400 €), vérifier d'abord la validité du dispositif pour l'année fiscale concernée et, si non confirmé, ne pas l'afficher. La fiche source signale que ce point doit être vérifié.",
+    "Corriger les formulations mineures du hook pour une compréhension immédiate par un public non spécialisé (optionnel) : \"Vous avez fait des travaux sur un logement que vous louez vide ?\""
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-03:reels:immobilier_deficit_foncier:0",
+  "script_path": "scripts/immobilier/immobilier_deficit_foncier__reels__a4__v8.md"
+}

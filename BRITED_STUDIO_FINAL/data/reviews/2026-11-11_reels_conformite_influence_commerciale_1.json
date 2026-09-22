@@ -1,0 +1,161 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention écrite finale 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' figure dans la légende mais n'apparaît pas explicitement comme texte écran pendant la vidéo. Si la vidéo était un contenu rémunéré, la loi exige un signalement clair et visible pendant toute la durée du contenu — la version actuelle ne montre pas ce libellé pendant la vidéo.",
+        "Le script affirme correctement que la recommandation personnalisée suppose d'être 'conseiller en investissement financier' (référence article L541-1) mais n'indique pas, pour l'audience non spécialiste, qu'une recommandation générique à un groupe identifiable (ex. 'Vous, dans votre situation') peut aussi être considérée comme personnalisée. Il manque une phrase très brève pour illustrer ce cas."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'angle traité est clair et la règle centrale est présente, mais l'exception indispensable (quand une recommandation s'adresse implicitement à une personne identifiable ou à un profil précis) n'est pas illustrée par l'exemple. L'exemple fourni oppose uniquement une déclaration fiscale neutre et un impératif ('Vous devriez investir') — ajouter un cas intermédiaire aiderait la complétude."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'ordre des séquences et la durée estimée, mais le 'bandeau bas discret' recommandé pour le hook peut entrer en conflit avec l'exigence de visibilité continue d'une mention de partenariat si nécessaire. Il faut préciser que tout signalement de partenariat doit être suffisamment grand/contrasté pour rester lisible sur l'UI Reels (ex. bandeau semi-opaque occupando au moins 10% de la hauteur)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et sourcé, et évite le conseil personnalisé. Toutefois, la CTA 'Prenez rendez-vous via le lien dans ma bio' invite à une action qui conduit nécessairement à un diagnostic personnalisé : il convient d'ajouter explicitement dans la légende et sur la page de prise de rendez-vous que le rendez-vous constituera un conseil personnalisé et qu'il sera dispensé par une personne disposant du statut légal requis si des recommandations d'investissement sont fournies."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration est en bon français, claire et naturelle, mais la phrase de la règle (beat 4) est longue et compacte : 'Loi du 9 juin 2023 — recommandation personnalisée suppose d'être conseiller en investissement financier' gagnerait à être scindée pour la prononciation en 40s (ex. 'La loi du 9 juin 2023 encadre l'influence commerciale. Donner une recommandation personnalisée suppose d'être conseiller en investissement financier.')."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, l'enchaînement est globalement cohérent. Points à corriger identifiés par d'autres agents : ajouter la mention visible à l'écran si contenu rémunéré, clarifier l'exemple intermédiaire (recommandation semi-personnalisée), et scinder la phrase longue au beat 4 pour garantir une diction naturelle en 40s."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes sont pertinents. Quelques précisions : au beat 1 le pictogramme 'livre/didactique' est adapté; au beat 2 les pictogrammes OUI/NON doivent rester neutres (éviter couleur qui suggère valeur). Au beat 6, l'icône pour 'actifs numériques' doit évoquer crypto liée à prestataires (ex. logo générique de pièce isolée peut être interprété comme promotion). Il faut remplacer tout pictogramme susceptible d'être perçu comme promotion d'un actif numérique par un symbole 'interdit/risque' clairement distinct."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est accessible pour un non-spécialiste, mais l'exemple comparatif pourrait prêter à confusion sans un cas intermédiaire (« s'adresser à un profil X »). Il est conseillé d'ajouter une phrase très courte illustrant qu'une recommandation à 'tous ceux de 50 ans' peut être considérée comme personnalisée selon le contexte."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et évite la sur-promotion, mais pour renforcer la confiance il est préférable d'ajouter, dans la légende ou en petit texte écran lors du CTA, la mention que tout conseil personnalisé sera fourni par un professionnel habilité ou que le rendez-vous est pour 'information/diagnostic' et non un conseil d'investissement immédiat."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 107,
+      "seconds": 39.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 107,
+        "seconds": 39.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La mention écrite finale 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.' figure dans la légende mais n'apparaît pas explicitement comme texte écran pendant la vidéo. Si la vidéo était un contenu rémunéré, la loi exige un signalement clair et visible pendant toute la durée du contenu — la version actuelle ne montre pas ce libellé pendant la vidéo.",
+    "juridique_fiscal : Le script affirme correctement que la recommandation personnalisée suppose d'être 'conseiller en investissement financier' (référence article L541-1) mais n'indique pas, pour l'audience non spécialiste, qu'une recommandation générique à un groupe identifiable (ex. 'Vous, dans votre situation') peut aussi être considérée comme personnalisée. Il manque une phrase très brève pour illustrer ce cas.",
+    "completude : L'angle traité est clair et la règle centrale est présente, mais l'exception indispensable (quand une recommandation s'adresse implicitement à une personne identifiable ou à un profil précis) n'est pas illustrée par l'exemple. L'exemple fourni oppose uniquement une déclaration fiscale neutre et un impératif ('Vous devriez investir') — ajouter un cas intermédiaire aiderait la complétude.",
+    "plateforme : Le script respecte l'ordre des séquences et la durée estimée, mais le 'bandeau bas discret' recommandé pour le hook peut entrer en conflit avec l'exigence de visibilité continue d'une mention de partenariat si nécessaire. Il faut préciser que tout signalement de partenariat doit être suffisamment grand/contrasté pour rester lisible sur l'UI Reels (ex. bandeau semi-opaque occupando au moins 10% de la hauteur).",
+    "securite : Le contenu est pédagogique et sourcé, et évite le conseil personnalisé. Toutefois, la CTA 'Prenez rendez-vous via le lien dans ma bio' invite à une action qui conduit nécessairement à un diagnostic personnalisé : il convient d'ajouter explicitement dans la légende et sur la page de prise de rendez-vous que le rendez-vous constituera un conseil personnalisé et qu'il sera dispensé par une personne disposant du statut légal requis si des recommandations d'investissement sont fournies.",
+    "formulation_professionnelle : La narration est en bon français, claire et naturelle, mais la phrase de la règle (beat 4) est longue et compacte : 'Loi du 9 juin 2023 — recommandation personnalisée suppose d'être conseiller en investissement financier' gagnerait à être scindée pour la prononciation en 40s (ex. 'La loi du 9 juin 2023 encadre l'influence commerciale. Donner une recommandation personnalisée suppose d'être conseiller en investissement financier.').",
+    "contre_verification_finale : En lecture mot à mot, l'enchaînement est globalement cohérent. Points à corriger identifiés par d'autres agents : ajouter la mention visible à l'écran si contenu rémunéré, clarifier l'exemple intermédiaire (recommandation semi-personnalisée), et scinder la phrase longue au beat 4 pour garantir une diction naturelle en 40s.",
+    "coherence_pictogrammes : La plupart des pictogrammes sont pertinents. Quelques précisions : au beat 1 le pictogramme 'livre/didactique' est adapté; au beat 2 les pictogrammes OUI/NON doivent rester neutres (éviter couleur qui suggère valeur). Au beat 6, l'icône pour 'actifs numériques' doit évoquer crypto liée à prestataires (ex. logo générique de pièce isolée peut être interprété comme promotion). Il faut remplacer tout pictogramme susceptible d'être perçu comme promotion d'un actif numérique par un symbole 'interdit/risque' clairement distinct.",
+    "pedagogie_client : Le message est accessible pour un non-spécialiste, mais l'exemple comparatif pourrait prêter à confusion sans un cas intermédiaire (« s'adresser à un profil X »). Il est conseillé d'ajouter une phrase très courte illustrant qu'une recommandation à 'tous ceux de 50 ans' peut être considérée comme personnalisée selon le contexte.",
+    "conversion_confiance : Le ton inspire sérieux et évite la sur-promotion, mais pour renforcer la confiance il est préférable d'ajouter, dans la légende ou en petit texte écran lors du CTA, la mention que tout conseil personnalisé sera fourni par un professionnel habilité ou que le rendez-vous est pour 'information/diagnostic' et non un conseil d'investissement immédiat."
+  ],
+  "recommendations": [
+    "Ajouter, si nécessaire, un texte écran visible pendant toute la durée de la vidéo indiquant « Contenu pédagogique général — pas un conseil personnalisé ». S'il s'agit d'un contenu rémunéré, remplacer ou compléter par « Publicité » ou « Collaboration commerciale » affiché en continu (taille et contraste suffisants pour rester lisible sur Reels).",
+    "Scinder la phrase du beat 4 pour faciliter la diction et la compréhension en 40s : proposer 'La loi du 9 juin 2023 encadre l'influence commerciale. Donner une recommandation personnalisée suppose d'être conseiller en investissement financier.'",
+    "Préciser l'exemple intermédiaire : ajouter une brève ligne (écran ou narration) illustrant qu'une recommandation destinée à un groupe identifiable (ex. 'si vous avez plus de 60 ans, faites X') peut relever du conseil personnalisé selon le contexte.",
+    "Modifier les pictogrammes sensibles (actifs numériques) pour qu'ils n'apparaissent pas comme éléments promotionnels : utiliser un symbole 'risque/interdit' ou une icône générique d'alerte pour les produits restreints.",
+    "Clarifier la CTA et les éléments associés : dans la légende et sur le texte écran du CTA, indiquer que le rendez-vous est pour 'diagnostic/information' et que tout conseil d'investissement personnalisé sera délivré par un professionnel habilité si applicable.",
+    "S'assurer que la page liée depuis le CTA (lien en bio) affiche clairement si le conseiller proposé dispose du statut réglementé nécessaire pour fournir des recommandations d'investissement (conformité et transparence)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-11:reels:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__reels__a3__v2.md"
+}

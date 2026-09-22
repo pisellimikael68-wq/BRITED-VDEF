@@ -1,0 +1,47 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 0.0,
+  "agents": {},
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "Rapport de certification inexploitable : JSONDecodeError"
+  ],
+  "recommendations": [],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-05:reels:credit_capacite_emprunt:1",
+  "script_path": "scripts/credit_immobilier/credit_capacite_emprunt__reels__a2__v3.md"
+}

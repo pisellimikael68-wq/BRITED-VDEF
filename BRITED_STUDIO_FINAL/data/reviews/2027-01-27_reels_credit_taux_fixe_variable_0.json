@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ est globalement respectée, mais le script indique une durée estimée de 38 secondes sans justification. Au vu du texte narratif (7 beats + hook) et du rythme attendu sur Reels, la durée annoncée paraît optimiste : il faut un minutage précis ou réduction du texte pour garantir 38 s.",
+        "La légende et les mentions juridiques sont présentes, mais il manque l'indication explicite que le TAEG est le seul chiffre comparable « légalement » (on le mentionne, mais sans référence directe au Code de la consommation pour cette affirmation)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les références juridiques citées (articles L.313-25 et L.313-46 du Code de la consommation) figurent dans les sources, mais le texte ne rappelle pas l'obligation d'information annuelle (L.313-46) sous forme très factuelle — on évoque l'information annuelle mais sans précision que la banque doit fournir une information chiffrée chaque année.",
+        "La mention « Durée de validité minimale d'une offre de prêt : 30 jours » est listée dans les chiffres mais n'est pas reprise ou contextualisée dans le script ; soit elle est superflue, soit elle doit être intégrée si on souhaite l'utiliser."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exemple utile, mais n'indique pas explicitement que le cap peut s'exprimer en points par rapport au taux initial OU par rapport à un indice (certains contrats citent un plafond relatif à l'indice de référence).",
+        "Il manque une mention brève sur la possibilité de passer d'un taux variable à un taux fixe (question client listée dans la fiche)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reels est respecté dans l'ordre des séquences, mais la durée estimée (38 s) paraît faible au regard du texte narratif. Aucune indication de rythme/temps par beat n'est fournie pour s'assurer que chaque beat tient dans la durée.",
+        "Le CTA 'lien dans ma bio' est adapté à Instagram mais il conviendrait d'indiquer visuellement le bouton ou l'icône Instagram pour conversion (le tableau mentionne un pictogramme calendrier mais pas explicitement l'icône 'bio')."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte mais la phrase d'ouverture 'Vous regardez votre simulation et le taux change : inquiétant ?' pourrait être resserrée pour augmenter la rétention dans les 2 premières secondes (ex. « Votre simulation : le taux vient de changer — inquiétant ? »).",
+        "La narration est claire mais contient plusieurs idées denses qui peuvent rendre la compréhension difficile sans ralentir le rythme — besoin d'un marquage temporel par beat."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel mais quelques formulations peuvent être précisées : 'taux capé impose un plafond en points' → préciser 'en points de pourcentage par rapport au taux initial' pour éviter toute ambiguïté.",
+        "Phrase 'Exemple : capé +1 signifie que le taux ne dépassera pas le taux initial augmenté d'un point.' est correcte mais pourrait être raccourcie pour la diction orale."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'enchaînement est cohérent, mais il manque une vérification phrase par phrase du timing oral pour confirmer la durée totale et la prononciation fluide en 38 s.",
+        "Le script respecte l'interdiction de recommander un type de taux, mais la CTA 'Prenez rendez-vous' nécessite une phrase de non-sollicitation (ex. 'si vous souhaitez un diagnostic personnalisé, prenez rendez-vous') pour conserver le ton pédagogique."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance pictogramme→notion est bonne globalement, mais le pictogramme proposé pour 'variable' ('curseur/index') peut prêter à confusion si l'illustration ressemble à un 'slider' générique ; il faut une icône qui évoque un indice (par ex. 'courbe + symbole %' ou 'indice + flèches').",
+        "Le visuel du 'capé' comme 'barre plafond +1 pt' est adapté, mais il faut veiller à expliquer visuellement que le cap s'applique au taux (et non automatiquement à la mensualité)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien d'un seul angle (partage du risque) mais inclut plusieurs sous-angles (capé, variation mensualité/durée, TAEG). Pour rester concise, il faudrait condenser une phrase ou réduire l'exemple pour garantir la durée et l'attention.",
+        "La 'condition indispensable' (que le cap peut s'appliquer différemment selon contrat) est présente mais pourrait être formulée plus brièvement pour l'impact."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est globalement accessible à un non-spécialiste, mais l'expression 'indice de référence' pourrait bénéficier d'une brève précision (ex. 'indice publié comme l'Euribor ou l'indice contractuel') pour éviter confusion.",
+        "Le terme 'TAEG' est utilisé correctement mais il faut préciser rapidement son sens complet la première fois (Taux Annuel Effectif Global) pour les spectateurs non familiers."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais le flux narratif risque de perdre en tension si la diction n'est pas très dynamique — il manque un micro-élément visuel très fort sur la seconde 1-2 (ex. compteur qui saute).",
+        "Le beat 5 (exemple capé +1) mérite un temps visuel légèrement plus long pour être compris ; sinon l'audience peut scroller avant la fin."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est professionnel et non agressif, mais pour renforcer la confiance il faudrait inclure dans la légende (ou visuel final) la mention 'contenu pédagogique général' ou une courte crédencialisation (ex. 'comité indépendant BRITED' ou référence aux sources visibles).",
+        "L'appel à l'action 'lien dans ma bio' seul peut suffire, mais un micro-texte d'accompagnement sur ce que couvre le rendez-vous (bilan non-commercial ?) améliorerait la conversion sans surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ est globalement respectée, mais le script indique une durée estimée de 38 secondes sans justification. Au vu du texte narratif (7 beats + hook) et du rythme attendu sur Reels, la durée annoncée paraît optimiste : il faut un minutage précis ou réduction du texte pour garantir 38 s.",
+    "source : La légende et les mentions juridiques sont présentes, mais il manque l'indication explicite que le TAEG est le seul chiffre comparable « légalement » (on le mentionne, mais sans référence directe au Code de la consommation pour cette affirmation).",
+    "juridique_fiscal : Les références juridiques citées (articles L.313-25 et L.313-46 du Code de la consommation) figurent dans les sources, mais le texte ne rappelle pas l'obligation d'information annuelle (L.313-46) sous forme très factuelle — on évoque l'information annuelle mais sans précision que la banque doit fournir une information chiffrée chaque année.",
+    "juridique_fiscal : La mention « Durée de validité minimale d'une offre de prêt : 30 jours » est listée dans les chiffres mais n'est pas reprise ou contextualisée dans le script ; soit elle est superflue, soit elle doit être intégrée si on souhaite l'utiliser.",
+    "completude : Le script couvre la règle centrale, la condition et l'exemple utile, mais n'indique pas explicitement que le cap peut s'exprimer en points par rapport au taux initial OU par rapport à un indice (certains contrats citent un plafond relatif à l'indice de référence).",
+    "completude : Il manque une mention brève sur la possibilité de passer d'un taux variable à un taux fixe (question client listée dans la fiche).",
+    "plateforme : Le format Reels est respecté dans l'ordre des séquences, mais la durée estimée (38 s) paraît faible au regard du texte narratif. Aucune indication de rythme/temps par beat n'est fournie pour s'assurer que chaque beat tient dans la durée.",
+    "plateforme : Le CTA 'lien dans ma bio' est adapté à Instagram mais il conviendrait d'indiquer visuellement le bouton ou l'icône Instagram pour conversion (le tableau mentionne un pictogramme calendrier mais pas explicitement l'icône 'bio').",
+    "editorial : L'accroche est forte mais la phrase d'ouverture 'Vous regardez votre simulation et le taux change : inquiétant ?' pourrait être resserrée pour augmenter la rétention dans les 2 premières secondes (ex. « Votre simulation : le taux vient de changer — inquiétant ? »).",
+    "editorial : La narration est claire mais contient plusieurs idées denses qui peuvent rendre la compréhension difficile sans ralentir le rythme — besoin d'un marquage temporel par beat.",
+    "formulation_professionnelle : Le français est naturel et professionnel mais quelques formulations peuvent être précisées : 'taux capé impose un plafond en points' → préciser 'en points de pourcentage par rapport au taux initial' pour éviter toute ambiguïté.",
+    "formulation_professionnelle : Phrase 'Exemple : capé +1 signifie que le taux ne dépassera pas le taux initial augmenté d'un point.' est correcte mais pourrait être raccourcie pour la diction orale.",
+    "contre_verification_finale : L'enchaînement est cohérent, mais il manque une vérification phrase par phrase du timing oral pour confirmer la durée totale et la prononciation fluide en 38 s.",
+    "contre_verification_finale : Le script respecte l'interdiction de recommander un type de taux, mais la CTA 'Prenez rendez-vous' nécessite une phrase de non-sollicitation (ex. 'si vous souhaitez un diagnostic personnalisé, prenez rendez-vous') pour conserver le ton pédagogique.",
+    "coherence_pictogrammes : La correspondance pictogramme→notion est bonne globalement, mais le pictogramme proposé pour 'variable' ('curseur/index') peut prêter à confusion si l'illustration ressemble à un 'slider' générique ; il faut une icône qui évoque un indice (par ex. 'courbe + symbole %' ou 'indice + flèches').",
+    "coherence_pictogrammes : Le visuel du 'capé' comme 'barre plafond +1 pt' est adapté, mais il faut veiller à expliquer visuellement que le cap s'applique au taux (et non automatiquement à la mensualité).",
+    "densite_editoriale : La vidéo traite bien d'un seul angle (partage du risque) mais inclut plusieurs sous-angles (capé, variation mensualité/durée, TAEG). Pour rester concise, il faudrait condenser une phrase ou réduire l'exemple pour garantir la durée et l'attention.",
+    "densite_editoriale : La 'condition indispensable' (que le cap peut s'appliquer différemment selon contrat) est présente mais pourrait être formulée plus brièvement pour l'impact.",
+    "pedagogie_client : Le contenu est globalement accessible à un non-spécialiste, mais l'expression 'indice de référence' pourrait bénéficier d'une brève précision (ex. 'indice publié comme l'Euribor ou l'indice contractuel') pour éviter confusion.",
+    "pedagogie_client : Le terme 'TAEG' est utilisé correctement mais il faut préciser rapidement son sens complet la première fois (Taux Annuel Effectif Global) pour les spectateurs non familiers.",
+    "retention_attention : Les deux premières secondes sont bonnes mais le flux narratif risque de perdre en tension si la diction n'est pas très dynamique — il manque un micro-élément visuel très fort sur la seconde 1-2 (ex. compteur qui saute).",
+    "retention_attention : Le beat 5 (exemple capé +1) mérite un temps visuel légèrement plus long pour être compris ; sinon l'audience peut scroller avant la fin.",
+    "conversion_confiance : Le CTA est professionnel et non agressif, mais pour renforcer la confiance il faudrait inclure dans la légende (ou visuel final) la mention 'contenu pédagogique général' ou une courte crédencialisation (ex. 'comité indépendant BRITED' ou référence aux sources visibles).",
+    "conversion_confiance : L'appel à l'action 'lien dans ma bio' seul peut suffire, mais un micro-texte d'accompagnement sur ce que couvre le rendez-vous (bilan non-commercial ?) améliorerait la conversion sans surpromesse."
+  ],
+  "recommendations": [
+    "Raccourcir légèrement la narration ou ajouter un minutage par beat pour garantir la durée de 38 secondes. Exemple : réduire la phrase du hook et condenser le beat 4 en une seule phrase très concise.",
+    "Préciser visuellement et verbalement que le cap est mesuré en points de pourcentage par rapport au taux initial (ou, si applicable, par rapport à l'indice), pour éviter toute ambiguïté.",
+    "Ajouter une phrase très courte (5–6 mots) mentionnant que la banque doit fournir une information annuelle en cas de taux variable (référence : L.313-46) si vous souhaitez la reprendre dans la vidéo ou la légende.",
+    "Remplacer l'icône 'curseur' pour le taux variable par une icône évoquant un indice (par ex. graphique + 'indice' ou 'Euribor') pour une meilleure correspondance pictogramme/concept.",
+    "Dans la légende ou le visuel final, expliciter l'acronyme TAEG (Taux Annuel Effectif Global) à la première occurrence pour les non-initiés.",
+    "Ajouter, si possible, une courte mention audible ou écrite répondant à la question listée 'Puis-je passer d'un taux variable à un taux fixe ?' (ex.: 'souvent possible, mais selon conditions et frais'), ou renvoyer explicitement au rendez-vous pour un diagnostic personnalisé.",
+    "Pour la conversion, enrichir le CTA par une micro-phrase rassurante (ex. 'Bilan personnalisé et non-commercial') et montrer visuellement l'icône 'bio' ou un QR code si publié en post associé.",
+    "Procéder à une seconde lecture orale chronométrée avec la personne qui fera la voix-off pour valider la fluidité, la diction et la durée exacte par beat."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-27:reels:credit_taux_fixe_variable:0",
+  "script_path": "scripts/credit_immobilier/credit_taux_fixe_variable__reels__a5__v2.md"
+}

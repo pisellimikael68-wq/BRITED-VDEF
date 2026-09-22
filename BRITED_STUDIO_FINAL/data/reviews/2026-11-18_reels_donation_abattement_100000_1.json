@@ -1,0 +1,192 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Fidélité aux faits : globalement respectée (100 000 € par parent et par enfant, reconstitution 15 ans, article 779 et rappel article 784, déclaration 2735).",
+        "Localisation précise : la mention « formulaire 2735 » apparaît dans la nuance (beat 6) mais le script ne précise qu'il s'agit du formulaire pour les dons d'argent — la fiche SOURCE indique explicitement 'formulaire 2735 pour un don d'argent'. Suggestion : ajouter la précision 'formulaire 2735 (don d'argent)'.",
+        "Le script affirme que l'abattement 'se partage entre donations et successions' — c'est exact mais pourrait prêter à confusion sur la mécanique (cumul unique de l'enveloppe). Recommandation : préciser que l'abattement global de 100 000 € pour un parent s'applique à l'ensemble des donations et à la succession, et non qu'il s'agit de deux abattements séparés."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Exactitude : les références légales citées (art. 779 CGI et rappel 15 ans via art. 784) sont correctes et sources listées.",
+        "Limites/Exceptions : le script omet de rappeler explicitement que la déclaration fait courir le délai et qu'une absence de déclaration peut rendre le point de départ contestable (la fiche SOURCE le signale comme erreur fréquente). Localisation : beat 6 dit 'la déclaration (formulaire 2735) fixe la date' — il faudrait renforcer en indiquant 'il faut déclarer même si la donation est exonérée, car la déclaration fait courir le délai ; sans déclaration, le point de départ est contestable'.",
+        "Mention d'irrévocabilité : correcte et conforme à la SOURCE, mais la phrase actuelle 'la donation est irrévocable' pourrait être amplifiée par la mise en garde recommandée dans a_ne_pas_dire : ne pas nuancer ('sauf exception'). Le script respecte cela, donc pas d'erreur, mais il manque la mise en garde sur conséquences pratiques (ex : impossibilité de reprise)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite l'angle principal correctement (montant, règle, délai, irrévocabilité, déclaration).",
+        "Manque un tout petit exemple chiffré pratique sur reconstitution (ex : possibilité de redonner après 15 ans) — la question fréquente 'Est-ce que je peux redonner 100 000 € l'année suivante ?' figure dans la SOURCE mais le script ne y répond pas explicitement. Localisation : ajouter une phrase courte (beat 6 ou CTA) répondant 'Non — reconstitution après 15 ans, sauf cas particuliers'.",
+        "Ne mentionne pas que l'abattement est la même enveloppe pour donation et succession en termes d'exemple chiffré ; la légende le fait, mais un rappel bref dans la narration renforcerait la complétude."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte ('Vous pouvez donner 200 000 € sans droits ?') et progression claire.",
+        "Fluide mais légèrement dense : beat 6 rassemble trois informations importantes (enveloppe partagée, 15 ans, 2735, irrévocabilité). Pour le format Reels, il est préférable de scinder en deux micro-phrases pour la clarté orale.",
+        "Le CTA est approprié mais pourrait être moins commercial en ton : ajouter 'pour un point personnalisé' atténuerait la pression. Remarque mineure."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Français naturel et compréhensible ; toutefois la phrase continue 'L'abattement se reconstitue au bout de quinze ans ; la donation est irrévocable et la déclaration (formulaire 2735) fixe la date qui fait courir le délai.' est longue et risque d'être moins claire à l'oral. Suggestion : scinder en deux phrases.",
+        "Reformulation proposée localement : 'L'abattement se reconstitue au bout de 15 ans. La donation est irrévocable. Et il faut déclarer même une donation exonérée (formulaire 2735 pour les dons d'argent) : cette déclaration fixe la date qui fait courir le délai.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence question-réponse : la question 'Chaque parent peut-il donner 100 000 € ? (OUI / NON)' est suivie d'une réponse claire. Cependant la question client 'Faut-il passer chez le notaire pour donner de l'argent ?' figure dans la SOURCE mais n'est traitée — omission dans le script. À minima préciser que les dons d'argent entre vifs peuvent être constatés par acte sous seing privé avec déclaration 2735 et que, au-dessus de certains montants ou pour sécurité juridique, le recours au notaire peut être recommandé (attention : ne pas donner conseil personnalisé).",
+        "Vérification mot à mot : tous les chiffres et articles sont concordants avec la fiche SOURCE."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes décrits correspondent généralement aux notions prononcées.",
+        "Observation concrète : le visuel 'Scène quotidienne, parent et enfant, pictogramme interrogation' pour le hook fonctionne ; en revanche 'Icônes horloge 15 ans + document 2735 + mention irrévocable' (beat 6) risque d'être visuellement surchargé sur un seul plan. Recommandation : séparer en deux plans ou animer séquentiellement chaque icône pour éviter confusion.",
+        "Le 'Icône livre de loi + mention article 779' est acceptable mais attention à la lisibilité du texte 'article 779' sur petit écran : agrandir le label."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton adapté à un non-spécialiste, explications simples.",
+        "Toutefois, la phrase 'L'abattement est la même enveloppe pour donations et successions' peut demeurer abstraite : proposer un micro-exemple (par ex. 'si vous avez déjà donné 60 000 €, il reste 40 000 € de l'abattement') aiderait la compréhension immédiate.",
+        "La question 'Faut-il passer chez le notaire ?' n'est pas traitée ; un public non spécialisé s'attend à cette réponse."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux et la présence des sources renforce la crédibilité.",
+        "Amélioration : ajouter la précision 'contient des informations générales, pas un conseil personnalisé' dans l'audio ou l'écran final renforcerait la conformité éthique (la mention est actuellement dans les notes, mais pas dans le script lu).",
+        "L'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' est correct mais pourrait inclure 'pour un point personnalisé' pour souligner l'absence de conseil gratuit et encourager contact professionnel."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 104,
+      "seconds": 38.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 104,
+        "seconds": 38.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Fidélité aux faits : globalement respectée (100 000 € par parent et par enfant, reconstitution 15 ans, article 779 et rappel article 784, déclaration 2735).",
+    "source : Localisation précise : la mention « formulaire 2735 » apparaît dans la nuance (beat 6) mais le script ne précise qu'il s'agit du formulaire pour les dons d'argent — la fiche SOURCE indique explicitement 'formulaire 2735 pour un don d'argent'. Suggestion : ajouter la précision 'formulaire 2735 (don d'argent)'.",
+    "source : Le script affirme que l'abattement 'se partage entre donations et successions' — c'est exact mais pourrait prêter à confusion sur la mécanique (cumul unique de l'enveloppe). Recommandation : préciser que l'abattement global de 100 000 € pour un parent s'applique à l'ensemble des donations et à la succession, et non qu'il s'agit de deux abattements séparés.",
+    "juridique_fiscal : Exactitude : les références légales citées (art. 779 CGI et rappel 15 ans via art. 784) sont correctes et sources listées.",
+    "juridique_fiscal : Limites/Exceptions : le script omet de rappeler explicitement que la déclaration fait courir le délai et qu'une absence de déclaration peut rendre le point de départ contestable (la fiche SOURCE le signale comme erreur fréquente). Localisation : beat 6 dit 'la déclaration (formulaire 2735) fixe la date' — il faudrait renforcer en indiquant 'il faut déclarer même si la donation est exonérée, car la déclaration fait courir le délai ; sans déclaration, le point de départ est contestable'.",
+    "juridique_fiscal : Mention d'irrévocabilité : correcte et conforme à la SOURCE, mais la phrase actuelle 'la donation est irrévocable' pourrait être amplifiée par la mise en garde recommandée dans a_ne_pas_dire : ne pas nuancer ('sauf exception'). Le script respecte cela, donc pas d'erreur, mais il manque la mise en garde sur conséquences pratiques (ex : impossibilité de reprise).",
+    "completude : La vidéo traite l'angle principal correctement (montant, règle, délai, irrévocabilité, déclaration).",
+    "completude : Manque un tout petit exemple chiffré pratique sur reconstitution (ex : possibilité de redonner après 15 ans) — la question fréquente 'Est-ce que je peux redonner 100 000 € l'année suivante ?' figure dans la SOURCE mais le script ne y répond pas explicitement. Localisation : ajouter une phrase courte (beat 6 ou CTA) répondant 'Non — reconstitution après 15 ans, sauf cas particuliers'.",
+    "completude : Ne mentionne pas que l'abattement est la même enveloppe pour donation et succession en termes d'exemple chiffré ; la légende le fait, mais un rappel bref dans la narration renforcerait la complétude.",
+    "editorial : Accroche forte ('Vous pouvez donner 200 000 € sans droits ?') et progression claire.",
+    "editorial : Fluide mais légèrement dense : beat 6 rassemble trois informations importantes (enveloppe partagée, 15 ans, 2735, irrévocabilité). Pour le format Reels, il est préférable de scinder en deux micro-phrases pour la clarté orale.",
+    "editorial : Le CTA est approprié mais pourrait être moins commercial en ton : ajouter 'pour un point personnalisé' atténuerait la pression. Remarque mineure.",
+    "formulation_professionnelle : Français naturel et compréhensible ; toutefois la phrase continue 'L'abattement se reconstitue au bout de quinze ans ; la donation est irrévocable et la déclaration (formulaire 2735) fixe la date qui fait courir le délai.' est longue et risque d'être moins claire à l'oral. Suggestion : scinder en deux phrases.",
+    "formulation_professionnelle : Reformulation proposée localement : 'L'abattement se reconstitue au bout de 15 ans. La donation est irrévocable. Et il faut déclarer même une donation exonérée (formulaire 2735 pour les dons d'argent) : cette déclaration fixe la date qui fait courir le délai.'",
+    "contre_verification_finale : Cohérence question-réponse : la question 'Chaque parent peut-il donner 100 000 € ? (OUI / NON)' est suivie d'une réponse claire. Cependant la question client 'Faut-il passer chez le notaire pour donner de l'argent ?' figure dans la SOURCE mais n'est traitée — omission dans le script. À minima préciser que les dons d'argent entre vifs peuvent être constatés par acte sous seing privé avec déclaration 2735 et que, au-dessus de certains montants ou pour sécurité juridique, le recours au notaire peut être recommandé (attention : ne pas donner conseil personnalisé).",
+    "contre_verification_finale : Vérification mot à mot : tous les chiffres et articles sont concordants avec la fiche SOURCE.",
+    "coherence_pictogrammes : Les pictogrammes décrits correspondent généralement aux notions prononcées.",
+    "coherence_pictogrammes : Observation concrète : le visuel 'Scène quotidienne, parent et enfant, pictogramme interrogation' pour le hook fonctionne ; en revanche 'Icônes horloge 15 ans + document 2735 + mention irrévocable' (beat 6) risque d'être visuellement surchargé sur un seul plan. Recommandation : séparer en deux plans ou animer séquentiellement chaque icône pour éviter confusion.",
+    "coherence_pictogrammes : Le 'Icône livre de loi + mention article 779' est acceptable mais attention à la lisibilité du texte 'article 779' sur petit écran : agrandir le label.",
+    "pedagogie_client : Ton adapté à un non-spécialiste, explications simples.",
+    "pedagogie_client : Toutefois, la phrase 'L'abattement est la même enveloppe pour donations et successions' peut demeurer abstraite : proposer un micro-exemple (par ex. 'si vous avez déjà donné 60 000 €, il reste 40 000 € de l'abattement') aiderait la compréhension immédiate.",
+    "pedagogie_client : La question 'Faut-il passer chez le notaire ?' n'est pas traitée ; un public non spécialisé s'attend à cette réponse.",
+    "conversion_confiance : Le ton inspire sérieux et la présence des sources renforce la crédibilité.",
+    "conversion_confiance : Amélioration : ajouter la précision 'contient des informations générales, pas un conseil personnalisé' dans l'audio ou l'écran final renforcerait la conformité éthique (la mention est actuellement dans les notes, mais pas dans le script lu).",
+    "conversion_confiance : L'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' est correct mais pourrait inclure 'pour un point personnalisé' pour souligner l'absence de conseil gratuit et encourager contact professionnel."
+  ],
+  "recommendations": [
+    "Ajouter la précision 'formulaire 2735 (pour les dons d'argent)' dans la phrase sur la déclaration (beat 6) pour correspondre mot à mot à la SOURCE.",
+    "Répondre brièvement à la question fréquente 'Est-ce que je peux redonner 100 000 € l'année suivante ?' dans le script (par ex. 'Non — l'abattement se reconstitue au bout de 15 ans').",
+    "Clarifier que l'abattement de 100 000 € par parent couvre l'ensemble des donations et la succession en donnant un micro-exemple chiffré (ex : 'si une donation antérieure a utilisé 60 000 €, il ne reste que 40 000 €').",
+    "Scinder la phrase longue sur la reconstitution, l'irrévocabilité et la déclaration en deux ou trois phrases courtes pour l'oral (voir formulation proposée dans agent 'formulation_professionnelle').",
+    "Prévoir une petite réorganisation visuelle pour beat 6 : ne pas afficher plus de deux icônes simultanément ; animer séquentiellement Horloge 15 ans → Document 2735 → Mention irrévocable pour éviter la surcharge visuelle.",
+    "Inclure une courte phrase ou écran final rappelant que le contenu est pédagogique et ne remplace pas un conseil personnalisé (afin de renforcer la conversion confiance et conformité juridique).",
+    "Ajouter, si possible, une ligne très brève sur la question 'Faut-il passer chez le notaire ?' (par ex. 'Pas obligatoire pour un don d'argent : la déclaration suffit, mais le notaire peut sécuriser l'acte selon le contexte') tout en évitant un conseil personnalisé détaillé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-18:reels:donation_abattement_100000:1",
+  "script_path": "scripts/donation/donation_abattement_100000__reels__a3__v5.md"
+}

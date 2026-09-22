@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE DE VÉRITÉ indique correctement la loi du 9 juin 2023 et les références; le script reprend ces éléments mais n'indique pas explicitement la référence légale complète (Loi n° 2023-451) dans la narration ou l'écran texte, alors que la règle exige fidélité stricte aux faits et sources mot à mot.",
+        "Le texte écran et la légende citent la règle mais n'incluent pas le libellé de la mention obligatoire exact tel que spécifié dans la fiche (ex. choix alternatif « Publicité » ou « Collaboration commerciale » est présent mais la conformité mot à mot aux guillemets officiels n'est pas explicitée)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script précise l'interdiction de promouvoir certains produits (contrats très spéculatifs, actifs numériques hors prestataires enregistrés) mais ne cite pas explicitement les limites prévues par le Code monétaire et financier (ex. l'article L541-1 et le besoin de statut de conseiller en investissement financier pour recommandation personnalisée).",
+        "La CTA « Prenez rendez‑vous via le lien dans ma bio » peut être perçue comme une incitation à obtenir un conseil personnalisé sans préciser le statut réglementé du proposant ; le script doit rappeler que la délivrance d'une recommandation personnalisée suppose un statut réglementé et qu'un rendez‑vous implique vérification du statut."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle principale, la condition et une exception utile, mais omet d'indiquer expressément que la mention doit être lisible « pendant toute la durée du contenu » y compris sur les formats courts (ex. Shorts) avec exigences de taille/contraste ou zone sûre minimale ; la fiche note seulement visibilité pendant toute la durée.",
+        "Il n'y a pas d'indication brève sur sanctions ou conséquences en cas de non-respect (la fiche rappelle obligations assorties de sanctions — ceci manque)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format et l'ordre des séquences respectent le format Shorts et la durée estimée (42 s) paraît plausible, mais le script ne précise la taille/contraste exact du bandeau ni la durée minimale d'apparition compatible avec YouTube Shorts (la fiche exige visibilité pendant toute la durée : préciser bandeau permanent sur toute la vidéo).",
+        "Le beat 6 CTA dirige vers le lien en bio — pour YouTube Shorts, la mention d'un lien en bio est moins directe qu'un lien en description ; la recommandation plateforme devrait adapter la formulation (« lien dans la description » ou « lien sur la chaîne ») selon le canal."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et ton direct ; toutefois la narration continue contient plusieurs phrases longues qui peuvent dépasser la capacité de compréhension en 42 s (risque de vitesse de parole).",
+        "La mention « La mention « Publicité » ou « Collaboration commerciale » doit rester affichée » contient guillemets imbriqués qui peuvent gêner la lecture orale ; reformulation recommandée pour fluidité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention légale finale indiquant contenu pédagogique général, ce qui est conforme ; cependant l'appel à RDV sans préciser que la consultation pourrait être payante ou conditionnée au statut réglementé risque d'être interprété comme promesse de conseil personnalisé non encadré.",
+        "Il faut s'assurer que le CTA n'incite pas à obtenir une recommandation personnalisée sans vérification de conformité du prestataire."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le texte est globalement en français naturel, mais quelques formulations méritent simplification pour l'oral (ex. 'La recommandation personnalisée (\"vous devriez\" ou \"pour vous\") suppose un statut réglementé' → raccourcir et clarifier).",
+        "La phrase finale du CTA est correcte mais gagnerait en crédibilité en ajoutant une précision professionnelle courte (ex. 'selon votre situation, et en vérifiant mon statut réglementé')."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Lecture mot à mot relève une contradiction mineure : la légende indique 'La loi du 9 juin 2023 oblige un signalement visible et permanent' — le terme 'permanent' peut être mal interprété ; mieux utiliser 'visible pendant toute la durée du contenu' comme dans la fiche.",
+        "L'enchaînement question → réponse est cohérent mais certains libellés (guillemets imbriqués, parenthèses) sont inadaptés à l'oral et doivent être revus pour prononciation naturelle."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés correspondent globalement aux notions, mais quelques choix sont imprécis : 'pictogramme livre vs badge officiel' pour distinguer pédagogie vs recommandation réglementée peut prêter à confusion ; proposer plutôt 'pictogramme document pédagogique' et 'pictogramme sceau/insigne officiel'.",
+        "Le pictogramme œil + calendrier (beat 2) est pertinent mais la description ne précise pas contraste/lisibilité sur mobile (essentiel pour Shorts)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais contient en une fois la règle, l'exception, l'exemple et le CTA ; pour tenir 42 s sans perte de clarté, une légère réduction du texte est recommandée (par ex. raccourcir la nuance sur produits restreints).",
+        "Aucun chiffre chiffré autre que la date de la loi est requis, la mention des catégories de produits pourrait être resserrée pour garder la densité."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est compréhensible par un non‑spécialiste mais la distinction pédagogie vs recommandation personnalisée gagnerait une phrase exemplaire simplifiée ('expliquer = ok; dire 'faites ceci' = statut requis').",
+        "L'exemple donné est pertinent mais pourrait être légèrement simplifié pour le public général (moins de mots)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est direct et fort ; cependant la narration contient plusieurs informations dans les premières secondes qui peuvent surcharger l'attention. Recommander d'accélérer la mise en scène visuelle sur les 2 premières secondes et d'abréger la phrase 2 pour maintenir la rétention.",
+        "La progression est bonne mais la nuance (beat 5) risque d'affaiblir l'attention si elle n'est pas formulée très brièvement."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux, les sources sont listées dans la fiche mais non affichées dans la vidéo ; ajouter une ligne d'écran ou la légende indiquant 'Sources : Loi 9 juin 2023, AMF' renforcerait la confiance.",
+        "Le CTA est professionnel mais doit éviter toute impression de promesse de conseil personnalisé sans visibilité du statut réglementé du proposant."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 119,
+      "seconds": 44.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 119,
+        "seconds": 44.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE DE VÉRITÉ indique correctement la loi du 9 juin 2023 et les références; le script reprend ces éléments mais n'indique pas explicitement la référence légale complète (Loi n° 2023-451) dans la narration ou l'écran texte, alors que la règle exige fidélité stricte aux faits et sources mot à mot.",
+    "source : Le texte écran et la légende citent la règle mais n'incluent pas le libellé de la mention obligatoire exact tel que spécifié dans la fiche (ex. choix alternatif « Publicité » ou « Collaboration commerciale » est présent mais la conformité mot à mot aux guillemets officiels n'est pas explicitée).",
+    "juridique_fiscal : Le script précise l'interdiction de promouvoir certains produits (contrats très spéculatifs, actifs numériques hors prestataires enregistrés) mais ne cite pas explicitement les limites prévues par le Code monétaire et financier (ex. l'article L541-1 et le besoin de statut de conseiller en investissement financier pour recommandation personnalisée).",
+    "juridique_fiscal : La CTA « Prenez rendez‑vous via le lien dans ma bio » peut être perçue comme une incitation à obtenir un conseil personnalisé sans préciser le statut réglementé du proposant ; le script doit rappeler que la délivrance d'une recommandation personnalisée suppose un statut réglementé et qu'un rendez‑vous implique vérification du statut.",
+    "completude : Le script couvre la règle principale, la condition et une exception utile, mais omet d'indiquer expressément que la mention doit être lisible « pendant toute la durée du contenu » y compris sur les formats courts (ex. Shorts) avec exigences de taille/contraste ou zone sûre minimale ; la fiche note seulement visibilité pendant toute la durée.",
+    "completude : Il n'y a pas d'indication brève sur sanctions ou conséquences en cas de non-respect (la fiche rappelle obligations assorties de sanctions — ceci manque).",
+    "plateforme : Le format et l'ordre des séquences respectent le format Shorts et la durée estimée (42 s) paraît plausible, mais le script ne précise la taille/contraste exact du bandeau ni la durée minimale d'apparition compatible avec YouTube Shorts (la fiche exige visibilité pendant toute la durée : préciser bandeau permanent sur toute la vidéo).",
+    "plateforme : Le beat 6 CTA dirige vers le lien en bio — pour YouTube Shorts, la mention d'un lien en bio est moins directe qu'un lien en description ; la recommandation plateforme devrait adapter la formulation (« lien dans la description » ou « lien sur la chaîne ») selon le canal.",
+    "editorial : Accroche forte et ton direct ; toutefois la narration continue contient plusieurs phrases longues qui peuvent dépasser la capacité de compréhension en 42 s (risque de vitesse de parole).",
+    "editorial : La mention « La mention « Publicité » ou « Collaboration commerciale » doit rester affichée » contient guillemets imbriqués qui peuvent gêner la lecture orale ; reformulation recommandée pour fluidité.",
+    "securite : Le script inclut la mention légale finale indiquant contenu pédagogique général, ce qui est conforme ; cependant l'appel à RDV sans préciser que la consultation pourrait être payante ou conditionnée au statut réglementé risque d'être interprété comme promesse de conseil personnalisé non encadré.",
+    "securite : Il faut s'assurer que le CTA n'incite pas à obtenir une recommandation personnalisée sans vérification de conformité du prestataire.",
+    "formulation_professionnelle : Le texte est globalement en français naturel, mais quelques formulations méritent simplification pour l'oral (ex. 'La recommandation personnalisée (\"vous devriez\" ou \"pour vous\") suppose un statut réglementé' → raccourcir et clarifier).",
+    "formulation_professionnelle : La phrase finale du CTA est correcte mais gagnerait en crédibilité en ajoutant une précision professionnelle courte (ex. 'selon votre situation, et en vérifiant mon statut réglementé').",
+    "contre_verification_finale : Lecture mot à mot relève une contradiction mineure : la légende indique 'La loi du 9 juin 2023 oblige un signalement visible et permanent' — le terme 'permanent' peut être mal interprété ; mieux utiliser 'visible pendant toute la durée du contenu' comme dans la fiche.",
+    "contre_verification_finale : L'enchaînement question → réponse est cohérent mais certains libellés (guillemets imbriqués, parenthèses) sont inadaptés à l'oral et doivent être revus pour prononciation naturelle.",
+    "coherence_pictogrammes : Les pictogrammes proposés correspondent globalement aux notions, mais quelques choix sont imprécis : 'pictogramme livre vs badge officiel' pour distinguer pédagogie vs recommandation réglementée peut prêter à confusion ; proposer plutôt 'pictogramme document pédagogique' et 'pictogramme sceau/insigne officiel'.",
+    "coherence_pictogrammes : Le pictogramme œil + calendrier (beat 2) est pertinent mais la description ne précise pas contraste/lisibilité sur mobile (essentiel pour Shorts).",
+    "densite_editoriale : La vidéo traite un seul angle mais contient en une fois la règle, l'exception, l'exemple et le CTA ; pour tenir 42 s sans perte de clarté, une légère réduction du texte est recommandée (par ex. raccourcir la nuance sur produits restreints).",
+    "densite_editoriale : Aucun chiffre chiffré autre que la date de la loi est requis, la mention des catégories de produits pourrait être resserrée pour garder la densité.",
+    "pedagogie_client : Le message est compréhensible par un non‑spécialiste mais la distinction pédagogie vs recommandation personnalisée gagnerait une phrase exemplaire simplifiée ('expliquer = ok; dire 'faites ceci' = statut requis').",
+    "pedagogie_client : L'exemple donné est pertinent mais pourrait être légèrement simplifié pour le public général (moins de mots).",
+    "retention_attention : Le hook est direct et fort ; cependant la narration contient plusieurs informations dans les premières secondes qui peuvent surcharger l'attention. Recommander d'accélérer la mise en scène visuelle sur les 2 premières secondes et d'abréger la phrase 2 pour maintenir la rétention.",
+    "retention_attention : La progression est bonne mais la nuance (beat 5) risque d'affaiblir l'attention si elle n'est pas formulée très brièvement.",
+    "conversion_confiance : Le ton inspire sérieux, les sources sont listées dans la fiche mais non affichées dans la vidéo ; ajouter une ligne d'écran ou la légende indiquant 'Sources : Loi 9 juin 2023, AMF' renforcerait la confiance.",
+    "conversion_confiance : Le CTA est professionnel mais doit éviter toute impression de promesse de conseil personnalisé sans visibilité du statut réglementé du proposant."
+  ],
+  "recommendations": [
+    "Ajouter explicitement la référence légale dans le texte écran ou la légende (ex. 'Loi n°2023-451 du 9 juin 2023') pour fidélité mot à mot avec la fiche source.",
+    "Reformuler la phrase sur la mention obligatoire pour l'oral : 'Dès qu'une marque vous paie, affichez en permanence « Publicité » ou « Collaboration commerciale » pendant toute la vidéo.'",
+    "Clarifier la CTA en ajoutant une précision sur le statut : par exemple 'Prenez rendez‑vous via le lien dans ma bio — la consultation permet d'examiner votre situation et, si nécessaire, d'être orienté vers un professionnel réglementé.'",
+    "Simplifier et raccourcir la nuance sur produits restreints pour tenir la durée : 'Attention : la promotion de contrats très spéculatifs et d'actifs numériques non enregistrés est restreinte.'",
+    "Remplacer ou préciser pictogrammes ambigus (ex. utiliser 'sceau officiel' pour statut réglementé) et indiquer contrainte de lisibilité mobile (bandeau permanent, taille suffisante, contraste élevé).",
+    "Éviter formulations écrites avec guillemets imbriqués dans le script oral ; privilégier phrases courtes et directes pour faciliter la prononciation et la rétention.",
+    "Ajouter en légende ou écran court la mention 'Contenu pédagogique — sources : Loi n°2023-451, AMF, CMF art. L541-1' pour renforcer crédibilité.",
+    "Inclure une brève phrase avertissant que la recommandation personnalisée suppose un statut réglementé avant le CTA, afin d'être explicite ('Je ne fournis pas de recommandation personnalisée ici — un conseil personnalisé nécessite un professionnel réglementé')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-11:shorts:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__shorts__a3__v3.md"
+}

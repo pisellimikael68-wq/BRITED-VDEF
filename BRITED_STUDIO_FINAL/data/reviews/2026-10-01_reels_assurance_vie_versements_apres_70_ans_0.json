@@ -1,0 +1,134 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation imprécise à l'étape 'Le mécanisme' : la phrase «152 500 € exonérés par bénéficiaire, puis un prélèvement forfaitaire» est trop vague et peut prêter à erreur. L'article 990 I prévoit un abattement de 152 500 € par bénéficiaire pour les primes versées avant 70 ans, puis l'imposition de la fraction excédentaire selon des règles qui ne se résument pas uniformément par «prélèvement forfaitaire» (selon la date des contrats et l'âge lors des rachats, des modalités variables de taxation peuvent s'appliquer). Il faut préciser que l'abattement concerne les primes (et non les gains) et éviter l'expression non précisée «prélèvement forfaitaire».",
+        "L'exemple et les explications sur l'article 757 B sont corrects, mais il manque une courte précision : l'abattement de 30 500 € porte uniquement sur les primes versées après 70 ans (et est global pour tous contrats et bénéficiaires), tandis que les gains issus de ces primes sont exonérés. Cette précision figure ailleurs, mais il faut la rappeler dans la portion résumée où l'on évoque 990 I pour éviter toute confusion."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Formulation imprécise à l'étape 'Le mécanisme' : la phrase «152 500 € exonérés par bénéficiaire, puis un prélèvement forfaitaire» est trop vague et peut prêter à erreur. L'article 990 I prévoit un abattement de 152 500 € par bénéficiaire pour les primes versées avant 70 ans, puis l'imposition de la fraction excédentaire selon des règles qui ne se résument pas uniformément par «prélèvement forfaitaire» (selon la date des contrats et l'âge lors des rachats, des modalités variables de taxation peuvent s'appliquer). Il faut préciser que l'abattement concerne les primes (et non les gains) et éviter l'expression non précisée «prélèvement forfaitaire».",
+    "juridique_fiscal : L'exemple et les explications sur l'article 757 B sont corrects, mais il manque une courte précision : l'abattement de 30 500 € porte uniquement sur les primes versées après 70 ans (et est global pour tous contrats et bénéficiaires), tandis que les gains issus de ces primes sont exonérés. Cette précision figure ailleurs, mais il faut la rappeler dans la portion résumée où l'on évoque 990 I pour éviter toute confusion."
+  ],
+  "recommendations": [
+    "Remplacer la formulation vague «puis un prélèvement forfaitaire» par une phrase précise : «Primes versées avant 70 ans : abattement de 152 500 € par bénéficiaire sur les primes (article 990 I). La fraction excédentaire est soumise au régime fiscal des successions (selon le lien de parenté) et peut, selon les situations, être ensuite soumise à des modalités de taxation particulières (se reporter à l'article 990 I et à la doctrine BOFiP pour les taux et modalités selon date/âge).»",
+    "Ajouter, dans la partie «Le mécanisme» ou dans une bulle texte, une phrase rappelant explicitement que l'abattement de 30 500 € s'applique uniquement aux primes versées après 70 ans et que les gains produits par ces primes sont exonérés (article 757 B), afin d'éviter toute confusion avec l'abattement de 152 500 €.",
+    "Vérifier que, dans la version finale de la voix off, l'expression «prélèvement forfaitaire» n'est pas utilisée sans précision ; si l'intention est d'évoquer la taxation des primes excédentaires avant 70 ans, indiquer plutôt «soumis aux droits de succession selon le lien de parenté (article 990 I)» ou renvoyer au BOFiP pour les modalités chiffrées."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-01:reels:assurance_vie_versements_apres_70_ans:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_versements_apres_70_ans__reels__a1__v10.md"
+}

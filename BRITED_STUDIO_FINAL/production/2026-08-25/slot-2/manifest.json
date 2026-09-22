@@ -1,0 +1,120 @@
+{
+  "date": "2026-08-25",
+  "slot": 2,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1",
+      "platform": "tiktok",
+      "title": "PACS et concubinage : ce qui n'est pas protégé",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_pacs_concubinage__tiktok__a1__v9.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/tiktok/regimes_pacs_concubinage__tiktok.mp4",
+      "duration": 40.1,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-25:tiktok:regimes_pacs_concubinage:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-25_tiktok_regimes_pacs_concubinage_1-compact.json",
+        "validated_at": "2026-08-19T11:43:13"
+      },
+      "review_path": "data/reviews/2026-08-25_tiktok_regimes_pacs_concubinage_1-compact.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/tiktok/regimes_pacs_concubinage__tiktok.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/tiktok/regimes_pacs_concubinage__tiktok.word-check.json"
+    },
+    {
+      "publication_id": "2026-08-25:reels:regimes_pacs_concubinage:1",
+      "platform": "reels",
+      "title": "PACS et concubinage : ce qui n'est pas protégé",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_pacs_concubinage__reels__a1__v6.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/reels/regimes_pacs_concubinage__reels.mp4",
+      "duration": 38.89,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 100,
+        "seconds": 37.0,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-25:reels:regimes_pacs_concubinage:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-25_reels_regimes_pacs_concubinage_1-compact.json",
+        "validated_at": "2026-08-19T11:43:13"
+      },
+      "review_path": "data/reviews/2026-08-25_reels_regimes_pacs_concubinage_1-compact.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/reels/regimes_pacs_concubinage__reels.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/reels/regimes_pacs_concubinage__reels.word-check.json"
+    },
+    {
+      "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+      "platform": "shorts",
+      "title": "PACS et concubinage : ce qui n'est pas protégé",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_pacs_concubinage__shorts__a1__v7.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/regimes_pacs_concubinage__shorts.mp4",
+      "script_sha256": "0a0d740688c74f8071fab5d5eb77d015c1ca4ac7703b048dcf5e82d2374fc066",
+      "spec_sha256": "f0accd02cd8a8ced866061ba77a2385c7a8c798016b405d77b3741ff45643ad5",
+      "video_sha256": "7a3dd6d557106a475ef22193ef1d7f53f97fa34cc39b407a4041005a05be633a",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 45.81,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-25_shorts_regimes_pacs_concubinage_1.json",
+        "validated_at": "2026-08-24T15:19:09"
+      },
+      "review_path": "data/reviews/2026-08-25_shorts_regimes_pacs_concubinage_1.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/regimes_pacs_concubinage__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-2/shorts/regimes_pacs_concubinage__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ],
+  "consolidated_from_certified_pilots": true
+}

@@ -1,0 +1,182 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence chiffrée interne : la section 'résumé' indique que le taux marginal atteint 45 % au-delà de 552 324 € par enfant, alors que dans 'chiffres' la clé 'Seuil d'entrée dans la tranche à 45 %' donne 1 805 677 €. Il faut un seul chiffre exact et sourcé (CGI art. 777 / BOFiP).",
+        "La fiche indique correctement l'abattement de 100 000 € (CGI art. 779, I) mais la formulation 'par parent et par enfant' peut prêter à interprétation ; préciser '100 000 € par parent pour chaque enfant' éviterait toute ambiguïté."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme que le concubin est traité 'comme un tiers — avec le taux le plus défavorable du barème'. La formulation 'plus défavorable' est ambiguë : juridiquement le concubin n'est pas exonéré et est imposé selon le barème applicable aux 'tiers' (pas d'abattement spécifique), mais parler de 'taux le plus défavorable' peut être interprété comme une règle supplémentaire non prévue. Il faut reformuler précisément : 'le concubin n'est pas exonéré et ne bénéficie pas de l'abattement en ligne directe ; il est taxé comme un tiers.'",
+        "Vérifier et corriger la mention sur la réintégration des donations (<15 ans) : indiquer explicitement que les donations antérieures sont prises en compte pour le calcul de la quotité recueillie et qu'elles consomment l'abattement (rappel de l'article 784) — la phrase actuelle est correcte mais gagnerait en précision."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque de précision sur le barème : le script énonce les taux 5→45 % sans indiquer les bornes de tranches (même succinctes). Pour l'usage pédagogique, ajouter au moins les limites des premières et d'une grande tranche (ex. jusqu'à 8 072 € à 5 %) améliorerait la compréhension.",
+        "L'exemple chiffré (600 000 € part d'un seul parent) est utile mais ne montre pas l'impôt final chiffré ou le fonctionnement par tranches ; un très court calcul numérique (montant final approximatif des droits) aiderait la compréhension sans alourdir la vidéo."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression clairs, mais la durée estimée (42 s) doit être confirmée après ajout éventuel d'une phrase chiffrée dans l'exemple. La phrase 'Après abattement, la part reçue par un enfant est imposée au barème progressif de 5 % à 45 %' est correcte mais dense ; envisager fractionner en deux phrases pour la diction naturelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être clarifiées pour un français naturel et professionnel : par exemple 'si les deux parents transmettent, l'enfant peut bénéficier de 200 000 euros d'abattement' → remplacer par 'si les deux parents transmettent, l'enfant bénéficie de 100 000 € par parent, soit 200 000 € au total' pour éviter le conditionnel imprécis.",
+        "La phrase 'Le conjoint et le partenaire de PACS sont exonérés' est correcte mais gagnerait à préciser 'totale­ment exonérés de droits de succession' pour lever toute ambiguïté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mot à mot identifiée entre sections (voir 'source' et 'completude') concernant le seuil de la tranche à 45 % : le script et la fiche ne s'accordent pas sur le seuil applicable. Cela empêche une validation mot à mot.",
+        "Vérifier l'alignement strict entre narration, visuels et texte écran : par ex. la narration dit '5 % à 45 %' alors que le tableau 'chiffres' précise 'Taux de la première tranche (jusqu'à 8 072 €)' — il faudrait assurer que si on garde cette précision chiffrée, elle soit reprise dans la voix off ou le texte écran."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le visuel proposé pour l'abattement ('Icône parent + enfant avec étiquette \"100 000 € / parent\"') est pertinent mais la mention à l'écran indique 'Abattement 100 000 € par parent (200 000 € si deux parents)'. Il faut s'assurer que l'icône illustre bien la somme totale possible pour éviter confusion (montrer deux parents ou deux étiquettes 100 000 € si on affiche 200 000 €).",
+        "Le pictogramme horloge 15 ans est correct pour la notion de délai, mais il faudrait préciser sur l'écran que 'donations < 15 ans consomment l'abattement' pour correspondre exactement à la narration."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message principal est clair, mais un non-spécialiste pourrait rester avec la question 'combien ça donne en euros ?' après l'exemple. Ajouter un chiffre final indicatif (montant approximatif des droits pour l'exemple 600 000 €) améliorerait la pédagogie sans complexifier.",
+        "Le terme 'barème progressif par tranches' est correct mais mérite une très brève explication (ex. 'seules les portions qui dépassent chaque seuil sont taxées au taux supérieur') — cette phrase existe dans la fiche mais doit être rendue audible et visible pour un néophyte."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte mais la répétition 'Après abattement...' en ouverture narration et en reponse peut être perçue comme redondante ; envisager une seconde phrase d'accroche différente ou une variante pour maintenir l'attention.",
+        "Le CTA est convenable, mais pour une Short l'appel à l'action pourrait être légèrement plus concis (ex. 'Prenez rendez-vous via le lien en bio')."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé, mais la présence d'incohérences chiffrées (seuil 45 %) affaiblit la confiance. Corriger l'incohérence et ajouter une mention très brève 'sources : CGI art. 777 et 779, BOFiP' dans l'écran final renforcera la crédibilité.",
+        "Éviter formulations ambiguës comme 'taux le plus défavorable' (voir 'juridique_fiscal') pour ne pas laisser d'impression approximative."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 117,
+      "seconds": 43.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 117,
+        "seconds": 43.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence chiffrée interne : la section 'résumé' indique que le taux marginal atteint 45 % au-delà de 552 324 € par enfant, alors que dans 'chiffres' la clé 'Seuil d'entrée dans la tranche à 45 %' donne 1 805 677 €. Il faut un seul chiffre exact et sourcé (CGI art. 777 / BOFiP).",
+    "source : La fiche indique correctement l'abattement de 100 000 € (CGI art. 779, I) mais la formulation 'par parent et par enfant' peut prêter à interprétation ; préciser '100 000 € par parent pour chaque enfant' éviterait toute ambiguïté.",
+    "juridique_fiscal : Le script affirme que le concubin est traité 'comme un tiers — avec le taux le plus défavorable du barème'. La formulation 'plus défavorable' est ambiguë : juridiquement le concubin n'est pas exonéré et est imposé selon le barème applicable aux 'tiers' (pas d'abattement spécifique), mais parler de 'taux le plus défavorable' peut être interprété comme une règle supplémentaire non prévue. Il faut reformuler précisément : 'le concubin n'est pas exonéré et ne bénéficie pas de l'abattement en ligne directe ; il est taxé comme un tiers.'",
+    "juridique_fiscal : Vérifier et corriger la mention sur la réintégration des donations (<15 ans) : indiquer explicitement que les donations antérieures sont prises en compte pour le calcul de la quotité recueillie et qu'elles consomment l'abattement (rappel de l'article 784) — la phrase actuelle est correcte mais gagnerait en précision.",
+    "completude : Manque de précision sur le barème : le script énonce les taux 5→45 % sans indiquer les bornes de tranches (même succinctes). Pour l'usage pédagogique, ajouter au moins les limites des premières et d'une grande tranche (ex. jusqu'à 8 072 € à 5 %) améliorerait la compréhension.",
+    "completude : L'exemple chiffré (600 000 € part d'un seul parent) est utile mais ne montre pas l'impôt final chiffré ou le fonctionnement par tranches ; un très court calcul numérique (montant final approximatif des droits) aiderait la compréhension sans alourdir la vidéo.",
+    "editorial : Hook et progression clairs, mais la durée estimée (42 s) doit être confirmée après ajout éventuel d'une phrase chiffrée dans l'exemple. La phrase 'Après abattement, la part reçue par un enfant est imposée au barème progressif de 5 % à 45 %' est correcte mais dense ; envisager fractionner en deux phrases pour la diction naturelle.",
+    "formulation_professionnelle : Quelques formulations pourraient être clarifiées pour un français naturel et professionnel : par exemple 'si les deux parents transmettent, l'enfant peut bénéficier de 200 000 euros d'abattement' → remplacer par 'si les deux parents transmettent, l'enfant bénéficie de 100 000 € par parent, soit 200 000 € au total' pour éviter le conditionnel imprécis.",
+    "formulation_professionnelle : La phrase 'Le conjoint et le partenaire de PACS sont exonérés' est correcte mais gagnerait à préciser 'totale­ment exonérés de droits de succession' pour lever toute ambiguïté.",
+    "contre_verification_finale : Incohérence mot à mot identifiée entre sections (voir 'source' et 'completude') concernant le seuil de la tranche à 45 % : le script et la fiche ne s'accordent pas sur le seuil applicable. Cela empêche une validation mot à mot.",
+    "contre_verification_finale : Vérifier l'alignement strict entre narration, visuels et texte écran : par ex. la narration dit '5 % à 45 %' alors que le tableau 'chiffres' précise 'Taux de la première tranche (jusqu'à 8 072 €)' — il faudrait assurer que si on garde cette précision chiffrée, elle soit reprise dans la voix off ou le texte écran.",
+    "coherence_pictogrammes : Le visuel proposé pour l'abattement ('Icône parent + enfant avec étiquette \"100 000 € / parent\"') est pertinent mais la mention à l'écran indique 'Abattement 100 000 € par parent (200 000 € si deux parents)'. Il faut s'assurer que l'icône illustre bien la somme totale possible pour éviter confusion (montrer deux parents ou deux étiquettes 100 000 € si on affiche 200 000 €).",
+    "coherence_pictogrammes : Le pictogramme horloge 15 ans est correct pour la notion de délai, mais il faudrait préciser sur l'écran que 'donations < 15 ans consomment l'abattement' pour correspondre exactement à la narration.",
+    "pedagogie_client : Le message principal est clair, mais un non-spécialiste pourrait rester avec la question 'combien ça donne en euros ?' après l'exemple. Ajouter un chiffre final indicatif (montant approximatif des droits pour l'exemple 600 000 €) améliorerait la pédagogie sans complexifier.",
+    "pedagogie_client : Le terme 'barème progressif par tranches' est correct mais mérite une très brève explication (ex. 'seules les portions qui dépassent chaque seuil sont taxées au taux supérieur') — cette phrase existe dans la fiche mais doit être rendue audible et visible pour un néophyte.",
+    "retention_attention : L'accroche est forte mais la répétition 'Après abattement...' en ouverture narration et en reponse peut être perçue comme redondante ; envisager une seconde phrase d'accroche différente ou une variante pour maintenir l'attention.",
+    "retention_attention : Le CTA est convenable, mais pour une Short l'appel à l'action pourrait être légèrement plus concis (ex. 'Prenez rendez-vous via le lien en bio').",
+    "conversion_confiance : Ton sérieux et sourcé, mais la présence d'incohérences chiffrées (seuil 45 %) affaiblit la confiance. Corriger l'incohérence et ajouter une mention très brève 'sources : CGI art. 777 et 779, BOFiP' dans l'écran final renforcera la crédibilité.",
+    "conversion_confiance : Éviter formulations ambiguës comme 'taux le plus défavorable' (voir 'juridique_fiscal') pour ne pas laisser d'impression approximative."
+  ],
+  "recommendations": [
+    "Corriger l'incohérence chiffrée : vérifier la valeur exacte du seuil d'entrée dans la tranche à 45 % (CGI art. 777 / BOFiP) et harmoniser la fiche, le script narratif et la section 'chiffres' (remplacer soit 552 324 € soit 1 805 677 € par la valeur correcte ou expliquer la différence si elle correspond à des notions différentes).",
+    "Préciser la formulation de l'abattement : remplacer '100 000 € par parent et par enfant' par '100 000 € par parent pour chaque enfant (soit 200 000 € si les deux parents transmettent)'.",
+    "Reformuler la phrase sur le concubinage : remplacer 'traité comme un tiers — avec le taux le plus défavorable' par 'ne bénéficie pas de l'exonération ni de l'abattement en ligne directe ; il est taxé comme un tiers.'",
+    "Ajouter très succinctement les bornes de tranches clés à l'écran ou dans la voix off (ex. '5 % jusqu'à 8 072 €') ou, si l'espace manque, inclure un lien/écran final vers la source BOFiP pour consulter le barème complet.",
+    "Dans l'exemple de 600 000 €, ajouter un calcul indicatif final montrant le montant approximatif des droits (ou une fourchette) pour rendre l'exemple immédiatement parlant.",
+    "Ajuster visuels/pictogrammes pour qu'ils reflètent mot à mot la narration : deux étiquettes '100 000 €' sur l'icône parents si l'écran affiche '200 000 € si deux parents', et ajouter sur l'écran la précision 'donations < 15 ans consomment l'abattement' à côté de l'icône horloge.",
+    "Affiner la diction pour la vidéo : fragmenter la phrase dense sur les taux en deux courtes phrases pour la prononciation et confirmer que la durée finale reste proche de 42 s.",
+    "Après corrections ci-dessus, lancer une seconde lecture mot à mot pour vérifier l'alignement intégral entre fiche, script, visuels et texte écran avant publication."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-28:shorts:succession_bareme_droits:1",
+  "script_path": "scripts/succession/succession_bareme_droits__shorts__a1__v3.md"
+}

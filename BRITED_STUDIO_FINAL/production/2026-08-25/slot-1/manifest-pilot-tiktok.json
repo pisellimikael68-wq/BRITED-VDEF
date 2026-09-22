@@ -1,0 +1,40 @@
+{
+  "date": "2026-08-25",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-25:tiktok:regimes_separation_de_biens:0",
+      "platform": "tiktok",
+      "title": "La séparation de biens et sa fausse sécurité",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_separation_de_biens__tiktok__a1__v6.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/tiktok/regimes_separation_de_biens__tiktok.mp4",
+      "duration": 33.43,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 89,
+        "seconds": 33.0,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-25:tiktok:regimes_separation_de_biens:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 9.5,
+        "review_path": "data/reviews/2026-08-25_tiktok_regimes_separation_de_biens_0-compact.json",
+        "validated_at": "2026-08-19T11:43:13"
+      },
+      "review_path": "data/reviews/2026-08-25_tiktok_regimes_separation_de_biens_0-compact.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/tiktok/regimes_separation_de_biens__tiktok.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/tiktok/regimes_separation_de_biens__tiktok.word-check.json"
+    }
+  ]
+}

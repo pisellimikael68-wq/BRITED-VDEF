@@ -1,0 +1,101 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Séparation de biens : votre patrimoine est il vraiment à l'abri ?",
+      "transcript": "Séparation de biens, votre patrimoine est-il vraiment à l'abri ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8919,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Selon vous, ce régime protège t il de toutes les dettes du ménage ?",
+      "transcript": "Selon vous, ce régime protège-t-il de toutes les dettes du ménage ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9333,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. Certaines dépenses peuvent encore engager les deux époux.",
+      "transcript": "Non, certaines dépenses peuvent encore engager les deux époux.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9697,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "L'article mille cinq cent trente-six sépare. Les biens. Mais l'article deux cent vingt rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+      "transcript": "L'article 1536 sépare les biens, mais l'article 220 rend les époux solidaires des dettes d'entretien du ménage ou d'éducation des enfants.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2034,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un loyer pris par un seul époux peut engager l'autre. Acheter la résidence principale ensemble crée aussi une indivision.",
+      "transcript": "Un loyer pris par un seul époux peut engager l'autre. Acheter la résidence principale ensemble crée aussi une indivision.",
+      "similarity": 0.9756,
+      "missing": [
+        "exemple"
+      ],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1481,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Sans preuve de propriété, l'article mille cinq cent trente-huit présume le bien indivis. Par moitié.",
+      "transcript": "Sans preuve de propriété, l'article 1538 présume le bien indivis, par moitié.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9529,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

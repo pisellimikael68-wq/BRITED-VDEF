@@ -1,0 +1,99 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Vous vous mariez sans contrat ?",
+      "transcript": "Vous vous mariez sans contrat ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8611,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Sans contrat, restez vous sans régime matrimonial ?",
+      "transcript": "Sans contrat, restez-vous sans régime matrimonial.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8947,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non. Le régime légal s'applique.",
+      "transcript": "Non, le régime légal s'applique.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8293,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Sans contrat, l'article mille quatre cents du Code civil prévoit la communauté réduite aux acquêts. Les biens acquis pendant le mariage sont communs ; les biens antérieurs, donations et successions restent propres.",
+      "transcript": "Sans contrat, l'article 1400 du Code civil prévoit la communauté réduite aux ackés. Les biens acquis pendant le mariage sont communs. Les biens antérieurs, donations et successions restent propres.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3377,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : les salaires perçus pendant le mariage alimentent la communauté, même sur un compte individuel. Un héritage reste propre, mais le mélange des fonds peut compliquer la preuve.",
+      "transcript": "Exemple, les salaires perçus pendant le mariage alimentent la communauté, même sur un compte individuel. Un héritage reste propre, mais le mélange des fonds peut compliquer la preuve.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3333,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "À la liquidation, l'actif commun net est partagé par moitié, après déduction du passif et règlement des comptes entre époux.",
+      "transcript": "A la liquidation, l'actif commun net est partagé par moitié, après déduction du passif et règlement des comptes entre époux.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1818,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

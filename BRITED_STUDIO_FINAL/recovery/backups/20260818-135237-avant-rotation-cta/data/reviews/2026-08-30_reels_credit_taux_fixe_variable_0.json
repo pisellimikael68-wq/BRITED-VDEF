@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 94,
+      "seconds": 34.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 94,
+        "seconds": 34.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "reels",
+      "source_hash": "ce57e7a83364e5867f266780a8bf80ad9f7bcce30fef5475aec112579e06ccdb",
+      "adapted_hash": "ce57e7a83364e5867f266780a8bf80ad9f7bcce30fef5475aec112579e06ccdb",
+      "source_beats": 7,
+      "adapted_pages": 8,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 40,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Préciser brièvement, si l'on veut renforcer la nuance, que certains contrats font varier la mensualité tandis que d'autres font varier la durée (le script évoque l'allongement de la durée mais ne signale pas explicitement l'alternative « variation de la mensualité »).",
+    "Optionnel : remplacer « capé plus un point » par la formulation exacte « capé +1 (plafond = taux initial + 1 point) » pour plus de clarté dans le format court.",
+    "S'assurer que la voix off reste concise et que la mention légale et les sources restent lisibles dans la description ou les écrans, pour respecter l'exigence de sourçage sans alourdir la narration."
+  ],
+  "reviewed_at": "2026-08-17T17:51:20",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-30:reels:credit_taux_fixe_variable:0",
+  "script_path": "scripts/credit_immobilier/credit_taux_fixe_variable__reels__a1.md"
+}

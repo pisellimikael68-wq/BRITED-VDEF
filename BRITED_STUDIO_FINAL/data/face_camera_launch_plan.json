@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "principle": "Reprise de la base éditoriale initiale, réordonnée du plus universel au plus spécialisé et adaptée à une présentation face caméra.",
+  "days": [
+    {
+      "date": "2026-09-01",
+      "theme": "Comprendre son argent au quotidien",
+      "topics": [
+        {"slot": 1, "concept_id": "impot_revenu_tranche_marginale", "title": "Une augmentation ne fait pas taxer tout votre salaire au taux supérieur", "audience": "Tous les actifs"},
+        {"slot": 2, "concept_id": "culture_interets_composes", "title": "Intérêts composés : commencer tôt compte plus que commencer avec beaucoup", "audience": "Tout le monde"}
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "theme": "Les vérifications simples qui évitent de mauvaises surprises",
+      "topics": [
+        {"slot": 1, "concept_id": "retraite_releve_carriere", "title": "Une erreur sur votre relevé de carrière peut réduire votre retraite", "audience": "Tous les actifs"},
+        {"slot": 2, "concept_id": "retraite_pension_reversion", "title": "La pension de réversion n'est pas automatique dans toutes les situations", "audience": "Couples et familles"}
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "theme": "Se protéger quand le revenu s'arrête",
+      "topics": [
+        {"slot": 1, "concept_id": "protection_sociale_invalidite", "title": "Un arrêt de travail peut fragiliser votre budget plus vite que prévu", "audience": "Tous les actifs"},
+        {"slot": 2, "concept_id": "protection_sociale_indemnites_journalieres", "title": "Votre salaire n'est pas forcément maintenu pendant un arrêt de travail", "audience": "Tous les actifs"}
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "theme": "Ce que votre vie de couple change pour votre patrimoine",
+      "topics": [
+        {"slot": 1, "concept_id": "regimes_communaute_par_defaut", "title": "Se marier sans contrat, c'est déjà choisir un régime", "audience": "Couples mariés ou futurs mariés"},
+        {"slot": 2, "concept_id": "regimes_pacs_concubinage", "title": "PACS et concubinage ne protègent pas de la même manière", "audience": "Couples"}
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "theme": "Les règles de retraite à connaître avant qu'il ne soit trop tard",
+      "topics": [
+        {"slot": 1, "concept_id": "retraite_trimestres_validation", "title": "Un trimestre de retraite ne dépend pas du nombre de mois travaillés", "audience": "Tous les actifs"},
+        {"slot": 2, "concept_id": "retraite_decote_surcote", "title": "Partir un trimestre trop tôt peut réduire durablement votre retraite", "audience": "Actifs et futurs retraités"}
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "theme": "Organiser la suite de sa vie professionnelle",
+      "topics": [
+        {"slot": 1, "concept_id": "retraite_cumul_emploi_retraite", "title": "Peut-on travailler tout en touchant sa retraite ?", "audience": "Actifs et retraités"},
+        {"slot": 2, "concept_id": "per_sortie_capital_rente", "title": "PER : faut-il sortir en capital ou en rente ?", "audience": "Épargnants et futurs retraités"}
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "theme": "Les choix de couple à anticiper",
+      "topics": [
+        {"slot": 1, "concept_id": "regimes_separation_de_biens", "title": "La séparation de biens ne protège pas de tout", "audience": "Couples mariés"},
+        {"slot": 2, "concept_id": "regimes_changement", "title": "Peut-on changer de régime matrimonial en cours de mariage ?", "audience": "Couples mariés"}
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "theme": "Patrimoine immobilier et fiscalité",
+      "topics": [
+        {"slot": 1, "concept_id": "ifi_seuil_declenchement", "title": "À partir de quand faut-il déclarer l'IFI ?", "audience": "Propriétaires immobiliers"},
+        {"slot": 2, "concept_id": "ifi_dettes_deductibles", "title": "Toutes vos dettes ne réduisent pas forcément l'IFI", "audience": "Propriétaires concernés par l'IFI"}
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "theme": "Situations professionnelles et internationales",
+      "topics": [
+        {"slot": 1, "concept_id": "fiscalite_internationale_residence", "title": "Partir vivre à l'étranger ne suffit pas toujours à changer de résidence fiscale", "audience": "Personnes mobiles à l'international"},
+        {"slot": 2, "concept_id": "patrimoine_pro_cession_dirigeant", "title": "Dirigeant partant à la retraite : l'abattement à connaître", "audience": "Dirigeants d'entreprise"}
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "theme": "Sujets spécialisés",
+      "topics": [
+        {"slot": 1, "concept_id": "holding_animatrice", "title": "Holding animatrice : pourquoi cette qualification change tout", "audience": "Dirigeants et associés"},
+        {"slot": 2, "concept_id": "or_fiscalite_metaux_precieux", "title": "Revendre de l'or : quelle fiscalité s'applique ?", "audience": "Détenteurs de métaux précieux"},
+        {"slot": 3, "concept_id": "cryptoactifs_fiscalite_cessions", "title": "Cryptoactifs : quels échanges déclenchent une imposition ?", "audience": "Détenteurs de cryptoactifs"}
+      ]
+    }
+  ]
+}

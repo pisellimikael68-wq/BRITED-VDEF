@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-01",
+  "slot": 2,
+  "status": "scripts_ready",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-01:shorts:cryptoactifs_fiscalite_cessions:1",
+      "platform": "shorts",
+      "title": "Échanger une crypto contre une autre n'est pas imposable",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/cryptoactifs/cryptoactifs_fiscalite_cessions__shorts__a1__v10.md",
+      "video": "",
+      "script_sha256": "07a839a4629defd551b34cf3bbb0d54ed9c6b75a2ae78d283347ff3045795181",
+      "spec_sha256": "bee2d40e915827f11437326d17aab3352c4edd139d4289620c54d09ca9fa5d29",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 43.7,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 118,
+        "seconds": 43.7,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-01:shorts:cryptoactifs_fiscalite_cessions:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+        "validated_at": "2026-09-01T16:44:04"
+      },
+      "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-09-01:reels:cryptoactifs_fiscalite_cessions:1",
+      "platform": "reels",
+      "title": "Échanger une crypto contre une autre n'est pas imposable",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/cryptoactifs/cryptoactifs_fiscalite_cessions__shorts__a1__v10.md",
+      "video": "",
+      "script_sha256": "07a839a4629defd551b34cf3bbb0d54ed9c6b75a2ae78d283347ff3045795181",
+      "spec_sha256": "de8d38a7107b913a405f7f2da9a6ffe4f6d56822e040bf9708532a8857ca3a55",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "reels",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 43.7,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 118,
+        "seconds": 43.7,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-01:shorts:cryptoactifs_fiscalite_cessions:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+        "validated_at": "2026-09-01T16:44:04"
+      },
+      "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "instagram",
+        "facebook"
+      ],
+      "delivery_profile": "reels",
+      "shared_identical_video": false,
+      "facebook_delivery_mode": "instagram_crosspost"
+    },
+    {
+      "publication_id": "2026-09-01:tiktok:cryptoactifs_fiscalite_cessions:1",
+      "platform": "tiktok",
+      "title": "Échanger une crypto contre une autre n'est pas imposable",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/cryptoactifs/cryptoactifs_fiscalite_cessions__shorts__a1__v10.md",
+      "video": "",
+      "script_sha256": "07a839a4629defd551b34cf3bbb0d54ed9c6b75a2ae78d283347ff3045795181",
+      "spec_sha256": "6e2f3a5b024db13a1cb27bc3c35e863c8ad5409943853104e2b80847cefe7bad",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "tiktok",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 43.7,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 118,
+        "seconds": 43.7,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-01:shorts:cryptoactifs_fiscalite_cessions:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+        "validated_at": "2026-09-01T16:44:04"
+      },
+      "review_path": "data/reviews/2026-09-01_shorts_cryptoactifs_fiscalite_cessions_1.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "tiktok"
+      ],
+      "delivery_profile": "tiktok",
+      "shared_identical_video": false
+    }
+  ]
+}

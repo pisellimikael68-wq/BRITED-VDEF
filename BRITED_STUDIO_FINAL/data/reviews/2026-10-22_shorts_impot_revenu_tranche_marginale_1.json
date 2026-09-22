@@ -1,0 +1,169 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.12,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source BRITED est bien respectée globalement, mais le script utilise l'expression « tranche à 30 % » sans préciser que ce taux est celui du barème 2026 ; la règle « ne jamais citer de seuil sans vérification » s'applique aussi aux taux si datation contextuelle est pertinente. Localisation : Beat 4 (exemple) et narration continue — ajouter « (ex. : tranche à 30 % selon le barème) » ou dater l'exemple si on veut citer l'année."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu juridique est exact sur le principe de progressivité (CGI art.197) et la distinction impôt/prestations sociales. Toutefois, l'assertion « il n'existe aucun seuil du barème au franchissement duquel le net diminue » devrait être accompagnée d'une phrase de garde explicite rappelant que la perte possible peut provenir d'autres mécanismes fiscaux (crédits, réductions) ou sociaux qui ne relèvent pas du barème. Localisation : Beat 2 et narration continue — ajouter une phrase brève mentionnant « hors mesures particulières (crédits, réductions) » pour éviter toute sur-généralisation."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (1 000 € → -300 € = +700 €) est pertinent, mais il manque une phrase très courte expliquant la différence entre taux marginal et taux moyen lorsque le script évoque le prélèvement à la source. Localisation : Beat 5 (nuance) et narration — ajouter « le prélèvement à la source reflète un taux moyen calculé sur l'ensemble du revenu, pas le taux marginal » pour clarté."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'ordre des séquences et la durée estimée (42 s) semble plausible, cependant la première 2 secondes doivent être vérifiées en tournage pour assurer que l'accroche est suffisamment percutante. Localisation : Beat 1 (hook) — suggérer d'augmenter l'intensité verbale ou visuelle dans les 2 premières secondes si nécessaire."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est claire et ton direct, mais il existe une légère incohérence visuelle/verbale dans Beat 2 : la ligne indique « Case NON cochée, pouce levé » — montrer un pouce levé en même temps qu'une case NON cochée peut prêter à confusion. Localisation : Beat 2 (visuel) — remplacer le pouce levé par un symbole neutre (croix rouge) ou cocher une case OUI si on conserve le pouce levé."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrasé généralement professionnel, mais la phrase « Concrètement, mille euros supplémentaires soumis à la tranche à 30 % font augmenter l'impôt de 300 euros, il reste donc 700 euros nets. » est un peu lourde ; suggérer de scinder en deux phrases pour la diction. Localisation : Beat 4 / narration continue — reformulation proposée : « Concrètement : 1 000 € supplémentaires, taxés à 30 % sur la fraction concernée, entraînent 300 € d'impôt. Il reste donc 700 € nets. »"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Petite incohérence de cohérence question-réponse : le CTA propose « Prenez rendez-vous via le lien dans ma bio », conformité OK, mais la mention légale en bas du script « Ne constitue ni un conseil... » doit être audible/visible — prévoir un bandeau ou un texte écran très bref pour la vidéo. Localisation : CTA / Mention finale — recommander d'ajouter un micro-bandeau de 2–3 mots : « Contenu général, non personnalisé ». "
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes risquent d'être ambigus ou contradictoires : Beat 2 (case NON cochée + pouce levé) est contradictoire ; Beat 5 (Balance impôt/prestation, signal d'alerte) est pertinent mais doit clairement montrer perte possible de prestation (icône portefeuille ou maison) pour éviter confusion. Localisation : Beat 2 et Beat 5 — remplacer ou clarifier les pictogrammes : utiliser une croix rouge pour 'Non' et pour Beat 5 montrer une icône d'aide sociale avec une flèche descendante et un triangle d'alerte."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et reste concise. Petite suggestion : intégrer en une courte phrase la précision sur le prélèvement à la source (taux moyen vs taux marginal) sans alourdir la durée. Localisation : Beat 5 (nuance) — ajouter max 4 mots : « le PAS est un taux moyen ». "
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible, mais le public non spécialiste peut confondre 'tranche' et 'taux marginal' ; recommander une micro-définition ultra-brève au moment de l'explication des tranches (« la 'tranche' = la part de revenu concernée »). Localisation : Beat 3 (règle) — insérer une phrase de 3–4 mots explicative."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est bonne, mais pour maximiser rétention, remplacer la question initiale par une version plus directe et urgente (ex. « Une augmentation peut-elle vous faire perdre de l'argent ? ») et s'assurer que l'exemple chiffré arrive avant la nuance pour garder l'attention. Localisation : Beat 1 (hook) et ordre des beats — proposer d'avancer l'exemple (Beat 4) juste après la règle (Beat 3) et déplacer la nuance en 5 comme prévu."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu inspire confiance mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut paraître commercial si trop insistant ; proposer d'adoucir : 'Pour un point personnalisé, rendez-vous via le lien dans ma bio.' Localisation : Beat 6 (CTA) — reformulation recommandée."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source BRITED est bien respectée globalement, mais le script utilise l'expression « tranche à 30 % » sans préciser que ce taux est celui du barème 2026 ; la règle « ne jamais citer de seuil sans vérification » s'applique aussi aux taux si datation contextuelle est pertinente. Localisation : Beat 4 (exemple) et narration continue — ajouter « (ex. : tranche à 30 % selon le barème) » ou dater l'exemple si on veut citer l'année.",
+    "juridique_fiscal : Le contenu juridique est exact sur le principe de progressivité (CGI art.197) et la distinction impôt/prestations sociales. Toutefois, l'assertion « il n'existe aucun seuil du barème au franchissement duquel le net diminue » devrait être accompagnée d'une phrase de garde explicite rappelant que la perte possible peut provenir d'autres mécanismes fiscaux (crédits, réductions) ou sociaux qui ne relèvent pas du barème. Localisation : Beat 2 et narration continue — ajouter une phrase brève mentionnant « hors mesures particulières (crédits, réductions) » pour éviter toute sur-généralisation.",
+    "completude : L'exemple chiffré (1 000 € → -300 € = +700 €) est pertinent, mais il manque une phrase très courte expliquant la différence entre taux marginal et taux moyen lorsque le script évoque le prélèvement à la source. Localisation : Beat 5 (nuance) et narration — ajouter « le prélèvement à la source reflète un taux moyen calculé sur l'ensemble du revenu, pas le taux marginal » pour clarté.",
+    "plateforme : Le script respecte l'ordre des séquences et la durée estimée (42 s) semble plausible, cependant la première 2 secondes doivent être vérifiées en tournage pour assurer que l'accroche est suffisamment percutante. Localisation : Beat 1 (hook) — suggérer d'augmenter l'intensité verbale ou visuelle dans les 2 premières secondes si nécessaire.",
+    "editorial : La formulation est claire et ton direct, mais il existe une légère incohérence visuelle/verbale dans Beat 2 : la ligne indique « Case NON cochée, pouce levé » — montrer un pouce levé en même temps qu'une case NON cochée peut prêter à confusion. Localisation : Beat 2 (visuel) — remplacer le pouce levé par un symbole neutre (croix rouge) ou cocher une case OUI si on conserve le pouce levé.",
+    "formulation_professionnelle : Phrasé généralement professionnel, mais la phrase « Concrètement, mille euros supplémentaires soumis à la tranche à 30 % font augmenter l'impôt de 300 euros, il reste donc 700 euros nets. » est un peu lourde ; suggérer de scinder en deux phrases pour la diction. Localisation : Beat 4 / narration continue — reformulation proposée : « Concrètement : 1 000 € supplémentaires, taxés à 30 % sur la fraction concernée, entraînent 300 € d'impôt. Il reste donc 700 € nets. »",
+    "contre_verification_finale : Petite incohérence de cohérence question-réponse : le CTA propose « Prenez rendez-vous via le lien dans ma bio », conformité OK, mais la mention légale en bas du script « Ne constitue ni un conseil... » doit être audible/visible — prévoir un bandeau ou un texte écran très bref pour la vidéo. Localisation : CTA / Mention finale — recommander d'ajouter un micro-bandeau de 2–3 mots : « Contenu général, non personnalisé ». ",
+    "coherence_pictogrammes : Plusieurs pictogrammes risquent d'être ambigus ou contradictoires : Beat 2 (case NON cochée + pouce levé) est contradictoire ; Beat 5 (Balance impôt/prestation, signal d'alerte) est pertinent mais doit clairement montrer perte possible de prestation (icône portefeuille ou maison) pour éviter confusion. Localisation : Beat 2 et Beat 5 — remplacer ou clarifier les pictogrammes : utiliser une croix rouge pour 'Non' et pour Beat 5 montrer une icône d'aide sociale avec une flèche descendante et un triangle d'alerte.",
+    "densite_editoriale : La vidéo traite un seul angle et reste concise. Petite suggestion : intégrer en une courte phrase la précision sur le prélèvement à la source (taux moyen vs taux marginal) sans alourdir la durée. Localisation : Beat 5 (nuance) — ajouter max 4 mots : « le PAS est un taux moyen ». ",
+    "pedagogie_client : Globalement compréhensible, mais le public non spécialiste peut confondre 'tranche' et 'taux marginal' ; recommander une micro-définition ultra-brève au moment de l'explication des tranches (« la 'tranche' = la part de revenu concernée »). Localisation : Beat 3 (règle) — insérer une phrase de 3–4 mots explicative.",
+    "retention_attention : L'accroche est bonne, mais pour maximiser rétention, remplacer la question initiale par une version plus directe et urgente (ex. « Une augmentation peut-elle vous faire perdre de l'argent ? ») et s'assurer que l'exemple chiffré arrive avant la nuance pour garder l'attention. Localisation : Beat 1 (hook) et ordre des beats — proposer d'avancer l'exemple (Beat 4) juste après la règle (Beat 3) et déplacer la nuance en 5 comme prévu.",
+    "conversion_confiance : Contenu inspire confiance mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut paraître commercial si trop insistant ; proposer d'adoucir : 'Pour un point personnalisé, rendez-vous via le lien dans ma bio.' Localisation : Beat 6 (CTA) — reformulation recommandée."
+  ],
+  "recommendations": [
+    "Visuel Beat 2 : corriger l'incohérence (ne pas montrer pouce levé avec case 'NON' cochée). Préférer une croix rouge, un titre 'Non' en clair, ou conserver le pouce levé mais associer à 'Oui'.",
+    "Ajouter une micro-précision sur le prélèvement à la source (PAS) expliquant qu'il reflète un taux moyen et non le taux marginal — insérer 3–4 mots dans Beat 5 ou Beat 3.",
+    "Alléger la phrase chiffrée en deux courtes phrases pour faciliter la diction et la compréhension orale (Beat 4). Exemple de reformulation : 'Concrètement : 1 000 € supplémentaires entraînent 300 € d'impôt. Il reste donc 700 € nets.'",
+    "Ajouter une très brève mention audible ou en bandeau : 'Contenu général, non personnalisé' pour couvrir la mention légale sans alourdir la vidéo.",
+    "Clarifier pictogrammes de Beat 5 pour illustrer clairement la perte possible d'aides sociales (icône portefeuille/maison + flèche descendante + triangle d'alerte).",
+    "Adoucir le CTA pour éviter toute impression trop commerciale : 'Pour un point personnalisé, prenez rendez‑vous via le lien dans ma bio.'",
+    "Optionnel : préciser la référence temporelle si un taux ou seuil du barème est cité (par ex. 'tranche à 30 % selon le barème 2026') afin de respecter la règle de ne pas citer de seuils non vérifiés."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-22:shorts:impot_revenu_tranche_marginale:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_tranche_marginale__shorts__a3__v7.md"
+}

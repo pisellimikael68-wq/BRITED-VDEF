@@ -1,0 +1,177 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est respectée globalement, mais la narration contient une faute de frappe (« limit er ») altérant le mot « limiter » (Beat 2 et Narration continuous). Correction localisable à la ligne de narration continue et au Beat 2 du script.",
+        "La narration est dupliquée deux fois à la fin du document (deux blocs « Narration continue » identiques), ce qui crée une redondance inutile et peut induire une répétition dans la vidéo."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est pertinent mais gagnerait à préciser que l'acceptation à concurrence de l'actif net nécessite l'inventaire et la procédure (référence au Beat 3) pour éviter toute impression de simplicité. Localisable au Beat 4 (Exemple) où l'on affirme l'effet sans rappeler la procédure."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 42 secondes : plausible mais non justifiée phrase par phrase ; vérifier rythme de lecture (42 s) lors du montage. Localisable à l'entête Plateforme / Durée estimée.",
+        "YouTube Shorts impose un format très court et visuels très lisibles : le script comporte beaucoup d'éléments textuels pour un écran court (Beat 3 et 5) — recommande condenser le texte écran pour lisibilité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression efficaces, mais le CTA (« lien dans ma bio ») est acceptable ; vérifier conformité commerciale si applicable. Localisable au Beat 6.",
+        "La phrase « Accepter, renoncer ou accepter à concurrence de l'actif net pour limit er les dettes » contient la faute de frappe « limit er » provoquant rupture de fluidité (Narration continuous & Beat 2)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Erreur typographique « limit er » nuisant au français naturel (voir observations précédentes). Localisable dans la narration continue et Beat 2.",
+        "La phrase « accepter à concurrence de l'actif net pour limit er les dettes à la succession » pourrait être reformulée plus naturellement en « ...pour limiter les dettes au montant de la succession » (Beat 2 / Narration)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Double présence de la section « Narration continue » (identiques) — amorce d'un contrôle incomplet (redondance). Localisable à la fin du document où la narration est répétée intégralement.",
+        "Manque un rappel explicite dans la narration que les frais funéraires et obligations alimentaires peuvent subsister (contenu présent dans 'a_ne_pas_dire') — omission potentiellement dangereuse si l'auditeur comprend la renonciation comme effaçant toute obligation. Localisable dans la narration continue et Beat 5 où il serait prudent d'ajouter une courte nuance."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Généralement cohérent, mais le visuel proposé pour le Beat 4 (« tableau actif/dettes, bouclier protégeant patrimoine ») doit montrer clairement que le bouclier limite la responsabilité à l'actif et non qu'il annule les dettes. Risque d'ambiguïté visuelle ; localisable au Beat 4.",
+        "Beat 5 propose une icône main vendant un meuble barrée : veiller à ce que l'icône illustre 'disposer = acceptation tacite' et non un simple interdit décoratif."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Explication claire mais utiliser un mot plus simple que « accepter à concurrence de l'actif net » une fois expliqué — proposer brièvement \"limiter les dettes à ce qu'il y a dans la succession\" pour un non-spécialiste. Localisable au Beat 2 et Beat 4.",
+        "Absence d'une très brève mention que renoncer fait « passer » la part aux descendants (représentation) — utile et sûr pour le public. Localisable au Beat 2/nuance."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais les deux premières secondes doivent être visuellement percutantes ; le script propose un gros plan pictogramme interrogation — conseiller d'ajouter un mot ou chiffre clé dans le visuel (ex. « dettes ? »). Localisable au Beat 1.",
+        "La densité d'informations (articles, délai, prescription, procédure) est élevée pour un format court ; risque de surcharge auditive au visionnage unique — localisable dans Beats 3 et 5."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est respectée globalement, mais la narration contient une faute de frappe (« limit er ») altérant le mot « limiter » (Beat 2 et Narration continuous). Correction localisable à la ligne de narration continue et au Beat 2 du script.",
+    "source : La narration est dupliquée deux fois à la fin du document (deux blocs « Narration continue » identiques), ce qui crée une redondance inutile et peut induire une répétition dans la vidéo.",
+    "completude : L'exemple chiffré est pertinent mais gagnerait à préciser que l'acceptation à concurrence de l'actif net nécessite l'inventaire et la procédure (référence au Beat 3) pour éviter toute impression de simplicité. Localisable au Beat 4 (Exemple) où l'on affirme l'effet sans rappeler la procédure.",
+    "plateforme : Durée estimée 42 secondes : plausible mais non justifiée phrase par phrase ; vérifier rythme de lecture (42 s) lors du montage. Localisable à l'entête Plateforme / Durée estimée.",
+    "plateforme : YouTube Shorts impose un format très court et visuels très lisibles : le script comporte beaucoup d'éléments textuels pour un écran court (Beat 3 et 5) — recommande condenser le texte écran pour lisibilité.",
+    "editorial : Hook et progression efficaces, mais le CTA (« lien dans ma bio ») est acceptable ; vérifier conformité commerciale si applicable. Localisable au Beat 6.",
+    "editorial : La phrase « Accepter, renoncer ou accepter à concurrence de l'actif net pour limit er les dettes » contient la faute de frappe « limit er » provoquant rupture de fluidité (Narration continuous & Beat 2).",
+    "formulation_professionnelle : Erreur typographique « limit er » nuisant au français naturel (voir observations précédentes). Localisable dans la narration continue et Beat 2.",
+    "formulation_professionnelle : La phrase « accepter à concurrence de l'actif net pour limit er les dettes à la succession » pourrait être reformulée plus naturellement en « ...pour limiter les dettes au montant de la succession » (Beat 2 / Narration).",
+    "contre_verification_finale : Double présence de la section « Narration continue » (identiques) — amorce d'un contrôle incomplet (redondance). Localisable à la fin du document où la narration est répétée intégralement.",
+    "contre_verification_finale : Manque un rappel explicite dans la narration que les frais funéraires et obligations alimentaires peuvent subsister (contenu présent dans 'a_ne_pas_dire') — omission potentiellement dangereuse si l'auditeur comprend la renonciation comme effaçant toute obligation. Localisable dans la narration continue et Beat 5 où il serait prudent d'ajouter une courte nuance.",
+    "coherence_pictogrammes : Généralement cohérent, mais le visuel proposé pour le Beat 4 (« tableau actif/dettes, bouclier protégeant patrimoine ») doit montrer clairement que le bouclier limite la responsabilité à l'actif et non qu'il annule les dettes. Risque d'ambiguïté visuelle ; localisable au Beat 4.",
+    "coherence_pictogrammes : Beat 5 propose une icône main vendant un meuble barrée : veiller à ce que l'icône illustre 'disposer = acceptation tacite' et non un simple interdit décoratif.",
+    "pedagogie_client : Explication claire mais utiliser un mot plus simple que « accepter à concurrence de l'actif net » une fois expliqué — proposer brièvement \"limiter les dettes à ce qu'il y a dans la succession\" pour un non-spécialiste. Localisable au Beat 2 et Beat 4.",
+    "pedagogie_client : Absence d'une très brève mention que renoncer fait « passer » la part aux descendants (représentation) — utile et sûr pour le public. Localisable au Beat 2/nuance.",
+    "retention_attention : Hook fort mais les deux premières secondes doivent être visuellement percutantes ; le script propose un gros plan pictogramme interrogation — conseiller d'ajouter un mot ou chiffre clé dans le visuel (ex. « dettes ? »). Localisable au Beat 1.",
+    "retention_attention : La densité d'informations (articles, délai, prescription, procédure) est élevée pour un format court ; risque de surcharge auditive au visionnage unique — localisable dans Beats 3 et 5."
+  ],
+  "recommendations": [
+    "Corriger la faute de frappe « limit er » en « limiter » dans la narration continue et au Beat 2.",
+    "Supprimer la duplication de la section « Narration continue » (il y a deux blocs identiques) pour éviter répétition et confusion lors du tournage/montage.",
+    "Au Beat 4 (Exemple), ajouter une courte mention rappelant que l'acceptation à concurrence de l'actif net implique l'inventaire et la procédure (rappel du Beat 3) : ex. « (procédure encadrée : inventaire, déclarations) ».",
+    "Au Beat 5, ajouter très brièvement que la renonciation n'efface pas nécessairement certaines obligations comme les frais funéraires ou les obligations alimentaires, ou au minimum éviter toute formulation laissant croire que renoncer supprime toute obligation. Localisable à la nuance / Beat 5.",
+    "Adapter les textes écran pour YouTube Shorts : simplifier les formulations longues (Beat 3 et 5) afin qu'elles restent lisibles 2–3 secondes à l'écran. Par exemple, remplacer « Article 768 — Article 791 : déclaration, inventaire, publicités » par « Art. 768/791 : déclaration, inventaire, publicité ».",
+    "Clarifier visuel du Beat 4 : montrer explicitement que le bouclier limite la responsabilité au montant de l'actif (par exemple texte court « pas de dettes sur votre patrimoine ») pour éviter interprétation erronée.",
+    "Ajouter une toute petite phrase ou icône au Beat 2 rappelant que la renonciation transmet la part aux enfants (représentation) afin d'éviter l'idée que renoncer protège automatiquement la branche suivante.",
+    "Vérifier en répétition chronométrée que la narration tient bien dans 42 secondes en lecture naturelle ; si dépassement, réduire ou simplifier Beat 3/5."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-04:shorts:succession_option_heritier:1",
+  "script_path": "scripts/succession/succession_option_heritier__shorts__a2__v5.md"
+}

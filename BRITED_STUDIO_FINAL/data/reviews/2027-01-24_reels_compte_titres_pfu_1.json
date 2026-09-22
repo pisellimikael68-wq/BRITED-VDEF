@@ -1,0 +1,187 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source mais omet d'expliciter que, en cas d'option pour le barème, les prélèvements sociaux (17,2 %) restent dus : le texte présente le PFU = 30 % (12,8 % + 17,2 %) mais ne précise clairement que l'option pour le barème ne supprime pas la part sociale. Cette omission peut conduire à une interprétation erronée."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Manque d'une précision juridique importante : quand le contribuable opte pour le barème, seules les composantes d'impôt sur le revenu sont soumises au barème — les prélèvements sociaux restent exigibles à 17,2 %. Le script ne l'énonce pas explicitement.",
+        "Il conviendrait aussi de préciser brièvement que l'option, si exercée, est globale pour tous les revenus du capital du foyer pour l'année (la fiche le dit, mais l'explicitation fiscale liée aux conséquences n'est pas suffisamment mise en avant)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "L'exemple utile (tranche 0 % / 11 %) est présent mais n'indique pas explicitement le mode de calcul comparatif en incluant ou non les prélèvements sociaux lors de l'option pour le barème ; cela peut laisser penser que le barème supprime les prélèvements sociaux.",
+        "Aucune mention que l'option s'exerce annuellement sur la déclaration et qu'elle est irrévocable pour l'année une fois exercée (formulation à renforcer)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reels et la durée estimée (38 s) sont respectés, mais la durée exacte doit être vérifiée lors de la mise en voix/rythme : le texte narratif risque d'excéder 38 s si lu à un débit de parole moyen.",
+        "Le premier beat (hook) est fort, mais la question OUI/NON suivie d'une réponse 'Non' pourrait créer une micro-confusion visuelle si l'animation n'est pas très claire."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton direct et clair, mais la phrase 'Non : l'option peut coûter moins selon votre tranche.' est ambiguë (on attendrait 'Oui' à la question 'Dois-je cocher la case ?' selon le point de vue). Il faut reformuler pour éviter l'ambiguïté entre la question binaire et la nuance fournie.",
+        "Le CTA est correct mais pourrait spécifier qu'il s'agit d'une analyse fiscale personnalisée (sans conseil) pour renforcer la conversion en rendez-vous."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible mais certaines formulations gagneraient en précision : par exemple remplacer 'Non — l'option peut coûter moins selon votre tranche' par 'Pas forcément — selon votre tranche, le barème peut être moins coûteux'.",
+        "Vérifier la fluidité à l'oral pour tenir la durée annoncée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre question-réponse visuelle (OUI/NON) et la formulation de la réponse qui peut prêter à confusion.",
+        "Vérifier mot à mot la concordance entre narratif et texte écran sur chaque beat (par ex. le beat 3 affiche 'Non — l'option peut coûter moins selon votre tranche' mais la logique pédagogique demande 'Pas forcément' ou 'Pas toujours')."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés correspondent globalement aux notions, mais s'assurer que l'icône '30 %' et le pictogramme 'balance impôt' ne soient pas interprétés comme des conseils visuels (par ex. éviter un pictogramme 'signe +/−' ambigu pour l'exemple).",
+        "Le schéma 30 % = 12,8 % + 17,2 % doit être lisible et non surchargé : vérifier contraste et taille sur petit écran."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo cible un seul angle mais omet la précision essentielle sur le maintien des prélèvements sociaux lors de l'option pour le barème, ce qui est une omission dangereuse pour la densité pédagogique requise."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, il manque l'information que les prélèvements sociaux restent dus même en cas d'option pour le barème et qu'il faut simuler l'ensemble des revenus du foyer. L'exemple chiffré est succinct ; un chiffre final comparé (net après sociaux) aiderait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace. Toutefois la question OUI/NON suivie d'une réponse 'Non' risque de provoquer un court flottement cognitif si l'exécution visuelle n'est pas très claire — risque de perte d'attention dans les 2 premières secondes.",
+        "Le rythme narratif doit être mesuré pour tenir 38 s sans précipitation ni omettre la précision sur les prélèvements sociaux."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est pertinent et professionnel, mais la mention légale ('Contenu pédagogique général...') est doublée en fin de fiche et en légende : à l'écran, il faudrait une version courte et lisible pour ne pas diluer la confiance.",
+        "Renforcer l'invite en rappelant la gratuité ou nature de l'audit (si applicable) éviterait une impression commerciale excessive."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 99,
+      "seconds": 36.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 99,
+        "seconds": 36.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source mais omet d'expliciter que, en cas d'option pour le barème, les prélèvements sociaux (17,2 %) restent dus : le texte présente le PFU = 30 % (12,8 % + 17,2 %) mais ne précise clairement que l'option pour le barème ne supprime pas la part sociale. Cette omission peut conduire à une interprétation erronée.",
+    "juridique_fiscal : Manque d'une précision juridique importante : quand le contribuable opte pour le barème, seules les composantes d'impôt sur le revenu sont soumises au barème — les prélèvements sociaux restent exigibles à 17,2 %. Le script ne l'énonce pas explicitement.",
+    "juridique_fiscal : Il conviendrait aussi de préciser brièvement que l'option, si exercée, est globale pour tous les revenus du capital du foyer pour l'année (la fiche le dit, mais l'explicitation fiscale liée aux conséquences n'est pas suffisamment mise en avant).",
+    "completude : L'exemple utile (tranche 0 % / 11 %) est présent mais n'indique pas explicitement le mode de calcul comparatif en incluant ou non les prélèvements sociaux lors de l'option pour le barème ; cela peut laisser penser que le barème supprime les prélèvements sociaux.",
+    "completude : Aucune mention que l'option s'exerce annuellement sur la déclaration et qu'elle est irrévocable pour l'année une fois exercée (formulation à renforcer).",
+    "plateforme : Le format Reels et la durée estimée (38 s) sont respectés, mais la durée exacte doit être vérifiée lors de la mise en voix/rythme : le texte narratif risque d'excéder 38 s si lu à un débit de parole moyen.",
+    "plateforme : Le premier beat (hook) est fort, mais la question OUI/NON suivie d'une réponse 'Non' pourrait créer une micro-confusion visuelle si l'animation n'est pas très claire.",
+    "editorial : Ton direct et clair, mais la phrase 'Non : l'option peut coûter moins selon votre tranche.' est ambiguë (on attendrait 'Oui' à la question 'Dois-je cocher la case ?' selon le point de vue). Il faut reformuler pour éviter l'ambiguïté entre la question binaire et la nuance fournie.",
+    "editorial : Le CTA est correct mais pourrait spécifier qu'il s'agit d'une analyse fiscale personnalisée (sans conseil) pour renforcer la conversion en rendez-vous.",
+    "formulation_professionnelle : Le français est naturel et compréhensible mais certaines formulations gagneraient en précision : par exemple remplacer 'Non — l'option peut coûter moins selon votre tranche' par 'Pas forcément — selon votre tranche, le barème peut être moins coûteux'.",
+    "formulation_professionnelle : Vérifier la fluidité à l'oral pour tenir la durée annoncée.",
+    "contre_verification_finale : Incohérence mineure entre question-réponse visuelle (OUI/NON) et la formulation de la réponse qui peut prêter à confusion.",
+    "contre_verification_finale : Vérifier mot à mot la concordance entre narratif et texte écran sur chaque beat (par ex. le beat 3 affiche 'Non — l'option peut coûter moins selon votre tranche' mais la logique pédagogique demande 'Pas forcément' ou 'Pas toujours').",
+    "coherence_pictogrammes : Les pictogrammes proposés correspondent globalement aux notions, mais s'assurer que l'icône '30 %' et le pictogramme 'balance impôt' ne soient pas interprétés comme des conseils visuels (par ex. éviter un pictogramme 'signe +/−' ambigu pour l'exemple).",
+    "coherence_pictogrammes : Le schéma 30 % = 12,8 % + 17,2 % doit être lisible et non surchargé : vérifier contraste et taille sur petit écran.",
+    "densite_editoriale : La vidéo cible un seul angle mais omet la précision essentielle sur le maintien des prélèvements sociaux lors de l'option pour le barème, ce qui est une omission dangereuse pour la densité pédagogique requise.",
+    "pedagogie_client : Pour un non-spécialiste, il manque l'information que les prélèvements sociaux restent dus même en cas d'option pour le barème et qu'il faut simuler l'ensemble des revenus du foyer. L'exemple chiffré est succinct ; un chiffre final comparé (net après sociaux) aiderait la compréhension.",
+    "retention_attention : Hook efficace. Toutefois la question OUI/NON suivie d'une réponse 'Non' risque de provoquer un court flottement cognitif si l'exécution visuelle n'est pas très claire — risque de perte d'attention dans les 2 premières secondes.",
+    "retention_attention : Le rythme narratif doit être mesuré pour tenir 38 s sans précipitation ni omettre la précision sur les prélèvements sociaux.",
+    "conversion_confiance : Le CTA est pertinent et professionnel, mais la mention légale ('Contenu pédagogique général...') est doublée en fin de fiche et en légende : à l'écran, il faudrait une version courte et lisible pour ne pas diluer la confiance.",
+    "conversion_confiance : Renforcer l'invite en rappelant la gratuité ou nature de l'audit (si applicable) éviterait une impression commerciale excessive."
+  ],
+  "recommendations": [
+    "Ajouter explicitement dans le script (texte écran + narration) que, en cas d'option pour le barème progressif, les prélèvements sociaux (17,2 %) restent dus — seule la part impôt (12,8 % dans le PFU) est concernée par l'option au barème.",
+    "Reformuler la réponse à la question OUI/NON pour lever l'ambiguïté ; par exemple : question 'Dois-je cocher la case pour le barème ?' → réponse 'Pas forcément — selon votre tranche le barème peut être moins coûteux'. Mettre le mot-clé 'Pas forcément' sur l'écran plutôt que 'Non'.",
+    "Dans l'exemple comparatif, ajouter une courte comparaison chiffrée nette (ex. hypothèse simple montant X : montant net PFU vs montant net barème en tranche 0 %/11 %, en incluant systématiquement les prélèvements sociaux) pour rendre l'économie tangible au non-spécialiste.",
+    "Préciser dans la nuance/point de vigilance que l'option est annuelle ET globale (déjà présente) et ajouter 'irrévocable pour l'année' pour éviter toute interprétation erronée.",
+    "Vérifier le timing oral : lire le texte à l'oral et ajuster la durée si nécessaire pour rester autour de 35-40 s, en gardant un débit clair et respirations pour la compréhension.",
+    "Adapter visuels/pictogrammes : s'assurer que le schéma 30 % = 12,8 % + 17,2 % soit lisible sur mobile, que l'icône 'balance impôt' illustre bien l'idée d'impôt et que la question OUI/NON soit animée pour éviter la confusion visuelle.",
+    "Réduire la mention légale sur l'écran au minimum lisible (ex. une ligne courte) et renvoyer à la légende pour le texte complet, afin de préserver crédibilité sans nuire à la lisibilité du CTA."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-24:reels:compte_titres_pfu:1",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__reels__a5__v11.md"
+}

@@ -1,0 +1,333 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "93588d9593dba5b5f7ee6c307f6940cfc80f265a23e25c6604ce867f61bc224e"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Mon partenaire de PACS ou mon concubin héritera-t-il de moi ?",
+      "tokens": [
+        "Mon",
+        "partenaire",
+        "de",
+        "PACS",
+        "ou",
+        "mon",
+        "concubin",
+        "héritera-t-il",
+        "de",
+        "moi",
+        "?"
+      ],
+      "token_count": 11,
+      "speech_duration": 3.785,
+      "full_text_visible_at": 3.406,
+      "hold_after_full_text": 1.278,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users",
+          "heart-handshake"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Le partenaire de PACS est exonéré de droits de succession mais, sans testament, il n'hérite de rien ; le concubin n'a aucune vocation successorale et serait taxé à soixante pour cent sur ce qu'un testament lui laisse.",
+      "tokens": [
+        "Le",
+        "partenaire",
+        "de",
+        "PACS",
+        "est",
+        "exonéré",
+        "de",
+        "droits",
+        "de",
+        "succession",
+        "mais,",
+        "sans",
+        "testament,",
+        "il",
+        "n'hérite",
+        "de",
+        "rien",
+        ";",
+        "le",
+        "concubin",
+        "n'a",
+        "aucune",
+        "vocation",
+        "successorale",
+        "et",
+        "serait",
+        "taxé",
+        "à",
+        "soixante",
+        "pour",
+        "cent",
+        "sur",
+        "ce",
+        "qu'un",
+        "testament",
+        "lui",
+        "laisse."
+      ],
+      "token_count": 37,
+      "speech_duration": 13.666,
+      "full_text_visible_at": 12.3,
+      "hold_after_full_text": 1.587,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          285,
+          642,
+          900
+        ],
+        "text_bounds": [
+          110,
+          481,
+          610,
+          787
+        ],
+        "verdict": "",
+        "font_size": 33,
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "Qui hérite relève du Code civil ; combien on paie relève du Code général des impôts.",
+      "tokens": [
+        "Qui",
+        "hérite",
+        "relève",
+        "du",
+        "Code",
+        "civil",
+        ";",
+        "combien",
+        "on",
+        "paie",
+        "relève",
+        "du",
+        "Code",
+        "général",
+        "des",
+        "impôts."
+      ],
+      "token_count": 16,
+      "speech_duration": 5.161,
+      "full_text_visible_at": 4.645,
+      "hold_after_full_text": 0.736,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "code",
+          "scale",
+          "file-signature"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un couple pacsé propriétaire avec enfants d'une première union : une part revient aux enfants et se retrouve en indivision malgré l'exonération.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "couple",
+        "pacsé",
+        "propriétaire",
+        "avec",
+        "enfants",
+        "d'une",
+        "première",
+        "union",
+        ":",
+        "une",
+        "part",
+        "revient",
+        "aux",
+        "enfants",
+        "et",
+        "se",
+        "retrouve",
+        "en",
+        "indivision",
+        "malgré",
+        "l'exonération."
+      ],
+      "token_count": 24,
+      "speech_duration": 7.586,
+      "full_text_visible_at": 6.827,
+      "hold_after_full_text": 0.979,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "baby",
+          "users",
+          "house"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Attention : le testament est limité par la réserve héréditaire ; le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an.",
+      "tokens": [
+        "Attention",
+        ":",
+        "le",
+        "testament",
+        "est",
+        "limité",
+        "par",
+        "la",
+        "réserve",
+        "héréditaire",
+        ";",
+        "le",
+        "partenaire",
+        "pacsé",
+        "ne",
+        "bénéficie",
+        "que",
+        "d'un",
+        "maintien",
+        "au",
+        "logement",
+        "d'un",
+        "an."
+      ],
+      "token_count": 23,
+      "speech_duration": 7.621,
+      "full_text_visible_at": 6.859,
+      "hold_after_full_text": 1.662,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.533,
+      "full_text_visible_at": 4.98,
+      "hold_after_full_text": 0.553,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

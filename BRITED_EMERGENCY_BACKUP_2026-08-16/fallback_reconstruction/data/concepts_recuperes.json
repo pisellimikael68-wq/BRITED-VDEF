@@ -1,0 +1,610 @@
+[
+  {
+    "id": "dividende_et_propriete",
+    "domaine": "actions",
+    "titre": "Dividende et propriete",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "clause_beneficiaire",
+    "domaine": "assurance_vie",
+    "titre": "Clause beneficiaire",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "demembrement_clause",
+    "domaine": "assurance_vie",
+    "titre": "Demembrement clause",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "fondamentaux",
+    "domaine": "assurance_vie",
+    "titre": "Fondamentaux",
+    "serie": "finance",
+    "source_path": "content/assurance_vie/fondamentaux.md",
+    "recovered": true
+  },
+  {
+    "id": "fonds_euros_uc",
+    "domaine": "assurance_vie",
+    "titre": "Fonds euros uc",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "rachat_huit_ans",
+    "domaine": "assurance_vie",
+    "titre": "Rachat huit ans",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "transmission_990i",
+    "domaine": "assurance_vie",
+    "titre": "Transmission 990i",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "versements_apres_70_ans",
+    "domaine": "assurance_vie",
+    "titre": "Versements apres 70 ans",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "pfu_flat_tax",
+    "domaine": "compte_titres",
+    "titre": "Pfu flat tax",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "livret_fiscalise",
+    "domaine": "csl",
+    "titre": "Livret fiscalise",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "diversification",
+    "domaine": "culture_financiere",
+    "titre": "Diversification",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "horizon_placement",
+    "domaine": "culture_financiere",
+    "titre": "Horizon placement",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "inflation",
+    "domaine": "culture_financiere",
+    "titre": "Inflation",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "interets_composes",
+    "domaine": "culture_financiere",
+    "titre": "Interets composes",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "cryptoactifs_fiscalite_cessions",
+    "domaine": "divers",
+    "titre": "Échanger une crypto contre une autre n'est pas imposable",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "fiscalite_internationale_residence",
+    "domaine": "divers",
+    "titre": "Partir vivre à l'étranger ne suffit pas à changer de résidence fiscale",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "holding_animatrice",
+    "domaine": "divers",
+    "titre": "Holding animatrice : la notion qui fait tout basculer",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "ifi_dettes_deductibles",
+    "domaine": "divers",
+    "titre": "Quelles dettes réduisent l'IFI",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "ifi_seuil_declenchement",
+    "domaine": "divers",
+    "titre": "L'IFI se déclenche à 1,3 million mais se calcule dès 800 000 €",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "impot_revenu_tranche_marginale",
+    "domaine": "divers",
+    "titre": "Passer dans la tranche supérieure ne fait jamais perdre d'argent",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "or_fiscalite_metaux_precieux",
+    "domaine": "divers",
+    "titre": "L'or a sa propre fiscalité, et vous avez le choix",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "patrimoine_pro_cession_dirigeant",
+    "domaine": "divers",
+    "titre": "L'abattement du dirigeant partant à la retraite",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "per_sortie_capital_rente",
+    "domaine": "divers",
+    "titre": "Sortir en capital ou en rente",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "protection_sociale_indemnites_journalieres",
+    "domaine": "divers",
+    "titre": "Les indemnités journalières et leur plafond",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "protection_sociale_invalidite",
+    "domaine": "divers",
+    "titre": "Le vrai risque patrimonial n'est pas la mort, c'est l'arrêt de travail",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "retraite_cumul_emploi_retraite",
+    "domaine": "divers",
+    "titre": "Travailler en touchant sa retraite",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "retraite_decote_surcote",
+    "domaine": "divers",
+    "titre": "Partir un trimestre trop tôt coûte à vie, pas une seule année",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "retraite_pension_reversion",
+    "domaine": "divers",
+    "titre": "La pension de réversion et ses conditions",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "retraite_releve_carriere",
+    "domaine": "divers",
+    "titre": "Le relevé de carrière et ses erreurs",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "retraite_trimestres_validation",
+    "domaine": "divers",
+    "titre": "Un trimestre de retraite ne dépend pas du temps travaillé",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "abattement_100000",
+    "domaine": "donation",
+    "titre": "Abattement 100000",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "don_familial_790g",
+    "domaine": "donation",
+    "titre": "Don familial 790g",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "donation_partage",
+    "domaine": "donation",
+    "titre": "Donation partage",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "present_usage",
+    "domaine": "donation",
+    "titre": "Present usage",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "pea_ou_assurance_vie",
+    "domaine": "etf",
+    "titre": "Pea ou assurance vie",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "coordination",
+    "domaine": "family_office",
+    "titre": "Coordination",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "controle_fiscal",
+    "domaine": "fiscalite",
+    "titre": "Controle fiscal",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "plafonnement_niches",
+    "domaine": "fiscalite",
+    "titre": "Plafonnement niches",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "quotient_familial",
+    "domaine": "fiscalite",
+    "titre": "Quotient familial",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "residence_fiscale",
+    "domaine": "fiscalite_internationale",
+    "titre": "Residence fiscale",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "pacte_et_charte",
+    "domaine": "gouvernance_familiale",
+    "titre": "Pacte et charte",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "seuil_declenchement",
+    "domaine": "ifi",
+    "titre": "Seuil declenchement",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "achat_couple_non_marie",
+    "domaine": "immobilier",
+    "titre": "Achat couple non marie",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "frais_de_notaire",
+    "domaine": "immobilier",
+    "titre": "Frais de notaire",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "plus_value_duree_detention",
+    "domaine": "immobilier",
+    "titre": "Plus value duree detention",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "plus_value_residence_principale",
+    "domaine": "immobilier",
+    "titre": "Plus value residence principale",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "revenus_fonciers_micro",
+    "domaine": "immobilier",
+    "titre": "Revenus fonciers micro",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "decote",
+    "domaine": "impot_revenu",
+    "titre": "Decote",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "pension_alimentaire",
+    "domaine": "impot_revenu",
+    "titre": "Pension alimentaire",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "prelevement_source",
+    "domaine": "impot_revenu",
+    "titre": "Prelevement source",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "tranche_marginale",
+    "domaine": "impot_revenu",
+    "titre": "Tranche marginale",
+    "serie": "fiscalite",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "objectif_avant_produit",
+    "domaine": "ingenierie_patrimoniale",
+    "titre": "Objectif avant produit",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "plafond_et_don",
+    "domaine": "ldds",
+    "titre": "Plafond et don",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "reel_amortissement",
+    "domaine": "location_meublee",
+    "titre": "Reel amortissement",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "risque_de_taux",
+    "domaine": "obligations",
+    "titre": "Risque de taux",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "liquidite_et_fiscalite",
+    "domaine": "opci",
+    "titre": "Liquidite et fiscalite",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "exoneration_cinq_ans",
+    "domaine": "pea",
+    "titre": "Exoneration cinq ans",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "pme_et_jeunes",
+    "domaine": "pea",
+    "titre": "Pme et jeunes",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "fiscalite_depuis_2018",
+    "domaine": "pel",
+    "titre": "Fiscalite depuis 2018",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "sortie_capital_rente",
+    "domaine": "per",
+    "titre": "Sortie capital rente",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "barriere_de_protection",
+    "domaine": "produits_structures",
+    "titre": "Barriere de protection",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "changement",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "Changement",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "communaute_par_defaut",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "Communaute par defaut",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "regimes_changement",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "Changer de régime matrimonial en cours de mariage",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "regimes_communaute_par_defaut",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "Se marier sans contrat, c'est déjà choisir un régime",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "regimes_pacs_concubinage",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "PACS et concubinage : ce qui n'est pas protégé",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "regimes_separation_de_biens",
+    "domaine": "regimes_matrimoniaux",
+    "titre": "La séparation de biens et sa fausse sécurité",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "apport_ou_acquisition",
+    "domaine": "sci",
+    "titre": "Apport ou acquisition",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "is_ou_ir",
+    "domaine": "sci",
+    "titre": "Is ou ir",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "a_credit_ou_assurance_vie",
+    "domaine": "scpi",
+    "titre": "A credit ou assurance vie",
+    "serie": "immobilier",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "responsabilite_indefinie",
+    "domaine": "societes_civiles",
+    "titre": "Responsabilite indefinie",
+    "serie": "juridique",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "bareme_droits",
+    "domaine": "succession",
+    "titre": "Bareme droits",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "conjoint_survivant",
+    "domaine": "succession",
+    "titre": "Conjoint survivant",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "reserve_hereditaire",
+    "domaine": "succession",
+    "titre": "Reserve hereditaire",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "assurance_vie_vs_donation",
+    "domaine": "transmission",
+    "titre": "Assurance vie vs donation",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  },
+  {
+    "id": "cout_de_ne_rien_faire",
+    "domaine": "transmission",
+    "titre": "Cout de ne rien faire",
+    "serie": "finance",
+    "source_path": "",
+    "recovered": false
+  }
+]

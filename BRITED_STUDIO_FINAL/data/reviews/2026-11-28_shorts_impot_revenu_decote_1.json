@@ -1,0 +1,150 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source contient un chiffre précis (« Taux de résorption de la décote 45,25% ») qui n'est pas mentionné dans le script. Soit l'élément chiffré doit être intégré au script (avec source), soit il faut expliquer pourquoi il est volontairement omis. Le contrôle mot à mot exige cohérence entre fiche et script."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script explique correctement le mécanisme et l'effet sur le taux marginal effectif, mais manque d'un exemple chiffré synthétique (fictif et daté) pour illustrer l'augmentation d'impôt dans la zone de résorption. La fiche interdit le calcul réel du spectateur, mais autorise un exemple fictif — il améliorerait la compréhension."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase du CTA « Prenez rendez-vous via le lien dans ma bio. » est acceptable mais pourrait être reformulée pour atténuer toute pression commerciale: proposer \"si vous souhaitez un point personnalisé\". Le reste du texte est clair et professionnel."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration continue contient la phrase « chaque euro supplémentaire multiplie l'effet fiscal » : formulation un peu vague. Il faut préciser \"augmente l'impôt net de façon disproportionnée\" ou ajouter l'idée « car l'impôt augmente et la décote diminue » (déjà présent mais non juxtaposé). Aussi vérifier la durée estimée (42 s) avec la quantité de mots pour s'assurer que le texte tient bien dans un Short — recommandation de lecture à vitesse normale."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes proposés sont génériques (bouclier+€ , calendrier, balance). Le contrôle exige que chaque visuel illustre précisément le propos :\n- Le bouclier+€ peut être interprété comme « protection » alors que ici il s'agit d'une réduction d'impôt automatique ; préférez un pictogramme représentant un impôt réduit (ex : facture diminuée).\n- Le schéma « impôt brut -> décote -> résorption progressive » doit clairement montrer la relation mathématique (flèche + signe '-' ) plutôt qu'un simple pictogramme. Indiquer cela comme instruction visuelle concrète."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais commence par une question longue; suggérer de la raccourcir pour les 1ères 2 secondes (ex : « Pourquoi vous ne payez pas d'impôt alors que le barème commence plus bas ?\"). Aussi vérifier que la quantité d'information entre la seconde 20 et 35 n'étouffe l'attention (zone de résorption expliquée en une phrase plus percutante)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source contient un chiffre précis (« Taux de résorption de la décote 45,25% ») qui n'est pas mentionné dans le script. Soit l'élément chiffré doit être intégré au script (avec source), soit il faut expliquer pourquoi il est volontairement omis. Le contrôle mot à mot exige cohérence entre fiche et script.",
+    "completude : Le script explique correctement le mécanisme et l'effet sur le taux marginal effectif, mais manque d'un exemple chiffré synthétique (fictif et daté) pour illustrer l'augmentation d'impôt dans la zone de résorption. La fiche interdit le calcul réel du spectateur, mais autorise un exemple fictif — il améliorerait la compréhension.",
+    "formulation_professionnelle : Phrase du CTA « Prenez rendez-vous via le lien dans ma bio. » est acceptable mais pourrait être reformulée pour atténuer toute pression commerciale: proposer \"si vous souhaitez un point personnalisé\". Le reste du texte est clair et professionnel.",
+    "contre_verification_finale : La narration continue contient la phrase « chaque euro supplémentaire multiplie l'effet fiscal » : formulation un peu vague. Il faut préciser \"augmente l'impôt net de façon disproportionnée\" ou ajouter l'idée « car l'impôt augmente et la décote diminue » (déjà présent mais non juxtaposé). Aussi vérifier la durée estimée (42 s) avec la quantité de mots pour s'assurer que le texte tient bien dans un Short — recommandation de lecture à vitesse normale.",
+    "coherence_pictogrammes : Plusieurs pictogrammes proposés sont génériques (bouclier+€ , calendrier, balance). Le contrôle exige que chaque visuel illustre précisément le propos :\n- Le bouclier+€ peut être interprété comme « protection » alors que ici il s'agit d'une réduction d'impôt automatique ; préférez un pictogramme représentant un impôt réduit (ex : facture diminuée).\n- Le schéma « impôt brut -> décote -> résorption progressive » doit clairement montrer la relation mathématique (flèche + signe '-' ) plutôt qu'un simple pictogramme. Indiquer cela comme instruction visuelle concrète.",
+    "retention_attention : Hook fort mais commence par une question longue; suggérer de la raccourcir pour les 1ères 2 secondes (ex : « Pourquoi vous ne payez pas d'impôt alors que le barème commence plus bas ?\"). Aussi vérifier que la quantité d'information entre la seconde 20 et 35 n'étouffe l'attention (zone de résorption expliquée en une phrase plus percutante)."
+  ],
+  "recommendations": [
+    "Soit intégrer le chiffre « Taux de résorption de la décote 45,25% » avec une phrase courte et sourcée, soit annoter explicitement dans la fiche/brief que ce chiffre est volontairement omis du script. Respecter la fidélité mot à mot aux éléments chiffrés de la fiche.",
+    "Ajouter un court exemple chiffré fictif et daté (ex. « pour un foyer X en 2026, un impôt brut de Y € aboutit à un impôt net de 0 €, puis entre Y et Z € le taux effectif peut dépasser ... ») en restant hypothétique et en précisant la date, ou à défaut laisser une phrase d'illustration plus précise sans chiffres.",
+    "Reformuler légèrement le CTA pour atténuer toute pression commerciale: par ex. « Pour un point personnalisé, consultez le lien dans la bio. »",
+    "Préciser visuellement les pictogrammes : remplacer le bouclier+€ par un visuel 'montant d'impôt réduit' (facture barrée ou flèche vers 0), et pour le schéma de résorption montrer une petite équation graphique (impôt brut - décote = impôt net) avec une barre qui se réduit progressivement.",
+    "Raccourcir la formulation du hook pour tenir les 2 premières secondes et alléger la partie explicative sur la 'zone de résorption' : privilégier une phrase percutante puis 1 phrase d'exemple synthétique.",
+    "Effectuer une lecture chronométrée du script parlé à vitesse naturelle pour confirmer que la durée dense estimée (42 s) est respectée et ajuster si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-28:shorts:impot_revenu_decote:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_decote__shorts__a3__v7.md"
+}

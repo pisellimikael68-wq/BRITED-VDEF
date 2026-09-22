@@ -1,0 +1,127 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Se marier sans contrat, est ce neutre ?",
+      "transcript": "se marier sans contrat et se neutre.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8182,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Sans contrat, le régime légal s'applique t il",
+      "transcript": "Sans contrat, le régime légal s'applique-t-il ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.875,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui — communauté réduite aux acquêts.",
+      "transcript": "Oui, communauté réduite aux aquais.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8222,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Ce qui est acquis pendant le mariage est commun.",
+      "transcript": "Ce qui est acquis pendant le mariage est commun.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9412,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Sont propres les biens possédés avant le mariage et les donations ou successions ; gains et salaires perçus pendant le mariage alimentent la communauté.",
+      "transcript": "sont propres les biens possédés avant le mariage et les donations ou successions, gains et salaires perçus pendant le mariage alimentent la communauté.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3596,
+      "passed": true
+    },
+    {
+      "beat": "exemple_suite",
+      "expected": "L'épargne d'un salaire perçu pendant le mariage est commune et, à la liquidation, l'actif commun est partagé cinquante/cinquante.",
+      "transcript": "L'épargne d'un salaire perçu pendant le mariage est commune et à la liquidation, l'actif commun est partagé 50-50.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0926,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Chaque époux peut percevoir et disposer de ses gains après s'être acquitté des charges du mariage.",
+      "transcript": "Chaque époux peut percevoir et disposer de ses gains après s'être acquitté des charges du mariage.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0737,
+      "passed": true
+    },
+    {
+      "beat": "nuance_suite",
+      "expected": "Les héritages restent propres, le mélange de fonds complique la preuve.",
+      "transcript": "Les héritages restent propres, le mélange de fond complique la preuve.",
+      "similarity": 0.9091,
+      "missing": [
+        "fonds"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "fond"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.96,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Le saviez vous ? Commentez, partagez, abonnez vous.",
+      "transcript": "Le saviez-vous ? Commentez, partagez, abonnez-vous.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0,
+      "passed": true
+    }
+  ]
+}

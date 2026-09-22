@@ -1,0 +1,193 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche BRITED et cite les bonnes sources, mais il n'indique pas explicitement les références légales (CGI articles 204 H, 204 J, 204 M) dans le texte prononcé ou affiché à l'écran. La fiche exige fidélité stricte aux faits et aux sources ; ici les sources figurent en bas de document, mais l'agent 'source' attend une mention directe dans la légende ou le visuel."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « Le prélèvement à la source reste un acompte ; la déclaration annuelle ajuste le solde » est correcte mais peut prêter à confusion : il faut rappeler brièvement que les réductions et crédits d'impôt ne sont pas intégrés au taux (mention présente dans la fiche SOURCE DE VÉRITÉ mais absente du script).",
+        "Il manque la précision du délai de régularisation (ex. remboursement un an plus tard) qui est évoquée dans la fiche mais pas dans le script—si l'on cite ce délai, il faut le sourcer."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exception indispensable, mais n'inclut pas la durée exacte (60 jours) comme instruction actionable au moment de la mention 'Signalez ... dans les soixante jours' — la fiche donne bien 60 jours mais le script dit 'soixante jours' (ok) ; cependant, l'exemple chiffré sur délai de prise en compte d'un changement de situation (60 jours) n'est pas accompagné de la conséquence concrète si non-déclaré (taux périmé plusieurs mois), qui figure dans la fiche.",
+        "Il manque une phrase très courte sur le fait que le taux neutre conduit souvent à un prélèvement plus élevé et que l'excédent est restitué ultérieurement — la fiche le précise et c'est une information utile pour compréhension."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : la narration fournie risque d'être trop dense pour 38 s (le texte prononcé est long). Il faut indiquer éventuellement des pauses ou raccourcir certaines phrases pour tenir la durée Reels standard.",
+        "Le beat 2 affiche 'OUI / NON' sans indication claire de leur rôle ; sur Reels cela peut sembler interactif mais n'invite pas à toucher — prévoir clarification visuelle (ex. 'Quel choix ?') ou enlever."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace, mais la deuxième séquence 'OUI / NON' est ambiguë (voir 'plateforme').",
+        "Le ton est direct et clair mais certaines phrases peuvent être raccourcies pour assurer bonne mémorisation et cadence (ex. transformer « Le choix modifie la répartition du prélèvement, pas le montant total de l'impôt » en deux segments plus rythmés)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement bon français, mais deux formulations peuvent être améliorées pour la prononciation et la fluidité : « Le prélèvement à la source reste un acompte ; la déclaration annuelle ajuste le solde » pourrait devenir « Le prélèvement à la source n'est qu'un acompte — la déclaration annuelle fixe le montant définitif. »",
+        "La phrase 'Signalez mariage, PACS, naissance, divorce ou décès dans les soixante jours' est claire mais gagnerait à être légèrement remaniée pour l'oral ('…dans les 60 jours') afin d'améliorer la compréhension immédiate."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements logiques respectés mais la densité du texte menace la lisibilité en 38 s ; une seconde lecture indépendante souligne la nécessité de réduire ou répartir le texte pour garder un tempo naturel et pauses respirables.",
+        "Vérifier que la légende finale et le sous-texte vocal n'impliquent pas de conseil personnalisé (la mention de rendez-vous est acceptable), et que le script respecte la consigne 'a_ne_pas_dire' (le script ne recommande aucune option, OK)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes décrits sont pertinents mais certains précisions manquent : le pictogramme 'silhouette isolée' pour le taux neutre doit clairement évoquer 'célibataire sans personne à charge' (sinon ambigu).",
+        "Le visuel pour l'exemple (redistribution) doit montrer clairement prélèvement réduit pour le plus modeste et augmenté pour l'autre, sans laisser croire à une diminution du total — le libellé proposé est bon mais le visuel doit éviter toute flèche descendante globale."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite un seul angle (comparaison des trois taux) et garde la règle centrale, mais omet une brève mention explicite que les crédits/ réductions d'impôt NE SONT PAS intégrés au taux (information clé).",
+        "Le chiffre 3 (nombre d'options) et 60 jours sont présents dans la fiche mais le '3' n'est pas affiché clairement à l'écran comme rappel chiffré — ce serait utile pour mémorisation."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'expression 'répartition de la charge' est correcte mais pourrait être explicitée en une courte phrase simple ('qui paie quoi chaque mois').",
+        "L'exemple donné est utile mais gagnerait à être chiffré très brièvement (ex. 'Si A gagne 2x B, B paye moins, A paye plus') pour une meilleure compréhension instantanée."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes ('Votre taux varie…') mais la carte OUI / NON après le hook risque de couper la montée de curiosité plutôt que de la renforcer ; proposer une question visuelle plus ciblée améliorerait la rétention.",
+        "Le CTA est clair mais courant ; pour Reels, un micro-call-to-action visuel plus direct (ex. icône de calendrier + 'Lien en bio') et/ou une question d'engagement ('Vous voulez que je vérifie votre taux ?') augmenterait le taux de conversion."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux, mais ajouter brièvement la mention 'sources en description' ou un visuel 'Sources : impots.gouv.fr, CGI articles' améliorerait la confiance sans constituer un conseil personnalisé.",
+        "La phrase de mention légale est présente mais pourrait être légèrement abrégée et déplacée en description pour ne pas alourdir la vidéo."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche BRITED et cite les bonnes sources, mais il n'indique pas explicitement les références légales (CGI articles 204 H, 204 J, 204 M) dans le texte prononcé ou affiché à l'écran. La fiche exige fidélité stricte aux faits et aux sources ; ici les sources figurent en bas de document, mais l'agent 'source' attend une mention directe dans la légende ou le visuel.",
+    "juridique_fiscal : La phrase « Le prélèvement à la source reste un acompte ; la déclaration annuelle ajuste le solde » est correcte mais peut prêter à confusion : il faut rappeler brièvement que les réductions et crédits d'impôt ne sont pas intégrés au taux (mention présente dans la fiche SOURCE DE VÉRITÉ mais absente du script).",
+    "juridique_fiscal : Il manque la précision du délai de régularisation (ex. remboursement un an plus tard) qui est évoquée dans la fiche mais pas dans le script—si l'on cite ce délai, il faut le sourcer.",
+    "completude : Le script couvre la règle centrale, la condition et l'exception indispensable, mais n'inclut pas la durée exacte (60 jours) comme instruction actionable au moment de la mention 'Signalez ... dans les soixante jours' — la fiche donne bien 60 jours mais le script dit 'soixante jours' (ok) ; cependant, l'exemple chiffré sur délai de prise en compte d'un changement de situation (60 jours) n'est pas accompagné de la conséquence concrète si non-déclaré (taux périmé plusieurs mois), qui figure dans la fiche.",
+    "completude : Il manque une phrase très courte sur le fait que le taux neutre conduit souvent à un prélèvement plus élevé et que l'excédent est restitué ultérieurement — la fiche le précise et c'est une information utile pour compréhension.",
+    "plateforme : Durée estimée 38 secondes : la narration fournie risque d'être trop dense pour 38 s (le texte prononcé est long). Il faut indiquer éventuellement des pauses ou raccourcir certaines phrases pour tenir la durée Reels standard.",
+    "plateforme : Le beat 2 affiche 'OUI / NON' sans indication claire de leur rôle ; sur Reels cela peut sembler interactif mais n'invite pas à toucher — prévoir clarification visuelle (ex. 'Quel choix ?') ou enlever.",
+    "editorial : Accroche efficace, mais la deuxième séquence 'OUI / NON' est ambiguë (voir 'plateforme').",
+    "editorial : Le ton est direct et clair mais certaines phrases peuvent être raccourcies pour assurer bonne mémorisation et cadence (ex. transformer « Le choix modifie la répartition du prélèvement, pas le montant total de l'impôt » en deux segments plus rythmés).",
+    "formulation_professionnelle : Globalement bon français, mais deux formulations peuvent être améliorées pour la prononciation et la fluidité : « Le prélèvement à la source reste un acompte ; la déclaration annuelle ajuste le solde » pourrait devenir « Le prélèvement à la source n'est qu'un acompte — la déclaration annuelle fixe le montant définitif. »",
+    "formulation_professionnelle : La phrase 'Signalez mariage, PACS, naissance, divorce ou décès dans les soixante jours' est claire mais gagnerait à être légèrement remaniée pour l'oral ('…dans les 60 jours') afin d'améliorer la compréhension immédiate.",
+    "contre_verification_finale : Enchaînements logiques respectés mais la densité du texte menace la lisibilité en 38 s ; une seconde lecture indépendante souligne la nécessité de réduire ou répartir le texte pour garder un tempo naturel et pauses respirables.",
+    "contre_verification_finale : Vérifier que la légende finale et le sous-texte vocal n'impliquent pas de conseil personnalisé (la mention de rendez-vous est acceptable), et que le script respecte la consigne 'a_ne_pas_dire' (le script ne recommande aucune option, OK).",
+    "coherence_pictogrammes : Les pictogrammes décrits sont pertinents mais certains précisions manquent : le pictogramme 'silhouette isolée' pour le taux neutre doit clairement évoquer 'célibataire sans personne à charge' (sinon ambigu).",
+    "coherence_pictogrammes : Le visuel pour l'exemple (redistribution) doit montrer clairement prélèvement réduit pour le plus modeste et augmenté pour l'autre, sans laisser croire à une diminution du total — le libellé proposé est bon mais le visuel doit éviter toute flèche descendante globale.",
+    "densite_editoriale : Le script traite un seul angle (comparaison des trois taux) et garde la règle centrale, mais omet une brève mention explicite que les crédits/ réductions d'impôt NE SONT PAS intégrés au taux (information clé).",
+    "densite_editoriale : Le chiffre 3 (nombre d'options) et 60 jours sont présents dans la fiche mais le '3' n'est pas affiché clairement à l'écran comme rappel chiffré — ce serait utile pour mémorisation.",
+    "pedagogie_client : Pour un non-spécialiste, l'expression 'répartition de la charge' est correcte mais pourrait être explicitée en une courte phrase simple ('qui paie quoi chaque mois').",
+    "pedagogie_client : L'exemple donné est utile mais gagnerait à être chiffré très brièvement (ex. 'Si A gagne 2x B, B paye moins, A paye plus') pour une meilleure compréhension instantanée.",
+    "retention_attention : Les deux premières secondes sont fortes ('Votre taux varie…') mais la carte OUI / NON après le hook risque de couper la montée de curiosité plutôt que de la renforcer ; proposer une question visuelle plus ciblée améliorerait la rétention.",
+    "retention_attention : Le CTA est clair mais courant ; pour Reels, un micro-call-to-action visuel plus direct (ex. icône de calendrier + 'Lien en bio') et/ou une question d'engagement ('Vous voulez que je vérifie votre taux ?') augmenterait le taux de conversion.",
+    "conversion_confiance : Le ton inspire sérieux, mais ajouter brièvement la mention 'sources en description' ou un visuel 'Sources : impots.gouv.fr, CGI articles' améliorerait la confiance sans constituer un conseil personnalisé.",
+    "conversion_confiance : La phrase de mention légale est présente mais pourrait être légèrement abrégée et déplacée en description pour ne pas alourdir la vidéo."
+  ],
+  "recommendations": [
+    "Ajouter explicitement, dans la légende visible à l'écran ou en micro-texte, les références légales : CGI articles 204 H, 204 J et 204 M, et impots.gouv.fr, pour renforcer la traçabilité des affirmations.",
+    "Inclure en une courte phrase que 'les réductions et crédits d'impôt ne sont pas intégrés au taux', pour éviter l'ambiguïté sur pourquoi un solde peut apparaître après déclaration.",
+    "Raccourcir le texte pour tenir confortablement 38 secondes : supprimer ou simplifier la carte 'OUI / NON' (qui est ambiguë) et fractionner la phrase longue sur la répartition vs montant en deux segments.",
+    "Préciser visuellement que le taux neutre correspond à 'célibataire sans personne à charge' (pictogramme + étiquette) et soigner l'illustration de redistribution pour éviter toute interprétation de réduction du total du foyer.",
+    "Insérer rapidement le chiffre '3' dans la séquence d'ouverture (ex. 'Trois options : personnalisé, neutre, individualisé') pour ancrer la mémorisation.",
+    "Remplacer une formulation lourde par une version plus parlée : ex. « Le prélèvement à la source n'est qu'un acompte — la déclaration annuelle fixe le montant définitif. » et dire '60 jours' plutôt que 'soixante jours' à l'oral si cela facilite la fluidité.",
+    "Ajouter en visuel discret 'Sources : impots.gouv.fr • CGI art. 204 H, J, M' et déplacer la mention légale courte en description pour allèger la vidéo.",
+    "Pour l'exemple, envisager un mini‑chiffre (ex. 'si l'un gagne deux fois l'autre…') pour rendre la redistribution immédiatement compréhensible.",
+    "Effectuer une seconde répétition chronométrée (read-through) pour valider que la narration tient bien 38 secondes avec pauses naturelles; ajuster le texte si nécessaire."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-12:reels:impot_revenu_prelevement_source:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_prelevement_source__reels__a5__v5.md"
+}

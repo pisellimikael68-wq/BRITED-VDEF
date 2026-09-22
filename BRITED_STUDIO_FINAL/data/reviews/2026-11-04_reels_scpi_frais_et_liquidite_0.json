@@ -1,0 +1,161 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche indique «Frais ≈ 8–12 % (ordre de grandeur)» et le champ 'a_verifier' est true. Le script répète cette fourchette sans renvoyer explicitement à la note d'information d'une SCPI donnée ni indiquer qu'il s'agit d'un ordre de grandeur à confirmer dans la note d'information spécifique. Il faut soit préciser «ordre de grandeur, à vérifier sur la note d'information», soit citer la référence exacte (note d'information) utilisée pour le chiffre."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le calcul présenté dans l'exemple est incorrect. La narration affirme qu'une distribution brute de 5 % devient ≈ 2,6 % net pour une tranche marginale à 30 %. Calcul correct en tenant compte de l'imposition au barème (30 %) et des prélèvements sociaux de 17,2 % : 5 % × (1 - 0,30) × (1 - 0,172) ≈ 2,90 %. Il faut corriger le chiffre et expliciter l'ordre d'application (prélèvements sociaux et impôt sur le revenu) si l'on veut éviter toute confusion."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La progression narrative est globalement bonne mais la formulation «Non, pas rapidement.» au beat 3 peut surprendre le spectateur (réponse abrupte sans rappel du sujet). Suggestion : reformuler pour lier directement au hook, par ex. «Non — vous ne récupérez pas rapidement ces frais.»"
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques libellés méritent d'être affinés pour un français professionnel et naturel : «deux virgule six pour cent» (prononciation écrite) doit être remplacé par «≈ 2,9 %» (si on applique le calcul correct) ou dit «environ 2,9 %» à l'oral ; la phrase d'accroche peut être allégée comme indiqué ci-dessus."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot a détecté l'incohérence du chiffre 2,6 % (voir juridique_fiscal). Par ailleurs la durée estimée (38 s) est plausible mais il faut s'assurer que la narration spoken-word tient bien dans le temps annoncé lors d'un essai vocal."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes décrits sont pertinents au sens large, mais quelques correspondances sont imprécises : beat 1 indique un pictogramme série '⌂' — recommander plutôt une icône claire «part» ou «immeuble» ; beat 4 'part - frais - calendrier' doit être lisible à l'écran en moins de 2–3 s (contraste et taille). Fournir une brève consigne graphique pour chacun (couleurs, relation texte/icone) permet d'éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle mais contient plusieurs chiffres et concepts (frais d'entrée, délai de jouissance, imposition, illiquidité). Pour conserver la concision, il faut corriger le chiffre erroné et envisager d'ôter le délai de jouissance (3–6 mois) du script s'il n'est pas prononcé, afin d'éviter surcharge informationnelle en 38 s."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le terme «revenus fonciers» est employé dans la fiche, mais le script ne l'explique brièvement. Pour un non-spécialiste, ajouter une courte parenthèse («ce sont des loyers imposés au barème») dans la narration ou la légende améliorera la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont attractives mais le visuel 'OUI ☐    NON ☐' (beat 2) peut couper le flux et ralentir l'attention plutôt que la renforcer. Recommendation : faire du beat 2 une question visuelle très rapide ou réduire son temps à 1–1,5 s pour maintenir la tension."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche indique «Frais ≈ 8–12 % (ordre de grandeur)» et le champ 'a_verifier' est true. Le script répète cette fourchette sans renvoyer explicitement à la note d'information d'une SCPI donnée ni indiquer qu'il s'agit d'un ordre de grandeur à confirmer dans la note d'information spécifique. Il faut soit préciser «ordre de grandeur, à vérifier sur la note d'information», soit citer la référence exacte (note d'information) utilisée pour le chiffre.",
+    "juridique_fiscal : Le calcul présenté dans l'exemple est incorrect. La narration affirme qu'une distribution brute de 5 % devient ≈ 2,6 % net pour une tranche marginale à 30 %. Calcul correct en tenant compte de l'imposition au barème (30 %) et des prélèvements sociaux de 17,2 % : 5 % × (1 - 0,30) × (1 - 0,172) ≈ 2,90 %. Il faut corriger le chiffre et expliciter l'ordre d'application (prélèvements sociaux et impôt sur le revenu) si l'on veut éviter toute confusion.",
+    "editorial : La progression narrative est globalement bonne mais la formulation «Non, pas rapidement.» au beat 3 peut surprendre le spectateur (réponse abrupte sans rappel du sujet). Suggestion : reformuler pour lier directement au hook, par ex. «Non — vous ne récupérez pas rapidement ces frais.»",
+    "formulation_professionnelle : Quelques libellés méritent d'être affinés pour un français professionnel et naturel : «deux virgule six pour cent» (prononciation écrite) doit être remplacé par «≈ 2,9 %» (si on applique le calcul correct) ou dit «environ 2,9 %» à l'oral ; la phrase d'accroche peut être allégée comme indiqué ci-dessus.",
+    "contre_verification_finale : Vérification mot à mot a détecté l'incohérence du chiffre 2,6 % (voir juridique_fiscal). Par ailleurs la durée estimée (38 s) est plausible mais il faut s'assurer que la narration spoken-word tient bien dans le temps annoncé lors d'un essai vocal.",
+    "coherence_pictogrammes : Les pictogrammes décrits sont pertinents au sens large, mais quelques correspondances sont imprécises : beat 1 indique un pictogramme série '⌂' — recommander plutôt une icône claire «part» ou «immeuble» ; beat 4 'part - frais - calendrier' doit être lisible à l'écran en moins de 2–3 s (contraste et taille). Fournir une brève consigne graphique pour chacun (couleurs, relation texte/icone) permet d'éviter ambiguïté.",
+    "densite_editoriale : La vidéo traite un seul angle mais contient plusieurs chiffres et concepts (frais d'entrée, délai de jouissance, imposition, illiquidité). Pour conserver la concision, il faut corriger le chiffre erroné et envisager d'ôter le délai de jouissance (3–6 mois) du script s'il n'est pas prononcé, afin d'éviter surcharge informationnelle en 38 s.",
+    "pedagogie_client : Le terme «revenus fonciers» est employé dans la fiche, mais le script ne l'explique brièvement. Pour un non-spécialiste, ajouter une courte parenthèse («ce sont des loyers imposés au barème») dans la narration ou la légende améliorera la compréhension.",
+    "retention_attention : Les deux premières secondes sont attractives mais le visuel 'OUI ☐    NON ☐' (beat 2) peut couper le flux et ralentir l'attention plutôt que la renforcer. Recommendation : faire du beat 2 une question visuelle très rapide ou réduire son temps à 1–1,5 s pour maintenir la tension."
+  ],
+  "recommendations": [
+    "Corriger le calcul d'exemple fiscal : remplacer «5 % brut → ≈ 2,6 % net (TM 30 %)» par «5 % brut → ≈ 2,9 % net (TM 30 %, après prélèvements sociaux de 17,2 %)» et ajouter une courte note sur l'ordre d'application des prélèvements sociaux et de l'impôt sur le revenu si l'espace vocal le permet.",
+    "Préciser sur l'écran texte ou en voix que la fourchette «8–12 %» est un ordre de grandeur à vérifier dans la note d'information de la SCPI choisie (ou retirer la fourchette si aucune référence précise n'est citée).",
+    "Reformuler l'accroche de beat 3 pour lier clairement au hook : par ex. «Non — vous ne récupérez pas rapidement ces frais.» afin d'éviter une réponse trop abrupte.",
+    "Affiner la prononciation/écriture des pourcentages : dire ou afficher «≈ 2,9 %» au lieu de «deux virgule six pour cent» ; garder cohérence entre texte affiché et narration audio.",
+    "Donner des consignes graphiques précises pour les pictogrammes : icône immeuble/part pour l'accroche, balance pour l'idée d'équilibre/coût, schéma simple (part → frais → calendrier) avec couleurs contrastées et police lisible ; réduire la complexité visuelle pour que chaque visuel soit identifié en < 2 s.",
+    "Éventuellement retirer ou ne pas prononcer le chiffre «délai de jouissance 3–6 mois» si cela surcharge la vidéo ; sinon mentionner très brièvement «premiers revenus souvent 3–6 mois» en légende uniquement.",
+    "Ajouter une phrase très courte expliquant ce que sont les «revenus fonciers» (ex. «ce sont des loyers, imposés au barème»), pour assurer compréhension d'un public non spécialiste.",
+    "Faire un essai vocal chronométré pour confirmer que la narration tient dans 38 secondes après corrections et ajuster beats 2–3 en conséquence (réduire le temps du visuel OUI/NON si nécessaire)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-04:reels:scpi_frais_et_liquidite:0",
+  "script_path": "scripts/scpi/scpi_frais_et_liquidite__reels__a2__v8.md"
+}

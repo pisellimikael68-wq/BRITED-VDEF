@@ -1,0 +1,31 @@
+# Cadeau ou donation : quand faut-il déclarer ?
+**Plateforme** : YouTube Shorts  
+**Durée estimée** : 42 s
+
+| # | Beat | Narration | Visuel | Texte écran |
+|---|---|---:|---|---|
+| 1 | hook | Un cadeau d'argent pour un anniversaire doit-il être déclaré ? | visage parlant, point d'interrogation | Un cadeau d’argent pour un anniversaire doit-il être déclaré comme une donation ? |
+| 2 | reponse | Oui, mais seulement quand il s'agit d'un présent d'usage. | icône cadeau + coche | Oui, si c'est un présent d'usage |
+| 3 | regle | Un présent d'usage, c'est un cadeau offert à l'occasion d'un événement et proportionné à la fortune du donateur : il n'est ni rapportable à la succession ni taxable, selon l'article 852 du code civil. | pictogramme balance + livre de loi | Événement + proportionné - article 852 |
+| 4 | exemple | Par exemple, un chèque de 5 000 € pour un mariage pourra être considéré comme un présent d'usage si le donateur est riche, et au contraire requalifié en donation si le donateur a de faibles ressources. | mariage, chèque, deux silhouettes donateur riche/moins riche | 5 000 € pour un mariage : 2 issues |
+| 5 | nuance | Il n'y a pas de plafond légal : la proportionnalité s'apprécie au jour de la remise et la qualification peut être contestée après le décès ou par l'administration. | pictogramme alerte + document | Aucun plafond légal - appréciation au jour de la remise |
+| 6 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | bouton calendrier centré | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+
+Un cadeau d'argent pour un anniversaire doit-il être déclaré ?  Oui, mais seulement quand il s'agit d'un présent d'usage.  Un présent d'usage, c'est un cadeau offert à l'occasion d'un événement et proportionné à la fortune du donateur : il n'est ni rapportable à la succession ni taxable, selon l'article 852 du code civil.  Par exemple, un chèque de 5 000 € pour un mariage pourra être considéré comme un présent d'usage si le donateur est riche, et au contraire requalifié en donation si le donateur a de faibles ressources.  Il n'y a pas de plafond légal : la proportionnalité s'apprécie au jour de la remise et la qualification peut être contestée après le décès ou par l'administration.  Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+
+## Légende
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.
+
+## Hashtags
+#présentdusage #donation #fiscalité #succession #cadeau
+
+## Sources
+- Code civil, article 852 (dispense de rapport des présents d'usage)  
+- CGI, article 784 (rappel fiscal des donations antérieures)  
+- CGI, article 790 G (don familial de sommes d'argent)  
+- Cour de cassation, première chambre civile (appréciation au jour de la remise et au regard de la fortune du donateur)
+
+## Mention
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

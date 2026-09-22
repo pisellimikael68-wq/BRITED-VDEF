@@ -1,0 +1,142 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation du hook « transmettre 152 500 euros par bénéficiaire sans droits ? » est potentiellement trompeuse. Elle peut laisser entendre une exonération totale et permanente, alors que la règle précise que l'abattement de 152 500 € s'applique aux capitaux issus des primes versées avant 70 ans et que la part au-delà est soumise à taxation (20% jusqu'à 700 000 € puis 31,25%). Le script clarifie ensuite, mais l'accroche reste risquée juridiquement.",
+        "Absence d'une mention explicite, en une phrase très brève dans le hook ou la nuance, que les primes versées après 70 ans relèvent d'un régime distinct (article 757 B : abattement global 30 500 € partagé entre bénéficiaires) — la fiche source le précise et la nuance finale évoque l'âge, mais le rappel explicite manque dans l'accroche/nouage."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Risque de lecture abusive par un non-spécialiste si l'accroche n'est pas précisée immédiatement : l'expression « sans droits » peut être interprétée comme absence totale d'imposition ou de tout lien avec la succession civile, ce qui contrevient à l'élément 'a_ne_pas_dire' de la fiche. Il faut atténuer l'accroche ou ajouter rapidement la nuance."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes doivent être très précises : l'accroche actuelle attire l'attention mais, parce qu'elle est potentiellement ambiguë (« sans droits ? »), elle peut provoquer une perte de confiance ou un arrêt précipité de l'utilisateur. Recommandation : modifier légèrement l'accroche pour conserver la force attentionnelle tout en réduisant l'ambiguïté."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La formulation du hook « transmettre 152 500 euros par bénéficiaire sans droits ? » est potentiellement trompeuse. Elle peut laisser entendre une exonération totale et permanente, alors que la règle précise que l'abattement de 152 500 € s'applique aux capitaux issus des primes versées avant 70 ans et que la part au-delà est soumise à taxation (20% jusqu'à 700 000 € puis 31,25%). Le script clarifie ensuite, mais l'accroche reste risquée juridiquement.",
+    "juridique_fiscal : Absence d'une mention explicite, en une phrase très brève dans le hook ou la nuance, que les primes versées après 70 ans relèvent d'un régime distinct (article 757 B : abattement global 30 500 € partagé entre bénéficiaires) — la fiche source le précise et la nuance finale évoque l'âge, mais le rappel explicite manque dans l'accroche/nouage.",
+    "securite : Risque de lecture abusive par un non-spécialiste si l'accroche n'est pas précisée immédiatement : l'expression « sans droits » peut être interprétée comme absence totale d'imposition ou de tout lien avec la succession civile, ce qui contrevient à l'élément 'a_ne_pas_dire' de la fiche. Il faut atténuer l'accroche ou ajouter rapidement la nuance.",
+    "retention_attention : Les deux premières secondes doivent être très précises : l'accroche actuelle attire l'attention mais, parce qu'elle est potentiellement ambiguë (« sans droits ? »), elle peut provoquer une perte de confiance ou un arrêt précipité de l'utilisateur. Recommandation : modifier légèrement l'accroche pour conserver la force attentionnelle tout en réduisant l'ambiguïté."
+  ],
+  "recommendations": [
+    "Remplacer l'accroche (beat 1) par une formulation moins ambiguë, par exemple : « L'assurance‑vie permet‑elle de transmettre 152 500 € par bénéficiaire sans droits de succession ? » ou « Peut‑on transmettre 152 500 € par bénéficiaire exonérés de droits ? » — pour préciser 'droits de succession' et réduire le risque d'interprétation 'sans aucun droit'.",
+    "Ajouter en une courte phrase (beat 2 ou beat 5) la mention explicite sur les primes versées après 70 ans : « Les primes versées après 70 ans relèvent de l'article 757 B : abattement global de 30 500 € partagé entre bénéficiaires, puis droits de succession ordinaires. » Cela respecte la source et prévient une confusion fréquente.",
+    "Dans la nuance (beat 5), remplacer la formulation « âge = âge du souscripteur au versement » par : « on retient l'âge du souscripteur au moment de chaque versement (avant ou après 70 ans) », afin d'être immédiatement compréhensible pour un non-spécialiste.",
+    "Veiller, au mixage voix/textes écran, à ce que le mot 'sans droits' n'apparaisse seul sur l'écran d'accroche sans la précision 'de succession' — l'écran doit reprendre la formulation atténuée pour éviter toute lecture hâtive.",
+    "Optionnel pour la confiance : ajouter très brièvement, juste après l'exemple (beat 4), la mention « primes manifestement exagérées peuvent être réintégrées », ou l'intégrer dans la légende, pour prévenir l'idée de pouvoir totalement déshériter les héritiers et rester cohérent avec 'a_ne_pas_dire'."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-17:shorts:assurance_vie_990i_152500:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_990i_152500__shorts__a4__v3.md"
+}

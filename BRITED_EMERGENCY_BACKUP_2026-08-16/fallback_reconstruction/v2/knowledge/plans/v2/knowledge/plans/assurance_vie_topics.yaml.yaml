@@ -1,0 +1,11 @@
+supports:
+  - id: assurance_vie_supports_definition
+    title: Qu'est-ce qu'un support d'investissement ?
+    difficulty: Débutant
+    priority: 10
+
+  - id: assurance_vie_supports_categories
+    title: Quels sont les différents supports ?
+    difficulty: Débutant
+    priority: 10
+    

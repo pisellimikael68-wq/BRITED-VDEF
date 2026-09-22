@@ -1,0 +1,149 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration et la légende rappellent correctement les règles légales et citent l'article L541-1 pour le statut requis, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être interprété comme une offre de conseil personnalisé sans expliciter que toute consultation constituera une prestation réglementée (conseil en investissement) si elle contient une recommandation personnalisée. Il manque une phrase explicite indiquant que la prise de rendez-vous ne constitue pas, par elle-même, un conseil en investissement et que les recommandations personnalisées nécessitent un statut réglementé ou seront fournies par un professionnel habilité."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite l'angle principal (obligation de mention + produits restreints + responsabilité) et l'exception pédagogique, mais omet d'indiquer explicitement que la mention doit être lisible (taille/contraste) et visible sur tous les supports (mobile/desktop) pendant toute la durée; il manque aussi la précision que la mention doit être apposée même si le contenu est fourni par l'annonceur."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la neutralité pédagogique et la mention 'Contenu pédagogique général' en légende, mais le CTA vers une prise de rendez-vous sans préciser la nature (consultation payante, encadrement professionnel) peut créer une attente de conseil personnalisé. Il faudrait ajouter une phrase de non-sollicitation explicite si le créateur n'est pas habilité à donner des recommandations personnalisées."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Petites incohérences à corriger pour la deuxième lecture : la phrase 'interdit la promotion publique de certains produits - contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés - et fixe la responsabilité personnelle du créateur.' est dense; recommander de scinder en deux phrases pour la prononciation et la clarté. De plus, vérifier que l'overlay 'Publicité' ne cache des éléments essentiels de l'écran sur mobile."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certains pictogrammes sont génériques ('icône livre', 'icône loi') ; il est préférable d'utiliser un pictogramme juridique identifiable pour la loi (ex. un rouleau de texte stylisé ou balance) et d'éviter des pictogrammes qui pourraient évoquer advice/finance personnelle pour la section pédagogique afin de ne pas suggérer un conseil."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et professionnel, mais l'appel à l'action manque d'une précision rassurante (ex. préciser 'consultation avec un professionnel habilité' ou 'avis général, pas une recommandation personnalisée') pour éviter toute surpromesse et renforcer la confiance sans franchir la ligne du conseil non autorisé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 120,
+      "seconds": 44.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 120,
+        "seconds": 44.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La narration et la légende rappellent correctement les règles légales et citent l'article L541-1 pour le statut requis, mais le CTA 'Prenez rendez-vous via le lien dans ma bio' peut être interprété comme une offre de conseil personnalisé sans expliciter que toute consultation constituera une prestation réglementée (conseil en investissement) si elle contient une recommandation personnalisée. Il manque une phrase explicite indiquant que la prise de rendez-vous ne constitue pas, par elle-même, un conseil en investissement et que les recommandations personnalisées nécessitent un statut réglementé ou seront fournies par un professionnel habilité.",
+    "completude : Le script traite l'angle principal (obligation de mention + produits restreints + responsabilité) et l'exception pédagogique, mais omet d'indiquer explicitement que la mention doit être lisible (taille/contraste) et visible sur tous les supports (mobile/desktop) pendant toute la durée; il manque aussi la précision que la mention doit être apposée même si le contenu est fourni par l'annonceur.",
+    "securite : Le script respecte la neutralité pédagogique et la mention 'Contenu pédagogique général' en légende, mais le CTA vers une prise de rendez-vous sans préciser la nature (consultation payante, encadrement professionnel) peut créer une attente de conseil personnalisé. Il faudrait ajouter une phrase de non-sollicitation explicite si le créateur n'est pas habilité à donner des recommandations personnalisées.",
+    "contre_verification_finale : Petites incohérences à corriger pour la deuxième lecture : la phrase 'interdit la promotion publique de certains produits - contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés - et fixe la responsabilité personnelle du créateur.' est dense; recommander de scinder en deux phrases pour la prononciation et la clarté. De plus, vérifier que l'overlay 'Publicité' ne cache des éléments essentiels de l'écran sur mobile.",
+    "coherence_pictogrammes : Certains pictogrammes sont génériques ('icône livre', 'icône loi') ; il est préférable d'utiliser un pictogramme juridique identifiable pour la loi (ex. un rouleau de texte stylisé ou balance) et d'éviter des pictogrammes qui pourraient évoquer advice/finance personnelle pour la section pédagogique afin de ne pas suggérer un conseil.",
+    "conversion_confiance : Le ton est sérieux et professionnel, mais l'appel à l'action manque d'une précision rassurante (ex. préciser 'consultation avec un professionnel habilité' ou 'avis général, pas une recommandation personnalisée') pour éviter toute surpromesse et renforcer la confiance sans franchir la ligne du conseil non autorisé."
+  ],
+  "recommendations": [
+    "Ajouter immédiatement après le CTA une phrase courte et claire, en légende et vocalement si possible : 'Prise de rendez‑vous pour une consultation avec un professionnel habilité — ceci n'est pas un conseil personnalisé dans la vidéo.'",
+    "Scinder la phrase dense du beat 3 en deux phrases pour améliorer la prononciation et la compréhension : (1) 'La loi du 9 juin 2023 exige un bandeau « Publicité » ou « Collaboration commerciale » visible pendant toute la durée du contenu.' (2) 'Elle interdit la promotion publique de certains produits (contrats financiers hautement spéculatifs, actifs numériques hors prestataires enregistrés) et rappelle la responsabilité personnelle du créateur.'",
+    "Préciser en légende une exigence pratique sur la mention : 'Le bandeau doit être lisible (contraste, taille) et visible pendant toute la durée, y compris sur mobile.'",
+    "Remplacer/affiner les pictogrammes génériques : utiliser un pictogramme identifiable pour le cadre légal (ex. icône de texte officiel/loi) et un pictogramme pédagogique neutre pour la partie pédagogique afin d'éviter toute confusion avec du conseil personnalisé.",
+    "Ajouter, si applicable, une courte mention indiquant que même si le message a été fourni par l'annonceur, la responsabilité du créateur reste engagée (par ex. 'Même si le contenu vient d'un annonceur, la responsabilité du créateur est engagée')."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-19:shorts:conformite_influence_commerciale:0",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__shorts__a4__v2.md"
+}

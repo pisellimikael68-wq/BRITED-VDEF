@@ -1,0 +1,456 @@
+{
+  "updated_at": "2026-09-03T11:59:53",
+  "history": [
+    {
+      "cycle": 1,
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "path": "scripts/culture_financiere/culture_interets_composes__shorts__a1__v7.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-02:shorts:impot_revenu_tranche_marginale:1",
+      "path": "scripts/impot_revenu/impot_revenu_tranche_marginale__shorts__a1__v12.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a1__v8.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-04:shorts:demembrement_bareme_669:0",
+      "path": "scripts/demembrement/demembrement_bareme_669__shorts__a1__v10.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-04:shorts:donation_abattement_100000:1",
+      "path": "scripts/donation/donation_abattement_100000__shorts__a1__v9.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-06:shorts:don_familial_790g:0",
+      "path": "scripts/donation/don_familial_790g__shorts__a1__v5.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-06:shorts:donation_rapport_civil:1",
+      "path": "scripts/donation/donation_rapport_civil__shorts__a1__v7.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-07:shorts:etf_replication_indicielle:0",
+      "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v15.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (36 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-07:shorts:fiscalite_controle_fiscal:1",
+      "path": "scripts/fiscalite/fiscalite_controle_fiscal__shorts__a1__v10.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-08:shorts:fiscalite_plafonnement_niches:0",
+      "path": "scripts/fiscalite/fiscalite_plafonnement_niches__shorts__a1__v7.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-08:shorts:fiscalite_quotient_familial:1",
+      "path": "scripts/fiscalite/fiscalite_quotient_familial__shorts__a1__v4.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (36 mots, maximum 35)",
+        "Hook trop long pour arrêter le défilement (20 mots, maximum 18)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-09:shorts:fonds_investissement_frais:0",
+      "path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v11.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-09:shorts:ifi_seuil_declenchement:1",
+      "path": "scripts/ifi/ifi_seuil_declenchement__shorts__a2__v6.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+      "path": "scripts/ifi/ifi_dettes_deductibles__shorts__a2__v4.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (38 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-10:shorts:immobilier_achat_couple_non_marie:1",
+      "path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v10.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-11:shorts:immobilier_frais_de_notaire:1",
+      "path": "scripts/immobilier/immobilier_frais_de_notaire__shorts__a1__v5.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-12:shorts:immobilier_dpe_location:0",
+      "path": "scripts/immobilier/immobilier_dpe_location__shorts__a1__v11.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "path": "scripts/culture_financiere/culture_interets_composes__shorts__a1__v8.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a1__v9.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-04:shorts:demembrement_bareme_669:0",
+      "path": "scripts/demembrement/demembrement_bareme_669__shorts__a1__v11.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-06:shorts:donation_rapport_civil:1",
+      "path": "scripts/donation/donation_rapport_civil__shorts__a1__v8.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-07:shorts:etf_replication_indicielle:0",
+      "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v17.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (36 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-08:shorts:fiscalite_quotient_familial:1",
+      "path": "scripts/fiscalite/fiscalite_quotient_familial__shorts__a1__v5.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook trop long pour arrêter le défilement (19 mots, maximum 18)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+      "path": "scripts/ifi/ifi_dettes_deductibles__shorts__a2__v5.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-12:shorts:immobilier_deficit_foncier:1",
+      "path": "scripts/immobilier/immobilier_deficit_foncier__shorts__a1__v4.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-13:shorts:immobilier_revenus_fonciers_micro:0",
+      "path": "scripts/immobilier/immobilier_revenus_fonciers_micro__shorts__a1__v6.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "path": "scripts/culture_financiere/culture_interets_composes__shorts__a1__v9.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a1__v10.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-04:shorts:demembrement_bareme_669:0",
+      "path": "scripts/demembrement/demembrement_bareme_669__shorts__a1__v12.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-06:shorts:donation_rapport_civil:1",
+      "path": "scripts/donation/donation_rapport_civil__shorts__a1__v9.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : terme technique non expliqué simplement : abattement"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-07:shorts:etf_replication_indicielle:0",
+      "path": "scripts/etf/etf_replication_indicielle__shorts__a1__v19.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-08:shorts:fiscalite_quotient_familial:1",
+      "path": "scripts/fiscalite/fiscalite_quotient_familial__shorts__a1__v6.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-13:shorts:immobilier_plus_value_duree_detention:1",
+      "rejected": true,
+      "reason": "Chiffres modifiés : avant=['165', '172', '19', '21', '22', '30', '362', '4', '6', '9'], après=['172', '19', '21', '22', '362', '4', '6']"
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-14:shorts:impot_revenu_pension_alimentaire:0",
+      "path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__shorts__a1__v6.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (38 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-14:shorts:impot_revenu_decote:1",
+      "path": "scripts/impot_revenu/impot_revenu_decote__shorts__a1__v16.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-15:shorts:impot_revenu_tranche_marginale:0",
+      "path": "scripts/impot_revenu/impot_revenu_tranche_marginale__shorts__a2__v13.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 1,
+      "id": "2026-09-15:shorts:impot_revenu_prelevement_source:1",
+      "path": "scripts/impot_revenu/impot_revenu_prelevement_source__shorts__a1__v5.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "path": "scripts/culture_financiere/culture_interets_composes__shorts__a1__v10.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a1__v11.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-04:shorts:demembrement_bareme_669:0",
+      "path": "scripts/demembrement/demembrement_bareme_669__shorts__a1__v13.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-06:shorts:donation_rapport_civil:1",
+      "path": "scripts/donation/donation_rapport_civil__shorts__a1__v10.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-13:shorts:immobilier_plus_value_duree_detention:1",
+      "path": "scripts/immobilier/immobilier_plus_value_duree_detention__shorts__a1__v5.md",
+      "audit_ok": false,
+      "errors": [
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-14:shorts:impot_revenu_pension_alimentaire:0",
+      "path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__shorts__a1__v7.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 2,
+      "id": "2026-09-14:shorts:impot_revenu_decote:1",
+      "path": "scripts/impot_revenu/impot_revenu_decote__shorts__a1__v17.md",
+      "audit_ok": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "cycle": 3,
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "path": "scripts/culture_financiere/culture_interets_composes__shorts__a1__v11.md",
+      "audit_ok": false,
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 3,
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a1__v12.md",
+      "audit_ok": false,
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ],
+      "warnings": []
+    },
+    {
+      "cycle": 3,
+      "id": "2026-09-13:shorts:immobilier_plus_value_duree_detention:1",
+      "path": "scripts/immobilier/immobilier_plus_value_duree_detention__shorts__a1__v6.md",
+      "audit_ok": false,
+      "errors": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ],
+      "warnings": []
+    }
+  ],
+  "current_total": 28,
+  "current_pass": 25,
+  "current_fail": 3,
+  "remaining": [
+    {
+      "id": "2026-09-02:shorts:culture_interets_composes:0",
+      "errors": [
+        "Hook ambigu hors contexte : nommer dès les premiers mots ce qui est commencé, versé, placé ou réparti"
+      ]
+    },
+    {
+      "id": "2026-09-03:shorts:demembrement_fin_usufruit:1",
+      "errors": [
+        "Face caméra : phrase trop longue pour un souffle naturel (41 mots, maximum 35)"
+      ]
+    },
+    {
+      "id": "2026-09-13:shorts:immobilier_plus_value_duree_detention:1",
+      "errors": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+        "Personnalité face caméra : l'exemple ne projette pas explicitement le spectateur dans la situation"
+      ]
+    }
+  ]
+}

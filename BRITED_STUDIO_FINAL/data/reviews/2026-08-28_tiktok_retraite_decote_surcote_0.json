@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "d411ba45b1f328171e5588f34f3565b43124a3fa778f9eb6f94ef62c65357a34",
+      "adapted_hash": "d411ba45b1f328171e5588f34f3565b43124a3fa778f9eb6f94ef62c65357a34",
+      "source_beats": 7,
+      "adapted_pages": 9,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Préciser dans le texte écran ou en légende que la « décote » et l'« annulation à l'âge du taux plein automatique » varient selon la génération (réforme 2023) — le script évoque la génération, mais une mention rapide dans la légende renforcerait la conformité avec la règle « ne pas citer de taux ni de durée sans préciser la génération ».",
+    "Si l'on souhaite renforcer l'impact chiffré sans introduire d'information nouvelle, reprendre l'exemple chiffré de la fiche (1 600 → 1 500, 24 000 € sur 20 ans) en le plaçant en texte écran plutôt qu'en narration orale pour respecter la durée et la densité du format TikTok.",
+    "Éventuellement ajouter brièvement (texte écran) la recommandation explicite de vérifier le relevé de carrière avant liquidation — le script l'implique via le CTA, mais une formulation claire « Vérifiez votre relevé de carrière avant de liquider » renforcerait l'appel à l'action utile."
+  ],
+  "reviewed_at": "2026-08-17T18:42:44",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-28:tiktok:retraite_decote_surcote:0",
+  "script_path": "scripts/retraite/retraite_decote_surcote__tiktok__a1__v14.md"
+}

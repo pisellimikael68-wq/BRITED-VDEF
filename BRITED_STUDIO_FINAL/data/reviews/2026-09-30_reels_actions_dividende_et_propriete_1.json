@@ -1,0 +1,168 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est respectée globalement mais la narration contient la mention 'PFU trente pour cent sauf option pour le barème' : la formulation est fidèle au chiffre fourni (30%) mais omet la précision que ce chiffre combine impôt et prélèvements sociaux (12,8% + 17,2%). Demande une petite précision textuelle pour être strictement fidèle au détail fiscal."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement que le dividende est voté par l'assemblée et non garanti, et cite le PFU 30% sauf option. Cependant, il manque la précision selon laquelle le PFU de 30% regroupe impôt sur le revenu (12,8%) et prélèvements sociaux (17,2%), ce qui est une nuance fiscale utile et vérifiable dans les sources AMF / administrations fiscales."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'essentiel est couvert (nature du dividende, effet du détachement, fiscalité, risque en liquidation). Il manque toutefois une phrase très brève expliquant que l'actionnaire supporte les pertes 'à hauteur de son apport' (présente dans la fiche) — la notion d'apport n'est pas explicitement citée dans la narration."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : la narration continue proposée est dense et risque d'excéder 38 s en lecture à vitesse naturelle. Le script manque d'indication de ralentissements ou de coupures pour respecter strictement la contrainte temporelle d'Instagram Reels."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes. Deux points à améliorer : la question OUI / NON pourrait être interactive mais l'enchaînement actuel répond immédiatement 'Non', ce qui réduit l'effet interactif; et la phrase fiscale 'PFU trente pour cent sauf option pour le barème' gagnerait à être raccourcie pour l'écran sans perdre la précision (ex. 'PFU 30% — option barème possible')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est claire mais quelques libellés peuvent être améliorés pour le français courant : remplacer 'Au détachement, le cours baisse du montant détaché.' par 'Au détachement, le cours baisse d'un montant équivalent au dividende détaché.' et préciser 'PFU 30% (impôt + prélèvements sociaux) sauf option pour le barème.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, la narration couvre les points mais contient de petites redondances ('Au détachement, le cours baisse du montant détaché' + exemple chiffré) qui pourraient être resserrées. Relecture indépendante recommande ajuster la durée et simplifier la phrase fiscale pour l'oral."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont génériques ('pictogramme bouclier barré', 'pictogramme taxe') ; il faut s'assurer que les visuels illustrent précisément la notion prononcée (par ex. utiliser un pictogramme clair 'vote' pour l'assemblée, un flux d'argent net pour le détachement). Le script doit demander explicitement ces visuels afin d'éviter symboles décoratifs ambiguës."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (dividende non garanti) mais contient plusieurs éléments annexes (exemple chiffré, fiscalité, risque liquidation). C'est pertinent mais nécessite un resserrement pour garantir la lisibilité en ~38s : par exemple, faire l'exemple chiffré très bref et convertir la mention fiscale en un bandeau court."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vulgarisation est bonne. Toutefois, le terme 'liquidation' pourrait être compris de façon approximative par un non-spécialiste : suggérer d'ajouter 'fermeture/cessation d'activité' entre parenthèses pour la clarté immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est efficace. L'interruption rapide par la réponse 'Non' est utile mais risque de réduire l'engagement interactif attendu après la question OUI / NON. Recommander un très court silence ou micro-plan pour laisser le spectateur réagir avant la réponse."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et CTA adaptés. À corriger toutefois : la mention fiscale pourrait sembler incomplète sans préciser la composition du 30% (impôt + prélèvements sociaux) — ajouter cette précision renforcera la crédibilité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est respectée globalement mais la narration contient la mention 'PFU trente pour cent sauf option pour le barème' : la formulation est fidèle au chiffre fourni (30%) mais omet la précision que ce chiffre combine impôt et prélèvements sociaux (12,8% + 17,2%). Demande une petite précision textuelle pour être strictement fidèle au détail fiscal.",
+    "juridique_fiscal : Le script indique correctement que le dividende est voté par l'assemblée et non garanti, et cite le PFU 30% sauf option. Cependant, il manque la précision selon laquelle le PFU de 30% regroupe impôt sur le revenu (12,8%) et prélèvements sociaux (17,2%), ce qui est une nuance fiscale utile et vérifiable dans les sources AMF / administrations fiscales.",
+    "completude : L'essentiel est couvert (nature du dividende, effet du détachement, fiscalité, risque en liquidation). Il manque toutefois une phrase très brève expliquant que l'actionnaire supporte les pertes 'à hauteur de son apport' (présente dans la fiche) — la notion d'apport n'est pas explicitement citée dans la narration.",
+    "plateforme : Durée estimée 38 secondes : la narration continue proposée est dense et risque d'excéder 38 s en lecture à vitesse naturelle. Le script manque d'indication de ralentissements ou de coupures pour respecter strictement la contrainte temporelle d'Instagram Reels.",
+    "editorial : Accroche et progression sont bonnes. Deux points à améliorer : la question OUI / NON pourrait être interactive mais l'enchaînement actuel répond immédiatement 'Non', ce qui réduit l'effet interactif; et la phrase fiscale 'PFU trente pour cent sauf option pour le barème' gagnerait à être raccourcie pour l'écran sans perdre la précision (ex. 'PFU 30% — option barème possible').",
+    "formulation_professionnelle : La formulation est claire mais quelques libellés peuvent être améliorés pour le français courant : remplacer 'Au détachement, le cours baisse du montant détaché.' par 'Au détachement, le cours baisse d'un montant équivalent au dividende détaché.' et préciser 'PFU 30% (impôt + prélèvements sociaux) sauf option pour le barème.'",
+    "contre_verification_finale : En lecture mot à mot, la narration couvre les points mais contient de petites redondances ('Au détachement, le cours baisse du montant détaché' + exemple chiffré) qui pourraient être resserrées. Relecture indépendante recommande ajuster la durée et simplifier la phrase fiscale pour l'oral.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont génériques ('pictogramme bouclier barré', 'pictogramme taxe') ; il faut s'assurer que les visuels illustrent précisément la notion prononcée (par ex. utiliser un pictogramme clair 'vote' pour l'assemblée, un flux d'argent net pour le détachement). Le script doit demander explicitement ces visuels afin d'éviter symboles décoratifs ambiguës.",
+    "densite_editoriale : La vidéo traite un seul angle (dividende non garanti) mais contient plusieurs éléments annexes (exemple chiffré, fiscalité, risque liquidation). C'est pertinent mais nécessite un resserrement pour garantir la lisibilité en ~38s : par exemple, faire l'exemple chiffré très bref et convertir la mention fiscale en un bandeau court.",
+    "pedagogie_client : La vulgarisation est bonne. Toutefois, le terme 'liquidation' pourrait être compris de façon approximative par un non-spécialiste : suggérer d'ajouter 'fermeture/cessation d'activité' entre parenthèses pour la clarté immédiate.",
+    "retention_attention : Le hook est efficace. L'interruption rapide par la réponse 'Non' est utile mais risque de réduire l'engagement interactif attendu après la question OUI / NON. Recommander un très court silence ou micro-plan pour laisser le spectateur réagir avant la réponse.",
+    "conversion_confiance : Ton professionnel et CTA adaptés. À corriger toutefois : la mention fiscale pourrait sembler incomplète sans préciser la composition du 30% (impôt + prélèvements sociaux) — ajouter cette précision renforcera la crédibilité."
+  ],
+  "recommendations": [
+    "Préciser brièvement que le PFU de 30% est composé de 12,8% d'impôt sur le revenu et 17,2% de prélèvements sociaux, ou remplacer par 'PFU 30% (impôt + prélèvements sociaux) — option barème possible'.",
+    "Ajouter dans la narration une phrase très courte rappelant que l'actionnaire supporte les pertes 'à hauteur de son apport' pour coller mot à mot à la fiche source.",
+    "Alléger la narration pour tenir dans ~38 s : raccourcir l'exemple chiffré et transformer la partie fiscale en bandeau texte à l'écran afin d'économiser du temps de parole.",
+    "Clarifier visuels/pictogrammes : demander explicitement un pictogramme 'vote' pour l'assemblée, un flux d'argent clair pour le détachement, un pictogramme 'taxe' standard pour la fiscalité, et remplacer les icônes génériques par des visuels descriptifs.",
+    "Pour l'accessibilité d'un non-spécialiste, expliciter 'liquidation (fermeture/cessation d'activité)' et reformuler 'cours baisse du montant détaché' en 'cours baisse d'un montant équivalent au dividende détaché'.",
+    "Conserver la structure interactive mais laisser une très courte pause après la question OUI / NON avant de répondre pour augmenter l'engagement."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-30:reels:actions_dividende_et_propriete:1",
+  "script_path": "scripts/actions/actions_dividende_et_propriete__reels__a1__v2.md"
+}

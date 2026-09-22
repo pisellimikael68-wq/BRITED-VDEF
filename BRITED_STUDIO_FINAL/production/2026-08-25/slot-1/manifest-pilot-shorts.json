@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-25",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-25:shorts:regimes_separation_de_biens:0",
+      "platform": "shorts",
+      "title": "La séparation de biens et sa fausse sécurité",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_separation_de_biens__shorts__a1__v8.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/shorts/regimes_separation_de_biens__shorts.mp4",
+      "script_sha256": "530c374105f1641de4dc7fbd7d6e4baaab9a8d5951d2fd149558ccfbb8a7d1dc",
+      "spec_sha256": "61a2dcaf4147478a77d949868b9376fa37090bc480f2a15c2f2c74d31a58104d",
+      "video_sha256": "cf560f48ab591739d8a9eb1f378d4697855a7b8a451a924f97c09d1a7860f857",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 49.6,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 125,
+        "seconds": 46.3,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-25:shorts:regimes_separation_de_biens:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-25_shorts_regimes_separation_de_biens_0.json",
+        "validated_at": "2026-08-24T15:39:45"
+      },
+      "review_path": "data/reviews/2026-08-25_shorts_regimes_separation_de_biens_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/shorts/regimes_separation_de_biens__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-25/slot-1/shorts/regimes_separation_de_biens__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

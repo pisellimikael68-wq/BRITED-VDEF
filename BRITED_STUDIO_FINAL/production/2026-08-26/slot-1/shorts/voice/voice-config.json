@@ -1,0 +1,55 @@
+{
+  "provider": "elevenlabs",
+  "voice_id": "jGpnMdbhtKgQbVrYezOx",
+  "model_id": "eleven_multilingual_v2",
+  "voice_settings": {
+    "stability": 0.62,
+    "similarity_boost": 0.82,
+    "style": 0.1,
+    "use_speaker_boost": true,
+    "speed": 1.0
+  },
+  "beat_hashes": {
+    "01_hook": "db9573fa91e5fadc6ce1ca82f6a0206944724ff210136550df87f69f07947b17",
+    "02_reponse": "47e6cc2422a123789903f12a8f3c7b8039a9bfb675a0cda2d491a869fbde612e",
+    "03_regle": "f35d7791412d53248e66ab436ba037a9cc60ae23bd7237ce741182c16247d940",
+    "04_exemple": "61534b1ea345e0b2e2238455df09172e1e43335ebe6acff9394ce44d5a430d45",
+    "05_nuance": "251b517e5aff6ec82d4e5f9dbdb1e7897985da7f325d886cd42f75065c50610c",
+    "06_cta": "0e458f8eecef5221574444823b5c72f320769e3b30e9748a43408e972b02ac09"
+  },
+  "target_wpm": {
+    "hook": 222.0,
+    "question": 160.0,
+    "reponse": 178.0,
+    "regle": 164.0,
+    "precision": 168.0,
+    "exemple": 174.0,
+    "nuance": 165.0,
+    "cta": 208.0,
+    "default": 172.0
+  },
+  "voice_profile": {
+    "target_wpm": {
+      "hook": 222.0,
+      "question": 160.0,
+      "reponse": 178.0,
+      "regle": 164.0,
+      "precision": 168.0,
+      "exemple": 174.0,
+      "nuance": 165.0,
+      "cta": 208.0,
+      "default": 172.0
+    },
+    "role_settings": {
+      "hook": {
+        "stability": 0.4,
+        "similarity_boost": 0.82,
+        "style": 0.5,
+        "use_speaker_boost": true,
+        "speed": 1.12
+      }
+    }
+  },
+  "key_storage": "macOS Keychain",
+  "api_key_recorded": false
+}

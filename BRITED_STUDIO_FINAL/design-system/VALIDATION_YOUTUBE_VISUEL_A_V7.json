@@ -1,0 +1,13 @@
+{
+  "status": "validated",
+  "validated_at": "2026-08-21",
+  "validated_by": "Mikael Piselli - confirmation explicite",
+  "platform": "shorts",
+  "visual_direction": "Claude Design - Visuel A hybride",
+  "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+  "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+  "renderer": "video_pipeline/render_social_visual_a.py",
+  "publication_authorized": false,
+  "distribution_destinations": ["youtube"],
+  "locked_rules": ["youtube_delivery_profile_only", "native_youtube_script", "page_2_single_adaptive_answer_card", "page_2_answer_geometrically_centered", "page_2_answer_font_scale_46_to_40", "page_2_no_oversized_first_word", "header_uniform", "page_crossfade_0.9_seconds", "progressive_contextual_icons", "single_main_font_scale_46_to_40", "hook_190_wpm", "cta_184_wpm", "single_appointment_cta", "human_video_approval_required"]
+}

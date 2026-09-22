@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 152,
+      "seconds": 56.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 152,
+        "seconds": 56.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "d82006af7da973ed387cdb6843ef1109dea7755e31ea2da141fc0fcbd4abc9bd",
+      "adapted_hash": "d82006af7da973ed387cdb6843ef1109dea7755e31ea2da141fc0fcbd4abc9bd",
+      "source_beats": 6,
+      "adapted_pages": 10,
+      "splits": 4,
+      "exact_text_preserved": true,
+      "minimum_font_size": 39,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Dans la règle (beat 3) ou le texte écran, préciser brièvement que l'exonération fiscale du partenaire de PACS s'applique lorsqu'il reçoit quelque chose (pour éviter toute lecture rapide qui confond exonération et vocation successorale).",
+    "Éventuellement, pour la plateforme Shorts, condenser légèrement la lecture de la règle (beat 3) si le rythme paraît trop dense à l'oral : garder les articles cités à l'écran mais alléger la formulation vocale.",
+    "Vérifier la synchronisation visuelle du pictogramme '60%' avec la mention 'si reçu via testament' pour éviter toute interprétation selon laquelle le concubin serait automatiquement taxé à 60%."
+  ],
+  "reviewed_at": "2026-08-17T17:28:23",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-25:shorts:regimes_pacs_concubinage:1",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_pacs_concubinage__shorts__a1.md"
+}

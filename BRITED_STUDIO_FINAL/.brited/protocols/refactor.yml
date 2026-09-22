@@ -1,0 +1,46 @@
+metadata:
+  schema: "1.0"
+
+protocol:
+
+  id: refactor
+
+trigger:
+
+  event: refactor_requested
+
+pipeline:
+
+  - id: architect
+    produces:
+      - refactor_plan
+
+  - id: builder
+    requires:
+      - refactor_plan
+    produces:
+      - code
+
+  - id: reviewer
+    requires:
+      - code
+    produces:
+      - review_report
+
+  - id: tester
+    requires:
+      - review_report
+    produces:
+      - regression_report
+
+completion:
+
+  success:
+    - architecture_preserved
+    - tests_passed
+
+failure:
+
+  - architecture_changed
+  - regression_failed
+  

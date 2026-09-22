@@ -1,0 +1,164 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence source/chiffre : l'amende 750 € est listée avec source index 1, or la source 1 dans la fiche est l'article 1649 bis C (déclaration des comptes d'actifs numériques). La référence citée dans le commentaire des chiffres est CGI article 1736 X — il faut corriger l'indexation ou la source référencée pour que la provenance de l'amende soit vérifiable mot à mot."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention 'PFU 30 %' est correcte mais la vidéo omet de préciser brièvement ce que couvre ce taux (constitution pratique : 30 % au total). Pour éviter toute interprétation incomplète, il faudrait indiquer si le taux couvre impôt + prélèvements sociaux ou renvoyer explicitement à la source BOFiP/CGI pour le détail. Le script actuel peut laisser croire à une absence de charges sociales si non précisé."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique que la plus-value se calcule sur la valeur globale du portefeuille, mais n'explique succinctement (en 1 phrase) la méthode pratique attendue (ex. valeur globale au moment de la cession moins prix d'acquisition global) — omission qui peut laisser le spectateur hésitant sur le calcul réel."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression clairs, mais la première phrase du 'narration continue' est longue et pourrait être raccourcie pour les 2 premières secondes. Exemple localisable : 'Votre portefeuille crypto tourne sans sortie en euros ?' est bon, mais la suite « Est‑ce imposable ? OUI ou NON. » peut être condensée visuellement pour respecter la contrainte temporelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour un français plus direct et oral : par exemple 'Seule la conversion en monnaie ayant cours légal ou l'achat d'un bien déclenche l'imposition' → proposer 'L'impôt ne s'applique que si vous convertissez en euros (ou achetez un bien/service)'. Localiser dans la séquence 'regle' et 'narration continue'."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Deux incohérences à vérifier mot à mot : (1) l'index de source pour l'amende (voir agent 'source'), (2) la mention 'amende 750 € par compte et par année' est confirmée dans le commentaire mais la source légale exacte citée dans 'sources' ne correspond pas au commentaire — demande de vérification finale de citation (CGI art. 1736 X) pour lier textuellement la donnée au bon texte légal."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La correspondance visuel→texte est globalement bonne, mais 'extrait stylisé d'un texte légal' (beat 4) risque d'être trop générique. Proposition : montrer l'intitulé exact 'Article 150 VH bis du CGI' en très gros plutôt que 'extrait stylisé' pour renforcer traçabilité. Localisable au beat 4."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite correctement un seul angle mais la 'narration continue' contient plusieurs informations denses en fin de script (seuil 305 €, comptes étrangers, amende 750 €). Recommander répartir ou formuler en une phrase très concise pour éviter surcharge dans 40 s."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le terme 'fait générateur' peut être trop technique pour un non-spécialiste. Il n'apparaît pas textuellement dans le script, mais l'idée juridique est exprimée; toutefois il faut ajouter une courte clarification (ex. 'fait déclencheur de l'impôt') pour assurer compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est pertinent, mais le format OUI/NON carton (beat 2) doit être très rapide et visuellement fort pour capter. Recommandation : réduire le texte sur l'écran et renforcer contraste visuel. Observé dans beat 2."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 97,
+      "seconds": 35.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 97,
+        "seconds": 35.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence source/chiffre : l'amende 750 € est listée avec source index 1, or la source 1 dans la fiche est l'article 1649 bis C (déclaration des comptes d'actifs numériques). La référence citée dans le commentaire des chiffres est CGI article 1736 X — il faut corriger l'indexation ou la source référencée pour que la provenance de l'amende soit vérifiable mot à mot.",
+    "juridique_fiscal : La mention 'PFU 30 %' est correcte mais la vidéo omet de préciser brièvement ce que couvre ce taux (constitution pratique : 30 % au total). Pour éviter toute interprétation incomplète, il faudrait indiquer si le taux couvre impôt + prélèvements sociaux ou renvoyer explicitement à la source BOFiP/CGI pour le détail. Le script actuel peut laisser croire à une absence de charges sociales si non précisé.",
+    "completude : Le script indique que la plus-value se calcule sur la valeur globale du portefeuille, mais n'explique succinctement (en 1 phrase) la méthode pratique attendue (ex. valeur globale au moment de la cession moins prix d'acquisition global) — omission qui peut laisser le spectateur hésitant sur le calcul réel.",
+    "editorial : Hook et progression clairs, mais la première phrase du 'narration continue' est longue et pourrait être raccourcie pour les 2 premières secondes. Exemple localisable : 'Votre portefeuille crypto tourne sans sortie en euros ?' est bon, mais la suite « Est‑ce imposable ? OUI ou NON. » peut être condensée visuellement pour respecter la contrainte temporelle.",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour un français plus direct et oral : par exemple 'Seule la conversion en monnaie ayant cours légal ou l'achat d'un bien déclenche l'imposition' → proposer 'L'impôt ne s'applique que si vous convertissez en euros (ou achetez un bien/service)'. Localiser dans la séquence 'regle' et 'narration continue'.",
+    "contre_verification_finale : Deux incohérences à vérifier mot à mot : (1) l'index de source pour l'amende (voir agent 'source'), (2) la mention 'amende 750 € par compte et par année' est confirmée dans le commentaire mais la source légale exacte citée dans 'sources' ne correspond pas au commentaire — demande de vérification finale de citation (CGI art. 1736 X) pour lier textuellement la donnée au bon texte légal.",
+    "coherence_pictogrammes : La correspondance visuel→texte est globalement bonne, mais 'extrait stylisé d'un texte légal' (beat 4) risque d'être trop générique. Proposition : montrer l'intitulé exact 'Article 150 VH bis du CGI' en très gros plutôt que 'extrait stylisé' pour renforcer traçabilité. Localisable au beat 4.",
+    "densite_editoriale : La vidéo traite correctement un seul angle mais la 'narration continue' contient plusieurs informations denses en fin de script (seuil 305 €, comptes étrangers, amende 750 €). Recommander répartir ou formuler en une phrase très concise pour éviter surcharge dans 40 s.",
+    "pedagogie_client : Le terme 'fait générateur' peut être trop technique pour un non-spécialiste. Il n'apparaît pas textuellement dans le script, mais l'idée juridique est exprimée; toutefois il faut ajouter une courte clarification (ex. 'fait déclencheur de l'impôt') pour assurer compréhension immédiate.",
+    "retention_attention : Le hook est pertinent, mais le format OUI/NON carton (beat 2) doit être très rapide et visuellement fort pour capter. Recommandation : réduire le texte sur l'écran et renforcer contraste visuel. Observé dans beat 2."
+  ],
+  "recommendations": [
+    "Corriger la référence/source de l'amende 750 € : remplacer l'index source 1 par la bonne référence (CGI article 1736 X) ou ajouter la source légale exacte aux 'sources' pour permettre vérification mot à mot.",
+    "Ajouter une courte précision sur le taux PFU 30 % (ex. préciser qu'il s'agit du prélèvement forfaitaire unique tel que défini par le CGI / BOFiP) ou renvoyer explicitement au BOFiP cité pour le détail des composantes, afin d'éviter toute interprétation erronée sur la couverture des prélèvements sociaux.",
+    "Inclure en 1 phrase très concise la méthode de calcul de la plus-value (valeur globale du portefeuille au moment de la cession moins coût d'acquisition global), pour que le spectateur sache immédiatement comment est déterminée la base imposable.",
+    "Alléger et raccourcir la 'narration continue' sur les 2 premières secondes : garder le hook 'Votre portefeuille crypto tourne sans sortie en euros ?' puis enchaîner immédiatement par 'Est‑ce imposable ? NON si vous échangez seulement entre cryptos.' pour maximiser rétention.",
+    "Remplacer ou préciser le pictogramme 'extrait stylisé d'un texte légal' (beat 4) par un visuel montrant clairement la référence 'Article 150 VH bis du CGI' pour renforcer traçabilité et crédibilité.",
+    "Remplacer ou expliciter tout terme juridique potentiel ('fait générateur') par une formulation plus accessible pour un public non spécialiste (ex. 'ce qui déclenche l'impôt'), notamment dans les légendes ou sur le texte écran.",
+    "Rendre le carton OUI / NON (beat 2) visuellement très clair et court (par ex. agrandir 'NON' et animer la case correcte) pour capter l'attention en 1–2 s.",
+    "Après corrections ci‑dessus, effectuer une seconde lecture complète mot à mot des libellés, sources et chiffres pour s'assurer que chaque donnée chiffrée pointe vers la bonne référence légale et qu'il n'existe plus d'incohérence d'indexation."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-08:reels:cryptoactifs_fiscalite_cessions:0",
+  "script_path": "scripts/cryptoactifs/cryptoactifs_fiscalite_cessions__reels__a2__v3.md"
+}

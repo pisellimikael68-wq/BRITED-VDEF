@@ -1,0 +1,101 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "La séparation de biens vous protège si votre entreprise fait faillite ?",
+      "transcript": "La séparation de biens vous protège si votre entreprise fait faillite.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9863,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non : elle protège le patrimoine, mais pas nécessairement contre certaines dettes ménagères ou l'effet d'une indivision.",
+      "transcript": "Non, elle protège le patrimoine, mais pas nécessairement contre certaines dettes ménagères ou l'effet d'une indivision.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1714,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Selon l'article mille cinq cent trente-six chaque époux reste propriétaire de ses biens, mais l'article deux cent vingt rend les époux solidaires des dettes pour l'entretien du ménage et l'article mille cinq cent trente-huit prévoit qu'un bien dont la propriété n'est pas prouvée est réputé indivis par moitié.",
+      "transcript": "Selon l'article 1536, chaque époux reste propriétaire de ses biens, mais l'article 220 rend les époux solidaires des dettes pour l'entretien du ménage et l'article 1538 prévoit qu'un bien dont la propriété n'est pas prouvée est réputé indivis par moitié.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.4804,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : vous financez seul une maison achetée à deux sans factures ni relevés ; vingt ans plus tard le bien peut être déclaré indivis par moitié.",
+      "transcript": "Exemple, vous financez seul une maison achetée à deux sans facture ni relevé. 20 ans plus tard, le bien peut être déclaré indivis par moitié.",
+      "similarity": 0.92,
+      "missing": [
+        "factures",
+        "releves"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "facture",
+        "releve"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2131,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Conservez factures, contrats et relevés bancaires prouvant l'origine des fonds : c'est la condition de fonctionnement du régime.",
+      "transcript": "Conserver factures, contrats et relevé bancaire prouvant l'origine des fonds, c'est la condition de fonctionnement du régime.",
+      "similarity": 0.8421,
+      "missing": [
+        "conservez",
+        "releves",
+        "bancaires"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "conserver",
+        "releve",
+        "bancaire"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1869,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+metadata:
+  schema: "1.0"
+
+skill:
+
+  id: documentation
+
+capabilities:
+
+  - update_readme
+  - update_docstrings
+  - generate_api_docs
+  - write_changelog
+
+rules:
+
+  - concise
+  - accurate
+  - synchronized_with_code
+
+outputs:
+
+  - documentation
+  

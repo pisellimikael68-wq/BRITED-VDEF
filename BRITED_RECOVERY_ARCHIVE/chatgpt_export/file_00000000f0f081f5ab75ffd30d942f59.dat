@@ -1,0 +1,47 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Architecture"
+  last_updated: null
+
+decisions:
+
+  - id: ADR-001
+
+    title: Layered Architecture
+
+    status: accepted
+
+    rationale: >
+      Separate presentation, application,
+      domain and infrastructure.
+
+  - id: ADR-002
+
+    title: AI Governance
+
+    status: accepted
+
+    rationale: >
+      All project knowledge is centralized
+      inside .brited.
+
+  - id: ADR-003
+
+    title: Documentation First
+
+    status: accepted
+
+    rationale: >
+      Architecture evolves before implementation.
+
+  - id: ADR-004
+
+    title: Components Separation
+
+    status: accepted
+
+    rationale: >
+      Components are described independently
+      from architecture.
+      

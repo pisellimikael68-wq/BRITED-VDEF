@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reprend globalement la fiche BRITED mais contient une mention explicite « 67 ans » (beat 5 / narration) sans préciser la génération concernée. La fiche indique la règle « Ne pas citer de taux ni de durée sans préciser la génération concernée ». Le mot‑à‑mot doit être fidèle : intégrer la précision générationnelle (ou ajouter « pour les générations concernées » à chaque mention de 67 ans)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « La décote n'est plus appliquée à partir de 67 ans » est trop catégorique si elle n'est pas systématiquement associée à la condition de génération (réforme 2023). Il faut préciser « pour les générations concernées » ou citer la condition (personnes nées à partir de 1955) afin d'éviter une généralisation trompeuse."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'angle principal mais omet d'indiquer que la décote frappe aussi la retraite complémentaire (mentionnée dans la fiche comme point important). L'exemple chiffré ne signale pas que l'impact global peut être plus élevé si la complémentaire est aussi affectée.",
+        "La fiche liste des chiffres (ex. 0,625% par trimestre) marqués 'a_verifier'. Le script n'affiche pas ces taux — acceptable mais la conformité demande d'éviter d'affirmer des chiffres non confirmés ; cela doit être rappelé si un taux est cité."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et progression claire, mais le CTA « Prenez rendez-vous via le lien dans ma bio » peut être perçu comme proposant une aide personnalisée ; garder la formulation en lien avec le disclaimer (contenu pédagogique, pas de conseil personnalisé) ou reformuler en « pour faire le point, consultez un professionnel »."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut un CTA vers un rendez‑vous (beat 6). La fiche exige un contenu pédagogique et neutre. Il faut veiller à ce que l'appel à l'action n'implique pas de diagnostic gratuit ni d'engagement de conseil personnalisé sans mention claire du cadre (le disclaimer existe, mais le CTA devrait renvoyer vers un service clairement présenté comme conseil payant ou informationnel)."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour un français naturel et précis : ex. « La décote n'est plus appliquée à partir de 67 ans pour les générations concernées » (ajouter la précision générationnelle immédiatement) ; remplacer « liquide » par « liquider » si besoin de cohérence verbale — vérifier l'usage dans les petites phrases pour la diction."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Phrase par phrase, il reste une incohérence mineure : le premier beat (« Partir un trimestre trop tôt, ça vous coûte à vie ? ») et le second (« Oui : liquider sans tous vos trimestres applique une décote définitive ») tiennent, mais l'exception (67 ans / génération) apparaît seulement plus bas. L'exception indispensable doit être introduite immédiatement après l'affirmation principale pour éviter que l'auditeur retienne une règle trop absolue.",
+        "Vérifier l'absence d'erreur de concordance des temps et la fluidité pour la lecture en 42 s (quelques liaisons à adoucir pour la diction)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les visuels proposés sont cohérents globalement, mais certains pictogrammes sont génériques (ex. 'pictogramme alerte', 'pictogramme calendrier') — la fiche exige que chaque visuel illustre précisément la notion prononcée. Indiquer un pictogramme précis pour la mention « décote » (ex. flèche descendante + euro) et pour le relevé de carrière (icone CV/relevé avec loupe) permettrait d'éviter ambiguïté."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle et reste concise, mais elle omet une nuance importante recommandée par la fiche : rappeler que la décote s'applique aussi souvent à la retraite complémentaire et que les chiffres précis dépendent de la génération. Ajouter une phrase très courte pour cette nuance sans dépasser la durée."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les termes sont accessibles mais 'liquider' et 'taux de calcul' peuvent être jargon pour un non‑spécialiste. Une micro‑explication très brève (« liquider = demander le paiement de votre retraite ») ou remplacer 'liquider' par 'demander votre retraite' améliorerait la compréhension au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont percutantes. Toutefois, l'introduction tardive de l'exception (67 ans / génération) risque de créer une fausse mémorisation. Introduire l'exception en une courte phrase directement après l'affirmation principale améliore la fidélité de la mémoire."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé ; cependant, le CTA vers un rendez‑vous exige de clarifier le cadre (information vs conseil personnalisé) pour ne pas créer une promesse implicite. Recommander explicitement que le rendez‑vous est une prise d'information ou un rendez‑vous avec un conseiller habilité renforcera la confiance sans surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 122,
+      "seconds": 45.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 122,
+        "seconds": 45.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script reprend globalement la fiche BRITED mais contient une mention explicite « 67 ans » (beat 5 / narration) sans préciser la génération concernée. La fiche indique la règle « Ne pas citer de taux ni de durée sans préciser la génération concernée ». Le mot‑à‑mot doit être fidèle : intégrer la précision générationnelle (ou ajouter « pour les générations concernées » à chaque mention de 67 ans).",
+    "juridique_fiscal : La phrase « La décote n'est plus appliquée à partir de 67 ans » est trop catégorique si elle n'est pas systématiquement associée à la condition de génération (réforme 2023). Il faut préciser « pour les générations concernées » ou citer la condition (personnes nées à partir de 1955) afin d'éviter une généralisation trompeuse.",
+    "completude : Le script respecte l'angle principal mais omet d'indiquer que la décote frappe aussi la retraite complémentaire (mentionnée dans la fiche comme point important). L'exemple chiffré ne signale pas que l'impact global peut être plus élevé si la complémentaire est aussi affectée.",
+    "completude : La fiche liste des chiffres (ex. 0,625% par trimestre) marqués 'a_verifier'. Le script n'affiche pas ces taux — acceptable mais la conformité demande d'éviter d'affirmer des chiffres non confirmés ; cela doit être rappelé si un taux est cité.",
+    "editorial : Accroche forte et progression claire, mais le CTA « Prenez rendez-vous via le lien dans ma bio » peut être perçu comme proposant une aide personnalisée ; garder la formulation en lien avec le disclaimer (contenu pédagogique, pas de conseil personnalisé) ou reformuler en « pour faire le point, consultez un professionnel ».",
+    "securite : Le script inclut un CTA vers un rendez‑vous (beat 6). La fiche exige un contenu pédagogique et neutre. Il faut veiller à ce que l'appel à l'action n'implique pas de diagnostic gratuit ni d'engagement de conseil personnalisé sans mention claire du cadre (le disclaimer existe, mais le CTA devrait renvoyer vers un service clairement présenté comme conseil payant ou informationnel).",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour un français naturel et précis : ex. « La décote n'est plus appliquée à partir de 67 ans pour les générations concernées » (ajouter la précision générationnelle immédiatement) ; remplacer « liquide » par « liquider » si besoin de cohérence verbale — vérifier l'usage dans les petites phrases pour la diction.",
+    "contre_verification_finale : Phrase par phrase, il reste une incohérence mineure : le premier beat (« Partir un trimestre trop tôt, ça vous coûte à vie ? ») et le second (« Oui : liquider sans tous vos trimestres applique une décote définitive ») tiennent, mais l'exception (67 ans / génération) apparaît seulement plus bas. L'exception indispensable doit être introduite immédiatement après l'affirmation principale pour éviter que l'auditeur retienne une règle trop absolue.",
+    "contre_verification_finale : Vérifier l'absence d'erreur de concordance des temps et la fluidité pour la lecture en 42 s (quelques liaisons à adoucir pour la diction).",
+    "coherence_pictogrammes : Les visuels proposés sont cohérents globalement, mais certains pictogrammes sont génériques (ex. 'pictogramme alerte', 'pictogramme calendrier') — la fiche exige que chaque visuel illustre précisément la notion prononcée. Indiquer un pictogramme précis pour la mention « décote » (ex. flèche descendante + euro) et pour le relevé de carrière (icone CV/relevé avec loupe) permettrait d'éviter ambiguïté.",
+    "densite_editoriale : La vidéo traite bien un seul angle et reste concise, mais elle omet une nuance importante recommandée par la fiche : rappeler que la décote s'applique aussi souvent à la retraite complémentaire et que les chiffres précis dépendent de la génération. Ajouter une phrase très courte pour cette nuance sans dépasser la durée.",
+    "pedagogie_client : Les termes sont accessibles mais 'liquider' et 'taux de calcul' peuvent être jargon pour un non‑spécialiste. Une micro‑explication très brève (« liquider = demander le paiement de votre retraite ») ou remplacer 'liquider' par 'demander votre retraite' améliorerait la compréhension au premier passage.",
+    "retention_attention : Les deux premières secondes sont percutantes. Toutefois, l'introduction tardive de l'exception (67 ans / génération) risque de créer une fausse mémorisation. Introduire l'exception en une courte phrase directement après l'affirmation principale améliore la fidélité de la mémoire.",
+    "conversion_confiance : Ton sérieux et sourcé ; cependant, le CTA vers un rendez‑vous exige de clarifier le cadre (information vs conseil personnalisé) pour ne pas créer une promesse implicite. Recommander explicitement que le rendez‑vous est une prise d'information ou un rendez‑vous avec un conseiller habilité renforcera la confiance sans surpromesse."
+  ],
+  "recommendations": [
+    "Corriger toute mention de l'âge « 67 ans » pour ajouter immédiatement « pour les générations concernées » ou préciser la génération (ex. personnes nées à partir de 1955) afin d'être strictement conforme à la fiche BRITED et aux sources.",
+    "Ajouter en une courte phrase (10–12 mots maxi) que la décote peut aussi affecter la retraite complémentaire, afin que l'auditeur comprenne que l'impact réel peut être supérieur au seul régime de base.",
+    "Reformuler le CTA pour clarifier le cadre : par exemple « Pour faire le point, consultez un conseiller habilité (lien en bio) » ou « Pour un bilan personnalisé, prenez rendez‑vous via le lien ; service d'information/conseil ». Veiller à ce que le disclaimer apparaisse immédiatement après le CTA dans la description.",
+    "Remplacer ou expliquer brièvement le terme 'liquider' par 'demander votre retraite' pour faciliter la compréhension du public non spécialiste.",
+    "Préciser les pictogrammes : utiliser une icône euro avec flèche descendante pour la décote, une loupe + relevé de carrière pour la vérification, et un calendrier cliquable pour le CTA, afin d'assurer la correspondance entre texte et visuel.",
+    "Effectuer une seconde lecture à voix haute chronométrée (42 s maximum) et ajuster petites liaisons/rythme pour garantir la diction naturelle et la fluidité du message.",
+    "Si vous souhaitez citer un taux (ex. décote par trimestre), n'utiliser que des chiffres confirmés par les sources et, si incertitude persiste, éviter le chiffre et renvoyer vers lassuranceretraite.fr ou la source légale."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-25:shorts:retraite_decote_surcote:1",
+  "script_path": "scripts/retraite/retraite_decote_surcote__shorts__a2__v7.md"
+}

@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche SOURCE est globalement respectée, mais le script omet explicitement la mention que l'acceptation à concurrence de l'actif net « impose des publicités légales » (la fiche précise publicités et procédure). Le tableau visuel mentionne seulement « procédure avec inventaire » sans la précision sur les publicités légales.",
+        "Localisation : Beat 3 (visuel/texte écran) et Beat 4 (exemple) — ajouter « publicités légales » dans la phrase qui décrit l'acceptation à concurrence pour rester fidèle à la source."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est conforme sur les trois options et sur les délais (4 mois, 10 ans). Toutefois, il manque la précision procédurale essentielle indiquée dans la fiche : l'acceptation à concurrence de l'actif net entraîne des effets prévus à l'article 791 (notamment protection du patrimoine personnel) et nécessite une déclaration au greffe et un inventaire. La phrase actuelle ('exige une procédure avec inventaire') est correcte mais gagnerait en précision en rappelant la déclaration au tribunal/greffe.",
+        "Localisation : Narration et Beat 3 — recommander d'ajouter « déclaration au greffe/tribunal » pour éviter toute ambiguïté juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition et exemple chiffré. Manque toutefois l'avertissement explicite que disposer d'un bien vaut acceptation tacite (la nuance le mentionne mais pourrait être raccourcie et mise au même niveau que les chiffres pour éviter qu'un spectateur rate cette information cruciale).",
+        "Localisation : Beat 5 et Narration continue — proposer de replacer 'disposer d'un bien vaut acceptation tacite' plus tôt ou le mettre en gras/phrase courte dans le visuel  pour qu'il ne soit pas perdu dans la liste des délais."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée et rythme respectés pour un short (~40 s). Toutefois, la CTA 'Prendre rendez-vous via le lien dans ma bio' est acceptable sur YouTube, mais le script doit éviter formulation trop personnelle si la chaîne est institutionnelle. Pas d'indication sur sous-titres ou rythme des plans (utile pour shorts).",
+        "Localisation : Beat 6 — recommander préciser brièvement l'URL ou indiquer 'lien en bio/description' selon la configuration, et prévoir sous-titres pour accessibilité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace et progression claire. Quelques phrases longues dans la 'Narration continue' risquent de perdre l'attention dans un format de 40 s : ex. « Accepter pur et simple confond les patrimoines et vous rend tenu des dettes ; renoncer vous fait réputé non héritier ; accepter à concurrence limite... » peut être découpée en deux phrases plus courtes pour la diction.",
+        "Localisation : Narration continue et Beat 3 — recommander fractionner en 2 courtes phrases pour une diction plus claire à l'oral."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais on relève une légère impropriété : 'vous fait réputé non héritier' devrait être 'vous fait réputé non-héritier' ou mieux 'vous rend réputé non héritier'.",
+        "Localisation : Beat 3 et Narration continue — corriger la tournure pour améliorer la fluidité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale bonne. Vérifier concordance mot à mot entre visuel et narration : le visuel du Beat 3 mentionne 'pictogramme inventaire' mais la narration évoque aussi 'procédure' ; il faut s'assurer que le visuel intègre aussi l'icône 'tribunal/publication' pour refléter la publicité légale mentionnée dans la source.",
+        "Localisation : Beat 3 visuel — ajouter icône tribunal/publication en plus de l'inventaire."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Certaines correspondances pictogramme/texte sont imprécises : 1) Le hook propose une icône balance — OK. 2) Beat 3 propose 'pictogramme inventaire' pour l'acceptation à concurrence, mais la fiche exige aussi 'publicités légales' et 'tribunal' : le pictogramme seul d'inventaire peut sous-représenter l'idée d'une procédure judiciaire/administrative. 3) Beat 4 affiche chiffres — OK.",
+        "Localisation : Beat 3 visuel/texte écran — recommander d'ajouter un picto tribunal/annonce (journal ou mégaphone) pour représenter les publicités légales et la déclaration."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et conserve la densité. Toutefois, l'énoncé des délais (4 mois / 10 ans) est bon mais la mention 'un créancier peut vous sommer après quatre mois' devrait préciser 'après 4 mois d'ouverture de la succession' pour éviter toute lecture erronée.",
+        "Localisation : Beat 5 et Narration — recommander préciser 'quatre mois après l'ouverture de la succession' pour être exact."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bon niveau pour non-spécialiste. L'exemple chiffré est utile. Il manque toutefois une courte phrase expliquant concrètement ce que signifie 'acceptation à concurrence de l'actif net' en termes pratiques (par ex. 'vous ne paierez pas les dettes sur vos biens personnels'). La narration le dit, mais reformulation plus directe aiderait la compréhension immédiate.",
+        "Localisation : Beat 3-4 — proposer d'ajouter une phrase courte et directe : 'Vous ne paierez pas les dettes sur votre patrimoine personnel.'"
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort. Le risque vient de la densité du troisième beat et de la longueur de la narration continue ; pour retention optimale, recommander micro-pause visuelle entre l'énoncé des trois options et l'explication (ex. 0,5 s) et raccourcir la phrase sur l'acceptation tacite.",
+        "Localisation : Beats 2-3 — proposer découper et insérer micro-pause."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources listées créent de la confiance. Une amélioration : préciser dans le CTA que le contenu n'est pas un conseil personnalisé (la légende le dit, mais un rappel bref dans la voix ou le texte écran au moment du CTA renforce la conformité et la confiance).",
+        "Localisation : Beat 6 — recommander ajouter en petit texte écran : 'Contenu général — pas un conseil personnalisé'."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 128,
+      "seconds": 47.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 128,
+        "seconds": 47.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche SOURCE est globalement respectée, mais le script omet explicitement la mention que l'acceptation à concurrence de l'actif net « impose des publicités légales » (la fiche précise publicités et procédure). Le tableau visuel mentionne seulement « procédure avec inventaire » sans la précision sur les publicités légales.",
+    "source : Localisation : Beat 3 (visuel/texte écran) et Beat 4 (exemple) — ajouter « publicités légales » dans la phrase qui décrit l'acceptation à concurrence pour rester fidèle à la source.",
+    "juridique_fiscal : Le script est conforme sur les trois options et sur les délais (4 mois, 10 ans). Toutefois, il manque la précision procédurale essentielle indiquée dans la fiche : l'acceptation à concurrence de l'actif net entraîne des effets prévus à l'article 791 (notamment protection du patrimoine personnel) et nécessite une déclaration au greffe et un inventaire. La phrase actuelle ('exige une procédure avec inventaire') est correcte mais gagnerait en précision en rappelant la déclaration au tribunal/greffe.",
+    "juridique_fiscal : Localisation : Narration et Beat 3 — recommander d'ajouter « déclaration au greffe/tribunal » pour éviter toute ambiguïté juridique.",
+    "completude : Le script couvre règle centrale, condition et exemple chiffré. Manque toutefois l'avertissement explicite que disposer d'un bien vaut acceptation tacite (la nuance le mentionne mais pourrait être raccourcie et mise au même niveau que les chiffres pour éviter qu'un spectateur rate cette information cruciale).",
+    "completude : Localisation : Beat 5 et Narration continue — proposer de replacer 'disposer d'un bien vaut acceptation tacite' plus tôt ou le mettre en gras/phrase courte dans le visuel  pour qu'il ne soit pas perdu dans la liste des délais.",
+    "plateforme : Durée et rythme respectés pour un short (~40 s). Toutefois, la CTA 'Prendre rendez-vous via le lien dans ma bio' est acceptable sur YouTube, mais le script doit éviter formulation trop personnelle si la chaîne est institutionnelle. Pas d'indication sur sous-titres ou rythme des plans (utile pour shorts).",
+    "plateforme : Localisation : Beat 6 — recommander préciser brièvement l'URL ou indiquer 'lien en bio/description' selon la configuration, et prévoir sous-titres pour accessibilité.",
+    "editorial : Accroche efficace et progression claire. Quelques phrases longues dans la 'Narration continue' risquent de perdre l'attention dans un format de 40 s : ex. « Accepter pur et simple confond les patrimoines et vous rend tenu des dettes ; renoncer vous fait réputé non héritier ; accepter à concurrence limite... » peut être découpée en deux phrases plus courtes pour la diction.",
+    "editorial : Localisation : Narration continue et Beat 3 — recommander fractionner en 2 courtes phrases pour une diction plus claire à l'oral.",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais on relève une légère impropriété : 'vous fait réputé non héritier' devrait être 'vous fait réputé non-héritier' ou mieux 'vous rend réputé non héritier'.",
+    "formulation_professionnelle : Localisation : Beat 3 et Narration continue — corriger la tournure pour améliorer la fluidité.",
+    "contre_verification_finale : Cohérence globale bonne. Vérifier concordance mot à mot entre visuel et narration : le visuel du Beat 3 mentionne 'pictogramme inventaire' mais la narration évoque aussi 'procédure' ; il faut s'assurer que le visuel intègre aussi l'icône 'tribunal/publication' pour refléter la publicité légale mentionnée dans la source.",
+    "contre_verification_finale : Localisation : Beat 3 visuel — ajouter icône tribunal/publication en plus de l'inventaire.",
+    "coherence_pictogrammes : Certaines correspondances pictogramme/texte sont imprécises : 1) Le hook propose une icône balance — OK. 2) Beat 3 propose 'pictogramme inventaire' pour l'acceptation à concurrence, mais la fiche exige aussi 'publicités légales' et 'tribunal' : le pictogramme seul d'inventaire peut sous-représenter l'idée d'une procédure judiciaire/administrative. 3) Beat 4 affiche chiffres — OK.",
+    "coherence_pictogrammes : Localisation : Beat 3 visuel/texte écran — recommander d'ajouter un picto tribunal/annonce (journal ou mégaphone) pour représenter les publicités légales et la déclaration.",
+    "densite_editoriale : La vidéo traite un seul angle et conserve la densité. Toutefois, l'énoncé des délais (4 mois / 10 ans) est bon mais la mention 'un créancier peut vous sommer après quatre mois' devrait préciser 'après 4 mois d'ouverture de la succession' pour éviter toute lecture erronée.",
+    "densite_editoriale : Localisation : Beat 5 et Narration — recommander préciser 'quatre mois après l'ouverture de la succession' pour être exact.",
+    "pedagogie_client : Bon niveau pour non-spécialiste. L'exemple chiffré est utile. Il manque toutefois une courte phrase expliquant concrètement ce que signifie 'acceptation à concurrence de l'actif net' en termes pratiques (par ex. 'vous ne paierez pas les dettes sur vos biens personnels'). La narration le dit, mais reformulation plus directe aiderait la compréhension immédiate.",
+    "pedagogie_client : Localisation : Beat 3-4 — proposer d'ajouter une phrase courte et directe : 'Vous ne paierez pas les dettes sur votre patrimoine personnel.'",
+    "retention_attention : Hook fort. Le risque vient de la densité du troisième beat et de la longueur de la narration continue ; pour retention optimale, recommander micro-pause visuelle entre l'énoncé des trois options et l'explication (ex. 0,5 s) et raccourcir la phrase sur l'acceptation tacite.",
+    "retention_attention : Localisation : Beats 2-3 — proposer découper et insérer micro-pause.",
+    "conversion_confiance : Ton sérieux et sources listées créent de la confiance. Une amélioration : préciser dans le CTA que le contenu n'est pas un conseil personnalisé (la légende le dit, mais un rappel bref dans la voix ou le texte écran au moment du CTA renforce la conformité et la confiance).",
+    "conversion_confiance : Localisation : Beat 6 — recommander ajouter en petit texte écran : 'Contenu général — pas un conseil personnalisé'."
+  ],
+  "recommendations": [
+    "Ajouter explicitement dans Beat 3 et la narration que l'acceptation à concurrence de l'actif net implique 'déclaration au greffe/tribunal' et 'publicités légales' (la fiche source le mentionne).",
+    "Corriger la tournure 'vous fait réputé non héritier' en 'vous rend réputé non héritier' pour une formulation professionnelle.",
+    "Dans Beat 5/Narration, préciser 'après quatre mois après l'ouverture de la succession' pour situer temporellement la sommation possible d'un créancier.",
+    "Rendre la phrase sur l'acceptation tacite plus saillante et plus courte (ex. 'Vendre un bien de la succession = acceptation tacite') et placer-la visuellement près des délais pour qu'elle ne soit pas perdue.",
+    "Améliorer les pictogrammes du Beat 3 : ajouter un pictogramme 'tribunal' ou 'annonce/publicité' en complément de l'icône inventaire afin d'illustrer la publicité légale et la déclaration.",
+    "Réduire légèrement la longueur de la narration continue (couper en deux phrases plus courtes) pour faciliter la diction et la rétention sur 40 s et prévoir une micro-pause visuelle entre l'énoncé des options et leurs explications.",
+    "Préciser le CTA pour qu'il convienne à un compte institutionnel ou personnel (par ex. 'lien en bio/description') et ajouter un bref rappel audiovisuel que le contenu n'est pas un conseil personnalisé au moment du CTA.",
+    "Ajouter sous-titres et respecter l'espacement typographique français pour les montants (espaces insécables : '50 000 €', '80 000 €') afin d'améliorer la lisibilité et le professionnalisme."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-28:shorts:succession_option_heritier:0",
+  "script_path": "scripts/succession/succession_option_heritier__shorts__a1__v9.md"
+}

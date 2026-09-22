@@ -1,0 +1,185 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence factuelle interne dans la fiche : la section 'chiffres' comporte le commentaire 'exonération conditionnée à la présence d'un testament' pour le partenaire de PACS. Formulé ainsi, cela peut laisser entendre que l'exonération fiscale dépend formellement de l'existence d'un testament, ce qui est inexact. L'exonération s'applique à l'intégralité de ce que le partenaire recueille ; si aucun testament n'existe, il ne recueille rien et l'exonération ne s'applique tout simplement pas. Il faut corriger le libellé pour refléter cette relation causale (exonération applicable seulement aux biens effectivement recueillis — et donc, sans testament, le partenaire pacsé ne reçoit rien)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La règle principale (article 796-0 bis CGI — exonération du conjoint marié et du partenaire de PACS) est citée correctement, mais la fiche manque d'une précision juridique mineure : pour le partenaire pacsé, l'exonération fiscale suppose qu'il recueille effectivement des biens (par testament ou legs). La rédaction actuelle pourrait laisser croire à tort que l'exonération fiscale naît indépendamment du fait de recueillir un droit. Il faut expliciter que l'exonération porte uniquement sur ce qui est effectivement recueilli et que le PACS n'accorde pas, sans testament, la qualité d'héritier."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle, l'exception et un exemple, mais omet une précision utile pour la majorité des spectateurs : préciser explicitement que le concubin ne bénéficie d'aucun abattement légal et que le taux de 60 % correspond au taux applicable aux personnes sans lien familial (référence à l'article 777 CGI est fournie ailleurs, mais l'énoncé pourrait rappeler brièvement cette origine).",
+        "La fiche mentionne 'exonération conditionnée à la présence d'un testament' (cf. agent 'source') : ceci est une omission/contradiction factuelle à corriger pour la complétude."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Short (durée estimée 42 s) et la segmentation en beats sont pertinents. Remarque : l'accroche de 2 secondes doit être particulièrement percutante ; la proposition est correcte mais le script verbal pourrait perdre ~1–2 secondes sur la nuance finale (testament). Il est conseillé de raccourcir ou reformuler légèrement la nuance pour tenir strictement dans 42 s.",
+        "Le visuel 'Grand texte \"Non\" + coche verte' est clair, mais attention à ne pas utiliser d'icônes légales qui pourraient prêter à confusion (balance/loi ok)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton et accroche efficaces. Une phrase pourrait prêter à ambiguïté pour un non-spécialiste : 'Le partenaire pacsé est exonéré fiscalement mais n'est pas héritier légal : sans testament il ne reçoit rien.' Pour la fluidité, reformuler en deux phrases courtes améliorerait la compréhension à la première écoute.",
+        "Le CTA 'Prenez rendez‑vous via le lien dans ma bio' est commercialement correct mais devrait garder la mention légale de non-conseil (déjà présente en légende) ou l'introduire très brièvement pour la conformité."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le texte indique correctement qu'il s'agit de contenu pédagogique et non d'un conseil personnalisé. Toutefois, l'appel au rendez-vous doit éviter toute formulation qui pourrait être interprétée comme promesse de résultat. Reformuler le CTA en 'Pour un point personnalisé, prenez rendez-vous' serait plus prudent.",
+        "La fiche doit corriger la mention ambiguë sur la condition testamentaire (cf. 'source' finding) pour ne pas induire en erreur."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais quelques tournures peuvent être resserrées pour la diction courte d'un short (ex : 'L'article 796-0 bis du code général des impôts, issu de la loi TEPA de 2007, prévoit...' → raccourcir en 'L'article 796‑0 bis (loi TEPA, 2007) prévoit...' ).",
+        "Veiller à la prononciation de '796‑0 bis' et 'exonération totale et sans plafond' pour garder la clarté."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration et les visuels sont cohérents dans l'ensemble, mais une relecture mot à mot détecte l'incohérence déjà signalée sur la condition testamentaire du PACS (cf. 'source').",
+        "Vérifier la durée exacte à l'oral : la nuance finale risque d'allonger la séquence 5 ; proposer une reformulation plus courte pour garder la durée cible."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et conserve la densité attendue, mais la nuance essentielle sur la différence entre exonération fiscale et qualité d'héritier doit être formulée plus brièvement et sans ambigüité pour éviter d'alourdir la séquence. Actuellement la fiche contient une contradiction interne (cf. 'source')."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne pédagogie générale. Toutefois, certains non-spécialistes pourraient confondre 'exonération' et 'droit d'hériter' — la séquence 5 le mentionne, mais il faudrait une phrase encore plus simple (ex : 'Le PACS n'accorde pas automatiquement le droit d'hériter ; sans testament, le partenaire ne reçoit rien, donc il n'y a rien à exonérer').",
+        "La mention chiffrée dans les 'chiffres' est ambivalente (cf. 'source') et doit être clarifiée pour le public non spécialiste."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est bonne. La seconde étape (réponse 'Non') est forte. Cependant, la nuance importante sur le PACS arrive tard et risque d'être oubliée par l'audience — recommander de condenser et déplacer légèrement la nuance pour maximiser rétention (par ex. faire la nuance juste après l'exemple)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu inspire confiance et cite les sources. Pour renforcer la crédibilité, suggérer d'afficher rapidement la référence 'article 796‑0 bis CGI' en incrustation lors de l'énoncé de la règle (déjà listée en sources).",
+        "Corriger la contradiction sur la condition testamentaire pour éviter toute perte de confiance."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Incohérence factuelle interne dans la fiche : la section 'chiffres' comporte le commentaire 'exonération conditionnée à la présence d'un testament' pour le partenaire de PACS. Formulé ainsi, cela peut laisser entendre que l'exonération fiscale dépend formellement de l'existence d'un testament, ce qui est inexact. L'exonération s'applique à l'intégralité de ce que le partenaire recueille ; si aucun testament n'existe, il ne recueille rien et l'exonération ne s'applique tout simplement pas. Il faut corriger le libellé pour refléter cette relation causale (exonération applicable seulement aux biens effectivement recueillis — et donc, sans testament, le partenaire pacsé ne reçoit rien).",
+    "juridique_fiscal : La règle principale (article 796-0 bis CGI — exonération du conjoint marié et du partenaire de PACS) est citée correctement, mais la fiche manque d'une précision juridique mineure : pour le partenaire pacsé, l'exonération fiscale suppose qu'il recueille effectivement des biens (par testament ou legs). La rédaction actuelle pourrait laisser croire à tort que l'exonération fiscale naît indépendamment du fait de recueillir un droit. Il faut expliciter que l'exonération porte uniquement sur ce qui est effectivement recueilli et que le PACS n'accorde pas, sans testament, la qualité d'héritier.",
+    "completude : Le script couvre la règle, l'exception et un exemple, mais omet une précision utile pour la majorité des spectateurs : préciser explicitement que le concubin ne bénéficie d'aucun abattement légal et que le taux de 60 % correspond au taux applicable aux personnes sans lien familial (référence à l'article 777 CGI est fournie ailleurs, mais l'énoncé pourrait rappeler brièvement cette origine).",
+    "completude : La fiche mentionne 'exonération conditionnée à la présence d'un testament' (cf. agent 'source') : ceci est une omission/contradiction factuelle à corriger pour la complétude.",
+    "plateforme : Le format Short (durée estimée 42 s) et la segmentation en beats sont pertinents. Remarque : l'accroche de 2 secondes doit être particulièrement percutante ; la proposition est correcte mais le script verbal pourrait perdre ~1–2 secondes sur la nuance finale (testament). Il est conseillé de raccourcir ou reformuler légèrement la nuance pour tenir strictement dans 42 s.",
+    "plateforme : Le visuel 'Grand texte \"Non\" + coche verte' est clair, mais attention à ne pas utiliser d'icônes légales qui pourraient prêter à confusion (balance/loi ok).",
+    "editorial : Ton et accroche efficaces. Une phrase pourrait prêter à ambiguïté pour un non-spécialiste : 'Le partenaire pacsé est exonéré fiscalement mais n'est pas héritier légal : sans testament il ne reçoit rien.' Pour la fluidité, reformuler en deux phrases courtes améliorerait la compréhension à la première écoute.",
+    "editorial : Le CTA 'Prenez rendez‑vous via le lien dans ma bio' est commercialement correct mais devrait garder la mention légale de non-conseil (déjà présente en légende) ou l'introduire très brièvement pour la conformité.",
+    "securite : Le texte indique correctement qu'il s'agit de contenu pédagogique et non d'un conseil personnalisé. Toutefois, l'appel au rendez-vous doit éviter toute formulation qui pourrait être interprétée comme promesse de résultat. Reformuler le CTA en 'Pour un point personnalisé, prenez rendez-vous' serait plus prudent.",
+    "securite : La fiche doit corriger la mention ambiguë sur la condition testamentaire (cf. 'source' finding) pour ne pas induire en erreur.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais quelques tournures peuvent être resserrées pour la diction courte d'un short (ex : 'L'article 796-0 bis du code général des impôts, issu de la loi TEPA de 2007, prévoit...' → raccourcir en 'L'article 796‑0 bis (loi TEPA, 2007) prévoit...' ).",
+    "formulation_professionnelle : Veiller à la prononciation de '796‑0 bis' et 'exonération totale et sans plafond' pour garder la clarté.",
+    "contre_verification_finale : La narration et les visuels sont cohérents dans l'ensemble, mais une relecture mot à mot détecte l'incohérence déjà signalée sur la condition testamentaire du PACS (cf. 'source').",
+    "contre_verification_finale : Vérifier la durée exacte à l'oral : la nuance finale risque d'allonger la séquence 5 ; proposer une reformulation plus courte pour garder la durée cible.",
+    "densite_editoriale : La vidéo traite un seul angle et conserve la densité attendue, mais la nuance essentielle sur la différence entre exonération fiscale et qualité d'héritier doit être formulée plus brièvement et sans ambigüité pour éviter d'alourdir la séquence. Actuellement la fiche contient une contradiction interne (cf. 'source').",
+    "pedagogie_client : Bonne pédagogie générale. Toutefois, certains non-spécialistes pourraient confondre 'exonération' et 'droit d'hériter' — la séquence 5 le mentionne, mais il faudrait une phrase encore plus simple (ex : 'Le PACS n'accorde pas automatiquement le droit d'hériter ; sans testament, le partenaire ne reçoit rien, donc il n'y a rien à exonérer').",
+    "pedagogie_client : La mention chiffrée dans les 'chiffres' est ambivalente (cf. 'source') et doit être clarifiée pour le public non spécialiste.",
+    "retention_attention : L'accroche est bonne. La seconde étape (réponse 'Non') est forte. Cependant, la nuance importante sur le PACS arrive tard et risque d'être oubliée par l'audience — recommander de condenser et déplacer légèrement la nuance pour maximiser rétention (par ex. faire la nuance juste après l'exemple).",
+    "conversion_confiance : Le contenu inspire confiance et cite les sources. Pour renforcer la crédibilité, suggérer d'afficher rapidement la référence 'article 796‑0 bis CGI' en incrustation lors de l'énoncé de la règle (déjà listée en sources).",
+    "conversion_confiance : Corriger la contradiction sur la condition testamentaire pour éviter toute perte de confiance."
+  ],
+  "recommendations": [
+    "Corriger l'incohérence dans la fiche et les 'chiffres' : remplacer le commentaire ambivalent 'exonération conditionnée à la présence d'un testament' par une formulation précise comme : 'L'exonération s'applique uniquement aux biens effectivement recueillis. Le partenaire pacsé est exonéré des droits sur ce qu'il reçoit, mais, sans testament, il ne recueille rien (le PACS n'accorde pas la qualité d'héritier).' ",
+    "Reformuler la phrase de nuance du script en deux courtes phrases pour la clarté et la durée, par exemple : 'Attention : l'exonération ne porte que sur ce que le survivant recueille. Le partenaire pacsé n'est pas héritier légal — sans testament il ne reçoit rien.'",
+    "Raccourcir légèrement la référence légale pour la diction (ex. 'Article 796‑0 bis (loi TEPA, 2007)') et afficher cette référence en incrustation visuelle lors de l'énoncé.",
+    "Déplacer ou condenser la nuance sur le PACS juste après l'exemple chiffré afin d'améliorer rétention et compréhension en une seule séquence courte.",
+    "Ajouter une très brève précision visuelle/textuelle sur le traitement du concubin (taux 60 %) en rappelant que ce taux correspond au barème pour personnes non parentes (référence article 777 CGI), pour éviter toute ambiguïté.",
+    "Adapter le CTA pour éviter toute promesse implicite : 'Pour un point personnalisé, prenez rendez‑vous via le lien dans ma bio.'",
+    "Effectuer une dernière lecture chronométrée en condition d'enregistrement pour s'assurer que la version audio tient dans 42 secondes après les reformulations proposées."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-13:shorts:succession_conjoint_exoneration:0",
+  "script_path": "scripts/succession/succession_conjoint_exoneration__shorts__a3__v5.md"
+}

@@ -1,0 +1,154 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « Le seul document où ces frais sont obligatoirement indiqués est le document d'informations clés » est globalement correcte (le DIC/Key Investor Information Document contient les frais obligatoires), mais juridiquement il existe aussi des obligations d'information dans le prospectus et dans les documents contractuels : formuler « le DIC est le document standardisé où ces frais figurent obligatoirement » serait plus précis. Demander de préciser l'acronyme (DIC/Document d'informations clés) pour éviter toute ambiguïté."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "L'exemple numérique « 1,5 % → > 1/3 perdu sur 30 ans » est indiqué dans la source avec la mention 'a_verifier'. Le script donne le chiffre sans préciser l'hypothèse de rendement ou la méthode de calcul. Il faut recalculer et expliciter l'hypothèse (par exemple rendement brut annuel moyen retenu) ou reformuler en « ordre de grandeur »."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation globale est claire, mais la mention « Lien dans ma bio » et l'appel à rendez‑vous doivent rester non incitatifs au conseil personnalisé. Recommander une légère atténuation du CTA pour rappeler que l'offre est une prise d'information générale (ex. « pour faire le point » + mention non-conseil)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être précisées pour un français naturel et professionnel : remplacer « prélevés sur l'actif » par « prélevés sur l'actif du fonds et intégrés à la valeur liquidative » ; remplacer « document d'informations clés » par « document d'informations clés (DIC) » la première fois."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Relecture mot à mot identifie deux points à corriger : 1) la précision sur le DIC (voir remarque juridique) ; 2) le chiffre 1,5 %/30 ans manque d'hypothèse et doit être recalculé ou présenté comme estimation.",
+        "De plus, vérifier la correspondance mot/visuel sur le beat 2 : l'icône montrant une part de fonds dont la valeur diminue doit clairement indiquer que la VL publiée est nette de frais, pour éviter toute interprétation que les frais sont retranchés séparément sur le relevé."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script reste centré sur un seul angle mais inclut plusieurs informations importantes (règle, exception, chiffre). Le chiffre chiffré sans hypothèse nuit à la densité pédagogique : soit recalculer et préciser l'hypothèse, soit reformuler en « ordre de grandeur »."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible pour un non-spécialiste, mais le terme « valeur liquidative » devrait être accompagné d'une brève parenthèse explicative (ex. « valeur liquidative (prix de la part) ») pour s'assurer de la compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : La phrase « Le seul document où ces frais sont obligatoirement indiqués est le document d'informations clés » est globalement correcte (le DIC/Key Investor Information Document contient les frais obligatoires), mais juridiquement il existe aussi des obligations d'information dans le prospectus et dans les documents contractuels : formuler « le DIC est le document standardisé où ces frais figurent obligatoirement » serait plus précis. Demander de préciser l'acronyme (DIC/Document d'informations clés) pour éviter toute ambiguïté.",
+    "completude : L'exemple numérique « 1,5 % → > 1/3 perdu sur 30 ans » est indiqué dans la source avec la mention 'a_verifier'. Le script donne le chiffre sans préciser l'hypothèse de rendement ou la méthode de calcul. Il faut recalculer et expliciter l'hypothèse (par exemple rendement brut annuel moyen retenu) ou reformuler en « ordre de grandeur ».",
+    "editorial : La formulation globale est claire, mais la mention « Lien dans ma bio » et l'appel à rendez‑vous doivent rester non incitatifs au conseil personnalisé. Recommander une légère atténuation du CTA pour rappeler que l'offre est une prise d'information générale (ex. « pour faire le point » + mention non-conseil).",
+    "formulation_professionnelle : Quelques formulations peuvent être précisées pour un français naturel et professionnel : remplacer « prélevés sur l'actif » par « prélevés sur l'actif du fonds et intégrés à la valeur liquidative » ; remplacer « document d'informations clés » par « document d'informations clés (DIC) » la première fois.",
+    "contre_verification_finale : Relecture mot à mot identifie deux points à corriger : 1) la précision sur le DIC (voir remarque juridique) ; 2) le chiffre 1,5 %/30 ans manque d'hypothèse et doit être recalculé ou présenté comme estimation.",
+    "contre_verification_finale : De plus, vérifier la correspondance mot/visuel sur le beat 2 : l'icône montrant une part de fonds dont la valeur diminue doit clairement indiquer que la VL publiée est nette de frais, pour éviter toute interprétation que les frais sont retranchés séparément sur le relevé.",
+    "densite_editoriale : Le script reste centré sur un seul angle mais inclut plusieurs informations importantes (règle, exception, chiffre). Le chiffre chiffré sans hypothèse nuit à la densité pédagogique : soit recalculer et préciser l'hypothèse, soit reformuler en « ordre de grandeur ».",
+    "pedagogie_client : Globalement compréhensible pour un non-spécialiste, mais le terme « valeur liquidative » devrait être accompagné d'une brève parenthèse explicative (ex. « valeur liquidative (prix de la part) ») pour s'assurer de la compréhension immédiate."
+  ],
+  "recommendations": [
+    "Recalculer ou reformuler la phrase « 1,5 % → > 1/3 perdu sur 30 ans ». Si vous conservez un chiffre, indiquer l'hypothèse retenue (par ex. rendement annuel brut hypothétique) et fournir une formule ou un commentaire court. Alternativement, remplacer par « ordre de grandeur : une part importante du capital final ».",
+    "Préciser la formulation sur le document d'information : remplacer « Le seul document où ces frais sont obligatoirement indiqués est le document d'informations clés » par « Le document d'informations clés (DIC) est le document standardisé où ces frais figurent obligatoirement ; ils figurent également dans le prospectus et les documents contractuels. »",
+    "Ajouter une brève parenthèse explicative la première fois que vous dites « valeur liquidative » (ex. « valeur liquidative (prix de la part) ») pour un public non spécialiste.",
+    "Adoucir légèrement le CTA pour éviter toute impression de conseil personnalisé direct : par exemple « Pour faire le point, prenez rendez‑vous via le lien dans ma bio » suivi de la mention déjà présente que le contenu n'est pas un conseil personnalisé.",
+    "Vérifier la correspondance visuel/texte au beat 2 : s'assurer que l'icône indique clairement que la VL publiée est nette de frais (ex. légende ou micro-annotation sur le visuel)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-06:shorts:fonds_investissement_frais:0",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a5__v7.md"
+}

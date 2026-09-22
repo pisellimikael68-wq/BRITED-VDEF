@@ -1,0 +1,411 @@
+{
+  "passed": true,
+  "failures": [],
+  "expected_duration": 69.34,
+  "target_duration": null,
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": true,
+    "failures": [],
+    "final": {
+      "rate": 24000,
+      "channels": 1,
+      "width": 2,
+      "duration": 69.337,
+      "peak": 0.84146,
+      "rms": 0.15895,
+      "dc": 0.000132,
+      "clipped_ratio": 0.0,
+      "abrupt_jump_ratio": 0.0
+    },
+    "segments": {
+      "01_hook.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 6.957,
+        "peak": 0.79434,
+        "rms": 0.11807,
+        "dc": 3.4e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "02_reponse.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 5.237,
+        "peak": 0.67068,
+        "rms": 0.10961,
+        "dc": 5.7e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "03_regle.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 16.403,
+        "peak": 0.79425,
+        "rms": 0.12524,
+        "dc": 6.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "04_exemple.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 19.623,
+        "peak": 0.79413,
+        "rms": 0.11423,
+        "dc": 5.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "05_nuance.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 13.765,
+        "peak": 0.79434,
+        "rms": 0.12362,
+        "dc": 5.5e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      },
+      "06_cta.wav": {
+        "rate": 24000,
+        "channels": 1,
+        "width": 2,
+        "duration": 4.893,
+        "peak": 0.79446,
+        "rms": 0.12849,
+        "dc": 2.8e-05,
+        "clipped_ratio": 0.0,
+        "abrupt_jump_ratio": 0.0
+      }
+    },
+    "background_noise": {
+      "passed": true,
+      "regions": [
+        {
+          "after_beat": 1,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 2,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 3,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 4,
+          "rms": 0.0,
+          "peak": 0.0
+        },
+        {
+          "after_beat": 5,
+          "rms": 0.0,
+          "peak": 0.0
+        }
+      ],
+      "rms_limit": 0.003,
+      "peak_limit": 0.025
+    },
+    "checks": [
+      "sample_rate",
+      "format",
+      "clipping",
+      "abrupt_jumps",
+      "dc_offset",
+      "duration",
+      "background_noise"
+    ]
+  },
+  "oral_check": {
+    "agent": "controle_oral_whisper_local",
+    "passed": true,
+    "failures": [],
+    "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+    "checks": [
+      "transcription",
+      "mots_manquants",
+      "hallucinations",
+      "microcoupures",
+      "repetitions"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "expected": "Le prélèvement forfaitaire unique à trente et un virgule quatre pour cent est il toujours le meilleur choix pour votre compte titres ?",
+        "transcript": "Le prélèvement forfaitaire unique à 31,4% est-il toujours le meilleur choix pour votre compte-titres ?",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.0096,
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "expected": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+        "transcript": "Cela dépend. Le résultat varie notamment selon votre taux marginal d'imposition et la nature de vos revenus.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.134,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "expected": "En deux mille vingt six, le PFU représente trente et un virgule quatre pour cent : douze virgule huit pour cent d'impôt sur le revenu et dix huit virgule six pour cent de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus values du foyer.",
+        "transcript": "En 2026, le PFU représente 31,4%, 12,8% d'impôts sur le revenu et 18,6% de prélèvements sociaux. Vous pouvez opter pour le barème progressif, mais cette option est globale pour les revenus mobiliers et les plus-values du foyer.",
+        "similarity": 0.9825,
+        "missing": [
+          "impot"
+        ],
+        "critical_missing": [],
+        "unexpected": [
+          "impots"
+        ],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.2889,
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "expected": "Prenons mille euros de dividendes éligibles. Avec le PFU : cent vingt huit euros d'impôt et cent quatre vingt six euros de prélèvements sociaux, soit trois cent quatorze euros. Avec une tranche à onze pour cent et l'abattement de quarante pour cent : soixante six euros d'impôt, plus cent quatre vingt six euros de prélèvements sociaux, soit deux cent cinquante deux euros avant l'effet ultérieur de la CSG déductible.",
+        "transcript": "Prenons 1000 euros de dividendes éligibles avec le PFU, 128 euros d'impôt et 186 euros de prélèvements sociaux, soit 314 euros, avec une tranche à 11% et l'abattement de 40%, 66 euros d'impôt, plus 104, 26 euros de prélèvements sociaux, soit 252 euros avant l'effet ultérieur de la CSG déductible.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.5198,
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "expected": "L'abattement de quarante pour cent concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus values du foyer : il faut donc comparer la situation globale.",
+        "transcript": "L'abattement de 40% concerne uniquement les dividendes éligibles imposés au barème. Il ne réduit pas les prélèvements sociaux. L'option se choisit chaque année sur la déclaration et concerne l'ensemble des revenus mobiliers et des plus-values du foyer. Il faut donc comparer la situation globale.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.4408,
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+        "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+        "similarity": 1.0,
+        "missing": [],
+        "critical_missing": [],
+        "unexpected": [],
+        "no_speech_probability": 0.0,
+        "compression_ratio": 1.092,
+        "passed": true
+      }
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "typography_check": {
+    "agent": "controle_hierarchie_typographique",
+    "passed": true,
+    "main_font_sizes": [
+      46,
+      46,
+      46,
+      46
+    ],
+    "maximum_delta": 6,
+    "minimum_size": 40
+  },
+  "oral_fluency_check": {
+    "agent": "controle_fluidite_orale_independant",
+    "passed": true,
+    "checks": [
+      "debit_par_role",
+      "groupes_de_souffle",
+      "absence_de_rupture",
+      "coherence_inter_pages"
+    ],
+    "speech_rates_wpm": [
+      189.7,
+      194.8,
+      204.8,
+      204.9,
+      204.9,
+      208.5
+    ],
+    "failures": []
+  },
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": true,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Balance clairement identifiée PFU contre barème, avec compte-titres",
+        "family": "loi",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "badge-percent",
+          "receipt-euro",
+          "landmark"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "reponse",
+        "answer_card": true,
+        "verdict": "adaptatif",
+        "text_bounds": [
+          112,
+          350,
+          608,
+          850
+        ],
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "label_checks": [],
+        "labels_ok": true,
+        "geometry_ok": true,
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Décomposition du taux, puis case 2OP reliée au foyer",
+        "family": "fiscalite",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "option",
+          "badge-percent",
+          "receipt-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          486,
+          672,
+          694
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Comparaison chiffrée sur deux colonnes PFU et barème",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "plus",
+          "file-signature",
+          "user-round-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "nuance",
+        "description": "Calendrier annuel, dividende éligible, foyer et périmètre global",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "passed": true
+      },
+      {
+        "beat": "cta",
+        "cta": true,
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "geometry_ok": true,
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "active": true,
+  "timezone": "Europe/Paris",
+  "runs": [
+    {"slot": 1, "time": "10:00", "formats": ["shorts"], "destinations": ["instagram", "facebook", "tiktok", "youtube_shorts"]},
+    {"slot": 2, "time": "17:00", "formats": ["shorts"], "destinations": ["instagram", "facebook", "tiktok", "youtube_shorts"]}
+  ],
+  "preflight": {"time": "08:00", "days_ahead": 7},
+  "generate_missing_scripts": true,
+  "script_generation_platforms": ["shorts"],
+  "script_preparation_horizon_days": 7,
+  "token_policy": "external_semantic_only_local_media",
+  "reuse_certified_scripts": true,
+  "reuse_render_assets": true,
+  "external_ai": {
+    "enabled": true,
+    "manual_approval_granted": true,
+    "prefer_for_strict_certification": true,
+    "daily_call_limit": 100,
+    "purpose": "Rédaction et certification sémantique stricte 10/10 ; rendu média local"
+  },
+  "local_ai": {
+    "enabled": true,
+    "provider": "ollama",
+    "endpoint": "http://127.0.0.1:11434",
+    "recommended_model_for_8gb": "qwen3:1.7b",
+    "model": "qwen3:4b",
+    "status": "ready"
+  },
+  "render_validated_scripts": false,
+  "video_generation_status": "face_camera_human_recording",
+  "approved_video_formats": [],
+  "distribution_mapping": {
+    "reels": ["instagram", "tiktok"],
+    "shorts": ["youtube_shorts"]
+  },
+  "verify_words": true,
+  "verify_sync": true,
+  "publish": false,
+  "human_approval_required": true,
+  "publication_policy": {
+    "default_state": "locked",
+    "trigger": "explicit_human_approval_for_the_current_lot",
+    "after_approval": "direct_publish_all_three_platforms",
+    "destinations": ["instagram", "tiktok", "youtube_shorts"],
+    "instagram_mode": "direct_publish",
+    "tiktok_mode": "direct_publish",
+    "youtube_mode": "direct_publish",
+    "partial_failure_policy": "record_exact_state_never_duplicate",
+    "automatic_approval": false
+  }
+}

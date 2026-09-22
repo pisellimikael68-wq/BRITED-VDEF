@@ -1,0 +1,191 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Précision manquante : le script indique correctement que la recommandation personnalisée suppose un statut réglementé, mais il ne précise pas explicitement que le statut est celui de 'conseiller en investissement financier' (référence : article L541-1) — la fiche source le mentionne, le script devrait reproduire cette dénomination exacte au moment de l'exemple pour éviter toute ambiguïté.",
+        "Précision manquante sur l'interdiction : la formulation 'Promotion de contrats financiers hautement spéculatifs et actifs numériques non enregistrés est restreinte' est correcte mais vague. Il faut préciser qu'il s'agit d'une interdiction ou d'une forte restriction selon le produit et le public, et rappeler que certains actifs numériques sont autorisés si le prestataire est enregistré (comme indiqué dans la source)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception et un exemple, mais omet d'indiquer la marche à suivre concrète si le créateur souhaite monétiser (par ex. vérifier statut du partenaire, demander clause contractuelle obligeant l'annonceur à indiquer la publicité, ou renvoyer vers un professionnel réglementé).",
+        "Il manque la mention explicite que la mention 'Publicité' ou 'Collaboration commerciale' doit être visible « pendant toute la durée du contenu » sous forme d'overlay/étiquette à l'écran (le script le dit mais ne précise le mode visuel recommandé)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 39 s cohérente, mais le découpage visuel contient plusieurs textes denses qui risquent d'être illisibles en format Reels si non adaptés (police/taille/temps d'affichage). Il manque des consignes précises de timing par beat pour garantir lisibilité sur Instagram Reels.",
+        "Le beat 2 (carton central OUI/NON) et beat 4 (texte centré long) peuvent surcharger l'image ; recommander affichage en overlay court et lecture vocale synchronisée."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la répétition verbale de la question (hook + question) crée redondance dans les 5 premières secondes ; proposer une variante plus percutante pour les 2 premières secondes.",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' est acceptable, mais pour la conversion et la conformité il faudrait préciser s'il s'agit d'un rendez-vous avec un professionnel réglementé ou d'un bilan gratuit d'information (éviter toute impression de conseil personnalisé non autorisé)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention finale 'Contenu pédagogique général... Ne constitue ni un conseil...'. C'est correct, mais le CTA invite à prendre rendez-vous sans préciser que le rendez-vous doit être avec un professionnel réglementé si une recommandation personnalisée est visée — ceci peut induire en erreur.",
+        "La légende dit 'renseignez-vous sur le statut requis' : recommander d'ajouter un rappel clair invitant à consulter un professionnel réglementé pour toute recommandation personnalisée."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être améliorées pour un français naturel et direct : par exemple 'Vous ne pouvez délivrer une recommandation personnalisée sans le statut réglementé requis.' -> 'Vous ne pouvez pas donner de recommandation personnalisée sans être titulaire du statut requis (conseiller en investissement financier).' (précision et fluidité).",
+        "La phrase 'Précision : la promotion de contrats financiers hautement spéculatifs...' pourrait être reformulée pour éviter 'Précision :' qui est un anglicisme de registre administratif trop sec pour Reels."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure : la mention obligatoire dans le script utilise exactement 'Publicité' ou 'Collaboration commerciale' — cohérent — mais la légende et la mention à la fin devraient reproduire textuellement ces étiquettes pour éviter divergences. Actuellement la légende dit 'la mention visible 'Publicité' ou 'Collaboration commerciale' pendant toute la durée du contenu.' (ok) ; recommander uniformiser la ponctuation et guillemets.",
+        "Vérification mot-à-mot : le script propose 'Vous devriez investir' comme exemple de recommandation — pertinent — mais il faudrait vérifier la prononciation et la cadence pour que la distinction pédagogique/recommandation soit bien perçue en voix off rapide."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 1 pictogramme point d'interrogation cohérent. Beat 3 pictogrammes coche / croix adaptés. Beat 4 pictogramme balance + étiquette 'Publicité' est acceptable, mais la balance symbolise souvent justice/légalité ; préférer un pictogramme d'étiquette/overlay publicitaire pour plus de clarté.",
+        "Beat 6 utilise pictogrammes d'actifs numériques barrés : attention à ne pas utiliser un symbole générique de crypto qui pourrait être interprété comme visant une monnaie précise. Préconiser un pictogramme neutre type 'jeton générique' barré et un micro-texte 'non-enregistrés'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est globalement compréhensible, mais l'opposition pédagogique/recommandation gagnerait à être reformulée plus simplement (exemple court et contrasté sur un même visuel), car le public non spécialiste peut ne pas saisir immédiatement la différence de portée juridique.",
+        "Ajouter une phrase très courte dans le visuel exemple (par ex. 'Info = OK / Conseil = statut requis') pour faciliter la compréhension instantanée."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont correctes mais le hook répété peut diluer l'impact. Recommander une version du hook plus directe (ex. 'Parler d'argent en ligne ? Attention, c'est encadré.') pour capter immédiatement.",
+        "Plusieurs écrans contiennent beaucoup de texte ; risque de perte d'attention si la police/taille ne sont pas optimisées ou si la lecture vocale est trop rapide."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et sourcé, mais le CTA doit préciser la nature du rendez-vous (information vs conseil personnalisé) et indiquer si le rendez-vous est réalisé par un professionnel réglementé pour éviter de créer une attente de recommandation non autorisée.",
+        "Il manque une micro-phrase renforçant l'absence de surpromesse (ex. 'Sans conseil personnalisé sans statut réglementé')."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Précision manquante : le script indique correctement que la recommandation personnalisée suppose un statut réglementé, mais il ne précise pas explicitement que le statut est celui de 'conseiller en investissement financier' (référence : article L541-1) — la fiche source le mentionne, le script devrait reproduire cette dénomination exacte au moment de l'exemple pour éviter toute ambiguïté.",
+    "juridique_fiscal : Précision manquante sur l'interdiction : la formulation 'Promotion de contrats financiers hautement spéculatifs et actifs numériques non enregistrés est restreinte' est correcte mais vague. Il faut préciser qu'il s'agit d'une interdiction ou d'une forte restriction selon le produit et le public, et rappeler que certains actifs numériques sont autorisés si le prestataire est enregistré (comme indiqué dans la source).",
+    "completude : Le script couvre la règle centrale, l'exception et un exemple, mais omet d'indiquer la marche à suivre concrète si le créateur souhaite monétiser (par ex. vérifier statut du partenaire, demander clause contractuelle obligeant l'annonceur à indiquer la publicité, ou renvoyer vers un professionnel réglementé).",
+    "completude : Il manque la mention explicite que la mention 'Publicité' ou 'Collaboration commerciale' doit être visible « pendant toute la durée du contenu » sous forme d'overlay/étiquette à l'écran (le script le dit mais ne précise le mode visuel recommandé).",
+    "plateforme : Durée estimée 39 s cohérente, mais le découpage visuel contient plusieurs textes denses qui risquent d'être illisibles en format Reels si non adaptés (police/taille/temps d'affichage). Il manque des consignes précises de timing par beat pour garantir lisibilité sur Instagram Reels.",
+    "plateforme : Le beat 2 (carton central OUI/NON) et beat 4 (texte centré long) peuvent surcharger l'image ; recommander affichage en overlay court et lecture vocale synchronisée.",
+    "editorial : Accroche efficace mais la répétition verbale de la question (hook + question) crée redondance dans les 5 premières secondes ; proposer une variante plus percutante pour les 2 premières secondes.",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio' est acceptable, mais pour la conversion et la conformité il faudrait préciser s'il s'agit d'un rendez-vous avec un professionnel réglementé ou d'un bilan gratuit d'information (éviter toute impression de conseil personnalisé non autorisé).",
+    "securite : Le script inclut la mention finale 'Contenu pédagogique général... Ne constitue ni un conseil...'. C'est correct, mais le CTA invite à prendre rendez-vous sans préciser que le rendez-vous doit être avec un professionnel réglementé si une recommandation personnalisée est visée — ceci peut induire en erreur.",
+    "securite : La légende dit 'renseignez-vous sur le statut requis' : recommander d'ajouter un rappel clair invitant à consulter un professionnel réglementé pour toute recommandation personnalisée.",
+    "formulation_professionnelle : Quelques formulations peuvent être améliorées pour un français naturel et direct : par exemple 'Vous ne pouvez délivrer une recommandation personnalisée sans le statut réglementé requis.' -> 'Vous ne pouvez pas donner de recommandation personnalisée sans être titulaire du statut requis (conseiller en investissement financier).' (précision et fluidité).",
+    "formulation_professionnelle : La phrase 'Précision : la promotion de contrats financiers hautement spéculatifs...' pourrait être reformulée pour éviter 'Précision :' qui est un anglicisme de registre administratif trop sec pour Reels.",
+    "contre_verification_finale : Incohérence mineure : la mention obligatoire dans le script utilise exactement 'Publicité' ou 'Collaboration commerciale' — cohérent — mais la légende et la mention à la fin devraient reproduire textuellement ces étiquettes pour éviter divergences. Actuellement la légende dit 'la mention visible 'Publicité' ou 'Collaboration commerciale' pendant toute la durée du contenu.' (ok) ; recommander uniformiser la ponctuation et guillemets.",
+    "contre_verification_finale : Vérification mot-à-mot : le script propose 'Vous devriez investir' comme exemple de recommandation — pertinent — mais il faudrait vérifier la prononciation et la cadence pour que la distinction pédagogique/recommandation soit bien perçue en voix off rapide.",
+    "coherence_pictogrammes : Beat 1 pictogramme point d'interrogation cohérent. Beat 3 pictogrammes coche / croix adaptés. Beat 4 pictogramme balance + étiquette 'Publicité' est acceptable, mais la balance symbolise souvent justice/légalité ; préférer un pictogramme d'étiquette/overlay publicitaire pour plus de clarté.",
+    "coherence_pictogrammes : Beat 6 utilise pictogrammes d'actifs numériques barrés : attention à ne pas utiliser un symbole générique de crypto qui pourrait être interprété comme visant une monnaie précise. Préconiser un pictogramme neutre type 'jeton générique' barré et un micro-texte 'non-enregistrés'.",
+    "pedagogie_client : Le message est globalement compréhensible, mais l'opposition pédagogique/recommandation gagnerait à être reformulée plus simplement (exemple court et contrasté sur un même visuel), car le public non spécialiste peut ne pas saisir immédiatement la différence de portée juridique.",
+    "pedagogie_client : Ajouter une phrase très courte dans le visuel exemple (par ex. 'Info = OK / Conseil = statut requis') pour faciliter la compréhension instantanée.",
+    "retention_attention : Les deux premières secondes sont correctes mais le hook répété peut diluer l'impact. Recommander une version du hook plus directe (ex. 'Parler d'argent en ligne ? Attention, c'est encadré.') pour capter immédiatement.",
+    "retention_attention : Plusieurs écrans contiennent beaucoup de texte ; risque de perte d'attention si la police/taille ne sont pas optimisées ou si la lecture vocale est trop rapide.",
+    "conversion_confiance : Le ton est sérieux et sourcé, mais le CTA doit préciser la nature du rendez-vous (information vs conseil personnalisé) et indiquer si le rendez-vous est réalisé par un professionnel réglementé pour éviter de créer une attente de recommandation non autorisée.",
+    "conversion_confiance : Il manque une micro-phrase renforçant l'absence de surpromesse (ex. 'Sans conseil personnalisé sans statut réglementé')."
+  ],
+  "recommendations": [
+    "Préciser textuellement dans le script que le statut requis pour délivrer une recommandation personnalisée est 'conseiller en investissement financier' (réf. article L541-1) au moment où l'on évoque le statut requis.",
+    "Clarifier la formulation sur les interdictions : indiquer que la promotion de certains contrats financiers hautement spéculatifs et d'actifs numériques non enregistrés est restreinte voire interdite selon le cas, et rappeler que la promotion est possible uniquement si les prestataires sont enregistrés.",
+    "Ajouter une brève instruction visuelle précise : la mention 'Publicité' ou 'Collaboration commerciale' doit apparaître en overlay lisible à l'écran pendant toute la durée du Reels (police contrastée, position fixe).",
+    "Adapter le texte à l'écran pour Instagram Reels : réduire la densité textuelle par écran, allouer un timing précis par beat (ex. 0–4s hook, 4–9s question, 9–16s réponse, etc.) pour garantir lisibilité.",
+    "Reformuler le hook pour maximiser les 2 premières secondes (ex. 'Parler d'argent en ligne ? Attention, c'est encadré.').",
+    "Préciser dans le CTA que le rendez-vous proposé concerne un examen de situation d'ordre informatif ou un rendez-vous avec un professionnel réglementé si une recommandation personnalisée est recherchée (ex. 'Prenez rendez-vous avec un professionnel réglementé via le lien dans ma bio').",
+    "Uniformiser mot à mot les libellés 'Publicité' / 'Collaboration commerciale' dans le script, la légende et la mention finale pour éviter toute divergence typographique.",
+    "Remplacer le pictogramme 'balance' (beat 4) par un pictogramme d'étiquette/overlay 'Publicité' pour une correspondance visuelle plus directe, et utiliser un symbole d'actif numérique générique barré (beat 6) accompagné du micro-texte 'non enregistrés'.",
+    "Raccourcir et clarifier l'exemple pédagogique vs recommandation sur une seule image avec un contraste fort (gauche: 'Info — OK' + phrase courte; droite: 'Conseil — statut requis' + 'conseiller en investissement financier').",
+    "Ajouter dans la légende un rappel explicite invitant les créateurs à obtenir un avis juridique avant toute monétisation impliquant des produits financiers et à vérifier le statut du partenaire/annonceur."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-28:reels:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__reels__a1__v4.md"
+}

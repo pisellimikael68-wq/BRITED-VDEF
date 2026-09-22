@@ -1,0 +1,361 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "93588d9593dba5b5f7ee6c307f6940cfc80f265a23e25c6604ce867f61bc224e"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Votre partenaire de PACS, ou votre concubin, héritera-t-il vraiment de vous ?",
+      "tokens": [
+        "Votre",
+        "partenaire",
+        "de",
+        "PACS,",
+        "ou",
+        "votre",
+        "concubin,",
+        "héritera-t-il",
+        "vraiment",
+        "de",
+        "vous",
+        "?"
+      ],
+      "token_count": 12,
+      "speech_duration": 4.22,
+      "full_text_visible_at": 3.798,
+      "hold_after_full_text": 1.322,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scroll-text",
+          "users",
+          "heart-handshake"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non, pas automatiquement. Sans testament, le partenaire de PACS n'hérite pas. Le concubin non plus. Les biens qu'il reçoit par testament sont imposés à soixante pour cent.",
+      "tokens": [
+        "Non,",
+        "pas",
+        "automatiquement.",
+        "Sans",
+        "testament,",
+        "le",
+        "partenaire",
+        "de",
+        "PACS",
+        "n'hérite",
+        "pas.",
+        "Le",
+        "concubin",
+        "non",
+        "plus.",
+        "Les",
+        "biens",
+        "qu'il",
+        "reçoit",
+        "par",
+        "testament",
+        "sont",
+        "imposés",
+        "à",
+        "soixante",
+        "pour",
+        "cent."
+      ],
+      "token_count": 27,
+      "speech_duration": 8.749,
+      "duration": 8.969,
+      "full_text_visible_at": 7.874,
+      "visual_layout": {
+        "card_bounds": [
+          78,
+          270,
+          642,
+          920
+        ],
+        "text_bounds": [
+          112,
+          354,
+          608,
+          824
+        ],
+        "verdict": "NON",
+        "font_size": 25,
+        "answer_design": "structured_v2",
+        "label_checks": [
+          {
+            "label": "PACS",
+            "pill_bounds": [
+              134,
+              488,
+              290,
+              528
+            ],
+            "text_bounds": [
+              188.0,
+              502,
+              237.0,
+              515
+            ],
+            "body_contains_required_term": true
+          },
+          {
+            "label": "CONCUBINAGE",
+            "pill_bounds": [
+              134,
+              648,
+              313,
+              688
+            ],
+            "text_bounds": [
+              155.5,
+              662,
+              290.5,
+              675
+            ],
+            "body_contains_required_term": true
+          }
+        ],
+        "overlap": false
+      }
+    },
+    {
+      "id": "regle",
+      "source_text": "Deux questions différentes : le Code civil détermine qui hérite ; le Code général des impôts détermine ce qui sera payé.",
+      "tokens": [
+        "Deux",
+        "questions",
+        "différentes",
+        ":",
+        "le",
+        "Code",
+        "civil",
+        "détermine",
+        "qui",
+        "hérite",
+        ";",
+        "le",
+        "Code",
+        "général",
+        "des",
+        "impôts",
+        "détermine",
+        "ce",
+        "qui",
+        "sera",
+        "payé."
+      ],
+      "token_count": 21,
+      "speech_duration": 6.343,
+      "full_text_visible_at": 5.709,
+      "hold_after_full_text": 0.854,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          459,
+          672,
+          721
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "code",
+          "scale",
+          "file-signature"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : avec des enfants d'une première union, transmettre une part du logement au partenaire peut créer une indivision avec eux.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "avec",
+        "des",
+        "enfants",
+        "d'une",
+        "première",
+        "union,",
+        "transmettre",
+        "une",
+        "part",
+        "du",
+        "logement",
+        "au",
+        "partenaire",
+        "peut",
+        "créer",
+        "une",
+        "indivision",
+        "avec",
+        "eux."
+      ],
+      "token_count": 21,
+      "speech_duration": 6.674,
+      "full_text_visible_at": 6.006,
+      "hold_after_full_text": 0.887,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "baby",
+          "users",
+          "house"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Attention : le testament reste limité par la réserve héréditaire. Et le partenaire pacsé ne bénéficie que d'un maintien au logement d'un an.",
+      "tokens": [
+        "Attention",
+        ":",
+        "le",
+        "testament",
+        "reste",
+        "limité",
+        "par",
+        "la",
+        "réserve",
+        "héréditaire.",
+        "Et",
+        "le",
+        "partenaire",
+        "pacsé",
+        "ne",
+        "bénéficie",
+        "que",
+        "d'un",
+        "maintien",
+        "au",
+        "logement",
+        "d'un",
+        "an."
+      ],
+      "token_count": 23,
+      "speech_duration": 7.536,
+      "full_text_visible_at": 6.783,
+      "hold_after_full_text": 1.654,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.504,
+      "full_text_visible_at": 4.954,
+      "hold_after_full_text": 0.55,
+      "visual_layout": {
+        "text_bounds": [
+          90,
+          290,
+          630,
+          755
+        ],
+        "icon_bounds": [
+          324,
+          795,
+          396,
+          875
+        ],
+        "font_size": 55,
+        "overlap": false
+      }
+    }
+  ]
+}

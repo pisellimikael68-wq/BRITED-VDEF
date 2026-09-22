@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-06",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-06:shorts:don_familial_790g:0",
+      "platform": "shorts",
+      "title": "Don familial d’argent : à quoi correspondent les 31 865 € ?",
+      "status": "blocked",
+      "warnings": [
+        "Génération impossible : API OpenAI temporairement indisponible après 3 tentatives : TimeoutError"
+      ]
+    },
+    {
+      "publication_id": "2026-09-06:reels:don_familial_790g:0",
+      "platform": "reels",
+      "title": "Don familial d’argent : à quoi correspondent les 31 865 € ?",
+      "status": "blocked",
+      "warnings": [
+        "Génération impossible : API OpenAI temporairement indisponible après 3 tentatives : URLError"
+      ]
+    },
+    {
+      "publication_id": "2026-09-06:tiktok:don_familial_790g:0",
+      "platform": "tiktok",
+      "title": "Don familial d’argent : à quoi correspondent les 31 865 € ?",
+      "status": "blocked",
+      "warnings": [
+        "Génération impossible : API OpenAI temporairement indisponible après 3 tentatives : URLError"
+      ]
+    }
+  ]
+}

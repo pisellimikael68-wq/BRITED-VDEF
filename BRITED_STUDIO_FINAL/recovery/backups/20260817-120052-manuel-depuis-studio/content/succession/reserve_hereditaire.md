@@ -1,0 +1,154 @@
+---
+id: succession_reserve_hereditaire
+titre: On ne peut pas déshériter ses enfants en France
+domaine: succession
+type: notion
+statut: valide
+difficulte: debutant
+potentiel_viral: 10
+cree_le: 2026-07-27
+revise_le: 2026-07-27
+alias: [réserve héréditaire, quotité disponible, déshériter, héritier réservataire]
+resume: >-
+  Les enfants sont héritiers réservataires : une fraction du patrimoine leur
+  revient obligatoirement, quelle que soit la volonté du défunt. Seule la
+  quotité disponible peut être léguée librement, et elle diminue à mesure que
+  le nombre d'enfants augmente.
+sources:
+  - type: texte_legal
+    ref: Code civil, article 913 (réserve et quotité disponible)
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409255
+    consulte_le: 2026-07-27
+  - type: texte_legal
+    ref: Code civil, article 912 (définition de la réserve)
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006432952
+    consulte_le: 2026-07-27
+  - type: texte_legal
+    ref: Code civil, article 921 (action en réduction)
+    url: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006432985
+    consulte_le: 2026-07-27
+chiffres:
+  - cle: Quotité disponible avec un enfant
+    valeur: "1/2"
+    source: 0
+  - cle: Quotité disponible avec deux enfants
+    valeur: "1/3"
+    source: 0
+  - cle: Quotité disponible avec trois enfants ou plus
+    valeur: "1/4"
+    source: 0
+  - cle: Délai de l'action en réduction après le décès
+    valeur: "5"
+    unite: "ans"
+    source: 2
+relations:
+  prerequis_de:
+    - donation_partage
+  complete_par:
+    - succession_conjoint_exoneration
+    - transmission_cout_inaction
+  en_conflit_avec:
+    - assurance_vie_990i_152500
+erreurs_frequentes:
+  - Croire qu'un testament permet de tout léguer à qui l'on veut. Il ne dispose que de la quotité disponible.
+  - Croire que la réserve est la moitié du patrimoine quel que soit le nombre d'enfants. Elle monte aux trois quarts à partir de trois enfants.
+  - Croire que les donations faites du vivant échappent au calcul. Elles sont rapportées pour déterminer la réserve.
+  - Oublier que l'héritier lésé doit agir : l'action en réduction se prescrit.
+questions_clients:
+  - Puis-je léguer toute ma maison à un seul de mes enfants ?
+  - Mon fils ne me parle plus, puis-je le déshériter ?
+  - Ma compagne peut-elle hériter à la place de mes enfants ?
+a_ne_pas_dire:
+  - Ne pas présenter l'assurance-vie comme un moyen de contourner la réserve : les primes manifestement exagérées sont réintégrables.
+  - Ne pas laisser croire qu'un testament suffit à écarter un enfant.
+---
+
+## Le mécanisme
+
+Le droit français protège les descendants par la **réserve héréditaire** : une
+fraction de la succession leur revient de plein droit, dont le défunt ne peut
+disposer. Le reste — la **quotité disponible** — se lègue librement.
+
+La proportion dépend du nombre d'enfants. Avec un enfant, la moitié est
+disponible. Avec deux, un tiers. À partir de trois, un quart seulement.
+
+## Ce qui se joue vraiment
+
+Cette règle est une singularité française que beaucoup découvrent trop tard.
+Un parent qui rédige un testament laissant tout à un seul enfant, ou à un tiers,
+ne produit pas l'effet voulu : les héritiers lésés peuvent demander la
+**réduction** des libéralités excessives et récupérer leur réserve.
+
+Le calcul ne porte d'ailleurs pas sur le seul patrimoine au décès. Les
+donations consenties du vivant y sont réintégrées fictivement, ce qui interdit
+de vider la succession par anticipation.
+
+## Le point de vigilance
+
+L'assurance-vie échappe en principe à ce calcul, puisque le capital est versé
+hors succession. Mais l'exception a une limite : des primes **manifestement
+exagérées** au regard des revenus et du patrimoine du souscripteur peuvent être
+réintégrées à la demande des héritiers. Ce n'est donc pas un contournement
+fiable de la réserve.
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:5:**Angle** : Un PACS sans testament ne protège pas le partenaire qui n’hérite de rien.  
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:12:| 1 | Hook | Avec un PACS, zéro euro de droits à payer… mais aussi zéro héritage sans testament. | Gros plan sur deux mains signant un PACS. Cut rapide sur main posée sur un testament vierge. | PACS : 0 € droits, 0 € héritage ? |
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:13:| 2 | Enjeu | Ce que vous pensiez partager à vie, vous pouvez tout perdre en une seule succession, malgré les exonérations fiscales. Le partenaire pacsé n’a aucun droit sans testament. | Plan d’un couple souriant dans leur salon, puis l’un d’eux se retrouve seul, devant une lettre officielle. | Tout perdre sans testament |
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:14:| 3 | Mécanisme | Le partenaire pacsé est totalement exonéré de droits de succession grâce à la loi, mais il n’est jamais héritier légal. Pour recevoir quoi que ce soit, il faut qu’un testament l’institue légataire. Sinon, tout revient à la famille du défunt : parents, frères et sœurs, ou enfants s’il y en a. | Graphique simple montrant deux branches : PACS sans testament ⇒ famille ; PACS avec testament ⇒ partenaire. | Exonération ≠ héritage |
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:15:| 4 | Exemple chiffré | Julie et Antoine sont pacsés et vivent dans une maison qui vaut 200 000 euros. Antoine décède sans testament. Julie ne reçoit rien, même si elle n’aurait pas payé d’impôt. Tout part aux héritiers légaux d’Antoine. Si un testament avait désigné Julie, elle aurait tout reçu, sans payer de droits. | Visuel de maison, icônes Julie et Antoine, passage de la maison vers plusieurs figurines d’une famille. | PACS sans testament : rien pour Julie |
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:16:| 5 | Erreur fréquente | Beaucoup pensent que le PACS protège comme le mariage. Mais sans testament, le partenaire pacsé n’est jamais héritier, même s’il ne paie aucun droit de succession. Penser le contraire peut tout faire perdre. | Zoom sur une feuille de PACS, superposée à une bulle “Sécurité” qui s’efface. | PACS ≠ mariage |
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:23:Avec un PACS, zéro euro de droits à payer… mais aussi zéro héritage sans testament. Ce que vous pensiez partager à vie, vous pouvez tout perdre en une seule succession, malgré les exonérations fiscales. Le partenaire pacsé n’a aucun droit sans testament. Le partenaire pacsé est totalement exonéré de droits de succession grâce à la loi, mais il n’est jamais héritier légal. Pour recevoir quoi que ce soit, il faut qu’un testament l’institue légataire. Sinon, tout revient à la famille du défunt : parents, frères et sœurs, ou enfants s’il y en a. Julie et Antoine sont pacsés et vivent dans une maison qui vaut 200 000 euros. Antoine décède sans testament. Julie ne reçoit rien, même si elle n’aurait pas payé d’impôt. Tout part aux héritiers légaux d’Antoine. Si un testament avait désigné Julie, elle aurait tout reçu, sans payer de droits. Beaucoup pensent que le PACS protège comme le mariage. Mais sans testament, le partenaire pacsé n’est jamais héritier, même s’il ne paie aucun droit de succession. Penser le contraire peut tout faire perdre. Qui contrôlerait vraiment votre patrimoine si vous disparaissiez demain ? Gardez ce rappel pour ne pas laisser le hasard décider.
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:36:- BOI-ENR-DMTG-10-50-20 — https://bofip.impots.gouv.fr/doctrine/BOI-ENR-DMTG-10-50-20
+scripts/succession/succession_conjoint_exoneration__multi__a1.md:40:Rythme modéré, fond musical sobre. Transitions rapides entre PACS, testament et héritiers pour visualiser la distinction. Utiliser des couleurs ou effets pour opposer 'zéro droits' et 'zéro héritage'. Garder les plans humains pour l’émotion sans dramatisation. Durée cible : 70 secondes.
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:1:# Succession : marié, pacsé ou concubin, la loi ne pèse pas pareil
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:4:**Durée estimée** : 74 s (205 mots)  
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:12:| 1 | Hook | 60 %. C’est ce que paie un concubin sur un héritage, quand le conjoint marié n’a rien à régler. | Close-up sur la main d’un notaire posant deux dossiers étiquetés « concubin » et « marié », chiffres affichés en grand. | Marié : 0 € \| Concubin : 60 % |
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:14:| 3 | Mécanisme | Depuis 2007, le conjoint marié ne paie aucun droit de succession. Le partenaire de PACS bénéficie aussi d’une exonération totale, mais uniquement s’il a été désigné par testament. Pour le concubin, même avec un testament, tout ce qu’il reçoit est taxé à 60 %. Ces règles s’appliquent au décès d’un membre du couple. | Infographie animée : trois colonnes « marié », « pacsé », « concubin », flèche vers « 0 € », « 0 € avec testament », « 60 % ». | Règle par statut |
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:15:| 4 | Exemple chiffré | Prenez une maison estimée à 300 000 euros. Si elle est transmise à la compagne non pacsée par testament, le fisc réclame 180 000 euros de droits. Pour un conjoint marié, c’est zéro. Pour un partenaire de PACS désigné par testament, c’est aussi zéro. La nuance coûte parfois une vie d’économie. | Visuel maison affichant le prix, split screen : montants des droits de succession selon les trois statuts. | 300 000€ : combien arrive au survivant ? |
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:16:| 5 | Erreur fréquente | Beaucoup pensent que le PACS suffit à protéger. Mais sans testament, le partenaire pacsé n’hérite de rien, même s’il paierait zéro droit. Et le concubin paie 60 % de taxe, si quelque chose lui est transmis par testament. | Plan serré sur un testament ouvert, puis regard surpris d’un partenaire découvrant les clauses. | PACS ≠ mariage |
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:23:60 %. C’est ce que paie un concubin sur un héritage, quand le conjoint marié n’a rien à régler. Penser que tous les couples sont protégés de la même façon, c’est risquer de perdre le fruit d’années à deux, juste à cause d’un statut. Depuis 2007, le conjoint marié ne paie aucun droit de succession. Le partenaire de PACS bénéficie aussi d’une exonération totale, mais uniquement s’il a été désigné par testament. Pour le concubin, même avec un testament, tout ce qu’il reçoit est taxé à 60 %. Ces règles s’appliquent au décès d’un membre du couple. Prenez une maison estimée à 300 000 euros. Si elle est transmise à la compagne non pacsée par testament, le fisc réclame 180 000 euros de droits. Pour un conjoint marié, c’est zéro. Pour un partenaire de PACS désigné par testament, c’est aussi zéro. La nuance coûte parfois une vie d’économie. Beaucoup pensent que le PACS suffit à protéger. Mais sans testament, le partenaire pacsé n’hérite de rien, même s’il paierait zéro droit. Et le concubin paie 60 % de taxe, si quelque chose lui est transmis par testament. Votre situation protège-t-elle vraiment votre moitié ? Vous pouvez enregistrer pour en discuter ensemble, et éviter les mauvaises surprises.
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:27:PACS, concubinage, mariage : la protection du couple change tout en succession. Aucun statut n’offre la même sécurité. Renseignez-vous avant qu’il ne soit trop tard. Contenu d'information juridique générale. Ne constitue pas un conseil juridique personnalisé.
+scripts/succession/succession_conjoint_exoneration__multi__a4.md:36:- CGI, article 777 —…6003 tokens truncated… d’un calendrier qui avance. | 5 ans et c’est trop tard |
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:13:| 2 | Enjeu | Si un enfant ne réclame pas sa réserve à temps, il renonce sans le vouloir à la part que la loi lui accorde forcément, même contre le testament. | Jeune adulte devant un dossier notarié, hésitant, puis plan serré sur document “succession”. | Une part perdue si trop tard |
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:14:| 3 | Mécanisme | En France, un enfant ne peut pas être privé de sa part d’héritage : on parle de réserve héréditaire. Mais pour la récupérer, il doit engager ce qu’on appelle une action en réduction. Cette action n’est possible que dans un délai de cinq ans à partir du décès du parent. Passé ce délai, la part réservataire ne peut plus être réclamée. | Plan sur la balance de la justice, puis passage au code civil ouvert. Zoom sur le chiffre “5 ans” inscrit sur un bloc-notes. | Réserve héréditaire = action sous 5 ans |
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:15:| 4 | Exemple chiffré | Imaginons Clara, l’une des deux enfants de Paul. Paul laisse une maison de 300 000 euros. Un testament accorde tout à la sœur de Clara. Clara dispose de cinq ans pour demander en justice sa part réservataire, soit cent mille euros sur les trois cent mille. Après cinq ans, elle ne pourra plus rien réclamer. | Plan sur maison, puis fractionnement de la valeur en deux parts. Portrait fictif de Clara, puis surlignage du montant sur une feuille. | Exemple : 100 000 € perdus |
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:23:Cinq ans après le décès, l’enfant oublié perd tout droit à sa part d’héritage. Si un enfant ne réclame pas sa réserve à temps, il renonce sans le vouloir à la part que la loi lui accorde forcément, même contre le testament. En France, un enfant ne peut pas être privé de sa part d’héritage : on parle de réserve héréditaire. Mais pour la récupérer, il doit engager ce qu’on appelle une action en réduction. Cette action n’est possible que dans un délai de cinq ans à partir du décès du parent. Passé ce délai, la part réservataire ne peut plus être réclamée. Imaginons Clara, l’une des deux enfants de Paul. Paul laisse une maison de 300 000 euros. Un testament accorde tout à la sœur de Clara. Clara dispose de cinq ans pour demander en justice sa part réservataire, soit cent mille euros sur les trois cent mille. Après cinq ans, elle ne pourra plus rien réclamer. Beaucoup pensent qu’il suffit de découvrir le testament tardivement pour agir à n’importe quel moment. Or, le délai démarre au décès, même sans notification. Oublier d’agir dans les temps coûte toute la part réservataire. Connaissiez-vous ce délai de cinq ans ? Enregistrez pour ne pas l’oublier, et partagez si vous trouvez ça surprenant.
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:27:On ne peut pas déshériter ses enfants, mais réclamer sa part d’héritage n’est possible que dans un délai précis. Explications essentielles. Contenu d'information juridique générale. Ne constitue pas un conseil juridique personnalisé.
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:31:#héritage #droitdesuccessions #famille #patrimoinefrançais #réservehéréditaire
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:35:- Code civil, article 913 (réserve et quotité disponible) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409255
+scripts/succession/succession_reserve_hereditaire__multi__a3.md:36:- Code civil, article 912 (définition de la réserve) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006432952
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:1:# Donner de son vivant n’efface pas la réserve des enfants
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:5:**Angle** : Les donations faites de votre vivant sont prises en compte pour le calcul de l’héritage réservé à vos enfants.  
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:12:| 1 | Hook | Si vous donnez 50 000 euros à l’un de vos proches, cela entre quand même dans le calcul de l’héritage réservé à vos enfants. | Plan serré sur une main qui passe une enveloppe épaisse à une autre, au-dessus d’une table familiale. | 50 000 € donnés… mais toujours pris en compte |
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:13:| 2 | Enjeu | Si vous pensez pouvoir choisir librement qui reçoit votre patrimoine en donnant tout avant le décès, la loi peut remettre les compteurs à zéro. | Gros plan sur des documents de succession, zoom sur les mots « réservataire » et « donation » sur un papier. | La loi protège les enfants |
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:14:| 3 | Mécanisme | En France, les enfants sont des héritiers réservataires. Même les biens donnés de votre vivant sont ajoutés fictivement à votre succession pour vérifier que chacun reçoit bien la part qui lui est réservée par la loi. Cette règle s’applique dès qu’il y a au moins un enfant, et la part réservée augmente avec le nombre d’enfants. | Infographie animée montrant un coffre-fort, des lingots s’ajoutant à la pile lorsque des mains à différents âges reçoivent des cadeaux. | Donner ≠ effacer la réserve |
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:15:| 4 | Exemple chiffré | Prenons Léa, qui a deux enfants et 120 000 euros. Elle donne 30 000 euros à son frère de son vivant. Au décès de Léa, la succession fictive reste de 120 000 euros pour calculer la part réservée à ses enfants. La donation de 30 000 euros est donc réintégrée dans le calcul, même si elle a eu lieu avant. | Tableau simple qui affiche : montant initial 120 000 euros, moins 30 000 euros donnés, puis flèche qui remonte à 120 000 pour le calcul. | Don d’avant = réintégré |
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:16:| 5 | Erreur fréquente | Beaucoup pensent qu'en multipliant les donations avant le décès, ils peuvent déshériter un enfant ou utiliser une optimisation illimitée. C’est une erreur : il existe des dispositifs légaux d'optimisation, mais la réserve des enfants ne peut être écartée que par une exonération prévue par le texte. Les enfants lésés peuvent agir jusqu’à cinq ans pour demander le rééquilibrage. | Visage surpris d’un héritier devant un notaire lui expliquant la règle, zoom sur la mention « 5 ans » sur un document. | Action possible 5 ans |
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:23:Si vous donnez 50 000 euros à l’un de vos proches, cela entre quand même dans le calcul de l’héritage réservé à vos enfants. Si vous pensez pouvoir choisir librement qui reçoit votre patrimoine en donnant tout avant le décès, la loi peut remettre les compteurs à zéro. En France, les enfants sont des héritiers réservataires. Même les biens donnés de votre vivant sont ajoutés fictivement à votre succession pour vérifier que chacun reçoit bien la part qui lui est réservée par la loi. Cette règle s’applique dès qu’il y a au moins un enfant, et la part réservée augmente avec le nombre d’enfants. Prenons Léa, qui a deux enfants et 120 000 euros. Elle donne 30 000 euros à son frère de son vivant. Au décès de Léa, la succession fictive reste de 120 000 euros pour calculer la part réservée à ses enfants. La donation de 30 000 euros est donc réintégrée dans le calcul, même si elle a eu lieu avant. Beaucoup pensent qu'en multipliant les donations avant le décès, ils peuvent déshériter un enfant ou utiliser une optimisation illimitée. C’est une erreur : il existe des dispositifs légaux d'optimisation, mais la réserve des enfants ne peut être écartée que par une exonération prévue par le texte. Les enfants lésés peuvent agir jusqu’à cinq ans pour demander le rééquilibrage. Vous connaissiez cette règle sur les donations, ou vous l’apprenez à l’instant ? Enregistrez-la pour ne pas l’oublier.
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:27:Même les donations faites du vivant sont prises en compte pour la part réservée des enfants. Il existe des dispositifs légaux d’optimisation, mais la réserve des enfants ne peut être contournée que par une exonération prévue par le texte. Contenu d'information juridique générale. Ne constitue pas un conseil juridique personnalisé.
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:35:- Code civil, article 913 (réserve et quotité disponible) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409255
+scripts/succession/succession_reserve_hereditaire__multi__a4.md:36:- Code civil, article 912 (définition de la réserve) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006432952
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:1:# Testament et réserve héréditaire : déshériter son enfant, c’est impossible
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:4:**Durée estimée** : 89 s (245 mots)  
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:5:**Angle** : Un testament ne peut pas priver un enfant de sa part d’héritage en France.  
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:12:| 1 | Hook | Un parent ne peut pas déshériter totalement un enfant en France, sauf pour la partie du patrimoine appelée quotité disponible ; la réserve héréditaire leur est toujours due, à condition qu'ils en fassent la demande. | Gros plan sur la page d’un testament ouvert sur une table, surlignage au stylo de la phrase « Je lègue tout à… ». | Déshériter son enfant : impossible |
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:14:| 3 | Mécanisme | La loi protège vos enfants par la réserve héréditaire : ils ont droit à une part minimale de la succession, qu'ils doivent réclamer en cas d'atteinte. Ce droit dépend du nombre d’enfants. Un enfant oblige à leur laisser au moins la moitié. Deux enfants, cela représente une réserve globale de deux tiers à se partager entre eux. Trois enfants ou plus, la réserve globale est de trois quarts à répartir. Le reste seules vos volontés s’appliquent. | Infographie animée : chaque ajout d’un enfant réduit la part libre d’un cercle représentant l’héritage. | Jamais 100 % libre |
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:15:| 4 | Exemple chiffré | Imaginez Léa, trois enfants et un patrimoine de 200 000 euros. Même si son testament donne tout à l’un d’eux, chacun doit recevoir au moins 50 000 euros. Ensemble, les trois enfants sont protégés sur 150 000 euros. Léa ne peut léguer librement que 50 000 euros, pas plus. | Schéma visuel avec trois silhouettes d’enfants et trois parts colorées sur une pile de billets. | Calcul : 3 enfants sur 200 000 € |
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:16:| 5 | Erreur fréquente | L’erreur classique, c’est de croire qu’un testament permet d’exclure un enfant. Même si vous tentez de favoriser quelqu’un d’autre, l’enfant lésé peut agir pour récupérer sa réserve : il a cinq ans après le décès pour le demander. | Zoom sur un calendrier dont une case est entourée en rouge, main qui pointe une clause dans un dossier juridique. | Réduction : délai, 5 ans |
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:17:| 6 | Clôture | Pensez-vous que la réserve héréditaire protège assez, ou pas assez ? Enregistrez si le sujet peut concerner votre famille un jour. | Vue d’ensemble sur une famille réunie autour d’une table, transition vers un rappel discret du schéma de partage. | Transmettre… mais comment ? |
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:23:Un parent ne peut pas déshériter totalement un enfant en France, sauf pour la partie du patrimoine appelée quotité disponible ; la réserve héréditaire leur est toujours due, à condition qu'ils en fassent la demande. Votre testament ne décide pas seul du partage. Sans connaître la règle, vos volontés risquent de ne pas être respectées, même si tout a été écrit. La loi protège vos enfants par la réserve héréditaire : ils ont droit à une part minimale de la succession, qu'ils doivent réclamer en cas d'atteinte. Ce droit dépend du nombre d’enfants. Un enfant oblige à leur laisser au moins la moitié. Deux enfants, cela représente une réserve globale de deux tiers à se partager entre eux. Trois enfants ou plus, la réserve globale est de trois quarts à répartir. Le reste seules vos volontés s’appliquent. Imaginez Léa, trois enfants et un patrimoine de 200 000 euros. Même si son testament donne tout à l’un d’eux, chacun doit recevoir au moins 50 000 euros. Ensemble, les trois enfants sont protégés sur 150 000 euros. Léa ne peut léguer librement que 50 000 euros, pas plus. L’erreur classique, c’est de croire qu’un testament permet d’exclure un enfant. Même si vous tentez de favoriser quelqu’un d’autre, l’enfant lésé peut agir pour récupérer sa réserve : il a cinq ans après le décès pour le demander. Pensez-vous que la réserve héréditaire protège assez, ou pas assez ? Enregistrez si le sujet peut concerner votre famille un jour.
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:27:Un testament n’écarte jamais un enfant de la succession : la loi protège sa part minimale. Vous ne pouvez disposer librement que d’une fraction. Contenu d'information juridique générale. Ne constitue pas un conseil juridique personnalisé.
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:35:- Code civil, article 912 : définition de la réserve
+scripts/succession/succession_reserve_hereditaire__multi__a1.md:36:- Code civil, article 913 : réserve et quotité disponible
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:1:# Assurance-vie et réserve héréditaire : la vraie frontière
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:5:**Angle** : L’assurance-vie ne permet pas d’écarter vos enfants de la part protégée par la loi.  
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:12:| 1 | Hook | Certains pensent qu’avec 400 000 euros en assurance-vie, leurs enfants n’auront rien. C’est faux. | Gros plan sur un contrat d’assurance-vie et un billet de 400 000 euros affiché à l’écran. | 400 000€ en assurance-vie : vos enfants sont-ils privés ? |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:13:| 2 | Enjeu | Si vous comptez sur l’assurance-vie pour empêcher vos enfants d’hériter, vous risquez de leur compliquer la vie et de provoquer des conflits. | Visage inquiet d’un parent consultant des documents de succession, puis regard d’un enfant adulte surpris par un courrier. | Peut-on vraiment priver ses enfants ? |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:14:| 3 | Mécanisme | Les enfants sont protégés par la réserve héréditaire : ils ont droit à une part obligatoire du patrimoine, appelée ainsi. Avec un seul enfant, la moitié de l’ensemble peut être attribuée librement. Mais l’assurance-vie n’est pas un passe-droit : si les versements sont manifestement exagérés, ils peuvent être réintégrés à la succession, à la demande des héritiers. | Animation simple : le patrimoine divisé en deux parts, une nommée « réserve héréditaire », l’autre « quotité disponible ». Ensuite, bulle qui relie un contrat d’assurance-vie au patrimoine. | Réserve héréditaire : une part protégée |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:15:| 4 | Exemple chiffré | Prenons Paul, père de deux enfants, qui place 300 000 euros sur une assurance-vie alors que son patrimoine total est de 450 000 euros. Pour deux enfants, il ne peut disposer librement que d’un tiers, soit 150 000 euros. Verser 300 000 euros dépasse ce tiers : si ses enfants contestent, la somme exagérée peut être réinjectée dans leur part réservée. | Graphique animé : le total du patrimoine de Paul s’affiche, puis la quotité disponible (un tiers, soit 150 000€), puis l’assurance-vie qui reçoit 300 000€. Surlignage de la part contestable. | Exemple : 450 000€ et deux enfants |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:16:| 5 | Erreur fréquente | Beaucoup imaginent qu’il suffit d’ouvrir une assurance-vie pour exclure un héritier. Or, la loi permet aux enfants d’agir dans les cinq ans après le décès pour récupérer leur réserve, si les sommes versées sont jugées excessives par rapport au patrimoine. | Plan sur un héritier consultant un dossier, avec rappel visuel du délai de cinq ans qui s’affiche sur l’écran. | Attention au délai de 5 ans |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:17:| 6 | Clôture | Vous croyez que l’assurance-vie peut tout faire ? Enregistrez cette vidéo, et partagez-la à ceux qui préparent leur succession | Fondu enchaîné sur une main qui glisse un contrat dans un dossier marqué « Succession ». | L’assurance-vie n’efface pas la réserve |
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:23:Certains pensent qu’avec 400 000 euros en assurance-vie, leurs enfants n’auront rien. C’est faux. Si vous comptez sur l’assurance-vie pour empêcher vos enfants d’hériter, vous risquez de leur compliquer la vie et de provoquer des conflits. Les enfants sont protégés par la réserve héréditaire : ils ont droit à une part obligatoire du patrimoine, appelée ainsi. Avec un seul enfant, la moitié de l’ensemble peut être attribuée librement. Mais l’assurance-vie n’est pas un passe-droit : si les versements sont manifestement exagérés, ils peuvent être réintégrés à la succession, à la demande des héritiers. Prenons Paul, père de deux enfants, qui place 300 000 euros sur une assurance-vie alors que son patrimoine total est de 450 000 euros. Pour deux enfants, il ne peut disposer librement que d’un tiers, soit 150 000 euros. Verser 300 000 euros dépasse ce tiers : si ses enfants contestent, la somme exagérée peut être réinjectée dans leur part réservée. Beaucoup imaginent qu’il suffit d’ouvrir une assurance-vie pour exclure un héritier. Or, la loi permet aux enfants d’agir dans les cinq ans après le décès pour récupérer leur réserve, si les sommes versées sont jugées excessives par rapport au patrimoine. Vous croyez que l’assurance-vie peut tout faire ? Enregistrez cette vidéo, et partagez-la à ceux qui préparent leur succession
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:27:Ouvrir une assurance-vie ne permet pas de déshériter ses enfants. Les héritiers peuvent réclamer leur part si les versements sont exagérés. Contenu d'information juridique générale. Ne constitue pas un conseil juridique personnalisé.
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:31:#successionfrançaise #heritagereserve #assurancevieexplication #notionsuccession #droitsdelenfant
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:35:- Code civil, article 913 (réserve et quotité disponible) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409255
+scripts/succession/succession_reserve_hereditaire__multi__a2.md:36:- Code civil, article 912 (définition de la réserve) — https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006432952

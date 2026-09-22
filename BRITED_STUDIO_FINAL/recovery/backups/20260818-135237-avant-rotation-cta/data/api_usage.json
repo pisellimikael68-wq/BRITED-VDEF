@@ -1,0 +1,33 @@
+{
+  "total": {
+    "calls": 252,
+    "input_tokens": 1077878,
+    "output_tokens": 389476
+  },
+  "days": {
+    "2026-08-17": {
+      "calls": 252,
+      "input_tokens": 1077878,
+      "output_tokens": 389476
+    }
+  },
+  "purposes": {
+    "generation": {
+      "calls": 120,
+      "input_tokens": 597241,
+      "output_tokens": 257874
+    },
+    "certification": {
+      "calls": 132,
+      "input_tokens": 480637,
+      "output_tokens": 131602
+    }
+  },
+  "last_call": {
+    "at": "2026-08-17T22:28:20",
+    "purpose": "certification",
+    "model": "gpt-5-mini",
+    "input_tokens": 2962,
+    "output_tokens": 693
+  }
+}

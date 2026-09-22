@@ -1,0 +1,148 @@
+{
+  "publication_id": "2026-08-24:reels:regimes_changement:1",
+  "platform": "reels",
+  "concept_id": "regimes_changement",
+  "title": "Changer de régime matrimonial en cours de mariage",
+  "header": "Changer de régime matrimonial en cours de mariage",
+  "serie": "juridique",
+  "narration": "Changer de régime matrimonial en cours de mariage : c'est possible ? Oui, en général par acte notarié, sans délai minimum. Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents. Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses. Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+      "visual": "Couple face à face, point d'interrogation",
+      "screen_text": "Changer de régime en cours de mariage : c'est possible ?"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Oui, en général par acte notarié, sans délai minimum.",
+      "visual": "Notaire et acte, tampon",
+      "screen_text": "Oui — acte notarié, sans délai minimum"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "visual": "Pictogrammes : enveloppe, horloge 3 mois, juge",
+      "screen_text": "Information enfants majeurs + publicité créanciers — opposition 3 mois ; homologation si mineurs"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+      "visual": "Patron, usine, séparation des coffres, calculatrices",
+      "screen_text": "Exemple : passage en séparation de biens — liquidation et calcul des récompenses"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "visual": "Balance, enfants et héritage barré, €100000 grisé",
+      "screen_text": "Nuance : communauté universelle = enfants privés du droit au premier décès, abattement supprimé"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier centré + pictogramme",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+      "visual": "Couple face à face, point d'interrogation",
+      "screen_text": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Oui, en général par acte notarié, sans délai minimum.",
+      "visual": "Notaire et acte, tampon",
+      "screen_text": "Oui, en général par acte notarié, sans délai minimum.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "visual": "Pictogrammes : enveloppe, horloge 3 mois, juge",
+      "screen_text": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 35
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+      "visual": "Patron, usine, séparation des coffres, calculatrices",
+      "screen_text": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 35
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "visual": "Balance, enfants et héritage barré, €100000 grisé",
+      "screen_text": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 37
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Bouton calendrier centré + pictogramme",
+      "screen_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "d929eaa32f7c9161153ff8953824aac9376c9a1b6706e766896f6ba3b568247d",
+    "adapted_hash": "d929eaa32f7c9161153ff8953824aac9376c9a1b6706e766896f6ba3b568247d",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 35,
+    "cta_normalized": false,
+    "warnings": []
+  },
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

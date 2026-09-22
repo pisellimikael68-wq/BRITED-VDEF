@@ -1,0 +1,145 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'usage de l'acronyme « DIC » dans le script et la fiche n'est pas conforme au libellé réglementaire usuel en France. Le document réglementaire est généralement appelé « DICI » (Document d'information clé pour l'investisseur) ou « document d'informations clés » dans le langage courant. Il faut aligner l'acronyme et le libellé sur la terminologie officielle et vérifier l'intitulé exact selon le type de produit (par ex. KID/DICI pour OPCVM).",
+        "La mention « Les frais du fonds n'apparaissent sur aucun relevé » est correcte au sens where frais de gestion sont intégrés à la valeur liquidative, mais il convient d'ajouter la nuance légale que certains frais ponctuels (frais prélevés à l'entrée ou au rachat) peuvent être affichés différemment par l'intermédiaire ou le contrat. Le script évoque ces frais ponctuels mais la phrase d'absolu pourrait être perçue comme trop générale."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche indique un chiffre sous 'a_verifier' (effet d'un écart de frais de 1,5 % par an sur trente ans : 'plus d'un tiers du capital final') et ce point n'est pas vérifié ni chiffré dans le script. Même si le script évite la valeur chiffrée, la fiche source devrait soit vérifier ce calcul avec l'hypothèse de rendement retenue, soit supprimer l'élément non vérifié.",
+        "Le script pourrait brièvement indiquer comment additionner les frais (frais du fonds + frais du contrat + frais ponctuels) pour que l'utilisateur comprenne concrètement où les trouver et comment calculer le coût total, sans transformer cela en conseil personnalisé."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme croix associé à la 'zone vide' (beat 3) peut être interprété comme une erreur ou suppression et non comme l'absence de prélèvement listé. Recommander un pictogramme explicite (œil barré ou icône 'aucune ligne') et veiller à la lisibilité des deux cases OUI / NON au beat 2 pour éviter toute confusion visuelle.",
+        "Au beat 4, le schéma 'part → flèche déduction quotidienne → valeur nette de frais' doit représenter visuellement la déduction continue (par ex. petites coupes régulières sur la courbe) pour coller strictement à l'énoncé 'déduits quotidiennement'."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 113,
+      "seconds": 41.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 113,
+        "seconds": 41.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : L'usage de l'acronyme « DIC » dans le script et la fiche n'est pas conforme au libellé réglementaire usuel en France. Le document réglementaire est généralement appelé « DICI » (Document d'information clé pour l'investisseur) ou « document d'informations clés » dans le langage courant. Il faut aligner l'acronyme et le libellé sur la terminologie officielle et vérifier l'intitulé exact selon le type de produit (par ex. KID/DICI pour OPCVM).",
+    "juridique_fiscal : La mention « Les frais du fonds n'apparaissent sur aucun relevé » est correcte au sens where frais de gestion sont intégrés à la valeur liquidative, mais il convient d'ajouter la nuance légale que certains frais ponctuels (frais prélevés à l'entrée ou au rachat) peuvent être affichés différemment par l'intermédiaire ou le contrat. Le script évoque ces frais ponctuels mais la phrase d'absolu pourrait être perçue comme trop générale.",
+    "completude : La fiche indique un chiffre sous 'a_verifier' (effet d'un écart de frais de 1,5 % par an sur trente ans : 'plus d'un tiers du capital final') et ce point n'est pas vérifié ni chiffré dans le script. Même si le script évite la valeur chiffrée, la fiche source devrait soit vérifier ce calcul avec l'hypothèse de rendement retenue, soit supprimer l'élément non vérifié.",
+    "completude : Le script pourrait brièvement indiquer comment additionner les frais (frais du fonds + frais du contrat + frais ponctuels) pour que l'utilisateur comprenne concrètement où les trouver et comment calculer le coût total, sans transformer cela en conseil personnalisé.",
+    "coherence_pictogrammes : Le pictogramme croix associé à la 'zone vide' (beat 3) peut être interprété comme une erreur ou suppression et non comme l'absence de prélèvement listé. Recommander un pictogramme explicite (œil barré ou icône 'aucune ligne') et veiller à la lisibilité des deux cases OUI / NON au beat 2 pour éviter toute confusion visuelle.",
+    "coherence_pictogrammes : Au beat 4, le schéma 'part → flèche déduction quotidienne → valeur nette de frais' doit représenter visuellement la déduction continue (par ex. petites coupes régulières sur la courbe) pour coller strictement à l'énoncé 'déduits quotidiennement'."
+  ],
+  "recommendations": [
+    "Remplacer l'acronyme « DIC » par le terme réglementaire approprié selon le produit (par exemple « DICI » — Document d'information clé pour l'investisseur — pour les OPCVM) et uniformiser ce libellé dans le script, la légende et la fiche source.",
+    "Corriger ou vérifier le chiffre signalé 'a_verifier' (effet d'un écart de frais de 1,5 % par an sur trente ans) dans la fiche source avant toute réutilisation chiffrée dans le script ou le visuel. Si vous souhaitez garder un exemple chiffré dans un futur post, indiquer l'hypothèse de rendement retenue et montrer brièvement le calcul (ou un exemple simplifié).",
+    "Ajuster les pictogrammes aux beats 2–4 : utiliser un symbole clair pour 'aucune ligne de prélèvement' (œil barré ou icône 'vide') et représenter visuellement la déduction quotidienne (petites coupes régulières ou animation continue sur la courbe) afin d'éviter toute interprétation erronée.",
+    "Ajouter, si l'espace le permet, une micro-ligne textuelle (ou une story complémentaire) expliquant très brièvement comment additionner frais du fonds + frais du contrat + frais ponctuels et où trouver ces informations (DICI + fiche contrat), sans donner de conseil personnalisé."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-30:reels:fonds_investissement_frais:1",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__reels__a4__v7.md"
+}

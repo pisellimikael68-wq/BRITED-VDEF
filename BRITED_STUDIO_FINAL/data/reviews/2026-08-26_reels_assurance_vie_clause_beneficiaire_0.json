@@ -1,0 +1,139 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : la séquence contient 7 beats avec plusieurs énoncés denses (notamment beat 4 avec règle légale et précision d'article). Il faut vérifier le rythme de lecture et la vitesse de coupe pour tenir 38 s sur Reels (max. 60 s) ; prévoir micro-ajustements de texte ou de vitesse vocale si l'on veut rigidement rester à 38 s."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation « acceptation écrite prévue par l'article L132-9 » : juridiquement l'article prévoit l'acceptation du bénéficiaire rendant la désignation irrévocable, mais l'expression 'prévue' peut prêter à confusion (donner l'impression d'une formalité écrite codifiée). Recommander d'écrire/énoncer 'acceptation formelle du bénéficiaire (article L132-9)' pour plus de précision et meilleure fluidité à l'oral."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase d'accroche, question, réponse et règle sont cohérentes, mais la phrase du beat 4 est dense et combine règle + renvoi d'article + conséquence (irrévocabilité). Pour la prononciation et la clarté, proposer de scinder en deux phrases : énoncer la règle puis citer l'article et conséquence."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "plateforme : Durée estimée 38 secondes : la séquence contient 7 beats avec plusieurs énoncés denses (notamment beat 4 avec règle légale et précision d'article). Il faut vérifier le rythme de lecture et la vitesse de coupe pour tenir 38 s sur Reels (max. 60 s) ; prévoir micro-ajustements de texte ou de vitesse vocale si l'on veut rigidement rester à 38 s.",
+    "formulation_professionnelle : Formulation « acceptation écrite prévue par l'article L132-9 » : juridiquement l'article prévoit l'acceptation du bénéficiaire rendant la désignation irrévocable, mais l'expression 'prévue' peut prêter à confusion (donner l'impression d'une formalité écrite codifiée). Recommander d'écrire/énoncer 'acceptation formelle du bénéficiaire (article L132-9)' pour plus de précision et meilleure fluidité à l'oral.",
+    "contre_verification_finale : Phrase d'accroche, question, réponse et règle sont cohérentes, mais la phrase du beat 4 est dense et combine règle + renvoi d'article + conséquence (irrévocabilité). Pour la prononciation et la clarté, proposer de scinder en deux phrases : énoncer la règle puis citer l'article et conséquence."
+  ],
+  "recommendations": [
+    "Alléger et/ou segmenter légèrement le texte du beat 4 pour faciliter la lecture à l'oral et respecter la durée : par exemple séparer en deux phrases — 'La clause désigne qui reçoit le capital et chaque bénéficiaire dispose de son abattement.' puis 'Elle est révocable, sauf si le bénéficiaire a formellement accepté sa désignation, auquel cas elle devient irrévocable (article L132-9).' ",
+    "Remplacer l'expression 'acceptation écrite prévue par l'article L132-9' par 'acceptation formelle du bénéficiaire (article L132-9)' pour éviter l'ambiguïté sur la forme requise et améliorer la fluidité orale.",
+    "Avant tournage, chronométrer une lecture à voix haute du script à vitesse naturelle pour vérifier que l'ensemble tient bien dans 38 secondes ; si nécessaire, réduire une phrase d'exemple ou simplifier un libellé visuel pour gagner 3–5 secondes.",
+    "Lors du montage, synchroniser précisément les pictogrammes avec l'énoncé correspondant (notamment cadenas/clé au moment de l'irrévocabilité et enveloppe 'Gratuit' au moment de la modification) pour assurer correspondance totale entre voix et visuel."
+  ],
+  "reviewed_at": "2026-08-24T15:39:45",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-08-26:reels:assurance_vie_clause_beneficiaire:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_clause_beneficiaire__reels__a1__v6.md"
+}

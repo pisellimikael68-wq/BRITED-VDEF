@@ -1,0 +1,293 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "b8b1324cd608f2f45bea7995ae9dd2e665a38d365abaf0dc2c0e84df530d0aa4"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+      "tokens": [
+        "Changer",
+        "de",
+        "régime",
+        "matrimonial",
+        "en",
+        "cours",
+        "de",
+        "mariage",
+        ":",
+        "c'est",
+        "possible",
+        "?"
+      ],
+      "token_count": 12,
+      "speech_duration": 3.166,
+      "full_text_visible_at": 2.85,
+      "hold_after_full_text": 1.217,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "landmark",
+          "scale"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Oui, en général par acte notarié, sans délai minimum.",
+      "tokens": [
+        "Oui,",
+        "en",
+        "général",
+        "par",
+        "acte",
+        "notarié,",
+        "sans",
+        "délai",
+        "minimum."
+      ],
+      "token_count": 9,
+      "speech_duration": 3.408,
+      "full_text_visible_at": 3.068,
+      "hold_after_full_text": 0.561,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "tokens": [
+        "Le",
+        "notaire",
+        "informe",
+        "les",
+        "enfants",
+        "majeurs",
+        "et",
+        "publie",
+        "pour",
+        "prévenir",
+        "les",
+        "créanciers",
+        ";",
+        "ils",
+        "ont",
+        "trois",
+        "mois",
+        "pour",
+        "s'opposer",
+        ";",
+        "l'homologation",
+        "judiciaire",
+        "reste",
+        "nécessaire",
+        "si",
+        "des",
+        "enfants",
+        "mineurs",
+        "sont",
+        "présents."
+      ],
+      "token_count": 30,
+      "speech_duration": 9.666,
+      "full_text_visible_at": 8.7,
+      "hold_after_full_text": 1.187,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          429,
+          672,
+          751
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "users",
+          "calendar"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "un",
+        "chef",
+        "d'entreprise",
+        "quitte",
+        "la",
+        "communauté",
+        "pour",
+        "passer",
+        "en",
+        "séparation",
+        "de",
+        "biens",
+        "afin",
+        "d'isoler",
+        "son",
+        "activité",
+        ";",
+        "le",
+        "notaire",
+        "liquide",
+        "le",
+        "régime",
+        "précédent",
+        "et",
+        "calcule",
+        "les",
+        "récompenses."
+      ],
+      "token_count": 29,
+      "speech_duration": 9.32,
+      "full_text_visible_at": 8.388,
+      "hold_after_full_text": 1.152,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          419,
+          672,
+          761
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "heart-handshake",
+          "shield-check"
+        ],
+        "font_size": 42,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "tokens": [
+        "Attention",
+        ":",
+        "la",
+        "communauté",
+        "universelle",
+        "avec",
+        "attribution",
+        "intégrale",
+        "prive",
+        "les",
+        "enfants",
+        "du",
+        "droit",
+        "de",
+        "succession",
+        "du",
+        "premier",
+        "parent",
+        "et",
+        "supprime",
+        "l'abattement",
+        "appliqué",
+        "à",
+        "ce",
+        "premier",
+        "décès."
+      ],
+      "token_count": 26,
+      "speech_duration": 9.096,
+      "full_text_visible_at": 8.187,
+      "hold_after_full_text": 1.81,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          405,
+          672,
+          775
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "scale",
+          "banknote"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.372,
+      "full_text_visible_at": 4.835,
+      "hold_after_full_text": 0.537,
+      "visual_layout": null
+    }
+  ]
+}

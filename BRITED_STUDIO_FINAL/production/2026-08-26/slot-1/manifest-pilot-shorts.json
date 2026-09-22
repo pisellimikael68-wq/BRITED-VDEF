@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-26",
+  "slot": 1,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-26:shorts:assurance_vie_clause_beneficiaire:0",
+      "platform": "shorts",
+      "title": "La phrase la plus importante de votre contrat fait deux lignes",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/assurance_vie/assurance_vie_clause_beneficiaire__shorts__a1__v14.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/shorts/assurance_vie_clause_beneficiaire__shorts.mp4",
+      "script_sha256": "98061e34f399b11b37fadbd27ddca5fa819dff5d94b8653be24589575e0cc908",
+      "spec_sha256": "b98403799755c86e6399c0361809874ce374bfb8755e18d18f79af411d63895e",
+      "video_sha256": "1605a5bc7c9da91c63eaf22a3b3885736407d9250575a2fc0d5c1d874dab4757",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 38.0,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-26:shorts:assurance_vie_clause_beneficiaire:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-26_shorts_assurance_vie_clause_beneficiaire_0.json",
+        "validated_at": "2026-08-25T19:29:40"
+      },
+      "review_path": "data/reviews/2026-08-26_shorts_assurance_vie_clause_beneficiaire_0.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/shorts/assurance_vie_clause_beneficiaire__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-26/slot-1/shorts/assurance_vie_clause_beneficiaire__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

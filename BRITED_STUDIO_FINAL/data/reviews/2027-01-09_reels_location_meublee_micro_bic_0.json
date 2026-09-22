@@ -1,0 +1,196 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est globalement respectée, mais le script emploie la formulation « l'immatriculation de l'activité » sans préciser le régime exact (inscription au RCS pour les loueurs professionnels, ou au répertoire SIRENE via déclaration au greffe/greffe ou via formulaire P0 pour une activité commerciale). Cette imprécision peut induire en erreur.",
+        "Le script affirme que « l'abattement forfaitaire [du meublé] est nettement supérieur » sans indiquer qu'il faut vérifier la catégorie (meublé classique vs meublé de tourisme, seuils récents). La fiche demande de ne diffuser aucun chiffre des meublés de tourisme sans vérification ; le script s'en tient à l'avertissement, mais la phrase pourrait être interprétée comme une donnée chiffrée implicite."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'énoncé principal (« meublé = BIC, nu = revenus fonciers ») est exact et sourcé.",
+        "La mention de l'immatriculation comme obligation déclarative est correcte mais incomplète : il faudrait préciser que l'obligation d'immatriculation (ou d'inscription) dépend du statut et du chiffre d'affaires, et que la qualification professionnelle (LMP) implique des conditions et conséquences fiscales/ sociales distinctes.",
+        "L'allusion à l'amortissement devrait rappeler la limite utile figurant dans la fiche : 'l'amortissement est réintégré pour le calcul de la plus-value' (la fiche a noté cette évolution récente). L'omission de cette nuance peut laisser entendre que l'amortissement est un gain définitif."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition (crédit/travaux) et l'exception (catégorie du meublé), mais omet une phrase courte sur la différence de seuils/abattements entre meublé classique et meublés de tourisme (en renvoyant uniquement à vérifier).",
+        "L'exemple est général (« avec un crédit, l'amortissement peut réduire l'imposition pendant des années ») mais n'inclut pas un chiffre illustratif ni une comparaison chiffrée simple (même indicatif) pour rendre l'avantage concret, alors que la fiche demande un 'exemple utile'."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression sont bonnes ; cependant la séquence 2 (OUI / NON) est floue dans sa valeur ajoutée pédagogique et risque de consommer du temps pour un Reels de 38 s. On pourrait remplacer par une phrase courte plus informative pour optimiser rétention.",
+        "La phrase « vérifier le taux selon la catégorie du meublé et la règle » est maladroite stylistiquement et pourrait être reformulée pour la clarté ('vérifiez le taux selon la catégorie du meublé')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la mention de rendez-vous, mais il manque une clause explicite dans la narration ou la légende rappelant que le contenu n'est pas un conseil personnalisé. La mention figure en bas de la fiche, mais pour conformité il serait prudent d'ajouter brièvement 'contenu pédagogique, pas un conseil personnalisé' dans l'écran final ou dans la légende."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et clair, mais quelques libellés peuvent être améliorés : 'immatriculation de l'activité' -> 'déclaration/immatriculation selon le cas (SIRENE/RCS)'.",
+        "La phrase 'vérifier le taux selon la catégorie du meublé et la règle' est maladroite grammaticalement."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, l'enchaînement 'OUI / NON. Non, ce n'est pas la même fiscalité.' crée une redondance et peut gêner la fluidité orale.",
+        "Les pictogrammes décrits doivent correspondre précisément à la narration : par exemple, pour 'immatriculation', le visuel proposé est un formulaire générique — il faut préciser 'pictogramme registre/SIRENE ou icône greffe' pour éviter ambiguïté.",
+        "La durée estimée (38 s) paraît cohérente, mais l'élément 'OUI / NON' et le temps pour les visuels comparatifs pourraient dépasser la durée si les plans sont trop longs."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent, mais certains pictogrammes sont trop génériques : 'Icône balance' et 'pictogrammes crédit, travaux, amortissement' doivent être distinguables (amortissement ne se symbolise pas clairement par un pictogramme standard).",
+        "Le pictogramme 'immatriculation' doit refléter précisément la démarche administrative (ex. icône registre/SIRENE) pour éviter interprétation erronée."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien d'un seul angle, mais inclut plusieurs mentions importantes (abattement, réel, amortissement, immatriculation). Pour rester concise et respecter la contrainte temporelle, il faudrait raccourcir ou fusionner la séquence 2 (OUI/NON) et clarifier l'exception (catégorie du meublé) en une phrase plus dense.",
+        "L'exemple utile est trop vague — la fiche demande un exemple démonstratif ; il faudrait un exemple chiffré indicatif ou une phrase comparative courte."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Dans l'ensemble compréhensible pour un non-spécialiste, mais certains termes (BIC, régime réel, amortir) sont utilisés sans très brève définition : ex. 'amortir (déduire chaque année une fraction de la valeur)' est présent dans la fiche mais le script ne définit pas 'BIC' ou 'régime réel' succinctement.",
+        "Il faudrait expliciter en une courte parenthèse ce qu'est le régime réel (déduction des charges et amortissements) lors de la première mention."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont bonnes mais l'élément interactif 'OUI / NON' comme deuxième beat risque d'affaiblir la progression de curiosité au lieu de la renforcer. Remplacer par une question plus directe améliore rétention.",
+        "Le CTA est clair, mais pourrait être renforcé par un rappel de la non-personnalisation (sécurité) pour renforcer confiance."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et sérieux. Toutefois, l'absence d'une brève mention 'contenu pédagogique, pas un conseil personnalisé' à l'écran final peut nuire à la conformité et à la confiance contextuelle.",
+        "L'appel à l'action fonctionne, mais l'ajout d'une preuve sociale (ex. 'rendez-vous pour un diagnostic fiscal personnalisé') devrait rester non-marchand et prudent; actuellement acceptable mais améliorable."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 111,
+      "seconds": 41.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 111,
+        "seconds": 41.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est globalement respectée, mais le script emploie la formulation « l'immatriculation de l'activité » sans préciser le régime exact (inscription au RCS pour les loueurs professionnels, ou au répertoire SIRENE via déclaration au greffe/greffe ou via formulaire P0 pour une activité commerciale). Cette imprécision peut induire en erreur.",
+    "source : Le script affirme que « l'abattement forfaitaire [du meublé] est nettement supérieur » sans indiquer qu'il faut vérifier la catégorie (meublé classique vs meublé de tourisme, seuils récents). La fiche demande de ne diffuser aucun chiffre des meublés de tourisme sans vérification ; le script s'en tient à l'avertissement, mais la phrase pourrait être interprétée comme une donnée chiffrée implicite.",
+    "juridique_fiscal : L'énoncé principal (« meublé = BIC, nu = revenus fonciers ») est exact et sourcé.",
+    "juridique_fiscal : La mention de l'immatriculation comme obligation déclarative est correcte mais incomplète : il faudrait préciser que l'obligation d'immatriculation (ou d'inscription) dépend du statut et du chiffre d'affaires, et que la qualification professionnelle (LMP) implique des conditions et conséquences fiscales/ sociales distinctes.",
+    "juridique_fiscal : L'allusion à l'amortissement devrait rappeler la limite utile figurant dans la fiche : 'l'amortissement est réintégré pour le calcul de la plus-value' (la fiche a noté cette évolution récente). L'omission de cette nuance peut laisser entendre que l'amortissement est un gain définitif.",
+    "completude : Le script couvre la règle centrale, la condition (crédit/travaux) et l'exception (catégorie du meublé), mais omet une phrase courte sur la différence de seuils/abattements entre meublé classique et meublés de tourisme (en renvoyant uniquement à vérifier).",
+    "completude : L'exemple est général (« avec un crédit, l'amortissement peut réduire l'imposition pendant des années ») mais n'inclut pas un chiffre illustratif ni une comparaison chiffrée simple (même indicatif) pour rendre l'avantage concret, alors que la fiche demande un 'exemple utile'.",
+    "editorial : Accroche et progression sont bonnes ; cependant la séquence 2 (OUI / NON) est floue dans sa valeur ajoutée pédagogique et risque de consommer du temps pour un Reels de 38 s. On pourrait remplacer par une phrase courte plus informative pour optimiser rétention.",
+    "editorial : La phrase « vérifier le taux selon la catégorie du meublé et la règle » est maladroite stylistiquement et pourrait être reformulée pour la clarté ('vérifiez le taux selon la catégorie du meublé').",
+    "securite : Le script contient la mention de rendez-vous, mais il manque une clause explicite dans la narration ou la légende rappelant que le contenu n'est pas un conseil personnalisé. La mention figure en bas de la fiche, mais pour conformité il serait prudent d'ajouter brièvement 'contenu pédagogique, pas un conseil personnalisé' dans l'écran final ou dans la légende.",
+    "formulation_professionnelle : Le français est naturel et clair, mais quelques libellés peuvent être améliorés : 'immatriculation de l'activité' -> 'déclaration/immatriculation selon le cas (SIRENE/RCS)'.",
+    "formulation_professionnelle : La phrase 'vérifier le taux selon la catégorie du meublé et la règle' est maladroite grammaticalement.",
+    "contre_verification_finale : En relecture mot à mot, l'enchaînement 'OUI / NON. Non, ce n'est pas la même fiscalité.' crée une redondance et peut gêner la fluidité orale.",
+    "contre_verification_finale : Les pictogrammes décrits doivent correspondre précisément à la narration : par exemple, pour 'immatriculation', le visuel proposé est un formulaire générique — il faut préciser 'pictogramme registre/SIRENE ou icône greffe' pour éviter ambiguïté.",
+    "contre_verification_finale : La durée estimée (38 s) paraît cohérente, mais l'élément 'OUI / NON' et le temps pour les visuels comparatifs pourraient dépasser la durée si les plans sont trop longs.",
+    "coherence_pictogrammes : Globalement cohérent, mais certains pictogrammes sont trop génériques : 'Icône balance' et 'pictogrammes crédit, travaux, amortissement' doivent être distinguables (amortissement ne se symbolise pas clairement par un pictogramme standard).",
+    "coherence_pictogrammes : Le pictogramme 'immatriculation' doit refléter précisément la démarche administrative (ex. icône registre/SIRENE) pour éviter interprétation erronée.",
+    "densite_editoriale : La vidéo traite bien d'un seul angle, mais inclut plusieurs mentions importantes (abattement, réel, amortissement, immatriculation). Pour rester concise et respecter la contrainte temporelle, il faudrait raccourcir ou fusionner la séquence 2 (OUI/NON) et clarifier l'exception (catégorie du meublé) en une phrase plus dense.",
+    "densite_editoriale : L'exemple utile est trop vague — la fiche demande un exemple démonstratif ; il faudrait un exemple chiffré indicatif ou une phrase comparative courte.",
+    "pedagogie_client : Dans l'ensemble compréhensible pour un non-spécialiste, mais certains termes (BIC, régime réel, amortir) sont utilisés sans très brève définition : ex. 'amortir (déduire chaque année une fraction de la valeur)' est présent dans la fiche mais le script ne définit pas 'BIC' ou 'régime réel' succinctement.",
+    "pedagogie_client : Il faudrait expliciter en une courte parenthèse ce qu'est le régime réel (déduction des charges et amortissements) lors de la première mention.",
+    "retention_attention : Les deux premières secondes (hook) sont bonnes mais l'élément interactif 'OUI / NON' comme deuxième beat risque d'affaiblir la progression de curiosité au lieu de la renforcer. Remplacer par une question plus directe améliore rétention.",
+    "retention_attention : Le CTA est clair, mais pourrait être renforcé par un rappel de la non-personnalisation (sécurité) pour renforcer confiance.",
+    "conversion_confiance : Le ton est professionnel et sérieux. Toutefois, l'absence d'une brève mention 'contenu pédagogique, pas un conseil personnalisé' à l'écran final peut nuire à la conformité et à la confiance contextuelle.",
+    "conversion_confiance : L'appel à l'action fonctionne, mais l'ajout d'une preuve sociale (ex. 'rendez-vous pour un diagnostic fiscal personnalisé') devrait rester non-marchand et prudent; actuellement acceptable mais améliorable."
+  ],
+  "recommendations": [
+    "Remplacer 'immatriculation de l'activité' par une formulation précise et courte adaptée au format : 'déclaration/immatriculation selon le cas (SIRENE/RCS)'.",
+    "Remplacer la séquence 'OUI / NON' par une question directe plus informative pour gagner du temps et augmenter la rétention (ex. 'Meublé ou vide : même fiscalité ?').",
+    "Ajouter une phrase très brève expliquant le régime réel au moment de l'évocation (ex. 'régime réel = déduction des charges et amortissements') et rappeler que l'amortissement est pris en compte dans le calcul de la plus-value lors de revente (réintégration possible).",
+    "Clarifier visuels/pictogrammes : utiliser icônes spécifiques (BIC vs revenus fonciers, icône crédit, icône outils/travaux, icône registre/SIRENE) et éviter symboles trop génériques pour 'amortissement'.",
+    "Ajouter une courte mention visible (écran final ou légende) : 'Contenu pédagogique — pas un conseil personnalisé' pour respecter la règle sécurité.",
+    "Si vous souhaitez un exemple chiffré, inclure un mini-exemple indicatif et non contractuel (ex. 'sur 10 000 € de recettes, micro-Foncier abat 30% vs micro-BIC abat environ 50% pour le meublé classique — à vérifier selon catégorie'), mais seulement si vous vérifiez et citez les taux exacts applicables au moment de publication.",
+    "Reformuler la phrase 'vérifier le taux selon la catégorie du meublé et la règle' en 'vérifiez le taux selon la catégorie du meublé et la réglementation en vigueur'.",
+    "Effectuer une relecture finale chronométrée pour s'assurer que la narration et les visuels tiennent bien la durée estimée (38 s) en coupant ou raccourcissant la séquence inutile identifiée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-09:reels:location_meublee_micro_bic:0",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__reels__a4__v7.md"
+}

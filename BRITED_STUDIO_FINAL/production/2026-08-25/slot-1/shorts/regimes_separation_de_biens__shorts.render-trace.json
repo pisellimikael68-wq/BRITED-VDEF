@@ -1,0 +1,304 @@
+{
+  "renderer": "BRITED deterministic renderer v2",
+  "features": {
+    "page_crossfade_seconds": 0.9,
+    "visual_direction": "Claude Design - Visuel A (carte flottante)",
+    "progressive_word_reveal": true,
+    "contextual_illustrations": true,
+    "question_answer_separation": true,
+    "bottom_progress_only": true,
+    "segmented_progress": true,
+    "continuous_progress_with_counter": false,
+    "lower_separator": true,
+    "floating_warm_card": true,
+    "safe_zones": true,
+    "delivery_profile": "shorts",
+    "platform_specific_composition": true,
+    "visual_overlap_control": true,
+    "cta_variant": "rendez_vous",
+    "header_locked_bitmap": true,
+    "header_typography_uniform": true,
+    "main_typography_reference_size": 46,
+    "main_typography_minimum_size": 40,
+    "main_typography_maximum_delta": 6,
+    "header_fingerprint": "a15d8b944a9e433904ecf980a959f9f9a5a70cc3e2105ba4b9c166f89c6d5c52"
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "source_text": "La séparation de biens vous protège si votre entreprise fait faillite ?",
+      "tokens": [
+        "La",
+        "séparation",
+        "de",
+        "biens",
+        "vous",
+        "protège",
+        "si",
+        "votre",
+        "entreprise",
+        "fait",
+        "faillite",
+        "?"
+      ],
+      "token_count": 12,
+      "speech_duration": 3.463,
+      "full_text_visible_at": 3.117,
+      "hold_after_full_text": 1.246,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          513,
+          672,
+          667
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "briefcase-business",
+          "shield-check"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "reponse",
+      "source_text": "Non : elle protège le patrimoine, mais pas nécessairement contre certaines dettes ménagères ou l'effet d'une indivision.",
+      "tokens": [
+        "Non",
+        ":",
+        "elle",
+        "protège",
+        "le",
+        "patrimoine,",
+        "mais",
+        "pas",
+        "nécessairement",
+        "contre",
+        "certaines",
+        "dettes",
+        "ménagères",
+        "ou",
+        "l'effet",
+        "d'une",
+        "indivision."
+      ],
+      "token_count": 17,
+      "speech_duration": 6.064,
+      "full_text_visible_at": 5.458,
+      "hold_after_full_text": 0.826,
+      "visual_layout": null
+    },
+    {
+      "id": "regle",
+      "source_text": "Selon l'article 1536 chaque époux reste propriétaire de ses biens, mais l'article 220 rend les époux solidaires des dettes pour l'entretien du ménage et l'article 1538 prévoit qu'un bien dont la propriété n'est pas prouvée est réputé indivis par moitié.",
+      "tokens": [
+        "Selon",
+        "l'article",
+        "1536",
+        "chaque",
+        "époux",
+        "reste",
+        "propriétaire",
+        "de",
+        "ses",
+        "biens,",
+        "mais",
+        "l'article",
+        "220",
+        "rend",
+        "les",
+        "époux",
+        "solidaires",
+        "des",
+        "dettes",
+        "pour",
+        "l'entretien",
+        "du",
+        "ménage",
+        "et",
+        "l'article",
+        "1538",
+        "prévoit",
+        "qu'un",
+        "bien",
+        "dont",
+        "la",
+        "propriété",
+        "n'est",
+        "pas",
+        "prouvée",
+        "est",
+        "réputé",
+        "indivis",
+        "par",
+        "moitié."
+      ],
+      "token_count": 40,
+      "speech_duration": 17.253,
+      "full_text_visible_at": 15.527,
+      "hold_after_full_text": 1.945,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          382,
+          672,
+          798
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "receipt-euro",
+          "house",
+          "scale"
+        ],
+        "font_size": 40,
+        "overlap": false
+      }
+    },
+    {
+      "id": "exemple",
+      "source_text": "Exemple : vous financez seul une maison achetée à deux sans factures ni relevés ; vingt ans plus tard le bien peut être déclaré indivis par moitié.",
+      "tokens": [
+        "Exemple",
+        ":",
+        "vous",
+        "financez",
+        "seul",
+        "une",
+        "maison",
+        "achetée",
+        "à",
+        "deux",
+        "sans",
+        "factures",
+        "ni",
+        "relevés",
+        ";",
+        "vingt",
+        "ans",
+        "plus",
+        "tard",
+        "le",
+        "bien",
+        "peut",
+        "être",
+        "déclaré",
+        "indivis",
+        "par",
+        "moitié."
+      ],
+      "token_count": 27,
+      "speech_duration": 8.637,
+      "full_text_visible_at": 7.773,
+      "hold_after_full_text": 1.084,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "plus",
+          "receipt-euro",
+          "house"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "nuance",
+      "source_text": "Conservez factures, contrats et relevés bancaires prouvant l'origine des fonds : c'est la condition de fonctionnement du régime.",
+      "tokens": [
+        "Conservez",
+        "factures,",
+        "contrats",
+        "et",
+        "relevés",
+        "bancaires",
+        "prouvant",
+        "l'origine",
+        "des",
+        "fonds",
+        ":",
+        "c'est",
+        "la",
+        "condition",
+        "de",
+        "fonctionnement",
+        "du",
+        "régime."
+      ],
+      "token_count": 18,
+      "speech_duration": 6.189,
+      "full_text_visible_at": 5.57,
+      "hold_after_full_text": 1.519,
+      "visual_layout": {
+        "text_bounds": [
+          48,
+          432,
+          672,
+          748
+        ],
+        "icon_bounds": [
+          48,
+          1040,
+          672,
+          1153
+        ],
+        "selected_icons": [
+          "file-signature",
+          "user-round-check",
+          "badge-euro"
+        ],
+        "font_size": 46,
+        "overlap": false
+      }
+    },
+    {
+      "id": "cta",
+      "source_text": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "tokens": [
+        "Vous",
+        "souhaitez",
+        "faire",
+        "le",
+        "point",
+        "sur",
+        "votre",
+        "situation",
+        "?",
+        "Prenez",
+        "rendez-vous",
+        "via",
+        "le",
+        "lien",
+        "dans",
+        "ma",
+        "bio."
+      ],
+      "token_count": 17,
+      "speech_duration": 5.535,
+      "full_text_visible_at": 4.982,
+      "hold_after_full_text": 0.554,
+      "visual_layout": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "La phrase la plus importante de votre contrat tient en deux lignes.",
+      "transcript": "La phrase la plus importante de votre contrat tient en deux lignes.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9853,
+      "passed": true
+    },
+    {
+      "beat": "question",
+      "expected": "Dans mon contrat, la clause bénéficiaire peut elle être changée facilement ?",
+      "transcript": "Dans mon contrat, la clause bénéficiaire peut-elle être changée facilement ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui. Vous pouvez la modifier gratuitement à tout moment. Sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+      "transcript": "Oui, vous pouvez la modifier gratuitement à tout moment, sauf si le bénéficiaire a accepté, elle devient irrévocable.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.1296,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "La clause désigne qui reçoit le capital et le nombre d'abattements applicables; elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+      "transcript": "La clause désigne qu'il reçoit le capital et le nombre d'abattements applicables. Elle est modifiable gratuitement, sauf acceptation du bénéficiaire.",
+      "similarity": 0.9302,
+      "missing": [
+        "qui"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "qu",
+        "il"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2339,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple: modifier la désignation coûte zéro euro; si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+      "transcript": "Modifier la désignation coûte 0€. Si le bénéficiaire accepte, il faut son accord pour tout rachat.",
+      "similarity": 0.9714,
+      "missing": [
+        "exemple"
+      ],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0196,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+      "transcript": "En l'absence de bénéficiaire, le capital réintègre la succession et perd son régime propre.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0787,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Le saviez vous ? Commentez, partagez, et abonnez vous pour en savoir plus.",
+      "transcript": "Le saviez-vous ? Commentez, partagez et abonnez-vous pour en savoir plus.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0,
+      "passed": true
+    }
+  ]
+}

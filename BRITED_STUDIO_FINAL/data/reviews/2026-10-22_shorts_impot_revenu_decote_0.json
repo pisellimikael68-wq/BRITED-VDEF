@@ -1,0 +1,183 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.23,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche mentionne un 'Taux de résorption de la décote' à 45,25 % sans référence explicite (source indiquée '0'). Le script ne reprend pas ce chiffre ni ne cite clairement l'origine de ce pourcentage. Il faut soit citer la source exacte du 45,25 %, soit retirer/référencer le chiffre.",
+        "Les sources légales citées (CGI art.197 I,4 et I,1 + BOFiP) sont pertinentes, mais le script ne signale pas la nécessité de dater les montants revalorisés annuellement (la fiche l'indique ; le script le mentionne mais sans rappeler qu'il faut préciser l'année pour tout chiffre chiffré)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation « retranche une décote égale au plafond diminué d'une fraction de l'impôt brut » est correcte mais trop vague : le BOFiP précise la formule de calcul (plafond - taux * impôt brut). Le script évite la formule chiffrée, ce qui est acceptable pour un format court, mais pour l'exactitude juridique il serait utile de rappeler qu'il s'agit d'une décote calculée selon la formule prévue par l'article et la doctrine (sans nécessairement la détailler).",
+        "L'énoncé 'La décote peut réduire voire annuler l'impôt' est exact mais mérite la nuance que la décote s'applique quand l'impôt brut est inférieur au plafond fixé annuellement (la fiche le précise ; le script pourrait le rappeler en une courte phrase)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite l'angle principal correctement mais omet une brève mention utile : la décote s'applique après application du barème ET avant/indépendante des réductions/crédits d'impôt (ou préciser l'ordre), ce qui peut prêter à confusion chez non-spécialistes.",
+        "Aucun exemple chiffré simple (fictif et daté) n'est fourni. La fiche autorise un exemple sur un revenu fictif ; un mini-exemple (en indiquant clairement 'exemple fictif') aiderait la compréhension sans personnaliser."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et progression claire. Toutefois la phrase 'Après calcul selon le barème, l'article 197, I, 4 retranche...' est lourde à l'oral pour un short : recommander une version plus fluide (ex. 'Après application du barème, la loi (art.197 I.4) retire une décote quand l'impôt est faible').",
+        "Le CTA 'Prenez rendez-vous via le lien dans ma bio' convient, mais pour la conversion il est préférable d'éviter l'impératif trop appuyé dans un format purement pédagogique : reformulation conseillée ('Pour faire le point, lien en bio')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la consigne de ne pas donner de conseil personnalisé. Cependant la phrase finale « Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. » frôle l'appel commercial — acceptable mais il faut conserver la mention légale fournie en description (déjà dans le fichier).",
+        "Il faudrait ajouter explicitement dans la légende/description (pas dans la vidéo) la mention qu'il ne s'agit pas d'un conseil personnalisé, conformément à la fiche."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrases globalement naturelles, mais quelques formulations pourraient être allégées pour la diction: ex. 'La réponse : la décote peut réduire voire annuler l'impôt quand la cotisation brute reste faible.' → 'La décote peut réduire, voire annuler, l'impôt quand la cotisation brute est faible.'",
+        "Veiller à la prononciation de 'article 197, I, 4' (proposer 'article 197, alinéa I, n°4' ou 'article 197, I, quatre') selon l'usage de l'interprète."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, l'enchaînement logique est bon mais l'assertion 'génère un impôt effectif bien supérieur au taux de la première tranche, 11 %.' doit éviter toute impression d'un chiffre universellement fixe sans date : préciser 'taux de la première tranche (ici 11 % tel que rappelé dans la fiche)'.",
+        "Le script et le tableau visuel doivent être cohérents : l'étape 3 dit 'égale au plafond diminué d'une fraction de l'impôt brut' tandis que la fiche indique la décote est 'plafond - fraction × impôt brut' ; vérifier que le texte et le visuel utilisent la même formulation exacte pour éviter contradiction."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'impôt → zéro' peut être interprété comme une promesse d'annulation systématique : préférer une icône indiquant 'réduction' ou 'diminution' plutôt que 'zéro' pour rester fidèle à 'peut réduire voire annuler'.",
+        "Le 'pictogramme loi' et 'pictogramme coche administrative' sont pertinents mais vérifier qu'ils ne sont trop génériques visuellement ; chaque visuel doit clairement référer à la notion prononcée (décote, application automatique, revalorisation annuelle)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu vise un non-spécialiste et l'angle est clair. Toutefois, l'absence d'un très court exemple chiffré (fictif et clairement daté) laisse une opportunité pédagogique manquée pour illustrer l'effet 'petite augmentation coûteuse'.",
+        "Un mot simple expliquant 'impôt brut' vs 'impôt net' en une phrase aiderait les spectateurs non familiers du vocabulaire fiscal."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et professionnel, mais l'appel à l'action pourrait être perçu comme commercial sans la mention de l'absence d'offre contraignante. Recommander d'ajouter en description une phrase renforçant la transparence ('rendez-vous d'information', 'sans engagement') si c'est le cas.",
+        "Inclure la mention légale déjà fournie dans la description de la vidéo renforce la confiance (elle n'apparaît que dans le fichier, s'assurer qu'elle figure effectivement sur la plateforme)."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche mentionne un 'Taux de résorption de la décote' à 45,25 % sans référence explicite (source indiquée '0'). Le script ne reprend pas ce chiffre ni ne cite clairement l'origine de ce pourcentage. Il faut soit citer la source exacte du 45,25 %, soit retirer/référencer le chiffre.",
+    "source : Les sources légales citées (CGI art.197 I,4 et I,1 + BOFiP) sont pertinentes, mais le script ne signale pas la nécessité de dater les montants revalorisés annuellement (la fiche l'indique ; le script le mentionne mais sans rappeler qu'il faut préciser l'année pour tout chiffre chiffré).",
+    "juridique_fiscal : La formulation « retranche une décote égale au plafond diminué d'une fraction de l'impôt brut » est correcte mais trop vague : le BOFiP précise la formule de calcul (plafond - taux * impôt brut). Le script évite la formule chiffrée, ce qui est acceptable pour un format court, mais pour l'exactitude juridique il serait utile de rappeler qu'il s'agit d'une décote calculée selon la formule prévue par l'article et la doctrine (sans nécessairement la détailler).",
+    "juridique_fiscal : L'énoncé 'La décote peut réduire voire annuler l'impôt' est exact mais mérite la nuance que la décote s'applique quand l'impôt brut est inférieur au plafond fixé annuellement (la fiche le précise ; le script pourrait le rappeler en une courte phrase).",
+    "completude : Le script traite l'angle principal correctement mais omet une brève mention utile : la décote s'applique après application du barème ET avant/indépendante des réductions/crédits d'impôt (ou préciser l'ordre), ce qui peut prêter à confusion chez non-spécialistes.",
+    "completude : Aucun exemple chiffré simple (fictif et daté) n'est fourni. La fiche autorise un exemple sur un revenu fictif ; un mini-exemple (en indiquant clairement 'exemple fictif') aiderait la compréhension sans personnaliser.",
+    "editorial : Accroche forte et progression claire. Toutefois la phrase 'Après calcul selon le barème, l'article 197, I, 4 retranche...' est lourde à l'oral pour un short : recommander une version plus fluide (ex. 'Après application du barème, la loi (art.197 I.4) retire une décote quand l'impôt est faible').",
+    "editorial : Le CTA 'Prenez rendez-vous via le lien dans ma bio' convient, mais pour la conversion il est préférable d'éviter l'impératif trop appuyé dans un format purement pédagogique : reformulation conseillée ('Pour faire le point, lien en bio').",
+    "securite : Le script respecte la consigne de ne pas donner de conseil personnalisé. Cependant la phrase finale « Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. » frôle l'appel commercial — acceptable mais il faut conserver la mention légale fournie en description (déjà dans le fichier).",
+    "securite : Il faudrait ajouter explicitement dans la légende/description (pas dans la vidéo) la mention qu'il ne s'agit pas d'un conseil personnalisé, conformément à la fiche.",
+    "formulation_professionnelle : Phrases globalement naturelles, mais quelques formulations pourraient être allégées pour la diction: ex. 'La réponse : la décote peut réduire voire annuler l'impôt quand la cotisation brute reste faible.' → 'La décote peut réduire, voire annuler, l'impôt quand la cotisation brute est faible.'",
+    "formulation_professionnelle : Veiller à la prononciation de 'article 197, I, 4' (proposer 'article 197, alinéa I, n°4' ou 'article 197, I, quatre') selon l'usage de l'interprète.",
+    "contre_verification_finale : En relecture mot à mot, l'enchaînement logique est bon mais l'assertion 'génère un impôt effectif bien supérieur au taux de la première tranche, 11 %.' doit éviter toute impression d'un chiffre universellement fixe sans date : préciser 'taux de la première tranche (ici 11 % tel que rappelé dans la fiche)'.",
+    "contre_verification_finale : Le script et le tableau visuel doivent être cohérents : l'étape 3 dit 'égale au plafond diminué d'une fraction de l'impôt brut' tandis que la fiche indique la décote est 'plafond - fraction × impôt brut' ; vérifier que le texte et le visuel utilisent la même formulation exacte pour éviter contradiction.",
+    "coherence_pictogrammes : Le pictogramme 'impôt → zéro' peut être interprété comme une promesse d'annulation systématique : préférer une icône indiquant 'réduction' ou 'diminution' plutôt que 'zéro' pour rester fidèle à 'peut réduire voire annuler'.",
+    "coherence_pictogrammes : Le 'pictogramme loi' et 'pictogramme coche administrative' sont pertinents mais vérifier qu'ils ne sont trop génériques visuellement ; chaque visuel doit clairement référer à la notion prononcée (décote, application automatique, revalorisation annuelle).",
+    "pedagogie_client : Le contenu vise un non-spécialiste et l'angle est clair. Toutefois, l'absence d'un très court exemple chiffré (fictif et clairement daté) laisse une opportunité pédagogique manquée pour illustrer l'effet 'petite augmentation coûteuse'.",
+    "pedagogie_client : Un mot simple expliquant 'impôt brut' vs 'impôt net' en une phrase aiderait les spectateurs non familiers du vocabulaire fiscal.",
+    "conversion_confiance : Le ton est sérieux et professionnel, mais l'appel à l'action pourrait être perçu comme commercial sans la mention de l'absence d'offre contraignante. Recommander d'ajouter en description une phrase renforçant la transparence ('rendez-vous d'information', 'sans engagement') si c'est le cas.",
+    "conversion_confiance : Inclure la mention légale déjà fournie dans la description de la vidéo renforce la confiance (elle n'apparaît que dans le fichier, s'assurer qu'elle figure effectivement sur la plateforme)."
+  ],
+  "recommendations": [
+    "Sourçage : préciser l'origine du chiffre '45,25 %' ou retirer ce chiffre de la fiche si non vérifié ; dans la vidéo, ne pas utiliser de chiffre sans source datée.",
+    "Juridiques/techniques : ajouter une très courte phrase (oralement 3–4 mots) rappelant que la décote s'applique quand l'impôt brut est inférieur à un plafond fixé annuellement, et que la formule est 'plafond minus une fraction de l'impôt brut' (sans forcément détailler la fraction).",
+    "Pédagogie : inclure un mini-exemple fictif très court et daté (ex. 'ex. fictif 2026 : X € de revenu → effet Y €') OU conserver l'exemple uniquement dans la description pour ne pas alourdir la vidéo.",
+    "Visuels : remplacer l'icône 'impôt → zéro' par une icône 'réduction' moins catégorique ; vérifier que chaque pictogramme illustre explicitement la notion prononcée.",
+    "Formulation & voix-off : alléger la phrase sur l'article 197 pour faciliter la diction (proposition fournie en findings) et prévoir la prononciation conseillée pour l'alinéa.",
+    "Conformité/CTA : ajouter en description la mention 'contenu pédagogique — pas de conseil personnalisé' (déjà prévue) et, si l'appel à rendez-vous reste, atténuer légèrement l'impératif ('Pour faire le point, lien en bio' ou 'Voir le lien en bio pour un rendez‑vous').",
+    "Contrôle final : appliquer une relecture mot à mot pour harmoniser l'énoncé de la formule de décote entre le texte parlé et le visuel, et vérifier que tout chiffre ou taux présent dans la vidéo est daté ou clairement identifié comme sujet à revalorisation annuelle."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-22:shorts:impot_revenu_decote:0",
+  "script_path": "scripts/impot_revenu/impot_revenu_decote__shorts__a2__v7.md"
+}

@@ -1,0 +1,168 @@
+{
+  "passed": false,
+  "failures": [
+    "pictogramme non contextualisé pour la page exemple",
+    "contrôle audio refusé — fréquence audio finale anormale : 192000 Hz au lieu de 24000 Hz",
+    "contrôle oral Whisper absent ou refusé"
+  ],
+  "expected_duration": 40.0,
+  "target_duration": [
+    32,
+    45
+  ],
+  "resolution": "1080x1920",
+  "audio": true,
+  "word_check": true,
+  "audio_check": {
+    "passed": false,
+    "failures": [
+      "contrôle audio refusé — fréquence audio finale anormale : 192000 Hz au lieu de 24000 Hz"
+    ]
+  },
+  "oral_check": {
+    "passed": false,
+    "failures": [
+      "contrôle oral absent"
+    ]
+  },
+  "layout_check": "zones fixes sans chevauchement",
+  "pictogram_check": {
+    "agent": "controle_visuel_independant",
+    "passed": false,
+    "checks": [
+      "coherence_semantique",
+      "presentation",
+      "cadrage",
+      "absence_chevauchement"
+    ],
+    "pages": [
+      {
+        "beat": "hook",
+        "description": "Couple + acte notarié",
+        "family": "couple",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "users",
+          "heart-handshake"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          376,
+          660,
+          523
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "regle",
+        "description": "Enveloppes + calendrier trois mois",
+        "family": "assurance_vie",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "baby",
+          "users"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          352,
+          660,
+          547
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "precision",
+        "description": "Tribunal + enfant protégé",
+        "family": "enfants",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "shield-alert",
+          "shield-check",
+          "baby"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          334,
+          660,
+          565
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      },
+      {
+        "beat": "exemple",
+        "description": "Entreprise séparée du patrimoine familial",
+        "family": "generic",
+        "semantic_match": false,
+        "geometry_ok": true,
+        "library_icons": [
+          "briefcase-business",
+          "shield-check"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          354,
+          660,
+          545
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": false
+      },
+      {
+        "beat": "nuance",
+        "description": "Balance succession + fiscalité",
+        "family": "testament",
+        "semantic_match": true,
+        "geometry_ok": true,
+        "library_icons": [
+          "scroll-text",
+          "users",
+          "badge-percent"
+        ],
+        "library_ok": true,
+        "text_bounds": [
+          60,
+          354,
+          660,
+          545
+        ],
+        "icon_bounds": [
+          80,
+          740,
+          640,
+          1040
+        ],
+        "passed": true
+      }
+    ]
+  }
+}

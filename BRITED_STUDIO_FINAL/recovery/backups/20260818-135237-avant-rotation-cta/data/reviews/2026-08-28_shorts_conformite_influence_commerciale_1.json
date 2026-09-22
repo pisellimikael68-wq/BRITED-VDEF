@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 125,
+      "seconds": 46.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 125,
+        "seconds": 46.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "e021d5580067209b687da82cedeb11d8a53cda60fdc68b8c8f91af73b612086e",
+      "adapted_hash": "e021d5580067209b687da82cedeb11d8a53cda60fdc68b8c8f91af73b612086e",
+      "source_beats": 6,
+      "adapted_pages": 9,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Vérifier en production que la mention (« Publicité » ou « Collaboration commerciale ») est effectivement lisible pendant toute la durée du short (contraste, taille, position) pour respecter l'obligation telle que formulée dans la source.",
+    "Conserver un avis juridique préalable (la mention du CTA est bonne) si le créateur prévoit une monétisation effective – garder cette recommandation dans l'outro ou la description.",
+    "Sur YouTube Shorts, privilégier un emplacement bas et central pour la mention afin d'éviter qu'elle soit masquée par l'interface (temps de lecture, boutons ou captions automatiques)."
+  ],
+  "reviewed_at": "2026-08-17T17:43:06",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-28:shorts:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__shorts__a1.md"
+}

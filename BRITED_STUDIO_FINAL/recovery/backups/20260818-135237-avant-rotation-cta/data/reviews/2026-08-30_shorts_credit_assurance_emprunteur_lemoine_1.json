@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 129,
+      "seconds": 47.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 129,
+        "seconds": 47.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "0edf458bf1193eda836f69e1988e25616b8c7cf22d4513f94090eee2013e33a0",
+      "adapted_hash": "0edf458bf1193eda836f69e1988e25616b8c7cf22d4513f94090eee2013e33a0",
+      "source_beats": 6,
+      "adapted_pages": 9,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Optionnel : atténuer la formulation « obtenir souvent un coût mensuel réduit » en « peut être moins cher selon l’âge, l’état de santé et le capital restant dû » pour éviter toute interprétation comme une promesse d’économie chiffrée.",
+    "Vérifier que la durée orale reste <60s lors du tournage (les textes écran peuvent couvrir l’info sans alourdir la voix-off).",
+    "Conserver la mention légale déjà présente et s’assurer qu’elle soit visible en description ou en écran final pour la conformité plateforme."
+  ],
+  "reviewed_at": "2026-08-17T17:54:43",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-30:shorts:credit_assurance_emprunteur_lemoine:1",
+  "script_path": "scripts/credit_immobilier/credit_assurance_emprunteur_lemoine__shorts__a1.md"
+}

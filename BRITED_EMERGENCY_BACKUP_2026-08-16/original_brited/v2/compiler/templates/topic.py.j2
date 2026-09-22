@@ -1,0 +1,52 @@
+from v2.models.knowledge_models import Topic, TopicRelation
+
+
+{{ variable_name }} = [
+
+{% for topic in topics %}
+    Topic(
+        id={{ topic.id | tojson }},
+        title={{ topic.title | tojson }},
+        pillar={{ topic.pillar | tojson }},
+        family={{ topic.family | tojson }},
+        chapter={{ topic.chapter | tojson }},
+{% if topic.description %}
+        description={{ topic.description | tojson }},
+{% endif %}
+{% if topic.objective %}
+        objective={{ topic.objective | tojson }},
+{% endif %}
+{% if topic.difficulty != "Débutant" %}
+        difficulty={{ topic.difficulty | tojson }},
+{% endif %}
+{% if topic.priority != 5 %}
+        priority={{ topic.priority }},
+{% endif %}
+{% if topic.editorial_order != 999 %}
+        editorial_order={{ topic.editorial_order }},
+{% endif %}
+{% if topic.related_topics %}
+        related_topics={{ topic.related_topics }},
+{% endif %}
+{% if topic.prerequisites %}
+        prerequisites={{ topic.prerequisites }},
+{% endif %}
+{% if topic.next_topics %}
+        next_topics={{ topic.next_topics }},
+{% endif %}
+{% if topic.relations %}
+        relations=[
+{% for relation in topic.relations %}
+            TopicRelation(
+                target={{ relation.target | tojson }},
+                relation_type={{ relation.relation_type | tojson }},
+                score={{ relation.score }},
+                source={{ relation.source | tojson }},
+            ),
+{% endfor %}
+        ],
+{% endif %}
+    ),
+
+{% endfor %}
+]

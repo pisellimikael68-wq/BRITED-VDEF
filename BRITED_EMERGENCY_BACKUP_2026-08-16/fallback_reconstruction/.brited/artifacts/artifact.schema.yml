@@ -1,0 +1,46 @@
+metadata:
+  schema: "1.0"
+
+artifact:
+
+  id: ""
+
+  type: ""
+
+  version: "1.0"
+
+  author: ""
+
+  created_at: ""
+
+  updated_at: ""
+
+  status: draft
+
+  description: ""
+
+inputs: []
+
+outputs: []
+
+references: []
+
+attachments: []
+
+validation:
+
+  required:
+    - id
+    - type
+    - version
+    - status
+
+lifecycle:
+
+  states:
+    - draft
+    - validated
+    - approved
+    - rejected
+    - archived
+    

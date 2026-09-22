@@ -1,0 +1,189 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation «Les plus‑values sont taxées au prélèvement forfaitaire» manque la précision «ou option pour l'imposition au barème selon choix fiscal lors de la cession», applicable aux revenus de capitaux mobiliers dans certains cas : dans le contexte du PER, la phrase devrait préciser qu'il s'agit des plus‑values lors de la sortie en capital et que le prélèvement forfaitaire libératoire (PFU) ou l'option pour le barème peut s'appliquer selon la nature exacte des produits et choix fiscaux.",
+        "La mention «soumis à des prélèvements sociaux» est correcte mais gagnerait à préciser le taux ou l'assiette (prélèvements sociaux sur produits de placement au taux en vigueur) pour rester strictement fidèle aux sources."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Affirmation «le capital est imposé au barème de l'impôt sur le revenu et ne bénéficie pas de l'abattement de 10 %» est correcte pour les versements déduits, mais la source citée (CGI article 158, 5) concerne l'imposition des pensions et rentes ; il faut expliciter la référence précise pour l'imposition des sorties en capital issues de versements déduits (règles d'imposition des sommes issues d'un plan d'épargne retraite).",
+        "La phrase «Les plus‑values sont taxées au prélèvement forfaitaire» laisse entendre que toutes les plus‑values liées au PER sont systématiquement soumises au PFU : il faut mentionner que les règles fiscales des plus‑values sur contrats d'assurance vie ou produits assimilés peuvent varier et que des prélèvements sociaux s'appliquent.",
+        "Absence de rappel nécessaire : l'abattement de 10 % visé s'applique aux pensions et rentes viagères à titre gratuit mais pas aux sorties capital — il faudrait ajouter la nuance que cet abattement ne joue que pour les rentes et selon conditions."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script évoque le fractionnement du capital sur plusieurs exercices mais n'indique pas explicitement que le fractionnement dépend des modalités prévues par le contrat et l'assureur ; il faut préciser que cela est possible «si le contrat le prévoit» et que les modalités administratives/contractuelles varient.",
+        "Ne mentionne pas le cas des versements issus de l'épargne salariale et des versements obligatoires en matière de modalités de sortie (même si la fiche indique que les trois compartiments existent), or la règle de sortie en capital s'applique différemment selon compartiment — il faudrait un bref rappel."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook et progression clairs mais la durée estimée (42 s) suppose un débit rapide ; recommander d'ajouter une micro-pause après la règle principale pour permettre la compréhension en format short.",
+        "Au beat 3 la phrase longue («Pour les versements déduits, le capital est imposé...») risque d'être trop dense pour un court ; proposer de scinder en deux phrases pour la diction."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques tournures longues et juridiques : par exemple «Les plus‑values sont taxées au prélèvement forfaitaire et sont soumises à des prélèvements sociaux.» Peut être simplifié en deux segments plus parlants pour un non‑spécialiste.",
+        "La phrase finale du script «Vous souhaitez faire le point...» est bonne ; vérifier que le ton est neutre et que l'appel à rendez‑vous n'implique pas une promesse de résultat."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Enchaînements globalement cohérents mais repérer deux imprécisions factuelles (voir agents 'source' et 'juridique_fiscal') qui doivent être corrigées avant publication.",
+        "Vérifier prononciation et rythme sur la phrase contenant l'article CGI pour éviter une lecture bancale : «...ne bénéficie pas de l'abattement de 10 % applicable aux pensions et rentes viagères à titre gratuit (CGI article 158, 5).»"
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme «balance déduit / non déduit» (beat 2) est adéquat mais pourrait prêter à confusion visuelle : préférer deux colonnes/étiquettes distinctes plutôt qu'une balance pour marquer l'opposition.",
+        "Beat 3 propose un 'schéma deux colonnes' — ok — mais s'assurer que l'icône d'impôt pour la colonne 'versements déduits' illustre l'imposition au barème (ex : symbole % + livre fiscal) et non uniquement un symbole générique d'argent.",
+        "Beat 5 pictogramme «exonéré / taxé» doit clairement associer le capital exonéré aux versements non déduits pour éviter toute lecture erronée."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message central est clair mais pour un non spécialiste il manque une phrase ultra-simple expliquant ce que signifie «versements déduits» (par ex. «Vous avez réduit votre revenu imposable l'année des versements»).",
+        "L'exemple chiffré (80 000 €) est pertinent; ajouter une très courte note disant «selon votre tranche marginale» améliorerait la compréhension."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes (hook) mais le rythme des beats 2–3 est dense ; recommander d'alléger la phrase juridique au beat 3 et d'utiliser un mot-clé visuel pour maintenir l'attention.",
+        "Le CTA est placé correctement mais pourrait gagner en impact si réduit à une formule plus directe (ex. «Rendez‑vous en bio» plutôt que «Prenez rendez‑vous via le lien dans ma bio»)."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux respecté, mais l'absence d'une phrase rappelant explicitement que le contenu n'est pas un conseil personnalisé (même si présent en légende) affaiblit légèrement la confiance pour un CTA vers un rendez-vous.",
+        "Proposer une mention vocale brève «Ce n'est pas un conseil personnalisé» dans la dernière seconde renforcerait la conformité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 130,
+      "seconds": 48.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 9.95,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 130,
+        "seconds": 48.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": false
+    }
+  },
+  "errors": [
+    "source : Formulation «Les plus‑values sont taxées au prélèvement forfaitaire» manque la précision «ou option pour l'imposition au barème selon choix fiscal lors de la cession», applicable aux revenus de capitaux mobiliers dans certains cas : dans le contexte du PER, la phrase devrait préciser qu'il s'agit des plus‑values lors de la sortie en capital et que le prélèvement forfaitaire libératoire (PFU) ou l'option pour le barème peut s'appliquer selon la nature exacte des produits et choix fiscaux.",
+    "source : La mention «soumis à des prélèvements sociaux» est correcte mais gagnerait à préciser le taux ou l'assiette (prélèvements sociaux sur produits de placement au taux en vigueur) pour rester strictement fidèle aux sources.",
+    "juridique_fiscal : Affirmation «le capital est imposé au barème de l'impôt sur le revenu et ne bénéficie pas de l'abattement de 10 %» est correcte pour les versements déduits, mais la source citée (CGI article 158, 5) concerne l'imposition des pensions et rentes ; il faut expliciter la référence précise pour l'imposition des sorties en capital issues de versements déduits (règles d'imposition des sommes issues d'un plan d'épargne retraite).",
+    "juridique_fiscal : La phrase «Les plus‑values sont taxées au prélèvement forfaitaire» laisse entendre que toutes les plus‑values liées au PER sont systématiquement soumises au PFU : il faut mentionner que les règles fiscales des plus‑values sur contrats d'assurance vie ou produits assimilés peuvent varier et que des prélèvements sociaux s'appliquent.",
+    "juridique_fiscal : Absence de rappel nécessaire : l'abattement de 10 % visé s'applique aux pensions et rentes viagères à titre gratuit mais pas aux sorties capital — il faudrait ajouter la nuance que cet abattement ne joue que pour les rentes et selon conditions.",
+    "completude : Le script évoque le fractionnement du capital sur plusieurs exercices mais n'indique pas explicitement que le fractionnement dépend des modalités prévues par le contrat et l'assureur ; il faut préciser que cela est possible «si le contrat le prévoit» et que les modalités administratives/contractuelles varient.",
+    "completude : Ne mentionne pas le cas des versements issus de l'épargne salariale et des versements obligatoires en matière de modalités de sortie (même si la fiche indique que les trois compartiments existent), or la règle de sortie en capital s'applique différemment selon compartiment — il faudrait un bref rappel.",
+    "editorial : Hook et progression clairs mais la durée estimée (42 s) suppose un débit rapide ; recommander d'ajouter une micro-pause après la règle principale pour permettre la compréhension en format short.",
+    "editorial : Au beat 3 la phrase longue («Pour les versements déduits, le capital est imposé...») risque d'être trop dense pour un court ; proposer de scinder en deux phrases pour la diction.",
+    "formulation_professionnelle : Quelques tournures longues et juridiques : par exemple «Les plus‑values sont taxées au prélèvement forfaitaire et sont soumises à des prélèvements sociaux.» Peut être simplifié en deux segments plus parlants pour un non‑spécialiste.",
+    "formulation_professionnelle : La phrase finale du script «Vous souhaitez faire le point...» est bonne ; vérifier que le ton est neutre et que l'appel à rendez‑vous n'implique pas une promesse de résultat.",
+    "contre_verification_finale : Enchaînements globalement cohérents mais repérer deux imprécisions factuelles (voir agents 'source' et 'juridique_fiscal') qui doivent être corrigées avant publication.",
+    "contre_verification_finale : Vérifier prononciation et rythme sur la phrase contenant l'article CGI pour éviter une lecture bancale : «...ne bénéficie pas de l'abattement de 10 % applicable aux pensions et rentes viagères à titre gratuit (CGI article 158, 5).»",
+    "coherence_pictogrammes : Pictogramme «balance déduit / non déduit» (beat 2) est adéquat mais pourrait prêter à confusion visuelle : préférer deux colonnes/étiquettes distinctes plutôt qu'une balance pour marquer l'opposition.",
+    "coherence_pictogrammes : Beat 3 propose un 'schéma deux colonnes' — ok — mais s'assurer que l'icône d'impôt pour la colonne 'versements déduits' illustre l'imposition au barème (ex : symbole % + livre fiscal) et non uniquement un symbole générique d'argent.",
+    "coherence_pictogrammes : Beat 5 pictogramme «exonéré / taxé» doit clairement associer le capital exonéré aux versements non déduits pour éviter toute lecture erronée.",
+    "pedagogie_client : Le message central est clair mais pour un non spécialiste il manque une phrase ultra-simple expliquant ce que signifie «versements déduits» (par ex. «Vous avez réduit votre revenu imposable l'année des versements»).",
+    "pedagogie_client : L'exemple chiffré (80 000 €) est pertinent; ajouter une très courte note disant «selon votre tranche marginale» améliorerait la compréhension.",
+    "retention_attention : Les deux premières secondes sont fortes (hook) mais le rythme des beats 2–3 est dense ; recommander d'alléger la phrase juridique au beat 3 et d'utiliser un mot-clé visuel pour maintenir l'attention.",
+    "retention_attention : Le CTA est placé correctement mais pourrait gagner en impact si réduit à une formule plus directe (ex. «Rendez‑vous en bio» plutôt que «Prenez rendez‑vous via le lien dans ma bio»).",
+    "conversion_confiance : Ton sérieux respecté, mais l'absence d'une phrase rappelant explicitement que le contenu n'est pas un conseil personnalisé (même si présent en légende) affaiblit légèrement la confiance pour un CTA vers un rendez-vous.",
+    "conversion_confiance : Proposer une mention vocale brève «Ce n'est pas un conseil personnalisé» dans la dernière seconde renforcerait la conformité."
+  ],
+  "recommendations": [
+    "Préciser la phrase sur les plus‑values : indiquer que les plus‑values liées à une sortie en capital sont en principe soumises au prélèvement forfaitaire unique (PFU) sauf option pour l'imposition au barème quand elle est possible, et rappeler l'application des prélèvements sociaux.",
+    "Clarifier la référence juridique : préciser que l'abattement de 10 % mentionné (CGI art. 158, 5) concerne les rentes viagères et expliciter la règle applicable aux sorties en capital issues de versements déduits (mentionner la neutralité fiscale initiale et le principe de réintégration au barème).",
+    "Ajouter, beat 2, une micro‑définition de «versements déduits» («versements qui ont réduit votre revenu imposable à l'entrée») pour un public non spécialiste.",
+    "Modifier la formulation du beat 3 en deux phrases courtes pour la diction en short : (A) «Si vous avez déduit vos versements : le capital que vous retirez est taxé au barème de l'IR.» (B) «L'abattement de 10 % applicable aux rentes ne s'applique pas au capital ; les plus‑values sont soumises au PFU et aux prélèvements sociaux.»",
+    "Préciser le caractère contractuel du fractionnement : ajouter «si le contrat le prévoit» au beat 4.",
+    "Adapter pictogrammes : remplacer la balance par deux étiquettes contrastées pour déduit / non déduit ; utiliser une icône fiscale explicite pour la colonne 'versements déduits' et une icône 'exonéré' clairement associée à la colonne 'non déduits'.",
+    "Ajouter une micro-mention vocale avant le CTA: «Contenu pédagogique — pas un conseil personnalisé.» puis laisser le CTA vocal/visuel inchangé.",
+    "Réviser les formulations juridiques pour coller mot‑à‑mot aux sources : citer les articles où approprié et éviter toute formulation catégorique non couverte par les textes (par ex. nuancer la taxation des plus‑values).",
+    "Relire la durée annoncée et prévoir une réduction légère du texte pour assurer confort de diction à 42 s ; scinder phrases longues et ajouter une micro-pause après la règle principale."
+  ],
+  "reviewed_at": "2026-08-24T15:39:47",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-22:shorts:per_sortie_capital_rente:0",
+  "script_path": "scripts/per/per_sortie_capital_rente__shorts__a2__v3.md"
+}

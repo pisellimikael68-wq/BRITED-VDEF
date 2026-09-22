@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-10",
+  "slot": 1,
+  "status": "scripts_ready",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+      "platform": "shorts",
+      "title": "IFI : quelles dettes peut-on réellement déduire ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/ifi/ifi_dettes_deductibles__shorts__a2__v9.md",
+      "video": "",
+      "script_sha256": "a6c76b924bf670e9215f5cd714f271ef9ac95fc059c6d7fc4855750eaaaba0af",
+      "spec_sha256": "282991ccf82c67a2dc95c3e19d8d6f6e029a9cd7172684016cb399a640b354c7",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 75.9,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 205,
+        "seconds": 75.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+        "editorial_policy_sha256": "830a8c02f173ab0a6481efe7c6263d4f9b7f60a07e139d65aee316040fe0b977",
+        "validated_at": "2026-09-07T09:59:54"
+      },
+      "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    },
+    {
+      "publication_id": "2026-09-10:reels:ifi_dettes_deductibles:0",
+      "platform": "reels",
+      "title": "IFI : quelles dettes peut-on réellement déduire ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/ifi/ifi_dettes_deductibles__shorts__a2__v9.md",
+      "video": "",
+      "script_sha256": "a6c76b924bf670e9215f5cd714f271ef9ac95fc059c6d7fc4855750eaaaba0af",
+      "spec_sha256": "c76ff271f54877db2fcd121dbfef26627bc0377abad399806b3632589977e806",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "reels",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 75.9,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 205,
+        "seconds": 75.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+        "editorial_policy_sha256": "830a8c02f173ab0a6481efe7c6263d4f9b7f60a07e139d65aee316040fe0b977",
+        "validated_at": "2026-09-07T09:59:54"
+      },
+      "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "instagram",
+        "facebook"
+      ],
+      "delivery_profile": "reels",
+      "shared_identical_video": false,
+      "facebook_delivery_mode": "instagram_crosspost"
+    },
+    {
+      "publication_id": "2026-09-10:tiktok:ifi_dettes_deductibles:0",
+      "platform": "tiktok",
+      "title": "IFI : quelles dettes peut-on réellement déduire ?",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/ifi/ifi_dettes_deductibles__shorts__a2__v9.md",
+      "video": "",
+      "script_sha256": "a6c76b924bf670e9215f5cd714f271ef9ac95fc059c6d7fc4855750eaaaba0af",
+      "spec_sha256": "0c95764c4b451c0953b615e818223c5d1f1490ceb55011cfdb5975c8a4b78d11",
+      "video_sha256": "",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "tiktok",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 75.9,
+      "status": "ready_for_render",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 205,
+        "seconds": 75.9,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-09-10:shorts:ifi_dettes_deductibles:0",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+        "editorial_policy_sha256": "830a8c02f173ab0a6481efe7c6263d4f9b7f60a07e139d65aee316040fe0b977",
+        "validated_at": "2026-09-07T09:59:54"
+      },
+      "review_path": "data/reviews/2026-09-10_shorts_ifi_dettes_deductibles_0.json",
+      "quality_report": "",
+      "word_report": "",
+      "distribution_destinations": [
+        "tiktok"
+      ],
+      "delivery_profile": "tiktok",
+      "shared_identical_video": false
+    }
+  ]
+}

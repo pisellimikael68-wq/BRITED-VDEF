@@ -1,0 +1,166 @@
+{
+  "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+  "platform": "reels",
+  "concept_id": "regimes_communaute_par_defaut",
+  "title": "Se marier sans contrat, c'est déjà choisir un régime",
+  "header": "Se marier sans contrat, c'est déjà choisir un régime",
+  "serie": "juridique",
+  "narration": "Mariage sans contrat. Aucun régime ? Selon vous, votre patrimoine reste-t-il séparé ? Non : le régime légal s'applique. Sans contrat, la communauté réduite aux acquêts s'applique : les biens acquis durant le mariage sont communs ; ceux d'avant ou reçus par succession restent propres. Exemple : l'argent de votre salaire entre dans le patrimoine commun, même versé sur votre compte personnel. Un héritage reçu par vous seul reste votre bien personnel. Pendant le mariage, chacun utilise ses revenus après les charges du mariage. À la séparation, dettes et comptes entre époux sont réglés, puis le solde partagé par moitié. Enregistrez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Mariage sans contrat. Aucun régime ?",
+      "visual": "Couple signant (pictogramme mariage simple)",
+      "screen_text": "Mariage sans contrat. Aucun régime ?"
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "narration": "Selon vous, votre patrimoine reste-t-il séparé ?",
+      "visual": "Carton-question avec choix OUI / NON visibles, mais non lus",
+      "screen_text": "Selon vous, votre patrimoine reste-t-il séparé ? OUI / NON"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Non : le régime légal s'applique.",
+      "visual": "Réponse typographique centrale",
+      "screen_text": "NON — LE RÉGIME LÉGAL S'APPLIQUE"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Sans contrat, la communauté réduite aux acquêts s'applique : les biens acquis durant le mariage sont communs ; ceux d'avant ou reçus par succession restent propres.",
+      "visual": "Schéma 3 masses (époux A, époux B, communauté)",
+      "screen_text": "Sans contrat : communauté réduite aux acquêts"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : l'argent de votre salaire entre dans le patrimoine commun, même versé sur votre compte personnel. Un héritage reçu par vous seul reste votre bien personnel.",
+      "visual": "Illustration compte bancaire commun, compte personnel et héritage identifié",
+      "screen_text": "Salaire : patrimoine commun, même sur votre compte • Héritage reçu seul : bien personnel"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Pendant le mariage, chacun utilise ses revenus après les charges du mariage. À la séparation, dettes et comptes entre époux sont réglés, puis le solde partagé par moitié.",
+      "visual": "Deux étapes simples : charges du mariage, puis règlement avant partage",
+      "screen_text": "Pendant le mariage : charges payées • À la séparation : dettes et comptes réglés, solde partagé par moitié"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Enregistrez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "visual": "Dernière page validée : Le saviez-vous ? puis trois actions",
+      "screen_text": "Le saviez-vous ? Enregistrez • Partagez • Abonnez-vous"
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Mariage sans contrat. Aucun régime ?",
+      "visual": "Couple signant (pictogramme mariage simple)",
+      "screen_text": "Mariage sans contrat. Aucun régime ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "question",
+      "label": "question",
+      "narration": "Selon vous, votre patrimoine reste-t-il séparé ?",
+      "visual": "Carton-question avec choix OUI / NON visibles, mais non lus",
+      "screen_text": "Selon vous, votre patrimoine reste-t-il séparé ?",
+      "source_beat_id": "question",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "question",
+      "font_size": 46
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Non : le régime légal s'applique.",
+      "visual": "Réponse typographique centrale",
+      "screen_text": "Non : le régime légal s'applique.",
+      "source_beat_id": "reponse",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 46
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "Sans contrat, la communauté réduite aux acquêts s'applique : les biens acquis durant le mariage sont communs ; ceux d'avant ou reçus par succession restent propres.",
+      "visual": "Schéma 3 masses (époux A, époux B, communauté)",
+      "screen_text": "Sans contrat, la communauté réduite aux acquêts s'applique : les biens acquis durant le mariage sont communs ; ceux d'avant ou reçus par succession restent propres.",
+      "source_beat_id": "regle",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regle",
+      "font_size": 37
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Exemple : l'argent de votre salaire entre dans le patrimoine commun, même versé sur votre compte personnel. Un héritage reçu par vous seul reste votre bien personnel.",
+      "visual": "Illustration compte bancaire commun, compte personnel et héritage identifié",
+      "screen_text": "Exemple : l'argent de votre salaire entre dans le patrimoine commun, même versé sur votre compte personnel. Un héritage reçu par vous seul reste votre bien personnel.",
+      "source_beat_id": "exemple",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 36
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Pendant le mariage, chacun utilise ses revenus après les charges du mariage. À la séparation, dettes et comptes entre époux sont réglés, puis le solde partagé par moitié.",
+      "visual": "Deux étapes simples : charges du mariage, puis règlement avant partage",
+      "screen_text": "Pendant le mariage, chacun utilise ses revenus après les charges du mariage. À la séparation, dettes et comptes entre époux sont réglés, puis le solde partagé par moitié.",
+      "source_beat_id": "nuance",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "nuance",
+      "font_size": 36
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Enregistrez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "visual": "Dernière page validée : Le saviez-vous ? puis trois actions",
+      "screen_text": "Enregistrez, partagez et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "source_beat_id": "cta",
+      "source_beat_index": 6,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 43
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "reels",
+    "source_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+    "adapted_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+    "source_beats": 7,
+    "adapted_pages": 7,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 36,
+    "warnings": []
+  },
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

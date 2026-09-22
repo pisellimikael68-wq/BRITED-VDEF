@@ -1,0 +1,95 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Vous savez quelle est la phrase la plus importante de votre contrat d’assurance vie ?",
+      "transcript": "Vous savez quelle est la phrase la plus importante de votre contrat d'assurance vie ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0625,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d’un abattement propre.",
+      "transcript": "La clause bénéficiaire fixe qui reçoit le capital et qui dispose d'un abattement propre.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.046,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Vous pouvez la modifier en général gratuitement auprès de l'assureur — voir article L132-huit — mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132-neuf.",
+      "transcript": "Vous pouvez la modifier en général gratuitement auprès de l'assureur, voire article L132.8. Mais si le bénéficiaire a accepté, elle devient irrévocable selon l'article L132.9.",
+      "similarity": 0.9714,
+      "missing": [
+        "voir"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "voire"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2639,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : rédiger « mon épouse Madame Dupont » conserve la personne même après divorce ; nommer une seule personne peut gaspiller des abattements.",
+      "transcript": "Exemple, rédiger « Mon épouse, Madame Dupont » conserve la personne même après divorce. Nommé une seule personne peut gaspiller des abattements.",
+      "similarity": 0.95,
+      "missing": [
+        "nommer"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "nomme"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.189,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession (article L132-douze).",
+      "transcript": "Si aucun bénéficiaire ne peut recueillir le capital, il réintègre la succession, article L132.12.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0521,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

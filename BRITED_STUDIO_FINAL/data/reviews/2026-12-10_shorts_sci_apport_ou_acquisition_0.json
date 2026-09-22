@@ -1,0 +1,173 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement fidèle aux faits de la fiche BRITED mais omet une précision présente dans la SOURCE DE VÉRITÉ : l'apport d'un immeuble par une personne physique à une SCI relevant de l'impôt sur le revenu bénéficie d'un régime de faveur en matière de droits d'apport. Le script évoque uniquement le risque quand la SCI est soumise à l'IS, sans rappeler l'exception favorable pour l'IR."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le propos juridique principal est correct (achat par la SCI = droits une fois ; apport ultérieur = droits une seconde fois ; risque d'imposition de la plus-value si la SCI est à l'IS).",
+        "Manque : l'exception favorable pour une SCI relevant de l'impôt sur le revenu (régime de faveur sur les droits d'apport) n'est pas mentionnée alors qu'elle figure dans la source (important pour l'équilibre du message).",
+        "Manque également une mise en garde explicite sur l'impact de la résidence principale (la SCI ne bénéficie pas de l'exonération de la résidence principale dans les mêmes conditions qu'un particulier) : la fiche l'indique et c'est une nuance importante."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, l'exception IS, un exemple chiffré indicatif et le cas d'un emprunt repris. Toutefois il omet deux éléments présents dans la fiche :",
+        "- le régime de faveur pour les apports à une SCI soumise à l'IR ;",
+        "- la remarque sur la résidence principale et l'exonération de plus-value pour un particulier qui ne s'applique pas de la même façon en société.",
+        "Ces omissions sont des manques de complétude important pour un public non spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La formulation est claire et naturelle mais gagnerait à inclure la phrase courte expliquant le 'régime de faveur' pour l'IR afin d'éviter une lecture partielle qui pourrait sembler alarmiste (actuellement l'accent est mis sur le risque IS sans l'équilibre IR).",
+        "Suggestion concrète : insérer une courte phrase du type « si la SCI est à l'IR, l'apport peut bénéficier d'un régime de faveur sur les droits » pour affiner le ton professionnel et complet."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Après relecture mot à mot, le script est cohérent mais présente l'absence identifiée à plusieurs reprises (régime IR favorable et mention sur résidence principale). Ces manques sont localisables et corrigibles sans casser la durée estimée."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes correspondent au texte. Cependant :",
+        "- Le pictogramme 'loi + pourcentage' correspond au passage sur imposition mais pourrait prêter à confusion pour l'IS vs IR ; il serait préférable de différencier visuellement (par ex. 'balance + €' pour la plus-value IS, et 'papiers officiels' pour les droits d'apport IR).",
+        "- Le pictogramme 5–6% + balance est acceptable, mais pour le point sur emprunt il faut s'assurer que le pictogramme 'prêt bancaire' illustre clairement la notion de reprise de passif (par ex. ajouter une petite icône '-passif-' ou 'reprise')."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le message est globalement pédagogique et accessible, mais l'omission du régime de faveur pour l'IR et de la spécificité de la résidence principale peut induire une lecture incomplète pour un non-spécialiste.",
+        "Une phrase supplémentaire (très brève) expliquant ces deux points permettrait que chaque notion soit comprise au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton et l'appel à l'action sont appropriés. Pour renforcer la confiance, ajouter la brève mention d'une nuance favorable (SCI à l'IR) et rappeler la légende 'contenu pédagogique' dans l'écran final contribuerait à mieux équilibrer l'information sans surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 116,
+      "seconds": 43.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 116,
+        "seconds": 43.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script est globalement fidèle aux faits de la fiche BRITED mais omet une précision présente dans la SOURCE DE VÉRITÉ : l'apport d'un immeuble par une personne physique à une SCI relevant de l'impôt sur le revenu bénéficie d'un régime de faveur en matière de droits d'apport. Le script évoque uniquement le risque quand la SCI est soumise à l'IS, sans rappeler l'exception favorable pour l'IR.",
+    "juridique_fiscal : Le propos juridique principal est correct (achat par la SCI = droits une fois ; apport ultérieur = droits une seconde fois ; risque d'imposition de la plus-value si la SCI est à l'IS).",
+    "juridique_fiscal : Manque : l'exception favorable pour une SCI relevant de l'impôt sur le revenu (régime de faveur sur les droits d'apport) n'est pas mentionnée alors qu'elle figure dans la source (important pour l'équilibre du message).",
+    "juridique_fiscal : Manque également une mise en garde explicite sur l'impact de la résidence principale (la SCI ne bénéficie pas de l'exonération de la résidence principale dans les mêmes conditions qu'un particulier) : la fiche l'indique et c'est une nuance importante.",
+    "completude : Le script couvre la règle centrale, l'exception IS, un exemple chiffré indicatif et le cas d'un emprunt repris. Toutefois il omet deux éléments présents dans la fiche :",
+    "completude : - le régime de faveur pour les apports à une SCI soumise à l'IR ;",
+    "completude : - la remarque sur la résidence principale et l'exonération de plus-value pour un particulier qui ne s'applique pas de la même façon en société.",
+    "completude : Ces omissions sont des manques de complétude important pour un public non spécialiste.",
+    "formulation_professionnelle : La formulation est claire et naturelle mais gagnerait à inclure la phrase courte expliquant le 'régime de faveur' pour l'IR afin d'éviter une lecture partielle qui pourrait sembler alarmiste (actuellement l'accent est mis sur le risque IS sans l'équilibre IR).",
+    "formulation_professionnelle : Suggestion concrète : insérer une courte phrase du type « si la SCI est à l'IR, l'apport peut bénéficier d'un régime de faveur sur les droits » pour affiner le ton professionnel et complet.",
+    "contre_verification_finale : Après relecture mot à mot, le script est cohérent mais présente l'absence identifiée à plusieurs reprises (régime IR favorable et mention sur résidence principale). Ces manques sont localisables et corrigibles sans casser la durée estimée.",
+    "coherence_pictogrammes : La plupart des pictogrammes correspondent au texte. Cependant :",
+    "coherence_pictogrammes : - Le pictogramme 'loi + pourcentage' correspond au passage sur imposition mais pourrait prêter à confusion pour l'IS vs IR ; il serait préférable de différencier visuellement (par ex. 'balance + €' pour la plus-value IS, et 'papiers officiels' pour les droits d'apport IR).",
+    "coherence_pictogrammes : - Le pictogramme 5–6% + balance est acceptable, mais pour le point sur emprunt il faut s'assurer que le pictogramme 'prêt bancaire' illustre clairement la notion de reprise de passif (par ex. ajouter une petite icône '-passif-' ou 'reprise').",
+    "pedagogie_client : Le message est globalement pédagogique et accessible, mais l'omission du régime de faveur pour l'IR et de la spécificité de la résidence principale peut induire une lecture incomplète pour un non-spécialiste.",
+    "pedagogie_client : Une phrase supplémentaire (très brève) expliquant ces deux points permettrait que chaque notion soit comprise au premier passage.",
+    "conversion_confiance : Le ton et l'appel à l'action sont appropriés. Pour renforcer la confiance, ajouter la brève mention d'une nuance favorable (SCI à l'IR) et rappeler la légende 'contenu pédagogique' dans l'écran final contribuerait à mieux équilibrer l'information sans surpromesse."
+  ],
+  "recommendations": [
+    "Ajouter une phrase courte et claire (idéalement au niveau du beat 3 ou 4) mentionnant que « si la SCI relève de l'impôt sur le revenu, l'apport d'un immeuble par une personne physique peut bénéficier d'un régime de faveur en matière de droits d'apport ». Cela corrige l'omission factuelle importante.",
+    "Insérer une très brève nuance (une phrase) rappelant que la résidence principale n'est pas exonérée de la même façon en société : « attention : loger sa résidence principale dans une SCI change les règles d'exonération de la plus-value ». Placer ceci dans le beat 5 ou dans un micro-clip final avant le CTA.",
+    "Adapter légèrement les pictogrammes pour lever toute ambiguïté : distinguer visuellement la mention 'plus-value imposable si IS' (balance + €) de la mention 'droits d'apport' (document officiel) ; pour le cas d'emprunt repris, utiliser un pictogramme qui explicite la reprise de passif.",
+    "Sur la formulation, remplacer une phrase existante par une version équilibrée, par exemple : « Apporter un bien déclenche des droits supplémentaires ; si la SCI est à l'IS, la plus-value latente peut être imposée, tandis qu'une SCI à l'IR peut bénéficier d'un régime de faveur sur les droits d'apport. »",
+    "Ajouter en petit sur l'écran final la légende déjà prévue : 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé.' (cela renforce la conformité sécurité/mentions légales)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:52",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-10:shorts:sci_apport_ou_acquisition:0",
+  "script_path": "scripts/sci/sci_apport_ou_acquisition__shorts__a3__v3.md"
+}

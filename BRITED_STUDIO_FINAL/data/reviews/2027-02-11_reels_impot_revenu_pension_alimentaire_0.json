@@ -1,0 +1,181 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est respectée globalement, mais la mention « une demi-part ou une part supplémentaire selon le rang » mérite précision : le nombre de parts accordées dépend du nombre d'enfants et de leur rang dans le foyer et la formulation actuelle peut prêter à confusion si interprétée comme un choix binaire unique.",
+        "La narration indique « possible jusqu'à 25 ans pour études » ; la fiche précise cet âge mais le script devrait ajouter « si l'enfant poursuit des études » pour rester strictement fidèle à la condition."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte les textes cités mais omet d'indiquer que la déduction est plafonnée et que le montant exact du plafond dépend de la situation (enfant hébergé ou non) — la phrase « pension plafonnée » apparaît mais sans préciser l'existence de modalités différentes (forfait pour logement/nourriture vs sommes justifiées).",
+        "La mention « la pension déduite est imposable chez l'enfant » est correcte mais pourrait ajouter que l'enfant doit déclarer cette somme, pour lever toute ambiguïté."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (3 000 € → ≈ 1 230 € si TMM 41 %) est utile, mais il manque l'autre scénario chiffré (gain potentiel du rattachement) pour permettre une comparaison complète dans le format court, comme autorisé par la fiche.",
+        "Le script ne précise pas que les deux options s'excluent « sur une même année » dans la narration (la légende l'indique), ce qui peut créer une légère incohérence entre vidéo et légende."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est efficace mais la deuxième séquence 'OUI / NON' visuelle risque d'être perçue comme binaire sans contexte ; proposer explicitation visuelle rapide (« Rattacher ? / Déduire ? ») améliorerait la clarté.",
+        "La narration continue est fluide mais légèrement dense pour 38 s ; une pause ou une intonation marquée avant l'exemple améliorerait la compréhension."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations manquent de précision juridique simple : remplacer « À sa majorité l'enfant sort du foyer » par « À sa majorité, l'enfant cesse de faire partie du foyer fiscal de plein droit » améliore la rigueur.",
+        "La phrase « la déduction rapporte environ 1 230 euros d'impôt économisé » pourrait être reformulée « réduit l'impôt d'environ 1 230 € » pour plus d'aisance de lecture orale."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure entre la phrase d'ouverture (« Votre enfant a 18 ans et vous l'aidez ? ») et la règle qui précise l'âge de sortie du foyer : la vérification finale recommande expliciter que la situation commence « à la majorité (18 ans) » et que le rattachement peut aller jusqu'à 25 ans si études.",
+        "Le CTA et la mention légale sont cohérents mais la légende dit « Sources en légende » alors que les sources sont listées ; vérifier que la publication comporte bien la liste de sources complète et le disclaimer."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme parent + euro pour l'accroche est pertinent. En revanche la case OUI/NON visuelle peut prêter à confusion : il faut s'assurer que 'OUI / NON' illustre clairement 'Rattacher ou déduire' (par exemple libellés sur les cases).",
+        "L'icône calendrier et case cochée pour 'choix unique par an' est adéquate ; l'icône pour 'pension imposable chez l'enfant' devrait associer document fiscal et silhouette enfant pour être non ambiguë."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste, mais l'usage du terme 'tranche marginale' sans brève explication peut perdre certains spectateurs ; une courte parenthèse « (votre taux d'imposition le plus élevé) » serait utile.",
+        "Il manque une phrase très courte expliquant que la pension doit être justifiable (versements traçables) dans la partie narration, car ce point est important et figure seulement en nuance."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance mais pourrait être renforcé par l'ajout en voix-off d'une phrase de prudence audible (« contenu général, rendez-vous pour diagnostic personnalisé ») plutôt que seulement dans la mention écrite.",
+        "L'appel à l'action est clair, mais mentionner brièvement que le rendez-vous permet un calcul personnalisé renforcerait la conversion."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est respectée globalement, mais la mention « une demi-part ou une part supplémentaire selon le rang » mérite précision : le nombre de parts accordées dépend du nombre d'enfants et de leur rang dans le foyer et la formulation actuelle peut prêter à confusion si interprétée comme un choix binaire unique.",
+    "source : La narration indique « possible jusqu'à 25 ans pour études » ; la fiche précise cet âge mais le script devrait ajouter « si l'enfant poursuit des études » pour rester strictement fidèle à la condition.",
+    "juridique_fiscal : Le script respecte les textes cités mais omet d'indiquer que la déduction est plafonnée et que le montant exact du plafond dépend de la situation (enfant hébergé ou non) — la phrase « pension plafonnée » apparaît mais sans préciser l'existence de modalités différentes (forfait pour logement/nourriture vs sommes justifiées).",
+    "juridique_fiscal : La mention « la pension déduite est imposable chez l'enfant » est correcte mais pourrait ajouter que l'enfant doit déclarer cette somme, pour lever toute ambiguïté.",
+    "completude : L'exemple chiffré (3 000 € → ≈ 1 230 € si TMM 41 %) est utile, mais il manque l'autre scénario chiffré (gain potentiel du rattachement) pour permettre une comparaison complète dans le format court, comme autorisé par la fiche.",
+    "completude : Le script ne précise pas que les deux options s'excluent « sur une même année » dans la narration (la légende l'indique), ce qui peut créer une légère incohérence entre vidéo et légende.",
+    "editorial : L'accroche est efficace mais la deuxième séquence 'OUI / NON' visuelle risque d'être perçue comme binaire sans contexte ; proposer explicitation visuelle rapide (« Rattacher ? / Déduire ? ») améliorerait la clarté.",
+    "editorial : La narration continue est fluide mais légèrement dense pour 38 s ; une pause ou une intonation marquée avant l'exemple améliorerait la compréhension.",
+    "formulation_professionnelle : Quelques formulations manquent de précision juridique simple : remplacer « À sa majorité l'enfant sort du foyer » par « À sa majorité, l'enfant cesse de faire partie du foyer fiscal de plein droit » améliore la rigueur.",
+    "formulation_professionnelle : La phrase « la déduction rapporte environ 1 230 euros d'impôt économisé » pourrait être reformulée « réduit l'impôt d'environ 1 230 € » pour plus d'aisance de lecture orale.",
+    "contre_verification_finale : Incohérence mineure entre la phrase d'ouverture (« Votre enfant a 18 ans et vous l'aidez ? ») et la règle qui précise l'âge de sortie du foyer : la vérification finale recommande expliciter que la situation commence « à la majorité (18 ans) » et que le rattachement peut aller jusqu'à 25 ans si études.",
+    "contre_verification_finale : Le CTA et la mention légale sont cohérents mais la légende dit « Sources en légende » alors que les sources sont listées ; vérifier que la publication comporte bien la liste de sources complète et le disclaimer.",
+    "coherence_pictogrammes : Le pictogramme parent + euro pour l'accroche est pertinent. En revanche la case OUI/NON visuelle peut prêter à confusion : il faut s'assurer que 'OUI / NON' illustre clairement 'Rattacher ou déduire' (par exemple libellés sur les cases).",
+    "coherence_pictogrammes : L'icône calendrier et case cochée pour 'choix unique par an' est adéquate ; l'icône pour 'pension imposable chez l'enfant' devrait associer document fiscal et silhouette enfant pour être non ambiguë.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste, mais l'usage du terme 'tranche marginale' sans brève explication peut perdre certains spectateurs ; une courte parenthèse « (votre taux d'imposition le plus élevé) » serait utile.",
+    "pedagogie_client : Il manque une phrase très courte expliquant que la pension doit être justifiable (versements traçables) dans la partie narration, car ce point est important et figure seulement en nuance.",
+    "conversion_confiance : Le ton inspire confiance mais pourrait être renforcé par l'ajout en voix-off d'une phrase de prudence audible (« contenu général, rendez-vous pour diagnostic personnalisé ») plutôt que seulement dans la mention écrite.",
+    "conversion_confiance : L'appel à l'action est clair, mais mentionner brièvement que le rendez-vous permet un calcul personnalisé renforcerait la conversion."
+  ],
+  "recommendations": [
+    "Préciser la formulation relative aux parts attribuées lors du rattachement : remplacer « une demi-part ou une part supplémentaire selon le rang » par « une demi-part ou une part supplémentaire selon le nombre et le rang des enfants déjà rattachés au foyer », ou simplifier si le format l'exige.",
+    "Ajouter dans la narration courte que le rattachement jusqu'à 25 ans n'est possible que si l'enfant « poursuit des études ».",
+    "Indiquer brièvement, dans une phrase de la vidéo, que le plafond de la déduction varie selon que l'enfant est hébergé (forfait logement/nourriture) ou non et que des justificatifs ou un forfait s'appliquent.",
+    "Inclure une très brève définition orale de 'tranche marginale' (par exemple : « votre taux d'imposition le plus élevé ») pour les non-initiés.",
+    "Ajouter une phrase audible rappelant que la pension déduite doit être versée et justifiable (versements traçables) et que l'enfant doit déclarer ce revenu.",
+    "Pour mieux comparer, si possible garder l'exemple chiffré existant et ajouter une petite estimation indicative du gain lié au rattachement (même très approximative) ou mentionner que le gain dépend du quotient familial, invitant au rendez-vous pour chiffrage.",
+    "Adapter visuels : sur la vignette OUI/NON écrire explicitement 'Rattacher ? / Déduire ?' ; pour l'avertissement sur l'imposition chez l'enfant utiliser une icône combinant document fiscal + silhouette enfant ; pour le forfait logement/nourriture, utiliser icônes maison + assiette liées au mot 'forfait'.",
+    "Reformuler quelques formulations pour l'oral : par ex. « À sa majorité, l'enfant cesse de faire partie du foyer fiscal » et « réduit votre impôt d'environ 1 230 € » pour une diction plus naturelle.",
+    "Ajouter une phrase d'avertissement audible et brève avant le CTA : « Contenu général, non personnalisé — prenez rendez‑vous pour un calcul précis », afin de renforcer la conformité et la confiance.",
+    "Vérifier que la légende publiée inclut bien l'ensemble des sources listées et la mention légale telle que fournie."
+  ],
+  "reviewed_at": "2026-08-24T15:39:58",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-02-11:reels:impot_revenu_pension_alimentaire:0",
+  "script_path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__reels__a5__v7.md"
+}

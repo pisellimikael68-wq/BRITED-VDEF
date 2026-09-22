@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source mais omet la précision que le PFU de 30% regroupe impôt (12,8%) et prélèvements sociaux (17,2%). Proposition : ajouter une mention courte ou s'assurer que l'énoncé « 30% PFU » soit parfaitement compris par un non-spécialiste."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « intérêts ... soumis au prélèvement forfaitaire unique de trente pour cent dès la première année » est exacte pour les plans ouverts depuis 2018, mais il manque la précision sur l'éventuelle option pour l'imposition au barème (possibilité pour l'épargnant d'opter, sous conditions, selon la situation fiscale) si applicable — vérifier si l'option existe pour les PEL ouverts après 2018 et, si non applicable, supprimer la suggestion d'option. Action : vérifier et préciser ou confirmer l'absence d'option dans le micro-contenu."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition et exception mais n'indique pas explicitement la durée minimale de 4 ans (chiffre évoqué dans la fiche) dans la première phrase d'alerte : l'information apparaît plus bas. Suggestion : insérer rapidement « conservez au moins 4 ans » ou mentionner la durée minimale dans la ligne 'point de vigilance' pour éviter omissions dangereuses."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reels est respecté et la durée estimée plausible, mais la scène 2 texte écran montre 'OUI  |  NON' avec un espacement qui peut prêter à confusion visuelle sur un écran mobile. Proposition : styliser clairement deux boutons séparés et vérifier que la voix et le texte tiennent dans ~39s lors d'un enregistrement naturel."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace ; toutefois la phrase 'PEL ouvert depuis 2018 : même produit ? OUI / NON.' risque d'alourdir l'oral. Suggestion : simplifier à 'PEL ouvert depuis 2018 : même produit ?' puis livrer la réponse 'Non.' pour un impact plus fort."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le disclaimer final est présent mais pourrait être légèrement raccourci pour la lecture vocale (ex : 'Contenu pédagogique — ni conseil juridique, fiscal ou financier personnalisé'). Recommandation : version vocale plus courte pour rester conforme sans perdre la lisibilité."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être allégées pour une diction naturelle en 39s (par ex. remplacer 'Le droit à prêt subsiste mais son taux dépend du taux du plan ; retirer avant quatre ans dégrade la rémunération et supprime le droit à prêt.' par deux phrases plus courtes). Proposition : scinder en deux phrases pour faciliter la prononciation."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Séquence logique correcte, mais vérification mot à mot : la mention 'prime d'État supprimée' est vraie pour plans ouverts depuis 2018 — préciser éventuellement 'pour les plans ouverts depuis 2018' dans la même phrase pour éviter toute ambiguïté. Localisation : beat 4/ligne règle."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La plupart des pictogrammes correspondent au texte, sauf beat 2 où l'icône 'interrogation' alignée entre deux cases OUI/NON pourrait être perçue comme décorative plutôt qu'explicative. Recommandation : utiliser un visuel qui montre clairement la distinction (deux boutons contrastés) pour l'interaction."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais réserve l'exemple d'un 'PEL ancien' sans préciser qu'il faut connaître le taux et la date d'ouverture (règle a_ne_pas_dire). Suggestion : ajouter une phrase très courte 'Ne prenez pas de décision sans vérifier le taux et la date d'ouverture.'"
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est accessible, mais l'acronyme 'PFU' est écrit uniquement sous la forme 'prélèvement forfaitaire unique' en toutes lettres : pour un non-spécialiste il serait utile d'ajouter la parenthèse 'PFU (30%)' lors de la première occurrence pour ancrer le sigle."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes mais l'enchaînement contient plusieurs informations denses (30% PFU, suppression prime, droit à prêt, règle des 4 ans). Recommandation : réduire une phrase ou condenser l'information sur le droit à prêt pour conserver rythme et mémorisation."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton professionnel et CTA adaptés. Toutefois, l'appel à l'action 'lien dans ma bio' est générique ; pour renforcer la confiance, proposer 'prenez rendez-vous pour un bilan' avec mention rapide 'gratuit' seulement si c'est véridique. Si ce n'est pas gratuit, ne pas l'affirmer."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source mais omet la précision que le PFU de 30% regroupe impôt (12,8%) et prélèvements sociaux (17,2%). Proposition : ajouter une mention courte ou s'assurer que l'énoncé « 30% PFU » soit parfaitement compris par un non-spécialiste.",
+    "juridique_fiscal : La phrase « intérêts ... soumis au prélèvement forfaitaire unique de trente pour cent dès la première année » est exacte pour les plans ouverts depuis 2018, mais il manque la précision sur l'éventuelle option pour l'imposition au barème (possibilité pour l'épargnant d'opter, sous conditions, selon la situation fiscale) si applicable — vérifier si l'option existe pour les PEL ouverts après 2018 et, si non applicable, supprimer la suggestion d'option. Action : vérifier et préciser ou confirmer l'absence d'option dans le micro-contenu.",
+    "completude : Le script couvre règle centrale, condition et exception mais n'indique pas explicitement la durée minimale de 4 ans (chiffre évoqué dans la fiche) dans la première phrase d'alerte : l'information apparaît plus bas. Suggestion : insérer rapidement « conservez au moins 4 ans » ou mentionner la durée minimale dans la ligne 'point de vigilance' pour éviter omissions dangereuses.",
+    "plateforme : Le format Reels est respecté et la durée estimée plausible, mais la scène 2 texte écran montre 'OUI  |  NON' avec un espacement qui peut prêter à confusion visuelle sur un écran mobile. Proposition : styliser clairement deux boutons séparés et vérifier que la voix et le texte tiennent dans ~39s lors d'un enregistrement naturel.",
+    "editorial : Accroche efficace ; toutefois la phrase 'PEL ouvert depuis 2018 : même produit ? OUI / NON.' risque d'alourdir l'oral. Suggestion : simplifier à 'PEL ouvert depuis 2018 : même produit ?' puis livrer la réponse 'Non.' pour un impact plus fort.",
+    "securite : Le disclaimer final est présent mais pourrait être légèrement raccourci pour la lecture vocale (ex : 'Contenu pédagogique — ni conseil juridique, fiscal ou financier personnalisé'). Recommandation : version vocale plus courte pour rester conforme sans perdre la lisibilité.",
+    "formulation_professionnelle : Quelques formulations peuvent être allégées pour une diction naturelle en 39s (par ex. remplacer 'Le droit à prêt subsiste mais son taux dépend du taux du plan ; retirer avant quatre ans dégrade la rémunération et supprime le droit à prêt.' par deux phrases plus courtes). Proposition : scinder en deux phrases pour faciliter la prononciation.",
+    "contre_verification_finale : Séquence logique correcte, mais vérification mot à mot : la mention 'prime d'État supprimée' est vraie pour plans ouverts depuis 2018 — préciser éventuellement 'pour les plans ouverts depuis 2018' dans la même phrase pour éviter toute ambiguïté. Localisation : beat 4/ligne règle.",
+    "coherence_pictogrammes : La plupart des pictogrammes correspondent au texte, sauf beat 2 où l'icône 'interrogation' alignée entre deux cases OUI/NON pourrait être perçue comme décorative plutôt qu'explicative. Recommandation : utiliser un visuel qui montre clairement la distinction (deux boutons contrastés) pour l'interaction.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais réserve l'exemple d'un 'PEL ancien' sans préciser qu'il faut connaître le taux et la date d'ouverture (règle a_ne_pas_dire). Suggestion : ajouter une phrase très courte 'Ne prenez pas de décision sans vérifier le taux et la date d'ouverture.'",
+    "pedagogie_client : Le vocabulaire est accessible, mais l'acronyme 'PFU' est écrit uniquement sous la forme 'prélèvement forfaitaire unique' en toutes lettres : pour un non-spécialiste il serait utile d'ajouter la parenthèse 'PFU (30%)' lors de la première occurrence pour ancrer le sigle.",
+    "retention_attention : Les deux premières secondes sont fortes mais l'enchaînement contient plusieurs informations denses (30% PFU, suppression prime, droit à prêt, règle des 4 ans). Recommandation : réduire une phrase ou condenser l'information sur le droit à prêt pour conserver rythme et mémorisation.",
+    "conversion_confiance : Ton professionnel et CTA adaptés. Toutefois, l'appel à l'action 'lien dans ma bio' est générique ; pour renforcer la confiance, proposer 'prenez rendez-vous pour un bilan' avec mention rapide 'gratuit' seulement si c'est véridique. Si ce n'est pas gratuit, ne pas l'affirmer."
+  ],
+  "recommendations": [
+    "Ajouter en une courte phrase que les 30% du PFU comprennent impôt (12,8%) et prélèvements sociaux (17,2%) ou s'assurer qu'on ne prête pas à confusion.",
+    "Clarifier si une option d'imposition au barème est possible pour les PEL ouverts après 2018 ; si non applicable, ne pas évoquer d'option.",
+    "Insérer la mention 'conserver au moins 4 ans' ou rappeler explicitement la durée minimale dans le flux principal pour réduire le risque d'erreur client.",
+    "Alléger et scinder la phrase sur le droit à prêt et le retrait avant 4 ans en deux phrases pour faciliter la diction et la compréhension.",
+    "Modifier le visuel du beat 2 pour afficher clairement deux boutons distincts OUI / NON sans espacement confus et vérifier que tout tient bien en ~39 secondes lors d'un enregistrement pilote.",
+    "Raccourcir le disclaimer vocal tout en conservant la portée légale et ajouter une phrase très courte invitant à vérifier taux et date d'ouverture avant toute décision."
+  ],
+  "reviewed_at": "2026-08-24T15:39:55",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-12:reels:pel_fiscalite_depuis_2018:0",
+  "script_path": "scripts/pel/pel_fiscalite_depuis_2018__reels__a4__v8.md"
+}

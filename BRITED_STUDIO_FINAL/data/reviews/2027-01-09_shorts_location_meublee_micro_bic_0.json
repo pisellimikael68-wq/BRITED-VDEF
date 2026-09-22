@@ -1,0 +1,158 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche source mais omet de signaler que certains chiffres (ex. taux d'abattement souvent cités pour le meublé classique) sont marqués « à vérifier » dans la fiche. Il faudrait expliciter que aucun taux chiffré n'est diffusé sans vérification (la fiche impose cette prudence).",
+        "La fiche mentionne un abattement micro-BIC potentiellement à vérifier ; le script évite les taux mais l'exemple chiffré (10 000 €) pourrait être perçu comme un calcul précis sans préciser l'abattement appliqué ni sa variabilité selon la catégorie."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La phrase « l'activité de location meublée doit être immatriculée » est trop catégorique sans préciser les modalités : selon la situation (LMNP, LMP, meublé de tourisme, recettes, inscription au RCS/CFE) les obligations d'immatriculation et de déclaration diffèrent. Le message devrait préciser qu'il s'agit d'une formalité à vérifier selon le statut et le volume d'activité."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite correctement la règle centrale et le comparatif micro/réel, mais n'indique pas explicitement que l'amortissement (au régime réel) est ensuite pris en compte en cas de plus-value (réintégration partielle selon réformes récentes) — la fiche le mentionne dans 'a_ne_pas_dire' et 'erreurs_frequentes'.",
+        "Il manque une précision sur le seuil applicable au micro-BIC et la nécessité de vérifier la catégorie (classique vs tourisme) avant de citer des seuils ou taux."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est clair et fluide, mais la phrase « Exemple : pour 10 000 euros de loyers meublés en micro, vous déclarez un montant réduit après abattement - le taux dépend de la catégorie du meublé » pourrait être reformulée pour éviter toute impression de chiffrage implicite (ex. indiquer explicitement que le taux varie et n'est pas indiqué).",
+        "L'accroche est efficace mais pourrait préciser en une courte mention que l'impact fiscal dépend du choix micro vs réel, afin de renforcer la progression pédagogique."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent prêter à ambiguïté pour un non-spécialiste : 'immatriculez l'activité' sans précision sur le quoi/où/qui risque d'induire en erreur. Proposer 'vérifiez l'obligation d'immatriculation auprès du CFE ou d'un conseiller' serait plus professionnel."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Après relecture mot à mot, l'ensemble est cohérent mais on relève des imprécisions relatives à l'énoncé catégorique sur l'immatriculation et à l'absence d'indication claire sur l'amortissement et sa réintégration en cas de plus-value — éléments signalés dans la fiche source et qui exigent une mention de prudence."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement compréhensible mais l'injonction d'immatriculation et l'exemple chiffré pourraient perdre un non-spécialiste : il faut expliciter brièvement ce que signifie 'immatriculer' et préciser que l'exemple n'indique pas un taux fixe."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 125,
+      "seconds": 46.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 125,
+        "seconds": 46.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche source mais omet de signaler que certains chiffres (ex. taux d'abattement souvent cités pour le meublé classique) sont marqués « à vérifier » dans la fiche. Il faudrait expliciter que aucun taux chiffré n'est diffusé sans vérification (la fiche impose cette prudence).",
+    "source : La fiche mentionne un abattement micro-BIC potentiellement à vérifier ; le script évite les taux mais l'exemple chiffré (10 000 €) pourrait être perçu comme un calcul précis sans préciser l'abattement appliqué ni sa variabilité selon la catégorie.",
+    "juridique_fiscal : La phrase « l'activité de location meublée doit être immatriculée » est trop catégorique sans préciser les modalités : selon la situation (LMNP, LMP, meublé de tourisme, recettes, inscription au RCS/CFE) les obligations d'immatriculation et de déclaration diffèrent. Le message devrait préciser qu'il s'agit d'une formalité à vérifier selon le statut et le volume d'activité.",
+    "completude : Le script traite correctement la règle centrale et le comparatif micro/réel, mais n'indique pas explicitement que l'amortissement (au régime réel) est ensuite pris en compte en cas de plus-value (réintégration partielle selon réformes récentes) — la fiche le mentionne dans 'a_ne_pas_dire' et 'erreurs_frequentes'.",
+    "completude : Il manque une précision sur le seuil applicable au micro-BIC et la nécessité de vérifier la catégorie (classique vs tourisme) avant de citer des seuils ou taux.",
+    "editorial : Le script est clair et fluide, mais la phrase « Exemple : pour 10 000 euros de loyers meublés en micro, vous déclarez un montant réduit après abattement - le taux dépend de la catégorie du meublé » pourrait être reformulée pour éviter toute impression de chiffrage implicite (ex. indiquer explicitement que le taux varie et n'est pas indiqué).",
+    "editorial : L'accroche est efficace mais pourrait préciser en une courte mention que l'impact fiscal dépend du choix micro vs réel, afin de renforcer la progression pédagogique.",
+    "formulation_professionnelle : Quelques formulations peuvent prêter à ambiguïté pour un non-spécialiste : 'immatriculez l'activité' sans précision sur le quoi/où/qui risque d'induire en erreur. Proposer 'vérifiez l'obligation d'immatriculation auprès du CFE ou d'un conseiller' serait plus professionnel.",
+    "contre_verification_finale : Après relecture mot à mot, l'ensemble est cohérent mais on relève des imprécisions relatives à l'énoncé catégorique sur l'immatriculation et à l'absence d'indication claire sur l'amortissement et sa réintégration en cas de plus-value — éléments signalés dans la fiche source et qui exigent une mention de prudence.",
+    "pedagogie_client : Globalement compréhensible mais l'injonction d'immatriculation et l'exemple chiffré pourraient perdre un non-spécialiste : il faut expliciter brièvement ce que signifie 'immatriculer' et préciser que l'exemple n'indique pas un taux fixe."
+  ],
+  "recommendations": [
+    "Préciser la formulation sur l'immatriculation : remplacer « l'activité de location meublée doit être immatriculée » par une phrase indiquant que l'obligation dépend du statut et des recettes (ex. 'selon le statut et le volume d'activité, une immatriculation au CFE ou au RCS peut être requise — vérifiez votre situation').",
+    "Ajouter une phrase très courte rappelant que l'amortissement au régime réel peut être réintégré partiellement dans le calcul de la plus-value (ou préciser qu'il convient de vérifier les règles de réintégration), conformément aux évolutions récentes mentionnées dans la fiche.",
+    "Éviter toute impression de chiffrage implicite dans l'exemple : reformuler l'exemple 10 000 € pour indiquer explicitement que le taux d'abattement n'est pas donné ici et varie selon la catégorie (par ex. 'pour 10 000 € de loyers, après abattement (taux variable selon la catégorie)') afin d'être fidèle à la consigne 'ne pas diffuser de taux sans vérification'.",
+    "Si l'on souhaite citer un seuil ou taux, vérifier et citer la source précise (ex. article 50-0 du CGI ou BOFiP) et mentionner la catégorie concernée (meublé classique vs meublé de tourisme classé/non classé).",
+    "Reformuler très légèrement le CTA pour préciser la nature du rendez-vous (ex. 'pour un point fiscal personnalisé, prenez rendez‑vous via le lien dans ma bio') afin de rester conforme à la mention de non-conseil personnalisé tout en proposant une consultation."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-09:shorts:location_meublee_micro_bic:0",
+  "script_path": "scripts/location_meublee/location_meublee_micro_bic__shorts__a4__v2.md"
+}

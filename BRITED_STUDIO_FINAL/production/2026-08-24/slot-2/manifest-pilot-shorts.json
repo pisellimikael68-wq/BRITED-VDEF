@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-24",
+  "slot": 2,
+  "status": "awaiting_approval",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-08-24:shorts:regimes_changement:1",
+      "platform": "shorts",
+      "title": "Changer de régime matrimonial en cours de mariage",
+      "script": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/scripts/regimes_matrimoniaux/regimes_changement__shorts__a1__v4.md",
+      "video": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/regimes_changement__shorts.mp4",
+      "script_sha256": "740cff4ee040ea921c6cc896e517f673b7950ee1afdaaa07f0d5d452a377032d",
+      "spec_sha256": "115c801d010d8a7c128587e14a5a20ab37b253441e401a2c56fe9a5659c709d8",
+      "video_sha256": "2d11925d4c29e30045ecf6c1ec38e2433a360e8756f91c6bf9a2af0d3a85f5e5",
+      "visual_reference": {
+        "validation": "design-system/VALIDATION_YOUTUBE_VISUEL_A_V7.json",
+        "reference_video": "design-system/prototypes/Prototype_YouTube_Shorts_Visuel_A_V7_final_certification.mp4",
+        "reference_sha256": "3e67c72a90ad78be3929015b2cfe88de284088bdef351d787c6825607f55e1a7",
+        "renderer": "video_pipeline/render_social_visual_a.py",
+        "delivery_profile": "shorts",
+        "master_reference_platform": "shorts"
+      },
+      "reference_evidence_accepted": false,
+      "duration": 42.49,
+      "status": "awaiting_approval",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "warnings": [],
+      "validation": {
+        "publication_id": "2026-08-24:shorts:regimes_changement:1",
+        "validated": true,
+        "mode": "automatic_committee",
+        "score": 10.0,
+        "threshold": 10.0,
+        "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+        "validated_at": "2026-08-24T14:34:50"
+      },
+      "review_path": "data/reviews/2026-08-24_shorts_regimes_changement_1.json",
+      "quality_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/regimes_changement__shorts.quality-check.json",
+      "word_report": "/Users/mikael_piselli/BRITED_STUDIO_FINAL/production/2026-08-24/slot-2/shorts/regimes_changement__shorts.word-check.json",
+      "distribution_destinations": [
+        "youtube"
+      ],
+      "delivery_profile": "shorts",
+      "shared_identical_video": false
+    }
+  ]
+}

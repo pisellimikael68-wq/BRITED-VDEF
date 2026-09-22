@@ -1,0 +1,52 @@
+metadata:
+  schema: "1.0"
+  last_updated: null
+
+project:
+  name: "BRITED"
+  full_name: "BRITED Studio"
+  version: "2.0"
+  status: "development"
+
+vision:
+  mission: >
+    Build a modular AI-native platform dedicated to the production,
+    validation and maintenance of Leveria's knowledge base.
+
+  objectives:
+    - Build a maintainable knowledge platform
+    - Guarantee legal and technical consistency
+    - Assist AI agents with structured project knowledge
+    - Centralize production and validation workflows
+
+organization:
+  owner: "Leveria"
+  repository: "BRITED"
+  license: "Private"
+
+technology:
+  language: "Python"
+  ui: "Streamlit"
+  testing: "Pytest"
+
+principles:
+  - Modular architecture
+  - Separation of concerns
+  - Architecture before implementation
+  - Documentation first
+  - Single responsibility
+  - Explicit dependencies
+  - AI assisted development
+
+quality:
+  testing_required: true
+  typing_required: true
+  documentation_required: true
+  review_required: true
+
+ai:
+  architecture_first: true
+  update_documentation_after_change: true
+  require_review: true
+  generate_tests: true
+  

@@ -1,0 +1,171 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED impose « fidélité stricte aux faits, chiffres, dates, conditions et sources ». Le script respecte globalement les éléments fournis, mais cite « cinq classes courantes » sans rappeler la source dans le texte (la fiche cite Banque de France / AMF). Suggestion : ajouter une référence directe à l'écran ou voix « (source : AMF / Banque de France) » pour assurer traçabilité mot à mot."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut un CTA « Prenez rendez‑vous via le lien dans ma bio. » qui est acceptable, mais peut être perçu comme invitation à un conseil personnalisé si la promesse est trop engageante. La fiche interdit de proposer une allocation chiffrée ou un conseil personnalisé. Il faudrait préciser (voix ou texte écran) que le rendez‑vous permet un point d'information général ou un bilan, sans promettre de recommandations personnalisées, afin d'éviter toute interprétation juridique/fiscale erronée."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et l'exception, mais n'inclut pas explicitement la 'limite pratique' chiffrée de la fiche dans la narration (les chiffres 8 / 15 / 40 sont en visuel). Pour complétude orale, il serait utile d'énoncer brièvement « huit établissements, quinze contrats, quarante supports deviennent ingérables » afin que l'auditeur qui ne lit pas le visuel saisisse la nuance."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format est bien adapté au format Shorts, la durée estimée 42 s est cohérente. Remarque minime : la première seconde doit capter l'attention — la formulation actuelle fonctionne mais la version vocale doit être calibrée pour tenir la limite temporelle (hook + transition). Suggestion : raccourcir la première phrase orale à 1–2 mots d'accroche avant d'entrer dans la proposition (ex. « Pourquoi pas tout au même endroit ? » → « Pourquoi pas tout au même endroit ? » prononcé très court)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton et progression clairs. Trouver une formulation plus concise pour le segment 'Diversifier, c'est multiplier des sources de risque différentes...' afin d'améliorer mémorisation (par exemple « Diversifier = multiplier des risques indépendants : classes d'actifs, zones, enveloppes »). C'est un ajustement rédactionnel localisable, pas une erreur factuelle."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu est pédagogique et neutre. Cependant, la phrase finale d'appel à l'action peut être interprétée comme une incitation commerciale si le créateur est un professionnel rémunéré. Recommander d'ajouter la mention légale déjà présente (« Contenu pédagogique général... ») brièvement à l'oral ou sur l'écran final pour renforcer la neutralité."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et fluide. Quelques formulations pourraient être resserrées pour la diction (par ex. remplacer « parce que ce qui compte, ce n'est pas » par « parce que ce qui compte, ce sont »). Ceci est localisable et améliore l'oralité."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En relecture mot à mot, la répétition de la mention « Contenu pédagogique général. Ne constitue ni un conseil... » apparaît deux fois (Légende et Mention). Il conviendrait d'harmoniser et de n'en garder qu'une visible et audible pour éviter répétition inutile dans 42s."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents mais quelques correspondances doivent être précisées : le hook montre un pictogramme '?' — ok. Pour la séquence « dix fonds » il faut éviter d'illustrer par dix vignettes différentes si l'idée est qu'elles sont identiques : utiliser 10 vignettes visuellement identiques (même logo) pour illustrer le manque de diversification. De même, l'icône salarié + entreprise doit clairement illustrer 'concentration invisible' (par ex. silhouette d'employé + logo d'entreprise unique). Ces ajustements sont localisables au beat 2, 4 et 5."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script traite un seul angle et reste concis. Petite faiblesse : la liste des cinq classes est un peu longue pour le format court ; suggérer de prononcer la liste très rapidement ou d'appuyer par le visuel uniquement, et garder en audio la phrase clé pour optimiser la rétention."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le niveau est adapté à un non‑spécialiste. Toutefois, le terme 'enveloppes fiscales' pourrait perdre certains spectateurs — proposer d'ajouter entre parenthèses 'compte‑titre, PEA, assurance‑vie' soit en texte écran, soit en une insertion rapide à l'oral pour rendre la notion immédiatement tangible."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont correctes mais pourraient être rendues plus percutantes par une micro-pause après la question d'accroche, puis la réponse clé. Ce réglage de rythme est localisable au beat 1→2 et est important pour la rétention sur Shorts."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu inspire confiance mais l'appel à l'action sans précision sur la nature du rendez‑vous (bilan informatif vs conseil personnalisé payant) peut créer une attente. Recommander d'ajouter une courte précision sur l'écran final (ex. 'bilan informatif' ou 'rendez‑vous d'information') pour éviter toute surpromesse."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 127,
+      "seconds": 47.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 127,
+        "seconds": 47.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED impose « fidélité stricte aux faits, chiffres, dates, conditions et sources ». Le script respecte globalement les éléments fournis, mais cite « cinq classes courantes » sans rappeler la source dans le texte (la fiche cite Banque de France / AMF). Suggestion : ajouter une référence directe à l'écran ou voix « (source : AMF / Banque de France) » pour assurer traçabilité mot à mot.",
+    "juridique_fiscal : Le script inclut un CTA « Prenez rendez‑vous via le lien dans ma bio. » qui est acceptable, mais peut être perçu comme invitation à un conseil personnalisé si la promesse est trop engageante. La fiche interdit de proposer une allocation chiffrée ou un conseil personnalisé. Il faudrait préciser (voix ou texte écran) que le rendez‑vous permet un point d'information général ou un bilan, sans promettre de recommandations personnalisées, afin d'éviter toute interprétation juridique/fiscale erronée.",
+    "completude : Le script couvre la règle centrale, la condition et l'exception, mais n'inclut pas explicitement la 'limite pratique' chiffrée de la fiche dans la narration (les chiffres 8 / 15 / 40 sont en visuel). Pour complétude orale, il serait utile d'énoncer brièvement « huit établissements, quinze contrats, quarante supports deviennent ingérables » afin que l'auditeur qui ne lit pas le visuel saisisse la nuance.",
+    "plateforme : Le format est bien adapté au format Shorts, la durée estimée 42 s est cohérente. Remarque minime : la première seconde doit capter l'attention — la formulation actuelle fonctionne mais la version vocale doit être calibrée pour tenir la limite temporelle (hook + transition). Suggestion : raccourcir la première phrase orale à 1–2 mots d'accroche avant d'entrer dans la proposition (ex. « Pourquoi pas tout au même endroit ? » → « Pourquoi pas tout au même endroit ? » prononcé très court).",
+    "editorial : Ton et progression clairs. Trouver une formulation plus concise pour le segment 'Diversifier, c'est multiplier des sources de risque différentes...' afin d'améliorer mémorisation (par exemple « Diversifier = multiplier des risques indépendants : classes d'actifs, zones, enveloppes »). C'est un ajustement rédactionnel localisable, pas une erreur factuelle.",
+    "securite : Le contenu est pédagogique et neutre. Cependant, la phrase finale d'appel à l'action peut être interprétée comme une incitation commerciale si le créateur est un professionnel rémunéré. Recommander d'ajouter la mention légale déjà présente (« Contenu pédagogique général... ») brièvement à l'oral ou sur l'écran final pour renforcer la neutralité.",
+    "formulation_professionnelle : Le français est naturel et fluide. Quelques formulations pourraient être resserrées pour la diction (par ex. remplacer « parce que ce qui compte, ce n'est pas » par « parce que ce qui compte, ce sont »). Ceci est localisable et améliore l'oralité.",
+    "contre_verification_finale : En relecture mot à mot, la répétition de la mention « Contenu pédagogique général. Ne constitue ni un conseil... » apparaît deux fois (Légende et Mention). Il conviendrait d'harmoniser et de n'en garder qu'une visible et audible pour éviter répétition inutile dans 42s.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents mais quelques correspondances doivent être précisées : le hook montre un pictogramme '?' — ok. Pour la séquence « dix fonds » il faut éviter d'illustrer par dix vignettes différentes si l'idée est qu'elles sont identiques : utiliser 10 vignettes visuellement identiques (même logo) pour illustrer le manque de diversification. De même, l'icône salarié + entreprise doit clairement illustrer 'concentration invisible' (par ex. silhouette d'employé + logo d'entreprise unique). Ces ajustements sont localisables au beat 2, 4 et 5.",
+    "densite_editoriale : Le script traite un seul angle et reste concis. Petite faiblesse : la liste des cinq classes est un peu longue pour le format court ; suggérer de prononcer la liste très rapidement ou d'appuyer par le visuel uniquement, et garder en audio la phrase clé pour optimiser la rétention.",
+    "pedagogie_client : Le niveau est adapté à un non‑spécialiste. Toutefois, le terme 'enveloppes fiscales' pourrait perdre certains spectateurs — proposer d'ajouter entre parenthèses 'compte‑titre, PEA, assurance‑vie' soit en texte écran, soit en une insertion rapide à l'oral pour rendre la notion immédiatement tangible.",
+    "retention_attention : Les deux premières secondes sont correctes mais pourraient être rendues plus percutantes par une micro-pause après la question d'accroche, puis la réponse clé. Ce réglage de rythme est localisable au beat 1→2 et est important pour la rétention sur Shorts.",
+    "conversion_confiance : Le contenu inspire confiance mais l'appel à l'action sans précision sur la nature du rendez‑vous (bilan informatif vs conseil personnalisé payant) peut créer une attente. Recommander d'ajouter une courte précision sur l'écran final (ex. 'bilan informatif' ou 'rendez‑vous d'information') pour éviter toute surpromesse."
+  ],
+  "recommendations": [
+    "Ajouter une mention source audible ou en texte écran courte lors de l'énoncé des '5 classes' (ex. « (source : AMF / Banque de France) ») pour assurer traçabilité.",
+    "Préciser le CTA pour éviter toute interprétation comme promesse de conseil personnalisé (ex. « pour faire le point » → « pour un bilan informatif ») et conserver la mention légale visible/orale.",
+    "Énoncer rapidement la limite pratique chiffrée à l'oral (8 / 15 / 40) pour les spectateurs qui n'ont pas le visuel sous les yeux.",
+    "Reserrer quelques formulations pour une diction plus fluide (ex. 'ce sont' au lieu de 'ce n'est pas'), et éviter la redondance de la mention légale.",
+    "Préciser les pictogrammes : 10 cartes identiques pour 'dix fonds', icône employé+logo d'entreprise pour 'concentration invisible', et ajouter en texte écran des exemples d'enveloppes (PEA, assurance‑vie, compte‑titre).",
+    "Garder la narration principale concise, déplacer la liste des 5 classes principalement sur le visuel si besoin, et insérer une micro‑pause après le hook pour optimiser la rétention."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-24:shorts:culture_diversification:1",
+  "script_path": "scripts/culture_financiere/culture_diversification__shorts__a4__v3.md"
+}

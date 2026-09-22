@@ -1,0 +1,5122 @@
+[
+  {
+    "path": "- donation_plan.md",
+    "versions": 1,
+    "first": 2988,
+    "last": 2988,
+    "max_chars": 183,
+    "best_message": 2988
+  },
+  {
+    "path": "- fondamentaux.py",
+    "versions": 1,
+    "first": 2946,
+    "last": 2946,
+    "max_chars": 210,
+    "best_message": 2946
+  },
+  {
+    "path": "- knowledge_models.py",
+    "versions": 1,
+    "first": 2926,
+    "last": 2926,
+    "max_chars": 26,
+    "best_message": 2926
+  },
+  {
+    "path": "/BRITED/brited/__init__.py",
+    "versions": 1,
+    "first": 5079,
+    "last": 5079,
+    "max_chars": 14,
+    "best_message": 5079
+  },
+  {
+    "path": "/generate_instagram.py",
+    "versions": 2,
+    "first": 1732,
+    "last": 1732,
+    "max_chars": 60,
+    "best_message": 1732
+  },
+  {
+    "path": "01_dashboard.py",
+    "versions": 1,
+    "first": 2750,
+    "last": 2750,
+    "max_chars": 577,
+    "best_message": 2750
+  },
+  {
+    "path": "03_planning.py",
+    "versions": 1,
+    "first": 2758,
+    "last": 2758,
+    "max_chars": 1290,
+    "best_message": 2758
+  },
+  {
+    "path": "06_editorial.py",
+    "versions": 3,
+    "first": 2756,
+    "last": 2756,
+    "max_chars": 221,
+    "best_message": 2756
+  },
+  {
+    "path": "07_framework.py",
+    "versions": 1,
+    "first": 2746,
+    "last": 2746,
+    "max_chars": 118,
+    "best_message": 2746
+  },
+  {
+    "path": "1. components.yml",
+    "versions": 1,
+    "first": 4826,
+    "last": 4826,
+    "max_chars": 1235,
+    "best_message": 4826
+  },
+  {
+    "path": "1.0.0.yml",
+    "versions": 1,
+    "first": 4934,
+    "last": 4934,
+    "max_chars": 32,
+    "best_message": 4934
+  },
+  {
+    "path": "2. roadmap.yml",
+    "versions": 1,
+    "first": 4826,
+    "last": 4826,
+    "max_chars": 868,
+    "best_message": 4826
+  },
+  {
+    "path": "3. CHANGELOG.md",
+    "versions": 1,
+    "first": 1804,
+    "last": 1804,
+    "max_chars": 66,
+    "best_message": 1804
+  },
+  {
+    "path": "3. glossary.yml",
+    "versions": 1,
+    "first": 4826,
+    "last": 4826,
+    "max_chars": 826,
+    "best_message": 4826
+  },
+  {
+    "path": "4. decisions.yml",
+    "versions": 1,
+    "first": 4826,
+    "last": 4826,
+    "max_chars": 713,
+    "best_message": 4826
+  },
+  {
+    "path": "5. conventions.yml",
+    "versions": 1,
+    "first": 4826,
+    "last": 4826,
+    "max_chars": 826,
+    "best_message": 4826
+  },
+  {
+    "path": "__init__.py",
+    "versions": 34,
+    "first": 818,
+    "last": 4890,
+    "max_chars": 2351,
+    "best_message": 3618
+  },
+  {
+    "path": "__main__.py",
+    "versions": 2,
+    "first": 5084,
+    "last": 5084,
+    "max_chars": 194,
+    "best_message": 5084
+  },
+  {
+    "path": "_plan.md",
+    "versions": 1,
+    "first": 2988,
+    "last": 2988,
+    "max_chars": 2132,
+    "best_message": 2988
+  },
+  {
+    "path": "_types.py",
+    "versions": 1,
+    "first": 2930,
+    "last": 2930,
+    "max_chars": 20,
+    "best_message": 2930
+  },
+  {
+    "path": "academic_models.py",
+    "versions": 2,
+    "first": 4216,
+    "last": 4216,
+    "max_chars": 79,
+    "best_message": 4216
+  },
+  {
+    "path": "adr.yml",
+    "versions": 1,
+    "first": 4810,
+    "last": 4810,
+    "max_chars": 79,
+    "best_message": 4810
+  },
+  {
+    "path": "agent.py",
+    "versions": 9,
+    "first": 1020,
+    "last": 4928,
+    "max_chars": 2109,
+    "best_message": 1054
+  },
+  {
+    "path": "agents/angle/agent.py",
+    "versions": 1,
+    "first": 1020,
+    "last": 1020,
+    "max_chars": 47,
+    "best_message": 1020
+  },
+  {
+    "path": "agents/angle_agent.py",
+    "versions": 1,
+    "first": 650,
+    "last": 650,
+    "max_chars": 816,
+    "best_message": 650
+  },
+  {
+    "path": "agents/review_agent.py",
+    "versions": 1,
+    "first": 754,
+    "last": 754,
+    "max_chars": 101,
+    "best_message": 754
+  },
+  {
+    "path": "agents/writer_agent.py",
+    "versions": 1,
+    "first": 744,
+    "last": 744,
+    "max_chars": 825,
+    "best_message": 744
+  },
+  {
+    "path": "analogies.py",
+    "versions": 1,
+    "first": 2632,
+    "last": 2632,
+    "max_chars": 28,
+    "best_message": 2632
+  },
+  {
+    "path": "analogy_engine.py",
+    "versions": 1,
+    "first": 2812,
+    "last": 2812,
+    "max_chars": 175,
+    "best_message": 2812
+  },
+  {
+    "path": "analysis.yml",
+    "versions": 1,
+    "first": 4867,
+    "last": 4867,
+    "max_chars": 189,
+    "best_message": 4867
+  },
+  {
+    "path": "and_strategy.py",
+    "versions": 1,
+    "first": 2386,
+    "last": 2386,
+    "max_chars": 44,
+    "best_message": 2386
+  },
+  {
+    "path": "angle_agent.py",
+    "versions": 1,
+    "first": 696,
+    "last": 696,
+    "max_chars": 27,
+    "best_message": 696
+  },
+  {
+    "path": "angle_parser.py",
+    "versions": 4,
+    "first": 1272,
+    "last": 1278,
+    "max_chars": 95,
+    "best_message": 1272
+  },
+  {
+    "path": "app.py",
+    "versions": 45,
+    "first": 1220,
+    "last": 4630,
+    "max_chars": 2399,
+    "best_message": 1238
+  },
+  {
+    "path": "ARCHITECT.md",
+    "versions": 3,
+    "first": 4786,
+    "last": 4786,
+    "max_chars": 300,
+    "best_message": 4786
+  },
+  {
+    "path": "architect.yml",
+    "versions": 1,
+    "first": 4857,
+    "last": 4857,
+    "max_chars": 782,
+    "best_message": 4857
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "versions": 2,
+    "first": 1800,
+    "last": 1806,
+    "max_chars": 155,
+    "best_message": 1800
+  },
+  {
+    "path": "architecture.schema.yml",
+    "versions": 1,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 113,
+    "best_message": 4863
+  },
+  {
+    "path": "architecture.yml",
+    "versions": 6,
+    "first": 4796,
+    "last": 4896,
+    "max_chars": 58,
+    "best_message": 4896
+  },
+  {
+    "path": "artifact.py",
+    "versions": 1,
+    "first": 4879,
+    "last": 4879,
+    "max_chars": 20,
+    "best_message": 4879
+  },
+  {
+    "path": "artifact.schema.yml",
+    "versions": 1,
+    "first": 4865,
+    "last": 4865,
+    "max_chars": 390,
+    "best_message": 4865
+  },
+  {
+    "path": "assurance-vie.md",
+    "versions": 6,
+    "first": 990,
+    "last": 1708,
+    "max_chars": 51,
+    "best_message": 990
+  },
+  {
+    "path": "assurance_vie.py",
+    "versions": 2,
+    "first": 2500,
+    "last": 2500,
+    "max_chars": 23,
+    "best_message": 2500
+  },
+  {
+    "path": "assurance_vie/__init__.py",
+    "versions": 4,
+    "first": 1980,
+    "last": 2506,
+    "max_chars": 63,
+    "best_message": 1980
+  },
+  {
+    "path": "assurance_vie/fonctionnement.py",
+    "versions": 1,
+    "first": 2926,
+    "last": 2926,
+    "max_chars": 118,
+    "best_message": 2926
+  },
+  {
+    "path": "assurance_vie_plan.md",
+    "versions": 10,
+    "first": 2980,
+    "last": 3724,
+    "max_chars": 892,
+    "best_message": 3020
+  },
+  {
+    "path": "avantages.py",
+    "versions": 1,
+    "first": 3104,
+    "last": 3104,
+    "max_chars": 222,
+    "best_message": 3104
+  },
+  {
+    "path": "base_checker.py",
+    "versions": 1,
+    "first": 1432,
+    "last": 1432,
+    "max_chars": 257,
+    "best_message": 1432
+  },
+  {
+    "path": "benchmark.py",
+    "versions": 53,
+    "first": 1312,
+    "last": 1802,
+    "max_chars": 2366,
+    "best_message": 1474
+  },
+  {
+    "path": "brand_strategy.py",
+    "versions": 4,
+    "first": 2386,
+    "last": 2410,
+    "max_chars": 420,
+    "best_message": 2394
+  },
+  {
+    "path": "brited.py",
+    "versions": 15,
+    "first": 1200,
+    "last": 1734,
+    "max_chars": 1669,
+    "best_message": 1208
+  },
+  {
+    "path": "brited/__main__.py",
+    "versions": 1,
+    "first": 5082,
+    "last": 5082,
+    "max_chars": 85,
+    "best_message": 5082
+  },
+  {
+    "path": "brited/agents/architect.md",
+    "versions": 1,
+    "first": 4855,
+    "last": 4855,
+    "max_chars": 771,
+    "best_message": 4855
+  },
+  {
+    "path": "brited/agents/builder.md",
+    "versions": 1,
+    "first": 4855,
+    "last": 4855,
+    "max_chars": 531,
+    "best_message": 4855
+  },
+  {
+    "path": "brited/agents/planner.md",
+    "versions": 1,
+    "first": 4855,
+    "last": 4855,
+    "max_chars": 535,
+    "best_message": 4855
+  },
+  {
+    "path": "brited/agents/reviewer.md",
+    "versions": 1,
+    "first": 4855,
+    "last": 4855,
+    "max_chars": 511,
+    "best_message": 4855
+  },
+  {
+    "path": "brited/agents/security.yml",
+    "versions": 1,
+    "first": 4879,
+    "last": 4879,
+    "max_chars": 36,
+    "best_message": 4879
+  },
+  {
+    "path": "brited/agents/tester.md",
+    "versions": 1,
+    "first": 4855,
+    "last": 4855,
+    "max_chars": 492,
+    "best_message": 4855
+  },
+  {
+    "path": "brited/architecture.yml",
+    "versions": 2,
+    "first": 4808,
+    "last": 4818,
+    "max_chars": 1836,
+    "best_message": 4818
+  },
+  {
+    "path": "BRITED/benchmark.py",
+    "versions": 4,
+    "first": 1510,
+    "last": 1510,
+    "max_chars": 80,
+    "best_message": 1510
+  },
+  {
+    "path": "brited/conventions.yml",
+    "versions": 1,
+    "first": 4820,
+    "last": 4820,
+    "max_chars": 1631,
+    "best_message": 4820
+  },
+  {
+    "path": "brited/core/agent.py",
+    "versions": 1,
+    "first": 4879,
+    "last": 4879,
+    "max_chars": 28,
+    "best_message": 4879
+  },
+  {
+    "path": "brited/core/artifact.py",
+    "versions": 1,
+    "first": 4877,
+    "last": 4877,
+    "max_chars": 5237,
+    "best_message": 4877
+  },
+  {
+    "path": "brited/core/base.py",
+    "versions": 1,
+    "first": 4879,
+    "last": 4879,
+    "max_chars": 99,
+    "best_message": 4879
+  },
+  {
+    "path": "brited/project.yml",
+    "versions": 1,
+    "first": 4806,
+    "last": 4806,
+    "max_chars": 1105,
+    "best_message": 4806
+  },
+  {
+    "path": "brited/protocols/bugfix.yml",
+    "versions": 1,
+    "first": 4861,
+    "last": 4861,
+    "max_chars": 534,
+    "best_message": 4861
+  },
+  {
+    "path": "brited/protocols/feature.yml",
+    "versions": 1,
+    "first": 4861,
+    "last": 4861,
+    "max_chars": 831,
+    "best_message": 4861
+  },
+  {
+    "path": "brited/protocols/hotfix.yml",
+    "versions": 1,
+    "first": 4861,
+    "last": 4861,
+    "max_chars": 448,
+    "best_message": 4861
+  },
+  {
+    "path": "brited/protocols/refactor.yml",
+    "versions": 1,
+    "first": 4861,
+    "last": 4861,
+    "max_chars": 542,
+    "best_message": 4861
+  },
+  {
+    "path": "brited/protocols/release.yml",
+    "versions": 1,
+    "first": 4861,
+    "last": 4861,
+    "max_chars": 325,
+    "best_message": 4861
+  },
+  {
+    "path": "brited/providers/codex.py",
+    "versions": 8,
+    "first": 5090,
+    "last": 5151,
+    "max_chars": 477,
+    "best_message": 5111
+  },
+  {
+    "path": "brited/providers/codex_provider.py",
+    "versions": 5,
+    "first": 5090,
+    "last": 5103,
+    "max_chars": 219,
+    "best_message": 5103
+  },
+  {
+    "path": "brited/runtime/loader.py",
+    "versions": 1,
+    "first": 4898,
+    "last": 4898,
+    "max_chars": 5409,
+    "best_message": 4898
+  },
+  {
+    "path": "brited/server.py",
+    "versions": 3,
+    "first": 5082,
+    "last": 5082,
+    "max_chars": 45,
+    "best_message": 5082
+  },
+  {
+    "path": "brited/server/http.py",
+    "versions": 9,
+    "first": 5090,
+    "last": 5107,
+    "max_chars": 122,
+    "best_message": 5092
+  },
+  {
+    "path": "calendar.py",
+    "versions": 2,
+    "first": 2418,
+    "last": 2418,
+    "max_chars": 196,
+    "best_message": 2418
+  },
+  {
+    "path": "calendar_engine.py",
+    "versions": 1,
+    "first": 2418,
+    "last": 2418,
+    "max_chars": 30,
+    "best_message": 2418
+  },
+  {
+    "path": "calendarModel.ts",
+    "versions": 1,
+    "first": 5218,
+    "last": 5218,
+    "max_chars": 39,
+    "best_message": 5218
+  },
+  {
+    "path": "campaign.py",
+    "versions": 1,
+    "first": 2566,
+    "last": 2566,
+    "max_chars": 37,
+    "best_message": 2566
+  },
+  {
+    "path": "campaign_generator.py",
+    "versions": 4,
+    "first": 2780,
+    "last": 2780,
+    "max_chars": 70,
+    "best_message": 2780
+  },
+  {
+    "path": "campaign_repository.py",
+    "versions": 2,
+    "first": 2790,
+    "last": 2790,
+    "max_chars": 144,
+    "best_message": 2790
+  },
+  {
+    "path": "campaign_serializer.py",
+    "versions": 5,
+    "first": 2788,
+    "last": 2792,
+    "max_chars": 192,
+    "best_message": 2792
+  },
+  {
+    "path": "campaign_snapshot.py",
+    "versions": 1,
+    "first": 2794,
+    "last": 2794,
+    "max_chars": 38,
+    "best_message": 2794
+  },
+  {
+    "path": "canonicalize_rules.md",
+    "versions": 2,
+    "first": 4256,
+    "last": 4259,
+    "max_chars": 69,
+    "best_message": 4256
+  },
+  {
+    "path": "cas_particuliers.py",
+    "versions": 5,
+    "first": 2354,
+    "last": 3104,
+    "max_chars": 45,
+    "best_message": 3098
+  },
+  {
+    "path": "cas_pratiques.md",
+    "versions": 1,
+    "first": 3544,
+    "last": 3544,
+    "max_chars": 76,
+    "best_message": 3544
+  },
+  {
+    "path": "cat -n generate_instagram.py",
+    "versions": 2,
+    "first": 986,
+    "last": 986,
+    "max_chars": 218,
+    "best_message": 986
+  },
+  {
+    "path": "cat -n v2/agents/writer/agent.py",
+    "versions": 2,
+    "first": 944,
+    "last": 944,
+    "max_chars": 109,
+    "best_message": 944
+  },
+  {
+    "path": "cat -n v2/pipelines/instagram.py",
+    "versions": 3,
+    "first": 804,
+    "last": 980,
+    "max_chars": 96,
+    "best_message": 980
+  },
+  {
+    "path": "cat -n v2/services/openai_service.py",
+    "versions": 1,
+    "first": 890,
+    "last": 890,
+    "max_chars": 46,
+    "best_message": 890
+  },
+  {
+    "path": "cat benchmark.py",
+    "versions": 1,
+    "first": 1504,
+    "last": 1504,
+    "max_chars": 134,
+    "best_message": 1504
+  },
+  {
+    "path": "cat config.py",
+    "versions": 1,
+    "first": 528,
+    "last": 528,
+    "max_chars": 125,
+    "best_message": 528
+  },
+  {
+    "path": "cat src-tauri/Cargo.toml",
+    "versions": 1,
+    "first": 5051,
+    "last": 5051,
+    "max_chars": 23,
+    "best_message": 5051
+  },
+  {
+    "path": "cat src/lib/runtime.ts",
+    "versions": 2,
+    "first": 5051,
+    "last": 5051,
+    "max_chars": 28,
+    "best_message": 5051
+  },
+  {
+    "path": "cat v2/knowledge/compiler/seed_schemas.py",
+    "versions": 1,
+    "first": 4328,
+    "last": 4328,
+    "max_chars": 249,
+    "best_message": 4328
+  },
+  {
+    "path": "CHANGELOG.md",
+    "versions": 4,
+    "first": 1800,
+    "last": 2192,
+    "max_chars": 155,
+    "best_message": 1800
+  },
+  {
+    "path": "chapter_design_guide.md",
+    "versions": 1,
+    "first": 2962,
+    "last": 2962,
+    "max_chars": 48,
+    "best_message": 2962
+  },
+  {
+    "path": "chapter_generator.py",
+    "versions": 1,
+    "first": 3546,
+    "last": 3546,
+    "max_chars": 96,
+    "best_message": 3546
+  },
+  {
+    "path": "chapter_validator.py",
+    "versions": 4,
+    "first": 4634,
+    "last": 4634,
+    "max_chars": 65,
+    "best_message": 4634
+  },
+  {
+    "path": "client.py",
+    "versions": 2,
+    "first": 3560,
+    "last": 3562,
+    "max_chars": 159,
+    "best_message": 3562
+  },
+  {
+    "path": "codex.py",
+    "versions": 14,
+    "first": 4887,
+    "last": 5137,
+    "max_chars": 122,
+    "best_message": 4887
+  },
+  {
+    "path": "codex_provider.py",
+    "versions": 1,
+    "first": 5096,
+    "last": 5096,
+    "max_chars": 95,
+    "best_message": 5096
+  },
+  {
+    "path": "coding.yml",
+    "versions": 1,
+    "first": 4867,
+    "last": 4867,
+    "max_chars": 654,
+    "best_message": 4867
+  },
+  {
+    "path": "compile.py",
+    "versions": 12,
+    "first": 3160,
+    "last": 3528,
+    "max_chars": 2626,
+    "best_message": 3282
+  },
+  {
+    "path": "compile_rule_seed.md",
+    "versions": 1,
+    "first": 4324,
+    "last": 4324,
+    "max_chars": 5652,
+    "best_message": 4324
+  },
+  {
+    "path": "compiled_knowledge_loader.py",
+    "versions": 3,
+    "first": 4531,
+    "last": 4531,
+    "max_chars": 98,
+    "best_message": 4531
+  },
+  {
+    "path": "compiled_models.py",
+    "versions": 2,
+    "first": 4298,
+    "last": 4298,
+    "max_chars": 46,
+    "best_message": 4298
+  },
+  {
+    "path": "Compliance.md",
+    "versions": 1,
+    "first": 56,
+    "last": 56,
+    "max_chars": 403,
+    "best_message": 56
+  },
+  {
+    "path": "components.yml",
+    "versions": 1,
+    "first": 4842,
+    "last": 4842,
+    "max_chars": 156,
+    "best_message": 4842
+  },
+  {
+    "path": "condition_rule.py",
+    "versions": 1,
+    "first": 4676,
+    "last": 4676,
+    "max_chars": 45,
+    "best_message": 4676
+  },
+  {
+    "path": "config.py",
+    "versions": 18,
+    "first": 530,
+    "last": 2746,
+    "max_chars": 221,
+    "best_message": 564
+  },
+  {
+    "path": "conseiller.py",
+    "versions": 2,
+    "first": 802,
+    "last": 802,
+    "max_chars": 121,
+    "best_message": 802
+  },
+  {
+    "path": "content/assurance_vie/fondamentaux.md",
+    "versions": 1,
+    "first": 3192,
+    "last": 3192,
+    "max_chars": 285,
+    "best_message": 3192
+  },
+  {
+    "path": "content_assets.py",
+    "versions": 1,
+    "first": 1824,
+    "last": 1824,
+    "max_chars": 145,
+    "best_message": 1824
+  },
+  {
+    "path": "content_models.py",
+    "versions": 4,
+    "first": 1342,
+    "last": 2418,
+    "max_chars": 1392,
+    "best_message": 1542
+  },
+  {
+    "path": "context.py",
+    "versions": 2,
+    "first": 774,
+    "last": 1544,
+    "max_chars": 30,
+    "best_message": 1544
+  },
+  {
+    "path": "contracts.py",
+    "versions": 1,
+    "first": 792,
+    "last": 792,
+    "max_chars": 355,
+    "best_message": 792
+  },
+  {
+    "path": "conventions.yml",
+    "versions": 3,
+    "first": 4796,
+    "last": 4820,
+    "max_chars": 24,
+    "best_message": 4820
+  },
+  {
+    "path": "core/pipeline.py",
+    "versions": 1,
+    "first": 782,
+    "last": 782,
+    "max_chars": 25,
+    "best_message": 782
+  },
+  {
+    "path": "corpus_service.py",
+    "versions": 1,
+    "first": 4601,
+    "last": 4601,
+    "max_chars": 18,
+    "best_message": 4601
+  },
+  {
+    "path": "create mode 100644 __pycache__/config.cpython-314.py",
+    "versions": 2,
+    "first": 770,
+    "last": 770,
+    "max_chars": 211,
+    "best_message": 770
+  },
+  {
+    "path": "cta.py",
+    "versions": 2,
+    "first": 2632,
+    "last": 2632,
+    "max_chars": 15,
+    "best_message": 2632
+  },
+  {
+    "path": "d_validator.py",
+    "versions": 1,
+    "first": 4844,
+    "last": 4844,
+    "max_chars": 38,
+    "best_message": 4844
+  },
+  {
+    "path": "Dans publication.py",
+    "versions": 7,
+    "first": 2408,
+    "last": 2408,
+    "max_chars": 56,
+    "best_message": 2408
+  },
+  {
+    "path": "dashboard.py",
+    "versions": 1,
+    "first": 4670,
+    "last": 4670,
+    "max_chars": 38,
+    "best_message": 4670
+  },
+  {
+    "path": "data/knowledge/academic/assurance_vie/rachats.js",
+    "versions": 1,
+    "first": 4068,
+    "last": 4068,
+    "max_chars": 3135,
+    "best_message": 4068
+  },
+  {
+    "path": "data/knowledge/compiled/assurance_vie/rachats.js",
+    "versions": 3,
+    "first": 4540,
+    "last": 4540,
+    "max_chars": 73,
+    "best_message": 4540
+  },
+  {
+    "path": "decisions.yml",
+    "versions": 9,
+    "first": 4802,
+    "last": 4902,
+    "max_chars": 208,
+    "best_message": 4834
+  },
+  {
+    "path": "definition.md",
+    "versions": 3,
+    "first": 3658,
+    "last": 3664,
+    "max_chars": 493,
+    "best_message": 3664
+  },
+  {
+    "path": "des __init__.py",
+    "versions": 2,
+    "first": 3162,
+    "last": 3162,
+    "max_chars": 30,
+    "best_message": 3162
+  },
+  {
+    "path": "dex_provider.py",
+    "versions": 1,
+    "first": 5090,
+    "last": 5090,
+    "max_chars": 22,
+    "best_message": 5090
+  },
+  {
+    "path": "dio/engines/campaign_engine.py",
+    "versions": 1,
+    "first": 2562,
+    "last": 2562,
+    "max_chars": 54,
+    "best_message": 2562
+  },
+  {
+    "path": "dir/cas_particuliers.md",
+    "versions": 3,
+    "first": 3136,
+    "last": 3136,
+    "max_chars": 538,
+    "best_message": 3136
+  },
+  {
+    "path": "DMAP.md",
+    "versions": 1,
+    "first": 4786,
+    "last": 4786,
+    "max_chars": 70,
+    "best_message": 4786
+  },
+  {
+    "path": "docker.yml",
+    "versions": 2,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 67,
+    "best_message": 4863
+  },
+  {
+    "path": "documentation.yml",
+    "versions": 1,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 54,
+    "best_message": 4863
+  },
+  {
+    "path": "du __init__.py",
+    "versions": 1,
+    "first": 3166,
+    "last": 3166,
+    "max_chars": 260,
+    "best_message": 3166
+  },
+  {
+    "path": "ed.py",
+    "versions": 1,
+    "first": 1742,
+    "last": 1742,
+    "max_chars": 51,
+    "best_message": 1742
+  },
+  {
+    "path": "editorial.py",
+    "versions": 2,
+    "first": 1378,
+    "last": 1378,
+    "max_chars": 277,
+    "best_message": 1378
+  },
+  {
+    "path": "editorial_brief.py",
+    "versions": 1,
+    "first": 2418,
+    "last": 2418,
+    "max_chars": 501,
+    "best_message": 2418
+  },
+  {
+    "path": "editorial_composer.py",
+    "versions": 1,
+    "first": 2702,
+    "last": 2702,
+    "max_chars": 1174,
+    "best_message": 2702
+  },
+  {
+    "path": "editorial_contract.py",
+    "versions": 1,
+    "first": 1586,
+    "last": 1586,
+    "max_chars": 120,
+    "best_message": 1586
+  },
+  {
+    "path": "editorial_contract_builder.py",
+    "versions": 3,
+    "first": 1404,
+    "last": 1404,
+    "max_chars": 38,
+    "best_message": 1404
+  },
+  {
+    "path": "editorial_guidelines.py",
+    "versions": 5,
+    "first": 1344,
+    "last": 1352,
+    "max_chars": 71,
+    "best_message": 1350
+  },
+  {
+    "path": "editorial_models.py",
+    "versions": 1,
+    "first": 1270,
+    "last": 1270,
+    "max_chars": 337,
+    "best_message": 1270
+  },
+  {
+    "path": "editorial_parser.py",
+    "versions": 1,
+    "first": 1286,
+    "last": 1286,
+    "max_chars": 55,
+    "best_message": 1286
+  },
+  {
+    "path": "editorial_types.py",
+    "versions": 2,
+    "first": 2694,
+    "last": 2844,
+    "max_chars": 948,
+    "best_message": 2694
+  },
+  {
+    "path": "emotions.py",
+    "versions": 1,
+    "first": 2634,
+    "last": 2634,
+    "max_chars": 233,
+    "best_message": 2634
+  },
+  {
+    "path": "enums.py",
+    "versions": 2,
+    "first": 2384,
+    "last": 2384,
+    "max_chars": 261,
+    "best_message": 2384
+  },
+  {
+    "path": "evaluation_models.py",
+    "versions": 1,
+    "first": 1324,
+    "last": 1324,
+    "max_chars": 273,
+    "best_message": 1324
+  },
+  {
+    "path": "ex.py",
+    "versions": 1,
+    "first": 5127,
+    "last": 5127,
+    "max_chars": 55,
+    "best_message": 5127
+  },
+  {
+    "path": "execution/ifi.md",
+    "versions": 4,
+    "first": 5103,
+    "last": 5133,
+    "max_chars": 159,
+    "best_message": 5129
+  },
+  {
+    "path": "execution/test.md",
+    "versions": 1,
+    "first": 5129,
+    "last": 5129,
+    "max_chars": 298,
+    "best_message": 5129
+  },
+  {
+    "path": "executor.py",
+    "versions": 2,
+    "first": 4904,
+    "last": 4914,
+    "max_chars": 36,
+    "best_message": 4914
+  },
+  {
+    "path": "factory.py",
+    "versions": 1,
+    "first": 2724,
+    "last": 2724,
+    "max_chars": 53,
+    "best_message": 2724
+  },
+  {
+    "path": "fiscalite.md",
+    "versions": 5,
+    "first": 3130,
+    "last": 3704,
+    "max_chars": 143,
+    "best_message": 3704
+  },
+  {
+    "path": "fiscalite.py",
+    "versions": 6,
+    "first": 2872,
+    "last": 3162,
+    "max_chars": 404,
+    "best_message": 2872
+  },
+  {
+    "path": "fiscalite_generale.md",
+    "versions": 1,
+    "first": 3582,
+    "last": 3582,
+    "max_chars": 91,
+    "best_message": 3582
+  },
+  {
+    "path": "fonctionnement.py",
+    "versions": 6,
+    "first": 2872,
+    "last": 3114,
+    "max_chars": 61,
+    "best_message": 3010
+  },
+  {
+    "path": "fondamentaux.md",
+    "versions": 6,
+    "first": 3186,
+    "last": 3568,
+    "max_chars": 192,
+    "best_message": 3550
+  },
+  {
+    "path": "fondamentaux.py",
+    "versions": 16,
+    "first": 2058,
+    "last": 3240,
+    "max_chars": 301,
+    "best_message": 3240
+  },
+  {
+    "path": "fondamentaux_topics.py",
+    "versions": 5,
+    "first": 3236,
+    "last": 3246,
+    "max_chars": 89,
+    "best_message": 3236
+  },
+  {
+    "path": "formats.py",
+    "versions": 1,
+    "first": 1824,
+    "last": 1824,
+    "max_chars": 93,
+    "best_message": 1824
+  },
+  {
+    "path": "generate_instagram.py",
+    "versions": 38,
+    "first": 986,
+    "last": 1734,
+    "max_chars": 336,
+    "best_message": 1192
+  },
+  {
+    "path": "generate_topics.py",
+    "versions": 5,
+    "first": 3126,
+    "last": 3148,
+    "max_chars": 278,
+    "best_message": 3126
+  },
+  {
+    "path": "generate_video.py",
+    "versions": 15,
+    "first": 608,
+    "last": 1738,
+    "max_chars": 523,
+    "best_message": 760
+  },
+  {
+    "path": "gent.py",
+    "versions": 1,
+    "first": 1022,
+    "last": 1022,
+    "max_chars": 47,
+    "best_message": 1022
+  },
+  {
+    "path": "gestion.md",
+    "versions": 2,
+    "first": 3298,
+    "last": 3306,
+    "max_chars": 19,
+    "best_message": 3306
+  },
+  {
+    "path": "gestion.py",
+    "versions": 4,
+    "first": 2134,
+    "last": 2872,
+    "max_chars": 5325,
+    "best_message": 2240
+  },
+  {
+    "path": "glossary.yml",
+    "versions": 5,
+    "first": 4796,
+    "last": 4814,
+    "max_chars": 27,
+    "best_message": 4802
+  },
+  {
+    "path": "gold_validator.py",
+    "versions": 1,
+    "first": 2104,
+    "last": 2104,
+    "max_chars": 99,
+    "best_message": 2104
+  },
+  {
+    "path": "gram.py",
+    "versions": 1,
+    "first": 1720,
+    "last": 1720,
+    "max_chars": 221,
+    "best_message": 1720
+  },
+  {
+    "path": "head -5 /Users/mikael_piselli/BRITED/benchmark.py",
+    "versions": 1,
+    "first": 1490,
+    "last": 1490,
+    "max_chars": 36,
+    "best_message": 1490
+  },
+  {
+    "path": "head -5 benchmark.py",
+    "versions": 5,
+    "first": 1484,
+    "last": 1488,
+    "max_chars": 134,
+    "best_message": 1486
+  },
+  {
+    "path": "history/history.js",
+    "versions": 1,
+    "first": 1724,
+    "last": 1724,
+    "max_chars": 312,
+    "best_message": 1724
+  },
+  {
+    "path": "hook_engine.py",
+    "versions": 3,
+    "first": 2692,
+    "last": 2698,
+    "max_chars": 1057,
+    "best_message": 2698
+  },
+  {
+    "path": "hooks.py",
+    "versions": 7,
+    "first": 2632,
+    "last": 2676,
+    "max_chars": 972,
+    "best_message": 2654
+  },
+  {
+    "path": "ia.py",
+    "versions": 1,
+    "first": 532,
+    "last": 532,
+    "max_chars": 24,
+    "best_message": 532
+  },
+  {
+    "path": "identity.md",
+    "versions": 1,
+    "first": 54,
+    "last": 54,
+    "max_chars": 122,
+    "best_message": 54
+  },
+  {
+    "path": "identity.py",
+    "versions": 1,
+    "first": 2384,
+    "last": 2384,
+    "max_chars": 141,
+    "best_message": 2384
+  },
+  {
+    "path": "ifi-assiette.md",
+    "versions": 1,
+    "first": 240,
+    "last": 240,
+    "max_chars": 9,
+    "best_message": 240
+  },
+  {
+    "path": "ifi-declaration.md",
+    "versions": 1,
+    "first": 310,
+    "last": 310,
+    "max_chars": 2892,
+    "best_message": 310
+  },
+  {
+    "path": "ifi-dettes-deductibles.md",
+    "versions": 1,
+    "first": 302,
+    "last": 302,
+    "max_chars": 2551,
+    "best_message": 302
+  },
+  {
+    "path": "ifi-exonerations.md",
+    "versions": 1,
+    "first": 306,
+    "last": 306,
+    "max_chars": 2778,
+    "best_message": 306
+  },
+  {
+    "path": "immobilier.md",
+    "versions": 1,
+    "first": 1966,
+    "last": 1966,
+    "max_chars": 186,
+    "best_message": 1966
+  },
+  {
+    "path": "index.md",
+    "versions": 2,
+    "first": 3712,
+    "last": 3712,
+    "max_chars": 33,
+    "best_message": 3712
+  },
+  {
+    "path": "instagram.py",
+    "versions": 22,
+    "first": 1062,
+    "last": 1478,
+    "max_chars": 267,
+    "best_message": 1080
+  },
+  {
+    "path": "instagram_pipeline.py",
+    "versions": 5,
+    "first": 1460,
+    "last": 1478,
+    "max_chars": 64,
+    "best_message": 1478
+  },
+  {
+    "path": "itorial/editorial_types.py",
+    "versions": 1,
+    "first": 2666,
+    "last": 2666,
+    "max_chars": 67,
+    "best_message": 2666
+  },
+  {
+    "path": "json_exporter.py",
+    "versions": 1,
+    "first": 1704,
+    "last": 1704,
+    "max_chars": 21,
+    "best_message": 1704
+  },
+  {
+    "path": "knowledge_catalog.py",
+    "versions": 2,
+    "first": 4607,
+    "last": 4607,
+    "max_chars": 45,
+    "best_message": 4607
+  },
+  {
+    "path": "knowledge_generation.py",
+    "versions": 1,
+    "first": 3690,
+    "last": 3690,
+    "max_chars": 80,
+    "best_message": 3690
+  },
+  {
+    "path": "knowledge_inspector.py",
+    "versions": 1,
+    "first": 4664,
+    "last": 4664,
+    "max_chars": 269,
+    "best_message": 4664
+  },
+  {
+    "path": "knowledge_map.html",
+    "versions": 5,
+    "first": 3298,
+    "last": 3306,
+    "max_chars": 111,
+    "best_message": 3298
+  },
+  {
+    "path": "knowledge_models.py",
+    "versions": 4,
+    "first": 1830,
+    "last": 2978,
+    "max_chars": 852,
+    "best_message": 2084
+  },
+  {
+    "path": "knowledge_service.py",
+    "versions": 4,
+    "first": 2724,
+    "last": 2740,
+    "max_chars": 101,
+    "best_message": 2724
+  },
+  {
+    "path": "knowledge_style_guide.md",
+    "versions": 2,
+    "first": 2954,
+    "last": 2958,
+    "max_chars": 3323,
+    "best_message": 2958
+  },
+  {
+    "path": "legacy/generate_instagram.py",
+    "versions": 3,
+    "first": 1980,
+    "last": 1980,
+    "max_chars": 92,
+    "best_message": 1980
+  },
+  {
+    "path": "legal.md",
+    "versions": 3,
+    "first": 764,
+    "last": 764,
+    "max_chars": 31,
+    "best_message": 764
+  },
+  {
+    "path": "legal.py",
+    "versions": 3,
+    "first": 746,
+    "last": 746,
+    "max_chars": 125,
+    "best_message": 746
+  },
+  {
+    "path": "leveria.py",
+    "versions": 8,
+    "first": 2574,
+    "last": 2578,
+    "max_chars": 1342,
+    "best_message": 2576
+  },
+  {
+    "path": "leveria/agent.py",
+    "versions": 1,
+    "first": 1600,
+    "last": 1600,
+    "max_chars": 106,
+    "best_message": 1600
+  },
+  {
+    "path": "leveria_prompt_builder.py",
+    "versions": 4,
+    "first": 1882,
+    "last": 1884,
+    "max_chars": 178,
+    "best_message": 1884
+  },
+  {
+    "path": "Lis ROADMAP.md",
+    "versions": 1,
+    "first": 4786,
+    "last": 4786,
+    "max_chars": 3,
+    "best_message": 4786
+  },
+  {
+    "path": "llm_provider.py",
+    "versions": 4,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 113,
+    "best_message": 4863
+  },
+  {
+    "path": "LMNP.md",
+    "versions": 1,
+    "first": 10,
+    "last": 10,
+    "max_chars": 171,
+    "best_message": 10
+  },
+  {
+    "path": "loader.py",
+    "versions": 7,
+    "first": 4896,
+    "last": 4932,
+    "max_chars": 551,
+    "best_message": 4932
+  },
+  {
+    "path": "local.py",
+    "versions": 1,
+    "first": 4859,
+    "last": 4859,
+    "max_chars": 36,
+    "best_message": 4859
+  },
+  {
+    "path": "logies.py",
+    "versions": 1,
+    "first": 2632,
+    "last": 2632,
+    "max_chars": 184,
+    "best_message": 2632
+  },
+  {
+    "path": "ls -l v2/services/knowledge_service.py",
+    "versions": 1,
+    "first": 2740,
+    "last": 2740,
+    "max_chars": 39,
+    "best_message": 2740
+  },
+  {
+    "path": "main.py",
+    "versions": 2,
+    "first": 4890,
+    "last": 4902,
+    "max_chars": 155,
+    "best_message": 4890
+  },
+  {
+    "path": "manifest.yml",
+    "versions": 1,
+    "first": 4887,
+    "last": 4887,
+    "max_chars": 59,
+    "best_message": 4887
+  },
+  {
+    "path": "markdown.py",
+    "versions": 3,
+    "first": 1186,
+    "last": 1704,
+    "max_chars": 708,
+    "best_message": 1704
+  },
+  {
+    "path": "markdown_exporter.py",
+    "versions": 1,
+    "first": 1704,
+    "last": 1704,
+    "max_chars": 21,
+    "best_message": 1704
+  },
+  {
+    "path": "markdown_reader.py",
+    "versions": 2,
+    "first": 3664,
+    "last": 3664,
+    "max_chars": 69,
+    "best_message": 3664
+  },
+  {
+    "path": "markdown_writer.py",
+    "versions": 3,
+    "first": 3566,
+    "last": 3566,
+    "max_chars": 107,
+    "best_message": 3566
+  },
+  {
+    "path": "master_plan.md",
+    "versions": 3,
+    "first": 2988,
+    "last": 3178,
+    "max_chars": 345,
+    "best_message": 3136
+  },
+  {
+    "path": "memory.py",
+    "versions": 1,
+    "first": 694,
+    "last": 694,
+    "max_chars": 56,
+    "best_message": 694
+  },
+  {
+    "path": "memory.yml",
+    "versions": 1,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 124,
+    "best_message": 4863
+  },
+  {
+    "path": "META/Knowledge Model.md",
+    "versions": 1,
+    "first": 252,
+    "last": 252,
+    "max_chars": 173,
+    "best_message": 252
+  },
+  {
+    "path": "metadata.py",
+    "versions": 5,
+    "first": 1822,
+    "last": 4934,
+    "max_chars": 81,
+    "best_message": 1824
+  },
+  {
+    "path": "metadata_exporter.py",
+    "versions": 5,
+    "first": 1704,
+    "last": 1980,
+    "max_chars": 30,
+    "best_message": 1980
+  },
+  {
+    "path": "Methodologie_Leveria.md",
+    "versions": 1,
+    "first": 6,
+    "last": 6,
+    "max_chars": 303,
+    "best_message": 6
+  },
+  {
+    "path": "methodology.md",
+    "versions": 1,
+    "first": 54,
+    "last": 54,
+    "max_chars": 12,
+    "best_message": 54
+  },
+  {
+    "path": "Methodology.md",
+    "versions": 1,
+    "first": 56,
+    "last": 56,
+    "max_chars": 90,
+    "best_message": 56
+  },
+  {
+    "path": "mikael_piselli/BRITED/benchmark.py",
+    "versions": 1,
+    "first": 1490,
+    "last": 1490,
+    "max_chars": 134,
+    "best_message": 1490
+  },
+  {
+    "path": "models.py",
+    "versions": 8,
+    "first": 1606,
+    "last": 5157,
+    "max_chars": 334,
+    "best_message": 3142
+  },
+  {
+    "path": "nano agents/angle_agent.py",
+    "versions": 3,
+    "first": 688,
+    "last": 702,
+    "max_chars": 686,
+    "best_message": 688
+  },
+  {
+    "path": "nano agents/leveria_agent.py",
+    "versions": 1,
+    "first": 626,
+    "last": 626,
+    "max_chars": 654,
+    "best_message": 626
+  },
+  {
+    "path": "nano agents/review_agent.py",
+    "versions": 2,
+    "first": 658,
+    "last": 710,
+    "max_chars": 689,
+    "best_message": 710
+  },
+  {
+    "path": "nano agents/writer_agent.py",
+    "versions": 4,
+    "first": 654,
+    "last": 756,
+    "max_chars": 839,
+    "best_message": 706
+  },
+  {
+    "path": "nano ARCHITECTURE.md",
+    "versions": 1,
+    "first": 632,
+    "last": 632,
+    "max_chars": 1026,
+    "best_message": 632
+  },
+  {
+    "path": "nano brited.py",
+    "versions": 1,
+    "first": 1000,
+    "last": 1000,
+    "max_chars": 831,
+    "best_message": 1000
+  },
+  {
+    "path": "nano config.py",
+    "versions": 4,
+    "first": 526,
+    "last": 572,
+    "max_chars": 139,
+    "best_message": 572
+  },
+  {
+    "path": "nano core/context.py",
+    "versions": 4,
+    "first": 666,
+    "last": 740,
+    "max_chars": 522,
+    "best_message": 740
+  },
+  {
+    "path": "nano core/orchestrator.py",
+    "versions": 9,
+    "first": 640,
+    "last": 736,
+    "max_chars": 2385,
+    "best_message": 736
+  },
+  {
+    "path": "nano core/workflow.md",
+    "versions": 1,
+    "first": 638,
+    "last": 638,
+    "max_chars": 1094,
+    "best_message": 638
+  },
+  {
+    "path": "nano generate_instagram.py",
+    "versions": 7,
+    "first": 900,
+    "last": 1010,
+    "max_chars": 992,
+    "best_message": 988
+  },
+  {
+    "path": "nano generate_video.py",
+    "versions": 7,
+    "first": 554,
+    "last": 718,
+    "max_chars": 807,
+    "best_message": 588
+  },
+  {
+    "path": "nano index_leveria.py",
+    "versions": 2,
+    "first": 540,
+    "last": 544,
+    "max_chars": 1114,
+    "best_message": 544
+  },
+  {
+    "path": "nano prompts/leveria_prompt.md",
+    "versions": 1,
+    "first": 630,
+    "last": 630,
+    "max_chars": 617,
+    "best_message": 630
+  },
+  {
+    "path": "nano test_angle.py",
+    "versions": 2,
+    "first": 652,
+    "last": 652,
+    "max_chars": 211,
+    "best_message": 652
+  },
+  {
+    "path": "nano test_leveria.py",
+    "versions": 2,
+    "first": 530,
+    "last": 532,
+    "max_chars": 274,
+    "best_message": 530
+  },
+  {
+    "path": "nano test_orchestrator.py",
+    "versions": 6,
+    "first": 644,
+    "last": 680,
+    "max_chars": 325,
+    "best_message": 676
+  },
+  {
+    "path": "nano test_review.py",
+    "versions": 1,
+    "first": 660,
+    "last": 660,
+    "max_chars": 392,
+    "best_message": 660
+  },
+  {
+    "path": "nano test_writer.py",
+    "versions": 1,
+    "first": 656,
+    "last": 656,
+    "max_chars": 306,
+    "best_message": 656
+  },
+  {
+    "path": "nano v2/agents/angle/agent.py",
+    "versions": 12,
+    "first": 872,
+    "last": 1030,
+    "max_chars": 2118,
+    "best_message": 914
+  },
+  {
+    "path": "nano v2/agents/leveria/agent.py",
+    "versions": 7,
+    "first": 810,
+    "last": 864,
+    "max_chars": 1037,
+    "best_message": 864
+  },
+  {
+    "path": "nano v2/agents/review/agent.py",
+    "versions": 6,
+    "first": 964,
+    "last": 998,
+    "max_chars": 846,
+    "best_message": 998
+  },
+  {
+    "path": "nano v2/agents/writer/agent.py",
+    "versions": 2,
+    "first": 898,
+    "last": 948,
+    "max_chars": 999,
+    "best_message": 948
+  },
+  {
+    "path": "nano v2/core/agent.py",
+    "versions": 2,
+    "first": 786,
+    "last": 786,
+    "max_chars": 193,
+    "best_message": 786
+  },
+  {
+    "path": "nano v2/core/context.py",
+    "versions": 2,
+    "first": 774,
+    "last": 850,
+    "max_chars": 751,
+    "best_message": 850
+  },
+  {
+    "path": "nano v2/core/contracts.py",
+    "versions": 1,
+    "first": 796,
+    "last": 796,
+    "max_chars": 355,
+    "best_message": 796
+  },
+  {
+    "path": "nano v2/core/knowledge_agent.py",
+    "versions": 1,
+    "first": 834,
+    "last": 834,
+    "max_chars": 728,
+    "best_message": 834
+  },
+  {
+    "path": "nano v2/core/orchestrator.py",
+    "versions": 1,
+    "first": 784,
+    "last": 784,
+    "max_chars": 377,
+    "best_message": 784
+  },
+  {
+    "path": "nano v2/core/pipeline.py",
+    "versions": 1,
+    "first": 782,
+    "last": 782,
+    "max_chars": 319,
+    "best_message": 782
+  },
+  {
+    "path": "nano v2/knowledge/compiler/canonical_schemas.py",
+    "versions": 1,
+    "first": 4251,
+    "last": 4251,
+    "max_chars": 1048,
+    "best_message": 4251
+  },
+  {
+    "path": "nano v2/knowledge/sources/academic_models.py",
+    "versions": 1,
+    "first": 4216,
+    "last": 4216,
+    "max_chars": 2455,
+    "best_message": 4216
+  },
+  {
+    "path": "nano v2/models/content_models.py",
+    "versions": 1,
+    "first": 848,
+    "last": 848,
+    "max_chars": 944,
+    "best_message": 848
+  },
+  {
+    "path": "nano v2/models/models.py",
+    "versions": 1,
+    "first": 776,
+    "last": 776,
+    "max_chars": 653,
+    "best_message": 776
+  },
+  {
+    "path": "nano v2/pipelines/instagram.py",
+    "versions": 10,
+    "first": 802,
+    "last": 994,
+    "max_chars": 804,
+    "best_message": 904
+  },
+  {
+    "path": "nano v2/prompts/knowledge/canonicalize_rules.md",
+    "versions": 1,
+    "first": 4251,
+    "last": 4251,
+    "max_chars": 3444,
+    "best_message": 4251
+  },
+  {
+    "path": "nano v2/ROADMAP_2_WEEKS.md",
+    "versions": 1,
+    "first": 844,
+    "last": 844,
+    "max_chars": 691,
+    "best_message": 844
+  },
+  {
+    "path": "nano v2/services/angle_parser.py",
+    "versions": 2,
+    "first": 912,
+    "last": 940,
+    "max_chars": 1285,
+    "best_message": 940
+  },
+  {
+    "path": "nano v2/services/export_markdown.py",
+    "versions": 1,
+    "first": 1008,
+    "last": 1008,
+    "max_chars": 819,
+    "best_message": 1008
+  },
+  {
+    "path": "nano v2/services/openai_service.py",
+    "versions": 2,
+    "first": 778,
+    "last": 812,
+    "max_chars": 518,
+    "best_message": 812
+  },
+  {
+    "path": "nano v2/services/text_parser.py",
+    "versions": 1,
+    "first": 894,
+    "last": 894,
+    "max_chars": 598,
+    "best_message": 894
+  },
+  {
+    "path": "nano v2/tests/test_angle_agent.py",
+    "versions": 1,
+    "first": 874,
+    "last": 874,
+    "max_chars": 538,
+    "best_message": 874
+  },
+  {
+    "path": "nano v2/tests/test_context.py",
+    "versions": 1,
+    "first": 852,
+    "last": 852,
+    "max_chars": 479,
+    "best_message": 852
+  },
+  {
+    "path": "nano v2/tests/test_leveria_agent.py",
+    "versions": 3,
+    "first": 814,
+    "last": 866,
+    "max_chars": 519,
+    "best_message": 866
+  },
+  {
+    "path": "nano v2/tests/test_review_agent.py",
+    "versions": 2,
+    "first": 966,
+    "last": 972,
+    "max_chars": 762,
+    "best_message": 972
+  },
+  {
+    "path": "nano v2/tests/test_writer_agent.py",
+    "versions": 2,
+    "first": 948,
+    "last": 950,
+    "max_chars": 572,
+    "best_message": 948
+  },
+  {
+    "path": "navigation_enricher.py",
+    "versions": 1,
+    "first": 3452,
+    "last": 3452,
+    "max_chars": 2524,
+    "best_message": 3452
+  },
+  {
+    "path": "ngine.py",
+    "versions": 1,
+    "first": 2428,
+    "last": 2428,
+    "max_chars": 142,
+    "best_message": 2428
+  },
+  {
+    "path": "nning_engine.py",
+    "versions": 2,
+    "first": 2464,
+    "last": 2546,
+    "max_chars": 192,
+    "best_message": 2546
+  },
+  {
+    "path": "notion.py",
+    "versions": 1,
+    "first": 1164,
+    "last": 1164,
+    "max_chars": 160,
+    "best_message": 1164
+  },
+  {
+    "path": "objectives.py",
+    "versions": 1,
+    "first": 2384,
+    "last": 2384,
+    "max_chars": 143,
+    "best_message": 2384
+  },
+  {
+    "path": "openai.py",
+    "versions": 2,
+    "first": 4890,
+    "last": 4926,
+    "max_chars": 63,
+    "best_message": 4926
+  },
+  {
+    "path": "openai_client.py",
+    "versions": 4,
+    "first": 3604,
+    "last": 3648,
+    "max_chars": 63,
+    "best_message": 3648
+  },
+  {
+    "path": "openai_service.py",
+    "versions": 3,
+    "first": 688,
+    "last": 798,
+    "max_chars": 53,
+    "best_message": 798
+  },
+  {
+    "path": "optimization_engine.py",
+    "versions": 3,
+    "first": 2380,
+    "last": 2380,
+    "max_chars": 55,
+    "best_message": 2380
+  },
+  {
+    "path": "orchestrator.py",
+    "versions": 2,
+    "first": 782,
+    "last": 4859,
+    "max_chars": 111,
+    "best_message": 4859
+  },
+  {
+    "path": "outputs/instagram/assurance-vie.md",
+    "versions": 1,
+    "first": 1010,
+    "last": 1010,
+    "max_chars": 39,
+    "best_message": 1010
+  },
+  {
+    "path": "ouverture.md",
+    "versions": 1,
+    "first": 3736,
+    "last": 3736,
+    "max_chars": 76,
+    "best_message": 3736
+  },
+  {
+    "path": "ouverture.py",
+    "versions": 6,
+    "first": 1994,
+    "last": 2124,
+    "max_chars": 4231,
+    "best_message": 2032
+  },
+  {
+    "path": "ovider.py",
+    "versions": 1,
+    "first": 5103,
+    "last": 5103,
+    "max_chars": 388,
+    "best_message": 5103
+  },
+  {
+    "path": "parser.py",
+    "versions": 1,
+    "first": 3142,
+    "last": 3142,
+    "max_chars": 57,
+    "best_message": 3142
+  },
+  {
+    "path": "patrimonial_tests.py",
+    "versions": 1,
+    "first": 1452,
+    "last": 1452,
+    "max_chars": 14,
+    "best_message": 1452
+  },
+  {
+    "path": "pico v2/knowledge/compiler/schemas.py",
+    "versions": 1,
+    "first": 4264,
+    "last": 4264,
+    "max_chars": 1079,
+    "best_message": 4264
+  },
+  {
+    "path": "pico v2/knowledge/compiler/seed_schemas.py",
+    "versions": 1,
+    "first": 4278,
+    "last": 4278,
+    "max_chars": 813,
+    "best_message": 4278
+  },
+  {
+    "path": "pico v2/prompts/knowledge/canonicalize_rules.md",
+    "versions": 1,
+    "first": 4256,
+    "last": 4256,
+    "max_chars": 5520,
+    "best_message": 4256
+  },
+  {
+    "path": "pico v2/prompts/knowledge/compile_rule_seed.md",
+    "versions": 1,
+    "first": 4278,
+    "last": 4278,
+    "max_chars": 3001,
+    "best_message": 4278
+  },
+  {
+    "path": "pico v2/prompts/knowledge/compile_rules.md",
+    "versions": 1,
+    "first": 4264,
+    "last": 4264,
+    "max_chars": 3513,
+    "best_message": 4264
+  },
+  {
+    "path": "pillars.py",
+    "versions": 1,
+    "first": 2854,
+    "last": 2854,
+    "max_chars": 33,
+    "best_message": 2854
+  },
+  {
+    "path": "pipeline.py",
+    "versions": 1,
+    "first": 780,
+    "last": 780,
+    "max_chars": 96,
+    "best_message": 780
+  },
+  {
+    "path": "planner.md",
+    "versions": 1,
+    "first": 4810,
+    "last": 4810,
+    "max_chars": 76,
+    "best_message": 4810
+  },
+  {
+    "path": "planner.py",
+    "versions": 2,
+    "first": 2132,
+    "last": 2132,
+    "max_chars": 61,
+    "best_message": 2132
+  },
+  {
+    "path": "planning.py",
+    "versions": 5,
+    "first": 2418,
+    "last": 2472,
+    "max_chars": 292,
+    "best_message": 2458
+  },
+  {
+    "path": "planning.yml",
+    "versions": 1,
+    "first": 4867,
+    "last": 4867,
+    "max_chars": 169,
+    "best_message": 4867
+  },
+  {
+    "path": "planning_engine.py",
+    "versions": 9,
+    "first": 2428,
+    "last": 2546,
+    "max_chars": 763,
+    "best_message": 2468
+  },
+  {
+    "path": "playbook/models.py",
+    "versions": 1,
+    "first": 2636,
+    "last": 2636,
+    "max_chars": 1440,
+    "best_message": 2636
+  },
+  {
+    "path": "playbook/repositories/hooks.py",
+    "versions": 1,
+    "first": 2684,
+    "last": 2684,
+    "max_chars": 67,
+    "best_message": 2684
+  },
+  {
+    "path": "private-equity.md",
+    "versions": 2,
+    "first": 1008,
+    "last": 1008,
+    "max_chars": 36,
+    "best_message": 1008
+  },
+  {
+    "path": "project.yml",
+    "versions": 9,
+    "first": 4796,
+    "last": 4940,
+    "max_chars": 219,
+    "best_message": 4804
+  },
+  {
+    "path": "prompt_engine.py",
+    "versions": 2,
+    "first": 3626,
+    "last": 3626,
+    "max_chars": 74,
+    "best_message": 3626
+  },
+  {
+    "path": "protected_rules_judge.py",
+    "versions": 2,
+    "first": 4221,
+    "last": 4221,
+    "max_chars": 35,
+    "best_message": 4221
+  },
+  {
+    "path": "publication.py",
+    "versions": 1,
+    "first": 2598,
+    "last": 2598,
+    "max_chars": 948,
+    "best_message": 2598
+  },
+  {
+    "path": "publication_builder.py",
+    "versions": 1,
+    "first": 2428,
+    "last": 2428,
+    "max_chars": 203,
+    "best_message": 2428
+  },
+  {
+    "path": "publication_engine.py",
+    "versions": 3,
+    "first": 2580,
+    "last": 2580,
+    "max_chars": 50,
+    "best_message": 2580
+  },
+  {
+    "path": "publisher.py",
+    "versions": 3,
+    "first": 4670,
+    "last": 4670,
+    "max_chars": 103,
+    "best_message": 4670
+  },
+  {
+    "path": "publishing.py",
+    "versions": 1,
+    "first": 2380,
+    "last": 2380,
+    "max_chars": 137,
+    "best_message": 2380
+  },
+  {
+    "path": "python app.py",
+    "versions": 1,
+    "first": 3082,
+    "last": 3082,
+    "max_chars": 27,
+    "best_message": 3082
+  },
+  {
+    "path": "python benchmark.py",
+    "versions": 5,
+    "first": 1312,
+    "last": 1332,
+    "max_chars": 77,
+    "best_message": 1312
+  },
+  {
+    "path": "python brited.py",
+    "versions": 9,
+    "first": 514,
+    "last": 1812,
+    "max_chars": 124,
+    "best_message": 1812
+  },
+  {
+    "path": "python convert_topic_doc.py",
+    "versions": 1,
+    "first": 2136,
+    "last": 2136,
+    "max_chars": 63,
+    "best_message": 2136
+  },
+  {
+    "path": "python test_openai.py",
+    "versions": 1,
+    "first": 3644,
+    "last": 3644,
+    "max_chars": 8,
+    "best_message": 3644
+  },
+  {
+    "path": "python test_plan_loader.py",
+    "versions": 1,
+    "first": 3584,
+    "last": 3584,
+    "max_chars": 260,
+    "best_message": 3584
+  },
+  {
+    "path": "python tests/test_gold_validator.py",
+    "versions": 1,
+    "first": 2096,
+    "last": 2096,
+    "max_chars": 98,
+    "best_message": 2096
+  },
+  {
+    "path": "python tests/test_plan_loader.py",
+    "versions": 1,
+    "first": 3586,
+    "last": 3586,
+    "max_chars": 347,
+    "best_message": 3586
+  },
+  {
+    "path": "python validate_knowledge_base.py",
+    "versions": 1,
+    "first": 2096,
+    "last": 2096,
+    "max_chars": 135,
+    "best_message": 2096
+  },
+  {
+    "path": "python3 -m py_compile v2/core/factory.py",
+    "versions": 2,
+    "first": 1180,
+    "last": 1180,
+    "max_chars": 160,
+    "best_message": 1180
+  },
+  {
+    "path": "python3 -m py_compile v2/pipelines/instagram.py",
+    "versions": 6,
+    "first": 1088,
+    "last": 1154,
+    "max_chars": 108,
+    "best_message": 1088
+  },
+  {
+    "path": "python3 -m streamlit run studio_v2/app.py",
+    "versions": 1,
+    "first": 2758,
+    "last": 2758,
+    "max_chars": 35,
+    "best_message": 2758
+  },
+  {
+    "path": "python3 app.py",
+    "versions": 2,
+    "first": 3084,
+    "last": 3084,
+    "max_chars": 4,
+    "best_message": 3084
+  },
+  {
+    "path": "python3 benchmark.py",
+    "versions": 5,
+    "first": 1442,
+    "last": 1510,
+    "max_chars": 535,
+    "best_message": 1458
+  },
+  {
+    "path": "python3 brited.py",
+    "versions": 48,
+    "first": 694,
+    "last": 1802,
+    "max_chars": 567,
+    "best_message": 1212
+  },
+  {
+    "path": "python3 generate_instagram.py",
+    "versions": 38,
+    "first": 846,
+    "last": 1200,
+    "max_chars": 289,
+    "best_message": 982
+  },
+  {
+    "path": "python3 generate_video.py",
+    "versions": 13,
+    "first": 578,
+    "last": 754,
+    "max_chars": 547,
+    "best_message": 746
+  },
+  {
+    "path": "python3 index_leveria.py",
+    "versions": 1,
+    "first": 564,
+    "last": 564,
+    "max_chars": 26,
+    "best_message": 564
+  },
+  {
+    "path": "python3 test_legal.py",
+    "versions": 1,
+    "first": 648,
+    "last": 648,
+    "max_chars": 22,
+    "best_message": 648
+  },
+  {
+    "path": "python3 test_leveria.py",
+    "versions": 1,
+    "first": 648,
+    "last": 648,
+    "max_chars": 22,
+    "best_message": 648
+  },
+  {
+    "path": "python3 test_orchestrator.py",
+    "versions": 3,
+    "first": 676,
+    "last": 746,
+    "max_chars": 87,
+    "best_message": 746
+  },
+  {
+    "path": "python3 test_review.py",
+    "versions": 3,
+    "first": 662,
+    "last": 758,
+    "max_chars": 98,
+    "best_message": 662
+  },
+  {
+    "path": "python3 test_writer.py",
+    "versions": 1,
+    "first": 746,
+    "last": 746,
+    "max_chars": 29,
+    "best_message": 746
+  },
+  {
+    "path": "python3 tests/test_gold_validator.py",
+    "versions": 1,
+    "first": 2100,
+    "last": 2100,
+    "max_chars": 35,
+    "best_message": 2100
+  },
+  {
+    "path": "python3 validate_knowledge_base.py",
+    "versions": 1,
+    "first": 2104,
+    "last": 2104,
+    "max_chars": 219,
+    "best_message": 2104
+  },
+  {
+    "path": "quality.py",
+    "versions": 3,
+    "first": 1450,
+    "last": 1584,
+    "max_chars": 988,
+    "best_message": 1450
+  },
+  {
+    "path": "quality_agent.py",
+    "versions": 1,
+    "first": 694,
+    "last": 694,
+    "max_chars": 44,
+    "best_message": 694
+  },
+  {
+    "path": "questions_clients.py",
+    "versions": 3,
+    "first": 2510,
+    "last": 2510,
+    "max_chars": 65,
+    "best_message": 2510
+  },
+  {
+    "path": "ram.py",
+    "versions": 1,
+    "first": 1128,
+    "last": 1128,
+    "max_chars": 6,
+    "best_message": 1128
+  },
+  {
+    "path": "ranking.py",
+    "versions": 1,
+    "first": 3458,
+    "last": 3458,
+    "max_chars": 133,
+    "best_message": 3458
+  },
+  {
+    "path": "rapport-client.md",
+    "versions": 1,
+    "first": 90,
+    "last": 90,
+    "max_chars": 98,
+    "best_message": 90
+  },
+  {
+    "path": "rator.py",
+    "versions": 1,
+    "first": 680,
+    "last": 680,
+    "max_chars": 29,
+    "best_message": 680
+  },
+  {
+    "path": "README.md",
+    "versions": 9,
+    "first": 12,
+    "last": 5169,
+    "max_chars": 171,
+    "best_message": 1806
+  },
+  {
+    "path": "realpath benchmark.py",
+    "versions": 1,
+    "first": 1488,
+    "last": 1488,
+    "max_chars": 22,
+    "best_message": 1488
+  },
+  {
+    "path": "reasoning-framework.md",
+    "versions": 1,
+    "first": 68,
+    "last": 68,
+    "max_chars": 322,
+    "best_message": 68
+  },
+  {
+    "path": "registry.py",
+    "versions": 3,
+    "first": 798,
+    "last": 4871,
+    "max_chars": 109,
+    "best_message": 4871
+  },
+  {
+    "path": "registry_generator.py",
+    "versions": 2,
+    "first": 3246,
+    "last": 3246,
+    "max_chars": 97,
+    "best_message": 3246
+  },
+  {
+    "path": "relations.py",
+    "versions": 1,
+    "first": 1824,
+    "last": 1824,
+    "max_chars": 59,
+    "best_message": 1824
+  },
+  {
+    "path": "release.md",
+    "versions": 1,
+    "first": 4810,
+    "last": 4810,
+    "max_chars": 62,
+    "best_message": 4810
+  },
+  {
+    "path": "release.yml",
+    "versions": 1,
+    "first": 4859,
+    "last": 4859,
+    "max_chars": 256,
+    "best_message": 4859
+  },
+  {
+    "path": "renderer.py",
+    "versions": 2,
+    "first": 3144,
+    "last": 3150,
+    "max_chars": 58,
+    "best_message": 3144
+  },
+  {
+    "path": "repositories/hooks.py",
+    "versions": 2,
+    "first": 2690,
+    "last": 2810,
+    "max_chars": 192,
+    "best_message": 2690
+  },
+  {
+    "path": "respecte exactement le style de fondamentaux.py",
+    "versions": 1,
+    "first": 2946,
+    "last": 2946,
+    "max_chars": 48,
+    "best_message": 2946
+  },
+  {
+    "path": "Respecte exactement le style de fondamentaux.py",
+    "versions": 1,
+    "first": 2946,
+    "last": 2946,
+    "max_chars": 128,
+    "best_message": 2946
+  },
+  {
+    "path": "response_v1.yml",
+    "versions": 2,
+    "first": 4934,
+    "last": 4934,
+    "max_chars": 87,
+    "best_message": 4934
+  },
+  {
+    "path": "result.py",
+    "versions": 2,
+    "first": 1812,
+    "last": 1812,
+    "max_chars": 255,
+    "best_message": 1812
+  },
+  {
+    "path": "review.py",
+    "versions": 3,
+    "first": 1886,
+    "last": 1886,
+    "max_chars": 68,
+    "best_message": 1886
+  },
+  {
+    "path": "review_parser.py",
+    "versions": 1,
+    "first": 1288,
+    "last": 1288,
+    "max_chars": 32,
+    "best_message": 1288
+  },
+  {
+    "path": "reviewer.py",
+    "versions": 1,
+    "first": 3662,
+    "last": 3662,
+    "max_chars": 74,
+    "best_message": 3662
+  },
+  {
+    "path": "rewrite.py",
+    "versions": 1,
+    "first": 1886,
+    "last": 1886,
+    "max_chars": 144,
+    "best_message": 1886
+  },
+  {
+    "path": "rm benchmark.py",
+    "versions": 1,
+    "first": 1498,
+    "last": 1498,
+    "max_chars": 3,
+    "best_message": 1498
+  },
+  {
+    "path": "rm v2/knowledge/topics/assurance_vie/fondamentaux_topics.py",
+    "versions": 1,
+    "first": 3246,
+    "last": 3246,
+    "max_chars": 31,
+    "best_message": 3246
+  },
+  {
+    "path": "roadmap.md",
+    "versions": 1,
+    "first": 70,
+    "last": 70,
+    "max_chars": 463,
+    "best_message": 70
+  },
+  {
+    "path": "ROADMAP.md",
+    "versions": 3,
+    "first": 1216,
+    "last": 4786,
+    "max_chars": 820,
+    "best_message": 1216
+  },
+  {
+    "path": "roadmap.yml",
+    "versions": 2,
+    "first": 4796,
+    "last": 4814,
+    "max_chars": 20,
+    "best_message": 4814
+  },
+  {
+    "path": "rule_deduplicator.py",
+    "versions": 1,
+    "first": 4374,
+    "last": 4374,
+    "max_chars": 43,
+    "best_message": 4374
+  },
+  {
+    "path": "rules/__init__.py",
+    "versions": 1,
+    "first": 4692,
+    "last": 4692,
+    "max_chars": 162,
+    "best_message": 4692
+  },
+  {
+    "path": "rules/security.yml",
+    "versions": 2,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 60,
+    "best_message": 4863
+  },
+  {
+    "path": "runtime.py",
+    "versions": 1,
+    "first": 4887,
+    "last": 4887,
+    "max_chars": 77,
+    "best_message": 4887
+  },
+  {
+    "path": "sci.py",
+    "versions": 1,
+    "first": 4586,
+    "last": 4586,
+    "max_chars": 32,
+    "best_message": 4586
+  },
+  {
+    "path": "script.html",
+    "versions": 1,
+    "first": 1702,
+    "last": 1702,
+    "max_chars": 35,
+    "best_message": 1702
+  },
+  {
+    "path": "script.md",
+    "versions": 15,
+    "first": 1702,
+    "last": 1754,
+    "max_chars": 199,
+    "best_message": 1708
+  },
+  {
+    "path": "script.py",
+    "versions": 5,
+    "first": 2416,
+    "last": 2604,
+    "max_chars": 264,
+    "best_message": 2604
+  },
+  {
+    "path": "script_003.md",
+    "versions": 1,
+    "first": 694,
+    "last": 694,
+    "max_chars": 12,
+    "best_message": 694
+  },
+  {
+    "path": "script_service.py",
+    "versions": 1,
+    "first": 2746,
+    "last": 2746,
+    "max_chars": 134,
+    "best_message": 2746
+  },
+  {
+    "path": "script_view.py",
+    "versions": 1,
+    "first": 2746,
+    "last": 2746,
+    "max_chars": 96,
+    "best_message": 2746
+  },
+  {
+    "path": "seed_semantic_policy.py",
+    "versions": 2,
+    "first": 4298,
+    "last": 4298,
+    "max_chars": 58,
+    "best_message": 4298
+  },
+  {
+    "path": "serializer.py",
+    "versions": 2,
+    "first": 2784,
+    "last": 2784,
+    "max_chars": 61,
+    "best_message": 2784
+  },
+  {
+    "path": "server.py",
+    "versions": 2,
+    "first": 5079,
+    "last": 5079,
+    "max_chars": 45,
+    "best_message": 5079
+  },
+  {
+    "path": "server/http.py",
+    "versions": 2,
+    "first": 5103,
+    "last": 5103,
+    "max_chars": 195,
+    "best_message": 5103
+  },
+  {
+    "path": "settings.py",
+    "versions": 1,
+    "first": 780,
+    "last": 780,
+    "max_chars": 55,
+    "best_message": 780
+  },
+  {
+    "path": "setup.py",
+    "versions": 4,
+    "first": 5077,
+    "last": 5077,
+    "max_chars": 59,
+    "best_message": 5077
+  },
+  {
+    "path": "skill.py",
+    "versions": 2,
+    "first": 4890,
+    "last": 4894,
+    "max_chars": 370,
+    "best_message": 4894
+  },
+  {
+    "path": "source_anchor_rule.py",
+    "versions": 1,
+    "first": 4648,
+    "last": 4648,
+    "max_chars": 54,
+    "best_message": 4648
+  },
+  {
+    "path": "storage.py",
+    "versions": 3,
+    "first": 2788,
+    "last": 2790,
+    "max_chars": 34,
+    "best_message": 2790
+  },
+  {
+    "path": "storytelling.py",
+    "versions": 5,
+    "first": 2484,
+    "last": 2666,
+    "max_chars": 266,
+    "best_message": 2486
+  },
+  {
+    "path": "strategies.py",
+    "versions": 1,
+    "first": 3104,
+    "last": 3104,
+    "max_chars": 183,
+    "best_message": 3104
+  },
+  {
+    "path": "strategy.py",
+    "versions": 2,
+    "first": 2382,
+    "last": 2384,
+    "max_chars": 323,
+    "best_message": 2384
+  },
+  {
+    "path": "streamlit run app.py",
+    "versions": 7,
+    "first": 1220,
+    "last": 4583,
+    "max_chars": 67,
+    "best_message": 4583
+  },
+  {
+    "path": "streamlit run brited_studio.py",
+    "versions": 1,
+    "first": 2716,
+    "last": 2716,
+    "max_chars": 140,
+    "best_message": 2716
+  },
+  {
+    "path": "streamlit run main.py",
+    "versions": 1,
+    "first": 2716,
+    "last": 2716,
+    "max_chars": 24,
+    "best_message": 2716
+  },
+  {
+    "path": "streamlit run studio.py",
+    "versions": 2,
+    "first": 2716,
+    "last": 3556,
+    "max_chars": 468,
+    "best_message": 3556
+  },
+  {
+    "path": "streamlit run v2/studio/app.py",
+    "versions": 2,
+    "first": 4556,
+    "last": 4556,
+    "max_chars": 159,
+    "best_message": 4556
+  },
+  {
+    "path": "studio.py",
+    "versions": 4,
+    "first": 2716,
+    "last": 2718,
+    "max_chars": 41,
+    "best_message": 2718
+  },
+  {
+    "path": "studio_v2/app.py",
+    "versions": 1,
+    "first": 2750,
+    "last": 2750,
+    "max_chars": 742,
+    "best_message": 2750
+  },
+  {
+    "path": "studio_v2/pages/01_dashboard.py",
+    "versions": 1,
+    "first": 2752,
+    "last": 2752,
+    "max_chars": 2217,
+    "best_message": 2752
+  },
+  {
+    "path": "studio_v2/pages/02_knowledge.py",
+    "versions": 1,
+    "first": 2754,
+    "last": 2754,
+    "max_chars": 2521,
+    "best_message": 2754
+  },
+  {
+    "path": "studio_v2/pages/03_planning.py",
+    "versions": 1,
+    "first": 2770,
+    "last": 2770,
+    "max_chars": 1469,
+    "best_message": 2770
+  },
+  {
+    "path": "studio_v2/pages/04_campaigns.py",
+    "versions": 4,
+    "first": 2798,
+    "last": 2804,
+    "max_chars": 4090,
+    "best_message": 2804
+  },
+  {
+    "path": "studio_v2/pages/07_scripts.py",
+    "versions": 1,
+    "first": 2774,
+    "last": 2774,
+    "max_chars": 2160,
+    "best_message": 2774
+  },
+  {
+    "path": "studio_v2/services/campaign_service.py",
+    "versions": 1,
+    "first": 2800,
+    "last": 2800,
+    "max_chars": 488,
+    "best_message": 2800
+  },
+  {
+    "path": "subject_bank.py",
+    "versions": 2,
+    "first": 1818,
+    "last": 1820,
+    "max_chars": 457,
+    "best_message": 1820
+  },
+  {
+    "path": "subjects.py",
+    "versions": 3,
+    "first": 1460,
+    "last": 1460,
+    "max_chars": 49,
+    "best_message": 1460
+  },
+  {
+    "path": "supports.py",
+    "versions": 3,
+    "first": 1994,
+    "last": 3010,
+    "max_chars": 58,
+    "best_message": 1994
+  },
+  {
+    "path": "SYSTEM/identity.md",
+    "versions": 1,
+    "first": 14,
+    "last": 14,
+    "max_chars": 303,
+    "best_message": 14
+  },
+  {
+    "path": "SYSTEM/methodology.md",
+    "versions": 1,
+    "first": 10,
+    "last": 10,
+    "max_chars": 199,
+    "best_message": 10
+  },
+  {
+    "path": "SYSTEM/writing-style.md",
+    "versions": 2,
+    "first": 84,
+    "last": 86,
+    "max_chars": 34,
+    "best_message": 86
+  },
+  {
+    "path": "t.py",
+    "versions": 2,
+    "first": 1318,
+    "last": 1538,
+    "max_chars": 54,
+    "best_message": 1318
+  },
+  {
+    "path": "tagram.py",
+    "versions": 1,
+    "first": 982,
+    "last": 982,
+    "max_chars": 155,
+    "best_message": 982
+  },
+  {
+    "path": "task.schema.yml",
+    "versions": 1,
+    "first": 4859,
+    "last": 4859,
+    "max_chars": 28,
+    "best_message": 4859
+  },
+  {
+    "path": "taxonomy.py",
+    "versions": 1,
+    "first": 1826,
+    "last": 1826,
+    "max_chars": 299,
+    "best_message": 1826
+  },
+  {
+    "path": "TEM/identity.md",
+    "versions": 1,
+    "first": 14,
+    "last": 14,
+    "max_chars": 32,
+    "best_message": 14
+  },
+  {
+    "path": "TEMPLATES/knowledge-template.md",
+    "versions": 2,
+    "first": 110,
+    "last": 114,
+    "max_chars": 748,
+    "best_message": 114
+  },
+  {
+    "path": "test-report.schema.yml",
+    "versions": 1,
+    "first": 4865,
+    "last": 4865,
+    "max_chars": 256,
+    "best_message": 4865
+  },
+  {
+    "path": "test-report.yml",
+    "versions": 2,
+    "first": 4863,
+    "last": 4863,
+    "max_chars": 71,
+    "best_message": 4863
+  },
+  {
+    "path": "test_compile.py",
+    "versions": 1,
+    "first": 3352,
+    "last": 3352,
+    "max_chars": 38,
+    "best_message": 3352
+  },
+  {
+    "path": "test_corpus_service.py",
+    "versions": 1,
+    "first": 4615,
+    "last": 4615,
+    "max_chars": 128,
+    "best_message": 4615
+  },
+  {
+    "path": "test_graph.py",
+    "versions": 1,
+    "first": 3646,
+    "last": 3646,
+    "max_chars": 106,
+    "best_message": 3646
+  },
+  {
+    "path": "test_hook_engine.py",
+    "versions": 1,
+    "first": 2698,
+    "last": 2698,
+    "max_chars": 823,
+    "best_message": 2698
+  },
+  {
+    "path": "test_llm.py",
+    "versions": 2,
+    "first": 3586,
+    "last": 3590,
+    "max_chars": 36,
+    "best_message": 3590
+  },
+  {
+    "path": "test_openai.py",
+    "versions": 2,
+    "first": 3644,
+    "last": 3644,
+    "max_chars": 239,
+    "best_message": 3644
+  },
+  {
+    "path": "test_orchestrator.py",
+    "versions": 4,
+    "first": 676,
+    "last": 1738,
+    "max_chars": 363,
+    "best_message": 1738
+  },
+  {
+    "path": "test_parser.py",
+    "versions": 2,
+    "first": 3586,
+    "last": 3646,
+    "max_chars": 155,
+    "best_message": 3586
+  },
+  {
+    "path": "test_pipeline.py",
+    "versions": 1,
+    "first": 3646,
+    "last": 3646,
+    "max_chars": 95,
+    "best_message": 3646
+  },
+  {
+    "path": "test_plan_loader.py",
+    "versions": 3,
+    "first": 3584,
+    "last": 3586,
+    "max_chars": 327,
+    "best_message": 3584
+  },
+  {
+    "path": "test_planning_engine.py",
+    "versions": 2,
+    "first": 2464,
+    "last": 2488,
+    "max_chars": 315,
+    "best_message": 2464
+  },
+  {
+    "path": "test_quality.py",
+    "versions": 2,
+    "first": 2102,
+    "last": 2102,
+    "max_chars": 78,
+    "best_message": 2102
+  },
+  {
+    "path": "test_roadmap.py",
+    "versions": 3,
+    "first": 4844,
+    "last": 4844,
+    "max_chars": 283,
+    "best_message": 4844
+  },
+  {
+    "path": "test_script_engine.py",
+    "versions": 1,
+    "first": 2644,
+    "last": 2644,
+    "max_chars": 29,
+    "best_message": 2644
+  },
+  {
+    "path": "test_writer.py",
+    "versions": 1,
+    "first": 744,
+    "last": 744,
+    "max_chars": 383,
+    "best_message": 744
+  },
+  {
+    "path": "tester.md",
+    "versions": 1,
+    "first": 4924,
+    "last": 4924,
+    "max_chars": 171,
+    "best_message": 4924
+  },
+  {
+    "path": "tests/subjects.py",
+    "versions": 3,
+    "first": 1332,
+    "last": 1462,
+    "max_chars": 538,
+    "best_message": 1332
+  },
+  {
+    "path": "tests/test_gold_validator.py",
+    "versions": 1,
+    "first": 2100,
+    "last": 2100,
+    "max_chars": 525,
+    "best_message": 2100
+  },
+  {
+    "path": "tests/test_plan_loader.py",
+    "versions": 1,
+    "first": 3586,
+    "last": 3586,
+    "max_chars": 33,
+    "best_message": 3586
+  },
+  {
+    "path": "tests/test_planning_engine.py",
+    "versions": 1,
+    "first": 2444,
+    "last": 2444,
+    "max_chars": 204,
+    "best_message": 2444
+  },
+  {
+    "path": "tion.py",
+    "versions": 1,
+    "first": 2416,
+    "last": 2416,
+    "max_chars": 14,
+    "best_message": 2416
+  },
+  {
+    "path": "topic_builder.py",
+    "versions": 1,
+    "first": 2094,
+    "last": 2094,
+    "max_chars": 56,
+    "best_message": 2094
+  },
+  {
+    "path": "topic_generation_pipeline.py",
+    "versions": 1,
+    "first": 3690,
+    "last": 3690,
+    "max_chars": 30,
+    "best_message": 3690
+  },
+  {
+    "path": "TOPIC_GOLD.md",
+    "versions": 1,
+    "first": 2082,
+    "last": 2082,
+    "max_chars": 183,
+    "best_message": 2082
+  },
+  {
+    "path": "topics.py",
+    "versions": 2,
+    "first": 1846,
+    "last": 1846,
+    "max_chars": 216,
+    "best_message": 1846
+  },
+  {
+    "path": "topics/__init__.py",
+    "versions": 5,
+    "first": 3166,
+    "last": 3376,
+    "max_chars": 2500,
+    "best_message": 3376
+  },
+  {
+    "path": "touch agents/angle_agent.py",
+    "versions": 1,
+    "first": 702,
+    "last": 702,
+    "max_chars": 27,
+    "best_message": 702
+  },
+  {
+    "path": "touch v2/generator/generate_topics.py",
+    "versions": 2,
+    "first": 3126,
+    "last": 3126,
+    "max_chars": 13,
+    "best_message": 3126
+  },
+  {
+    "path": "touch v2/knowledge/loaders/__init__.py",
+    "versions": 1,
+    "first": 4068,
+    "last": 4068,
+    "max_chars": 51,
+    "best_message": 4068
+  },
+  {
+    "path": "touch v2/pipelines/__init__.py",
+    "versions": 1,
+    "first": 818,
+    "last": 818,
+    "max_chars": 39,
+    "best_message": 818
+  },
+  {
+    "path": "transitions.py",
+    "versions": 2,
+    "first": 2632,
+    "last": 2632,
+    "max_chars": 16,
+    "best_message": 2632
+  },
+  {
+    "path": "transmission.py",
+    "versions": 3,
+    "first": 3236,
+    "last": 3236,
+    "max_chars": 52,
+    "best_message": 3236
+  },
+  {
+    "path": "Users/.../BRITED/v2/studio/editorial/__init__.py",
+    "versions": 1,
+    "first": 2818,
+    "last": 2818,
+    "max_chars": 45,
+    "best_message": 2818
+  },
+  {
+    "path": "Users/mikael_piselli/BRITED/brited/__init__.py",
+    "versions": 1,
+    "first": 5082,
+    "last": 5082,
+    "max_chars": 46,
+    "best_message": 5082
+  },
+  {
+    "path": "Users/mikael_piselli/BRITED/v2/models/knowledge_models.py",
+    "versions": 2,
+    "first": 2554,
+    "last": 2554,
+    "max_chars": 42,
+    "best_message": 2554
+  },
+  {
+    "path": "v2/__init__.py",
+    "versions": 1,
+    "first": 1742,
+    "last": 1742,
+    "max_chars": 44,
+    "best_message": 1742
+  },
+  {
+    "path": "v2/__main__.py",
+    "versions": 1,
+    "first": 3856,
+    "last": 3856,
+    "max_chars": 1111,
+    "best_message": 3856
+  },
+  {
+    "path": "v2/agents/angle/agent.py",
+    "versions": 4,
+    "first": 1012,
+    "last": 1384,
+    "max_chars": 2795,
+    "best_message": 1384
+  },
+  {
+    "path": "v2/agents/editorial/__init__.py",
+    "versions": 1,
+    "first": 1380,
+    "last": 1380,
+    "max_chars": 34,
+    "best_message": 1380
+  },
+  {
+    "path": "v2/agents/editorial/agent.py",
+    "versions": 3,
+    "first": 1272,
+    "last": 1400,
+    "max_chars": 1763,
+    "best_message": 1400
+  },
+  {
+    "path": "v2/agents/leveria/agent.py",
+    "versions": 2,
+    "first": 1336,
+    "last": 1892,
+    "max_chars": 3339,
+    "best_message": 1892
+  },
+  {
+    "path": "v2/agents/planner/planner.py",
+    "versions": 1,
+    "first": 3716,
+    "last": 3716,
+    "max_chars": 442,
+    "best_message": 3716
+  },
+  {
+    "path": "v2/agents/review/agent.py",
+    "versions": 9,
+    "first": 976,
+    "last": 1694,
+    "max_chars": 2621,
+    "best_message": 1136
+  },
+  {
+    "path": "v2/agents/rewrite/agent.py",
+    "versions": 11,
+    "first": 1084,
+    "last": 1124,
+    "max_chars": 957,
+    "best_message": 1086
+  },
+  {
+    "path": "v2/agents/writer/agent.py",
+    "versions": 20,
+    "first": 1348,
+    "last": 1562,
+    "max_chars": 3457,
+    "best_message": 1364
+  },
+  {
+    "path": "v2/agents/writer/writer.py",
+    "versions": 2,
+    "first": 3662,
+    "last": 3912,
+    "max_chars": 501,
+    "best_message": 3912
+  },
+  {
+    "path": "v2/benchmarks/benchmark.py",
+    "versions": 7,
+    "first": 1510,
+    "last": 1642,
+    "max_chars": 3145,
+    "best_message": 1630
+  },
+  {
+    "path": "v2/compiler/builder.py",
+    "versions": 1,
+    "first": 3196,
+    "last": 3196,
+    "max_chars": 1376,
+    "best_message": 3196
+  },
+  {
+    "path": "v2/compiler/compile.py",
+    "versions": 6,
+    "first": 3316,
+    "last": 3534,
+    "max_chars": 3204,
+    "best_message": 3534
+  },
+  {
+    "path": "v2/compiler/models.py",
+    "versions": 1,
+    "first": 3190,
+    "last": 3190,
+    "max_chars": 456,
+    "best_message": 3190
+  },
+  {
+    "path": "v2/compiler/topic_generator.py",
+    "versions": 1,
+    "first": 3550,
+    "last": 3550,
+    "max_chars": 2384,
+    "best_message": 3550
+  },
+  {
+    "path": "v2/compiler/validator.py",
+    "versions": 1,
+    "first": 3206,
+    "last": 3206,
+    "max_chars": 1815,
+    "best_message": 3206
+  },
+  {
+    "path": "v2/compiler/writer_python.py",
+    "versions": 1,
+    "first": 3234,
+    "last": 3234,
+    "max_chars": 135,
+    "best_message": 3234
+  },
+  {
+    "path": "v2/config/default_strategy.py",
+    "versions": 1,
+    "first": 2576,
+    "last": 2576,
+    "max_chars": 22,
+    "best_message": 2576
+  },
+  {
+    "path": "v2/config/leveria.py",
+    "versions": 1,
+    "first": 2576,
+    "last": 2576,
+    "max_chars": 30,
+    "best_message": 2576
+  },
+  {
+    "path": "v2/config/strategy.py",
+    "versions": 1,
+    "first": 2576,
+    "last": 2576,
+    "max_chars": 97,
+    "best_message": 2576
+  },
+  {
+    "path": "v2/core/base_pipeline.py",
+    "versions": 4,
+    "first": 1162,
+    "last": 1600,
+    "max_chars": 391,
+    "best_message": 1164
+  },
+  {
+    "path": "v2/core/context.py",
+    "versions": 25,
+    "first": 1268,
+    "last": 1872,
+    "max_chars": 1952,
+    "best_message": 1796
+  },
+  {
+    "path": "v2/core/contracts.py",
+    "versions": 1,
+    "first": 790,
+    "last": 790,
+    "max_chars": 377,
+    "best_message": 790
+  },
+  {
+    "path": "v2/core/factory.py",
+    "versions": 2,
+    "first": 1180,
+    "last": 2722,
+    "max_chars": 329,
+    "best_message": 1180
+  },
+  {
+    "path": "v2/core/knowledge_agent.py",
+    "versions": 1,
+    "first": 1602,
+    "last": 1602,
+    "max_chars": 23,
+    "best_message": 1602
+  },
+  {
+    "path": "v2/core/logger.py",
+    "versions": 1,
+    "first": 3812,
+    "last": 3812,
+    "max_chars": 492,
+    "best_message": 3812
+  },
+  {
+    "path": "v2/core/registry.py",
+    "versions": 1,
+    "first": 798,
+    "last": 798,
+    "max_chars": 470,
+    "best_message": 798
+  },
+  {
+    "path": "v2/doctrine/__init__.py",
+    "versions": 1,
+    "first": 1374,
+    "last": 1374,
+    "max_chars": 44,
+    "best_message": 1374
+  },
+  {
+    "path": "v2/doctrine/editorial.py",
+    "versions": 7,
+    "first": 1352,
+    "last": 1384,
+    "max_chars": 3906,
+    "best_message": 1374
+  },
+  {
+    "path": "v2/editorial/editorial_guidelines.py",
+    "versions": 2,
+    "first": 1344,
+    "last": 1346,
+    "max_chars": 1447,
+    "best_message": 1346
+  },
+  {
+    "path": "v2/exporters/__init__.py",
+    "versions": 1,
+    "first": 3568,
+    "last": 3568,
+    "max_chars": 32,
+    "best_message": 3568
+  },
+  {
+    "path": "v2/exporters/json_exporter.py",
+    "versions": 1,
+    "first": 1716,
+    "last": 1716,
+    "max_chars": 2985,
+    "best_message": 1716
+  },
+  {
+    "path": "v2/exporters/markdown_exporter.py",
+    "versions": 2,
+    "first": 1708,
+    "last": 1714,
+    "max_chars": 2474,
+    "best_message": 1714
+  },
+  {
+    "path": "v2/exporters/markdown_reader.py",
+    "versions": 1,
+    "first": 3894,
+    "last": 3894,
+    "max_chars": 1280,
+    "best_message": 3894
+  },
+  {
+    "path": "v2/exporters/markdown_writer.py",
+    "versions": 3,
+    "first": 3568,
+    "last": 3680,
+    "max_chars": 2947,
+    "best_message": 3568
+  },
+  {
+    "path": "v2/history/history_manager.py",
+    "versions": 1,
+    "first": 1726,
+    "last": 1726,
+    "max_chars": 1414,
+    "best_message": 1726
+  },
+  {
+    "path": "v2/knowledge/builders/topic_builder.py",
+    "versions": 1,
+    "first": 4073,
+    "last": 4073,
+    "max_chars": 2937,
+    "best_message": 4073
+  },
+  {
+    "path": "v2/knowledge/chapter_design_guide.md",
+    "versions": 1,
+    "first": 2962,
+    "last": 2962,
+    "max_chars": 1187,
+    "best_message": 2962
+  },
+  {
+    "path": "v2/knowledge/compiler/...py",
+    "versions": 1,
+    "first": 4298,
+    "last": 4298,
+    "max_chars": 42,
+    "best_message": 4298
+  },
+  {
+    "path": "v2/knowledge/compiler/compilation_pipeline.py",
+    "versions": 1,
+    "first": 4243,
+    "last": 4243,
+    "max_chars": 1008,
+    "best_message": 4243
+  },
+  {
+    "path": "v2/knowledge/compiler/compiled_models.py",
+    "versions": 1,
+    "first": 4298,
+    "last": 4298,
+    "max_chars": 20,
+    "best_message": 4298
+  },
+  {
+    "path": "v2/knowledge/compiler/corpus_models.py",
+    "versions": 2,
+    "first": 4382,
+    "last": 4388,
+    "max_chars": 414,
+    "best_message": 4388
+  },
+  {
+    "path": "v2/knowledge/compiler/rule_deduplicator.py",
+    "versions": 1,
+    "first": 4374,
+    "last": 4374,
+    "max_chars": 138,
+    "best_message": 4374
+  },
+  {
+    "path": "v2/knowledge/compiler/source_fragment.py",
+    "versions": 2,
+    "first": 4259,
+    "last": 4259,
+    "max_chars": 37,
+    "best_message": 4259
+  },
+  {
+    "path": "v2/knowledge/design/master_plan.md",
+    "versions": 1,
+    "first": 2986,
+    "last": 2986,
+    "max_chars": 761,
+    "best_message": 2986
+  },
+  {
+    "path": "v2/knowledge/engine.py",
+    "versions": 3,
+    "first": 1868,
+    "last": 3156,
+    "max_chars": 1684,
+    "best_message": 1868
+  },
+  {
+    "path": "v2/knowledge/engine/graph_engine.py",
+    "versions": 1,
+    "first": 3462,
+    "last": 3462,
+    "max_chars": 2277,
+    "best_message": 3462
+  },
+  {
+    "path": "v2/knowledge/engine/traversal.py",
+    "versions": 1,
+    "first": 3464,
+    "last": 3464,
+    "max_chars": 1916,
+    "best_message": 3464
+  },
+  {
+    "path": "v2/knowledge/enrichers/navigation_enricher.py",
+    "versions": 2,
+    "first": 3452,
+    "last": 3452,
+    "max_chars": 28,
+    "best_message": 3452
+  },
+  {
+    "path": "v2/knowledge/enrichers/relationship_enricher.py",
+    "versions": 3,
+    "first": 3428,
+    "last": 3454,
+    "max_chars": 1460,
+    "best_message": 3454
+  },
+  {
+    "path": "v2/knowledge/io/seed_catalog.py",
+    "versions": 3,
+    "first": 4586,
+    "last": 4586,
+    "max_chars": 94,
+    "best_message": 4586
+  },
+  {
+    "path": "v2/knowledge/knowledge_style_guide.md",
+    "versions": 3,
+    "first": 2952,
+    "last": 2952,
+    "max_chars": 679,
+    "best_message": 2952
+  },
+  {
+    "path": "v2/knowledge/loaders/academic_knowledge_loader.py",
+    "versions": 2,
+    "first": 4071,
+    "last": 4163,
+    "max_chars": 8247,
+    "best_message": 4163
+  },
+  {
+    "path": "v2/knowledge/maps/assurance_vie.md",
+    "versions": 1,
+    "first": 2030,
+    "last": 2030,
+    "max_chars": 813,
+    "best_message": 2030
+  },
+  {
+    "path": "v2/knowledge/pillars.py",
+    "versions": 1,
+    "first": 2016,
+    "last": 2016,
+    "max_chars": 192,
+    "best_message": 2016
+  },
+  {
+    "path": "v2/knowledge/plans/assurance_vie_topics.yaml",
+    "versions": 1,
+    "first": 3008,
+    "last": 3008,
+    "max_chars": 281,
+    "best_message": 3008
+  },
+  {
+    "path": "v2/knowledge/plans/quality_checklist.md",
+    "versions": 1,
+    "first": 3010,
+    "last": 3010,
+    "max_chars": 580,
+    "best_message": 3010
+  },
+  {
+    "path": "v2/knowledge/plans/v2/knowledge/assurance_vie/fondamentaux.md",
+    "versions": 2,
+    "first": 3566,
+    "last": 3566,
+    "max_chars": 93,
+    "best_message": 3566
+  },
+  {
+    "path": "v2/knowledge/production_protocol.md",
+    "versions": 1,
+    "first": 2964,
+    "last": 2964,
+    "max_chars": 945,
+    "best_message": 2964
+  },
+  {
+    "path": "v2/knowledge/registry.py",
+    "versions": 3,
+    "first": 1844,
+    "last": 3156,
+    "max_chars": 2764,
+    "best_message": 1854
+  },
+  {
+    "path": "v2/knowledge/reports/models.py",
+    "versions": 1,
+    "first": 3528,
+    "last": 3528,
+    "max_chars": 20,
+    "best_message": 3528
+  },
+  {
+    "path": "v2/knowledge/reports/scoring.py",
+    "versions": 1,
+    "first": 2106,
+    "last": 2106,
+    "max_chars": 172,
+    "best_message": 2106
+  },
+  {
+    "path": "v2/knowledge/reports/topic_quality.py",
+    "versions": 1,
+    "first": 2094,
+    "last": 2094,
+    "max_chars": 697,
+    "best_message": 2094
+  },
+  {
+    "path": "v2/knowledge/services/__init__.py",
+    "versions": 1,
+    "first": 4607,
+    "last": 4607,
+    "max_chars": 248,
+    "best_message": 4607
+  },
+  {
+    "path": "v2/knowledge/services/chapter.py",
+    "versions": 1,
+    "first": 4607,
+    "last": 4607,
+    "max_chars": 486,
+    "best_message": 4607
+  },
+  {
+    "path": "v2/knowledge/services/chapter_status.py",
+    "versions": 1,
+    "first": 4605,
+    "last": 4605,
+    "max_chars": 129,
+    "best_message": 4605
+  },
+  {
+    "path": "v2/knowledge/sources/academic_models.py",
+    "versions": 3,
+    "first": 4064,
+    "last": 4160,
+    "max_chars": 3000,
+    "best_message": 4160
+  },
+  {
+    "path": "v2/knowledge/sources/registry.py",
+    "versions": 1,
+    "first": 4058,
+    "last": 4058,
+    "max_chars": 2459,
+    "best_message": 4058
+  },
+  {
+    "path": "v2/knowledge/taxonomy.py",
+    "versions": 1,
+    "first": 1834,
+    "last": 1834,
+    "max_chars": 2573,
+    "best_message": 1834
+  },
+  {
+    "path": "v2/knowledge/taxonomy/chapters.py",
+    "versions": 1,
+    "first": 2860,
+    "last": 2860,
+    "max_chars": 2569,
+    "best_message": 2860
+  },
+  {
+    "path": "v2/knowledge/taxonomy/pillars.py",
+    "versions": 1,
+    "first": 2854,
+    "last": 2854,
+    "max_chars": 1647,
+    "best_message": 2854
+  },
+  {
+    "path": "v2/knowledge/templates/topic.py",
+    "versions": 1,
+    "first": 1922,
+    "last": 1922,
+    "max_chars": 1712,
+    "best_message": 1922
+  },
+  {
+    "path": "v2/knowledge/templates/topic_standard.md",
+    "versions": 1,
+    "first": 1924,
+    "last": 1924,
+    "max_chars": 4457,
+    "best_message": 1924
+  },
+  {
+    "path": "v2/knowledge/templates/topic_template.py",
+    "versions": 1,
+    "first": 2866,
+    "last": 2866,
+    "max_chars": 1631,
+    "best_message": 2866
+  },
+  {
+    "path": "v2/knowledge/TOPIC_STANDARD.md",
+    "versions": 1,
+    "first": 1904,
+    "last": 1904,
+    "max_chars": 1624,
+    "best_message": 1904
+  },
+  {
+    "path": "v2/knowledge/topics/__init__.py",
+    "versions": 6,
+    "first": 2494,
+    "last": 3292,
+    "max_chars": 2921,
+    "best_message": 3292
+  },
+  {
+    "path": "v2/knowledge/topics/assurance_vie.py",
+    "versions": 4,
+    "first": 1848,
+    "last": 2504,
+    "max_chars": 1040,
+    "best_message": 2504
+  },
+  {
+    "path": "v2/knowledge/topics/assurance_vie/__init__.py",
+    "versions": 2,
+    "first": 3224,
+    "last": 3248,
+    "max_chars": 221,
+    "best_message": 3248
+  },
+  {
+    "path": "v2/knowledge/topics/assurance_vie/fondamentaux.py",
+    "versions": 3,
+    "first": 1990,
+    "last": 2544,
+    "max_chars": 784,
+    "best_message": 1990
+  },
+  {
+    "path": "v2/knowledge/topics/assurance_vie/fondamentaux_topics.py",
+    "versions": 2,
+    "first": 3240,
+    "last": 3240,
+    "max_chars": 32,
+    "best_message": 3240
+  },
+  {
+    "path": "v2/knowledge/topics/assurance_vie/ouverture.py",
+    "versions": 2,
+    "first": 2034,
+    "last": 2034,
+    "max_chars": 447,
+    "best_message": 2034
+  },
+  {
+    "path": "v2/knowledge/topics/transmission.py",
+    "versions": 1,
+    "first": 1968,
+    "last": 1968,
+    "max_chars": 84,
+    "best_message": 1968
+  },
+  {
+    "path": "v2/knowledge/validators/graph_validator.py",
+    "versions": 1,
+    "first": 3362,
+    "last": 3362,
+    "max_chars": 2868,
+    "best_message": 3362
+  },
+  {
+    "path": "v2/knowledge/validators/protected_rules_validator.py",
+    "versions": 2,
+    "first": 4184,
+    "last": 4184,
+    "max_chars": 133,
+    "best_message": 4184
+  },
+  {
+    "path": "v2/llm/base.py",
+    "versions": 1,
+    "first": 3630,
+    "last": 3630,
+    "max_chars": 841,
+    "best_message": 3630
+  },
+  {
+    "path": "v2/llm/config.py",
+    "versions": 2,
+    "first": 3656,
+    "last": 3656,
+    "max_chars": 31,
+    "best_message": 3656
+  },
+  {
+    "path": "v2/llm/openai_client.py",
+    "versions": 4,
+    "first": 3600,
+    "last": 3636,
+    "max_chars": 694,
+    "best_message": 3602
+  },
+  {
+    "path": "v2/llm/schemas/__init__.py",
+    "versions": 1,
+    "first": 3608,
+    "last": 3608,
+    "max_chars": 32,
+    "best_message": 3608
+  },
+  {
+    "path": "v2/llm/schemas/base.py",
+    "versions": 3,
+    "first": 3610,
+    "last": 3628,
+    "max_chars": 289,
+    "best_message": 3628
+  },
+  {
+    "path": "v2/llm/schemas/written_topic.py",
+    "versions": 3,
+    "first": 3608,
+    "last": 3628,
+    "max_chars": 736,
+    "best_message": 3628
+  },
+  {
+    "path": "v2/llm/service.py",
+    "versions": 1,
+    "first": 3822,
+    "last": 3822,
+    "max_chars": 174,
+    "best_message": 3822
+  },
+  {
+    "path": "v2/models/benchmark_models.py",
+    "versions": 1,
+    "first": 1330,
+    "last": 1330,
+    "max_chars": 459,
+    "best_message": 1330
+  },
+  {
+    "path": "v2/models/content_brief.py",
+    "versions": 1,
+    "first": 1414,
+    "last": 1414,
+    "max_chars": 478,
+    "best_message": 1414
+  },
+  {
+    "path": "v2/models/content_models.py",
+    "versions": 2,
+    "first": 1316,
+    "last": 1342,
+    "max_chars": 1300,
+    "best_message": 1316
+  },
+  {
+    "path": "v2/models/editorial_brief.py",
+    "versions": 1,
+    "first": 1866,
+    "last": 1866,
+    "max_chars": 556,
+    "best_message": 1866
+  },
+  {
+    "path": "v2/models/editorial_models.py",
+    "versions": 4,
+    "first": 1278,
+    "last": 2418,
+    "max_chars": 21,
+    "best_message": 2418
+  },
+  {
+    "path": "v2/models/knowledge_models.py",
+    "versions": 8,
+    "first": 1832,
+    "last": 2542,
+    "max_chars": 2176,
+    "best_message": 1842
+  },
+  {
+    "path": "v2/models/knowledge_node.py",
+    "versions": 1,
+    "first": 1424,
+    "last": 1424,
+    "max_chars": 452,
+    "best_message": 1424
+  },
+  {
+    "path": "v2/models/validation_models.py",
+    "versions": 1,
+    "first": 1610,
+    "last": 1610,
+    "max_chars": 312,
+    "best_message": 1610
+  },
+  {
+    "path": "v2/pipelines/chapter_generation_pipeline.py",
+    "versions": 1,
+    "first": 3706,
+    "last": 3706,
+    "max_chars": 835,
+    "best_message": 3706
+  },
+  {
+    "path": "v2/pipelines/family_generation_pipeline.py",
+    "versions": 2,
+    "first": 3752,
+    "last": 3826,
+    "max_chars": 1014,
+    "best_message": 3752
+  },
+  {
+    "path": "v2/pipelines/instagram.py",
+    "versions": 49,
+    "first": 804,
+    "last": 1880,
+    "max_chars": 5326,
+    "best_message": 1880
+  },
+  {
+    "path": "v2/pipelines/knowledge_generation.py",
+    "versions": 2,
+    "first": 3598,
+    "last": 3690,
+    "max_chars": 2840,
+    "best_message": 3598
+  },
+  {
+    "path": "v2/pipelines/models.py",
+    "versions": 4,
+    "first": 3842,
+    "last": 3866,
+    "max_chars": 2741,
+    "best_message": 3866
+  },
+  {
+    "path": "v2/pipelines/options.py",
+    "versions": 1,
+    "first": 3850,
+    "last": 3850,
+    "max_chars": 455,
+    "best_message": 3850
+  },
+  {
+    "path": "v2/pipelines/topic_generation_pipeline.py",
+    "versions": 1,
+    "first": 3899,
+    "last": 3899,
+    "max_chars": 2973,
+    "best_message": 3899
+  },
+  {
+    "path": "v2/planning/__init__.py",
+    "versions": 1,
+    "first": 3584,
+    "last": 3584,
+    "max_chars": 36,
+    "best_message": 3584
+  },
+  {
+    "path": "v2/planning/markdown_plan_loader.py",
+    "versions": 1,
+    "first": 3584,
+    "last": 3584,
+    "max_chars": 1535,
+    "best_message": 3584
+  },
+  {
+    "path": "v2/prompts/knowledge/compile_rule_seed.md",
+    "versions": 1,
+    "first": 4499,
+    "last": 4499,
+    "max_chars": 1753,
+    "best_message": 4499
+  },
+  {
+    "path": "v2/prompts/knowledge/compile_rules.md",
+    "versions": 1,
+    "first": 4240,
+    "last": 4240,
+    "max_chars": 4237,
+    "best_message": 4240
+  },
+  {
+    "path": "v2/prompts/leveria.py",
+    "versions": 1,
+    "first": 1888,
+    "last": 1888,
+    "max_chars": 1924,
+    "best_message": 1888
+  },
+  {
+    "path": "v2/prompts/planner/chapter.md",
+    "versions": 2,
+    "first": 3572,
+    "last": 3572,
+    "max_chars": 192,
+    "best_message": 3572
+  },
+  {
+    "path": "v2/prompts/renderer.py",
+    "versions": 1,
+    "first": 3572,
+    "last": 3572,
+    "max_chars": 425,
+    "best_message": 3572
+  },
+  {
+    "path": "v2/prompts/reviewer/review.md",
+    "versions": 3,
+    "first": 3572,
+    "last": 3572,
+    "max_chars": 198,
+    "best_message": 3572
+  },
+  {
+    "path": "v2/prompts/writer/topic.md",
+    "versions": 4,
+    "first": 3572,
+    "last": 4143,
+    "max_chars": 5763,
+    "best_message": 4143
+  },
+  {
+    "path": "v2/prompts/writer/topic_correction.md",
+    "versions": 2,
+    "first": 4083,
+    "last": 4143,
+    "max_chars": 6938,
+    "best_message": 4143
+  },
+  {
+    "path": "v2/quality/base_checker.py",
+    "versions": 2,
+    "first": 1430,
+    "last": 1430,
+    "max_chars": 257,
+    "best_message": 1430
+  },
+  {
+    "path": "v2/quality/brief_checker.py",
+    "versions": 1,
+    "first": 1434,
+    "last": 1434,
+    "max_chars": 1290,
+    "best_message": 1434
+  },
+  {
+    "path": "v2/quality/engine.py",
+    "versions": 1,
+    "first": 1436,
+    "last": 1436,
+    "max_chars": 416,
+    "best_message": 1436
+  },
+  {
+    "path": "v2/reporting/generation_report.py",
+    "versions": 2,
+    "first": 1756,
+    "last": 1788,
+    "max_chars": 2165,
+    "best_message": 1756
+  },
+  {
+    "path": "v2/services/content_brief_builder.py",
+    "versions": 1,
+    "first": 1416,
+    "last": 1416,
+    "max_chars": 996,
+    "best_message": 1416
+  },
+  {
+    "path": "v2/services/editorial_parser.py",
+    "versions": 1,
+    "first": 1294,
+    "last": 1294,
+    "max_chars": 129,
+    "best_message": 1294
+  },
+  {
+    "path": "v2/services/knowledge_parser.py",
+    "versions": 2,
+    "first": 1340,
+    "last": 1550,
+    "max_chars": 1350,
+    "best_message": 1340
+  },
+  {
+    "path": "v2/services/knowledge_service.py",
+    "versions": 1,
+    "first": 1864,
+    "last": 1864,
+    "max_chars": 625,
+    "best_message": 1864
+  },
+  {
+    "path": "v2/services/leveria_prompt_builder.py",
+    "versions": 2,
+    "first": 1882,
+    "last": 1884,
+    "max_chars": 2047,
+    "best_message": 1884
+  },
+  {
+    "path": "v2/services/llm_service.py",
+    "versions": 3,
+    "first": 3886,
+    "last": 4077,
+    "max_chars": 5654,
+    "best_message": 3988
+  },
+  {
+    "path": "v2/services/review_parser.py",
+    "versions": 5,
+    "first": 1656,
+    "last": 1690,
+    "max_chars": 2814,
+    "best_message": 1690
+  },
+  {
+    "path": "v2/standards/review.py",
+    "versions": 6,
+    "first": 1646,
+    "last": 1750,
+    "max_chars": 1923,
+    "best_message": 1750
+  },
+  {
+    "path": "v2/studio/app.py",
+    "versions": 9,
+    "first": 4556,
+    "last": 4632,
+    "max_chars": 4551,
+    "best_message": 4624
+  },
+  {
+    "path": "v2/studio/editorial/__init__.py",
+    "versions": 4,
+    "first": 2808,
+    "last": 2818,
+    "max_chars": 1661,
+    "best_message": 2808
+  },
+  {
+    "path": "v2/studio/editorial/editorial_angles.py",
+    "versions": 1,
+    "first": 2592,
+    "last": 2592,
+    "max_chars": 1371,
+    "best_message": 2592
+  },
+  {
+    "path": "v2/studio/editorial/editorial_blueprint.py",
+    "versions": 1,
+    "first": 2700,
+    "last": 2700,
+    "max_chars": 569,
+    "best_message": 2700
+  },
+  {
+    "path": "v2/studio/editorial/editorial_context.py",
+    "versions": 1,
+    "first": 2696,
+    "last": 2696,
+    "max_chars": 706,
+    "best_message": 2696
+  },
+  {
+    "path": "v2/studio/editorial/editorial_patterns.py",
+    "versions": 1,
+    "first": 2594,
+    "last": 2594,
+    "max_chars": 4875,
+    "best_message": 2594
+  },
+  {
+    "path": "v2/studio/editorial/editorial_types.py",
+    "versions": 7,
+    "first": 2666,
+    "last": 2668,
+    "max_chars": 98,
+    "best_message": 2668
+  },
+  {
+    "path": "v2/studio/editorial/playbook/engines/hook_engine.py",
+    "versions": 1,
+    "first": 2642,
+    "last": 2642,
+    "max_chars": 486,
+    "best_message": 2642
+  },
+  {
+    "path": "v2/studio/editorial/playbook/models.py",
+    "versions": 2,
+    "first": 2630,
+    "last": 2630,
+    "max_chars": 96,
+    "best_message": 2630
+  },
+  {
+    "path": "v2/studio/editorial/playbook/repositories/hooks.py",
+    "versions": 1,
+    "first": 2642,
+    "last": 2642,
+    "max_chars": 988,
+    "best_message": 2642
+  },
+  {
+    "path": "v2/studio/editorial/storytelling.py",
+    "versions": 4,
+    "first": 2480,
+    "last": 2484,
+    "max_chars": 273,
+    "best_message": 2484
+  },
+  {
+    "path": "v2/studio/engines/angle_engine.py",
+    "versions": 1,
+    "first": 2584,
+    "last": 2584,
+    "max_chars": 33,
+    "best_message": 2584
+  },
+  {
+    "path": "v2/studio/engines/campaign_engine.py",
+    "versions": 4,
+    "first": 2562,
+    "last": 2568,
+    "max_chars": 783,
+    "best_message": 2568
+  },
+  {
+    "path": "v2/studio/engines/campaign_generator.py",
+    "versions": 7,
+    "first": 2778,
+    "last": 2782,
+    "max_chars": 1656,
+    "best_message": 2782
+  },
+  {
+    "path": "v2/studio/engines/planning_engine.py",
+    "versions": 13,
+    "first": 2438,
+    "last": 2768,
+    "max_chars": 3098,
+    "best_message": 2538
+  },
+  {
+    "path": "v2/studio/engines/publication_engine.py",
+    "versions": 1,
+    "first": 2600,
+    "last": 2600,
+    "max_chars": 227,
+    "best_message": 2600
+  },
+  {
+    "path": "v2/studio/engines/script_engine.py",
+    "versions": 1,
+    "first": 2616,
+    "last": 2616,
+    "max_chars": 4578,
+    "best_message": 2616
+  },
+  {
+    "path": "v2/studio/examples/example_brand_strategy.py",
+    "versions": 1,
+    "first": 2396,
+    "last": 2396,
+    "max_chars": 2301,
+    "best_message": 2396
+  },
+  {
+    "path": "v2/studio/models/brand_strategy.py",
+    "versions": 1,
+    "first": 2390,
+    "last": 2390,
+    "max_chars": 4397,
+    "best_message": 2390
+  },
+  {
+    "path": "v2/studio/models/campaign.py",
+    "versions": 6,
+    "first": 2400,
+    "last": 2768,
+    "max_chars": 2246,
+    "best_message": 2564
+  },
+  {
+    "path": "v2/studio/models/campaign_bundle.py",
+    "versions": 1,
+    "first": 2780,
+    "last": 2780,
+    "max_chars": 560,
+    "best_message": 2780
+  },
+  {
+    "path": "v2/studio/models/campaign_snapshot.py",
+    "versions": 1,
+    "first": 2794,
+    "last": 2794,
+    "max_chars": 526,
+    "best_message": 2794
+  },
+  {
+    "path": "v2/studio/models/enums.py",
+    "versions": 2,
+    "first": 2410,
+    "last": 2410,
+    "max_chars": 135,
+    "best_message": 2410
+  },
+  {
+    "path": "v2/studio/models/planning.py",
+    "versions": 2,
+    "first": 2440,
+    "last": 2474,
+    "max_chars": 783,
+    "best_message": 2474
+  },
+  {
+    "path": "v2/studio/models/publication.py",
+    "versions": 2,
+    "first": 2408,
+    "last": 2596,
+    "max_chars": 519,
+    "best_message": 2596
+  },
+  {
+    "path": "v2/studio/models/script.py",
+    "versions": 1,
+    "first": 2610,
+    "last": 2610,
+    "max_chars": 3054,
+    "best_message": 2610
+  },
+  {
+    "path": "v2/studio/strategy/editorial_order.py",
+    "versions": 2,
+    "first": 2524,
+    "last": 2526,
+    "max_chars": 763,
+    "best_message": 2526
+  },
+  {
+    "path": "v2/studio/workspace/campaign_repository.py",
+    "versions": 1,
+    "first": 2792,
+    "last": 2792,
+    "max_chars": 1515,
+    "best_message": 2792
+  },
+  {
+    "path": "v2/studio/workspace/campaign_serializer.py",
+    "versions": 1,
+    "first": 2796,
+    "last": 2796,
+    "max_chars": 1425,
+    "best_message": 2796
+  },
+  {
+    "path": "v2/studio/workspace/storage.py",
+    "versions": 1,
+    "first": 2790,
+    "last": 2790,
+    "max_chars": 740,
+    "best_message": 2790
+  },
+  {
+    "path": "v2/tests/integration/test_chapter_pipeline.py",
+    "versions": 1,
+    "first": 3718,
+    "last": 3718,
+    "max_chars": 648,
+    "best_message": 3718
+  },
+  {
+    "path": "v2/tests/integration/test_family_pipeline.py",
+    "versions": 1,
+    "first": 3754,
+    "last": 3754,
+    "max_chars": 158,
+    "best_message": 3754
+  },
+  {
+    "path": "v2/tests/integration/test_markdown_writer.py",
+    "versions": 1,
+    "first": 3666,
+    "last": 3666,
+    "max_chars": 662,
+    "best_message": 3666
+  },
+  {
+    "path": "v2/tests/integration/test_openai.py",
+    "versions": 2,
+    "first": 3646,
+    "last": 3646,
+    "max_chars": 239,
+    "best_message": 3646
+  },
+  {
+    "path": "v2/tests/integration/test_openai_client.py",
+    "versions": 1,
+    "first": 3646,
+    "last": 3646,
+    "max_chars": 114,
+    "best_message": 3646
+  },
+  {
+    "path": "v2/tests/integration/test_plan_splitter.py",
+    "versions": 1,
+    "first": 3728,
+    "last": 3728,
+    "max_chars": 480,
+    "best_message": 3728
+  },
+  {
+    "path": "v2/tests/subjects.py",
+    "versions": 2,
+    "first": 1468,
+    "last": 1636,
+    "max_chars": 39,
+    "best_message": 1468
+  },
+  {
+    "path": "v2/tests/test_campaign_engine.py",
+    "versions": 1,
+    "first": 2570,
+    "last": 2570,
+    "max_chars": 1144,
+    "best_message": 2570
+  },
+  {
+    "path": "v2/tests/test_corpus_service.py",
+    "versions": 2,
+    "first": 4615,
+    "last": 4615,
+    "max_chars": 135,
+    "best_message": 4615
+  },
+  {
+    "path": "v2/tests/test_editorial_composer.py",
+    "versions": 1,
+    "first": 2702,
+    "last": 2702,
+    "max_chars": 1027,
+    "best_message": 2702
+  },
+  {
+    "path": "v2/tests/test_hook_engine.py",
+    "versions": 5,
+    "first": 2642,
+    "last": 2644,
+    "max_chars": 246,
+    "best_message": 2644
+  },
+  {
+    "path": "v2/tests/test_leveria_agent.py",
+    "versions": 4,
+    "first": 822,
+    "last": 822,
+    "max_chars": 39,
+    "best_message": 822
+  },
+  {
+    "path": "v2/tests/test_planning_engine.py",
+    "versions": 5,
+    "first": 2446,
+    "last": 2472,
+    "max_chars": 530,
+    "best_message": 2472
+  },
+  {
+    "path": "v2/tests/test_real_topic_generation.py",
+    "versions": 1,
+    "first": 3960,
+    "last": 3960,
+    "max_chars": 2118,
+    "best_message": 3960
+  },
+  {
+    "path": "v2/tests/test_rule_fingerprint.py",
+    "versions": 1,
+    "first": 4247,
+    "last": 4247,
+    "max_chars": 119,
+    "best_message": 4247
+  },
+  {
+    "path": "v2/tests/test_script_engine.py",
+    "versions": 1,
+    "first": 2616,
+    "last": 2616,
+    "max_chars": 482,
+    "best_message": 2616
+  },
+  {
+    "path": "v2/tests/test_script_model.py",
+    "versions": 1,
+    "first": 2612,
+    "last": 2612,
+    "max_chars": 683,
+    "best_message": 2612
+  },
+  {
+    "path": "v2/tests/test_validator.py",
+    "versions": 3,
+    "first": 4642,
+    "last": 4642,
+    "max_chars": 34,
+    "best_message": 4642
+  },
+  {
+    "path": "v2/ui/result.py",
+    "versions": 1,
+    "first": 1258,
+    "last": 1258,
+    "max_chars": 975,
+    "best_message": 1258
+  },
+  {
+    "path": "v2/ui/sidebar.py",
+    "versions": 1,
+    "first": 1252,
+    "last": 1252,
+    "max_chars": 817,
+    "best_message": 1252
+  },
+  {
+    "path": "validation_models.py",
+    "versions": 2,
+    "first": 1604,
+    "last": 1604,
+    "max_chars": 83,
+    "best_message": 1604
+  },
+  {
+    "path": "validator.py",
+    "versions": 15,
+    "first": 780,
+    "last": 5157,
+    "max_chars": 478,
+    "best_message": 4914
+  },
+  {
+    "path": "versements.py",
+    "versions": 5,
+    "first": 1966,
+    "last": 2880,
+    "max_chars": 754,
+    "best_message": 2880
+  },
+  {
+    "path": "version.py",
+    "versions": 1,
+    "first": 4934,
+    "last": 4934,
+    "max_chars": 26,
+    "best_message": 4934
+  },
+  {
+    "path": "version.yml",
+    "versions": 2,
+    "first": 4887,
+    "last": 4887,
+    "max_chars": 74,
+    "best_message": 4887
+  },
+  {
+    "path": "writer/topic.md",
+    "versions": 2,
+    "first": 3572,
+    "last": 3572,
+    "max_chars": 69,
+    "best_message": 3572
+  },
+  {
+    "path": "writer_python.py",
+    "versions": 1,
+    "first": 3238,
+    "last": 3238,
+    "max_chars": 23,
+    "best_message": 3238
+  },
+  {
+    "path": "writers.py",
+    "versions": 2,
+    "first": 3162,
+    "last": 3162,
+    "max_chars": 136,
+    "best_message": 3162
+  },
+  {
+    "path": "written_topic.py",
+    "versions": 1,
+    "first": 3626,
+    "last": 3626,
+    "max_chars": 53,
+    "best_message": 3626
+  },
+  {
+    "path": "ython3 generate_video.py",
+    "versions": 1,
+    "first": 754,
+    "last": 754,
+    "max_chars": 24,
+    "best_message": 754
+  }
+]

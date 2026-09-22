@@ -1,0 +1,151 @@
+{
+  "publication_id": "2026-09-10:reels:ifi_dettes_deductibles:0",
+  "platform": "reels",
+  "concept_id": "ifi_dettes_deductibles",
+  "title": "IFI : quelles dettes peut-on réellement déduire ?",
+  "header": "IFI : quelles dettes peut-on réellement déduire ?",
+  "serie": "fiscalite",
+  "narration": "Votre crédit immobilier diminue-t-il vraiment votre IFI ?  \nOui, mais seulement si la dette est liée à un bien immobilier taxable au 1er janvier.  \nL'IFI se calcule sur la valeur nette : biens taxables moins les dettes déductibles. Pour déduire une dette, elle doit exister au 1er janvier, être à votre charge personnelle et surtout être affectée au bien imposable. Si c'est votre résidence principale, sa valeur bénéficie d'une réduction de 30 %, donc seule la part taxable de la dette est admise.  \nImaginez que vous avez un logement qui vaut 1 000 000 € et un crédit de 400 000 € contracté pour l'acheter. Si le bien est entièrement taxable, vous pouvez déduire 400 000 € du patrimoine immobilier. Si c'est votre résidence principale, réduisez d'abord la valeur de 30 % puis ne déduisez que la dette correspondant à la valeur taxable.  \nMais attention : un prêt in fine est retraité comme s’il s’amortissait sur la durée. Les prêts entre proches ou consentis par une société contrôlée peuvent être écartés. Et le seuil d'assujettissement est une valeur nette au 1er janvier de 1 300 000 € — ce seuil déclenche l'impôt, ce n'est pas une réduction.  \nVous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+  "source_beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Votre crédit immobilier diminue-t-il vraiment votre IFI ?",
+      "visual": "Mikael face caméra, regard direct",
+      "screen_text": "Votre crédit immobilier diminue-t-il votre IFI ?"
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Oui, mais seulement si la dette est liée à un bien immobilier taxable au 1er janvier.",
+      "visual": "Plan serré, léger pas en avant",
+      "screen_text": "Dette =< bien immobilier taxable au 1er janvier"
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "L'IFI se calcule sur la valeur nette : biens taxables moins les dettes déductibles. Pour déduire une dette, elle doit exister au 1er janvier, être à votre charge personnelle et surtout être affectée au bien imposable. Si c'est votre résidence principale, sa valeur bénéficie d'une réduction de 30 %, donc seule la part taxable de la dette est admise.",
+      "visual": "Mikael gesticule pour soustraction, paume ouverte",
+      "screen_text": "Valeur nette = biens taxables − dettes déductibles ; Résidence principale −30%"
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Imaginez que vous avez un logement qui vaut 1 000 000 € et un crédit de 400 000 € contracté pour l'acheter. Si le bien est entièrement taxable, vous pouvez déduire 400 000 € du patrimoine immobilier. Si c'est votre résidence principale, réduisez d'abord la valeur de 30 % puis ne déduisez que la dette correspondant à la valeur taxable.",
+      "visual": "Icône immeuble, montant et crédit en pop-up",
+      "screen_text": "Logement 1 000 000 € • Crédit 400 000 € • Résidence principale −30%"
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Mais attention : un prêt in fine est retraité comme s’il s’amortissait sur la durée. Les prêts entre proches ou consentis par une société contrôlée peuvent être écartés. Et le seuil d'assujettissement est une valeur nette au 1er janvier de 1 300 000 € — ce seuil déclenche l'impôt, ce n'est pas une réduction.",
+      "visual": "Mikael ton posé, index levé",
+      "screen_text": "Prêt in fine retraité • Prêts entre proches encadrés • Seuil IFI 1 300 000 €"
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael sourire, regard complice",
+      "screen_text": "Prenez rendez-vous via le lien dans ma bio."
+    }
+  ],
+  "beats": [
+    {
+      "id": "hook",
+      "label": "hook",
+      "narration": "Votre crédit immobilier diminue-t-il vraiment votre IFI ?",
+      "visual": "Mikael face caméra, regard direct",
+      "screen_text": "Votre crédit immobilier diminue-t-il votre IFI ?",
+      "source_beat_id": "hook",
+      "source_beat_index": 0,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 43
+    },
+    {
+      "id": "reponse",
+      "label": "reponse",
+      "narration": "Oui, mais seulement si la dette est liée à un bien immobilier taxable au 1er janvier.",
+      "visual": "Plan serré, léger pas en avant",
+      "screen_text": "Dette =< bien immobilier taxable au 1er janvier",
+      "source_beat_id": "reponse",
+      "source_beat_index": 1,
+      "part": 1,
+      "parts": 1,
+      "page_role": "reponse",
+      "font_size": 45
+    },
+    {
+      "id": "regle",
+      "label": "regle",
+      "narration": "L'IFI se calcule sur la valeur nette : biens taxables moins les dettes déductibles. Pour déduire une dette, elle doit exister au 1er janvier, être à votre charge personnelle et surtout être affectée au bien imposable. Si c'est votre résidence principale, sa valeur bénéficie d'une réduction de 30 %, donc seule la part taxable de la dette est admise.",
+      "visual": "Mikael gesticule pour soustraction, paume ouverte",
+      "screen_text": "Valeur nette = biens taxables − dettes déductibles ; Résidence principale −30%",
+      "source_beat_id": "regle",
+      "source_beat_index": 2,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "exemple",
+      "label": "exemple",
+      "narration": "Imaginez que vous avez un logement qui vaut 1 000 000 € et un crédit de 400 000 € contracté pour l'acheter. Si le bien est entièrement taxable, vous pouvez déduire 400 000 € du patrimoine immobilier. Si c'est votre résidence principale, réduisez d'abord la valeur de 30 % puis ne déduisez que la dette correspondant à la valeur taxable.",
+      "visual": "Icône immeuble, montant et crédit en pop-up",
+      "screen_text": "Logement 1 000 000 € • Crédit 400 000 € • Résidence principale −30%",
+      "source_beat_id": "exemple",
+      "source_beat_index": 3,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "nuance",
+      "label": "nuance",
+      "narration": "Mais attention : un prêt in fine est retraité comme s’il s’amortissait sur la durée. Les prêts entre proches ou consentis par une société contrôlée peuvent être écartés. Et le seuil d'assujettissement est une valeur nette au 1er janvier de 1 300 000 € — ce seuil déclenche l'impôt, ce n'est pas une réduction.",
+      "visual": "Mikael ton posé, index levé",
+      "screen_text": "Prêt in fine retraité • Prêts entre proches encadrés • Seuil IFI 1 300 000 €",
+      "source_beat_id": "nuance",
+      "source_beat_index": 4,
+      "part": 1,
+      "parts": 1,
+      "page_role": "regular",
+      "font_size": 32
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "narration": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "visual": "Mikael sourire, regard complice",
+      "screen_text": "Prenez rendez-vous via le lien dans ma bio.",
+      "source_beat_id": "cta",
+      "source_beat_index": 5,
+      "part": 1,
+      "parts": 1,
+      "page_role": "cta",
+      "font_size": 41
+    }
+  ],
+  "format_adaptation": {
+    "passed": true,
+    "platform": "shorts",
+    "source_hash": "96bc04391a86fa0ef6dc850e00b445ded8e5c6c07539f09927282260682ed4b2",
+    "adapted_hash": "96bc04391a86fa0ef6dc850e00b445ded8e5c6c07539f09927282260682ed4b2",
+    "source_beats": 6,
+    "adapted_pages": 6,
+    "splits": 0,
+    "exact_text_preserved": true,
+    "minimum_font_size": 32,
+    "cta_normalized": false,
+    "warnings": [
+      "Densité élevée : police proche du minimum de sécurité"
+    ]
+  },
+  "answer_design": "adaptive_sections_v2",
+  "cta_mode": "rendez_vous",
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

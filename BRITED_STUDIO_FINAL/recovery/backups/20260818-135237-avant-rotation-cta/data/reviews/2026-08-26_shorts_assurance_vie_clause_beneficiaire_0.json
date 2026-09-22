@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.92,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 112,
+      "seconds": 41.5,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 112,
+        "seconds": 41.5,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "d493275b34fab3679374e86f0fb497451b80b02cb840d966fa3a1a9e58236f6e",
+      "adapted_hash": "d493275b34fab3679374e86f0fb497451b80b02cb840d966fa3a1a9e58236f6e",
+      "source_beats": 6,
+      "adapted_pages": 7,
+      "splits": 1,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Pour renforcer la complétude par rapport à la fiche certifiée, ajoutez brièvement la conséquence en cas d'absence de bénéficiaire (le capital réintègre la succession) ou prévoyez un second court épisode abordant ce point — ceci n'est pas bloquant pour le hook, mais c'est un point de vigilance utile.",
+    "Éventuellement mentionner en une courte phrase la question de la représentation (part d'un bénéficiaire prédécédé) dans un autre court clip, car c'est une erreur fréquente signalée dans la source.",
+    "Vérifier que le texte écran et la légende restent conformes à la mention « ne constitue ni un conseil juridique... » (le script contient déjà une légende conforme)."
+  ],
+  "reviewed_at": "2026-08-17T17:29:43",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-26:shorts:assurance_vie_clause_beneficiaire:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_clause_beneficiaire__shorts__a1.md"
+}

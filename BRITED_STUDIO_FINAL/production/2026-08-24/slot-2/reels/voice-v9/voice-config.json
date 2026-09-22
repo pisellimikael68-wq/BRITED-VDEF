@@ -1,0 +1,48 @@
+{
+  "voice": {
+    "version": 9,
+    "speed": 1.02,
+    "exaggeration": 0.29,
+    "cfg_weight": 0.5,
+    "temperature": 0.3,
+    "top_p": 0.76,
+    "min_p": 0.08,
+    "repetition_penalty": 1.45
+  },
+  "hook_voice": {
+    "version": 9,
+    "speed": 1.02,
+    "exaggeration": 0.32,
+    "cfg_weight": 0.5,
+    "temperature": 0.29,
+    "top_p": 0.75,
+    "post_atempo": 1.0
+  },
+  "reference_sha256": "d225f7f09ff9d0611a8bf070a1292219883108afefeafaed167b65a04347081d",
+  "voice_signature": "cda100ff8a84e5607d43521bbf7ce9719dd0279a9e209d6aeaebd18c16a32765",
+  "audio_format_version": 9,
+  "mastering": "highpass=f=85,lowpass=f=13500,adeclick=w=20:o=75:a=2:t=2:b=2,afftdn=nf=-28:tn=1:tr=1:om=o,equalizer=f=2800:t=q:w=1.2:g=2.5,acompressor=threshold=0.12:ratio=2:attack=15:release=120:makeup=1.4,loudnorm=I=-16:TP=-1.5:LRA=7",
+  "script_hash": "e517474b5cad1b9cc88bc94d6029e6cd1c1be7bf685facc247e67f5add02e310",
+  "beat_hashes": {
+    "01_hook": "7e807c62d57682b147edc0eccbc0562d155dca54d452e5f938f226e82e9a0c76",
+    "02_question": "b4065a3d4aff04097e6ce3fca3d6de316b09d7741582ea37d3d99576340f4f7b",
+    "03_reponse": "2d7f4f8c440ec6bd8bbbe99c2533ebd2f4f2ec40fd52e37f775aa037c1b68a3c",
+    "04_regle": "8b286e1ea3d8f726c7c2fae457e93409f4344a2bdac1bd784545d30b626749b2",
+    "05_precision": "722c3018c9e002494ae310ba389dc45b8922fd9d9435f4163db4b1af6d854ccf",
+    "06_exemple": "0ef3a1b7f50e8afd69a851bec15b8aabad470dba640bf215f578221e8849a9f1",
+    "07_nuance": "76da45cb2c3d72f1cfb827cc381160e6ce26de629f52e9d204d93f937bfcd832",
+    "08_cta": "c425576f51033e52972945a10f55ab893d0e85b651659a0ea3549eab9207d6ef"
+  },
+  "spoken_texts": {
+    "01_hook": "Vous envisagez de changer de régime matrimonial ?",
+    "02_question": "Selon vous, l’acte notarié suffit il ?",
+    "03_reponse": "Non. L’acte est indispensable, mais d’autres étapes sont obligatoires.",
+    "04_regle": "Les enfants majeurs et les créanciers sont informés. Ils disposent de trois mois pour s’opposer.",
+    "05_precision": "En cas d’opposition, le tribunal homologue l’acte. Pour un mineur, le notaire peut saisir le juge si ses intérêts semblent menacés.",
+    "06_exemple": "Exemple : un entrepreneur choisit la séparation de biens pour isoler son conjoint du risque professionnel.",
+    "07_nuance": "Le changement peut nécessiter de liquider l’ancien régime et avoir des conséquences fiscales.",
+    "08_cta": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio."
+  },
+  "platform_speed_calibration": false,
+  "speech_post_atempo": 1.0
+}

@@ -1,0 +1,200 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration reprend fidèlement les faits de la source, mais la mention « Abattement de 152 500 € » n'indique pas explicitement que cet abattement s'applique par bénéficiaire dans la limite prévue — la fiche précise 'réparti' mais le script ne l'explicite pas suffisamment pour un non-spécialiste.",
+        "La ligne de texte écran « Abattement 152 500 € - Convention à date certaine requise » pourrait être interprétée comme disant que l'abattement dépend de la convention, ce qui prête à confusion : la convention concerne la déductibilité de la créance, pas l'existence de l'abattement."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cite correctement les articles (587 C. civ., 773 CGI, 669 CGI) mais omet d'expliquer brièvement la condition de 'date certaine' (acte enregistré) dans la narration courte : la phrase finale l'indique, mais pour un format 42s il faudrait replacer 'acte enregistré' ou 'enregistré' plutôt que 'date certaine' seul, terme juridique pouvant être obscur pour le grand public.",
+        "L'affirmation selon laquelle 'l'abattement de 152 500 € est réparti entre usufruitier et nus-propriétaires selon le barème de l'article 669' est correcte mais pourrait induire l'idée que chaque enfant conserve un abattement plein ; la fiche signale ce risque fréquent et le script ne le prévient pas explicitement."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo respecte la règle centrale et la condition indispensable mais n'insiste pas sur le risque économique majeur : le conjoint peut consommer le capital, ce que la fiche liste comme risque fréquent. Le script mentionne que le conjoint peut utiliser les fonds, mais ne souligne pas le risque que la créance puisse être sans valeur si la succession du conjoint est insolvable.",
+        "La recommandation de consulter (CTA) est présente mais la légende et la mention légale sont ok ; toutefois la question 'Faut-il un notaire pour la clause bénéficiaire ?' figurant dans 'questions_clients' n'est pas traitée ni renvoyée dans la narration ou les textes écran."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est calibré pour YouTube Shorts (courte durée) mais l'estimation précise de 42s pourrait dépasser la durée réelle si la diction est lente. Quelques phrases juridiques ('article 773, 2° du code général des impôts') risquent d'alourdir la lecture orale en 42s.",
+        "Le texte écran est dense à plusieurs moments (par ex. écran 5 combine abattement et convention) ; pour la lisibilité en format vertical, il faudrait scinder ou simplifier le texte écran."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte mais la seconde seconde pourrait être renforcée en supprimant une conjonction pour maximiser l'impact immédiat (par ex. 'Protéger son conjoint sans écarter les enfants : possible ?').",
+        "Le ton est direct et professionnel, mais quelques formulations juridiques ('quasi-usufruit suivant l'article 587') peuvent nuire à la fluidité pour un public non spécialiste ; suggérer une version orale plus simple ('quasi-usufruit : il peut consommer la somme, mais devra restituer l'équivalent')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la neutralité pédagogique et la mention de non-conseil est fournie en légende. Toutefois, l'appel à rendez-vous 'Prenez rendez-vous via le lien dans ma bio' reste un CTA commercial ; il est acceptable mais il faut veiller à ne pas suggérer une urgence ou promesse de résultat.",
+        "La phrase 'Le conjoint reçoit les fonds et peut les utiliser' pourrait être mal interprétée comme encouragement à privilégier une stratégie sans précautions ; il faudrait ajouter très brièvement 'avec garde-fous à prévoir' ou similaire."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel, mais certaines expressions juridiques ('créance de restitution exigible au second décès et déductible') sont longues et difficiles à suivre à l'oral en 42s. Recommander des coupes pour fluidité.",
+        "Le script contient une répétition possible entre l'écran 4 et la narration continue qui pourrait alourdir la version parlée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, la cohérence est bonne. Cependant la mention 'L'abattement de 152 500 euros est réparti entre usufruitier et nus-propriétaires selon le barème de l'article 669' mériterait un mot sur l'impact de l'âge de l'usufruitier, présent dans la source, pour la précision.",
+        "Le script n'indique pas explicitement la nécessité d'un acte 'enregistré' pour la date certaine — formule juridique présente dans la fiche — ce qui crée un léger décalage entre source et script."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés correspondent globalement aux notions, mais l'écran 3 décrit 'Schéma trois pictogrammes: capital → usufruit (conjoint) + nue-propriété (enfants)' : il faut s'assurer que le pictogramme pour 'créance' (écran 4) représente bien une dette (ex. document signé, euro avec flèche retour) et non un simple 'valeur' pour éviter une lecture erronée.",
+        "L'écran 5 combine balance + document enregistré + point d'exclamation ; en petit format, ces trois pictogrammes pourraient devenir illisibles et nécessitent simplification (par ex. document enregistré avec un point d'exclamation)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle, mais empile trois informations juridiques denses (quasi-usufruit, créance déductible, abattement réparti) en 42s : risque d'information surchargée pour un non-spécialiste. Recommander de simplifier ou d'espacer sur deux courtes vidéos si nécessaire.",
+        "Manque d'une phrase très brève sur le risque que la créance puisse n'avoir qu'une valeur limitée si la succession du conjoint est faible ou insolvable."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script explique les notions principales mais utilise le terme 'date certaine' sans explication simple (ex. 'acte enregistré') ce qui peut perdre un non-spécialiste.",
+        "L'exemple est général mais un micro-exemple chiffré (très court) aurait aidé la compréhension — par ex. 'si la somme est X, les enfants auront une créance qui sera déduite' — cela reste optionnel en 42s mais utile pédagogiquement."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont bonnes mais l'introduction de plusieurs références d'articles juridiques tôt dans la vidéo peut réduire la rétention. Recommander de placer la référence légale en texte écran plutôt qu'en discours initial.",
+        "La progression est logique, mais le rythme doit être maîtrisé à l'enregistrement pour tenir 42s ; le script actuel risque d'être trop dense pour un débit de parole modéré."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le CTA est sobre et professionnel, favorable à la conversion, mais l'absence d'une mention de 'consultation payante' ou 'gratuit' peut créer une attente floue ; il est préférable de préciser la nature du rendez-vous dans la bio ou d'ajouter 'prise de rendez-vous' sans promesse.",
+        "Le ton inspire confiance mais gagnerait à inclure une phrase de prudence additionnelle très courte ('chaque situation est différente') pour réduire le risque d'attente de conseil personnalisé."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 118,
+      "seconds": 43.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 118,
+        "seconds": 43.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La narration reprend fidèlement les faits de la source, mais la mention « Abattement de 152 500 € » n'indique pas explicitement que cet abattement s'applique par bénéficiaire dans la limite prévue — la fiche précise 'réparti' mais le script ne l'explicite pas suffisamment pour un non-spécialiste.",
+    "source : La ligne de texte écran « Abattement 152 500 € - Convention à date certaine requise » pourrait être interprétée comme disant que l'abattement dépend de la convention, ce qui prête à confusion : la convention concerne la déductibilité de la créance, pas l'existence de l'abattement.",
+    "juridique_fiscal : Le script cite correctement les articles (587 C. civ., 773 CGI, 669 CGI) mais omet d'expliquer brièvement la condition de 'date certaine' (acte enregistré) dans la narration courte : la phrase finale l'indique, mais pour un format 42s il faudrait replacer 'acte enregistré' ou 'enregistré' plutôt que 'date certaine' seul, terme juridique pouvant être obscur pour le grand public.",
+    "juridique_fiscal : L'affirmation selon laquelle 'l'abattement de 152 500 € est réparti entre usufruitier et nus-propriétaires selon le barème de l'article 669' est correcte mais pourrait induire l'idée que chaque enfant conserve un abattement plein ; la fiche signale ce risque fréquent et le script ne le prévient pas explicitement.",
+    "completude : La vidéo respecte la règle centrale et la condition indispensable mais n'insiste pas sur le risque économique majeur : le conjoint peut consommer le capital, ce que la fiche liste comme risque fréquent. Le script mentionne que le conjoint peut utiliser les fonds, mais ne souligne pas le risque que la créance puisse être sans valeur si la succession du conjoint est insolvable.",
+    "completude : La recommandation de consulter (CTA) est présente mais la légende et la mention légale sont ok ; toutefois la question 'Faut-il un notaire pour la clause bénéficiaire ?' figurant dans 'questions_clients' n'est pas traitée ni renvoyée dans la narration ou les textes écran.",
+    "plateforme : Le script est calibré pour YouTube Shorts (courte durée) mais l'estimation précise de 42s pourrait dépasser la durée réelle si la diction est lente. Quelques phrases juridiques ('article 773, 2° du code général des impôts') risquent d'alourdir la lecture orale en 42s.",
+    "plateforme : Le texte écran est dense à plusieurs moments (par ex. écran 5 combine abattement et convention) ; pour la lisibilité en format vertical, il faudrait scinder ou simplifier le texte écran.",
+    "editorial : L'accroche est forte mais la seconde seconde pourrait être renforcée en supprimant une conjonction pour maximiser l'impact immédiat (par ex. 'Protéger son conjoint sans écarter les enfants : possible ?').",
+    "editorial : Le ton est direct et professionnel, mais quelques formulations juridiques ('quasi-usufruit suivant l'article 587') peuvent nuire à la fluidité pour un public non spécialiste ; suggérer une version orale plus simple ('quasi-usufruit : il peut consommer la somme, mais devra restituer l'équivalent').",
+    "securite : Le script respecte la neutralité pédagogique et la mention de non-conseil est fournie en légende. Toutefois, l'appel à rendez-vous 'Prenez rendez-vous via le lien dans ma bio' reste un CTA commercial ; il est acceptable mais il faut veiller à ne pas suggérer une urgence ou promesse de résultat.",
+    "securite : La phrase 'Le conjoint reçoit les fonds et peut les utiliser' pourrait être mal interprétée comme encouragement à privilégier une stratégie sans précautions ; il faudrait ajouter très brièvement 'avec garde-fous à prévoir' ou similaire.",
+    "formulation_professionnelle : Le français est naturel, mais certaines expressions juridiques ('créance de restitution exigible au second décès et déductible') sont longues et difficiles à suivre à l'oral en 42s. Recommander des coupes pour fluidité.",
+    "formulation_professionnelle : Le script contient une répétition possible entre l'écran 4 et la narration continue qui pourrait alourdir la version parlée.",
+    "contre_verification_finale : En lecture mot à mot, la cohérence est bonne. Cependant la mention 'L'abattement de 152 500 euros est réparti entre usufruitier et nus-propriétaires selon le barème de l'article 669' mériterait un mot sur l'impact de l'âge de l'usufruitier, présent dans la source, pour la précision.",
+    "contre_verification_finale : Le script n'indique pas explicitement la nécessité d'un acte 'enregistré' pour la date certaine — formule juridique présente dans la fiche — ce qui crée un léger décalage entre source et script.",
+    "coherence_pictogrammes : Les pictogrammes proposés correspondent globalement aux notions, mais l'écran 3 décrit 'Schéma trois pictogrammes: capital → usufruit (conjoint) + nue-propriété (enfants)' : il faut s'assurer que le pictogramme pour 'créance' (écran 4) représente bien une dette (ex. document signé, euro avec flèche retour) et non un simple 'valeur' pour éviter une lecture erronée.",
+    "coherence_pictogrammes : L'écran 5 combine balance + document enregistré + point d'exclamation ; en petit format, ces trois pictogrammes pourraient devenir illisibles et nécessitent simplification (par ex. document enregistré avec un point d'exclamation).",
+    "densite_editoriale : La vidéo traite bien un seul angle, mais empile trois informations juridiques denses (quasi-usufruit, créance déductible, abattement réparti) en 42s : risque d'information surchargée pour un non-spécialiste. Recommander de simplifier ou d'espacer sur deux courtes vidéos si nécessaire.",
+    "densite_editoriale : Manque d'une phrase très brève sur le risque que la créance puisse n'avoir qu'une valeur limitée si la succession du conjoint est faible ou insolvable.",
+    "pedagogie_client : Le script explique les notions principales mais utilise le terme 'date certaine' sans explication simple (ex. 'acte enregistré') ce qui peut perdre un non-spécialiste.",
+    "pedagogie_client : L'exemple est général mais un micro-exemple chiffré (très court) aurait aidé la compréhension — par ex. 'si la somme est X, les enfants auront une créance qui sera déduite' — cela reste optionnel en 42s mais utile pédagogiquement.",
+    "retention_attention : Les deux premières secondes sont bonnes mais l'introduction de plusieurs références d'articles juridiques tôt dans la vidéo peut réduire la rétention. Recommander de placer la référence légale en texte écran plutôt qu'en discours initial.",
+    "retention_attention : La progression est logique, mais le rythme doit être maîtrisé à l'enregistrement pour tenir 42s ; le script actuel risque d'être trop dense pour un débit de parole modéré.",
+    "conversion_confiance : Le CTA est sobre et professionnel, favorable à la conversion, mais l'absence d'une mention de 'consultation payante' ou 'gratuit' peut créer une attente floue ; il est préférable de préciser la nature du rendez-vous dans la bio ou d'ajouter 'prise de rendez-vous' sans promesse.",
+    "conversion_confiance : Le ton inspire confiance mais gagnerait à inclure une phrase de prudence additionnelle très courte ('chaque situation est différente') pour réduire le risque d'attente de conseil personnalisé."
+  ],
+  "recommendations": [
+    "Substituer 'date certaine' par 'acte enregistré (date certaine)' dans la narration et le texte écran pour rendre la condition compréhensible au grand public.",
+    "Ajouter une phrase ultra-courte (ou mot-clé à l'écran) rappelant le risque économique majeur : 'Attention : si le conjoint consomme tout, la créance des enfants peut ne rien valoir.'",
+    "Clarifier l'abattement de 152 500 € : préciser brièvement que l'abattement est réparti entre usufruitier et nus-propriétaires selon l'âge de l'usufruitier (article 669) et que cela ne garantit pas un abattement plein pour chaque enfant.",
+    "Alléger le texte écran 5 en deux écrans si possible : (A) 'Abattement 152 500 € : réparti selon article 669' et (B) 'Convention enregistrée requise pour déductibilité (acte enregistré)'.",
+    "Remplacer certaines mentions d'articles juridiques lues à voix haute par de courtes mentions à l'écran (références complètes dans la légende) pour gagner en fluidité orale et en rétention.",
+    "Adapter les pictogrammes : pour la créance, utiliser un symbole 'document signé + € avec flèche retour' ; pour l'avertissement sur la convention, privilégier un seul pictogramme 'document enregistré' avec un point d'exclamation.",
+    "Ajouter une toute petite phrase de prudence dans la narration avant le CTA : 'Chaque situation est différente — consultez un professionnel.'",
+    "Optionnel : si le créateur tient absolument au détail, scinder l'explication juridique en deux Shorts (un sur le mécanisme et un sur les conditions fiscales) pour ne pas surcharger en 42s.",
+    "Vérifier au tournage la durée exacte de la lecture lente, normale et rapide pour s'assurer du respect de la durée 42s et ajuster le texte lu en conséquence."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-22:shorts:assurance_vie_demembrement_clause:0",
+  "script_path": "scripts/assurance_vie/assurance_vie_demembrement_clause__shorts__a4__v3.md"
+}

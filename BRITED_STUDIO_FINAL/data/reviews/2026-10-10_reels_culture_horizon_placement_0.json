@@ -1,0 +1,201 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche BRITED cite deux sources (AMF et Banque de France) mais le champ 'Sources' du script ne mentionne que l'AMF. Incohérence entre métadonnées et script.",
+        "La phrase de synthèse en légende indique 'pour lisser le risque actions on retient généralement 8 à 10 ans' (correct selon la fiche) mais ce chiffre n'apparaît pas explicitement dans le texte écran du beat 2/3 ; la cohérence factuelle visuelle vs légende est partielle."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte l'interdiction d'un conseil personnalisé ou de promesse de performance, mais la CTA 'Prenez rendez-vous via le lien dans ma bio' est acceptable ; toutefois il conviendrait d'ajouter explicitement la mention que le contenu n'est pas un conseil personnalisé directement dans le script (la mention figure en bas de fiche mais pas dans la narration).",
+        "Il manque la mention explicite 'ne constitue ni un conseil juridique, fiscal ni financier personnalisé' dans la narration ou sur le texte écran pour éviter toute ambiguïté réglementaire sur la plateforme."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle, mécanisme, exemple, nuance et CTA, mais n'intègre pas le repère pédagogique chiffré (8–10 ans) dans la narration principale ni dans le texte écran où il serait utile.",
+        "L'exemple reste générique : utile mais on pourrait ajouter une phrase très brève expliquant pourquoi vendre pendant une baisse coûte (principe de vendre au creux)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 40s semble plausible pour un Reels, mais le script contient plusieurs textes écran longs qui risquent d'être illisibles rapidement sur un format vertical court (par ex. le texte proposé au beat 5).",
+        "La mention 'OUI - NON' et le visuel à trois zones dans le beat 2 peuvent générer confusion visuelle sur Instagram Reels si pas conçus très rapidement. Recommander d'abréger le texte écran pour lisibilité."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte, ton direct et progression claire, mais la transition 'OUI - NON' (beat 2) est ambiguë et peut nuire à la fluidité.",
+        "Le CTA est clair mais pourrait être plus engageant sans être commercial (ex. 'Souhaitez-vous faire le point ? Lien en bio' plutôt que 'Prenez rendez-vous...')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique et sourcé, mais l'omission explicite de la Banque de France dans la liste 'Sources' du script est une faiblesse de traçabilité.",
+        "Il faut veiller à conserver la mention de non-recommandation dans un emplacement visible du post (description ou texte écran) pour rester en conformité pédagogique et limiter risque d'interprétation comme recommandation."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible, mais certaines formulations sont lourdes pour un format court: 'Séparez physiquement vos poches' pourrait être remplacée par 'Séparez vos poches d'épargne' pour plus de clarté immédiate.",
+        "Le libellé du beat 2 sur le texte écran 'Besoin <3 ans, 3–8–10 ans, ou >8–10 ans ? (OUI / NON)' est confus et doit être reformulé en termes simples et lisibles."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Structure globale cohérente, mais quelques éléments visuels/texte ne reprennent pas mot à mot les chiffres et sources de la fiche (Banque de France absente, repère 8–10 ans non placé dans le texte écran).",
+        "La narration continue et les textes écran doivent être synchronisés mot à mot pour éviter divergences lors du tournage/édition."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les pictogrammes proposés sont pertinents, mais le descriptif 'porte-monnaie+horloge / graphique zigzag' doit clairement illustrer 'disponibilité' et 'volatilité' ; conseiller d'utiliser des pictogrammes distincts et non génériques pour éviter ambiguïté.",
+        "Le beat 2 mentionne 'trois zones rapides illustrant court/moyen/long terme' : il faut veiller à ce que les icônes choisies pour ces zones soient immédiatement compréhensibles (calendrier 1 an, 5 ans, 25 ans par ex.)"
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (l'horizon) mais contient de multiples sous-phrases longues qui peuvent surcharger 40s. Réduire ou condenser certaines phrases pour garder la règle centrale nette.",
+        "Le repère pédagogique (8–10 ans) et les sources doivent figurer clairement dans la légende et idéalement dans un texte court à l'écran pour assurer la densité pédagogique sans perte."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les notions sont assez accessibles mais l'usage du terme 'volatilité' n'est pas expliqué en une phrase simple pour un non-spécialiste. Une brève parenthèse 'volatilité = variations de cours' aiderait.",
+        "L'exemple pourrait inclure très brièvement l'impact concret (vendre au creux = concrétiser une perte) pour être compris au premier passage."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort, mais le beat 2 avec 'OUI - NON' peut distraire ou ralentir la rétention ; préférez une question directe et visuellement simple ('Court, moyen ou long terme ?').",
+        "Plusieurs textes écran longs risquent d'être trop rapides pour la lecture complète ; il faut raccourcir chaque texte écran pour maximiser rétention en <2s par écran."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sources inspirent confiance, mais l'absence visible de la Banque de France dans les sources à l'écran et l'absence explicite de non-conseil dans la narration réduisent légèrement la solidité réglementaire perçue.",
+        "Le CTA est professionnel mais pourrait être perçue comme commerciale si le disclaimer n'est pas affiché clairement."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 106,
+      "seconds": 39.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 106,
+        "seconds": 39.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche BRITED cite deux sources (AMF et Banque de France) mais le champ 'Sources' du script ne mentionne que l'AMF. Incohérence entre métadonnées et script.",
+    "source : La phrase de synthèse en légende indique 'pour lisser le risque actions on retient généralement 8 à 10 ans' (correct selon la fiche) mais ce chiffre n'apparaît pas explicitement dans le texte écran du beat 2/3 ; la cohérence factuelle visuelle vs légende est partielle.",
+    "juridique_fiscal : Le script respecte l'interdiction d'un conseil personnalisé ou de promesse de performance, mais la CTA 'Prenez rendez-vous via le lien dans ma bio' est acceptable ; toutefois il conviendrait d'ajouter explicitement la mention que le contenu n'est pas un conseil personnalisé directement dans le script (la mention figure en bas de fiche mais pas dans la narration).",
+    "juridique_fiscal : Il manque la mention explicite 'ne constitue ni un conseil juridique, fiscal ni financier personnalisé' dans la narration ou sur le texte écran pour éviter toute ambiguïté réglementaire sur la plateforme.",
+    "completude : Le script couvre règle, mécanisme, exemple, nuance et CTA, mais n'intègre pas le repère pédagogique chiffré (8–10 ans) dans la narration principale ni dans le texte écran où il serait utile.",
+    "completude : L'exemple reste générique : utile mais on pourrait ajouter une phrase très brève expliquant pourquoi vendre pendant une baisse coûte (principe de vendre au creux).",
+    "plateforme : Durée estimée 40s semble plausible pour un Reels, mais le script contient plusieurs textes écran longs qui risquent d'être illisibles rapidement sur un format vertical court (par ex. le texte proposé au beat 5).",
+    "plateforme : La mention 'OUI - NON' et le visuel à trois zones dans le beat 2 peuvent générer confusion visuelle sur Instagram Reels si pas conçus très rapidement. Recommander d'abréger le texte écran pour lisibilité.",
+    "editorial : Accroche forte, ton direct et progression claire, mais la transition 'OUI - NON' (beat 2) est ambiguë et peut nuire à la fluidité.",
+    "editorial : Le CTA est clair mais pourrait être plus engageant sans être commercial (ex. 'Souhaitez-vous faire le point ? Lien en bio' plutôt que 'Prenez rendez-vous...').",
+    "securite : Contenu pédagogique et sourcé, mais l'omission explicite de la Banque de France dans la liste 'Sources' du script est une faiblesse de traçabilité.",
+    "securite : Il faut veiller à conserver la mention de non-recommandation dans un emplacement visible du post (description ou texte écran) pour rester en conformité pédagogique et limiter risque d'interprétation comme recommandation.",
+    "formulation_professionnelle : Le français est naturel et compréhensible, mais certaines formulations sont lourdes pour un format court: 'Séparez physiquement vos poches' pourrait être remplacée par 'Séparez vos poches d'épargne' pour plus de clarté immédiate.",
+    "formulation_professionnelle : Le libellé du beat 2 sur le texte écran 'Besoin <3 ans, 3–8–10 ans, ou >8–10 ans ? (OUI / NON)' est confus et doit être reformulé en termes simples et lisibles.",
+    "contre_verification_finale : Structure globale cohérente, mais quelques éléments visuels/texte ne reprennent pas mot à mot les chiffres et sources de la fiche (Banque de France absente, repère 8–10 ans non placé dans le texte écran).",
+    "contre_verification_finale : La narration continue et les textes écran doivent être synchronisés mot à mot pour éviter divergences lors du tournage/édition.",
+    "coherence_pictogrammes : Les pictogrammes proposés sont pertinents, mais le descriptif 'porte-monnaie+horloge / graphique zigzag' doit clairement illustrer 'disponibilité' et 'volatilité' ; conseiller d'utiliser des pictogrammes distincts et non génériques pour éviter ambiguïté.",
+    "coherence_pictogrammes : Le beat 2 mentionne 'trois zones rapides illustrant court/moyen/long terme' : il faut veiller à ce que les icônes choisies pour ces zones soient immédiatement compréhensibles (calendrier 1 an, 5 ans, 25 ans par ex.)",
+    "densite_editoriale : La vidéo traite un seul angle (l'horizon) mais contient de multiples sous-phrases longues qui peuvent surcharger 40s. Réduire ou condenser certaines phrases pour garder la règle centrale nette.",
+    "densite_editoriale : Le repère pédagogique (8–10 ans) et les sources doivent figurer clairement dans la légende et idéalement dans un texte court à l'écran pour assurer la densité pédagogique sans perte.",
+    "pedagogie_client : Les notions sont assez accessibles mais l'usage du terme 'volatilité' n'est pas expliqué en une phrase simple pour un non-spécialiste. Une brève parenthèse 'volatilité = variations de cours' aiderait.",
+    "pedagogie_client : L'exemple pourrait inclure très brièvement l'impact concret (vendre au creux = concrétiser une perte) pour être compris au premier passage.",
+    "retention_attention : Hook fort, mais le beat 2 avec 'OUI - NON' peut distraire ou ralentir la rétention ; préférez une question directe et visuellement simple ('Court, moyen ou long terme ?').",
+    "retention_attention : Plusieurs textes écran longs risquent d'être trop rapides pour la lecture complète ; il faut raccourcir chaque texte écran pour maximiser rétention en <2s par écran.",
+    "conversion_confiance : Ton sérieux et sources inspirent confiance, mais l'absence visible de la Banque de France dans les sources à l'écran et l'absence explicite de non-conseil dans la narration réduisent légèrement la solidité réglementaire perçue.",
+    "conversion_confiance : Le CTA est professionnel mais pourrait être perçue comme commerciale si le disclaimer n'est pas affiché clairement."
+  ],
+  "recommendations": [
+    "Ajouter la Banque de France à la section 'Sources' visible du post/script pour aligner métadonnées et script (par ex. 'Sources : AMF, Banque de France').",
+    "Intégrer rapidement dans la narration ou sur un texte écran court la mention 'Contenu pédagogique — pas un conseil financier, juridique ou fiscal personnalisé.'",
+    "Remplacer le texte écran confus du beat 2 par une formulation simple et lisible : 'Court terme (<3 ans) — Moyen (3–8/10 ans) — Long (>8–10 ans)'. Éviter 'OUI / NON'.",
+    "Ajouter très brièvement une phrase explicative sur la volatilité (ex. 'volatilité = variations de valeur; problématique si vous vendez pendant une baisse').",
+    "Inclure le repère pédagogique chiffré '8–10 ans' soit dans la narration soit dans un texte écran court au beat 6 ou dans la légende, en rappelant 'ordre de grandeur pédagogique, aucune garantie'.",
+    "Raccourcir les textes écran pour les rendre lisibles en 1,5–2s chacun ; par exemple condenser le beat 5 en deux lignes maximales.",
+    "Clarifier pictogrammes : utiliser un icône 'porte-monnaie + horloge' pour disponibilité et 'graphique zigzag' pour volatilité, et icônes de calendrier clairement graduées pour court/moyen/long.",
+    "Modifier la formulation 'Séparez physiquement vos poches' en 'Séparez vos poches d'épargne (trésorerie, projets, long terme)'.",
+    "Afficher la mention légale courte dans la légende du post et sur un texte écran final pour la conformité et la confiance.",
+    "Avant validation finale, effectuer une seconde vérification mot à mot entre narration, textes écran et légende pour s'assurer qu'aucun chiffre ou source n'est omis."
+  ],
+  "reviewed_at": "2026-08-24T15:39:48",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-10:reels:culture_horizon_placement:0",
+  "script_path": "scripts/culture_financiere/culture_horizon_placement__reels__a1__v3.md"
+}

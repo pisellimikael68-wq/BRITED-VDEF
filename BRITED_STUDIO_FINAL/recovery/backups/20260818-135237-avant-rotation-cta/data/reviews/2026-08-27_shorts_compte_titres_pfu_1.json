@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 9.75,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.5,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 122,
+      "seconds": 45.2,
+      "errors": [],
+      "warnings": [
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 122,
+        "seconds": 45.2,
+        "errors": [],
+        "warnings": [
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "f073196652f099478286a3c6599f4fc59ee5e6015492a7217ecf5c6253f0e4eb",
+      "adapted_hash": "f073196652f099478286a3c6599f4fc59ee5e6015492a7217ecf5c6253f0e4eb",
+      "source_beats": 6,
+      "adapted_pages": 9,
+      "splits": 3,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Formulation absolue à vérifier dans son contexte",
+    "Pour la composante 'completude' : ajouter très brièvement (écran ou voix) la précision que l'option pour le barème s'applique à l'ensemble des revenus du capital du foyer « pour l'année » afin d'insister sur l'aspect annuel (le script l'indique déjà mais peut être formulé plus explicitement: \"globale et annuelle\").",
+    "Pour la plateforme Shorts : vérifier que le voix-off n'alourdit pas le format — conserver certains chiffres (12,8% / 17,2% / 40%) dans le texte écran si nécessaire pour lisibilité et rythme.",
+    "Optionnel : dans la légende ou l'écran final, rappeler la source principale (CGI art. 200 A) en texte réduit pour renforcer la traçabilité sans rallonger la narration."
+  ],
+  "reviewed_at": "2026-08-17T17:35:27",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-27:shorts:compte_titres_pfu:1",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__shorts__a1.md"
+}

@@ -1,0 +1,175 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script cite correctement l'article 197 du CGI et l'exemple chiffré. Cependant la phrase « Le barème de l'article 197 du CGI est progressif : seul le revenu compris dans chaque tranche est taxé à son taux. » pourrait être précisée en indiquant que l'on parle du revenu imposable par part (quotient familial), pour éviter toute simplification excessive.",
+        "La mention « tranche à trente pour cent » est utilisée sans rappeler que les seuils évoluent annuellement (règle absolue dans la fiche : ne jamais citer de seuil sans vérification). Ici aucun seuil n'est cité, mais il faut ajouter une micro-mention orale/écran « seuils revalorisés chaque année » si le post peut être vu plus tard."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la règle centrale, un exemple et la nuance sur prestations sociales — c'est bon. Mais manque une très brève explication différenciant taux marginal / taux moyen, alors que la fiche insiste sur la confusion fréquente : une phrase courte dans le déroulé aiderait la compréhension (ex. « votre taux affiché n'est pas forcément votre taux marginal »)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 secondes : la narration telle que rédigée (texte continu) risque d'aller légèrement au-delà si la diction est lente. Recommander un ajustement précis du texte parlé pour respecter 38 s (par ex. réduire d'une ou deux phrases ou indiquer vitesse de lecture).",
+        "L'ordre des séquences est respecté."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace. Toutefois l'élément 'OUI / NON' visuel suivi d'un seul mot « Non. » doit être synchronisé pour l'impact ; proposer de transformer la case 'OUI' en grisée au moment de l'affirmation pour renforcer le contraste.",
+        "Le CTA est présent mais pourrait être perçu comme générique. Une alternative plus engageante ex. « Prenez rendez‑vous via le lien dans ma bio pour un calcul personnalisé » serait préférable sans constituer un conseil."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel. Quelques petites améliorations proposées : remplacer « Par exemple, mille euros gagnés dans une tranche à trente pour cent entraînent trois cents euros d'impôt » par « Par exemple, 1 000 € gagnés imposés à 30 % génèrent 300 € d'impôt », plus fluide à l'oral.",
+        "Vérifier l'intonation et pauses pour que chaque phrase reste claire en lecture rapide."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Globalement cohérent. Point d'attention : la narration continue répète légèrement l'accroche; envisager légère compression pour tenir durée et éviter redondance.",
+        "CTA cohérent mais s'assurer que le lien en bio existe avant publication."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'absence d'une très courte explication sur la différence entre taux marginal et taux moyen est une omission : ajouter une phrase de 3–5 mots (« taux marginal ≠ taux moyen ») aiderait la compréhension.",
+        "La mention des prestations sociales est bonne mais pourrait inclure un exemple (prime d'activité) pour ancrer la nuance."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes. Risque de perte d'attention si la narration dépasse la durée prévue. Recommander resserrer ou donner consigne de vitesse pour la voix off.",
+        "Le beat 2 (OUI / NON) fonctionne bien mais nécessite timing précis visuel/voix."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire sérieux mais l'appel à rendez-vous pourrait être perçu comme commercial s'il n'est pas nuancé. Ajouter phrase rapide de non‑engagement (« bilan gratuit / sans obligation ») si cela correspond à la pratique, sinon veiller à formulation transparente.",
+        "Vérifier cohérence entre CTA et politique de prise de rendez-vous pour éviter promesse implicite."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 102,
+      "seconds": 37.8,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 102,
+        "seconds": 37.8,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Le script cite correctement l'article 197 du CGI et l'exemple chiffré. Cependant la phrase « Le barème de l'article 197 du CGI est progressif : seul le revenu compris dans chaque tranche est taxé à son taux. » pourrait être précisée en indiquant que l'on parle du revenu imposable par part (quotient familial), pour éviter toute simplification excessive.",
+    "juridique_fiscal : La mention « tranche à trente pour cent » est utilisée sans rappeler que les seuils évoluent annuellement (règle absolue dans la fiche : ne jamais citer de seuil sans vérification). Ici aucun seuil n'est cité, mais il faut ajouter une micro-mention orale/écran « seuils revalorisés chaque année » si le post peut être vu plus tard.",
+    "completude : Le script contient la règle centrale, un exemple et la nuance sur prestations sociales — c'est bon. Mais manque une très brève explication différenciant taux marginal / taux moyen, alors que la fiche insiste sur la confusion fréquente : une phrase courte dans le déroulé aiderait la compréhension (ex. « votre taux affiché n'est pas forcément votre taux marginal »).",
+    "plateforme : Durée estimée 38 secondes : la narration telle que rédigée (texte continu) risque d'aller légèrement au-delà si la diction est lente. Recommander un ajustement précis du texte parlé pour respecter 38 s (par ex. réduire d'une ou deux phrases ou indiquer vitesse de lecture).",
+    "plateforme : L'ordre des séquences est respecté.",
+    "editorial : Accroche efficace. Toutefois l'élément 'OUI / NON' visuel suivi d'un seul mot « Non. » doit être synchronisé pour l'impact ; proposer de transformer la case 'OUI' en grisée au moment de l'affirmation pour renforcer le contraste.",
+    "editorial : Le CTA est présent mais pourrait être perçu comme générique. Une alternative plus engageante ex. « Prenez rendez‑vous via le lien dans ma bio pour un calcul personnalisé » serait préférable sans constituer un conseil.",
+    "formulation_professionnelle : Le français est naturel et professionnel. Quelques petites améliorations proposées : remplacer « Par exemple, mille euros gagnés dans une tranche à trente pour cent entraînent trois cents euros d'impôt » par « Par exemple, 1 000 € gagnés imposés à 30 % génèrent 300 € d'impôt », plus fluide à l'oral.",
+    "formulation_professionnelle : Vérifier l'intonation et pauses pour que chaque phrase reste claire en lecture rapide.",
+    "contre_verification_finale : Globalement cohérent. Point d'attention : la narration continue répète légèrement l'accroche; envisager légère compression pour tenir durée et éviter redondance.",
+    "contre_verification_finale : CTA cohérent mais s'assurer que le lien en bio existe avant publication.",
+    "pedagogie_client : Pour un non-spécialiste, l'absence d'une très courte explication sur la différence entre taux marginal et taux moyen est une omission : ajouter une phrase de 3–5 mots (« taux marginal ≠ taux moyen ») aiderait la compréhension.",
+    "pedagogie_client : La mention des prestations sociales est bonne mais pourrait inclure un exemple (prime d'activité) pour ancrer la nuance.",
+    "retention_attention : Les deux premières secondes sont fortes. Risque de perte d'attention si la narration dépasse la durée prévue. Recommander resserrer ou donner consigne de vitesse pour la voix off.",
+    "retention_attention : Le beat 2 (OUI / NON) fonctionne bien mais nécessite timing précis visuel/voix.",
+    "conversion_confiance : Le ton inspire sérieux mais l'appel à rendez-vous pourrait être perçu comme commercial s'il n'est pas nuancé. Ajouter phrase rapide de non‑engagement (« bilan gratuit / sans obligation ») si cela correspond à la pratique, sinon veiller à formulation transparente.",
+    "conversion_confiance : Vérifier cohérence entre CTA et politique de prise de rendez-vous pour éviter promesse implicite."
+  ],
+  "recommendations": [
+    "Préciser en une courte phrase (oral/écran) que le barème s'applique au revenu imposable 'par part' (quotient familial) pour éviter toute simplification.",
+    "Ajouter une micro-phrase distinguant taux marginal / taux moyen (ex. « taux marginal ≠ taux moyen ») pour prévenir la confusion fréquente et relier ceci au prélèvement à la source si souhaité.",
+    "Raccourcir légèrement la narration ou indiquer la vitesse de lecture pour garantir une durée maximale de 38 secondes (par ex. réduire ou fusionner deux phrases dans la narration continue).",
+    "Remplacer la formulation de l'exemple par une version plus fluide à l'oral : « 1 000 € gagnés à 30 % → 300 € d'impôt → 700 € nets ». Ajouter éventuellement l'exemple concret 'prime d'activité' lors de la nuance sur prestations sociales.",
+    "Adapter le CTA pour être transparent : si le rendez-vous est gratuit ou sans engagement, l'indiquer ; sinon veiller à la formulation pour éviter toute surpromesse.",
+    "Avant publication, vérifier que le lien en bio mène bien au formulaire/agenda mentionné et effectuer un test de lecture chronométrée avec la voix off retenue."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-22:reels:impot_revenu_tranche_marginale:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_tranche_marginale__reels__a3__v7.md"
+}

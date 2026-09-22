@@ -1,0 +1,199 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source est globalement respectée mais le libellé « contrats financiers hautement spéculatifs » est repris sans renvoi précis à un article ou définition légale : préciser exemples concrets (ex. certains produits structurés à levier) ou indiquer que la liste est indicative.",
+        "La phrase « actifs numériques hors prestataires enregistrés » mérite une formulation plus précise : il faudrait indiquer « promotion d'actifs numériques proposés par des prestataires non enregistrés » pour refléter la contrainte liée à l'enregistrement."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme correctement que la recommandation personnalisée exige le statut de conseiller en investissement financier (référence CMF L541-1), mais il omet d'indiquer que des exceptions limitées existent (par ex. certaines informations générales sur des produits fournis par des prestataires agréés). Il faut ajouter une mention sur l'existence d'exceptions réglementées ou renvoyer au CMF pour précision.",
+        "La phrase « La promotion de produits est restreinte » est correcte mais trop vague : préciser qu'il s'agit notamment de la promotion de produits dont la publicité est interdite et donner exemple concret référencé améliorerait l'exactitude juridique."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre règle centrale, condition et exception, mais omet d'indiquer expressément l'obligation de visibilité « pendant toute la durée du contenu » pour les formats courts (ex. shorts), ce qui mérite un rappel sur placement (surimpression pendant toute la vidéo).",
+        "Manque une recommandation pratique mineure : exemple de libellé accepté exact ('Publicité' ou 'Collaboration commerciale') devrait être mis en guillemets dans le visuel pour éviter variations."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 42 secondes : le script contient beaucoup d'informations et plusieurs énumérations — risque que la vitesse de lecture rende la mention obligatoire moins lisible à l'écran. Recommander test de lecture/affichage pour maintenir la mention visible pendant toute la durée.",
+        "Le CTA 'lien dans ma bio' est compatible avec Shorts, mais il faut vérifier que l'appel à la prise de rendez-vous ne soit pas perçu comme un conseil personnalisé si le lien permet une prise de contact pour du conseil sans statut ; préciser 'prendre rendez-vous pour un diagnostic' (et exiger statut approprié) clarifierait."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort mais la répétition 'Parler d'argent en ligne : puis-je recommander un placement ?' puis 'Non. Activité encadrée...' est efficace ; cependant, Beat 3 contient une énumération dense qui pourrait nuire à la fluidité en 42s. Proposer scinder ou ralentir pour assurer compréhension.",
+        "Le texte écran du Beat 3 est trop compact ('Mention visible toute la durée • Produits restreints...') : risque de surcharge visuelle sur Shorts."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script inclut la mention 'Prenez rendez-vous via le lien dans ma bio' : attention à ne pas transformer l'appel en conseil personnalisé sans vérification du statut du créateur. Il faut ajouter explicitement que le rendez‑vous donnera lieu à un diagnostic et non à une recommandation d'investissement sans statut.",
+        "La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil...' est bonne, mais en format vidéo courte elle doit aussi être affichée brièvement à l'écran pour renforcer la sécurité juridique."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent être rendues plus naturelles : remplacer 'Une recommandation personnalisée exige le statut de conseiller en investissement financier ; expliquer un mécanisme reste libre.' par 'La recommandation personnalisée nécessite le statut de conseiller en investissement financier. Expliquer un mécanisme est autorisé.' pour clarté.",
+        "La phrase « La promotion de produits est restreinte, ex : contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés. » est un peu lourde ; reformuler en deux phrases améliorerait la compréhension orale."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "En lecture mot à mot, la séquence contient des éléments potentiellement ambigus (voir remarques juridico-linguistiques ci-dessus) ; il est recommandé une seconde lecture à voix haute pour valider le timing et la prononciation des énumérations.",
+        "Vérifier l'orthographe exacte de 'puis‑je' — le tiret insécable est correct mais à valider selon charte typographique de la plateforme."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Beat 3 pictogrammes : 'étiquette publicité, pictogramme interdit, carte professionnelle' sont pertinents, mais la 'carte professionnelle' doit représenter explicitement le statut 'conseiller en investissement financier' pour éviter ambiguïté avec d'autres cartes pro.",
+        "Beat 5 indique 'vignette description barrée' : attention à ce que le pictogramme n'induise pas que toute description est invalide ; il doit représenter spécifiquement 'mention en description non valide' (icône description + croix)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo aborde un seul angle mais charge beaucoup d'informations en 42s ; risque de perte d'attention. Suggestion : réduire légèrement l'énumération des produits restreints ou scinder en une série.",
+        "L'exemple chiffré (100 000 €) est utile mais pourrait distraire : s'assurer qu'il est lu lentement et contrasté visuellement."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est accessible mais contient des termes qui peuvent nécessiter brève définition (ex. 'prestataires enregistrés', 'recommandation personnalisée') ; ajouter un mot explicatif rapide aiderait la compréhension du non-spécialiste.",
+        "La différence entre information et recommandation est bien illustrée, mais la formulation 'Vous devriez...' vs 'L'abattement est de 100 000 €' gagnerait à être prononcée lentement pour assurer compréhension immédiate."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont accrocheuses, toutefois l'énumération au Beat 3 peut ralentir la progression de curiosité. Recommander d'inverser l'ordre : mention obligatoire d'abord (pour capter), puis restriction produits, puis statut requis.",
+        "Le CTA est clair mais placé en fin sans renforcement visuel suffisant ; prévoir un rappel visuel final plus fort pour améliorer la conversion."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et sourcé inspire confiance, mais l'absence d'une phrase garantissant l'absence de promesse de performance peut laisser un léger vide. Ajouter une phrase courte type 'Aucune promesse de performance' renforcerait la crédibilité.",
+        "L'appel à prendre rendez-vous doit éviter toute pression commerciale : reformuler comme 'Demandez un diagnostic' plutôt que 'Prenez rendez-vous' peut réduire perception de vente forcée."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 126,
+      "seconds": 46.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 126,
+        "seconds": 46.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source est globalement respectée mais le libellé « contrats financiers hautement spéculatifs » est repris sans renvoi précis à un article ou définition légale : préciser exemples concrets (ex. certains produits structurés à levier) ou indiquer que la liste est indicative.",
+    "source : La phrase « actifs numériques hors prestataires enregistrés » mérite une formulation plus précise : il faudrait indiquer « promotion d'actifs numériques proposés par des prestataires non enregistrés » pour refléter la contrainte liée à l'enregistrement.",
+    "juridique_fiscal : Le script affirme correctement que la recommandation personnalisée exige le statut de conseiller en investissement financier (référence CMF L541-1), mais il omet d'indiquer que des exceptions limitées existent (par ex. certaines informations générales sur des produits fournis par des prestataires agréés). Il faut ajouter une mention sur l'existence d'exceptions réglementées ou renvoyer au CMF pour précision.",
+    "juridique_fiscal : La phrase « La promotion de produits est restreinte » est correcte mais trop vague : préciser qu'il s'agit notamment de la promotion de produits dont la publicité est interdite et donner exemple concret référencé améliorerait l'exactitude juridique.",
+    "completude : Le script couvre règle centrale, condition et exception, mais omet d'indiquer expressément l'obligation de visibilité « pendant toute la durée du contenu » pour les formats courts (ex. shorts), ce qui mérite un rappel sur placement (surimpression pendant toute la vidéo).",
+    "completude : Manque une recommandation pratique mineure : exemple de libellé accepté exact ('Publicité' ou 'Collaboration commerciale') devrait être mis en guillemets dans le visuel pour éviter variations.",
+    "plateforme : Durée estimée 42 secondes : le script contient beaucoup d'informations et plusieurs énumérations — risque que la vitesse de lecture rende la mention obligatoire moins lisible à l'écran. Recommander test de lecture/affichage pour maintenir la mention visible pendant toute la durée.",
+    "plateforme : Le CTA 'lien dans ma bio' est compatible avec Shorts, mais il faut vérifier que l'appel à la prise de rendez-vous ne soit pas perçu comme un conseil personnalisé si le lien permet une prise de contact pour du conseil sans statut ; préciser 'prendre rendez-vous pour un diagnostic' (et exiger statut approprié) clarifierait.",
+    "editorial : Hook fort mais la répétition 'Parler d'argent en ligne : puis-je recommander un placement ?' puis 'Non. Activité encadrée...' est efficace ; cependant, Beat 3 contient une énumération dense qui pourrait nuire à la fluidité en 42s. Proposer scinder ou ralentir pour assurer compréhension.",
+    "editorial : Le texte écran du Beat 3 est trop compact ('Mention visible toute la durée • Produits restreints...') : risque de surcharge visuelle sur Shorts.",
+    "securite : Le script inclut la mention 'Prenez rendez-vous via le lien dans ma bio' : attention à ne pas transformer l'appel en conseil personnalisé sans vérification du statut du créateur. Il faut ajouter explicitement que le rendez‑vous donnera lieu à un diagnostic et non à une recommandation d'investissement sans statut.",
+    "securite : La mention finale 'Contenu pédagogique général. Ne constitue ni un conseil...' est bonne, mais en format vidéo courte elle doit aussi être affichée brièvement à l'écran pour renforcer la sécurité juridique.",
+    "formulation_professionnelle : Quelques formulations peuvent être rendues plus naturelles : remplacer 'Une recommandation personnalisée exige le statut de conseiller en investissement financier ; expliquer un mécanisme reste libre.' par 'La recommandation personnalisée nécessite le statut de conseiller en investissement financier. Expliquer un mécanisme est autorisé.' pour clarté.",
+    "formulation_professionnelle : La phrase « La promotion de produits est restreinte, ex : contrats financiers hautement spéculatifs et actifs numériques hors prestataires enregistrés. » est un peu lourde ; reformuler en deux phrases améliorerait la compréhension orale.",
+    "contre_verification_finale : En lecture mot à mot, la séquence contient des éléments potentiellement ambigus (voir remarques juridico-linguistiques ci-dessus) ; il est recommandé une seconde lecture à voix haute pour valider le timing et la prononciation des énumérations.",
+    "contre_verification_finale : Vérifier l'orthographe exacte de 'puis‑je' — le tiret insécable est correct mais à valider selon charte typographique de la plateforme.",
+    "coherence_pictogrammes : Beat 3 pictogrammes : 'étiquette publicité, pictogramme interdit, carte professionnelle' sont pertinents, mais la 'carte professionnelle' doit représenter explicitement le statut 'conseiller en investissement financier' pour éviter ambiguïté avec d'autres cartes pro.",
+    "coherence_pictogrammes : Beat 5 indique 'vignette description barrée' : attention à ce que le pictogramme n'induise pas que toute description est invalide ; il doit représenter spécifiquement 'mention en description non valide' (icône description + croix).",
+    "densite_editoriale : La vidéo aborde un seul angle mais charge beaucoup d'informations en 42s ; risque de perte d'attention. Suggestion : réduire légèrement l'énumération des produits restreints ou scinder en une série.",
+    "densite_editoriale : L'exemple chiffré (100 000 €) est utile mais pourrait distraire : s'assurer qu'il est lu lentement et contrasté visuellement.",
+    "pedagogie_client : Le script est accessible mais contient des termes qui peuvent nécessiter brève définition (ex. 'prestataires enregistrés', 'recommandation personnalisée') ; ajouter un mot explicatif rapide aiderait la compréhension du non-spécialiste.",
+    "pedagogie_client : La différence entre information et recommandation est bien illustrée, mais la formulation 'Vous devriez...' vs 'L'abattement est de 100 000 €' gagnerait à être prononcée lentement pour assurer compréhension immédiate.",
+    "retention_attention : Les deux premières secondes sont accrocheuses, toutefois l'énumération au Beat 3 peut ralentir la progression de curiosité. Recommander d'inverser l'ordre : mention obligatoire d'abord (pour capter), puis restriction produits, puis statut requis.",
+    "retention_attention : Le CTA est clair mais placé en fin sans renforcement visuel suffisant ; prévoir un rappel visuel final plus fort pour améliorer la conversion.",
+    "conversion_confiance : Ton sérieux et sourcé inspire confiance, mais l'absence d'une phrase garantissant l'absence de promesse de performance peut laisser un léger vide. Ajouter une phrase courte type 'Aucune promesse de performance' renforcerait la crédibilité.",
+    "conversion_confiance : L'appel à prendre rendez-vous doit éviter toute pression commerciale : reformuler comme 'Demandez un diagnostic' plutôt que 'Prenez rendez-vous' peut réduire perception de vente forcée."
+  ],
+  "recommendations": [
+    "Préciser et rendre plus explicite la formulation relative aux 'produits financiers hautement spéculatifs' en donnant un ou deux exemples concrets ou en indiquant clairement que la liste est indicative.",
+    "Remplacer 'actifs numériques hors prestataires enregistrés' par 'actifs numériques proposés par des prestataires non enregistrés' pour plus de précision.",
+    "Ajouter une brève mention (orale et visuelle) rappelant que la vidéo est du contenu pédagogique général et qu'elle ne constitue pas un conseil personnalisé, et afficher cette mention à l'écran au moins 2 secondes.",
+    "Vérifier le timing : tester la lecture à voix haute et l'affichage de chaque texte écran pour garantir que la mention 'Publicité'/'Collaboration commerciale' reste lisible pendant toute la durée (surimpression continue).",
+    "Adapter pictogrammes : remplacer la 'carte professionnelle' générique par un visuel indiquant explicitement 'Conseiller en investissement financier' et clarifier le pictogramme de description barrée pour signifier 'mention en description non valable'.",
+    "Alléger l'énumération du Beat 3 (par ex. scinder la phrase en deux ou réduire le nombre d'items) afin d'assurer clarté et compréhension dans un format Shorts de 42s.",
+    "Reformuler le CTA pour éviter toute ambigüité commerciale : proposer 'Demandez un diagnostic via le lien en bio' et, si vous offrez un conseil payant, préciser le statut réglementaire requis avant délivrance de recommandations personnalisées.",
+    "Effectuer une seconde lecture indépendante et un test visuel sur mobile pour ajuster vitesses de parole, tailles de texte et contraste afin d'optimiser rétention et conformité visuelle."
+  ],
+  "reviewed_at": "2026-08-24T15:39:56",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-25:shorts:conformite_influence_commerciale:1",
+  "script_path": "scripts/conformite/conformite_influence_commerciale__shorts__a5__v4.md"
+}

@@ -1,0 +1,157 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.38,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script indique correctement les délais (3 ans IR, 3 ou 6 ans droits d'enregistrement, 10 ans comptes étrangers) mais n'explicite pas la précision importante : le délai court à partir du 31 décembre de l'année d'imposition (mentionnée pour l'IR mais pas rappelée pour la comparaison avec les autres délais). Pour éviter toute ambiguïté juridique, il faudrait ajouter la précision que le point de départ est lié à l'année d'imposition ou, pour les droits d'enregistrement, à l'exigibilité (selon L.180) lorsque cela diffère."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script contient la règle centrale, une exception et un exemple pertinent, mais omet d'indiquer la distinction de point de départ des délais pour les droits d'enregistrement et pour les avoirs étrangers (par ex. que le délai de dix ans vise les avoirs non déclarés à l'étranger, article L.169 A/L.188), et n'indique pas que certaines fraudes peuvent allonger le délai. Il faudrait ajouter une phrase très courte rappelant que l'absence de déclaration et certaines fraudes allongent le délai, pour être complet."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38 s) paraît compatible avec le texte mais l'enchaînement verbal tel que rédigé pourrait dépasser légèrement 38 s à l'oral. Recommandation : chrono-lecture pour ajuster le débit ou raccourcir une phrase (par ex. la nuance sur droits d'enregistrement/avoirs étrangers)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression claires. Points à améliorer : la formulation 'OUI / NON' dans la question visuelle peut distraire — garder simplement 'OUI' comme réponse attendue rendra le message plus percutant. La phrase de CTA 'Prenez rendez-vous via le lien dans ma bio' est commerciale; veiller à ce qu'elle reste conforme à la règle de non-conseil personnalisé (la mention légale est fournie en légende mais il serait préférable d'ajouter juste avant le CTA 'contenu d'information' pour dissocier)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et compréhensible. Deux micro-ajustements : remplacer 'En matière d'impôt sur le revenu, le droit de reprise expire le trente et un décembre de la troisième année suivant l'année d'imposition.' par '...expire le 31 décembre de la troisième année suivant l'année d'imposition.' (chiffres plus lisibles à l'oral/visuel) ; et raccourcir 'les avoirs détenus à l'étranger non déclarés sont contrôlables pendant dix ans' en 'avoirs étrangers non déclarés : 10 ans' pour la lisibilité écran."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contrôle global ok mais relève mineure : la narration continue répète mot à mot la table séquentielle — pour fluidité orale, supprimer la redondance entre le beat 2 (question visuelle OUI/NON) et la narration qui répète 'OUI / NON'.",
+        "Vérifier le minutage en voix off pour respecter 38 s."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle et conserve la règle centrale et l'exception. À améliorer : condenser légèrement la nuance (beat 6) pour éviter surcharge d'information et respecter la durée (fusion possible de la mention droits d'enregistrement et avoirs étrangers en une phrase plus courte)."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook fort. Toutefois la deuxième séquence (OUI / NON visuel) peut ralentir le rythme plutôt que l'accroître. Recommandation : remplacer le visuel bipartite par un rapide 'OUI' animé pour maintenir tension et accélérer reponse."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 114,
+      "seconds": 42.2,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 114,
+        "seconds": 42.2,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Le script indique correctement les délais (3 ans IR, 3 ou 6 ans droits d'enregistrement, 10 ans comptes étrangers) mais n'explicite pas la précision importante : le délai court à partir du 31 décembre de l'année d'imposition (mentionnée pour l'IR mais pas rappelée pour la comparaison avec les autres délais). Pour éviter toute ambiguïté juridique, il faudrait ajouter la précision que le point de départ est lié à l'année d'imposition ou, pour les droits d'enregistrement, à l'exigibilité (selon L.180) lorsque cela diffère.",
+    "completude : Le script contient la règle centrale, une exception et un exemple pertinent, mais omet d'indiquer la distinction de point de départ des délais pour les droits d'enregistrement et pour les avoirs étrangers (par ex. que le délai de dix ans vise les avoirs non déclarés à l'étranger, article L.169 A/L.188), et n'indique pas que certaines fraudes peuvent allonger le délai. Il faudrait ajouter une phrase très courte rappelant que l'absence de déclaration et certaines fraudes allongent le délai, pour être complet.",
+    "plateforme : La durée estimée (38 s) paraît compatible avec le texte mais l'enchaînement verbal tel que rédigé pourrait dépasser légèrement 38 s à l'oral. Recommandation : chrono-lecture pour ajuster le débit ou raccourcir une phrase (par ex. la nuance sur droits d'enregistrement/avoirs étrangers).",
+    "editorial : Accroche et progression claires. Points à améliorer : la formulation 'OUI / NON' dans la question visuelle peut distraire — garder simplement 'OUI' comme réponse attendue rendra le message plus percutant. La phrase de CTA 'Prenez rendez-vous via le lien dans ma bio' est commerciale; veiller à ce qu'elle reste conforme à la règle de non-conseil personnalisé (la mention légale est fournie en légende mais il serait préférable d'ajouter juste avant le CTA 'contenu d'information' pour dissocier).",
+    "formulation_professionnelle : Le français est naturel et compréhensible. Deux micro-ajustements : remplacer 'En matière d'impôt sur le revenu, le droit de reprise expire le trente et un décembre de la troisième année suivant l'année d'imposition.' par '...expire le 31 décembre de la troisième année suivant l'année d'imposition.' (chiffres plus lisibles à l'oral/visuel) ; et raccourcir 'les avoirs détenus à l'étranger non déclarés sont contrôlables pendant dix ans' en 'avoirs étrangers non déclarés : 10 ans' pour la lisibilité écran.",
+    "contre_verification_finale : Contrôle global ok mais relève mineure : la narration continue répète mot à mot la table séquentielle — pour fluidité orale, supprimer la redondance entre le beat 2 (question visuelle OUI/NON) et la narration qui répète 'OUI / NON'.",
+    "contre_verification_finale : Vérifier le minutage en voix off pour respecter 38 s.",
+    "densite_editoriale : La vidéo traite un seul angle et conserve la règle centrale et l'exception. À améliorer : condenser légèrement la nuance (beat 6) pour éviter surcharge d'information et respecter la durée (fusion possible de la mention droits d'enregistrement et avoirs étrangers en une phrase plus courte).",
+    "retention_attention : Hook fort. Toutefois la deuxième séquence (OUI / NON visuel) peut ralentir le rythme plutôt que l'accroître. Recommandation : remplacer le visuel bipartite par un rapide 'OUI' animé pour maintenir tension et accélérer reponse."
+  ],
+  "recommendations": [
+    "Ajouter, en une courte phrase dans la nuance (beat 6) ou juste après, que l'absence de déclaration et certains comportements frauduleux peuvent allonger les délais (référence L.169 A / L.188), afin d'éviter toute interprétation erronée.",
+    "Préciser brièvement, pour les droits d'enregistrement et les avoirs étrangers, quel est le point de départ du délai (exigibilité ou année d'imposition) si cela diffère, pour plus de précision juridique.",
+    "Alléger ou remplacer le visuel 'OUI / NON' par une réponse animée unique ('OUI') pour conserver l'attention et réduire le temps mort visuel.",
+    "Effectuer une lecture chronométrée de la narration pour garantir que la durée totale reste dans la cible 38 s ; raccourcir légèrement la phrase de nuance si nécessaire.",
+    "Sur l'écran texte, préférer formats numériques courts ('Délai IR : 31/12 +3 ans', 'Droits : 3 ou 6 ans', 'Avoirs étrangers : 10 ans') pour meilleure lisibilité en petits cadres Reels."
+  ],
+  "reviewed_at": "2026-08-24T15:39:46",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-09-07:reels:fiscalite_controle_fiscal:1",
+  "script_path": "scripts/fiscalite/fiscalite_controle_fiscal__reels__a1__v8.md"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "platform": "reels",
+  "source_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+  "adapted_hash": "0d55c95571c715641231d843d2bfd716e5fcb5e868c2ce6e130523b304434030",
+  "source_beats": 7,
+  "adapted_pages": 7,
+  "splits": 0,
+  "exact_text_preserved": true,
+  "minimum_font_size": 36,
+  "warnings": []
+}

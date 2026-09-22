@@ -1,0 +1,192 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.77,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte globalement la fiche, mais omet une précision importante liée à la formulation «Le PFU devient avantageux à partir de 30 %» : il faut préciser «à partir d'une tranche marginale d'imposition de 30 %» pour éviter l'ambiguïté.",
+        "Le script ne rappelle pas explicitement que certains produits (PEA, contrats d'assurance‑vie dans des conditions particulières) ont des régimes distincts, ce qui peut induire en erreur un spectateur non spécialiste qui généraliserait la règle à tous les placements."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention des chiffres (12,8 % IR et 17,2 % prélèvements sociaux) et de l'abattement de 40 % sur les dividendes est correcte, mais il manque la nuance que l'imposition à la source à 30 % pratiquée par les banques constitue un acompte qui peut être régularisé lors de la déclaration (risque d'interprétation que le prélèvement bancaire est l'imposition définitive).",
+        "Il serait utile d'ajouter explicitement que l'option pour le barème est exercée sur la déclaration de revenus et doit être simulée car elle s'applique à l'ensemble des revenus du capital du foyer."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est minimal (simple comparaison 11 % vs 12,8 %). Il manque un calcul rapide montrant l'impact concret (ex. sur 1 000 € de dividendes : barème = 110 € vs PFU = 128 €) pour améliorer l'utilité pédagogique.",
+        "Il manque l'information que l'option pour le barème est annuelle (la fiche le dit mais le script l'affiche seulement brièvement); la mise en avant doit être légèrement renforcée pour éviter l'omission dangereuse."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le timing estimé (40 s) paraît plausible mais la densité d'informations (chiffres, abattement, règle globale, exemple, CTA) peut dépasser la capacité d'attention d'un Reels de ~40 s si la diction est naturelle ; suggérer un découpage strict des durées par séquence (par ex. 5–6 s pour l'accroche) pour tenir la contrainte.",
+        "Le visuel proposé est adapté au format Reels mais certains pictogrammes (impôt / prélèvements sociaux) doivent être suffisamment grands et contrastés pour être lisibles en lecture mobile rapide."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est direct et clair, mais la première phrase «Vous voyez 30 % prélevés...» fonctionne bien ; la bascule «OUI / NON» en séquence 2 est interactive mais peut perdre du temps si mal filmée — suggérer d'abréger l'interaction ou de la rendre visuelle très rapide.",
+        "La phrase «le PFU devient avantageux à partir de 30 %» prête à confusion (voir remarque précédente) et doit être reformulée pour préciser «à partir d'une tranche marginale d'imposition de 30 %»."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le français est naturel et professionnel, mais la phrase finale de la légende «Ne constitue ni un conseil juridique, fiscal ou financier personnalisé...» est correcte ; toutefois dans la narration continue il manque une phrase très brève rappelant que ceci est du contenu pédagogique et non un conseil personnalisé (important pour la conformité)."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs éléments nécessitent une seconde relecture mot à mot : la mention «le PFU devient avantageux à partir de 30 %» (ambiguïté), l'absence d'une phrase explicite que la retenue bancaire est un acompte et peut être régularisée, et l'absence d'un exemple chiffré concret avec montant.",
+        "Vérifier la cohérence entre le texte écran et la narration : par exemple l'écran dit «Barème préférable en tranches basses ; abattement 40 %» alors que la narration mentionne aussi 0 % et 11 % — aligner exactement les libellés pour éviter contradiction visuelle/sonore."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme «30 %» et la carte bancaire sont pertinents pour le hook, mais le pictogramme impôt / prélèvements sociaux doit clairement différencier IR et PS (ex. couleurs différentes) pour que l'audience comprenne la ventilation 12,8 % / 17,2 % à la simple lecture.",
+        "Le pictogramme calendrier + foyer pour l'option globale et annuelle est pertinent, mais devrait inclure une icône 'tous' ou 'ensemble' pour illustrer l'application à l'ensemble des revenus du foyer (actuellement risque d'interprétation partielle)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (comparaison PFU vs barème) mais contient beaucoup d'éléments. Pour rester concise, recommander de transformer la partie 'exemple' en un chiffrage très court (voir recommandation) et d'abréger la transition OUI/NON.",
+        "Il faut impérativement garder la condition (tranche marginale) et l'exception (option globale) — présentes — mais les mettre en valeur par un micro‑pause visuelle pour éviter la surcharge d'information."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script s'adresse bien à un non‑spécialiste mais utilise 'tranche marginale' sans brève explication. Proposer de remplacer par «votre taux d'imposition marginal (la tranche la plus haute qui s'applique à vos revenus)» ou ajouter un mot d'explication très rapide.",
+        "L'abattement de 40 % est cité mais sans préciser brièvement qu'il ne s'applique que si on choisit le barème — la phrase actuelle le dit implicitement mais peut être plus explicite."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'accroche est forte mais la séquence 'OUI / NON' risque d'interrompre le flux et fragiliser la rétention si la réponse n'est pas quasi‑immédiate. Recommander de conserver l'interaction mais de la rendre plus rapide (1–2 secondes visuelles).",
+        "Le CTA 'lien en bio' est classique mais pourrait gagner en efficacité si on ajoute une promesse courte ('simulation gratuite' si applicable) — en l'absence d'autorisation commerciale, garder 'Prenez rendez‑vous via le lien en bio' mais l'énoncer de façon concise."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton inspire confiance, sourcé, neutre. Toutefois, l'absence d'un rappel verbal très bref que le prélèvement bancaire est un acompte peut créer de l'inquiétude chez l'utilisateur ; ajouter cette précision renforcerait la confiance.",
+        "La mention des sources en description est bonne ; recommander d'indiquer brièvement dans la légende (post) la référence légale clé (article 200 A CGI) pour asseoir l'autorité."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 110,
+      "seconds": 40.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 110,
+        "seconds": 40.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte globalement la fiche, mais omet une précision importante liée à la formulation «Le PFU devient avantageux à partir de 30 %» : il faut préciser «à partir d'une tranche marginale d'imposition de 30 %» pour éviter l'ambiguïté.",
+    "source : Le script ne rappelle pas explicitement que certains produits (PEA, contrats d'assurance‑vie dans des conditions particulières) ont des régimes distincts, ce qui peut induire en erreur un spectateur non spécialiste qui généraliserait la règle à tous les placements.",
+    "juridique_fiscal : La mention des chiffres (12,8 % IR et 17,2 % prélèvements sociaux) et de l'abattement de 40 % sur les dividendes est correcte, mais il manque la nuance que l'imposition à la source à 30 % pratiquée par les banques constitue un acompte qui peut être régularisé lors de la déclaration (risque d'interprétation que le prélèvement bancaire est l'imposition définitive).",
+    "juridique_fiscal : Il serait utile d'ajouter explicitement que l'option pour le barème est exercée sur la déclaration de revenus et doit être simulée car elle s'applique à l'ensemble des revenus du capital du foyer.",
+    "completude : L'exemple chiffré est minimal (simple comparaison 11 % vs 12,8 %). Il manque un calcul rapide montrant l'impact concret (ex. sur 1 000 € de dividendes : barème = 110 € vs PFU = 128 €) pour améliorer l'utilité pédagogique.",
+    "completude : Il manque l'information que l'option pour le barème est annuelle (la fiche le dit mais le script l'affiche seulement brièvement); la mise en avant doit être légèrement renforcée pour éviter l'omission dangereuse.",
+    "plateforme : Le timing estimé (40 s) paraît plausible mais la densité d'informations (chiffres, abattement, règle globale, exemple, CTA) peut dépasser la capacité d'attention d'un Reels de ~40 s si la diction est naturelle ; suggérer un découpage strict des durées par séquence (par ex. 5–6 s pour l'accroche) pour tenir la contrainte.",
+    "plateforme : Le visuel proposé est adapté au format Reels mais certains pictogrammes (impôt / prélèvements sociaux) doivent être suffisamment grands et contrastés pour être lisibles en lecture mobile rapide.",
+    "editorial : Le ton est direct et clair, mais la première phrase «Vous voyez 30 % prélevés...» fonctionne bien ; la bascule «OUI / NON» en séquence 2 est interactive mais peut perdre du temps si mal filmée — suggérer d'abréger l'interaction ou de la rendre visuelle très rapide.",
+    "editorial : La phrase «le PFU devient avantageux à partir de 30 %» prête à confusion (voir remarque précédente) et doit être reformulée pour préciser «à partir d'une tranche marginale d'imposition de 30 %».",
+    "formulation_professionnelle : Le français est naturel et professionnel, mais la phrase finale de la légende «Ne constitue ni un conseil juridique, fiscal ou financier personnalisé...» est correcte ; toutefois dans la narration continue il manque une phrase très brève rappelant que ceci est du contenu pédagogique et non un conseil personnalisé (important pour la conformité).",
+    "contre_verification_finale : Plusieurs éléments nécessitent une seconde relecture mot à mot : la mention «le PFU devient avantageux à partir de 30 %» (ambiguïté), l'absence d'une phrase explicite que la retenue bancaire est un acompte et peut être régularisée, et l'absence d'un exemple chiffré concret avec montant.",
+    "contre_verification_finale : Vérifier la cohérence entre le texte écran et la narration : par exemple l'écran dit «Barème préférable en tranches basses ; abattement 40 %» alors que la narration mentionne aussi 0 % et 11 % — aligner exactement les libellés pour éviter contradiction visuelle/sonore.",
+    "coherence_pictogrammes : Le pictogramme «30 %» et la carte bancaire sont pertinents pour le hook, mais le pictogramme impôt / prélèvements sociaux doit clairement différencier IR et PS (ex. couleurs différentes) pour que l'audience comprenne la ventilation 12,8 % / 17,2 % à la simple lecture.",
+    "coherence_pictogrammes : Le pictogramme calendrier + foyer pour l'option globale et annuelle est pertinent, mais devrait inclure une icône 'tous' ou 'ensemble' pour illustrer l'application à l'ensemble des revenus du foyer (actuellement risque d'interprétation partielle).",
+    "densite_editoriale : La vidéo traite un seul angle (comparaison PFU vs barème) mais contient beaucoup d'éléments. Pour rester concise, recommander de transformer la partie 'exemple' en un chiffrage très court (voir recommandation) et d'abréger la transition OUI/NON.",
+    "densite_editoriale : Il faut impérativement garder la condition (tranche marginale) et l'exception (option globale) — présentes — mais les mettre en valeur par un micro‑pause visuelle pour éviter la surcharge d'information.",
+    "pedagogie_client : Le script s'adresse bien à un non‑spécialiste mais utilise 'tranche marginale' sans brève explication. Proposer de remplacer par «votre taux d'imposition marginal (la tranche la plus haute qui s'applique à vos revenus)» ou ajouter un mot d'explication très rapide.",
+    "pedagogie_client : L'abattement de 40 % est cité mais sans préciser brièvement qu'il ne s'applique que si on choisit le barème — la phrase actuelle le dit implicitement mais peut être plus explicite.",
+    "retention_attention : L'accroche est forte mais la séquence 'OUI / NON' risque d'interrompre le flux et fragiliser la rétention si la réponse n'est pas quasi‑immédiate. Recommander de conserver l'interaction mais de la rendre plus rapide (1–2 secondes visuelles).",
+    "retention_attention : Le CTA 'lien en bio' est classique mais pourrait gagner en efficacité si on ajoute une promesse courte ('simulation gratuite' si applicable) — en l'absence d'autorisation commerciale, garder 'Prenez rendez‑vous via le lien en bio' mais l'énoncer de façon concise.",
+    "conversion_confiance : Le ton inspire confiance, sourcé, neutre. Toutefois, l'absence d'un rappel verbal très bref que le prélèvement bancaire est un acompte peut créer de l'inquiétude chez l'utilisateur ; ajouter cette précision renforcerait la confiance.",
+    "conversion_confiance : La mention des sources en description est bonne ; recommander d'indiquer brièvement dans la légende (post) la référence légale clé (article 200 A CGI) pour asseoir l'autorité."
+  ],
+  "recommendations": [
+    "Reformulations à appliquer dans le script : remplacer «le PFU devient avantageux à partir de 30 %» par «le PFU devient avantageux si votre tranche marginale d'impôt est de 30 % ou plus».",
+    "Ajouter une phrase très brève (3–4 mots) dans la narration : «Précision : le prélèvement bancaire est un acompte, la régularisation se fait à la déclaration» pour éviter l'idée que le prélèvement est définitif.",
+    "Donner un exemple chiffré court et lisible à l'écran : par exemple «Sur 1 000 € de dividendes : barème (tranche 11 %) = 110 € vs PFU = 128 €» afin d'illustrer l'écart concrètement.",
+    "Préciser en une courte parenthèse la portée limitée : «(PEA et assurance‑vie soumis à des règles spécifiques)» dans la légende ou l'écran final pour éviter la généralisation erronée.",
+    "Ajuster les pictogrammes : différencier visuellement IR (12,8 %) et PS (17,2 %) par couleurs/labels ; pour l'option globale, ajouter un pictogramme 'foyer = tous les revenus' (ex. icône maison + plusieurs pièces ou un symbole 'tous').",
+    "Optimiser le format Reels : réduire la durée de la séquence OUI/NON à 1–2 s, limiter chaque beat à un temps strict (hook 3–4 s, explication 10–12 s, exemple 6–8 s, nuance 6–8 s, CTA 3–4 s) pour respecter 40 s estimées.",
+    "Ajouter un bref rappel pédagogique pour 'tranche marginale' (ex. «votre taux le plus élevé d'imposition») pour garantir compréhension immédiate par un non‑spécialiste.",
+    "Mentionner dans la légende/description la source légale principale (article 200 A du CGI) et, si possible, un lien vers le BOFiP pour ceux qui veulent approfondir."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-18:reels:compte_titres_pfu:0",
+  "script_path": "scripts/compte_titres/compte_titres_pfu__reels__a4__v7.md"
+}

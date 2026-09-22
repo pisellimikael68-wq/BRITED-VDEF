@@ -1,0 +1,184 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source mentionne 'Quote-part indivise présumée à défaut de mention dans l'acte = 50/50' : le script montre bien un exemple 50/50 mais n'indique pas la mention « à défaut de mention dans l'acte » — risque d'être interprété comme une règle automatique. Localisation : Beat 5 (texte écran et narration).",
+        "La fiche indique le CGI article 777 pour le tarif entre personnes non parentes (pertinent pour fiscalité du décès), or le script ne rappelle pas la conséquence fiscale du 50/50 lors d'un apport déséquilibré (donation indirecte). Localisation : Beat 5-6 (exemple et nuance)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme correctement la majorité des deux tiers et l'unanimité, sourcé article 815-3 et règles d'indivision, mais omet de préciser que la majorité des deux tiers se calcule en parts de droits indivis (ce qui peut surprendre le non-spécialiste). Localisation : Beat 4 (règle).",
+        "Le script mentionne l'article 815 qui permet d'exiger le partage mais n'explique pas la conséquence fiscale possible (vente judiciaire et partage imposable) ni la distinction entre actes d'administration et disposition en terme d'exemples concrets (travaux lourds vs vente). Localisation : Beat 6 (nuance)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Manque l'alerte sur la conséquence d'inscrire 50/50 dans l'acte quand les apports sont inégaux (donation indirecte) : c'est listé dans la fiche mais absent du script. Localisation : Narration continue / Beat 5.",
+        "La fiche conseille des outils (convention d'indivision, SCI, testament/assurance-vie) ; le script ne les évoque, ce qui laisse incomplet le point 'que faire'. Localisation : fin du script avant CTA."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte mais la question OUI / NON (Beat 2) puis la réponse 'Non.' (Beat 3) crée un léger double emploi et une pause qui peut nuire au timing des 38 s ; suggérer fusionner question-réponse pour garder rythme. Localisation : Beats 2-3.",
+        "Le CTA est correct mais pourrait préciser 'rendez-vous' → 'rendez-vous juridique' pour renforcer la confiance professionnelle sans surpromesse. Localisation : Beat 7."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Phrase 'Une personne peut-elle décider seule de vendre ou de faire des travaux ? OUI / NON' risque d'être lu vite et perdre l'auditeur ; recommander reformulation plus directe: 'Une personne peut-elle décider seule ?' Localisation : Beat 2.",
+        "La mention 'ce qui peut provoquer une vente judiciaire' est correcte mais formule un peu brute ; proposer 'ce qui peut aboutir à un partage forcé, parfois par vente judiciaire' pour précision et fluidité. Localisation : Beat 6."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Incohérence mineure : le script indique 'actes d'administration exigent la majorité des deux tiers des droits indivis' — il faudrait préciser 'des droits indivis' pour éviter lecture 'des deux tiers des indivisaires'. Localisation : Beat 4 (texte écran et narration).",
+        "Le script ne cite pas explicitement les sources à l'écran (Code civil art. 815 / 815-3), alors que la fiche les impose pour fidélité stricte. Localisation : fin / Sources."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le pictogramme 'balance' pour la règle est adéquat, mais 'pictogramme équilibre et règle' pourrait prêter à ambiguïté : préférer icône 'deux parts + pourcentage' pour illustrer la majorité des 2/3. Localisation : Beat 4 (visuel).",
+        "Beat 6 propose 'Icône article, pictogramme marteau tribun' : 'marteau tribun' évoque procès et est pertinent, mais préciser visuel 'marteau + document indivision' rendrait le lien plus explicite. Localisation : Beat 6."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire 'actes d'administration' et 'actes de disposition' peut être technique pour un non-spécialiste ; proposer brève parenthèse explicative ('travaux courants vs vente') dans une phrase courte. Localisation : Beat 4-5.",
+        "L'exemple 50/50 est utile mais sans explicitation de l'effet fiscal du déséquilibre d'apport le spectateur reste vulnérable. Localisation : Beat 5."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes accrocheuses mais la séquence question/réponse crée un micro-rupture : risque de perte d'attention entre Beat 2 et 3. Localisation : Beats 1-3.",
+        "Le CTA 'lien dans ma bio' est standard ; pour améliorer conversion, suggérer 'pour un point personnalisé' ou 'pour vérifier votre situation' afin d'augmenter attrait. Localisation : Beat 7."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux présent, mais absence de mention rapide des solutions possibles (convention d'indivision/SCI/testament/assurance-vie) diminue l'impression d'accompagnement pratique. Localisation : fin du script avant CTA.",
+        "La légende et la mention précisent l'absence de conseil personnalisé, mais le CTA vers rendez‑vous doit éviter toute promesse implicite (par ex. 'je règle votre cas') — recommander reformulation neutre. Localisation : Beat 7 et légende."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 101,
+      "seconds": 37.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 101,
+        "seconds": 37.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source mentionne 'Quote-part indivise présumée à défaut de mention dans l'acte = 50/50' : le script montre bien un exemple 50/50 mais n'indique pas la mention « à défaut de mention dans l'acte » — risque d'être interprété comme une règle automatique. Localisation : Beat 5 (texte écran et narration).",
+    "source : La fiche indique le CGI article 777 pour le tarif entre personnes non parentes (pertinent pour fiscalité du décès), or le script ne rappelle pas la conséquence fiscale du 50/50 lors d'un apport déséquilibré (donation indirecte). Localisation : Beat 5-6 (exemple et nuance).",
+    "juridique_fiscal : Le script affirme correctement la majorité des deux tiers et l'unanimité, sourcé article 815-3 et règles d'indivision, mais omet de préciser que la majorité des deux tiers se calcule en parts de droits indivis (ce qui peut surprendre le non-spécialiste). Localisation : Beat 4 (règle).",
+    "juridique_fiscal : Le script mentionne l'article 815 qui permet d'exiger le partage mais n'explique pas la conséquence fiscale possible (vente judiciaire et partage imposable) ni la distinction entre actes d'administration et disposition en terme d'exemples concrets (travaux lourds vs vente). Localisation : Beat 6 (nuance).",
+    "completude : Manque l'alerte sur la conséquence d'inscrire 50/50 dans l'acte quand les apports sont inégaux (donation indirecte) : c'est listé dans la fiche mais absent du script. Localisation : Narration continue / Beat 5.",
+    "completude : La fiche conseille des outils (convention d'indivision, SCI, testament/assurance-vie) ; le script ne les évoque, ce qui laisse incomplet le point 'que faire'. Localisation : fin du script avant CTA.",
+    "editorial : Accroche forte mais la question OUI / NON (Beat 2) puis la réponse 'Non.' (Beat 3) crée un léger double emploi et une pause qui peut nuire au timing des 38 s ; suggérer fusionner question-réponse pour garder rythme. Localisation : Beats 2-3.",
+    "editorial : Le CTA est correct mais pourrait préciser 'rendez-vous' → 'rendez-vous juridique' pour renforcer la confiance professionnelle sans surpromesse. Localisation : Beat 7.",
+    "formulation_professionnelle : Phrase 'Une personne peut-elle décider seule de vendre ou de faire des travaux ? OUI / NON' risque d'être lu vite et perdre l'auditeur ; recommander reformulation plus directe: 'Une personne peut-elle décider seule ?' Localisation : Beat 2.",
+    "formulation_professionnelle : La mention 'ce qui peut provoquer une vente judiciaire' est correcte mais formule un peu brute ; proposer 'ce qui peut aboutir à un partage forcé, parfois par vente judiciaire' pour précision et fluidité. Localisation : Beat 6.",
+    "contre_verification_finale : Incohérence mineure : le script indique 'actes d'administration exigent la majorité des deux tiers des droits indivis' — il faudrait préciser 'des droits indivis' pour éviter lecture 'des deux tiers des indivisaires'. Localisation : Beat 4 (texte écran et narration).",
+    "contre_verification_finale : Le script ne cite pas explicitement les sources à l'écran (Code civil art. 815 / 815-3), alors que la fiche les impose pour fidélité stricte. Localisation : fin / Sources.",
+    "coherence_pictogrammes : Le pictogramme 'balance' pour la règle est adéquat, mais 'pictogramme équilibre et règle' pourrait prêter à ambiguïté : préférer icône 'deux parts + pourcentage' pour illustrer la majorité des 2/3. Localisation : Beat 4 (visuel).",
+    "coherence_pictogrammes : Beat 6 propose 'Icône article, pictogramme marteau tribun' : 'marteau tribun' évoque procès et est pertinent, mais préciser visuel 'marteau + document indivision' rendrait le lien plus explicite. Localisation : Beat 6.",
+    "pedagogie_client : Le vocabulaire 'actes d'administration' et 'actes de disposition' peut être technique pour un non-spécialiste ; proposer brève parenthèse explicative ('travaux courants vs vente') dans une phrase courte. Localisation : Beat 4-5.",
+    "pedagogie_client : L'exemple 50/50 est utile mais sans explicitation de l'effet fiscal du déséquilibre d'apport le spectateur reste vulnérable. Localisation : Beat 5.",
+    "retention_attention : Les deux premières secondes accrocheuses mais la séquence question/réponse crée un micro-rupture : risque de perte d'attention entre Beat 2 et 3. Localisation : Beats 1-3.",
+    "retention_attention : Le CTA 'lien dans ma bio' est standard ; pour améliorer conversion, suggérer 'pour un point personnalisé' ou 'pour vérifier votre situation' afin d'augmenter attrait. Localisation : Beat 7.",
+    "conversion_confiance : Ton sérieux présent, mais absence de mention rapide des solutions possibles (convention d'indivision/SCI/testament/assurance-vie) diminue l'impression d'accompagnement pratique. Localisation : fin du script avant CTA.",
+    "conversion_confiance : La légende et la mention précisent l'absence de conseil personnalisé, mais le CTA vers rendez‑vous doit éviter toute promesse implicite (par ex. 'je règle votre cas') — recommander reformulation neutre. Localisation : Beat 7 et légende."
+  ],
+  "recommendations": [
+    "Ajouter une brève phrase (5–7s) avant le CTA énonçant les options possibles : 'Convention d'indivision, SCI ou testament/assurance-vie peuvent corriger ces risques' pour donner une marche à suivre sans prescrire. Position : juste avant Beat 7.",
+    "Clarifier que la présomption 50/50 n'est valable qu'à défaut d'indication dans l'acte : remplacer l'exemple Beat 5 par 'À défaut de mention, la quote‑part est présumée 50/50 — attention si vos apports sont différents.'",
+    "Préciser en une courte parenthèse ce que sont actes d'administration vs actes de disposition (ex. 'travaux courants vs vente') pour rendre le vocabulaire immédiatement compréhensible. Position : Beat 4.",
+    "Mentionner textuellement une source à l'écran (p.ex. 'Code civil art. 815 et 815‑3') lorsque l'article est cité (Beat 6) pour fidélité stricte à la fiche.",
+    "Réviser la formulation de Beat 2-3 pour fluidité et économie de temps : fusionner la question/réponse en 'Une personne peut-elle décider seule ? Non.' afin de conserver le rythme des 38 s.",
+    "Adapter quelques pictogrammes : pour la majorité 2/3 utiliser une icône 'deux parts + 2/3', et pour l'article 815 combiner 'document + marteau' plutôt que seulement le marteau.",
+    "Reformuler le CTA pour éviter promesse implicite et renforcer la conversion : 'Besoin d'un point sur votre situation ? Prenez rendez‑vous via le lien dans ma bio.'",
+    "Ajouter à la narration une alerte brève sur l'effet fiscal d'une quote‑part non conforme aux apports ('cela peut être requalifié en donation et entraîner des droits entre non‑parents'). Position : Beat 5."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-24:reels:immobilier_achat_couple_non_marie:1",
+  "script_path": "scripts/immobilier/immobilier_achat_couple_non_marie__reels__a3__v9.md"
+}

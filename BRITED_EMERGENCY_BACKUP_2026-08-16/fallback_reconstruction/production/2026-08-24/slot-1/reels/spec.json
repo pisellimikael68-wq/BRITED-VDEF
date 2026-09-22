@@ -1,0 +1,52 @@
+{
+  "publication_id": "2026-08-24:reels:regimes_communaute_par_defaut:0",
+  "platform": "reels",
+  "concept_id": "regimes_communaute_par_defaut",
+  "title": "Se marier sans contrat, c'est déjà choisir un régime #1",
+  "narration": "Votre salaire arrive sur un compte à votre seul nom. Si vous êtes marié sans contrat, cet argent est-il uniquement à vous ? Selon vous : oui ou non ? Non, pas forcément. Sans contrat de mariage, vous relevez en principe de la communauté légale. Les salaires gagnés pendant le mariage alimentent cette communauté, même lorsqu'ils sont versés sur un compte individuel. Mais votre conjoint ne récupère pas la moitié de chaque paie. Chacun perçoit et utilise librement ses gains et salaires, après avoir contribué aux charges du mariage. Exemple : vous conservez vingt mille euros provenant de vos salaires. Si cette épargne existe encore lors de la liquidation, elle fait en principe partie de la communauté, même sur votre compte personnel. Enregistrez ce Reel, partagez-le et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+  "beats": [
+    {
+      "label": "Hook",
+      "narration": "Votre salaire arrive sur un compte à votre seul nom. Si vous êtes marié sans contrat, cet argent est-il uniquement à vous ?",
+      "visual": "Compte individuel au centre, fiche de paie qui glisse dedans, deux alliances apparaissent.",
+      "screen_text": "Compte personnel = argent personnel ?"
+    },
+    {
+      "label": "Question",
+      "narration": "Selon vous : oui ou non ?",
+      "visual": "Carte-question plein écran, boutons « Oui » et « Non », pause visuelle de quatre secondes.",
+      "screen_text": "Selon vous : oui ou non ?"
+    },
+    {
+      "label": "Réponse",
+      "narration": "Non, pas forcément.",
+      "visual": "Réponse « NON » révélée avec un fondu souple, puis pictogramme de balance.",
+      "screen_text": "Non, pas forcément."
+    },
+    {
+      "label": "Règle",
+      "narration": "Sans contrat de mariage, vous relevez en principe de la communauté légale. Les salaires gagnés pendant le mariage alimentent cette communauté, même lorsqu'ils sont versés sur un compte individuel.",
+      "visual": "Deux flux de salaire rejoignent un cercle commun ; le compte individuel reste visible.",
+      "screen_text": "Salaire gagné pendant le mariage : commun"
+    },
+    {
+      "label": "Nuance",
+      "narration": "Mais votre conjoint ne récupère pas la moitié de chaque paie. Chacun perçoit et utilise librement ses gains et salaires, après avoir contribué aux charges du mariage.",
+      "visual": "Une paie reste entre les mains d'un époux ; une part va vers les charges du foyer.",
+      "screen_text": "Commun ne veut pas dire bloqué"
+    },
+    {
+      "label": "Exemple",
+      "narration": "Exemple : vous conservez vingt mille euros provenant de vos salaires. Si cette épargne existe encore lors de la liquidation, elle fait en principe partie de la communauté, même sur votre compte personnel.",
+      "visual": "Compteur jusqu'à 20 000 €, puis répartition de l'épargne dans la masse commune.",
+      "screen_text": "20 000 € épargnés : à prendre en compte"
+    },
+    {
+      "label": "Clôture",
+      "narration": "Enregistrez ce Reel, partagez-le et abonnez-vous pour mieux comprendre et protéger votre patrimoine.",
+      "visual": "Trois boutons successifs : Enregistrer, Partager, S'abonner.",
+      "screen_text": "Enregistrez · Partagez · Abonnez-vous"
+    }
+  ],
+  "disclaimer": "Information générale • pas un conseil personnalisé"
+}

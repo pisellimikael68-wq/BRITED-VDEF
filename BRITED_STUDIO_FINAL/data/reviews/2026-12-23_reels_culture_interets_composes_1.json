@@ -1,0 +1,162 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.75,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "La fiche-source indique clairement les chiffres (10 000 € → 16 289 € en 10 ans, 43 219 € en 30 ans) et la règle des 72 ; le script reproduit ces valeurs. Toutefois la phrase d'accroche contient une répétition (« verser deux fois plus plus tard ») qui altère la fidélité textuelle et doit être corrigée pour correspondre exactement au message de la fiche (« verser deux fois plus tard »)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.7,
+      "passed": false,
+      "findings": [
+        "Le script inclut l'exemple chiffré et la nuance 'exemple mathématique, pas une prévision' mais omet de rappeler brièvement que les frais réduisent le capital final en donnant une idée de leur impact chiffré (la fiche mentionne que les frais se composent aussi). Une phrase très courte chiffrée (ex. « 1 point % de frais réduit fortement le résultat ») renforcerait la complétude pédagogique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.8,
+      "passed": false,
+      "findings": [
+        "Durée estimée 38 s : le script semble compatible avec un Reels court, mais la narration continue risque d'être légèrement condensée pour tenir dans 38 s en lecture naturelle. Recommandation : chronométrer la lecture et, si nécessaire, supprimer une phrase redondante (ex. raccourcir la transition 'Oui. Les intérêts composés...' en une seule phrase fluide)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.4,
+      "passed": false,
+      "findings": [
+        "Erreur typographique/répétition dans l'accroche (« deux fois plus plus tard »).",
+        "Le ton est globalement adapté, mais la question OUI/NON puis la réponse 'Oui.' sont un peu sèches ; une micro-phrase de liaison améliorerait la fluidité (ex. 'Oui — et voici pourquoi')."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.6,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être affinées pour un français naturel et scénique : par exemple remplacer 'Les dernières années concentrent la majeure partie de la croissance.' par 'La plus grande partie de la croissance se produit dans les dernières années.'",
+        "Corriger la répétition 'deux fois plus plus tard'."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.5,
+      "passed": false,
+      "findings": [
+        "Vérification mot à mot repère la répétition 'plus plus tard' et signale que la narration continue contient des segments très proches les uns des autres (question / réponse) qui pourraient alourdir la diction. Il est recommandé d'unifier la question-réponse en une progression plus fluide pour la prise de parole à l'oral."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.8,
+      "passed": false,
+      "findings": [
+        "Le contenu traite bien un seul angle et conserve l'exemple utile. Toutefois la mention des frais est brève ; pour respecter la densité sans alourdir, proposer d'insérer une micro-exemple chiffré (une phrase) sur l'impact d'un point de frais pour rendre la mise en garde plus concrète."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.9,
+      "passed": false,
+      "findings": [
+        "La pédagogie est bonne et accessible à un non-spécialiste. Petite réserve : le terme 'capitalisation' n'est pas explicité — remplacer ou ajouter un mot simple ('capital placé', 'intérêts réinvestis') améliorerait la compréhension immédiate pour un novice."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.6,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont pertinentes mais risquent d'être atténuées par la répétition dans l'accroche et la formulation un peu longue. Simplifier l'accroche d'ouverture en une seule phrase nette renforcera l'impact immédiat."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 98,
+      "seconds": 36.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 98,
+        "seconds": 36.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche-source indique clairement les chiffres (10 000 € → 16 289 € en 10 ans, 43 219 € en 30 ans) et la règle des 72 ; le script reproduit ces valeurs. Toutefois la phrase d'accroche contient une répétition (« verser deux fois plus plus tard ») qui altère la fidélité textuelle et doit être corrigée pour correspondre exactement au message de la fiche (« verser deux fois plus tard »).",
+    "completude : Le script inclut l'exemple chiffré et la nuance 'exemple mathématique, pas une prévision' mais omet de rappeler brièvement que les frais réduisent le capital final en donnant une idée de leur impact chiffré (la fiche mentionne que les frais se composent aussi). Une phrase très courte chiffrée (ex. « 1 point % de frais réduit fortement le résultat ») renforcerait la complétude pédagogique.",
+    "plateforme : Durée estimée 38 s : le script semble compatible avec un Reels court, mais la narration continue risque d'être légèrement condensée pour tenir dans 38 s en lecture naturelle. Recommandation : chronométrer la lecture et, si nécessaire, supprimer une phrase redondante (ex. raccourcir la transition 'Oui. Les intérêts composés...' en une seule phrase fluide).",
+    "editorial : Erreur typographique/répétition dans l'accroche (« deux fois plus plus tard »).",
+    "editorial : Le ton est globalement adapté, mais la question OUI/NON puis la réponse 'Oui.' sont un peu sèches ; une micro-phrase de liaison améliorerait la fluidité (ex. 'Oui — et voici pourquoi').",
+    "formulation_professionnelle : Quelques formulations pourraient être affinées pour un français naturel et scénique : par exemple remplacer 'Les dernières années concentrent la majeure partie de la croissance.' par 'La plus grande partie de la croissance se produit dans les dernières années.'",
+    "formulation_professionnelle : Corriger la répétition 'deux fois plus plus tard'.",
+    "contre_verification_finale : Vérification mot à mot repère la répétition 'plus plus tard' et signale que la narration continue contient des segments très proches les uns des autres (question / réponse) qui pourraient alourdir la diction. Il est recommandé d'unifier la question-réponse en une progression plus fluide pour la prise de parole à l'oral.",
+    "densite_editoriale : Le contenu traite bien un seul angle et conserve l'exemple utile. Toutefois la mention des frais est brève ; pour respecter la densité sans alourdir, proposer d'insérer une micro-exemple chiffré (une phrase) sur l'impact d'un point de frais pour rendre la mise en garde plus concrète.",
+    "pedagogie_client : La pédagogie est bonne et accessible à un non-spécialiste. Petite réserve : le terme 'capitalisation' n'est pas explicité — remplacer ou ajouter un mot simple ('capital placé', 'intérêts réinvestis') améliorerait la compréhension immédiate pour un novice.",
+    "retention_attention : Les deux premières secondes (hook) sont pertinentes mais risquent d'être atténuées par la répétition dans l'accroche et la formulation un peu longue. Simplifier l'accroche d'ouverture en une seule phrase nette renforcera l'impact immédiat."
+  ],
+  "recommendations": [
+    "Corriger la répétition typographique dans l'accroche : remplacer « verser deux fois plus plus tard » par « verser deux fois plus tard ». Réviser toutes les occurrences similaires.",
+    "Raccourcir et fluidifier la question/réponse pour la diction orale (ex. 'Mieux commencer dix ans plus tôt que verser deux fois plus tard ? Oui — voici pourquoi.').",
+    "Ajouter une phrase très courte chiffrée sur l'impact des frais (ex. « 1 point de frais par an réduit sensiblement le capital final ») ou remplacer par « un point de frais se compose aussi et réduit fortement le résultat » si l'on veut rester non chiffré.",
+    "Remplacer ou expliciter le terme 'capitalisation' par un vocabulaire plus accessible (ex. 'capital placé' ou 'réinvestissement des gains') pour aider les non-spécialistes.",
+    "Vérifier le timing oral (chronométrer la lecture naturelle) et, si la durée dépasse 38 s, supprimer une phrase de transition ou compresser la formulation pour tenir dans la durée annoncée."
+  ],
+  "reviewed_at": "2026-08-24T15:39:53",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-12-23:reels:culture_interets_composes:1",
+  "script_path": "scripts/culture_financiere/culture_interets_composes__reels__a4__v3.md"
+}

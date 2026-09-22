@@ -1,0 +1,211 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.54,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Fidélité générale aux sources listées (L351-1 et D351-1-4, Assurance retraite) : le script mentionne correctement que la décote est appliquée si la durée d'assurance requise n'est pas atteinte lors de la liquidation et qu'elle cesse d'être appliquée automatiquement à l'âge du taux plein automatique (généralement 67 ans pour les générations concernées).",
+        "Incohérence chiffrée majeure entre les taux évoqués et l'exemple concret : la fiche indique (chiffres à vérifier) une décote de 0,625% par trimestre manquant, or l'exemple fait passer 1 600 € à 1 500 € pour un trimestre manquant (soit -100 €, soit -6,25%). Si l'on retenait 0,625% par trimestre, la perte sur 1 600 € serait 10 € (≈0,625% de 1 600 = 10 €), pas 100 €.",
+        "La fiche signale que certains chiffres sont à vérifier (a_verifier: true). Le script diffuse un exemple chiffré net et potentiellement trompeur sans préciser que le taux utilisé est hypothétique ou variable selon génération/réforme."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Bonne mention des références légales (L351-1 pour taux plein, D351-1-4 pour surcote) et de la règle : âge seul n'est pas suffisant, il faut aussi la durée d'assurance.",
+        "Formulation prudente sur l'exception (annulation automatique de la décote à 67 ans) mais absence d'avertissement explicite que l'âge et le nombre de trimestres varient selon la génération et les réformes (la fiche demande de ne pas citer taux/durée sans préciser la génération). Le script emploie pourtant « généralement 67 ans » ; il faudrait rappeler explicitement « selon génération » ou indiquer la mention de la réforme de 2023 qui modifie les règles pour certaines générations.",
+        "La mention « la complémentaire est souvent aussi affectée » est pertinente, mais mériterait une phrase précisant que les règles et coefficients sont distincts selon les régimes de retraite complémentaire (Agirc-Arrco, autres) pour éviter une généralisation imprécise."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 7.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte la règle centrale (décote définitive à la liquidation) et inclut une exception (67 ans) et un exemple, mais l'exemple chiffré contient une erreur arithmétique majeure qui compromet la compréhension et la confiance.",
+        "Absence d'indication claire sur la génération concernée pour les chiffres et l'âge (la fiche impose de ne pas citer taux/âge/durée sans génération).",
+        "Manque d'une mention explicite que les chiffres donnés (0,625% par trimestre, 1,25% surcote, nombre max trimestres de décote) sont sujets à vérification et peuvent varier selon la génération/réforme : la narration présente l'exemple chiffré comme un fait."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": false,
+      "findings": [
+        "Format et durée : la structure en beats pour un YouTube Short est respectée, rythme et CTA adaptés.",
+        "Toutefois, la règle absolue fournie en en-tête exige que toute note <10 bloque la certification — par conséquent même si le format est bon, la présence d'erreurs factuelles empêche un score 'publier sans amélioration'."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Accroche forte et ton direct adaptés à la plateforme. Progression claire vers le mécanisme, l'exemple, la nuance et le CTA.",
+        "Problème éditorial : l'exemple numérique (1 600 -> 1 500 €) est incohérent avec le taux de décote indiqué ailleurs, ce qui nuit à la crédibilité et doit être corrigé.",
+        "Phrase « la complémentaire est souvent aussi affectée » est utile mais gagnerait à être légèrement précisée (ex. : règles propres aux complémentaires)."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu pédagogique, source citées, mention de non-conseil présent : conforme à l'exigence de neutralité.",
+        "Risque restant : diffusion d'un chiffre erroné (exemple) peut être considéré comme une affirmation non étayée et trompeuse pour le public non spécialiste."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Français naturel, phrases courtes et compréhensibles ; le ton est professionnel et adapté à un court format vidéo.",
+        "Quelques formulations pourraient être précisées pour éviter toute lecture erronée par un non-spécialiste (par ex. remplacer « généralement 67 ans » par « généralement 67 ans pour les personnes nées à partir de 1955, selon la réforme » ou indiquer 'selon génération').",
+        "Le CTA 'lien dans ma bio' est courant mais doit rester conforme aux règles de non-sollicitation excessive ; formulation acceptable mais vérifier conformité commerciale si utilisé."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 6.0,
+      "passed": false,
+      "findings": [
+        "Contre-vérification détecte incohérence arithmétique manifeste entre taux de décote (0,625%/trim.) et l'exemple (perte de 100 € pour un trimestre).",
+        "Manque de correspondance mot à mot entre la fiche BRITED (directive 'ne pas citer taux sans génération') et le script qui propose un exemple chiffré fixe sans préciser la génération ni signaler que le chiffre est hypothétique.",
+        "La consigne absolue imposant que toute note <10 bloque la certif. oblige à demander corrections précises."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": false,
+      "findings": [
+        "Visuels proposés (calendrier, relevé, infographie comparant taux plein/décote, portrait, loupe sur relevé) sont cohérents avec la narration et illustrent bien chaque phrase clé.",
+        "Néanmoins, la règle bloque la certification globale vu les autres manquements — mais au niveau pictogrammes la correspondance est correcte."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo se concentre sur un seul angle (décote définitive) et reste concise ; règle centrale, exception, exemple et appel à l'action sont présents.",
+        "La densité est forte mais entachée par l'exemple chiffré erroné : soit corriger l'exemple soit préciser que les montants sont illustratifs et dépendants de la génération et des taux applicables."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La progression pédagogique est adaptée à un non-spécialiste : hook, enjeu, mécanisme, exemple, nuance, CTA.",
+        "Cependant l'exemple chiffré trompe l'auditeur non spécialiste en raison d'une erreur arithmétique ; il faut reformuler l'exemple pour qu'il soit fidèle aux taux réellement applicables ou indiquer clairement qu'il s'agit d'un exemple simplifié/hypothétique."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": false,
+      "findings": [
+        "Structure des deux premières secondes (hook visuel + texte écran) efficace. Progression conserve l'attention jusqu'au CTA.",
+        "Rien à ajuster sur la dynamique temporelle de la narration."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux, références et CTA renforcent la confiance, mais la présence d'une incohérence chiffrée majeure affaiblit la crédibilité et la conversion potentielle vers rendez‑vous.",
+        "Recommandation : corriger l'exemple chiffré ou remplacer par un exemple basé explicitement sur le taux (ex. 0,625% par trimestre) pour restaurer la confiance."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 130,
+      "seconds": 48.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 9.95,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 130,
+        "seconds": 48.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": false
+    }
+  },
+  "errors": [
+    "source : Fidélité générale aux sources listées (L351-1 et D351-1-4, Assurance retraite) : le script mentionne correctement que la décote est appliquée si la durée d'assurance requise n'est pas atteinte lors de la liquidation et qu'elle cesse d'être appliquée automatiquement à l'âge du taux plein automatique (généralement 67 ans pour les générations concernées).",
+    "source : Incohérence chiffrée majeure entre les taux évoqués et l'exemple concret : la fiche indique (chiffres à vérifier) une décote de 0,625% par trimestre manquant, or l'exemple fait passer 1 600 € à 1 500 € pour un trimestre manquant (soit -100 €, soit -6,25%). Si l'on retenait 0,625% par trimestre, la perte sur 1 600 € serait 10 € (≈0,625% de 1 600 = 10 €), pas 100 €.",
+    "source : La fiche signale que certains chiffres sont à vérifier (a_verifier: true). Le script diffuse un exemple chiffré net et potentiellement trompeur sans préciser que le taux utilisé est hypothétique ou variable selon génération/réforme.",
+    "juridique_fiscal : Bonne mention des références légales (L351-1 pour taux plein, D351-1-4 pour surcote) et de la règle : âge seul n'est pas suffisant, il faut aussi la durée d'assurance.",
+    "juridique_fiscal : Formulation prudente sur l'exception (annulation automatique de la décote à 67 ans) mais absence d'avertissement explicite que l'âge et le nombre de trimestres varient selon la génération et les réformes (la fiche demande de ne pas citer taux/durée sans préciser la génération). Le script emploie pourtant « généralement 67 ans » ; il faudrait rappeler explicitement « selon génération » ou indiquer la mention de la réforme de 2023 qui modifie les règles pour certaines générations.",
+    "juridique_fiscal : La mention « la complémentaire est souvent aussi affectée » est pertinente, mais mériterait une phrase précisant que les règles et coefficients sont distincts selon les régimes de retraite complémentaire (Agirc-Arrco, autres) pour éviter une généralisation imprécise.",
+    "completude : Le script respecte la règle centrale (décote définitive à la liquidation) et inclut une exception (67 ans) et un exemple, mais l'exemple chiffré contient une erreur arithmétique majeure qui compromet la compréhension et la confiance.",
+    "completude : Absence d'indication claire sur la génération concernée pour les chiffres et l'âge (la fiche impose de ne pas citer taux/âge/durée sans génération).",
+    "completude : Manque d'une mention explicite que les chiffres donnés (0,625% par trimestre, 1,25% surcote, nombre max trimestres de décote) sont sujets à vérification et peuvent varier selon la génération/réforme : la narration présente l'exemple chiffré comme un fait.",
+    "plateforme : Format et durée : la structure en beats pour un YouTube Short est respectée, rythme et CTA adaptés.",
+    "plateforme : Toutefois, la règle absolue fournie en en-tête exige que toute note <10 bloque la certification — par conséquent même si le format est bon, la présence d'erreurs factuelles empêche un score 'publier sans amélioration'.",
+    "editorial : Accroche forte et ton direct adaptés à la plateforme. Progression claire vers le mécanisme, l'exemple, la nuance et le CTA.",
+    "editorial : Problème éditorial : l'exemple numérique (1 600 -> 1 500 €) est incohérent avec le taux de décote indiqué ailleurs, ce qui nuit à la crédibilité et doit être corrigé.",
+    "editorial : Phrase « la complémentaire est souvent aussi affectée » est utile mais gagnerait à être légèrement précisée (ex. : règles propres aux complémentaires).",
+    "securite : Contenu pédagogique, source citées, mention de non-conseil présent : conforme à l'exigence de neutralité.",
+    "securite : Risque restant : diffusion d'un chiffre erroné (exemple) peut être considéré comme une affirmation non étayée et trompeuse pour le public non spécialiste.",
+    "formulation_professionnelle : Français naturel, phrases courtes et compréhensibles ; le ton est professionnel et adapté à un court format vidéo.",
+    "formulation_professionnelle : Quelques formulations pourraient être précisées pour éviter toute lecture erronée par un non-spécialiste (par ex. remplacer « généralement 67 ans » par « généralement 67 ans pour les personnes nées à partir de 1955, selon la réforme » ou indiquer 'selon génération').",
+    "formulation_professionnelle : Le CTA 'lien dans ma bio' est courant mais doit rester conforme aux règles de non-sollicitation excessive ; formulation acceptable mais vérifier conformité commerciale si utilisé.",
+    "contre_verification_finale : Contre-vérification détecte incohérence arithmétique manifeste entre taux de décote (0,625%/trim.) et l'exemple (perte de 100 € pour un trimestre).",
+    "contre_verification_finale : Manque de correspondance mot à mot entre la fiche BRITED (directive 'ne pas citer taux sans génération') et le script qui propose un exemple chiffré fixe sans préciser la génération ni signaler que le chiffre est hypothétique.",
+    "contre_verification_finale : La consigne absolue imposant que toute note <10 bloque la certif. oblige à demander corrections précises.",
+    "coherence_pictogrammes : Visuels proposés (calendrier, relevé, infographie comparant taux plein/décote, portrait, loupe sur relevé) sont cohérents avec la narration et illustrent bien chaque phrase clé.",
+    "coherence_pictogrammes : Néanmoins, la règle bloque la certification globale vu les autres manquements — mais au niveau pictogrammes la correspondance est correcte.",
+    "densite_editoriale : La vidéo se concentre sur un seul angle (décote définitive) et reste concise ; règle centrale, exception, exemple et appel à l'action sont présents.",
+    "densite_editoriale : La densité est forte mais entachée par l'exemple chiffré erroné : soit corriger l'exemple soit préciser que les montants sont illustratifs et dépendants de la génération et des taux applicables.",
+    "pedagogie_client : La progression pédagogique est adaptée à un non-spécialiste : hook, enjeu, mécanisme, exemple, nuance, CTA.",
+    "pedagogie_client : Cependant l'exemple chiffré trompe l'auditeur non spécialiste en raison d'une erreur arithmétique ; il faut reformuler l'exemple pour qu'il soit fidèle aux taux réellement applicables ou indiquer clairement qu'il s'agit d'un exemple simplifié/hypothétique.",
+    "retention_attention : Structure des deux premières secondes (hook visuel + texte écran) efficace. Progression conserve l'attention jusqu'au CTA.",
+    "retention_attention : Rien à ajuster sur la dynamique temporelle de la narration.",
+    "conversion_confiance : Ton sérieux, références et CTA renforcent la confiance, mais la présence d'une incohérence chiffrée majeure affaiblit la crédibilité et la conversion potentielle vers rendez‑vous.",
+    "conversion_confiance : Recommandation : corriger l'exemple chiffré ou remplacer par un exemple basé explicitement sur le taux (ex. 0,625% par trimestre) pour restaurer la confiance."
+  ],
+  "recommendations": [
+    "Corriger l'exemple chiffré incohérent : soit remplacer Julie/Clara par un exemple cohérent avec la décote de 0,625% par trimestre (ex. pour 1 600 € : 1 trimestre manquant → 1 600 € × (1 - 0,00625) ≈ 1 590 €, perte ≈ 10 €/mois → 2 400 € sur 20 ans), soit indiquer explicitement que l'exemple de 1 600 → 1 500 € est hypothétique et non fondé sur le taux légal et le préciser comme tel.",
+    "Respecter la règle de la fiche BRITED : ne pas citer de taux, montants ou âges sans préciser la génération concernée. Ajoutez une phrase brève dans le script du type : « Les taux et l’âge du taux plein varient selon la génération et la réforme : vérifiez votre situation. »",
+    "Préciser que la décote appliquée au régime de base peut affecter la retraite complémentaire mais que les règles et coefficients des complémentaires (Agirc‑Arrco, etc.) sont distincts, afin d'éviter une généralisation imprécise.",
+    "Remplacer ou annoter tout chiffre marqué 'à vérifier' dans la fiche par une formulation claire dans la vidéo (ex. 'exemple illustratif' ou 'taux indicatif, à vérifier selon votre génération').",
+    "Mettre à jour la narration et les textes écran pour éviter l'affirmation chiffrée erronée (texte écran actuel 'Julie : -24 000 € (20 ans)' doit être modifié ou rendu conditionnel : 'Ex. illustratif : jusqu'à plusieurs dizaines de milliers d'euros selon le cas').",
+    "Dans la version finale, intégrer une micro-ligne vocale/texte rappelant les sources (L351-1, D351-1-4, Assurance retraite) et l'invitation à consulter son relevé de carrière avant liquidation.",
+    "Effectuer une seconde vérification juridique/chiffrée après correction pour s'assurer que tous les chiffres présentés sont cohérents avec les textes légaux et que la génération concernée est précisée quand un taux ou un âge est mentionné.",
+    "Après corrections demandées ci‑dessus, soumettre de nouveau le script pour nouvelle évaluation agent par agent."
+  ],
+  "reviewed_at": "2026-08-24T15:39:50",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-02:shorts:retraite_decote_surcote:0",
+  "script_path": "scripts/retraite/retraite_decote_surcote__shorts__a3__v7.md"
+}

@@ -1,0 +1,133 @@
+{
+  "total": {
+    "calls": 5384,
+    "input_tokens": 29021907,
+    "output_tokens": 10465183
+  },
+  "days": {
+    "2026-08-17": {
+      "calls": 252,
+      "input_tokens": 1077878,
+      "output_tokens": 389476
+    },
+    "2026-08-24": {
+      "calls": 4087,
+      "input_tokens": 20144532,
+      "output_tokens": 8463837
+    },
+    "2026-08-25": {
+      "calls": 3,
+      "input_tokens": 16721,
+      "output_tokens": 4896
+    },
+    "2026-08-26": {
+      "calls": 3,
+      "input_tokens": 12214,
+      "output_tokens": 3150
+    },
+    "2026-08-27": {
+      "calls": 8,
+      "input_tokens": 32814,
+      "output_tokens": 9238
+    },
+    "2026-09-01": {
+      "calls": 290,
+      "input_tokens": 1812912,
+      "output_tokens": 501586
+    },
+    "2026-09-02": {
+      "calls": 5,
+      "input_tokens": 20606,
+      "output_tokens": 4962
+    },
+    "2026-09-03": {
+      "calls": 197,
+      "input_tokens": 1338717,
+      "output_tokens": 327921
+    },
+    "2026-09-05": {
+      "calls": 2,
+      "input_tokens": 13681,
+      "output_tokens": 2737
+    },
+    "2026-09-07": {
+      "calls": 131,
+      "input_tokens": 961256,
+      "output_tokens": 205244
+    },
+    "2026-09-09": {
+      "calls": 48,
+      "input_tokens": 373452,
+      "output_tokens": 79698
+    },
+    "2026-09-10": {
+      "calls": 36,
+      "input_tokens": 273586,
+      "output_tokens": 56906
+    },
+    "2026-09-11": {
+      "calls": 43,
+      "input_tokens": 480043,
+      "output_tokens": 57821
+    },
+    "2026-09-12": {
+      "calls": 7,
+      "input_tokens": 62285,
+      "output_tokens": 8979
+    },
+    "2026-09-13": {
+      "calls": 10,
+      "input_tokens": 88625,
+      "output_tokens": 12887
+    },
+    "2026-09-14": {
+      "calls": 2,
+      "input_tokens": 30274,
+      "output_tokens": 2714
+    },
+    "2026-09-20": {
+      "calls": 241,
+      "input_tokens": 2108079,
+      "output_tokens": 305333
+    },
+    "2026-09-21": {
+      "calls": 19,
+      "input_tokens": 174232,
+      "output_tokens": 27798
+    }
+  },
+  "purposes": {
+    "generation": {
+      "calls": 1043,
+      "input_tokens": 7826196,
+      "output_tokens": 1750247
+    },
+    "certification": {
+      "calls": 270,
+      "input_tokens": 1125798,
+      "output_tokens": 277903
+    },
+    "batch_generation": {
+      "calls": 716,
+      "input_tokens": 3256310,
+      "output_tokens": 1650036
+    },
+    "batch_correction": {
+      "calls": 2381,
+      "input_tokens": 14064361,
+      "output_tokens": 5551712
+    },
+    "batch_certification": {
+      "calls": 974,
+      "input_tokens": 2749242,
+      "output_tokens": 1235285
+    }
+  },
+  "last_call": {
+    "at": "2026-09-21T10:05:26",
+    "purpose": "certification",
+    "model": "gpt-5-mini",
+    "input_tokens": 5679,
+    "output_tokens": 744
+  }
+}

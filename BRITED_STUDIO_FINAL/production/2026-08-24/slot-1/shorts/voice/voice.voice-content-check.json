@@ -1,0 +1,95 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Sans contrat de mariage, n'avez vous rien choisi ?",
+      "transcript": "Sans contrat de mariage, n'avez-vous rien choisi ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8621,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Non, Sans contrat, le régime légal s'applique : la communauté réduite aux acquêts.",
+      "transcript": "Non sans contrat, le régime légal s'applique, la communauté réduite aux ackés.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9881,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Les biens acquis pendant le mariage sont communs. Les biens antérieurs, successions et donations restent propres. Les gains et salaires alimentent la communauté, même versés sur un compte individuel. Chaque époux dispose de sa rémunération après contribution aux charges du mariage.",
+      "transcript": "Les biens acquis pendant le mariage sont communs. Les biens antérieurs, succession et donation restent propres. Les gains et salaires alimentent la communauté, même versée, sur un compte individuel. Chaque époux dispose de sa rémunération après contribution aux charges du mariage.",
+      "similarity": 0.9268,
+      "missing": [
+        "successions",
+        "donations",
+        "verses"
+      ],
+      "critical_missing": [],
+      "unexpected": [
+        "succession",
+        "donation",
+        "versee"
+      ],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.5052,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un héritage reste propre. S'il est versé sur un compte commun, conservez les justificatifs d'origine ; sinon, une récompense peut être due.",
+      "transcript": "Exemple, un héritage reste propre. S'il est versé sur un compte commun, conservez les justificatifs d'origine. Sinon, une récompense peut être due.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.208,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Changer de régime reste possible par acte notarié. Selon la situation, des tiers peuvent s'y opposer ou une homologation judiciaire être nécessaire.",
+      "transcript": "Changer de régime reste possible par acte notarié. Selon la situation, des tiers peuvent s'y opposer ou une homologation judiciaire être nécessaire.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2063,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

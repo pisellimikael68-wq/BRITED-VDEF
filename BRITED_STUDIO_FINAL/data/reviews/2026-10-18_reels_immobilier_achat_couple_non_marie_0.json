@@ -1,0 +1,198 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.5,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source (immobilier_achat_couple_non_marie) est respectée dans l'ensemble, mais le script mentionne « actes d'administration = majorité des deux tiers » sans citer explicitement l'article 815-3. La source liste article 815-3 ; il faut une correspondance mot à mot entre l'énoncé et la source citée (par ex. « article 815-3 : majorité des deux tiers » ou ajouter la référence directement dans la phrase).",
+        "Le chiffre « 50/50 » comme quote-part présumée est utilisé correctement dans l'exemple, mais il conviendrait d'ajouter la précision « à défaut d'indication dans l'acte » pour rester strictement fidèle à la fiche."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Affirmation correcte que la part du défunt entre dans sa succession et va aux héritiers ; toutefois le script omet la nuance que le concubin survivant peut être légataire ou bénéficiaire d'assurance-vie, mesure évoquée dans la fiche source. Il faudrait mentionner brièvement (même en une phrase) que testament ou assurance-vie peuvent modifier l'issue au décès.",
+        "La phrase « l'acte prévaut et peut constituer une donation » est juste mais délicate : elle laisse croire à une automaticité fiscale. Il faut ajouter que cela peut entraîner un redressement fiscal ou un devoir de rapport/droits de donation selon circonstances (ou au moins préciser 'peut être requalifiée fiscalement')."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Le script couvre la règle centrale, la condition et un exemple chiffré mais n'aborde pas les trois outils correctifs mentionnés dans la fiche (convention d'indivision, SCI, testament/assurance-vie). La fiche interdit de recommander une structure mais conseille d'expliquer les outils — il manque une brève mention d'au moins l'un d'eux.",
+        "La question fréquente 'Que se passe-t-il si on se sépare ?' n'est pas traitée explicitement (le script évoque partage et vente forcée mais pas le mécanisme pratique et l'option de convention d'indivision qui peut suspendre le droit de partage)."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Format Reels et durée estimée (38 s) cohérents, mais la densité du texte narratif risque d'excéder 38 s à l'oral. Il faudrait vérifier le tempo de lecture et raccourcir légèrement pour respecter la durée native.",
+        "Le beat 2 propose une interaction OUI/NON pertinente, cependant l'appel à interaction pourrait être renforcé par un micro-temps visuel (compte à rebours) pour plateforme Reels."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Accroche efficace, progression claire. Toutefois la phrase « l'acte prévaut et peut constituer une donation » est lourde pour une lecture rapide ; reformulation plus directe recommandée ('l'acte fait foi : il peut être considéré comme donation si les apports sont déséquilibrés').",
+        "Le CTA est correct mais la mention 'lien dans ma bio' est générique — pour conversion, un verbe d'action plus précis ('Prenez rendez-vous' → 'Réservez un rendez‑vous') est conseillé."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La mention en légende précise l'absence de conseil personnalisé ; bonne pratique. Cependant, le script contient un exemple chiffré (70k/10k) : la fiche autorise un cas fictif, mais il faut expliciter en micro-phrase que l'exemple est purement illustratif pour éviter toute interprétation de conseil personnalisé."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Globalement bon français naturel. Quelques tournures peuvent être simplifiées pour la diction : 'En indivision, tout indivisaire peut exiger le partage selon l'article 815 ; actes d'administration = majorité des deux tiers, actes de disposition = unanimité.' → trop compacte à l'oral. Proposer deux phrases courtes.",
+        "Le terme 'actes de disposition' peut être inconnu du grand public ; une parenthèse explicative courte ('vente, donation...') aiderait la compréhension immédiatement."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Il existe des incohérences de granularité : certaines notions (article 815) sont citées sans rappeler le sens (nul ne peut être contraint à demeurer dans l'indivision) alors que la fiche source le mentionne ; il serait prudent d'ajouter ces mots exacts pour fidélité phrase par phrase.",
+        "La durée annoncée (38 s) et le texte à prononcer semblent inadaptés ; une répétition à voix haute ou minutage phrase par phrase est nécessaire pour garantir respect des 38 s."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont plausibles mais quelques correspondances sont imprécises : 'balance' pour l'acte notarié n'illustre pas clairement la notion 'l'acte prime' — un acte notarié/parchemin serait plus direct.",
+        "Le pictogramme 'cadenas unanimité' peut être interprété comme blocage technique ; préférer une icône 'main levée x1/x2' ou 'clé + cadenas' pour symboliser l'unanimité requise pour la vente."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "La vidéo traite un seul angle (risques de l'indivision) mais omet la mention des outils correctifs présents dans la fiche — cette omission alterne la densité pédagogique demandée (règle centrale, condition, exception, exemple, chiffres, sources).",
+        "L'enchaînement est rapide ; l'exemple chiffré occupe beaucoup d'espace visuel et narratif. Recommander de remplacer une phrase moins essentielle par une micro-mention d'un outil (ex : 'testament ou assurance-vie') pour compléter la densité."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Certaines notions juridiques (actes d'administration vs actes de disposition, 'quote-part inscrite à l'acte prime') peuvent rester obscures pour un non-spécialiste en 38 s. Il faudrait ajouter une brève définition ultra-simplifiée pour l'une et l'autre.",
+        "Le script ne répond pas mot à mot aux questions clients listées dans la fiche (p. ex. 'Faut-il acheter en indivision ou créer une SCI ?' est une FAQ importante) — au moins une phrase orientative neutre devrait y répondre (sans recommander)."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 8.5,
+      "passed": false,
+      "findings": [
+        "Hook fort mais l'invite 'Indiquez votre choix : OUI ou NON' est bonne pour l'engagement ; toutefois le visuel OUI/NON peut distraire si la suite est trop dense. Suggérer de scinder le visuel pour permettre respiration.",
+        "La deuxième seconde doit absolument montrer le couple inquiet très expressif ; sinon, le niveau de curiosité peut chuter avant l'explication juridique."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et mention de sources renforce la confiance. Cependant l'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' manque d'élément rassurant (ex. 'consultation payante/gratuite' ou '15 min bilan') — une précision minime renforcerait la conversion sans surpromesse.",
+        "L'absence de mention d'un cabinet ou d'une qualification dans le post pourrait réduire la crédibilité ; indiquer brièvement la nature du professionnel (notaire, avocat fiscaliste, etc.) dans la bio renforcera la confiance."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 109,
+      "seconds": 40.4,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 109,
+        "seconds": 40.4,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source (immobilier_achat_couple_non_marie) est respectée dans l'ensemble, mais le script mentionne « actes d'administration = majorité des deux tiers » sans citer explicitement l'article 815-3. La source liste article 815-3 ; il faut une correspondance mot à mot entre l'énoncé et la source citée (par ex. « article 815-3 : majorité des deux tiers » ou ajouter la référence directement dans la phrase).",
+    "source : Le chiffre « 50/50 » comme quote-part présumée est utilisé correctement dans l'exemple, mais il conviendrait d'ajouter la précision « à défaut d'indication dans l'acte » pour rester strictement fidèle à la fiche.",
+    "juridique_fiscal : Affirmation correcte que la part du défunt entre dans sa succession et va aux héritiers ; toutefois le script omet la nuance que le concubin survivant peut être légataire ou bénéficiaire d'assurance-vie, mesure évoquée dans la fiche source. Il faudrait mentionner brièvement (même en une phrase) que testament ou assurance-vie peuvent modifier l'issue au décès.",
+    "juridique_fiscal : La phrase « l'acte prévaut et peut constituer une donation » est juste mais délicate : elle laisse croire à une automaticité fiscale. Il faut ajouter que cela peut entraîner un redressement fiscal ou un devoir de rapport/droits de donation selon circonstances (ou au moins préciser 'peut être requalifiée fiscalement').",
+    "completude : Le script couvre la règle centrale, la condition et un exemple chiffré mais n'aborde pas les trois outils correctifs mentionnés dans la fiche (convention d'indivision, SCI, testament/assurance-vie). La fiche interdit de recommander une structure mais conseille d'expliquer les outils — il manque une brève mention d'au moins l'un d'eux.",
+    "completude : La question fréquente 'Que se passe-t-il si on se sépare ?' n'est pas traitée explicitement (le script évoque partage et vente forcée mais pas le mécanisme pratique et l'option de convention d'indivision qui peut suspendre le droit de partage).",
+    "plateforme : Format Reels et durée estimée (38 s) cohérents, mais la densité du texte narratif risque d'excéder 38 s à l'oral. Il faudrait vérifier le tempo de lecture et raccourcir légèrement pour respecter la durée native.",
+    "plateforme : Le beat 2 propose une interaction OUI/NON pertinente, cependant l'appel à interaction pourrait être renforcé par un micro-temps visuel (compte à rebours) pour plateforme Reels.",
+    "editorial : Accroche efficace, progression claire. Toutefois la phrase « l'acte prévaut et peut constituer une donation » est lourde pour une lecture rapide ; reformulation plus directe recommandée ('l'acte fait foi : il peut être considéré comme donation si les apports sont déséquilibrés').",
+    "editorial : Le CTA est correct mais la mention 'lien dans ma bio' est générique — pour conversion, un verbe d'action plus précis ('Prenez rendez-vous' → 'Réservez un rendez‑vous') est conseillé.",
+    "securite : La mention en légende précise l'absence de conseil personnalisé ; bonne pratique. Cependant, le script contient un exemple chiffré (70k/10k) : la fiche autorise un cas fictif, mais il faut expliciter en micro-phrase que l'exemple est purement illustratif pour éviter toute interprétation de conseil personnalisé.",
+    "formulation_professionnelle : Globalement bon français naturel. Quelques tournures peuvent être simplifiées pour la diction : 'En indivision, tout indivisaire peut exiger le partage selon l'article 815 ; actes d'administration = majorité des deux tiers, actes de disposition = unanimité.' → trop compacte à l'oral. Proposer deux phrases courtes.",
+    "formulation_professionnelle : Le terme 'actes de disposition' peut être inconnu du grand public ; une parenthèse explicative courte ('vente, donation...') aiderait la compréhension immédiatement.",
+    "contre_verification_finale : Il existe des incohérences de granularité : certaines notions (article 815) sont citées sans rappeler le sens (nul ne peut être contraint à demeurer dans l'indivision) alors que la fiche source le mentionne ; il serait prudent d'ajouter ces mots exacts pour fidélité phrase par phrase.",
+    "contre_verification_finale : La durée annoncée (38 s) et le texte à prononcer semblent inadaptés ; une répétition à voix haute ou minutage phrase par phrase est nécessaire pour garantir respect des 38 s.",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont plausibles mais quelques correspondances sont imprécises : 'balance' pour l'acte notarié n'illustre pas clairement la notion 'l'acte prime' — un acte notarié/parchemin serait plus direct.",
+    "coherence_pictogrammes : Le pictogramme 'cadenas unanimité' peut être interprété comme blocage technique ; préférer une icône 'main levée x1/x2' ou 'clé + cadenas' pour symboliser l'unanimité requise pour la vente.",
+    "densite_editoriale : La vidéo traite un seul angle (risques de l'indivision) mais omet la mention des outils correctifs présents dans la fiche — cette omission alterne la densité pédagogique demandée (règle centrale, condition, exception, exemple, chiffres, sources).",
+    "densite_editoriale : L'enchaînement est rapide ; l'exemple chiffré occupe beaucoup d'espace visuel et narratif. Recommander de remplacer une phrase moins essentielle par une micro-mention d'un outil (ex : 'testament ou assurance-vie') pour compléter la densité.",
+    "pedagogie_client : Certaines notions juridiques (actes d'administration vs actes de disposition, 'quote-part inscrite à l'acte prime') peuvent rester obscures pour un non-spécialiste en 38 s. Il faudrait ajouter une brève définition ultra-simplifiée pour l'une et l'autre.",
+    "pedagogie_client : Le script ne répond pas mot à mot aux questions clients listées dans la fiche (p. ex. 'Faut-il acheter en indivision ou créer une SCI ?' est une FAQ importante) — au moins une phrase orientative neutre devrait y répondre (sans recommander).",
+    "retention_attention : Hook fort mais l'invite 'Indiquez votre choix : OUI ou NON' est bonne pour l'engagement ; toutefois le visuel OUI/NON peut distraire si la suite est trop dense. Suggérer de scinder le visuel pour permettre respiration.",
+    "retention_attention : La deuxième seconde doit absolument montrer le couple inquiet très expressif ; sinon, le niveau de curiosité peut chuter avant l'explication juridique.",
+    "conversion_confiance : Ton sérieux et mention de sources renforce la confiance. Cependant l'appel à l'action 'Prenez rendez-vous via le lien dans ma bio' manque d'élément rassurant (ex. 'consultation payante/gratuite' ou '15 min bilan') — une précision minime renforcerait la conversion sans surpromesse.",
+    "conversion_confiance : L'absence de mention d'un cabinet ou d'une qualification dans le post pourrait réduire la crédibilité ; indiquer brièvement la nature du professionnel (notaire, avocat fiscaliste, etc.) dans la bio renforcera la confiance."
+  ],
+  "recommendations": [
+    "Corriger la phrase sur la majorité des deux tiers en ajoutant la référence explicite à l'article 815-3 (ex. « article 815-3 : majorité des 2/3 pour les actes d'administration »).",
+    "Ajouter une micro-phrase (1 courte phrase) mentionnant les outils correctifs listés dans la fiche source (convention d'indivision, SCI, testament/assurance-vie) sans recommander l'un d'eux (ex. 'Des outils comme convention d'indivision, SCI ou testament/assurance‑vie peuvent modifier ces conséquences').",
+    "Raccourcir et simplifier deux ou trois formulations pour tenir la durée de 38 s à l'oral ; faire un test de lecture chronométrée. Par exemple scinder la phrase sur article 815 et les majorités en deux phrases courtes.",
+    "Préciser que l'exemple chiffré (70 000 €/10 000 €) est purement illustratif pour éviter toute interprétation comme conseil personnalisé.",
+    "Ajuster pictogrammes pour une correspondance stricte : remplacer 'balance' par 'acte notarié/parchemin' pour 'l'acte prime', et remplacer 'cadenas unanimité' par une icône plus explicite d'unanimité.",
+    "Modifier le CTA pour être légèrement plus précis (ex. 'Réservez un rendez‑vous via le lien dans ma bio' et indiquer si c'est un bilan gratuit ou payant dans la bio).",
+    "Ajouter une toute petite parenthèse explicative au vocable juridique important (ex. 'actes de disposition (vente, donation)') pour un public non spécialiste.",
+    "Relire mot à mot le texte pour insérer, au besoin, la citation concise du principe de l'article 815 ('nul ne peut être contraint à demeurer dans l'indivision') afin d'assurer fidélité phrase par phrase avec la source.",
+    "Effectuer une répétition vocale chronométrée et ajuster le nombre de mots si nécessaire pour garantir la conformité à 38 secondes."
+  ],
+  "reviewed_at": "2026-08-24T15:39:49",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-10-18:reels:immobilier_achat_couple_non_marie:0",
+  "script_path": "scripts/immobilier/immobilier_achat_couple_non_marie__reels__a2__v10.md"
+}

@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 130,
+      "seconds": 48.1,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 130,
+        "seconds": 48.1,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "80a1d9e41aff0c03c13a00cb477077cffbb03e025e5b6eb9562ec943c23f7942",
+      "adapted_hash": "80a1d9e41aff0c03c13a00cb477077cffbb03e025e5b6eb9562ec943c23f7942",
+      "source_beats": 6,
+      "adapted_pages": 8,
+      "splits": 2,
+      "exact_text_preserved": true,
+      "minimum_font_size": 37,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Optionnel : ajouter très brièvement (une phrase à l'écran ou une ligne de texte) que le régime peut être modifié par acte notarié (article 1397) — c'est présent dans la source et peut être utile pour l'audience, sans alourdir la narration.",
+    "Vérifier le timing à l'enregistrement pour s'assurer que la version vocale reste dans la durée estimée (50 s).",
+    "Pour l'écran final, envisager d'inclure un rappel discret de la mention légale déjà présente (« contenu pédagogique général ») afin de renforcer la neutralité et la sécurité éditoriale."
+  ],
+  "reviewed_at": "2026-08-17T17:55:54",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-24:shorts:regimes_communaute_par_defaut:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__shorts__a1__v2.md"
+}

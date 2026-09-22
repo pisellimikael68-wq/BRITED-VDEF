@@ -1,0 +1,165 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.31,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation « il n'y a aucun droit à payer » (beat 2 / narration) est trop absolue par rapport à la source : l'article 1133 du CGI indique que la réunion de l'usufruit à la nue-propriété ne donne ouverture à aucun droit (fiscal) — il vaut mieux préciser « aucun droit fiscal » pour éviter toute interprétation large (par ex. formalités administratives ou frais de publicité foncière)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'énoncé principal est exact, mais il manque la précision terminologique utile pour un non-spécialiste : remplacer « aucun droit à payer » par « aucun droit fiscal à la réunion » ou « aucune taxe successorale à la réunion » pour coller strictement au CGI art.1133 et éviter confusion avec autres coûts (frais de publicité foncière, frais de notaire éventuels)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré illustre bien la règle, mais il omet d'indiquer explicitement que les droits ont été acquittés au moment de la donation sur la valeur de la nue-propriété selon le barème de l'article 669 — l'information est présente au beat 5 mais devrait être rapprochée de l'exemple (ou formulée immédiatement après) pour éviter une lacune pédagogique."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche et progression correctes. Suggestion éditoriale : renforcer les deux premières secondes en remplaçant la question unique par une micro-promise (« Que se passe-t-il à la mort de l'usufruitier ? Vous n'aurez rien à payer ») pour augmenter la rétention, tout en veillant à la précision juridique indiquée par les autres agents."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent prêter à interprétation pour un non-spécialiste : « redevient plein propriétaire immédiatement » est correct mais il conviendrait d'ajouter « juridiquement » ou « de plein droit » pour être parfaitement clair. De même, préciser « formalité possible à la publicité foncière » plutôt que « peut demander une formalité » améliorerait la précision."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration et les visuels sont cohérents globalement. Points à corriger repérés : précision sur « aucun droit » (voir source), rapprocher rappel sur paiement des droits (CGI art.669) de l'exemple chiffré, et préciser la nature possible des formalités de publicité foncière (acte de mutation ou mention)."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pictogramme « Maison qui se remplit » (beat 2) est suggestif mais peu standardisé — risque d'ambiguïté visuelle pour des spectateurs non familiers. Suggéré : remplacer par une icône plus explicite (maison + clé qui passe d'une main à une autre) pour illustrer la réunion des droits.",
+        "Beat 5 pictogramme « Livre de loi + timbre foncier » est pertinent mais demanderait de séparer en deux plans ou icônes distinctes pour ne pas mêler loi et formalité foncière."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le vocabulaire est globalement adapté, mais des termes comme « réunion » ou « consolidation » pourraient dérouter un non-spécialiste s'ils ne sont pas brièvement expliqués. Par exemple : « consolidation (quand usufruit et nue-propriété se retrouvent entre les mêmes mains) » en micro-phrase.",
+        "La durée de non-usage « trente ans » mérite l'article référencé (code civil art.617) — suggérer d'inclure la référence directement à l'écran ou dans la légende pour renforcer la pédagogie."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook correct mais faible impact émotionnel : remplacer question pure par une double formulation (question + promesse claire) améliorerait la rétention (ex. « Que se passe-t-il quand l'usufruit s'éteint ? Spoiler : vos enfants ne paient rien. »), en gardant la précision juridique immédiatement après."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 118,
+      "seconds": 43.7,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 118,
+        "seconds": 43.7,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Formulation « il n'y a aucun droit à payer » (beat 2 / narration) est trop absolue par rapport à la source : l'article 1133 du CGI indique que la réunion de l'usufruit à la nue-propriété ne donne ouverture à aucun droit (fiscal) — il vaut mieux préciser « aucun droit fiscal » pour éviter toute interprétation large (par ex. formalités administratives ou frais de publicité foncière).",
+    "juridique_fiscal : L'énoncé principal est exact, mais il manque la précision terminologique utile pour un non-spécialiste : remplacer « aucun droit à payer » par « aucun droit fiscal à la réunion » ou « aucune taxe successorale à la réunion » pour coller strictement au CGI art.1133 et éviter confusion avec autres coûts (frais de publicité foncière, frais de notaire éventuels).",
+    "completude : L'exemple chiffré illustre bien la règle, mais il omet d'indiquer explicitement que les droits ont été acquittés au moment de la donation sur la valeur de la nue-propriété selon le barème de l'article 669 — l'information est présente au beat 5 mais devrait être rapprochée de l'exemple (ou formulée immédiatement après) pour éviter une lacune pédagogique.",
+    "editorial : Accroche et progression correctes. Suggestion éditoriale : renforcer les deux premières secondes en remplaçant la question unique par une micro-promise (« Que se passe-t-il à la mort de l'usufruitier ? Vous n'aurez rien à payer ») pour augmenter la rétention, tout en veillant à la précision juridique indiquée par les autres agents.",
+    "formulation_professionnelle : Quelques formulations peuvent prêter à interprétation pour un non-spécialiste : « redevient plein propriétaire immédiatement » est correct mais il conviendrait d'ajouter « juridiquement » ou « de plein droit » pour être parfaitement clair. De même, préciser « formalité possible à la publicité foncière » plutôt que « peut demander une formalité » améliorerait la précision.",
+    "contre_verification_finale : La narration et les visuels sont cohérents globalement. Points à corriger repérés : précision sur « aucun droit » (voir source), rapprocher rappel sur paiement des droits (CGI art.669) de l'exemple chiffré, et préciser la nature possible des formalités de publicité foncière (acte de mutation ou mention).",
+    "coherence_pictogrammes : Pictogramme « Maison qui se remplit » (beat 2) est suggestif mais peu standardisé — risque d'ambiguïté visuelle pour des spectateurs non familiers. Suggéré : remplacer par une icône plus explicite (maison + clé qui passe d'une main à une autre) pour illustrer la réunion des droits.",
+    "coherence_pictogrammes : Beat 5 pictogramme « Livre de loi + timbre foncier » est pertinent mais demanderait de séparer en deux plans ou icônes distinctes pour ne pas mêler loi et formalité foncière.",
+    "pedagogie_client : Le vocabulaire est globalement adapté, mais des termes comme « réunion » ou « consolidation » pourraient dérouter un non-spécialiste s'ils ne sont pas brièvement expliqués. Par exemple : « consolidation (quand usufruit et nue-propriété se retrouvent entre les mêmes mains) » en micro-phrase.",
+    "pedagogie_client : La durée de non-usage « trente ans » mérite l'article référencé (code civil art.617) — suggérer d'inclure la référence directement à l'écran ou dans la légende pour renforcer la pédagogie.",
+    "retention_attention : Hook correct mais faible impact émotionnel : remplacer question pure par une double formulation (question + promesse claire) améliorerait la rétention (ex. « Que se passe-t-il quand l'usufruit s'éteint ? Spoiler : vos enfants ne paient rien. »), en gardant la précision juridique immédiatement après."
+  ],
+  "recommendations": [
+    "Remplacer l'expression absolue « il n'y a aucun droit à payer » (beat 2 et narration) par une formulation précise : « il n'y a aucun droit fiscal à la réunion de l'usufruit et de la nue-propriété (CGI, art. 1133) ».",
+    "Rapprocher immédiatement l'information selon laquelle les droits ont été payés à la donation (CGI art.669) de l'exemple chiffré pour éviter toute confusion : ajouter une phrase courte après l'exemple, par ex. « Ces droits ont été réglés lors de la donation, sur la valeur de la nue-propriété selon le barème (CGI art.669). »",
+    "Préciser « juridiquement » ou « de plein droit » après « redevient plein propriétaire » pour plus de rigueur terminologique.",
+    "Clarifier la mention sur la publicité foncière : indiquer qu'« en pratique, pour un bien immobilier, une formalité de publicité foncière (mention ou acte) peut être requise pour constater l'extinction » et, si l'on veut rester très bref, remplacer « peut demander une formalité » par « peut exiger une formalité de publicité foncière (acte/mention) ». ",
+    "Adapter pictogrammes : remplacer « maison qui se remplit » par une icône maison + clé transférée entre mains pour illustrer la réunion des droits ; séparer l'icône loi et l'icône timbre foncier au beat 5.",
+    "Ajouter, si possible sur la légende ou l'écran final, les références légales exactes (CGI art.1133 ; Code civil art.617 ; CGI art.669) en courte forme pour renforcer la pédagogie et la crédibilité.",
+    "Pour la pédagogie grand public, prévoir un très court chapeau explicatif pour termes techniques (ex. « consolidation = même personne titulaire des deux droits ») soit en voix off soit en texte écran bref.",
+    "Optionnel (éditeur) : renforcer le hook en ajoutant une micro-promesse (« vos héritiers ne paient rien »), en conservant immédiatement la précision légale pour éviter toute sur-promesse."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-17:shorts:demembrement_fin_usufruit:1",
+  "script_path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a3__v2.md"
+}

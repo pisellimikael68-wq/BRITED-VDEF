@@ -1,0 +1,180 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.15,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script emploie l'acronyme « DIC » (document d'informations clés) alors que le terme légal et usuel en français est « DICI » (Document d'Information Clé pour l'Investisseur) — corriger l'acronyme partout pour correspondre aux usages et aux sources citées.",
+        "La fiche source signale que l'ordre de grandeur « 1,5 % sur trente ans » est à vérifier ; le script présente un exemple avec hypothèse de rendement 5 % sans rappeler explicitement que c'est une hypothèse illustratrice et que le chiffre de la fiche est marqué 'à vérifier'. Ajouter une mention explicite que l'exemple est illustratif et dépend d'hypothèses."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Utilisation de « DIC » au lieu de « DICI » : risque d'inexactitude terminologique par rapport au cadre réglementaire (documents d'information obligatoires).",
+        "Absence d'une phrase rappelant que le chiffre mentionné (impact de 1,5 % sur 30 ans) dépend d'une hypothèse de rendement et qu'il s'agit d'un ordre de grandeur — la fiche originelle signale ce point comme 'à vérifier'."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script explique bien le mécanisme et ajoute un exemple chiffré, mais n'indique pas explicitement que le 1,5 % / 30 ans est un exemple dépendant d'hypothèses (rendement 5 %) et que le chiffre de la fiche est à recalculer selon l'hypothèse retenue.",
+        "Manque une indication courte sur où trouver les frais du contrat (ex. nom du document de contrat) — le script dit 'documents du contrat' mais sans préciser lequel, ce qui pourrait gêner un non-spécialiste."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La durée estimée (38 s) paraît plausible mais aucune indication de répartition temporelle précise par beat n'indique si l'exemple chiffré (beat 5) sera lisible dans le temps imparti ; recommander de vérifier que la comparaison chiffrée reste lisible dans le format Reels (typographie et durée d'affichage)."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais la question 'Les frais d'un fonds figurent-ils sur votre relevé ? Choix : OUI / NON.' doit rester claire en voix off et visuel ; prévoir que la case NON soit mise en évidence immédiatement (contraste/temps d'affichage) pour la rétention.",
+        "Le libellé 'document d'informations clés' devrait être remplacé par 'document d'information clé pour l'investisseur (DICI)' pour cohérence terminologique."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation globalement professionnelle mais remplacer 'document d'informations clés (DIC)' par 'document d'information clé pour l'investisseur (DICI)' pour précision.",
+        "Reprendre la phrase chiffrée '1,5 % par an réduit notablement le capital sur trente ans, par exemple selon un rendement annuel brut supposé de 5 %' en ajoutant 'hypothèse illustrative' pour éviter toute interprétation erronée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Vérifier mot à mot l'acronyme DICI vs DIC et la mention 'rendement annuel brut supposé de 5 %' en explicitant son caractère hypothétique ; ces deux points apparaissent dans plusieurs emplacements (narration, texte écran, légende) et doivent être corrigés partout."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais l'exemple chiffré (beat 5) contient une hypothèse implicite (rendement 5 %) non indiquée comme telle dans la légende technique — rendre explicite que c'est un exemple illustratif et non une valeur universelle."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Pour un non-spécialiste, l'acronyme DICI doit être expliqué en clair à la première occurrence (ex. 'document d'information clé pour l'investisseur (DICI), le document obligatoire qui indique les frais').",
+        "La phrase 'les frais du contrat qui abrite le fonds s'ajoutent' pourrait préciser brièvement où les lire dans le contrat (ex. 'dans la notice ou le tableau des frais du contrat') pour faciliter l'action du spectateur."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes mais il faut s'assurer que la question interactive (OUI/NON) ne ralentisse le rythme : recommander une mise en évidence visuelle rapide et claire de la réponse NON pour maintenir attention.",
+        "L'exemple chiffré doit être présenté visuellement simplifié (deux courbes et étiquettes claires) afin qu'il soit compris en quelques secondes dans le format Reels."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Ton sérieux et CTA approprié ; cependant ajouter la mention 'contenu pédagogique général' dans le visuel final ou voice-over court renforcerait la conformité à la mention déjà fournie en bas de script.",
+        "Corriger DIC → DICI améliorera la crédibilité réglementaire."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 115,
+      "seconds": 42.6,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 115,
+        "seconds": 42.6,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script emploie l'acronyme « DIC » (document d'informations clés) alors que le terme légal et usuel en français est « DICI » (Document d'Information Clé pour l'Investisseur) — corriger l'acronyme partout pour correspondre aux usages et aux sources citées.",
+    "source : La fiche source signale que l'ordre de grandeur « 1,5 % sur trente ans » est à vérifier ; le script présente un exemple avec hypothèse de rendement 5 % sans rappeler explicitement que c'est une hypothèse illustratrice et que le chiffre de la fiche est marqué 'à vérifier'. Ajouter une mention explicite que l'exemple est illustratif et dépend d'hypothèses.",
+    "juridique_fiscal : Utilisation de « DIC » au lieu de « DICI » : risque d'inexactitude terminologique par rapport au cadre réglementaire (documents d'information obligatoires).",
+    "juridique_fiscal : Absence d'une phrase rappelant que le chiffre mentionné (impact de 1,5 % sur 30 ans) dépend d'une hypothèse de rendement et qu'il s'agit d'un ordre de grandeur — la fiche originelle signale ce point comme 'à vérifier'.",
+    "completude : Le script explique bien le mécanisme et ajoute un exemple chiffré, mais n'indique pas explicitement que le 1,5 % / 30 ans est un exemple dépendant d'hypothèses (rendement 5 %) et que le chiffre de la fiche est à recalculer selon l'hypothèse retenue.",
+    "completude : Manque une indication courte sur où trouver les frais du contrat (ex. nom du document de contrat) — le script dit 'documents du contrat' mais sans préciser lequel, ce qui pourrait gêner un non-spécialiste.",
+    "plateforme : La durée estimée (38 s) paraît plausible mais aucune indication de répartition temporelle précise par beat n'indique si l'exemple chiffré (beat 5) sera lisible dans le temps imparti ; recommander de vérifier que la comparaison chiffrée reste lisible dans le format Reels (typographie et durée d'affichage).",
+    "editorial : Accroche efficace mais la question 'Les frais d'un fonds figurent-ils sur votre relevé ? Choix : OUI / NON.' doit rester claire en voix off et visuel ; prévoir que la case NON soit mise en évidence immédiatement (contraste/temps d'affichage) pour la rétention.",
+    "editorial : Le libellé 'document d'informations clés' devrait être remplacé par 'document d'information clé pour l'investisseur (DICI)' pour cohérence terminologique.",
+    "formulation_professionnelle : Formulation globalement professionnelle mais remplacer 'document d'informations clés (DIC)' par 'document d'information clé pour l'investisseur (DICI)' pour précision.",
+    "formulation_professionnelle : Reprendre la phrase chiffrée '1,5 % par an réduit notablement le capital sur trente ans, par exemple selon un rendement annuel brut supposé de 5 %' en ajoutant 'hypothèse illustrative' pour éviter toute interprétation erronée.",
+    "contre_verification_finale : Vérifier mot à mot l'acronyme DICI vs DIC et la mention 'rendement annuel brut supposé de 5 %' en explicitant son caractère hypothétique ; ces deux points apparaissent dans plusieurs emplacements (narration, texte écran, légende) et doivent être corrigés partout.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais l'exemple chiffré (beat 5) contient une hypothèse implicite (rendement 5 %) non indiquée comme telle dans la légende technique — rendre explicite que c'est un exemple illustratif et non une valeur universelle.",
+    "pedagogie_client : Pour un non-spécialiste, l'acronyme DICI doit être expliqué en clair à la première occurrence (ex. 'document d'information clé pour l'investisseur (DICI), le document obligatoire qui indique les frais').",
+    "pedagogie_client : La phrase 'les frais du contrat qui abrite le fonds s'ajoutent' pourrait préciser brièvement où les lire dans le contrat (ex. 'dans la notice ou le tableau des frais du contrat') pour faciliter l'action du spectateur.",
+    "retention_attention : Les deux premières secondes sont fortes mais il faut s'assurer que la question interactive (OUI/NON) ne ralentisse le rythme : recommander une mise en évidence visuelle rapide et claire de la réponse NON pour maintenir attention.",
+    "retention_attention : L'exemple chiffré doit être présenté visuellement simplifié (deux courbes et étiquettes claires) afin qu'il soit compris en quelques secondes dans le format Reels.",
+    "conversion_confiance : Ton sérieux et CTA approprié ; cependant ajouter la mention 'contenu pédagogique général' dans le visuel final ou voice-over court renforcerait la conformité à la mention déjà fournie en bas de script.",
+    "conversion_confiance : Corriger DIC → DICI améliorera la crédibilité réglementaire."
+  ],
+  "recommendations": [
+    "Remplacer systématiquement l'acronyme 'DIC' par 'DICI' et écrire la dénomination complète à la première occurrence : 'document d'information clé pour l'investisseur (DICI)'.",
+    "Dans l'exemple chiffré (beat 5 et légende), ajouter explicitement la mention 'exemple illustratif basé sur une hypothèse de rendement brut de 5 % ; résultat dépend des hypothèses' et, si possible, ajuster ou recalculer le chiffre de la fiche si vous souhaitez afficher un pourcentage précis (la fiche indique 'à vérifier').",
+    "Préciser brièvement où trouver les frais du contrat (p. ex. « dans la notice ou le tableau des frais du contrat d'assurance‑vie ») pour aider un non-spécialiste à agir.",
+    "Vérifier que la comparaison chiffrée est lisible dans la durée Reels prévue : simplifier les visuels (deux courbes avec étiquettes claires) et allouer suffisamment de temps d'affichage pour que le message soit compris.",
+    "Ajouter dans la fin visuelle ou en voice-over la mention courte déjà présente en script : 'Contenu pédagogique général — pas un conseil personnalisé', pour renforcer la conformité et la confiance."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-23:reels:fonds_investissement_frais:0",
+  "script_path": "scripts/fonds_investissement/fonds_investissement_frais__reels__a3__v7.md"
+}

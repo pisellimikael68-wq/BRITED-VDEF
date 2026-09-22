@@ -1,0 +1,26 @@
+{
+  "system": "BRITED Social Video System",
+  "format": {"width": 1080, "height": 1920, "ratio": "9:16"},
+  "identity": {"visible_brand": false, "tone": ["chaleureux", "pédagogique", "professionnel", "dynamique"]},
+  "series": {
+    "fiscalite": {"label": "Fiscalité", "accent": "#6F4E37", "icon": "pourcentage"},
+    "immobilier": {"label": "Immobilier", "accent": "#C96F4A", "icon": "maison"},
+    "juridique": {"label": "Juridique", "accent": "#D99A2B", "icon": "balance"},
+    "finance": {"label": "Finance", "accent": "#2457D6", "icon": "courbe"}
+  },
+  "motion": {
+    "page_transition_seconds": 0.9,
+    "word_reveal": "fondu progressif fluide synchronisé à la voix",
+    "illustration_reveal": "fondu progressif pendant la lecture",
+    "progress_bar": "bas uniquement"
+  },
+  "layout": {
+    "text_alignment": "centre",
+    "adaptive_title_container": true,
+    "adaptive_answer_container": true,
+    "one_coherent_beat_per_page": true,
+    "safe_zones_required": true
+  },
+  "forbidden": ["branding visible", "barre supérieure", "libellés internes", "pictogrammes coupés", "chevauchements", "décoration gratuite"]
+}
+

@@ -1,0 +1,87 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Votre assurance vie transmet elle cent cinquante-deux mille cinq cents euros à chaque bénéficiaire ?",
+      "transcript": "Votre assurance vie transmet, elle, 152 500 euros à chaque bénéficiaire ?",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9268,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui, pour les primes versées avant les soixante-dix ans de l’assuré.",
+      "transcript": "Oui, pour les primes versées avant les 70 ans de l'assuré.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9677,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Chaque bénéficiaire a droit à cent cinquante-deux mille cinq cents euros d’abattement. Ensuite, le prélèvement atteint vingt pour cent, puis trente et un virgule vingt cinq pour cent après sept cent mille euros.",
+      "transcript": "Chaque bénéficiaire a droit à 152 500 euros d'abattement. Ensuite, le prélèvement atteint 20%, puis 31,25% après 700 000 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0992,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Avec trois bénéficiaires distincts, le total des abattements peut atteindre quatre cent cinquante-sept mille cinq cents euros.",
+      "transcript": "Avec trois bénéficiaires distincts, le total des abattements peut atteindre 457 500 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.0337,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Après soixante-dix ans, l’abattement global sur les primes tombe à trente mille cinq cents euros.",
+      "transcript": "Après 70 ans, l'abattement global sur les primes tombe à 30 500 euros.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9114,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

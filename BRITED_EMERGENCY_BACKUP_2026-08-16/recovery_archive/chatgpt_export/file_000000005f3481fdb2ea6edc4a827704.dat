@@ -1,0 +1,48 @@
+metadata:
+  schema: "1.0"
+  version: "1.0"
+  owner: "Knowledge"
+  last_updated: null
+
+terms:
+
+  BRITED:
+    description: >
+      AI-native platform for structured knowledge production.
+
+  Studio:
+    description: >
+      User interface of BRITED.
+
+  Corpus:
+    description: >
+      Collection of structured knowledge.
+
+  Chapter:
+    description: >
+      Logical subdivision of a corpus.
+
+  Knowledge:
+    description: >
+      Business representation of information.
+
+  Validation:
+    description: >
+      Process ensuring consistency.
+
+  Component:
+    description: >
+      Independent architectural module.
+
+  Layer:
+    description: >
+      Logical level in the architecture.
+
+  Workflow:
+    description: >
+      Sequence of application operations.
+
+  Agent:
+    description: >
+      AI responsible for a specific task.
+      

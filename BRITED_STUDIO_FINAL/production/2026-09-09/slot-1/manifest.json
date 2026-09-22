@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-09",
+  "slot": 1,
+  "status": "blocked",
+  "publish_locked": true,
+  "items": [
+    {
+      "publication_id": "2026-09-09:shorts:fonds_investissement_frais:0",
+      "platform": "shorts",
+      "title": "Fonds d’investissement : les frais que votre relevé ne montre pas clairement",
+      "script": "scripts/fonds_investissement/fonds_investissement_frais__shorts__a1__v13.md",
+      "status": "blocked",
+      "warnings": [
+        "Validation humaine du script absente"
+      ]
+    },
+    {
+      "publication_id": "2026-09-09:reels:fonds_investissement_frais:0",
+      "platform": "reels",
+      "title": "Les frais d'un fonds ne se voient jamais sur votre relevé",
+      "script": "scripts/fonds_investissement/fonds_investissement_frais__reels__a1__v10.md",
+      "status": "blocked",
+      "warnings": [
+        "Validation humaine du script absente"
+      ]
+    },
+    {
+      "publication_id": "2026-09-09:tiktok:fonds_investissement_frais:0",
+      "platform": "tiktok",
+      "title": "Les frais d'un fonds ne se voient jamais sur votre relevé",
+      "script": "scripts/fonds_investissement/fonds_investissement_frais__reels__a1__v10.md",
+      "status": "blocked",
+      "warnings": [
+        "Validation humaine du script absente"
+      ]
+    }
+  ]
+}

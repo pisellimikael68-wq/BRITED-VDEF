@@ -1,0 +1,195 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.08,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La fiche source contient des chiffres (18 ans, rattachement possible jusqu'à 25 ans) mais le script Reels ne mentionne aucun seuil d'âge ; omission de ces repères factuels utiles pour l'utilisateur.",
+        "Le script indique que la déduction est plafonnée mais n'indique pas ou ne renvoie pas au fait que les plafonds et modalités diffèrent selon l'hébergement (forfait logement/nourriture) — la fiche source le précise et le script ne le rend pas suffisamment explicite."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Formulation trop synthétique sur la déductibilité : il est dit que la déduction est plafonnée et doit être justifiée, mais il manque la précision que la pension déduite est imposable chez l'enfant (le script la mentionne plus loin, mais la séquence pourrait induire une absence de lien entre justification et imposition chez l'enfant).",
+        "L'écran texte 'Déduction = revenu imposable - (plafond)' est impropre juridiquement et mathématiquement : la déduction réduit le revenu imposable jusqu'à un plafond, mieux formuler ou supprimer l'équation."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré (1000 € → ≈410 € pour un parent à 41 %) est utile mais n'indique pas que la rentabilité dépend des plafonds et de la situation fiscale globale (parts, crédits, impôt minimal) — la phrase 'sous réserve des plafonds' existe, mais la mise en garde pourrait être légèrement plus explicite.",
+        "Absence d'indication des âges (18 / 25 ans) et de la conséquence pratique (rattachement apporte demi-part/part suivant rang) — la fiche contient ces éléments mais le script omet la limite d'âge et la règle de demi-part/part."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Durée estimée 39 s : plausible mais l'enchaînement contient 7 beats dont certains (ex. nuance + cta) risquent d'être trop rapides à tenir en 39 s — recommander chronométrer et éventuellement réduire texte à l'écran sur un ou deux beats.",
+        "Le visuel 'deux cases OUI / NON' pour la question 'Rattachement ou déduction ?' peut prêter à confusion : il vaut mieux un visuel explicite 'Rattachement' / 'Déduction' plutôt que OUI / NON."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Accroche efficace mais l'usage 'OUI / NON' dans le beat 2 affaiblit la clarté ; remplacer par 'Rattachement ? Déduction ?' pour une lecture plus fluide.",
+        "La narration continue répète certaines informations (ex. exclusivité du choix) sans repositionner l'argument ; le rythme gagnerait à condenser une phrase pour laisser de l'espace au chiffrage."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations peuvent prêter à ambiguïté ou être améliorées pour la prononciation : par exemple 'La déduction permet de retrancher du revenu imposable les pensions versées' est lourd à l'oral — suggérer 'La déduction permet de retirer du revenu imposable les pensions versées'.",
+        "Le libellé écran 'Un seul choix par an' devrait préciser 'Un seul choix par enfant et par année' pour éviter une lecture trop abrégée."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence globale bonne, mais quelques micro-incohérences : l'exemple chiffré mentionne 'parent à 41 %' sans expliciter que c'est la tranche marginale d'imposition — risque de confusion pour un non-spécialiste.",
+        "Le script mentionne 'forfait logement et nourriture' mais ne précise qu'il s'agit d'un forfait pour enfant hébergé ; le pictogramme logement est présent mais le lien vocal/texte pourrait être plus explicite."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Certaines suggestions de pictogrammes sont vagues ou génériques ('pictogramme choix exclusif', 'balance impôt vs parts fiscales') et pourraient ne pas illustrer précisément la notion fiscale annoncée.",
+        "Le pictogramme 'OUI / NON' au beat 2 ne correspond pas bien à la question binaire 'rattachement ou déduction' et risque de distraire."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite correctement un seul angle mais inclut plusieurs nuances (plafond, hébergement, imposition chez l'enfant) ; pour tenir la contrainte temporelle, une ou deux phrases pourraient être allégées ou déplacées vers la légende.",
+        "La légende est correcte mais pourrait intégrer les âges 18 et 25 et la mention de l'imposition chez l'enfant pour compléter sans alourdir la vidéo."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'exemple chiffré est pédagogique, mais il faut expliciter que 41 % correspond à la tranche marginale d'imposition du parent pour qu'un non-spécialiste comprenne le mécanisme.",
+        "Le terme 'plafonné' est utilisé sans préciser que les plafonds et modalités diffèrent selon l'hébergement ; un public non spécialiste peut en déduire à tort que le plafond est unique."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes (hook) sont pertinentes, mais le beat 2 et le visuel OUI/NON risquent de réduire l'accroche immédiate. Mieux un visuel clair 'Rattachement ? Déduction ?' dès le hook.",
+        "Le CTA est standard mais à placer sur les dernières 2-3 secondes avec un visuel fort pour maximiser conversion."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est professionnel et la mention de sources est présente, mais l'absence des âges 18/25 et la formule écran maladroite affaiblissent légèrement la crédibilité.",
+        "Le CTA 'Prise de rendez-vous via le lien dans ma bio' est acceptable ; pour renforcer la confiance, ajouter 'examen personnalisé avec justificatifs' ou équivalent sans surpromesse pourrait aider."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 105,
+      "seconds": 38.9,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 105,
+        "seconds": 38.9,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : La fiche source contient des chiffres (18 ans, rattachement possible jusqu'à 25 ans) mais le script Reels ne mentionne aucun seuil d'âge ; omission de ces repères factuels utiles pour l'utilisateur.",
+    "source : Le script indique que la déduction est plafonnée mais n'indique pas ou ne renvoie pas au fait que les plafonds et modalités diffèrent selon l'hébergement (forfait logement/nourriture) — la fiche source le précise et le script ne le rend pas suffisamment explicite.",
+    "juridique_fiscal : Formulation trop synthétique sur la déductibilité : il est dit que la déduction est plafonnée et doit être justifiée, mais il manque la précision que la pension déduite est imposable chez l'enfant (le script la mentionne plus loin, mais la séquence pourrait induire une absence de lien entre justification et imposition chez l'enfant).",
+    "juridique_fiscal : L'écran texte 'Déduction = revenu imposable - (plafond)' est impropre juridiquement et mathématiquement : la déduction réduit le revenu imposable jusqu'à un plafond, mieux formuler ou supprimer l'équation.",
+    "completude : L'exemple chiffré (1000 € → ≈410 € pour un parent à 41 %) est utile mais n'indique pas que la rentabilité dépend des plafonds et de la situation fiscale globale (parts, crédits, impôt minimal) — la phrase 'sous réserve des plafonds' existe, mais la mise en garde pourrait être légèrement plus explicite.",
+    "completude : Absence d'indication des âges (18 / 25 ans) et de la conséquence pratique (rattachement apporte demi-part/part suivant rang) — la fiche contient ces éléments mais le script omet la limite d'âge et la règle de demi-part/part.",
+    "plateforme : Durée estimée 39 s : plausible mais l'enchaînement contient 7 beats dont certains (ex. nuance + cta) risquent d'être trop rapides à tenir en 39 s — recommander chronométrer et éventuellement réduire texte à l'écran sur un ou deux beats.",
+    "plateforme : Le visuel 'deux cases OUI / NON' pour la question 'Rattachement ou déduction ?' peut prêter à confusion : il vaut mieux un visuel explicite 'Rattachement' / 'Déduction' plutôt que OUI / NON.",
+    "editorial : Accroche efficace mais l'usage 'OUI / NON' dans le beat 2 affaiblit la clarté ; remplacer par 'Rattachement ? Déduction ?' pour une lecture plus fluide.",
+    "editorial : La narration continue répète certaines informations (ex. exclusivité du choix) sans repositionner l'argument ; le rythme gagnerait à condenser une phrase pour laisser de l'espace au chiffrage.",
+    "formulation_professionnelle : Quelques formulations peuvent prêter à ambiguïté ou être améliorées pour la prononciation : par exemple 'La déduction permet de retrancher du revenu imposable les pensions versées' est lourd à l'oral — suggérer 'La déduction permet de retirer du revenu imposable les pensions versées'.",
+    "formulation_professionnelle : Le libellé écran 'Un seul choix par an' devrait préciser 'Un seul choix par enfant et par année' pour éviter une lecture trop abrégée.",
+    "contre_verification_finale : Cohérence globale bonne, mais quelques micro-incohérences : l'exemple chiffré mentionne 'parent à 41 %' sans expliciter que c'est la tranche marginale d'imposition — risque de confusion pour un non-spécialiste.",
+    "contre_verification_finale : Le script mentionne 'forfait logement et nourriture' mais ne précise qu'il s'agit d'un forfait pour enfant hébergé ; le pictogramme logement est présent mais le lien vocal/texte pourrait être plus explicite.",
+    "coherence_pictogrammes : Certaines suggestions de pictogrammes sont vagues ou génériques ('pictogramme choix exclusif', 'balance impôt vs parts fiscales') et pourraient ne pas illustrer précisément la notion fiscale annoncée.",
+    "coherence_pictogrammes : Le pictogramme 'OUI / NON' au beat 2 ne correspond pas bien à la question binaire 'rattachement ou déduction' et risque de distraire.",
+    "densite_editoriale : La vidéo traite correctement un seul angle mais inclut plusieurs nuances (plafond, hébergement, imposition chez l'enfant) ; pour tenir la contrainte temporelle, une ou deux phrases pourraient être allégées ou déplacées vers la légende.",
+    "densite_editoriale : La légende est correcte mais pourrait intégrer les âges 18 et 25 et la mention de l'imposition chez l'enfant pour compléter sans alourdir la vidéo.",
+    "pedagogie_client : L'exemple chiffré est pédagogique, mais il faut expliciter que 41 % correspond à la tranche marginale d'imposition du parent pour qu'un non-spécialiste comprenne le mécanisme.",
+    "pedagogie_client : Le terme 'plafonné' est utilisé sans préciser que les plafonds et modalités diffèrent selon l'hébergement ; un public non spécialiste peut en déduire à tort que le plafond est unique.",
+    "retention_attention : Les deux premières secondes (hook) sont pertinentes, mais le beat 2 et le visuel OUI/NON risquent de réduire l'accroche immédiate. Mieux un visuel clair 'Rattachement ? Déduction ?' dès le hook.",
+    "retention_attention : Le CTA est standard mais à placer sur les dernières 2-3 secondes avec un visuel fort pour maximiser conversion.",
+    "conversion_confiance : Le ton est professionnel et la mention de sources est présente, mais l'absence des âges 18/25 et la formule écran maladroite affaiblissent légèrement la crédibilité.",
+    "conversion_confiance : Le CTA 'Prise de rendez-vous via le lien dans ma bio' est acceptable ; pour renforcer la confiance, ajouter 'examen personnalisé avec justificatifs' ou équivalent sans surpromesse pourrait aider."
+  ],
+  "recommendations": [
+    "Ajouter une mention claire des âges pertinents dans la vidéo ou la légende : 'À 18 ans l'enfant sort du foyer fiscal ; rattachement possible jusqu'à 25 ans si études'.",
+    "Remplacer l'écran texte 'Déduction = revenu imposable - (plafond)' par une formulation claire : 'La déduction réduit le revenu imposable dans la limite d'un plafond' ou supprimer l'équation.",
+    "Clarifier dans l'exemple que '41 %' désigne la tranche marginale d'imposition du parent : 'pour un parent dont la tranche marginale est 41 %...'.",
+    "Préciser vocalement et visuellement que la pension déduite est imposable chez l'enfant et que cela peut avoir des conséquences (perte d'aides), et rappeler la nécessité de versements traçables et proportionnés.",
+    "Modifier le visuel du beat 2 : remplacer 'OUI / NON' par deux cases libellées 'Rattachement' / 'Déduction' ou un split-screen pour éviter la confusion.",
+    "Rendre les pictogrammes plus explicites : par exemple icône d'une part fiscale pour le rattachement, icône euro avec document justificatif pour la déduction, icône maison+assiette pour le forfait hébergement.",
+    "Vérifier le timing : chronométrer la lecture et réduire légèrement le texte aux beats 4–6 si nécessaire pour tenir 39 s, ou déplacer précisions dans la légende.",
+    "Adapter quelques formulations pour l'oral : remplacer 'retrancher du revenu imposable' par 'retirer du revenu imposable' et préciser 'un seul choix par enfant et par année' à l'écran.",
+    "Mettre à jour la légende pour inclure les âges 18/25, la mention de l'imposition chez l'enfant et renvoyer aux sources (BOFiP/CGI) pour renforcer la crédibilité."
+  ],
+  "reviewed_at": "2026-08-24T15:39:54",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-04:reels:impot_revenu_pension_alimentaire:1",
+  "script_path": "scripts/impot_revenu/impot_revenu_pension_alimentaire__reels__a4__v7.md"
+}

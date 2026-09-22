@@ -1,0 +1,87 @@
+{
+  "agent": "controle_oral_whisper_local",
+  "passed": true,
+  "failures": [],
+  "model": "/Users/Shared/BRITED-Models/whisper-large-v3-turbo",
+  "checks": [
+    "transcription",
+    "mots_manquants",
+    "hallucinations",
+    "microcoupures",
+    "repetitions"
+  ],
+  "pages": [
+    {
+      "beat": "hook",
+      "expected": "Changer de régime matrimonial en cours de mariage : c'est possible ?",
+      "transcript": "Changer de régime matrimonial en cours de mariage, c'est possible.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.9178,
+      "passed": true
+    },
+    {
+      "beat": "reponse",
+      "expected": "Oui, en général par acte notarié, sans délai minimum.",
+      "transcript": "Oui, en général par acte notarié, sans délai minimum.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 0.8769,
+      "passed": true
+    },
+    {
+      "beat": "regle",
+      "expected": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers ; ils ont trois mois pour s'opposer ; l'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "transcript": "Le notaire informe les enfants majeurs et publie pour prévenir les créanciers. Ils ont trois mois pour s'opposer. L'homologation judiciaire reste nécessaire si des enfants mineurs sont présents.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.4143,
+      "passed": true
+    },
+    {
+      "beat": "exemple",
+      "expected": "Exemple : un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité ; le notaire liquide le régime précédent et calcule les récompenses.",
+      "transcript": "Exemple, un chef d'entreprise quitte la communauté pour passer en séparation de biens afin d'isoler son activité. Le notaire liquide le régime précédent et calcule les récompenses.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.2986,
+      "passed": true
+    },
+    {
+      "beat": "nuance",
+      "expected": "Attention : la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "transcript": "Attention, la communauté universelle avec attribution intégrale prive les enfants du droit de succession du premier parent et supprime l'abattement appliqué à ce premier décès.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.3285,
+      "passed": true
+    },
+    {
+      "beat": "cta",
+      "expected": "Vous souhaitez faire le point sur votre situation ? Prenez rendez vous via le lien dans ma bio.",
+      "transcript": "Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.",
+      "similarity": 1.0,
+      "missing": [],
+      "critical_missing": [],
+      "unexpected": [],
+      "no_speech_probability": 0.0,
+      "compression_ratio": 1.092,
+      "passed": true
+    }
+  ]
+}

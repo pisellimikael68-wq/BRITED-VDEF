@@ -1,0 +1,177 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.73,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et apprentissage d'une règle utile avant l'appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration contient une amorce de type fabrication/structure éditoriale: phrase exacte « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Les règles interdisent les libellés de fabrication (par ex. « Court : », « Règle : ») dans la narration."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une conversation pédagogique avec un ami.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Seconde lecture identifie la même libellé problématique dans la narration: « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Ce marquage éditorial doit être retiré ou reformulé en phrase naturelle pour être conforme."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme une personne sans aucune culture patrimoniale : situation familière, vocabulaire courant, terme technique immédiatement traduit, règle mémorisable, exemple parlant qui projette explicitement le spectateur dans la situation et réflexe pratique immédiatement utilisable ; pour la Finance, la nature exacte du produit doit être nommée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "impact_dynamique": {
+      "label": "Bloque tout script qui ressemble à un cours : exige un hook spécifique qui arrête le défilement, une valeur concrète dès la phrase suivante, des phrases nerveuses, un réflexe pratique avant le CTA et une progression orale rapide sans sensationnalisme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le hook est correct mais la phrase immédiatement suivante utilise le libellé « Court et clair : », ce qui transforme l'enchaînement en marqueur éditorial et affaiblit l'effet de rupture/valeur attendu dans les 2 premières secondes. Reformuler sans préfixe éditorial pour conserver l'impact."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que la vidéo apporte toute sa valeur avant le CTA et construit un vivier de prospects par la confiance, sans rétention d'information, peur artificielle, surpromesse ni pression commerciale.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "fluidite_orale": {
+      "label": "Lit le texte à voix haute mentalement et bloque toute formulation télégraphique, ponctuation cassante, répétition, liaison difficile ou enchaînement susceptible de produire une diction artificielle. Chaque phrase doit répondre à la précédente ou en reprendre naturellement l'idée, puis préparer la suivante, sans effet de liste.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La tournure « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. » contient un préfixe non naturel qui risque de couper la diction et d'entraîner une lecture télégraphique. Remplacer par une phrase fluide, par ex. « En pratique, la part qui compte est celle inscrite dans l’acte notarié. »"
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": false,
+      "score": 7.0,
+      "words": 127,
+      "seconds": 51.6,
+      "errors": [
+        "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle"
+      ],
+      "warnings": [
+        "Durée indicative 51.6 s hors cible 60–65 s à 160 mots/minute et 4 s de pauses : lecture chronométrée nécessaire",
+        "Formulation absolue à vérifier dans son contexte"
+      ]
+    },
+    "performance": {
+      "overall": 8.1,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée indicative à confirmer à la lecture": 7.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 0.0,
+        "Conclusion utile": 10.0,
+        "Sécurité éditoriale": 8
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": false,
+        "score": 7.0,
+        "words": 127,
+        "seconds": 51.6,
+        "errors": [
+          "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle"
+        ],
+        "warnings": [
+          "Durée indicative 51.6 s hors cible 60–65 s à 160 mots/minute et 4 s de pauses : lecture chronométrée nécessaire",
+          "Formulation absolue à vérifier dans son contexte"
+        ]
+      },
+      "ready": false
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "shorts",
+      "source_hash": "f44240b73bd6e7389bef23c71c8672c63179c7e951aabd8391be716a4db0f537",
+      "adapted_hash": "f44240b73bd6e7389bef23c71c8672c63179c7e951aabd8391be716a4db0f537",
+      "source_beats": 6,
+      "adapted_pages": 6,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 36,
+      "cta_normalized": false,
+      "warnings": []
+    }
+  },
+  "errors": [
+    "Pédagogie grand public : aucun exemple ou passage concret n'aide à retenir la règle",
+    "editorial : La narration contient une amorce de type fabrication/structure éditoriale: phrase exacte « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Les règles interdisent les libellés de fabrication (par ex. « Court : », « Règle : ») dans la narration.",
+    "contre_verification_finale : Seconde lecture identifie la même libellé problématique dans la narration: « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. ». Ce marquage éditorial doit être retiré ou reformulé en phrase naturelle pour être conforme.",
+    "impact_dynamique : Le hook est correct mais la phrase immédiatement suivante utilise le libellé « Court et clair : », ce qui transforme l'enchaînement en marqueur éditorial et affaiblit l'effet de rupture/valeur attendu dans les 2 premières secondes. Reformuler sans préfixe éditorial pour conserver l'impact.",
+    "fluidite_orale : La tournure « Court et clair : c’est la part inscrite dans l’acte notarié qui fait foi. » contient un préfixe non naturel qui risque de couper la diction et d'entraîner une lecture télégraphique. Remplacer par une phrase fluide, par ex. « En pratique, la part qui compte est celle inscrite dans l’acte notarié. »",
+    "Performance plateforme : 8.1/10, seuil 10.0/10"
+  ],
+  "recommendations": [
+    "Durée indicative 51.6 s hors cible 60–65 s à 160 mots/minute et 4 s de pauses : lecture chronométrée nécessaire",
+    "Formulation absolue à vérifier dans son contexte"
+  ],
+  "reviewed_at": "2026-09-20T23:16:26",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-09-10:shorts:immobilier_achat_couple_non_marie:1",
+  "script_path": "scripts/immobilier/immobilier_achat_couple_non_marie__shorts__a1__v18.md"
+}

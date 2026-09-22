@@ -1,0 +1,31 @@
+# Remplir le formulaire 2086
+**Plateforme** : Instagram Reels  
+**Durée estimée** : 38 s
+
+| # | Beat | Narration | Visuel | Texte écran |
+|---|------|-----------|--------|-------------|
+| 1 | hook | Vous avez vendu des crypto en euros ? | Personne regardant écran de portefeuille, pictogramme euro | Vous avez vendu des crypto en euros ? |
+| 2 | question | OUI ou NON. | Carte question centrale avec deux cases | OUI  NON |
+| 3 | reponse | Oui si la cession a été faite contre une monnaie ayant cours légal. | Icône euro + flèche sortie portefeuille | Oui si cession contre monnaie ayant cours légal |
+| 4 | regle | Chaque cession se détaille ligne par ligne sur le formulaire 2086 en calculant la part du prix de cession dans la valeur globale du portefeuille. | Schéma 2086 avec colonnes valeur/achat/part proportionnelle | Chaque cession = 1 ligne sur 2086 |
+| 5 | exemple | Exemple : vente de 2 000 euros d'actifs, gain 40 euros — à déclarer, car le seuil de 305 euros porte sur le montant total des cessions. | Facture fictive 2 000 € → +40 €, pictogramme alerte seuil | Vente 2 000 € — gain 40 € → à déclarer (seuil 305 €) |
+| 6 | nuance | N'oubliez pas : tout compte détenu à l'étranger se déclare séparément, sinon amende par compte et par an. | Carte compte étranger + pictogramme amende | Compte à l'étranger = déclaration séparée, amende possible |
+| 7 | cta | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. | Bouton calendrier centré, pictogramme calendrier | Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio. |
+
+## Narration continue
+Vous avez vendu des crypto en euros ? OUI ou NON. Oui si la cession a été faite contre une monnaie ayant cours légal. Chaque cession se détaille ligne par ligne sur le formulaire 2086 en calculant la part du prix de cession dans la valeur globale du portefeuille. Exemple : vente de 2 000 euros d'actifs, gain 40 euros — à déclarer, car le seuil de 305 euros porte sur le montant total des cessions. N'oubliez pas : tout compte détenu à l'étranger se déclare séparément, sinon amende par compte et par an. Vous souhaitez faire le point sur votre situation ? Prenez rendez-vous via le lien dans ma bio.
+
+## Légende
+Explication pédagogique sur la déclaration des cessions d'actifs numériques via le formulaire 2086. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.
+
+## Hashtags
+#fiscalité #crypto #déclaration #2086 #impôts #cryptoactifs
+
+## Sources
+- Code général des impôts, article 150 VH bis  
+- Code général des impôts, article 1649 bis C  
+- Code général des impôts, article 1736, X  
+- BOFiP : BOI-RPPM-PVBMC-30 — https://bofip.impots.gouv.fr/doctrine/BOI-RPPM-PVBMC-30
+
+## Mention
+Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé, ni une recommandation d'investissement.

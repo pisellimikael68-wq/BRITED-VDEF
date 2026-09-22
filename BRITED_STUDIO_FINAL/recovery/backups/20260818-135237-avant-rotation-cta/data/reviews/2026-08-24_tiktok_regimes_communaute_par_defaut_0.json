@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "threshold": 9.5,
+  "overall": 10.0,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 9.5,
+      "words": 108,
+      "seconds": 40.0,
+      "errors": [],
+      "warnings": [
+        "Aucun exemple concret ou chiffré détecté"
+      ]
+    },
+    "performance": {
+      "overall": 9.5,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 6.0,
+        "Clarté": 9.8,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "tiktok",
+      "audit": {
+        "ok": true,
+        "score": 9.5,
+        "words": 108,
+        "seconds": 40.0,
+        "errors": [],
+        "warnings": [
+          "Aucun exemple concret ou chiffré détecté"
+        ]
+      },
+      "ready": true
+    },
+    "format_adaptation": {
+      "passed": true,
+      "platform": "tiktok",
+      "source_hash": "e7f355ed3f56863d16020f34a36c6fa6f8317fc086348fbebb796aea86c0080f",
+      "adapted_hash": "e7f355ed3f56863d16020f34a36c6fa6f8317fc086348fbebb796aea86c0080f",
+      "source_beats": 9,
+      "adapted_pages": 9,
+      "splits": 0,
+      "exact_text_preserved": true,
+      "minimum_font_size": 38,
+      "warnings": []
+    }
+  },
+  "errors": [],
+  "recommendations": [
+    "Aucun exemple concret ou chiffré détecté",
+    "Ajouter en texte écran (ou court insert) la référence explicite à l'article 1400 lors de l'annonce «communauté réduite aux acquêts» pour renforcer la traçabilité source sans alourdir la narration.",
+    "Éviter l'expression «actif commun est partagé 50/50» isolée si l'on craint une lecture trompeuse : préférer «en principe partagé par moitié lors de la liquidation, après prise en compte du passif et des comptes entre époux» (peut rester en voix off ou texte écran selon rythme)."
+  ],
+  "reviewed_at": "2026-08-17T16:31:26",
+  "model": "gpt-5-mini",
+  "publication_id": "2026-08-24:tiktok:regimes_communaute_par_defaut:0",
+  "script_path": "scripts/regimes_matrimoniaux/regimes_communaute_par_defaut__tiktok__a1__v6.md"
+}

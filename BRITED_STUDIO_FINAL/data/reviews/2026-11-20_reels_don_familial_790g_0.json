@@ -1,0 +1,193 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 8.85,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script respecte les faits et chiffres de la fiche BRITED mais n'intègre pas explicitement la source normative (CGI art. 790 G) à l'écran ni dans la narration — la mention 'article 790 G' apparaît mais sans référence légale complète ou rappel que la réglementation et la doctrine (BOFiP) sont les sources. Localisation : Beat 4 (texte écran et narration)."
+      ]
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu indique correctement les conditions (31 865 €, <80 ans, majeur, 15 ans). Cependant il manque la précision sur la nécessité de déclarer le don (formulaire 2735) pour que l'exonération soit acquise — la déclaration est mentionnée au Beat 5 et 6 mais il faut préciser que sans déclaration l'exonération n'est pas acquise (mention critique de la fiche). Localisation : Beat 5 et 6 (nuance à renforcer)."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Un point important de la fiche n'est pas rappelé clairement : le dispositif ne couvre que les sommes d'argent (chèque, virement, espèces) et non d'autres biens. Le script risque d'être interprété trop globalement. Localisation : omission générale (devrait figurer après la règle, p.ex. Beat 4 ou 5).",
+        "L'erreur fréquente 'ne pas déclarer le don' est mentionnée dans la fiche mais la formulation du script ne stipule pas explicitement que la déclaration date le point de départ des quinze ans."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le format Reel (38 s) est respecté en durée estimée, mais la narration telle que présentée peut être dense à tenir en 38s avec les visuels proposés. Localisation : durée/rythme général — prévoir micro-pausés entre beats 3→4 et 5→6.",
+        "Le CTA 'lien dans ma bio' est conforme aux usages Instagram mais la mention 'Prenez rendez-vous' pourrait être perçue comme un conseil personnalisé si elle n'est pas accompagnée du disclaimer déjà présent en légende."
+      ]
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Hook efficace mais la question 'Peut-on lui donner 31 865 € ? - OUI / NON' puis réponse 'Oui.' est très binaire ; il faudrait ajouter une micro-nuance orale immédiate ('Oui, sous conditions') pour éviter toute impression de promesse absolue. Localisation : Beats 1-3 narration.",
+        "Phrase 'un couple de moins de 80 ans peut transmettre 263 730 € à un enfant en une seule fois' est forte et mémorisable mais gagnerait à être articulée comme 'sans droits de mutation' pour rester factuelle (actuellement la formulation peut laisser penser à une exemption générale hors conditions de déclaration). Localisation : Beat 5 texte écran/narration."
+      ]
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le disclaimer en légende est correct, mais la vidéo elle‑même contient un CTA invitant à prendre rendez-vous — il faudrait s'assurer que la phrase orale ne constitue pas un conseil personnalisé. Localisation : Beat 7 narration/CTA.",
+        "La fiche indique explicitement 'Ne pas conseiller de remettre des espèces sans déclaration' ; le script illustre 'virement' mais la mention 'en argent' peut être interprétée comme autorisant remise d'espèces — préciser 'par virement ou chèque, avec déclaration' évitera tout risque."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Quelques formulations pourraient être plus naturelles et précises pour la diction : par exemple remplacer 'L'article 790 G exonère jusqu'à 31 865 € les dons en argent par donateur et par donataire tous les quinze ans' par 'L'article 790‑G exonère, tous les 15 ans, les dons en argent jusqu'à 31 865 € par donateur et par bénéficiaire.' Localisation : Beat 4 narration.",
+        "La phrase finale du script 'Précision : déclaration dans le mois qui suit le don.' sonne abrupt — proposer 'À noter : il faut déclarer le don au fisc dans le mois qui suit pour bénéficier de l'exonération.' Localisation : Beat 6."
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Cohérence question/réponse vérifiée mais quelques éléments manquent de mot‑à‑mot exactitude par rapport à la fiche : la déclaration est via formulaire 2735 (correctement cité) mais l'énoncé ne précise pas explicitement que la date de la déclaration fixe le point de départ des 15 ans. Localisation : Beats 5–6."
+      ]
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Certaines correspondances pictogramme/énoncé sont vagues : 'pictogramme majeur' n'est pas un symbole évident — il faudrait prévoir un pictogramme clair (carte d'identité, icône âge 18+) pour éviter l'ambiguïté. Localisation : Beat 4 visuel.",
+        "Le pictogramme 'article' doit évoquer une source juridique (par ex. balance ou texte de loi) plutôt qu'un symbole générique pour renforcer la crédibilité. Localisation : Beat 4 visuel."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La vidéo traite bien un seul angle mais omet la restriction explicite sur les biens (uniquement sommes d'argent). Cette omission réduit la complétude pédagogique pour un non-spécialiste. Localisation : après Beat 4 (règle) il faut ajouter la limitation aux sommes d'argent."
+      ]
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script est globalement compréhensible pour un non-spécialiste mais quelques termes juridiques ('donataire', 'exonère') pourraient être remplacés ou doublés par des synonymes plus courants ('bénéficiaire', 'sans droits à payer'). Localisation : Beat 4 narration et texte écran.",
+        "L'exemple chiffré est utile ; il conviendrait de préciser brièvement que le calcul combine abattement 100 000 € + 31 865 € par parent, pour éviter que le public n'ait à le recalculer mentalement. Localisation : Beat 5."
+      ]
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Les deux premières secondes sont fortes (hook) mais la répétition 'Peut-on lui donner 31 865 € ? - OUI / NON' puis 'Oui.' risque de perdre une fraction de seconde. Recommander une micro-nouvelle immédiate 'Oui, mais sous conditions' pour maintenir curiosité et éviter surpromesse. Localisation : Beats 1–3.",
+        "Rythme à serrer pour tenir 38s ; prévoir coupes précises entre beats et une diction plus rapide sur la partie règles (Beat 4) pour garder attention jusqu'au CTA."
+      ]
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Contenu inspire confiance mais pour renforcer la crédibilité il faut rappeler rapidement la source en fin de vidéo ('voir sources en légende : CGI art. 790‑G, BOFiP') afin de dissiper toute impression de surpromesse commerciale. Localisation : Beat 7 / fin narration.",
+        "Le CTA 'Prenez rendez‑vous' doit être tempéré par l'affirmation 'pour un diagnostic personnalisé' afin d'éviter l'impression de conseil fiscal gratuit et direct dans la vidéo."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 100,
+      "seconds": 37.0,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "reels",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 100,
+        "seconds": 37.0,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "source : Le script respecte les faits et chiffres de la fiche BRITED mais n'intègre pas explicitement la source normative (CGI art. 790 G) à l'écran ni dans la narration — la mention 'article 790 G' apparaît mais sans référence légale complète ou rappel que la réglementation et la doctrine (BOFiP) sont les sources. Localisation : Beat 4 (texte écran et narration).",
+    "juridique_fiscal : Le contenu indique correctement les conditions (31 865 €, <80 ans, majeur, 15 ans). Cependant il manque la précision sur la nécessité de déclarer le don (formulaire 2735) pour que l'exonération soit acquise — la déclaration est mentionnée au Beat 5 et 6 mais il faut préciser que sans déclaration l'exonération n'est pas acquise (mention critique de la fiche). Localisation : Beat 5 et 6 (nuance à renforcer).",
+    "completude : Un point important de la fiche n'est pas rappelé clairement : le dispositif ne couvre que les sommes d'argent (chèque, virement, espèces) et non d'autres biens. Le script risque d'être interprété trop globalement. Localisation : omission générale (devrait figurer après la règle, p.ex. Beat 4 ou 5).",
+    "completude : L'erreur fréquente 'ne pas déclarer le don' est mentionnée dans la fiche mais la formulation du script ne stipule pas explicitement que la déclaration date le point de départ des quinze ans.",
+    "plateforme : Le format Reel (38 s) est respecté en durée estimée, mais la narration telle que présentée peut être dense à tenir en 38s avec les visuels proposés. Localisation : durée/rythme général — prévoir micro-pausés entre beats 3→4 et 5→6.",
+    "plateforme : Le CTA 'lien dans ma bio' est conforme aux usages Instagram mais la mention 'Prenez rendez-vous' pourrait être perçue comme un conseil personnalisé si elle n'est pas accompagnée du disclaimer déjà présent en légende.",
+    "editorial : Hook efficace mais la question 'Peut-on lui donner 31 865 € ? - OUI / NON' puis réponse 'Oui.' est très binaire ; il faudrait ajouter une micro-nuance orale immédiate ('Oui, sous conditions') pour éviter toute impression de promesse absolue. Localisation : Beats 1-3 narration.",
+    "editorial : Phrase 'un couple de moins de 80 ans peut transmettre 263 730 € à un enfant en une seule fois' est forte et mémorisable mais gagnerait à être articulée comme 'sans droits de mutation' pour rester factuelle (actuellement la formulation peut laisser penser à une exemption générale hors conditions de déclaration). Localisation : Beat 5 texte écran/narration.",
+    "securite : Le disclaimer en légende est correct, mais la vidéo elle‑même contient un CTA invitant à prendre rendez-vous — il faudrait s'assurer que la phrase orale ne constitue pas un conseil personnalisé. Localisation : Beat 7 narration/CTA.",
+    "securite : La fiche indique explicitement 'Ne pas conseiller de remettre des espèces sans déclaration' ; le script illustre 'virement' mais la mention 'en argent' peut être interprétée comme autorisant remise d'espèces — préciser 'par virement ou chèque, avec déclaration' évitera tout risque.",
+    "formulation_professionnelle : Quelques formulations pourraient être plus naturelles et précises pour la diction : par exemple remplacer 'L'article 790 G exonère jusqu'à 31 865 € les dons en argent par donateur et par donataire tous les quinze ans' par 'L'article 790‑G exonère, tous les 15 ans, les dons en argent jusqu'à 31 865 € par donateur et par bénéficiaire.' Localisation : Beat 4 narration.",
+    "formulation_professionnelle : La phrase finale du script 'Précision : déclaration dans le mois qui suit le don.' sonne abrupt — proposer 'À noter : il faut déclarer le don au fisc dans le mois qui suit pour bénéficier de l'exonération.' Localisation : Beat 6.",
+    "contre_verification_finale : Cohérence question/réponse vérifiée mais quelques éléments manquent de mot‑à‑mot exactitude par rapport à la fiche : la déclaration est via formulaire 2735 (correctement cité) mais l'énoncé ne précise pas explicitement que la date de la déclaration fixe le point de départ des 15 ans. Localisation : Beats 5–6.",
+    "coherence_pictogrammes : Certaines correspondances pictogramme/énoncé sont vagues : 'pictogramme majeur' n'est pas un symbole évident — il faudrait prévoir un pictogramme clair (carte d'identité, icône âge 18+) pour éviter l'ambiguïté. Localisation : Beat 4 visuel.",
+    "coherence_pictogrammes : Le pictogramme 'article' doit évoquer une source juridique (par ex. balance ou texte de loi) plutôt qu'un symbole générique pour renforcer la crédibilité. Localisation : Beat 4 visuel.",
+    "densite_editoriale : La vidéo traite bien un seul angle mais omet la restriction explicite sur les biens (uniquement sommes d'argent). Cette omission réduit la complétude pédagogique pour un non-spécialiste. Localisation : après Beat 4 (règle) il faut ajouter la limitation aux sommes d'argent.",
+    "pedagogie_client : Le script est globalement compréhensible pour un non-spécialiste mais quelques termes juridiques ('donataire', 'exonère') pourraient être remplacés ou doublés par des synonymes plus courants ('bénéficiaire', 'sans droits à payer'). Localisation : Beat 4 narration et texte écran.",
+    "pedagogie_client : L'exemple chiffré est utile ; il conviendrait de préciser brièvement que le calcul combine abattement 100 000 € + 31 865 € par parent, pour éviter que le public n'ait à le recalculer mentalement. Localisation : Beat 5.",
+    "retention_attention : Les deux premières secondes sont fortes (hook) mais la répétition 'Peut-on lui donner 31 865 € ? - OUI / NON' puis 'Oui.' risque de perdre une fraction de seconde. Recommander une micro-nouvelle immédiate 'Oui, mais sous conditions' pour maintenir curiosité et éviter surpromesse. Localisation : Beats 1–3.",
+    "retention_attention : Rythme à serrer pour tenir 38s ; prévoir coupes précises entre beats et une diction plus rapide sur la partie règles (Beat 4) pour garder attention jusqu'au CTA.",
+    "conversion_confiance : Contenu inspire confiance mais pour renforcer la crédibilité il faut rappeler rapidement la source en fin de vidéo ('voir sources en légende : CGI art. 790‑G, BOFiP') afin de dissiper toute impression de surpromesse commerciale. Localisation : Beat 7 / fin narration.",
+    "conversion_confiance : Le CTA 'Prenez rendez‑vous' doit être tempéré par l'affirmation 'pour un diagnostic personnalisé' afin d'éviter l'impression de conseil fiscal gratuit et direct dans la vidéo."
+  ],
+  "recommendations": [
+    "Ajouter immédiatement après la règle (Beat 4) une phrase concise précisant la limite du dispositif : 'Ce dispositif ne porte que sur les sommes d'argent (virement, chèque, espèces) — pas sur d'autres biens.'",
+    "Renforcer la phrase sur la déclaration : remplacer Beat 6 par 'À noter : pour bénéficier de l'exonération, le don doit être déclaré (formulaire 2735) dans le mois qui suit — la déclaration fixe le point de départ des 15 ans.'",
+    "Alléger et rendre plus naturel la formulation de Beat 4 : 'L'article 790‑G exonère, tous les 15 ans, les dons en argent jusqu'à 31 865 € par donateur et par bénéficiaire — le donateur doit avoir moins de 80 ans et le bénéficiaire être majeur.'",
+    "Préciser l'exemple chiffré (Beat 5) mot à mot : 'Exemple : chaque parent peut combiner l'abattement de 100 000 € et le don de 31 865 € — un couple de moins de 80 ans peut donc transmettre jusqu'à 263 730 € à un enfant sans droits de mutation.'",
+    "Adapter visuels/pictogrammes : remplacer 'pictogramme majeur' par icône carte d'identité/18+, utiliser un symbole texte de loi ou balance pour 'article', et illustrer 'déclaration' par le formulaire 2735 visuel.",
+    "Modifier le hook réponse pour éviter surpromesse : après 'Oui.' ajouter oralement 'Oui, sous conditions' (pause courte) puis énoncer les conditions.",
+    "Ajouter en fin de vidéo une mention orale très brève : 'Sources et détails en légende (CGI art. 790‑G, BOFiP).' pour renforcer confiance et conformité.",
+    "Tempérer le CTA en ajoutant 'pour un diagnostic personnalisé' : 'Vous souhaitez faire le point sur votre situation ? Prenez rendez‑vous pour un diagnostic personnalisé via le lien dans ma bio.'",
+    "Vérifier le timing en répétant la lecture à voix haute : s'assurer que la durée reste proche de 38 s après ajustements; si nécessaire, rallonger la durée de la vidéo de quelques secondes pour garantir clarté et respiration.",
+    "Ne pas conseiller ni montrer la remise d'espèces sans déclaration ; si espèces mentionnées, ajouter immédiatement 'avec déclaration' (mais meilleure pratique : privilégier virement/chèque)."
+  ],
+  "reviewed_at": "2026-08-24T15:39:51",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2026-11-20:reels:don_familial_790g:0",
+  "script_path": "scripts/donation/don_familial_790g__reels__a3__v8.md"
+}

@@ -1,0 +1,149 @@
+{
+  "passed": false,
+  "threshold": 10.0,
+  "overall": 9.46,
+  "agents": {
+    "source": {
+      "label": "Fidélité stricte aux faits, chiffres, dates, conditions et sources de la fiche BRITED.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "juridique_fiscal": {
+      "label": "Exactitude juridique et fiscale, limites, exceptions et absence de généralisation trompeuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le script affirme correctement que la réunion usufruit/nue-propriété n'ouvre aucun droit fiscal (CGI art.1133) et énonce les causes d'extinction (C. civ. art.617). Cependant il omet de préciser, phrase par phrase, que pour les biens immobiliers la constatation de l'extinction peut nécessiter une formalité de publicité foncière (mentionnée seulement en nuance). Cette précision juridique mérite d'apparaître plus clairement comme condition pratique, afin d'éviter l'interprétation selon laquelle aucune démarche administrative ne serait jamais requise."
+      ]
+    },
+    "completude": {
+      "label": "Réponse complète malgré la concision, exemple utile, nuance indispensable et absence d'omission dangereuse.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le contenu couvre la règle centrale, l'exception utile et un exemple chiffré, mais il n'indique pas explicitement que les droits ont été acquittés à la donation selon le barème de l'article 669 avec un rappel chiffré possible (par ex. taux usuels : 40 % à 65 ans, 30 % à 75 ans) — ces chiffres figurent dans la fiche source et aideraient à la compréhension de l'exemple."
+      ]
+    },
+    "plateforme": {
+      "label": "Respect du format natif, de l'ordre des séquences, de la durée et des usages de la plateforme.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "editorial": {
+      "label": "Accroche, clarté, fluidité, interaction, ton direct, mémorisation et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "securite": {
+      "label": "Contenu pédagogique, neutre, sourcé, sans conseil personnalisé ni affirmation non étayée.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "L'appel à rendez-vous ('Prenez rendez-vous via le lien dans ma bio') est acceptable mais doit être formulé en gardant la mention légale visible et en évitant toute promesse de résultat. Recommander d'ajouter juste après le CTA la mention déjà prévue : 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé.' pour réduire tout risque d'interprétation commerciale excessive."
+      ]
+    },
+    "formulation_professionnelle": {
+      "label": "Contrôle phrase par phrase d'un français naturel, immédiatement compréhensible, précis, crédible et adapté à une prise de rendez-vous professionnelle.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "La narration est globalement fluide mais la phrase « une nue-propriété donnée sur un appartement valué 300 000 euros et valant 500 000 euros se réunit sans taxation » gagnerait à être reformulée pour la clarté orale : par exemple 'Si vous avez donné la nue-propriété d'un appartement estimé 300 000 €, et qu'il vaut 500 000 € au décès, la réunion se fait sans taxation.'"
+      ]
+    },
+    "contre_verification_finale": {
+      "label": "Seconde lecture indépendante de l'ensemble du script : sens des phrases, enchaînements, prononciation, libellés internes, cohérence question-réponse et appel à l'action.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "coherence_pictogrammes": {
+      "label": "Contrôle page par page que le visuel décrit illustre précisément la notion prononcée, sans symbole générique, ambigu, décoratif ou sans rapport.",
+      "score": 8.0,
+      "passed": false,
+      "findings": [
+        "Plusieurs pictogrammes sont pertinents, mais l'usage d'un cercueil comme icône pour la cause 'décès' peut être perçu comme choquant dans un format court et grand public. De plus, l'icône 'mains qui se rejoignent' risque d'être interprétée comme mariage plutôt que réunion de droits. Il faut proposer des alternatives visuelles précises et non ambiguës (par ex. silhouette avec cercueil stylisé minimaliste ou silhouette + croix discrète pour décès ; icône document + clé pour consolidation/réunion)."
+      ]
+    },
+    "densite_editoriale": {
+      "label": "Vérifie que la vidéo traite un seul angle et reste concise sans perdre la règle centrale, sa condition, l'exception indispensable, l'exemple utile, les chiffres ni les sources.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "pedagogie_client": {
+      "label": "Se place comme un client potentiel non spécialiste : chaque notion doit être comprise au premier passage, sans jargon inexpliqué ni raccourci trompeur.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "retention_attention": {
+      "label": "Contrôle la force des deux premières secondes, la progression de curiosité, l'absence de longueur et l'utilité de chaque phrase jusqu'au CTA.",
+      "score": 10.0,
+      "passed": true,
+      "findings": []
+    },
+    "conversion_confiance": {
+      "label": "Vérifie que le contenu inspire sérieux, compétence et confiance sans surpromesse, pression commerciale ni affaiblissement de la valeur pédagogique.",
+      "score": 9.0,
+      "passed": false,
+      "findings": [
+        "Le ton est sérieux et crédible, mais pour renforcer la confiance sans surpromesse il serait préférable d'ajouter immédiatement après le CTA une invitation non commerciale (ex. 'pour un diagnostic personnalisé, consultez un professionnel') et de s'assurer que la mention légale reste visible pendant le CTA."
+      ]
+    }
+  },
+  "deterministic": {
+    "audit": {
+      "ok": true,
+      "score": 10.0,
+      "words": 125,
+      "seconds": 46.3,
+      "errors": [],
+      "warnings": []
+    },
+    "performance": {
+      "overall": 10.0,
+      "criteria": {
+        "Accroche immédiate": 10.0,
+        "Durée native": 10.0,
+        "Structure": 10.0,
+        "Interaction": 10.0,
+        "Exemple concret": 10.0,
+        "Clarté": 10.0,
+        "Appel à l’action": 10.0,
+        "Sécurité éditoriale": 10.0
+      },
+      "platform": "shorts",
+      "audit": {
+        "ok": true,
+        "score": 10.0,
+        "words": 125,
+        "seconds": 46.3,
+        "errors": [],
+        "warnings": []
+      },
+      "ready": true
+    }
+  },
+  "errors": [
+    "juridique_fiscal : Le script affirme correctement que la réunion usufruit/nue-propriété n'ouvre aucun droit fiscal (CGI art.1133) et énonce les causes d'extinction (C. civ. art.617). Cependant il omet de préciser, phrase par phrase, que pour les biens immobiliers la constatation de l'extinction peut nécessiter une formalité de publicité foncière (mentionnée seulement en nuance). Cette précision juridique mérite d'apparaître plus clairement comme condition pratique, afin d'éviter l'interprétation selon laquelle aucune démarche administrative ne serait jamais requise.",
+    "completude : Le contenu couvre la règle centrale, l'exception utile et un exemple chiffré, mais il n'indique pas explicitement que les droits ont été acquittés à la donation selon le barème de l'article 669 avec un rappel chiffré possible (par ex. taux usuels : 40 % à 65 ans, 30 % à 75 ans) — ces chiffres figurent dans la fiche source et aideraient à la compréhension de l'exemple.",
+    "securite : L'appel à rendez-vous ('Prenez rendez-vous via le lien dans ma bio') est acceptable mais doit être formulé en gardant la mention légale visible et en évitant toute promesse de résultat. Recommander d'ajouter juste après le CTA la mention déjà prévue : 'Contenu pédagogique général. Ne constitue ni un conseil juridique, fiscal ou financier personnalisé.' pour réduire tout risque d'interprétation commerciale excessive.",
+    "formulation_professionnelle : La narration est globalement fluide mais la phrase « une nue-propriété donnée sur un appartement valué 300 000 euros et valant 500 000 euros se réunit sans taxation » gagnerait à être reformulée pour la clarté orale : par exemple 'Si vous avez donné la nue-propriété d'un appartement estimé 300 000 €, et qu'il vaut 500 000 € au décès, la réunion se fait sans taxation.'",
+    "coherence_pictogrammes : Plusieurs pictogrammes sont pertinents, mais l'usage d'un cercueil comme icône pour la cause 'décès' peut être perçu comme choquant dans un format court et grand public. De plus, l'icône 'mains qui se rejoignent' risque d'être interprétée comme mariage plutôt que réunion de droits. Il faut proposer des alternatives visuelles précises et non ambiguës (par ex. silhouette avec cercueil stylisé minimaliste ou silhouette + croix discrète pour décès ; icône document + clé pour consolidation/réunion).",
+    "conversion_confiance : Le ton est sérieux et crédible, mais pour renforcer la confiance sans surpromesse il serait préférable d'ajouter immédiatement après le CTA une invitation non commerciale (ex. 'pour un diagnostic personnalisé, consultez un professionnel') et de s'assurer que la mention légale reste visible pendant le CTA."
+  ],
+  "recommendations": [
+    "Juridique/fiscal : ajouter une phrase claire (dans la case 'nuance' ou en voix off brève) indiquant que pour un immeuble la constatation de l'extinction peut nécessiter une formalité de publicité foncière auprès du service de la publicité foncière, même si cela n'entraîne pas de droits à payer (ex. : 'Pour un immeuble, il faudra parfois procéder à une inscription en publicité foncière pour constater l'extinction.').",
+    "Completude : intégrer brièvement le rappel chiffré du barème art. 669 (ex. 'selon le barème : ~40 % de la pleine propriété à 65 ans, ~30 % à 75 ans') dans la partie 'exemple' ou 'règle' pour lier l'exemple aux taux applicables.",
+    "Formulation professionnelle : reformuler l'exemple chiffré pour faciliter l'oralité (voir formulation suggérée dans findings).",
+    "Sécurité / Conversion : conserver et afficher immédiatement après le CTA la mention légale complète pour limiter tout risque de perception commerciale ; reformuler le CTA pour inviter à 'prendre rendez-vous pour un diagnostic personnalisé' sans promesse.",
+    "Cohérence pictogrammes : remplacer ou styliser l'icône 'cercueil' par une représentation moins choquante (silhouette + croix ou silhouette + bande grise), et remplacer 'mains qui se rejoignent' par une icône de document + clé ou deux pièces (puzzle) qui se réunissent pour illustrer la réunion des droits ; fournir ces alternatives au réalisateur visuel."
+  ],
+  "reviewed_at": "2026-08-24T15:39:57",
+  "model": "gpt-5-mini:batch",
+  "publication_id": "2027-01-31:shorts:demembrement_fin_usufruit:1",
+  "script_path": "scripts/demembrement/demembrement_fin_usufruit__shorts__a5__v3.md"
+}
